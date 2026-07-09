@@ -1,9 +1,0 @@
-{
-  "company": "tcr",
-  "display_name": "Tri Cities Remodeling",
-  "project_idx": 132,
-  "storage": {
-    "mode": "project",
-    "notes": "TCR docs + media live in the project's private AWS account. Credentials are encrypted in the integrations table for project_idx=132 (AWS_REGION / AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY / AWS_S3_MEDIA_BUCKET). The brain hydration consumer + deriveJob both flow project_idx through getS3Client(132) → integrations decryption → S3 reads with TCR's own keys."
-  }
-}
