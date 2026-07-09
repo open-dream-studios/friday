@@ -1,0 +1,66 @@
+{
+  "generation_kind": "intelligence_interview_v2",
+  "last_run_at": "2026-07-01T18:10:54.463Z",
+  "interview_status": "complete",
+  "round": 2,
+  "inputs": [
+    {
+      "path": "inputs/scope.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.txt",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.ref.json",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/3725 SIMONS 012226.pdf.txt",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/3725 SIMONS 012226.pdf.ref.json",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/scope.pdf.txt",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/scope.pdf.ref.json",
+      "sha256": "pending"
+    }
+  ],
+  "intelligence_files": [
+    {
+      "path": "intelligence/extracted/scope.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/extracted/breakdown.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/extracted/plans.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/applicable_rules.json",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/facts.md",
+      "sha256": "1b19b0ae26f470d596e51a760950e090c9bff25cc2422ce932e1912e81111179"
+    },
+    {
+      "path": "intelligence/confirmed.md",
+      "sha256": "c3f7afbccacf5a03b92e25210d7e93233fcb83d20b487f63acb772a47eed6e89"
+    },
+    {
+      "path": "intelligence/questions.md",
+      "sha256": "96bc62fce06ed2e38e48d211a8adbc9c3698f4e0ac646acc7af90d860af6fc63"
+    }
+  ]
+}

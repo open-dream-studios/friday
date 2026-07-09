@@ -1,0 +1,30 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "last_run_at": "2026-06-30T20:10:00Z",
+  "interview_status": "complete",
+  "round": 2,
+  "job_type": "addition",
+  "inputs": [
+    {"path": "inputs/scope.md", "sha256": "cd479bfac8ead63c5439c8d4f8e8fa5c0af3af616a7f95321b42774ecebd81a6"},
+    {"path": "inputs/files/Scope.pdf.txt", "sha256": "dc0f25f16699a66e0be27bb9547e854af53e59b3d9422fccd48c6f1b320e8b5f"},
+    {"path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.txt", "sha256": "c936d98fafac090e05c29bef7398fa04614394c69cf5793fb284d2147ae64d6f"},
+    {"path": "inputs/files/3725 SIMONS 012226.pdf.txt", "sha256": "728d5090fe11df16e226dcadd85c52a4e5edf9ade2e4dbcdd0771fd9e0ccae6b"}
+  ],
+  "rules": [
+    {"path": "_company/rules/dev_rules.md", "sha256": "8331f43e3b802f248cc17ff9c85853ae209951706380abcef25781d36943c1bd"},
+    {"path": "_company/rules/editor_rules.md", "sha256": "d5dbc8d722d62bc3c38779a9a3bd1788cc9678cfd3c9adb327ac4c4ce4e0e52d"},
+    {"path": "_company/rules/pep_rules.md", "sha256": "2b3016f340aa5e38bedf40c99625565b11d6830cbd22930e846a415c90d583de"},
+    {"path": "job_types/addition/rules/addition_rules.md", "sha256": "8963654062fcc8d395b4a959b4818d7e60e4cd3fe55fd72072ca193d51b9decc"},
+    {"path": "job_types/addition/rules/tdec_septic_permit_offset.md", "sha256": "4582fd1cdfbe728dce5093dc2fb4a270d44683df18384c27a3bf355d4c8128b4"},
+    {"path": "job_types/addition/beliefs/stick_frame_default_for_small_additions.md", "sha256": "13b9f66da26e8864e9cb23f9cd042378ed44a6d475cb8bb33d349d947504930a"}
+  ],
+  "intelligence_files": [
+    {"path": "intelligence/extracted/scope.md", "sha256": "4b1d6f604a892e5c9aeeb43e2eefff0c2f1410497f7bb005f90e00293ed31ed9"},
+    {"path": "intelligence/extracted/breakdown.md", "sha256": "7710579c55f0b100c42188d8e5b482976840f512a445d000c4f6d9f8ed117c9b"},
+    {"path": "intelligence/extracted/plans.md", "sha256": "9e6bf25ec8ace92382f90ba1fcaf5559cc4be9223c3e3f287311e429034b170d"},
+    {"path": "intelligence/applicable_rules.json", "sha256": "3fc5cc4c95b3c5bec3c87cd7aced9b8e79bc72e8bc10fa25bc53e884209c7504"},
+    {"path": "intelligence/facts.md", "sha256": "dba2689a0d1437717ada928e80e7257317616fb13257bf6c0ead2b01b90b6c46"},
+    {"path": "intelligence/confirmed.md", "sha256": "dd71fa7f7cc163fb74ec06d71be56e35193f6d15ad044d65da06dd6fd7be490c"},
+    {"path": "intelligence/questions.md", "sha256": "7287c0731d4ecea6c958dfac722a5357d81fe217714a392e2440aa2bfdaae84b"}
+  ]
+}

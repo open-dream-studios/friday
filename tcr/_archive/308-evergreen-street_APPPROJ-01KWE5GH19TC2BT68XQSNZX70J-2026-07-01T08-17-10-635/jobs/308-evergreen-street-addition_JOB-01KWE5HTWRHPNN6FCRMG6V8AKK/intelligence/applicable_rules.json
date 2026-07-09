@@ -1,0 +1,68 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "generated_at": "2026-07-01T06:30:00Z",
+  "layers": {
+    "company":  {"priority_rank": 100},
+    "job_type": {"priority_rank": 200},
+    "project":  {"priority_rank": 300},
+    "job":      {"priority_rank": 400}
+  },
+  "rules": [
+    {
+      "path": "_company/rules/dev_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "TaskGraph contract: emission protocol, Phase/Component/Task shape, hard structural rules 4A-4V, warnings, output examples."
+    },
+    {
+      "path": "_company/rules/editor_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "TCR domain playbook: phase spine, trade productivity, permit/procurement patterns, inspection/punch-loop, 2-trade interior cap, paint two-phase, monolithic foundation."
+    },
+    {
+      "path": "_company/rules/pep_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "PEP author contract: markdown day-by-day, lead-up windows, delivery + trade-stack callouts, whitespace discipline. Consumed by pep_v2, not this run."
+    },
+    {
+      "path": "job_types/addition/rules/addition_rules.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Addition-specific rules: TDEC septic 6wk, roof tie-in buffer, retrofit heuristic, customer early items, amperage check, LVL sub-chain, procurement_long_leads phase."
+    },
+    {
+      "path": "job_types/addition/rules/tdec_septic_permit_offset.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Hard rule: permit.tdec_septic MUST set pre_construction_offset_working_days: 30 when septic + bedroom/bath added; skip when city sewer."
+    },
+    {
+      "path": "job_types/addition/beliefs/stick_frame_default_for_small_additions.md",
+      "layer": "job_type",
+      "kind": "belief",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Default: stick-frame roof for additions <800 sqft with span <24 ft; skip procurement.trusses. Overridable by PM confirmation or explicit trusses in scope."
+    }
+  ],
+  "derived_from": [
+    {"path": "_company/rules/dev_rules.md", "sha256": "8331f43e3b802f248cc17ff9c85853ae209951706380abcef25781d36943c1bd"},
+    {"path": "_company/rules/editor_rules.md", "sha256": "d5dbc8d722d62bc3c38779a9a3bd1788cc9678cfd3c9adb327ac4c4ce4e0e52d"},
+    {"path": "_company/rules/pep_rules.md", "sha256": "2b3016f340aa5e38bedf40c99625565b11d6830cbd22930e846a415c90d583de"},
+    {"path": "job_types/addition/rules/addition_rules.md", "sha256": "8963654062fcc8d395b4a959b4818d7e60e4cd3fe55fd72072ca193d51b9decc"},
+    {"path": "job_types/addition/rules/tdec_septic_permit_offset.md", "sha256": "4582fd1cdfbe728dce5093dc2fb4a270d44683df18384c27a3bf355d4c8128b4"},
+    {"path": "job_types/addition/beliefs/stick_frame_default_for_small_additions.md", "sha256": "13b9f66da26e8864e9cb23f9cd042378ed44a6d475cb8bb33d349d947504930a"}
+  ]
+}

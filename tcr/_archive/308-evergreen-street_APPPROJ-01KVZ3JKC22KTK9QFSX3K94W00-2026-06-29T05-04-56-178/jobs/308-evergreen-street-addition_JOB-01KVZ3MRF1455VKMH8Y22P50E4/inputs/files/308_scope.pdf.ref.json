@@ -1,0 +1,21 @@
+{
+  "id": "ref_01KVZ3MSX5219VMS2CTB38G56R",
+  "kind": "ref",
+  "filename": "308_scope.pdf",
+  "mime": "application/pdf",
+  "size_bytes": 91519,
+  "s3": {
+    "bucket": "infinity-slide-03-cms-data",
+    "key": "prod/PROJ-3133159650/documents/2962c373-3c2f-44c3-bcf5-ae6f51376fe8.pdf",
+    "region": "us-east-1"
+  },
+  "db": {
+    "table": "documents",
+    "document_id": "doc_01KVZ3M60DRX3W7E7P0MY2Y2WR"
+  },
+  "app_project_id": "APPPROJ-01KVZ3JKC22KTK9QFSX3K94W00",
+  "uploaded_at": "2026-06-25 10:01:20",
+  "extracted_text": {
+    "path": "308_scope.pdf.txt"
+  }
+}

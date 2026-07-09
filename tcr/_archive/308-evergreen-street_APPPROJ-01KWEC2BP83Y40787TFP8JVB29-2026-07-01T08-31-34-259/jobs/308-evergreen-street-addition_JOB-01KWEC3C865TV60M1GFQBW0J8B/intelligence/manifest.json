@@ -1,0 +1,77 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "last_run_at": "2026-07-01T00:00:00Z",
+  "interview_status": "needs_more",
+  "round": 1,
+  "inputs": [
+    {
+      "path": "inputs/scope.md",
+      "sha256": "cd479bfac8ead63c5439c8d4f8e8fa5c0af3af616a7f95321b42774ecebd81a6"
+    },
+    {
+      "path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.txt",
+      "sha256": "c936d98fafac090e05c29bef7398fa04614394c69cf5793fb284d2147ae64d6f"
+    },
+    {
+      "path": "inputs/files/3725 SIMONS 012226.pdf.txt",
+      "sha256": "728d5090fe11df16e226dcadd85c52a4e5edf9ade2e4dbcdd0771fd9e0ccae6b"
+    },
+    {
+      "path": "inputs/files/scope.pdf.txt",
+      "sha256": "dc0f25f16699a66e0be27bb9547e854af53e59b3d9422fccd48c6f1b320e8b5f"
+    }
+  ],
+  "rules": [
+    {
+      "path": "_company/rules/dev_rules.md",
+      "sha256": "8331f43e3b802f248cc17ff9c85853ae209951706380abcef25781d36943c1bd"
+    },
+    {
+      "path": "_company/rules/editor_rules.md",
+      "sha256": "d5dbc8d722d62bc3c38779a9a3bd1788cc9678cfd3c9adb327ac4c4ce4e0e52d"
+    },
+    {
+      "path": "_company/rules/pep_rules.md",
+      "sha256": "2b3016f340aa5e38bedf40c99625565b11d6830cbd22930e846a415c90d583de"
+    },
+    {
+      "path": "job_types/addition/rules/addition_rules.md",
+      "sha256": "8963654062fcc8d395b4a959b4818d7e60e4cd3fe55fd72072ca193d51b9decc"
+    },
+    {
+      "path": "job_types/addition/rules/tdec_septic_permit_offset.md",
+      "sha256": "4582fd1cdfbe728dce5093dc2fb4a270d44683df18384c27a3bf355d4c8128b4"
+    }
+  ],
+  "interview_rounds_seen": [],
+  "intelligence_files": [
+    {
+      "path": "intelligence/extracted/scope.md",
+      "sha256": "7a2f8661d94eb4653aeba0785c2c197303fc420f9c6f45e6846a1ef2a75cfc20"
+    },
+    {
+      "path": "intelligence/extracted/breakdown.md",
+      "sha256": "a5cc1eb36ea103d212fbe1ab506713d978fc59802a5b03255be3cd26842edfef"
+    },
+    {
+      "path": "intelligence/extracted/plans.md",
+      "sha256": "16c219eeed301689207e76dcb913e93e51d46511a5e704ed11c56318e4ce9c54"
+    },
+    {
+      "path": "intelligence/applicable_rules.json",
+      "sha256": "0268b0952714b448b342592dca49b495c4cef5d0fd9ca4ed33a8a39fccec17f5"
+    },
+    {
+      "path": "intelligence/facts.md",
+      "sha256": "5f2b9ea912feee8b0fcac3d74cf74c5f7de5399db20bfdd7a65ddd9afcc19c5d"
+    },
+    {
+      "path": "intelligence/confirmed.md",
+      "sha256": "d5100aa98d80b8e73096e1ceaf52b2ef9bd8701bbc353e235c0510e221553a4c"
+    },
+    {
+      "path": "intelligence/questions.md",
+      "sha256": "76dfd2680d0f6ac7b0671a83220a6e74b32417735e795623ff7746749ad2fd52"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "last_run_at": "2026-07-01T08:38:08Z",
+  "interview_status": "needs_more",
+  "round": 1,
+  "inputs": [
+    {"path": "inputs/scope.md", "sha256": "cd479bfac8ead63c5439c8d4f8e8fa5c0af3af616a7f95321b42774ecebd81a6"},
+    {"path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.txt", "sha256": "c936d98fafac090e05c29bef7398fa04614394c69cf5793fb284d2147ae64d6f"},
+    {"path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.ref.json", "sha256": "465baa2b1743ec45b73dc3f4f01cc304aee0ed5c7cb283a41eac74db49d7eaca"},
+    {"path": "inputs/files/3725 SIMONS 012226.pdf.txt", "sha256": "728d5090fe11df16e226dcadd85c52a4e5edf9ade2e4dbcdd0771fd9e0ccae6b"},
+    {"path": "inputs/files/3725 SIMONS 012226.pdf.ref.json", "sha256": "e57bfea8421f483e296cade769f2c153c484bff4068e45f34fd28b487081c6de"},
+    {"path": "inputs/files/scope.pdf.txt", "sha256": "dc0f25f16699a66e0be27bb9547e854af53e59b3d9422fccd48c6f1b320e8b5f"},
+    {"path": "inputs/files/scope.pdf.ref.json", "sha256": "bf5814a123d67d93473af2bf25036199831c7c727cc9ed6848fc0ae0ec98e28f"}
+  ],
+  "intelligence_files": [
+    {"path": "intelligence/extracted/scope.md", "sha256": "34badff711906bad13c75bf4d189e9eb95d07065906a67f9d4ae5101b399cfd6"},
+    {"path": "intelligence/extracted/breakdown.md", "sha256": "dd067aff873ff0374e25d61d9dbbecdc28b70f21441f182a88fc86dd77e76fa3"},
+    {"path": "intelligence/extracted/plans.md", "sha256": "623321222a6da6fad91edcdfdc2ba0f3292bf081cad21466457cd1dc59bddda3"},
+    {"path": "intelligence/applicable_rules.json", "sha256": "e8be3788d71e6eeb160e1434d14db71415712b6aa8affdace13b43254bd4fe30"},
+    {"path": "intelligence/facts.md", "sha256": "45418d39c8510723766477f2fb9fb2546e90d09bbcb56b27b276c1b86ad03b57"},
+    {"path": "intelligence/confirmed.md", "sha256": "2f4186a679d640b39c0acde2299cb72fb75c82caf1698ad538b3a0dfe67acf3e"},
+    {"path": "intelligence/questions.md", "sha256": "499933711f809cfc17d8a448e2a2ec494f2d1c6bea837b43e78f31edbf4d8724"}
+  ]
+}

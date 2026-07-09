@@ -1,0 +1,26 @@
+---
+generation_kind: intelligence_interview_v2
+depends_on:
+  - _projects/308-evergreen-street_APPPROJ-01KWD0MGKWRJD1TPARY49TEJV0/jobs/308-evergreen-street-addition_JOB-01KWD0NZ8V220FX8SJQ929RKVZ/manifest.json
+  - _projects/308-evergreen-street_APPPROJ-01KWD0MGKWRJD1TPARY49TEJV0/jobs/308-evergreen-street-addition_JOB-01KWD0NZ8V220FX8SJQ929RKVZ/interview/round-1.md
+  - _projects/308-evergreen-street_APPPROJ-01KWD0MGKWRJD1TPARY49TEJV0/jobs/308-evergreen-street-addition_JOB-01KWD0NZ8V220FX8SJQ929RKVZ/interview/round-2.md
+---
+
+# Confirmed PM facts — 308 Evergreen Street addition
+
+## Round 1 (2026-06-30)
+
+- Property is on **septic**. TCR handles **TDEC permit + soil-scientist coordination** in-house. Full 42-calendar-day TDEC permit chain applies; `permit.tdec_septic` fires with `pre_construction_offset_working_days: 30` per job-type rule. *(round 1, q.septic_tdec: yes — septic; TCR handles TDEC + soil-scientist coordination)*
+- **No customer-early items.** Hall-bath acrylic-shower swap stays inside main interior_finishes (consolidated `hall_bath_mod` Component), NOT in `site_prep/customer_early_items`. Rule 4V two-bucket pattern does NOT fire for this job. *(round 1, q.customer_early_items: no — not in scope unless customer explicitly asks; don't volunteer)*
+- Roof framing = **stick-frame**. Confirms job-type belief default. **Skip `procurement.trusses`.** Lumber package collapses into framing-phase just-in-time order. *(round 1, q.roof_framing: stick-frame — tie-in flexibility on a small gable beats prefab)*
+- Existing main electrical service amperage **NOT verified**. Fire `prep.amperage_check` in pre_construction (0.5d, general, ~3 weeks before on-site start). Verification needs **electrician site walk + utility coordination**. Service-upgrade-CO contingency stays on the risk register until verified. *(round 1, q.electrical_service_amperage: not verified — site walk + utility coordination required)*
+- LVL beam **bears floor/roof load above** (NOT independent retrofit). Gates: `framing.floor_system` SS-after-FF or FS-after-FF of `structural.install_lvl`. **Engineer-stamped sizing required** before LVL can be procured or installed — engineering is a new pre-construction predecessor (lead-time pending, see round-2 follow-up). *(round 1, q.lvl_load_bearing: bears load — 15'-6" span carries floor/roof; engineer-stamped sizing required)*
+- Windows: **mixed order**. (3) 36"×60" DH + (1) exterior door = **stock**, 21d lead via `wait.windows_stock`. (1) 3'×1' transom = **semi-custom**, lead time pending (see round-2 follow-up). Likely needs a separate `wait.window_transom` sub-chain. *(round 1, q.window_order_type: stock for DH + door; semi-custom for transom)*
+- Optional **Tankless WH package = OUT** of signed base scope. Carry as optional add-on line item. **No `procurement.tank` and no `plumbing.tank_set`.** Existing gas WH stays in place — vent-extension only through new roof. CSV HVAC section material total ($5,140) is now firmly mini-split-only — earlier ambiguity over "Mini Split, Tankless WH & Relocations" line resolved. *(round 1, q.tankless_optional: out of signed base, optional add-on)*
+- **Grinder-pump = OUT.** Committing to septic path. Grinder-pump kicks in ONLY as a change order IF soil scientist rejects the perc. No parallel plumbing chain, no procurement, no additional permit. *(round 1, q.grinder_pump_direction: septic path only; grinder-pump = CO contingency)*
+
+## Round 2 (2026-06-30)
+
+- **LVL engineer-stamped sizing = supplier-bundled.** 84 Lumber / BMD provide a Forte/iLevel engineer stamp free or low-cost with the LVL order. **Lead time: 3-7 business days from spec submission.** `prep.lvl_engineering` task = 1d general (admin time, "submit spec") in pre_construction; `wait.lvl_engineering` 5 working days (5d = ~7 business days, conservative); FS predecessor of `procurement.lvl_beam` (14d). Engineering does NOT become a 10-14d standalone bottleneck — supplier stamp is fast enough that LVL procurement chain stays at 14d critical lead. *(round 2, q.lvl_engineering: supplier-bundled stamp via Forte/iLevel from 84 Lumber/BMD, 3-7 business days)*
+- **Transom lead = 6 weeks budgeted (~42 calendar days).** Semi-custom 3'×1' transom via Andersen/Pella/MI stocking distributor. **Best case 2-3 weeks if regional stock; budget 6 weeks to be safe.** `wait.window_transom.lead_time_days = 42` (conservative). Transom lead **EXCEEDS** the 21-day DH stock lead, making the transom the binding constraint on `windows.install`. Stock DHs arrive first; install task waits for the transom. *(round 2, q.transom_semi_custom_lead: 4-6 weeks via stocking distributor; 6 weeks safe; transom = binding constraint)*
+- **Soil scientist NOT engaged — TCR to book.** East TN TDEC-licensed soil scientists typically **2-3 weeks (~14-21 days) to first available perc test**. New `permit.soil_scientist_perc` predecessor fires in pre_construction, anchors UPSTREAM of TDEC submission. The 42-day TDEC chain effectively shifts ~14-21 days deeper into pre-con (perc-test completion → TDEC submission → 42d permit). Combined with `pre_construction_offset_working_days: 30` on `permit.tdec_septic`, the soil-scientist booking is the new earliest-start-date anchor. *(round 2, q.soil_scientist: TCR to book; 14-21d to first available perc test; new pre-con predecessor)*

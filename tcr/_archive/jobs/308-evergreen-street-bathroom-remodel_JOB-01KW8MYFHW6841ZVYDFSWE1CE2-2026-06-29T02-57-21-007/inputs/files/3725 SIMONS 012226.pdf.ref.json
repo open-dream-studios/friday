@@ -1,0 +1,21 @@
+{
+  "id": "ref_01KW8MYGFBXQ9PYZEKPPPRVW77",
+  "kind": "ref",
+  "filename": "3725 SIMONS 012226.pdf",
+  "mime": "application/pdf",
+  "size_bytes": 761097,
+  "s3": {
+    "bucket": "dev-cms-project-media",
+    "key": "prod/PROJ-3133159650/documents/f9dcd2ae-75c4-4d44-a24d-420ec44d4a62.pdf",
+    "region": "us-east-1"
+  },
+  "db": {
+    "table": "documents",
+    "document_id": "doc_01KW8F7DN119GRC14TAH7YKH7G"
+  },
+  "app_project_id": "APPPROJ-01KW8EVMTWE7HBMDBDYSHGZJHQ",
+  "uploaded_at": "2026-06-29 01:17:19",
+  "extracted_text": {
+    "path": "3725 SIMONS 012226.pdf.txt"
+  }
+}

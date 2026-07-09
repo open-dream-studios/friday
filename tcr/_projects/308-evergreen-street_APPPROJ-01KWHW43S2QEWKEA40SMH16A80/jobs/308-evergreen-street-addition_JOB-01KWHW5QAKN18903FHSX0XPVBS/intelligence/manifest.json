@@ -1,0 +1,50 @@
+{
+  "generation_kind": "intelligence_interview_v2",
+  "last_run_at": "2026-07-02T17:13:19.069Z",
+  "interview_status": "complete",
+  "round": 2,
+  "inputs": [
+    {
+      "path": "inputs/scope.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/scope.pdf.ref.json",
+      "sha256": "pending"
+    },
+    {
+      "path": "inputs/files/scope.pdf.txt",
+      "sha256": "pending"
+    }
+  ],
+  "intelligence_files": [
+    {
+      "path": "intelligence/extracted/scope.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/extracted/breakdown.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/extracted/plans.md",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/applicable_rules.json",
+      "sha256": "pending"
+    },
+    {
+      "path": "intelligence/facts.md",
+      "sha256": "ce2eed48cfcd9e9c6b1707bf7a7df4abb85e1cac63079173de15b5545c8745fe"
+    },
+    {
+      "path": "intelligence/confirmed.md",
+      "sha256": "887ab39880434f8ce47de6e740c4cfef7e6e8d07381ec61f90751b8089b4170f"
+    },
+    {
+      "path": "intelligence/questions.md",
+      "sha256": "96bc62fce06ed2e38e48d211a8adbc9c3698f4e0ac646acc7af90d860af6fc63"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "stage": "applicable_rules",
+  "depends_on": [
+    "_projects/308-evergreen-street_APPPROJ-01KWHW43S2QEWKEA40SMH16A80/jobs/308-evergreen-street-addition_JOB-01KWHW5QAKN18903FHSX0XPVBS/manifest.json",
+    "_company/rules/dev_rules.md",
+    "_company/rules/editor_rules.md",
+    "_company/rules/pep_rules.md",
+    "_company/rules/scope_vs_csv_total_reconciliation.md",
+    "_company/rules/service_amperage_check.md",
+    "_company/beliefs/drywall_soft_schedule.md",
+    "_company/beliefs/roof_and_siding_same_crew.md",
+    "job_types/addition/rules/addition_rules.md",
+    "job_types/addition/rules/retrofit_tie_in_discovery.md",
+    "job_types/addition/rules/siding_starts_at_underlayment.md",
+    "job_types/addition/rules/tdec_septic_permit_offset.md",
+    "job_types/addition/beliefs/stick_frame_default_for_small_additions.md"
+  ],
+  "generated_at": "2026-07-02T17:00:00Z",
+  "job_type": "addition",
+  "layers": {
+    "company":  {"priority_rank": 100},
+    "job_type": {"priority_rank": 200},
+    "project":  {"priority_rank": 300},
+    "job":      {"priority_rank": 400}
+  },
+  "rules": [
+    {
+      "path": "_company/rules/dev_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "TaskGraph emission contract: shape, phase/component/task structure, hard structural rules (4A-4V) for every generation."
+    },
+    {
+      "path": "_company/rules/editor_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "TCR scheduling playbook: phase spine, crew defaults, productivity, lead times, trade dependency cheat-sheet used on every job."
+    },
+    {
+      "path": "_company/rules/pep_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "PEP author contract: markdown output, whitespace discipline, mandatory per-day checklist and lead-up window rendering."
+    },
+    {
+      "path": "_company/rules/scope_vs_csv_total_reconciliation.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "Fires during extract_breakdown: any ≥5% gap between scope total and CSV grand total MUST become an interview question and gate the round."
+    },
+    {
+      "path": "_company/rules/service_amperage_check.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "Applies here (new 100A subpanel + mini-split): require prep.amperage_check task before panel procurement and electrical rough."
+    },
+    {
+      "path": "_company/beliefs/drywall_soft_schedule.md",
+      "layer": "company",
+      "kind": "belief",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "Drywall crew treated as soft-start behind inspect.insulation; slips absorb into punch buffer, PM commits 5-7d out."
+    },
+    {
+      "path": "_company/beliefs/roof_and_siding_same_crew.md",
+      "layer": "company",
+      "kind": "belief",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "Default TCR staffing: same crew does roof + siding, so schedule prefers serial rendering unless PM flags two_crew:true."
+    },
+    {
+      "path": "job_types/addition/rules/addition_rules.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Addition-specific playbook: TDEC septic, long-lead structural, tie-in retrofits, customer early items — job_type = addition, so applies."
+    },
+    {
+      "path": "job_types/addition/rules/retrofit_tie_in_discovery.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Applies (30x10 addition ties into existing framing/roof/MEP): require framing.tie_in_discovery SS with tie-in framing."
+    },
+    {
+      "path": "job_types/addition/rules/siding_starts_at_underlayment.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Siding may start once underlayment + windows in; do NOT hard-chain siding after shingles/fascia — use can_overlap_with."
+    },
+    {
+      "path": "job_types/addition/rules/tdec_septic_permit_offset.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Applies if home is on septic (scope names TDEC inspection): permit.tdec_septic needs pre_construction_offset_working_days=30."
+    },
+    {
+      "path": "job_types/addition/beliefs/stick_frame_default_for_small_additions.md",
+      "layer": "job_type",
+      "kind": "belief",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "300 sqft addition, span <24ft: default to stick-frame roof, no procurement.trusses task unless PM confirms trusses."
+    }
+  ],
+  "derived_from": [
+    {"path": "_company/rules/dev_rules.md", "sha256": "8331f43e3b802f248cc17ff9c85853ae209951706380abcef25781d36943c1bd"},
+    {"path": "_company/rules/editor_rules.md", "sha256": "d5dbc8d722d62bc3c38779a9a3bd1788cc9678cfd3c9adb327ac4c4ce4e0e52d"},
+    {"path": "_company/rules/pep_rules.md", "sha256": "2b3016f340aa5e38bedf40c99625565b11d6830cbd22930e846a415c90d583de"},
+    {"path": "_company/rules/scope_vs_csv_total_reconciliation.md", "sha256": "e3a9d0ad6f12effe6850e941994634843c5860a6552600e43fb4158a852020b8"},
+    {"path": "_company/rules/service_amperage_check.md", "sha256": "5b4498955072c90ab9536bb5097ab8269b772135ff672f2732ade5d6788b99ba"},
+    {"path": "_company/beliefs/drywall_soft_schedule.md", "sha256": "7943832b142d5b700f6c5be2a07bf5a6bc576ac0144dff2a156e773e4f3434c4"},
+    {"path": "_company/beliefs/roof_and_siding_same_crew.md", "sha256": "6c937eb98634e9c3b98126c94278be87db859beb2806ede368a3042950aab435"},
+    {"path": "job_types/addition/rules/addition_rules.md", "sha256": "8963654062fcc8d395b4a959b4818d7e60e4cd3fe55fd72072ca193d51b9decc"},
+    {"path": "job_types/addition/rules/retrofit_tie_in_discovery.md", "sha256": "e896b958cb01a057169cc10d9dcc2f852204829da7a557a415bc61108e02c13e"},
+    {"path": "job_types/addition/rules/siding_starts_at_underlayment.md", "sha256": "0ef6d97f70783034377fc0ac79a16d1237aad11e2bc6ca0aa17b64a40cf297b4"},
+    {"path": "job_types/addition/rules/tdec_septic_permit_offset.md", "sha256": "4582fd1cdfbe728dce5093dc2fb4a270d44683df18384c27a3bf355d4c8128b4"},
+    {"path": "job_types/addition/beliefs/stick_frame_default_for_small_additions.md", "sha256": "13b9f66da26e8864e9cb23f9cd042378ed44a6d475cb8bb33d349d947504930a"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "last_run_at": "2026-07-02T15:20:00Z",
+  "interview_status": "needs_more",
+  "round": 1,
+  "inputs": [
+    {"path": "inputs/scope.md", "sha256": "pending"},
+    {"path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.ref.json", "sha256": "pending"},
+    {"path": "inputs/files/308_Evergreen_Addition.xlsx - Summary (1).csv.txt", "sha256": "pending"},
+    {"path": "inputs/files/3725 SIMONS 012226.pdf.ref.json", "sha256": "pending"},
+    {"path": "inputs/files/3725 SIMONS 012226.pdf.txt", "sha256": "pending"},
+    {"path": "inputs/files/scope.pdf.ref.json", "sha256": "pending"},
+    {"path": "inputs/files/scope.pdf.txt", "sha256": "pending"}
+  ],
+  "intelligence_files": [
+    {"path": "intelligence/extracted/scope.md", "sha256": "pending"},
+    {"path": "intelligence/extracted/breakdown.md", "sha256": "pending"},
+    {"path": "intelligence/extracted/plans.md", "sha256": "pending"},
+    {"path": "intelligence/applicable_rules.json", "sha256": "pending"},
+    {"path": "intelligence/facts.md", "sha256": "pending"},
+    {"path": "intelligence/confirmed.md", "sha256": "pending"},
+    {"path": "intelligence/questions.md", "sha256": "pending"}
+  ]
+}

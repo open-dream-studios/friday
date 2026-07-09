@@ -1,0 +1,33 @@
+# OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor litter
+.vscode/
+.idea/
+
+# Binary blobs — pointers (*.ref.json) + extracted text (*.txt) are
+# committed; the raw binaries fetched on demand are not. The harness
+# downloads them to a cache OUTSIDE this tree, but if anyone ever
+# downloads one into a per-job files/ folder by accident, these patterns
+# keep it out of git.
+#
+# Whitelist .ref.json and .txt; ignore everything else in files/ folders.
+_projects/**/inputs/files/*
+!_projects/**/inputs/files/*.ref.json
+!_projects/**/inputs/files/*.txt
+!_projects/**/inputs/files/.gitkeep
+
+# Conversation tokens — per-job session id. Kept local, never committed.
+# If we ever decide to commit it for resumability across machines, drop
+# this line.
+_projects/**/jobs/**/conversation.id
+
+# Temp / cache directories the harness may create
+.cache/
+tmp/
+
+# Node modules in case any tooling lands here
+node_modules/

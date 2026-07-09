@@ -1,0 +1,15 @@
+{
+  "job_id": "JOB-01KWBDBJNX05NWRFYV6J0XS4HS",
+  "db_job_id": "JOB-01KWBDBJNX05NWRFYV6J0XS4HS",
+  "job_type": "addition",
+  "project_id": "APPPROJ-01KWBDAF3B1P5WWKCAQGCMZ0H6",
+  "project_slug": "308-evergreen-street",
+  "customer": "308 Evergreen Street",
+  "status": "in_progress",
+  "started_at": "2026-06-30T04:42:18.408Z",
+  "completed_at": null,
+  "summary": "308 Evergreen Street — addition",
+  "tags": [
+    "addition"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ref_01KVZ1A9JKMYVQYM8KMKN29DWE",
+  "kind": "ref",
+  "filename": "scope.pdf",
+  "mime": "application/pdf",
+  "size_bytes": 91515,
+  "s3": {
+    "bucket": "dev-cms-project-media",
+    "key": "prod/PROJ-3133159650/documents/3b381bea-7af9-49c5-95af-22b1a2dbd453.pdf",
+    "region": "us-east-1"
+  },
+  "db": {
+    "table": "documents",
+    "document_id": "doc_01KVZ19BV21F3YY3FZVF2BXABS"
+  },
+  "app_project_id": "APPPROJ-01KVZ18F85XHB31T5ZMWB74ABB",
+  "uploaded_at": "2026-06-25 09:20:29",
+  "extracted_text": {
+    "path": "scope.pdf.txt"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "generation_kind": "intelligence_rebuild_v2",
+  "generated_at": "2026-06-30T09:30:00Z",
+  "job_type": "addition",
+  "layers": {
+    "company":  {"priority_rank": 100},
+    "job_type": {"priority_rank": 200},
+    "project":  {"priority_rank": 300},
+    "job":      {"priority_rank": 400}
+  },
+  "rules": [
+    {
+      "path": "_company/rules/dev_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "TaskGraph contract: phase/component/task structure, FS/SS/FF lag rules, validation, mandatory warnings, OUTPUT EXAMPLES A-L"
+    },
+    {
+      "path": "_company/rules/editor_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "TCR scheduling playbook: phase spine, crew sizes, lead times, bundled inspections, 2-trades-max, paint two-phase, monolithic foundation"
+    },
+    {
+      "path": "_company/rules/pep_rules.md",
+      "layer": "company",
+      "kind": "rule",
+      "applies_to": [],
+      "priority_rank": 100,
+      "one_line_why": "PEP author contract: whitespace, day-by-day discipline, lead-up Preparing bullets, delivery + trade-stack callouts"
+    },
+    {
+      "path": "job_types/addition/rules/addition_rules.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "Addition layer: TDEC septic 6wk lead, trusses conditional, windows install after roof framed, MEPs gated on underlayment+windows not dried-in, retrofit detection, customer early items, LVL retrofit chain, amperage check"
+    },
+    {
+      "path": "job_types/addition/rules/tdec_septic_permit_offset.md",
+      "layer": "job_type",
+      "kind": "rule",
+      "applies_to": ["addition"],
+      "priority_rank": 200,
+      "one_line_why": "permit.tdec_septic MUST have pre_construction_offset_working_days: 30 — only applies if home on septic + bedroom/bath added"
+    }
+  ],
+  "derived_from": [
+    {"path": "_company/rules/dev_rules.md", "sha256": "8331f43e3b802f248cc17ff9c85853ae209951706380abcef25781d36943c1bd"},
+    {"path": "_company/rules/editor_rules.md", "sha256": "d5dbc8d722d62bc3c38779a9a3bd1788cc9678cfd3c9adb327ac4c4ce4e0e52d"},
+    {"path": "_company/rules/pep_rules.md", "sha256": "2b3016f340aa5e38bedf40c99625565b11d6830cbd22930e846a415c90d583de"},
+    {"path": "job_types/addition/rules/addition_rules.md", "sha256": "8963654062fcc8d395b4a959b4818d7e60e4cd3fe55fd72072ca193d51b9decc"},
+    {"path": "job_types/addition/rules/tdec_septic_permit_offset.md", "sha256": "4582fd1cdfbe728dce5093dc2fb4a270d44683df18384c27a3bf355d4c8128b4"}
+  ],
+  "notes": [
+    "No _company/beliefs/*.md candidates merged — only README.md present (no rule body).",
+    "No project-level rules (_projects/308-evergreen-street_APPPROJ-01KWBXP28R0M3VYB6NXFZMY9V0/rules/) exist.",
+    "No job-level rules under the job folder exist.",
+    "Higher priority_rank wins on conflict; job_type addition rules (200) override company defaults (100) for addition-specific sequencing (windows install, MEP gating, TDEC offset)."
+  ]
+}

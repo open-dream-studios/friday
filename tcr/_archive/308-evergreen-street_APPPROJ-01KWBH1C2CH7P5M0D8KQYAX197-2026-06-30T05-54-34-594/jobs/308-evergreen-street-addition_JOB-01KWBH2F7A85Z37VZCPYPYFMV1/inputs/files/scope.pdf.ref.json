@@ -1,0 +1,21 @@
+{
+  "id": "ref_01KWBH2G7VRPJPNNSK5TC6C5AS",
+  "kind": "ref",
+  "filename": "scope.pdf",
+  "mime": "application/pdf",
+  "size_bytes": 91515,
+  "s3": {
+    "bucket": "infinity-slide-03-cms-data",
+    "key": "prod/PROJ-3133159650/documents/016c9828-7c96-4dfe-a3f3-d8333ae6f840.pdf",
+    "region": "us-east-1"
+  },
+  "db": {
+    "table": "documents",
+    "document_id": "doc_01KWBH1S410N3KTW7FK4TBMRS1"
+  },
+  "app_project_id": "APPPROJ-01KWBH1C2CH7P5M0D8KQYAX197",
+  "uploaded_at": "2026-06-30 05:46:50",
+  "extracted_text": {
+    "path": "scope.pdf.txt"
+  }
+}

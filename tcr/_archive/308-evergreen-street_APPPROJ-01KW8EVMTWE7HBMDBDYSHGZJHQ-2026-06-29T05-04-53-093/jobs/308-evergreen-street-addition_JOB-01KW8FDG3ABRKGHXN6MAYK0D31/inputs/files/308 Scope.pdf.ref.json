@@ -1,0 +1,21 @@
+{
+  "id": "ref_01KW8MYGFAAEEFPWKBJYS10EFD",
+  "kind": "ref",
+  "filename": "308 Scope.pdf",
+  "mime": "application/pdf",
+  "size_bytes": 91519,
+  "s3": {
+    "bucket": "dev-cms-project-media",
+    "key": "prod/PROJ-3133159650/documents/1545a2e6-e008-48ea-8329-96e3a6ff6934.pdf",
+    "region": "us-east-1"
+  },
+  "db": {
+    "table": "documents",
+    "document_id": "doc_01KW8EYY6Z1ZKPQN0X5H7ZPHZ1"
+  },
+  "app_project_id": "APPPROJ-01KW8EVMTWE7HBMDBDYSHGZJHQ",
+  "uploaded_at": "2026-06-29 01:12:37",
+  "extracted_text": {
+    "path": "308 Scope.pdf.txt"
+  }
+}

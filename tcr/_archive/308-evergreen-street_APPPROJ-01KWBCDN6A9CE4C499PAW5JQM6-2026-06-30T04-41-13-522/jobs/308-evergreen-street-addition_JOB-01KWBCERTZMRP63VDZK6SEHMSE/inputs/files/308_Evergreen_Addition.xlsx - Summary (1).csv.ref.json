@@ -1,0 +1,21 @@
+{
+  "id": "ref_01KWBCESTSZE0ABA41JSB9ZCZW",
+  "kind": "ref",
+  "filename": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+  "mime": "text/csv",
+  "size_bytes": 2251,
+  "s3": {
+    "bucket": "infinity-slide-03-cms-data",
+    "key": "prod/PROJ-3133159650/documents/8c2734d5-8dbf-4f11-8063-ce144649f9d7.csv",
+    "region": "us-east-1"
+  },
+  "db": {
+    "table": "documents",
+    "document_id": "doc_01KWBCEEZV09NV84243G2MWGWD"
+  },
+  "app_project_id": "APPPROJ-01KWBCDN6A9CE4C499PAW5JQM6",
+  "uploaded_at": "2026-06-30 04:26:24",
+  "extracted_text": {
+    "path": "308_Evergreen_Addition.xlsx - Summary (1).csv.txt"
+  }
+}

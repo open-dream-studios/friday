@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "tenant": "tcr",
+  "refreshed_at": "2026-07-09T14:04:06.411Z",
+  "stats": {
+    "node_count": 10,
+    "edge_count": 4,
+    "nodes_by_kind": {
+      "rule": 5,
+      "belief": 3,
+      "pattern": 0,
+      "source_doc": 2,
+      "run": 0
+    },
+    "edges_by_kind": {
+      "supports": 4,
+      "contradicts": 0,
+      "supersedes": 0
+    }
+  },
+  "nodes": [
+    {
+      "id": "belief:drywall_soft_schedule",
+      "kind": "belief",
+      "file_path": "tcr/_company/beliefs/drywall_soft_schedule.md",
+      "scope": "company"
+    },
+    {
+      "id": "belief:roof_and_siding_same_crew",
+      "kind": "belief",
+      "file_path": "tcr/_company/beliefs/roof_and_siding_same_crew.md",
+      "scope": "company"
+    },
+    {
+      "id": "rule:scope_vs_csv_total_reconciliation",
+      "kind": "rule",
+      "title": "Scope-total vs CSV-total mismatch ≥5% must surface as an interview question",
+      "file_path": "tcr/_company/rules/scope_vs_csv_total_reconciliation.md",
+      "scope": "company"
+    },
+    {
+      "id": "rule:service_amperage_check",
+      "kind": "rule",
+      "title": "Service amperage must be verified before electrical rough",
+      "file_path": "tcr/_company/rules/service_amperage_check.md",
+      "scope": "company"
+    },
+    {
+      "id": "belief:stick_frame_default_for_small_additions",
+      "kind": "belief",
+      "file_path": "tcr/job_types/addition/beliefs/stick_frame_default_for_small_additions.md",
+      "scope": "job_type"
+    },
+    {
+      "id": "rule:retrofit_tie_in_discovery",
+      "kind": "rule",
+      "title": "Retrofit additions require a framing tie-in discovery buffer",
+      "file_path": "tcr/job_types/addition/rules/retrofit_tie_in_discovery.md",
+      "scope": "job_type"
+    },
+    {
+      "id": "rule:siding_starts_at_underlayment",
+      "kind": "rule",
+      "title": "Siding can start when underlayment is on (parallel with roofing finish)",
+      "file_path": "tcr/job_types/addition/rules/siding_starts_at_underlayment.md",
+      "scope": "job_type"
+    },
+    {
+      "id": "rule:tdec_septic_permit_offset",
+      "kind": "rule",
+      "title": "TDEC septic permit must be anchored at start of pre-construction",
+      "file_path": "tcr/job_types/addition/rules/tdec_septic_permit_offset.md",
+      "scope": "job_type"
+    },
+    {
+      "id": "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md",
+      "kind": "source_doc",
+      "title": "308_evergreen_wills_audit_transcript.md",
+      "file_path": "_company/knowledge/308_evergreen_wills_audit_transcript.md"
+    },
+    {
+      "id": "source_doc:_company/knowledge/_examples/wills_voice.md",
+      "kind": "source_doc",
+      "title": "wills_voice.md",
+      "file_path": "_company/knowledge/_examples/wills_voice.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "belief:drywall_soft_schedule",
+      "to": "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md",
+      "kind": "supports"
+    },
+    {
+      "from": "belief:roof_and_siding_same_crew",
+      "to": "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md",
+      "kind": "supports"
+    },
+    {
+      "from": "belief:stick_frame_default_for_small_additions",
+      "to": "source_doc:_company/knowledge/_examples/wills_voice.md",
+      "kind": "supports"
+    },
+    {
+      "from": "belief:stick_frame_default_for_small_additions",
+      "to": "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md",
+      "kind": "supports"
+    }
+  ],
+  "forward": {
+    "belief:drywall_soft_schedule": {
+      "supports": [
+        "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md"
+      ]
+    },
+    "belief:roof_and_siding_same_crew": {
+      "supports": [
+        "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md"
+      ]
+    },
+    "belief:stick_frame_default_for_small_additions": {
+      "supports": [
+        "source_doc:_company/knowledge/_examples/wills_voice.md",
+        "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md"
+      ]
+    }
+  },
+  "backward": {
+    "source_doc:_company/knowledge/308_evergreen_wills_audit_transcript.md": {
+      "supports": [
+        "belief:drywall_soft_schedule",
+        "belief:roof_and_siding_same_crew",
+        "belief:stick_frame_default_for_small_additions"
+      ]
+    },
+    "source_doc:_company/knowledge/_examples/wills_voice.md": {
+      "supports": [
+        "belief:stick_frame_default_for_small_additions"
+      ]
+    }
+  }
+}
