@@ -1,0 +1,11 @@
+{
+  "s3_key": "prod/PROJ-3070432425/documents/b3ab46c5-e908-4430-8e8f-e59928dfbd8a.pdf",
+  "s3_bucket": "dev-cms-project-media",
+  "content_type": "application/pdf",
+  "size_bytes": 9892,
+  "db_table": "documents",
+  "db_row_id": "doc_01KX6A8BSTQYH03Z9BMNK1CZVX",
+  "original_name": "scope8.pdf",
+  "version": 1,
+  "uploaded_at": "2026-07-10 15:27:36"
+}
