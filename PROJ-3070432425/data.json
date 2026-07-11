@@ -3,11 +3,13 @@
   "project_idx": 136,
   "name": "Test Env",
   "short_name": "TESTING",
+  "domain": "test",
   "backend_domain": "https://tannyspaacquisitions.shop/",
   "brand": "Open Dream Studios",
+  "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
   "private_aws": false,
-  "_materialized_at": "2026-07-11T01:37:04.847Z"
+  "_materialized_at": "2026-07-11T01:47:18.040Z"
 }
