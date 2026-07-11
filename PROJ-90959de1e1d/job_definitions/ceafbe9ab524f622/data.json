@@ -1,0 +1,8 @@
+{
+  "job_definition_id": "ceafbe9ab524f622",
+  "identifier": "sale-job",
+  "type": "Sale",
+  "description": "Acquire and resell a hot tub",
+  "parent_chain": [],
+  "_materialized_at": "2026-07-11T01:37:06.022Z"
+}

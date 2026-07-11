@@ -1,0 +1,8 @@
+{
+  "job_definition_id": "644b82387191f696",
+  "identifier": "service-job",
+  "type": "Service",
+  "description": "Customer tub service job",
+  "parent_chain": [],
+  "_materialized_at": "2026-07-11T01:37:06.022Z"
+}

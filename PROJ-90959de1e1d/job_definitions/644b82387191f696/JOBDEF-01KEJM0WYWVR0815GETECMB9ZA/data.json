@@ -1,0 +1,14 @@
+{
+  "job_definition_id": "JOBDEF-01KEJM0WYWVR0815GETECMB9ZA",
+  "identifier": "tub-maintenance-service",
+  "type": "Tub Maintenance",
+  "description": "Tub Maintenance Service",
+  "parent_chain": [
+    {
+      "id": 5,
+      "job_definition_id": "644b82387191f696",
+      "identifier": "service-job"
+    }
+  ],
+  "_materialized_at": "2026-07-11T01:37:06.022Z"
+}

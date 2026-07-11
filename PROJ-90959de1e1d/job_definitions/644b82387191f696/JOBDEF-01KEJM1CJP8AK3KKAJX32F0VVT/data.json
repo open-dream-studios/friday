@@ -1,0 +1,14 @@
+{
+  "job_definition_id": "JOBDEF-01KEJM1CJP8AK3KKAJX32F0VVT",
+  "identifier": "deck-build-service",
+  "type": "Deck Build",
+  "description": "Deck Build Service",
+  "parent_chain": [
+    {
+      "id": 5,
+      "job_definition_id": "644b82387191f696",
+      "identifier": "service-job"
+    }
+  ],
+  "_materialized_at": "2026-07-11T01:37:06.022Z"
+}
