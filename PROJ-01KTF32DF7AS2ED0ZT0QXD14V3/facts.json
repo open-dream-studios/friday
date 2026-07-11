@@ -1,1 +1,147 @@
-{}
+{
+  "f_01KX97SFB7Y00JNDPYPTJEP1ST": {
+    "id": "f_01KX97SFB7Y00JNDPYPTJEP1ST",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "project_name",
+    "content": "The project is named FRIDAY with short name FRIDAY.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:name",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:short_name",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SFB7FW62JM83G94NG6JR": {
+    "id": "f_01KX97SFB7FW62JM83G94NG6JR",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "project_domain",
+    "content": "The project domain is 'friday'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:domain",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SFB7NP9NRXRMN0726YDW": {
+    "id": "f_01KX97SFB7NP9NRXRMN0726YDW",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "backend_domain",
+    "content": "The backend domain is https://dev-cms-production.up.railway.app.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:backend_domain",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SFB8GBBA8X63WRR6PD98": {
+    "id": "f_01KX97SFB8GBBA8X63WRR6PD98",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "image_compression",
+    "content": "Image compression is set to FAST.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:image_compression",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SFB8GBVV1F28PZCSY8PJ": {
+    "id": "f_01KX97SFB8GBVV1F28PZCSY8PJ",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "video_compression",
+    "content": "Video compression is set to FAST.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:video_compression",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SFB8WFBC8DB6QEXY4Q12": {
+    "id": "f_01KX97SFB8WFBC8DB6QEXY4Q12",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "av1_enabled",
+    "content": "AV1 encoding is disabled.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:av1_enabled",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SFB88A2R0ZZDPE2VZKFW": {
+    "id": "f_01KX97SFB88A2R0ZZDPE2VZKFW",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KTF32DF7AS2ED0ZT0QXD14V3"
+    },
+    "subject": "private_aws",
+    "content": "Private AWS is not enabled for this project.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:14.503Z",
+    "updated_at": "2026-07-11T18:42:14.503Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:private_aws",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  }
+}
