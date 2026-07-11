@@ -3,11 +3,13 @@
   "project_idx": 149,
   "name": "Open Dream",
   "short_name": "Dream",
+  "domain": "opendreamstudios.com",
   "backend_domain": "https://dev-cms-production.up.railway.app",
   "brand": "Open Dream",
+  "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
   "private_aws": false,
-  "_materialized_at": "2026-07-11T01:37:04.264Z"
+  "_materialized_at": "2026-07-11T01:47:17.403Z"
 }
