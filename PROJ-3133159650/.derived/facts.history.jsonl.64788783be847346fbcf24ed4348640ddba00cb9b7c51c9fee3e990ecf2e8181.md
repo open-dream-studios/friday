@@ -1,4 +1,0 @@
-tier: text
-extracted_at: 2026-07-11T18:50:02.116Z
----
-{"transitioned_at":"2026-07-11T18:03:26.839Z","transition":"migration_swept","successor_id":"f_01KX95JE7QJ6AZPKYDMPBSTAQB","reason":"migration-from-inline-tombstone","entry":{"id":"f_01KX8AP6SKDZPETKDB0CV93RV8","entity":{"kind":"project","id":"PROJ-3133159650"},"subject":"bristol_project_fields_updated","content":"APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR had its name, customer_id, lead_employee_id, full address (line1, line2, city, state, postal_code, country), and notes fields updated on 2026-07-11T10:13:11Z.","confidence":1,"created_at":"2026-07-11T10:13:38.739Z","updated_at":"2026-07-11T18:03:26.839Z","citations":[{"kind":"db_row","path":".change-log.jsonl:2026-07-11T10:13:11.719Z","sha":"5799018996fc53b45c8027f56dc65ddbdde022f0"}],"derived_from_sha":"5799018996fc53b45c8027f56dc65ddbdde022f0","superseded_by":"f_01KX95JE7QJ6AZPKYDMPBSTAQB"}}
