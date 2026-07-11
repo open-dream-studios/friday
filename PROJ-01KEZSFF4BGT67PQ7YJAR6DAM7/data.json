@@ -3,11 +3,13 @@
   "project_idx": 139,
   "name": "Vakoori",
   "short_name": "Vakoori",
+  "domain": "https://vakoori.com",
   "backend_domain": "https://breisera.com",
   "brand": "Savoie House",
+  "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
   "private_aws": false,
-  "_materialized_at": "2026-07-11T01:37:03.883Z"
+  "_materialized_at": "2026-07-11T01:47:17.072Z"
 }
