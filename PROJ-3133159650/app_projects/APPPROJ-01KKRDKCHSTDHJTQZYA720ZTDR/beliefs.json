@@ -20,27 +20,6 @@
     "last_verified_at": "2026-07-11T09:29:11.333Z",
     "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
   },
-  "b_01KX884SXDX3CQJEEXMV52ANTD": {
-    "id": "b_01KX884SXDX3CQJEEXMV52ANTD",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
-    },
-    "subject": "name_mismatch_risk",
-    "content": "The project is named 'Bristol Master Bathroom Renovation' but the address is in Johnson City, not Bristol — this naming inconsistency could cause confusion in scheduling or customer communications.",
-    "kind": "prescriptive",
-    "confidence": 0.75,
-    "status": "proposed",
-    "supported_by": [
-      "f_01KX884SX6QTP2QNKJSZVMJJ42",
-      "f_01KX884SXC47GGPG3QPRN0V1JV"
-    ],
-    "falsification_test": "Would be wrong if 'Bristol' refers to the bathroom style, fixture brand, or customer preference rather than geography.",
-    "created_at": "2026-07-11T09:29:11.333Z",
-    "updated_at": "2026-07-11T09:29:11.333Z",
-    "last_verified_at": "2026-07-11T09:29:11.333Z",
-    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
-  },
   "b_01KX8ACB64KTJ1QX4ZFPBXW2G1": {
     "id": "b_01KX8ACB64KTJ1QX4ZFPBXW2G1",
     "entity": {
@@ -123,5 +102,25 @@
     "updated_at": "2026-07-11T21:50:25.324Z",
     "last_verified_at": "2026-07-11T21:50:25.324Z",
     "derived_from_sha": "5d0656d02e7348a7f8eadd1b933629af15709ff4"
+  },
+  "b_01KX9MFECB5PPE7618X5Y837SP": {
+    "id": "b_01KX9MFECB5PPE7618X5Y837SP",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "name_mismatch_risk",
+    "content": "The project name 'Bristol Master Bathroom Renovation' is confirmed incorrect per Joey's stated policy that address.city is authoritative; the name must be corrected to reflect Johnson City as the actual job site.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9MCCQX7BQ6AHDBAS8W7EZP"
+    ],
+    "falsification_test": "Would be wrong if the project name is subsequently updated in data.json to match Johnson City, at which point the mismatch is resolved.",
+    "created_at": "2026-07-11T22:23:57.323Z",
+    "updated_at": "2026-07-11T22:23:57.323Z",
+    "last_verified_at": "2026-07-11T22:23:57.323Z",
+    "derived_from_sha": "352f308ac201e98883ef35683eb5e54a1e848006"
   }
 }
