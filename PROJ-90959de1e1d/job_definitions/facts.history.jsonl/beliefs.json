@@ -1,0 +1,23 @@
+{
+  "b_01KX9DJ26S82KS27T999WERMD8": {
+    "id": "b_01KX9DJ26S82KS27T999WERMD8",
+    "entity": {
+      "kind": "job_definition",
+      "id": "facts.history.jsonl"
+    },
+    "subject": "job_definition_stability",
+    "content": "The facts.history.jsonl job definition appears to be in active use with repeated boot cycles, suggesting an operational warm-loop system that re-materializes periodically rather than on demand.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX9DJ26SJ138EQRK93J0HZ76",
+      "f_01KX9DJ26SFWD7D54DD2507RSW"
+    ],
+    "falsification_test": "If boot events were triggered by explicit user or deployment actions rather than a scheduler, this would not indicate periodic cycling.",
+    "created_at": "2026-07-11T20:23:03.129Z",
+    "updated_at": "2026-07-11T20:23:03.129Z",
+    "last_verified_at": "2026-07-11T20:23:03.129Z",
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  }
+}

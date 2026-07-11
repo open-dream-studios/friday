@@ -1,0 +1,22 @@
+{
+  "b_01KX9DHSMBMQM6D3ZX6K56Q6Z5": {
+    "id": "b_01KX9DHSMBMQM6D3ZX6K56Q6Z5",
+    "entity": {
+      "kind": "job_definition",
+      "id": "beliefs.history.jsonl"
+    },
+    "subject": "job_definition_activity_pattern",
+    "content": "The beliefs.history.jsonl job is activated exclusively by boot events, suggesting it is part of a materialization pipeline that runs on system startup rather than on-demand or scheduled intervals.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX9DHSMBA9ASNK15HRJ7EY8R"
+    ],
+    "falsification_test": "If a change-log entry showed this job triggered by a non-boot actor (e.g. user action or scheduled cron), this belief would be wrong.",
+    "created_at": "2026-07-11T20:22:54.346Z",
+    "updated_at": "2026-07-11T20:22:54.346Z",
+    "last_verified_at": "2026-07-11T20:22:54.346Z",
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  }
+}

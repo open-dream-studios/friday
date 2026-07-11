@@ -1,0 +1,42 @@
+{
+  "f_01KX9DHSMA8CW37F7K01QC5JNC": {
+    "id": "f_01KX9DHSMA8CW37F7K01QC5JNC",
+    "entity": {
+      "kind": "job_definition",
+      "id": "beliefs.history.jsonl"
+    },
+    "subject": "job_definition_purpose",
+    "content": "The beliefs.history.jsonl job definition is responsible for tracking historical belief derivations for the TSA Backend project.",
+    "confidence": 0.9,
+    "created_at": "2026-07-11T20:22:54.346Z",
+    "updated_at": "2026-07-11T20:22:54.346Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHSMBA9ASNK15HRJ7EY8R": {
+    "id": "f_01KX9DHSMBA9ASNK15HRJ7EY8R",
+    "entity": {
+      "kind": "job_definition",
+      "id": "beliefs.history.jsonl"
+    },
+    "subject": "job_definition_update_frequency",
+    "content": "The beliefs.history.jsonl job definition has been updated multiple times on 2026-07-11, triggered by boot events at 02:19, 02:35, 02:44, 18:40, and 20:21 UTC.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:54.346Z",
+    "updated_at": "2026-07-11T20:22:54.346Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  }
+}

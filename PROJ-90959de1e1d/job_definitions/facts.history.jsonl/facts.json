@@ -1,0 +1,62 @@
+{
+  "f_01KX9DJ26SMQR7XJ1YJ75F5MQE": {
+    "id": "f_01KX9DJ26SMQR7XJ1YJ75F5MQE",
+    "entity": {
+      "kind": "job_definition",
+      "id": "facts.history.jsonl"
+    },
+    "subject": "job_definition_purpose",
+    "content": "The facts.history.jsonl job definition tracks historical fact derivations for the TSA Backend project, logging entity updates with timestamps, reasons, and actors.",
+    "confidence": 0.95,
+    "created_at": "2026-07-11T20:23:03.129Z",
+    "updated_at": "2026-07-11T20:23:03.129Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DJ26SFWD7D54DD2507RSW": {
+    "id": "f_01KX9DJ26SFWD7D54DD2507RSW",
+    "entity": {
+      "kind": "job_definition",
+      "id": "facts.history.jsonl"
+    },
+    "subject": "job_definition_last_updated",
+    "content": "The facts.history.jsonl job definition was last updated on 2026-07-11T20:21:21.095Z via a boot actor triggered by a job_definition_document change.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:23:03.129Z",
+    "updated_at": "2026-07-11T20:23:03.129Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DJ26SJ138EQRK93J0HZ76": {
+    "id": "f_01KX9DJ26SJ138EQRK93J0HZ76",
+    "entity": {
+      "kind": "job_definition",
+      "id": "facts.history.jsonl"
+    },
+    "subject": "job_definition_boot_frequency",
+    "content": "The facts.history.jsonl job definition has been booted at least 6 times on 2026-07-11, indicating active system cycling.",
+    "confidence": 0.95,
+    "created_at": "2026-07-11T20:23:03.129Z",
+    "updated_at": "2026-07-11T20:23:03.129Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  }
+}

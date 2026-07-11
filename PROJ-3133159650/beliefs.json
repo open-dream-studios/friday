@@ -40,24 +40,24 @@
     "last_verified_at": "2026-07-11T10:08:03.548Z",
     "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
   },
-  "b_01KX9CH1DKRJVSYRMA2N84E4PK": {
-    "id": "b_01KX9CH1DKRJVSYRMA2N84E4PK",
+  "b_01KX9DJ5YZN9FWFEGQ6M4MCQR3": {
+    "id": "b_01KX9DJ5YZN9FWFEGQ6M4MCQR3",
     "entity": {
       "kind": "project",
       "id": "PROJ-3133159650"
     },
     "subject": "bristol_project_record_complete",
-    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR has now been written eight times in a single day across a ~10-hour window with an identical field set each time; the pattern (roughly every 20-30 minutes in the afternoon/evening block) strongly favors an automation or UI re-submission loop over intentional manual refinement.",
+    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR has now been written nine times in a single day across a ~10-hour window with an identical field set each time; the pattern (roughly every 20-30 minutes throughout the afternoon/evening block) strongly favors an automation or UI re-submission loop over intentional manual refinement.",
     "kind": "descriptive",
-    "confidence": 0.9,
+    "confidence": 0.93,
     "status": "active",
     "supported_by": [
-      "f_01KX9CH1DGA9VMJP7DRKN71S62"
+      "f_01KX9DJ5YXMEDJ6N9CMG0WH67Q"
     ],
     "falsification_test": "If each write shows distinct value changes in name, address, or notes fields, intentional iterative refinement is the correct read.",
-    "created_at": "2026-07-11T20:05:00.976Z",
-    "updated_at": "2026-07-11T20:05:00.976Z",
-    "last_verified_at": "2026-07-11T20:05:00.976Z",
-    "derived_from_sha": "375c3d9984e77fa265cb87bceaecfdb91daaf7bc"
+    "created_at": "2026-07-11T20:23:06.973Z",
+    "updated_at": "2026-07-11T20:23:06.973Z",
+    "last_verified_at": "2026-07-11T20:23:06.973Z",
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
   }
 }

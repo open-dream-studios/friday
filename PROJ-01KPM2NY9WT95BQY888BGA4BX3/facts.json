@@ -1,1 +1,147 @@
-{}
+{
+  "f_01KX9DHFWZD0H026FE7ZJZBAMK": {
+    "id": "f_01KX9DHFWZD0H026FE7ZJZBAMK",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "project_name",
+    "content": "The project is named 'Open Dream' with short name 'Dream'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:name",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:short_name",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHFX4JSH2ZGG9SV3XSATN": {
+    "id": "f_01KX9DHFX4JSH2ZGG9SV3XSATN",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "project_domain",
+    "content": "The project's primary domain is opendreamstudios.com.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:domain",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHFX4TM01306GXC8SGPJT": {
+    "id": "f_01KX9DHFX4TM01306GXC8SGPJT",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "backend_domain",
+    "content": "The backend domain is https://dev-cms-production.up.railway.app, hosted on Railway.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:backend_domain",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHFX43JSJ9KJPMPKDCXS2": {
+    "id": "f_01KX9DHFX43JSJ9KJPMPKDCXS2",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "image_compression_setting",
+    "content": "Image compression is set to FAST.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:image_compression",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHFX4FHNQGQ8H4PPZQ51X": {
+    "id": "f_01KX9DHFX4FHNQGQ8H4PPZQ51X",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "video_compression_setting",
+    "content": "Video compression is set to FAST.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:video_compression",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHFX400MQMJPFFAFA59WH": {
+    "id": "f_01KX9DHFX400MQMJPFFAFA59WH",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "av1_enabled",
+    "content": "AV1 video codec is disabled for this project.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:av1_enabled",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  },
+  "f_01KX9DHFX4G7F4MM27C8MCFNCS": {
+    "id": "f_01KX9DHFX4G7F4MM27C8MCFNCS",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KPM2NY9WT95BQY888BGA4BX3"
+    },
+    "subject": "private_aws",
+    "content": "Private AWS is not enabled for this project.",
+    "confidence": 1,
+    "created_at": "2026-07-11T20:22:44.383Z",
+    "updated_at": "2026-07-11T20:22:44.383Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:private_aws",
+        "sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+      }
+    ],
+    "derived_from_sha": "e17fe5a72ea7ef3b377323090902c95227504264"
+  }
+}
