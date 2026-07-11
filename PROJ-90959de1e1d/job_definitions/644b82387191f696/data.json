@@ -3,6 +3,5 @@
   "identifier": "service-job",
   "type": "Service",
   "description": "Customer tub service job",
-  "parent_chain": [],
-  "_materialized_at": "2026-07-11T02:35:01.554Z"
+  "parent_chain": []
 }

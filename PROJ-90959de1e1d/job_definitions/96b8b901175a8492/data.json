@@ -3,6 +3,5 @@
   "identifier": "refurbishment-job",
   "type": "Refurbishment",
   "description": "Customer tub refurbishment",
-  "parent_chain": [],
-  "_materialized_at": "2026-07-11T02:35:01.554Z"
+  "parent_chain": []
 }
