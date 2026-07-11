@@ -10,5 +10,20 @@
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
-  "private_aws": false
+  "private_aws": false,
+  "profile": {
+    "service_area": {
+      "center": "Johnson City, TN",
+      "radius_miles": 45
+    },
+    "working_hours": {
+      "tz": "America/New_York",
+      "end": "17:00",
+      "start": "07:00"
+    },
+    "field_crew_size": 8,
+    "total_employees": 40,
+    "pricing_philosophy": "Fixed-price contracts, 30% gross margin floor, materials at cost + 15%.\n  Deposits: 25/25/25/25 at contract, demo start, rough-in, completion.\n  Change orders written + signed + paid before work starts. Never itemize\n  labor to shopping customers — total-vs-total only. Discounts rare;\n  prefer scope-reduction over price cuts.",
+    "operating_philosophy": "  Hybrid staffing. In-house crew (~6) handles anything the customer will\n  see every day for 20 years — framing, drywall, tile, carpentry, finish.\n  Subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet\n  install, countertop, glass, and larger paint scopes. Rule: if in-house\n  can do it in a day, use them; if it'd take 3+, sub it. Never split\n  framing between sub + in-house. Never demo without materials on site\n  for the next phase. Fridays are punch-list days, not new demo starts.\n  Weekly Monday update to every active customer. Photos before-during-\n  after in every job's inputs folder. Kerdi/Wedi on every tiled shower —\n  non-negotiable."
+  }
 }
