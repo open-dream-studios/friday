@@ -169,44 +169,59 @@
     ],
     "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
   },
-  "f_01KX989SNVE3PE5QW53VKVDBMW": {
-    "id": "f_01KX989SNVE3PE5QW53VKVDBMW",
-    "entity": {
-      "kind": "project",
-      "id": "PROJ-3133159650"
-    },
-    "subject": "platform_active_entities",
-    "content": "As of the 2026-07-11T18:40Z boot event, the platform tracks at least 5 additional app_projects (APPPROJ-01KKTEEZ46PX1F2E4SQ3RAY9YG, APPPROJ-01KKTF3VVXV3HV3MZD59SD5GK8, APPPROJ-01KKTF6DDGKC6A13EWQW7QM6JH, APPPROJ-01KWFF6ZQ82D651FWRN1RBJA72, APPPROJ-01KWHW43S2QEWKEA40SMH16A80) and 4 jobs beyond the Bristol record.",
-    "confidence": 1,
-    "created_at": "2026-07-11T18:51:09.366Z",
-    "updated_at": "2026-07-11T18:51:09.366Z",
-    "citations": [
-      {
-        "kind": "db_row",
-        "path": ".change-log.jsonl:2026-07-11T18:40:38.962Z",
-        "sha": "87e9de166ba21e86cb6bb304842590577bc28959"
-      }
-    ],
-    "derived_from_sha": "87e9de166ba21e86cb6bb304842590577bc28959"
-  },
-  "f_01KX9DTKGY0AMK70CDHS9NNKQR": {
-    "id": "f_01KX9DTKGY0AMK70CDHS9NNKQR",
+  "f_01KX9RRFKW0DHYMHGRMD7QA4DK": {
+    "id": "f_01KX9RRFKW0DHYMHGRMD7QA4DK",
     "entity": {
       "kind": "project",
       "id": "PROJ-3133159650"
     },
     "subject": "bristol_project_fields_updated",
-    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR received a tenth identical full-field write on 2026-07-11 at 20:26 UTC, bringing the total to ten full-field updates in a single day (10:13, 18:03, 18:41, 18:49, 19:20, 19:31, 19:56, 20:04, 20:22, 20:26 UTC).",
+    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR received three additional identical full-field writes on 2026-07-11 at 20:34, 21:34, and 21:49 UTC, bringing the total to at least 13 full-field updates in a single day.",
     "confidence": 1,
-    "created_at": "2026-07-11T20:27:43.006Z",
-    "updated_at": "2026-07-11T20:27:43.006Z",
+    "created_at": "2026-07-11T23:38:47.804Z",
+    "updated_at": "2026-07-11T23:38:47.804Z",
     "citations": [
       {
         "kind": "db_row",
-        "path": ".change-log.jsonl:2026-07-11T20:26:15.899Z",
-        "sha": "c18d73e3b37bf1cfa6a5be364a3fc015253f5b67"
+        "path": ".change-log.jsonl:2026-07-11T20:34:04.985Z",
+        "sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T21:34:51.457Z",
+        "sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T21:49:09.039Z",
+        "sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
       }
     ],
-    "derived_from_sha": "c18d73e3b37bf1cfa6a5be364a3fc015253f5b67"
+    "derived_from_sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
+  },
+  "f_01KX9RRFKZQJNQZ5JKPV7HJ41C": {
+    "id": "f_01KX9RRFKZQJNQZ5JKPV7HJ41C",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "platform_active_entities",
+    "content": "As of 2026-07-11T23:36Z (after two deletions), the platform has 4 active app_projects (APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR, APPPROJ-01KKTEEZ46PX1F2E4SQ3RAY9YG, APPPROJ-01KKTF3VVXV3HV3MZD59SD5GK8, APPPROJ-01KKTF6DDGKC6A13EWQW7QM6JH) and 2 remaining jobs beyond the Bristol record (JOB-01KV97099E518A8EABEQHK63MA, JOB-01KVA908TP04F0PC9MVB8K4M20).",
+    "confidence": 1,
+    "created_at": "2026-07-11T23:38:47.804Z",
+    "updated_at": "2026-07-11T23:38:47.804Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T23:36:05.271Z",
+        "sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T18:40:38.962Z",
+        "sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
+      }
+    ],
+    "derived_from_sha": "fd2073dc85a290086c7d0228683eac1e8229284f"
   }
 }
