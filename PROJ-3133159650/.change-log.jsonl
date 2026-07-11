@@ -6,3 +6,4 @@
 {"ts":"2026-07-11T05:02:07.016Z","reason":"upserted project \"Tri Cities\" (project_id=PROJ-3133159650)","actor":"user","entities":[]}
 {"ts":"2026-07-11T06:06:56.002Z","reason":"edited document \"bristol_scope.pdf\" via editor (id=doc_01KX76DHHZ4SA44JF49HX3MEJV)","actor":"user","entities":[]}
 {"ts":"2026-07-11T06:39:16.172Z","reason":"boot","actor":"boot","entities":[{"kind":"app_project","id":"APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR","action":"update"}]}
+{"ts":"2026-07-11T06:41:27.532Z","reason":"deleted document \"bristol_scope2.pdf\" (id=doc_01KX76WCC78AYY1PJSBZYPK2Z3), deleted document \"bristole_scope3.pdf\" (id=doc_01KX77K9R6BSP378EJJ7RW9878), deleted document \"test7.pdf\" (id=doc_01KX79J8W79Q4TV8HF62TXKJXP)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR","action":"update"}]}
