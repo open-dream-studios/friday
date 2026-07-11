@@ -1,1 +1,197 @@
-{}
+{
+  "f_01KX884SX6QTP2QNKJSZVMJJ42": {
+    "id": "f_01KX884SX6QTP2QNKJSZVMJJ42",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "project_name",
+    "content": "The app project is named 'Bristol Master Bathroom Renovation'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:name",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXC0E7CJVQ03ZGGSPFE": {
+    "id": "f_01KX884SXC0E7CJVQ03ZGGSPFE",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "project_type",
+    "content": "Project type is remodel_bathroom.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:project_type",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXC47GGPG3QPRN0V1JV": {
+    "id": "f_01KX884SXC47GGPG3QPRN0V1JV",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "project_address",
+    "content": "Job site is 428 Ashe Street, Johnson City, Tennessee 37604.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:address",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXCKJ28XWQB01PDVVZ0": {
+    "id": "f_01KX884SXCKJ28XWQB01PDVVZ0",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "customer_name",
+    "content": "Customer is John Cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:customer.name",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXCVV4WZK511P9KRFZ4": {
+    "id": "f_01KX884SXCVV4WZK511P9KRFZ4",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "customer_contact",
+    "content": "Customer phone is 2955349323 and email is johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:customer.phone",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      },
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:customer.email",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXDMKV3WV9Q20HH1QY5": {
+    "id": "f_01KX884SXDMKV3WV9Q20HH1QY5",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "lead_employee",
+    "content": "Lead employee is Joey Goff (EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX), the owner.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:lead_employee.name",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXDBFTBJ5XR2KQRM4J1": {
+    "id": "f_01KX884SXDBFTBJ5XR2KQRM4J1",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "notes_key",
+    "content": "Project notes contain 'Key = ALPHA'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:notes",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXDFKJDKV02NS1NSYSP": {
+    "id": "f_01KX884SXDFKJDKV02NS1NSYSP",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "no_valuation",
+    "content": "No valuation or estimation data has been recorded for this project.",
+    "confidence": 1,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:valuation",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      },
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:latest_estimation_total",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX884SXDDKJ6HJQMTX69JXFN": {
+    "id": "f_01KX884SXDDKJ6HJQMTX69JXFN",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "scope_document_activity",
+    "content": "A document named 'bristol_scope.pdf' was edited on 2026-07-11; multiple other test/draft scope PDFs were deleted the same day.",
+    "confidence": 0.95,
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T06:06:56.002Z",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T06:41:27.532Z",
+        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+      }
+    ],
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  }
+}

@@ -1,1 +1,44 @@
-{}
+{
+  "b_01KX884SXDPSVQSV6GMZS0WX4J": {
+    "id": "b_01KX884SXDPSVQSV6GMZS0WX4J",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "project_early_stage",
+    "content": "This project is in an early/pre-contract stage — no estimate has been run, no valuation set, and the scope document is still being edited. No jobs are attached yet.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KX884SXDFKJDKV02NS1NSYSP",
+      "f_01KX884SXDDKJ6HJQMTX69JXFN"
+    ],
+    "falsification_test": "Evidence would be wrong if an estimation run ID or signed contract appears in subsequent data.",
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "last_verified_at": "2026-07-11T09:29:11.333Z",
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "b_01KX884SXDX3CQJEEXMV52ANTD": {
+    "id": "b_01KX884SXDX3CQJEEXMV52ANTD",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "name_mismatch_risk",
+    "content": "The project is named 'Bristol Master Bathroom Renovation' but the address is in Johnson City, not Bristol — this naming inconsistency could cause confusion in scheduling or customer communications.",
+    "kind": "prescriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX884SX6QTP2QNKJSZVMJJ42",
+      "f_01KX884SXC47GGPG3QPRN0V1JV"
+    ],
+    "falsification_test": "Would be wrong if 'Bristol' refers to the bathroom style, fixture brand, or customer preference rather than geography.",
+    "created_at": "2026-07-11T09:29:11.333Z",
+    "updated_at": "2026-07-11T09:29:11.333Z",
+    "last_verified_at": "2026-07-11T09:29:11.333Z",
+    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  }
+}
