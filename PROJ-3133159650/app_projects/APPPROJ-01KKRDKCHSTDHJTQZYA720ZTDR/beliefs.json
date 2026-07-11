@@ -102,24 +102,26 @@
     "last_verified_at": "2026-07-11T18:04:13.878Z",
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   },
-  "b_01KX9HQZNHHJTFDNBN8Z49BCWE": {
-    "id": "b_01KX9HQZNHHJTFDNBN8Z49BCWE",
+  "b_01KX9JJ1HFYQW9RNTEGERJ6R75": {
+    "id": "b_01KX9JJ1HFYQW9RNTEGERJ6R75",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
     },
     "subject": "site_access_key_current",
-    "content": "The current notes key is 'MANTIS' (21:34 UTC update), extending the confirmed QA test sequence to 14 distinct values in a single day; per Joey's direct confirmation, all key rotations on this project are test artifacts with no operational significance.",
+    "content": "The current notes key is 'VENOM' (21:49 UTC update); per Joey's direct confirmation, all key rotations on this project are QA test artifacts with no operational significance — ignore until notes field is cleared for live use.",
     "kind": "prescriptive",
     "confidence": 0.98,
     "status": "active",
     "supported_by": [
-      "f_01KX9HQZNEXCANJ0RED6SFZFHE"
+      "f_01KX9JJ1HD4B0R3JB83Z8NRWCM",
+      "f_01KX9HK476NQT65JEV64FXPMVE",
+      "f_01KX9JDWF66WAF5K3TB03EK6MG"
     ],
     "falsification_test": "Would be wrong if crew is actively on-site today and this represents a real physical lockbox code change for security reasons.",
-    "created_at": "2026-07-11T21:36:11.437Z",
-    "updated_at": "2026-07-11T21:36:11.437Z",
-    "last_verified_at": "2026-07-11T21:36:11.437Z",
-    "derived_from_sha": "6475f16e53d1c289f96d615ce90548ba1a742de0"
+    "created_at": "2026-07-11T21:50:25.324Z",
+    "updated_at": "2026-07-11T21:50:25.324Z",
+    "last_verified_at": "2026-07-11T21:50:25.324Z",
+    "derived_from_sha": "5d0656d02e7348a7f8eadd1b933629af15709ff4"
   }
 }

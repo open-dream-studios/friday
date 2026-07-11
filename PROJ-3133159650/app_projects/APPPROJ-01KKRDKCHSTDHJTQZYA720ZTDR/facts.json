@@ -258,31 +258,6 @@
       }
     ]
   },
-  "f_01KX9HQZNEXCANJ0RED6SFZFHE": {
-    "id": "f_01KX9HQZNEXCANJ0RED6SFZFHE",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
-    },
-    "subject": "notes_key",
-    "content": "Project notes currently contain 'Key = MANTIS' as of the latest update at 2026-07-11T21:34:51Z, the fourteenth distinct key value recorded on this project in a single day — confirmed QA test rotation.",
-    "confidence": 1,
-    "created_at": "2026-07-11T21:36:11.437Z",
-    "updated_at": "2026-07-11T21:36:11.437Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "data.json:notes",
-        "sha": "6475f16e53d1c289f96d615ce90548ba1a742de0"
-      },
-      {
-        "kind": "db_row",
-        "path": ".change-log.jsonl:2026-07-11T21:34:51.457Z",
-        "sha": "6475f16e53d1c289f96d615ce90548ba1a742de0"
-      }
-    ],
-    "derived_from_sha": "6475f16e53d1c289f96d615ce90548ba1a742de0"
-  },
   "f_01KX9JDWF66WAF5K3TB03EK6MG": {
     "id": "f_01KX9JDWF66WAF5K3TB03EK6MG",
     "entity": {
@@ -301,5 +276,30 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KX9JJ1HD4B0R3JB83Z8NRWCM": {
+    "id": "f_01KX9JJ1HD4B0R3JB83Z8NRWCM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "notes_key",
+    "content": "Project notes currently contain 'Key = VENOM' as of the latest update at 2026-07-11T21:49:09Z — the next value in the confirmed QA test rotation sequence on this project.",
+    "confidence": 1,
+    "created_at": "2026-07-11T21:50:25.324Z",
+    "updated_at": "2026-07-11T21:50:25.324Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "5d0656d02e7348a7f8eadd1b933629af15709ff4"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T21:49:09.039Z",
+        "sha": "5d0656d02e7348a7f8eadd1b933629af15709ff4"
+      }
+    ],
+    "derived_from_sha": "5d0656d02e7348a7f8eadd1b933629af15709ff4"
   }
 }
