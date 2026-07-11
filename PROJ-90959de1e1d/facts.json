@@ -1,1 +1,142 @@
-{}
+{
+  "f_01KX97SMHK2KX25NZBYX2XMBJZ": {
+    "id": "f_01KX97SMHK2KX25NZBYX2XMBJZ",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "project_name",
+    "content": "The project is named 'TSA Backend' with short name 'TSA'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:19.827Z",
+    "updated_at": "2026-07-11T18:42:19.827Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:name",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:short_name",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SMHM18WR5AP2M6FDSAH0": {
+    "id": "f_01KX97SMHM18WR5AP2M6FDSAH0",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "project_brand",
+    "content": "The brand associated with this project is 'Tanny Spa Acquisition'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:19.827Z",
+    "updated_at": "2026-07-11T18:42:19.827Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:brand",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SMHMR4P6R8Q49N9BR8EW": {
+    "id": "f_01KX97SMHMR4P6R8Q49N9BR8EW",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "project_domain",
+    "content": "The project domain is 'tannyspaacquisitions.com' and the backend domain is 'https://tannyspaacquisitions.shop'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:19.827Z",
+    "updated_at": "2026-07-11T18:42:19.827Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:domain",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:backend_domain",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SMHMVTFBSWGD3XXQDMBT": {
+    "id": "f_01KX97SMHMVTFBSWGD3XXQDMBT",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "project_phone_number",
+    "content": "The project has one associated phone number: 9843588401.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:19.827Z",
+    "updated_at": "2026-07-11T18:42:19.827Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:numbers",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SMHMW3K9G0M4XEV57GND": {
+    "id": "f_01KX97SMHMW3K9G0M4XEV57GND",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "media_compression_settings",
+    "content": "Both image and video compression are set to 'FAST', and AV1 encoding is disabled.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:19.827Z",
+    "updated_at": "2026-07-11T18:42:19.827Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:image_compression",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:video_compression",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:av1_enabled",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX97SMHMFVRJ8TGRRNX0XDRP": {
+    "id": "f_01KX97SMHMFVRJ8TGRRNX0XDRP",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "private_aws_enabled",
+    "content": "The project uses a private AWS configuration (private_aws: true).",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:19.827Z",
+    "updated_at": "2026-07-11T18:42:19.827Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:private_aws",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  }
+}
