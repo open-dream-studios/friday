@@ -3,6 +3,5 @@
   "identifier": "Bathroom Remodel",
   "type": "planner_job_type",
   "description": "Bathroom Remodel Jobs",
-  "parent_chain": [],
-  "_materialized_at": "2026-07-11T02:35:01.213Z"
+  "parent_chain": []
 }

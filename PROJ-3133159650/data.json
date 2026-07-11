@@ -10,6 +10,5 @@
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
-  "private_aws": true,
-  "_materialized_at": "2026-07-11T02:35:01.213Z"
+  "private_aws": true
 }

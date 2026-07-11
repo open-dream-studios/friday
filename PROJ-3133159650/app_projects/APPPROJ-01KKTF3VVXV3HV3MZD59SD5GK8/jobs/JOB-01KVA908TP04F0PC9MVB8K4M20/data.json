@@ -17,6 +17,5 @@
   },
   "customer": null,
   "scope_document": null,
-  "breakdown_document": null,
-  "_materialized_at": "2026-07-11T02:35:01.213Z"
+  "breakdown_document": null
 }
