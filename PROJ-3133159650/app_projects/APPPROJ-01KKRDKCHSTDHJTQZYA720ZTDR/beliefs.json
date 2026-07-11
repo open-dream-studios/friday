@@ -71,15 +71,16 @@
     "content": "The notes key changed from 'ALPHA' (as recorded in prior fact f_01KX884SXDBFTBJ5XR2KQRM4J1) to 'HORNET', suggesting a physical key or access code was rotated — worth confirming crew has the current code before site visits.",
     "kind": "prescriptive",
     "confidence": 0.75,
-    "status": "proposed",
+    "status": "superseded",
     "supported_by": [
       "f_01KX8ACB6488PEW6ZEYP7MK6A7"
     ],
     "falsification_test": "Would be wrong if 'ALPHA' in the prior fact was itself an error and 'HORNET' is the original, or if 'Key' refers to something other than a physical access key.",
     "created_at": "2026-07-11T10:08:15.556Z",
-    "updated_at": "2026-07-11T10:08:15.556Z",
+    "updated_at": "2026-07-11T18:04:13.878Z",
     "last_verified_at": "2026-07-11T10:08:15.556Z",
-    "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
+    "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2",
+    "superseded_by": "b_01KX95KW5QH4XTQ71DAK5C1KME"
   },
   "b_01KX8AQ93MTEDQN2YB1MYN2YMS": {
     "id": "b_01KX8AQ93MTEDQN2YB1MYN2YMS",
@@ -91,16 +92,17 @@
     "content": "The site access key has changed again — from 'HORNET' to 'BLUEJACKET' — within the same day, suggesting active iteration on access credentials or a testing/demo workflow. Any crew member given a prior key value needs the current one before visiting the site.",
     "kind": "prescriptive",
     "confidence": 0.8,
-    "status": "proposed",
+    "status": "superseded",
     "supported_by": [
       "f_01KX8AQ93KWQSNJFD73HVTHZ38",
       "f_01KX8AQ93MV1H59Q7KVSXGR78C"
     ],
     "falsification_test": "Would be wrong if 'Key' does not refer to a physical or access credential and is instead a project classification or template identifier.",
     "created_at": "2026-07-11T10:14:13.875Z",
-    "updated_at": "2026-07-11T10:14:13.875Z",
+    "updated_at": "2026-07-11T18:04:13.878Z",
     "last_verified_at": "2026-07-11T10:14:13.875Z",
-    "derived_from_sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a"
+    "derived_from_sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a",
+    "superseded_by": "b_01KX95KW5QH4XTQ71DAK5C1KME"
   },
   "b_01KX8AQ93MF3SZX5S2212VQXZV": {
     "id": "b_01KX8AQ93MF3SZX5S2212VQXZV",
@@ -121,5 +123,46 @@
     "updated_at": "2026-07-11T10:14:13.875Z",
     "last_verified_at": "2026-07-11T10:14:13.875Z",
     "derived_from_sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a"
+  },
+  "b_01KX95KW5QH4XTQ71DAK5C1KME": {
+    "id": "b_01KX95KW5QH4XTQ71DAK5C1KME",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "key_rotated_again_to_mcqueen",
+    "content": "The site access key has changed again — from 'BLUEJACKET' to 'MCQUEEN' — in the 18:03 update, continuing a pattern of same-day key rotation. Any crew member given a prior key value needs 'MCQUEEN' before visiting the site.",
+    "kind": "prescriptive",
+    "confidence": 0.82,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX95KW5PWVJXYMYBKEQCKBES"
+    ],
+    "falsification_test": "Would be wrong if 'Key' does not refer to a physical or access credential and is instead a project classification or template identifier.",
+    "created_at": "2026-07-11T18:04:13.878Z",
+    "updated_at": "2026-07-11T18:04:13.878Z",
+    "last_verified_at": "2026-07-11T18:04:13.878Z",
+    "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
+  },
+  "b_01KX95KW5QYEBPF8ESKMTB4TZT": {
+    "id": "b_01KX95KW5QYEBPF8ESKMTB4TZT",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "key_value_discrepancy_between_records",
+    "content": "The data.json notes field shows 'Key = MCQUEEN' while bristol_doc.pdf shows 'Password to key: STING' — two different key values exist across two documents for the same project, creating an ambiguity about which is current.",
+    "kind": "prescriptive",
+    "confidence": 0.78,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX95KW5PWVJXYMYBKEQCKBES",
+      "f_01KX95KW5PBX93NA9H7ABQ09RT"
+    ],
+    "falsification_test": "Would be wrong if 'STING' and 'MCQUEEN' refer to different things (e.g., a physical lockbox combo vs. a project access code), or if bristol_doc.pdf is stale/superseded.",
+    "created_at": "2026-07-11T18:04:13.878Z",
+    "updated_at": "2026-07-11T18:04:13.878Z",
+    "last_verified_at": "2026-07-11T18:04:13.878Z",
+    "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   }
 }
