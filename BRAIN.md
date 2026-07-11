@@ -8,13 +8,14 @@ archived under `_archive/`. When any doc in the trunk conflicts with
 this file, this file wins.
 
 **Companion docs:**
-- [`ROADMAP.md`](./ROADMAP.md) — the full 6-series master plan
-  (each series → phases → sweeps in deep detail). This is the
-  living operational plan; edit here when plans change.
-- [`OBSERVABILITY.md`](./OBSERVABILITY.md) — UI design principles +
-  flat index of every surface across the plan.
-- [`SPRINT_TRACKER.md`](./SPRINT_TRACKER.md) — where we are right now,
-  which sweep is next, decisions log.
+- [`ARCHITECTURE.md`](./ARCHITECTURE.md) — the materialize + change-log
+  contract; how the data trunk stays in sync with DB + S3.
+- [`DATA_MODEL.md`](./DATA_MODEL.md) — DB rows ↔ trunk paths; the
+  `data.json` shape at every entity level.
+- [`INTELLIGENCE.md`](./INTELLIGENCE.md) — the intelligence layer:
+  facts / beliefs / questions, warm + hot loops, model tiering, Q&A.
+- [`ROADMAP.md`](./ROADMAP.md) (historical) — the original 6-series
+  master plan. Superseded by the phase-by-phase execution model.
 
 ---
 
@@ -138,24 +139,38 @@ reads the labels; nothing else in the code hardcodes them.
 
 ## Storage rules
 
-One-line rule: **anything the agent needs to read must exist in the
-trunk. Anything humans need to query must exist in DB. Blobs go to
-S3. Nothing lives in two "source" locations — always one source,
-everywhere else is a mirror.**
+One-line rule: **DB owns row facts. S3 owns blob bytes. Trunk owns
+intelligence + artifacts. Disk = materialized view of (DB + S3) —
+never a "source of truth", never edited by hand outside the trunk's
+intel + artifact leaves.**
 
 | Layer | Type | DB | S3 | Trunk |
 |---|---|---|---|---|
-| Data | Row facts (jobs, contexts, PM answers, manifest) | ✅ source | | ✅ mirror |
-| Data | Raw blobs (PDFs, images) | ref only | ✅ source | ✅ text mirror |
+| Data | Row facts (projects, app_projects, jobs, job_definitions, project_folders, documents rows) | ✅ source | | ✅ materialized (`data.json` at every entity node) |
+| Data | Structured extra context per entity | ✅ source (`profile` JSON column, zod-validated) | | ✅ materialized (embedded in `data.json`) |
+| Data | Raw blobs (PDFs, images) | ref only | ✅ source | ✅ materialized (content-addressed cache) |
+| Data | Semantic change history | | | ✅ source (`.change-log.jsonl` per project, append-only, preserved through wipe) |
+| Data | Human-authored foundation prose | | | ✅ source (`CLAUDE.md` per entity node, preserved through wipe, read automatically by Claude CLI at every scope it operates in) |
 | Intelligence | Rules / beliefs / patterns | | | ✅ source |
 | Artifacts | Extractions, generations, snapshots | | | ✅ source |
 
-The **DB→trunk mirror** is the load-bearing beam of the whole
-architecture. Every time a DB field the AI needs to see changes, the
-trunk must reflect it. Silent drift here is the number-one source of
-"why is the agent wrong?" bugs. Every one of those bugs so far
-traced to a field that didn't propagate. Make the mirror robust and
-observable; monitor its health as a first-class concern.
+The **materialize contract** replaced the per-mutation hook model
+that we ran through 2026-07. Old model: every DB write fired a
+`triggerReconcile` and every doc save fired `mirrorDocumentToFlatTrunk`
+— a bandaid per mutation shape, drift the moment a new shape landed.
+New model:
+
+- One writer: `materializeProject(project_idx)` in server_a1.
+- Idempotent: reads DB + S3, wipes the project subtree except intel
+  leaves + `.git`, rebuilds folder tree, backfills PDF/CSV bytes via
+  content-addressed cache, one git commit if anything changed.
+- Trigger surface: debounced 5s after any write, synchronous before
+  any Claude Code intelligence run, manual via CLI + HTTP endpoint.
+- No other code writes to disk. `flatTrunkMirror`, `triggerReconcile`,
+  and the old `reconciler.ts` are gone.
+
+Full architecture: [`ARCHITECTURE.md`](./ARCHITECTURE.md). Full
+DB↔trunk map: [`DATA_MODEL.md`](./DATA_MODEL.md).
 
 ---
 
