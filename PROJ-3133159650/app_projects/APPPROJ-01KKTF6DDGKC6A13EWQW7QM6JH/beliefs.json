@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KX982GGA4Q39PTHGGCM5DS9T": {
+    "id": "b_01KX982GGA4Q39PTHGGCM5DS9T",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKTF6DDGKC6A13EWQW7QM6JH"
+    },
+    "subject": "project_stage",
+    "content": "This project is in early pre-estimation stage: no valuation, no estimation run, and no notes have been set, indicating it has not yet progressed past initial intake.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KX982GGAHQ9H9Q8P3E62V3N0"
+    ],
+    "falsification_test": "If a linked job or external document shows an estimate was delivered verbally or outside this system, the stage assessment is wrong.",
+    "created_at": "2026-07-11T18:47:10.601Z",
+    "updated_at": "2026-07-11T18:47:10.601Z",
+    "last_verified_at": "2026-07-11T18:47:10.601Z",
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "b_01KX982GGBZCB4G4X7R4TXPEEM": {
+    "id": "b_01KX982GGBZCB4G4X7R4TXPEEM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKTF6DDGKC6A13EWQW7QM6JH"
+    },
+    "subject": "name_error_risk",
+    "content": "The 'Kingsport' label in the project name likely reflects a naming error or placeholder — the actual job site is Jonesborough, which could cause misfiled documents or incorrect crew routing if not corrected.",
+    "kind": "prescriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX982GGAPWQA79H7WBG7PJ2R"
+    ],
+    "falsification_test": "If the customer is based in Kingsport and the Jonesborough address is a secondary property or job site, the name may be intentional.",
+    "created_at": "2026-07-11T18:47:10.601Z",
+    "updated_at": "2026-07-11T18:47:10.601Z",
+    "last_verified_at": "2026-07-11T18:47:10.601Z",
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  }
+}

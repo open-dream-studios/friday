@@ -1,1 +1,162 @@
-{}
+{
+  "f_01KX981AM2M0F9FP4B8R0P0TKK": {
+    "id": "f_01KX981AM2M0F9FP4B8R0P0TKK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KVA908TP04F0PC9MVB8K4M20"
+    },
+    "subject": "job_identity",
+    "content": "JOB-01KVA908TP04F0PC9MVB8K4M20 is an 'Addition' (Home Addition Jobs) job attached to APPPROJ-01KKTF3VVXV3HV3MZD59SD5GK8, with status 'waiting_work' and priority 'urgent'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:46:31.810Z",
+    "updated_at": "2026-07-11T18:46:31.810Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:job_id",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:job_definition.identifier",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:status",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:priority",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:entity_id",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX981AM2K0M49CHY82K947MW": {
+    "id": "f_01KX981AM2K0M49CHY82K947MW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KVA908TP04F0PC9MVB8K4M20"
+    },
+    "subject": "scheduled_start_overdue",
+    "content": "The job's scheduled start date was 2026-06-25, which is 16 days past as of 2026-07-11; completed_date is null and status remains 'waiting_work'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:46:31.810Z",
+    "updated_at": "2026-07-11T18:46:31.810Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:completed_date",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:status",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX981AM2QPV4PB6DDSMF6F6P": {
+    "id": "f_01KX981AM2QPV4PB6DDSMF6F6P",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KVA908TP04F0PC9MVB8K4M20"
+    },
+    "subject": "job_type_mismatch",
+    "content": "The job definition is 'Addition' (Home Addition Jobs) but the parent app_project is typed 'remodel_bathroom' and named 'Elizabethton Primary Bathroom Transformation'.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:46:31.810Z",
+    "updated_at": "2026-07-11T18:46:31.810Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:job_definition.identifier",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKTF3VVXV3HV3MZD59SD5GK8/data.json:project_type",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKTF3VVXV3HV3MZD59SD5GK8/data.json:name",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX981AM22ADR9BXWDWWS20PQ": {
+    "id": "f_01KX981AM22ADR9BXWDWWS20PQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KVA908TP04F0PC9MVB8K4M20"
+    },
+    "subject": "missing_job_documents",
+    "content": "This job has no scope_document, no breakdown_document, no valuation, and no notes.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:46:31.810Z",
+    "updated_at": "2026-07-11T18:46:31.810Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scope_document",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:breakdown_document",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "f_01KX981AM3QPBA84R2E52S8RDS": {
+    "id": "f_01KX981AM3QPBA84R2E52S8RDS",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KVA908TP04F0PC9MVB8K4M20"
+    },
+    "subject": "job_customer_unlinked",
+    "content": "The job's customer field is null; customer association exists only at the parent app_project level (Tracy Ledyard, CUST-01KKTEQ38WQQ5RZWDXAY6JZW6M).",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:46:31.810Z",
+    "updated_at": "2026-07-11T18:46:31.810Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKTF3VVXV3HV3MZD59SD5GK8/data.json:customer",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  }
+}

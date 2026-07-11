@@ -124,27 +124,6 @@
     ],
     "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
   },
-  "f_01KX884SXDBFTBJ5XR2KQRM4J1": {
-    "id": "f_01KX884SXDBFTBJ5XR2KQRM4J1",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
-    },
-    "subject": "notes_key",
-    "content": "Project notes contain 'Key = ALPHA'.",
-    "confidence": 1,
-    "created_at": "2026-07-11T09:29:11.333Z",
-    "updated_at": "2026-07-11T18:04:13.878Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:notes",
-        "sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
-      }
-    ],
-    "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd",
-    "superseded_by": "f_01KX95KW5PWVJXYMYBKEQCKBES"
-  },
   "f_01KX884SXDFKJDKV02NS1NSYSP": {
     "id": "f_01KX884SXDFKJDKV02NS1NSYSP",
     "entity": {
@@ -195,32 +174,6 @@
     ],
     "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
   },
-  "f_01KX8ACB6488PEW6ZEYP7MK6A7": {
-    "id": "f_01KX8ACB6488PEW6ZEYP7MK6A7",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
-    },
-    "subject": "notes_key_updated",
-    "content": "Project notes currently contain 'Key = HORNET' (updated from prior value).",
-    "confidence": 1,
-    "created_at": "2026-07-11T10:08:15.556Z",
-    "updated_at": "2026-07-11T18:04:13.878Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:notes",
-        "sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
-      },
-      {
-        "kind": "db_row",
-        "path": ".change-log.jsonl:2026-07-11T10:07:25.467Z",
-        "sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
-      }
-    ],
-    "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2",
-    "superseded_by": "f_01KX95KW5PWVJXYMYBKEQCKBES"
-  },
   "f_01KX8ACB64FWH6K6SWZD5ZYS03": {
     "id": "f_01KX8ACB64FWH6K6SWZD5ZYS03",
     "entity": {
@@ -240,32 +193,6 @@
       }
     ],
     "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
-  },
-  "f_01KX8AQ93KWQSNJFD73HVTHZ38": {
-    "id": "f_01KX8AQ93KWQSNJFD73HVTHZ38",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
-    },
-    "subject": "notes_key_current",
-    "content": "Project notes currently contain 'Key = BLUEJACKET' as of the latest update at 2026-07-11T10:13:11Z.",
-    "confidence": 1,
-    "created_at": "2026-07-11T10:14:13.875Z",
-    "updated_at": "2026-07-11T18:04:13.878Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:notes",
-        "sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a"
-      },
-      {
-        "kind": "db_row",
-        "path": ".change-log.jsonl:2026-07-11T10:13:11.719Z",
-        "sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a"
-      }
-    ],
-    "derived_from_sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a",
-    "superseded_by": "f_01KX95KW5PWVJXYMYBKEQCKBES"
   },
   "f_01KX8AQ93MV1H59Q7KVSXGR78C": {
     "id": "f_01KX8AQ93MV1H59Q7KVSXGR78C",
@@ -292,31 +219,6 @@
     ],
     "derived_from_sha": "c1ab2fd5e539b0089928e080af7472d47c2cf00a"
   },
-  "f_01KX95KW5PWVJXYMYBKEQCKBES": {
-    "id": "f_01KX95KW5PWVJXYMYBKEQCKBES",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
-    },
-    "subject": "notes_key",
-    "content": "Project notes currently contain 'Key = MCQUEEN' as of the latest update at 2026-07-11T18:03:07Z.",
-    "confidence": 1,
-    "created_at": "2026-07-11T18:04:13.878Z",
-    "updated_at": "2026-07-11T18:04:13.878Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:notes",
-        "sha": "87163678de0d0eec992689172b96a15454aa3440"
-      },
-      {
-        "kind": "db_row",
-        "path": ".change-log.jsonl:2026-07-11T18:03:07.148Z",
-        "sha": "87163678de0d0eec992689172b96a15454aa3440"
-      }
-    ],
-    "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
-  },
   "f_01KX95KW5PBX93NA9H7ABQ09RT": {
     "id": "f_01KX95KW5PBX93NA9H7ABQ09RT",
     "entity": {
@@ -336,5 +238,30 @@
       }
     ],
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
+  },
+  "f_01KX97TQVQDW82C8H0WDTAGK8G": {
+    "id": "f_01KX97TQVQDW82C8H0WDTAGK8G",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "notes_key",
+    "content": "Project notes currently contain 'Key = BEE' as of the latest update at 2026-07-11T18:41:08Z.",
+    "confidence": 1,
+    "created_at": "2026-07-11T18:42:55.991Z",
+    "updated_at": "2026-07-11T18:42:55.991Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T18:41:08.681Z",
+        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+      }
+    ],
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
   }
 }

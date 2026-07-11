@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KX97XCKHJ95NSAEH56YQPGWB": {
+    "id": "b_01KX97XCKHJ95NSAEH56YQPGWB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKTEEZ46PX1F2E4SQ3RAY9YG"
+    },
+    "subject": "project_stage",
+    "content": "With no valuation, no estimation run, and null notes, this project is in early lead or pre-estimate stage — no scoping work has been recorded.",
+    "kind": "descriptive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KX97XCKHRRFEY2Y404MZZNNA"
+    ],
+    "falsification_test": "If an estimation run exists in a linked job record not surfaced here, or if notes were added offline, the stage characterization is wrong.",
+    "created_at": "2026-07-11T18:44:22.768Z",
+    "updated_at": "2026-07-11T18:44:22.768Z",
+    "last_verified_at": "2026-07-11T18:44:22.768Z",
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "b_01KX97XCKHKNFNFMBW1XSA44G6": {
+    "id": "b_01KX97XCKHKNFNFMBW1XSA44G6",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKTEEZ46PX1F2E4SQ3RAY9YG"
+    },
+    "subject": "address_name_mismatch",
+    "content": "Project name includes 'Johnson City' but the address is Hampton, TN (Carter County) — either 'Hall' refers to a hall bathroom type and the city reference is loose, or the address was entered incorrectly.",
+    "kind": "descriptive",
+    "confidence": 0.72,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KX97XCKGR0KME2VER8G5426R"
+    ],
+    "falsification_test": "If Joey confirms the job site is Hampton and the name is shorthand for 'hall bathroom remodel in the Johnson City area,' the mismatch is cosmetic only.",
+    "created_at": "2026-07-11T18:44:22.768Z",
+    "updated_at": "2026-07-11T18:44:22.768Z",
+    "last_verified_at": "2026-07-11T18:44:22.768Z",
+    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  }
+}
