@@ -102,24 +102,24 @@
     "last_verified_at": "2026-07-11T18:04:13.878Z",
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   },
-  "b_01KX9DTWY8Q2WZ4GYYJHHP6MSW": {
-    "id": "b_01KX9DTWY8Q2WZ4GYYJHHP6MSW",
+  "b_01KX9E97N7W2816BQNRVK6R094": {
+    "id": "b_01KX9E97N7W2816BQNRVK6R094",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
     },
     "subject": "site_access_key_current",
-    "content": "The current notes key is 'INSECT' as of the 20:26 UTC update, the thirteenth distinct value in the same-day chain (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER → BLACKWIDOW → FIREANT → SCORPION → BUGBITE → INSECT); this cadence confirms a systematic test/demo sequence rather than an operational site-access credential.",
+    "content": "The current notes key is 'OPERATION' (20:34 update), extending the same-day chain to 13 distinct values in data.json (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER → BLACKWIDOW → FIREANT → SCORPION → BUGBITE → INSECT → OPERATION); the cadence and volume continue to confirm a systematic test/demo sequence, not operational site-access credentials.",
     "kind": "prescriptive",
-    "confidence": 0.97,
+    "confidence": 0.98,
     "status": "active",
     "supported_by": [
-      "f_01KX9DRJ720N73WFBB1CT3QJCY"
+      "f_01KX9E97N1H62MWMA6HRTJP04E"
     ],
-    "falsification_test": "Would be wrong if crew is actively scheduled on-site today and each rotation represents a real physical lockbox code change for security reasons.",
-    "created_at": "2026-07-11T20:27:52.648Z",
-    "updated_at": "2026-07-11T20:27:52.648Z",
-    "last_verified_at": "2026-07-11T20:27:52.648Z",
-    "derived_from_sha": "c18d73e3b37bf1cfa6a5be364a3fc015253f5b67"
+    "falsification_test": "Would be wrong if crew is actively on-site today and each rotation represents a real physical lockbox code change for security reasons.",
+    "created_at": "2026-07-11T20:35:42.369Z",
+    "updated_at": "2026-07-11T20:35:42.369Z",
+    "last_verified_at": "2026-07-11T20:35:42.369Z",
+    "derived_from_sha": "5e44f99b80a73ae60435feb04de2bd29ea0e1364"
   }
 }
