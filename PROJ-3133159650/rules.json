@@ -12,5 +12,19 @@
     "authored_at": "2026-07-11T22:30:03.435Z",
     "authored_by": "aa575ab285f793e2c90c3aa0aba675",
     "notes": "Promoted from proposal pr_01KX9MFED5BB6D8V85ZW02NH80 (proposed 2026-07-11T22:23:57.323Z). Rationale: Joey confirmed this applies to all TCR projects going forward to prevent scheduling and routing confusion."
+  },
+  "r_01KX9NG926F81SBNQV5HMS8SBY": {
+    "id": "r_01KX9NG926F81SBNQV5HMS8SBY",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "notes_field_purpose",
+    "content": "The notes field on an app_project must carry live scope-relevant PM notes only; QA or test data must be cleared before the project advances to estimation or crew scheduling.",
+    "kind": "must",
+    "origin": "system_proposed",
+    "authored_at": "2026-07-11T22:41:53.219Z",
+    "authored_by": "aa575ab285f793e2c90c3aa0aba675",
+    "notes": "Promoted from proposal pr_01KX9MFEE3AKC18S5R88H9CN4R (proposed 2026-07-11T22:23:57.323Z). Rationale: Joey confirmed this is the intended purpose of the notes field going forward, to avoid confusing downstream workflows with test artifacts."
   }
 }
