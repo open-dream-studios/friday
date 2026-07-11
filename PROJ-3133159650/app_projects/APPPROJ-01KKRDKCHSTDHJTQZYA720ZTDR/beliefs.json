@@ -102,24 +102,24 @@
     "last_verified_at": "2026-07-11T18:04:13.878Z",
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   },
-  "b_01KX9DRJ752SNSZQ4VVCJ0DW9W": {
-    "id": "b_01KX9DRJ752SNSZQ4VVCJ0DW9W",
+  "b_01KX9DTWY8Q2WZ4GYYJHHP6MSW": {
+    "id": "b_01KX9DTWY8Q2WZ4GYYJHHP6MSW",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
     },
     "subject": "site_access_key_current",
-    "content": "The notes key is now 'INSECT' (20:26 update), extending the same-day chain to 12 distinct values (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER → BLACKWIDOW → FIREANT → SCORPION → BUGBITE → INSECT); at this volume and cadence this is almost certainly a systematic test sequence and should not be treated as an operational site-access credential.",
+    "content": "The current notes key is 'INSECT' as of the 20:26 UTC update, the thirteenth distinct value in the same-day chain (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER → BLACKWIDOW → FIREANT → SCORPION → BUGBITE → INSECT); this cadence confirms a systematic test/demo sequence rather than an operational site-access credential.",
     "kind": "prescriptive",
     "confidence": 0.97,
     "status": "active",
     "supported_by": [
       "f_01KX9DRJ720N73WFBB1CT3QJCY"
     ],
-    "falsification_test": "Would be wrong if crew is actively scheduled to visit the site today and the rotation represents a real physical lockbox code being changed for security reasons.",
-    "created_at": "2026-07-11T20:26:36.129Z",
-    "updated_at": "2026-07-11T20:26:36.129Z",
-    "last_verified_at": "2026-07-11T20:26:36.129Z",
-    "derived_from_sha": "82900f94f251c9477401de5850b7751aa5773534"
+    "falsification_test": "Would be wrong if crew is actively scheduled on-site today and each rotation represents a real physical lockbox code change for security reasons.",
+    "created_at": "2026-07-11T20:27:52.648Z",
+    "updated_at": "2026-07-11T20:27:52.648Z",
+    "last_verified_at": "2026-07-11T20:27:52.648Z",
+    "derived_from_sha": "c18d73e3b37bf1cfa6a5be364a3fc015253f5b67"
   }
 }
