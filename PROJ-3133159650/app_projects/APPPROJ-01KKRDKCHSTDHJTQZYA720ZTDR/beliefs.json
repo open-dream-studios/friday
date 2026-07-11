@@ -102,24 +102,24 @@
     "last_verified_at": "2026-07-11T18:04:13.878Z",
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   },
-  "b_01KX9E97N7W2816BQNRVK6R094": {
-    "id": "b_01KX9E97N7W2816BQNRVK6R094",
+  "b_01KX9HQZNHHJTFDNBN8Z49BCWE": {
+    "id": "b_01KX9HQZNHHJTFDNBN8Z49BCWE",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
     },
     "subject": "site_access_key_current",
-    "content": "The current notes key is 'OPERATION' (20:34 update), extending the same-day chain to 13 distinct values in data.json (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER → BLACKWIDOW → FIREANT → SCORPION → BUGBITE → INSECT → OPERATION); the cadence and volume continue to confirm a systematic test/demo sequence, not operational site-access credentials.",
+    "content": "The current notes key is 'MANTIS' (21:34 UTC update), extending the confirmed QA test sequence to 14 distinct values in a single day; per Joey's direct confirmation, all key rotations on this project are test artifacts with no operational significance.",
     "kind": "prescriptive",
     "confidence": 0.98,
     "status": "active",
     "supported_by": [
-      "f_01KX9E97N1H62MWMA6HRTJP04E"
+      "f_01KX9HQZNEXCANJ0RED6SFZFHE"
     ],
-    "falsification_test": "Would be wrong if crew is actively on-site today and each rotation represents a real physical lockbox code change for security reasons.",
-    "created_at": "2026-07-11T20:35:42.369Z",
-    "updated_at": "2026-07-11T20:35:42.369Z",
-    "last_verified_at": "2026-07-11T20:35:42.369Z",
-    "derived_from_sha": "5e44f99b80a73ae60435feb04de2bd29ea0e1364"
+    "falsification_test": "Would be wrong if crew is actively on-site today and this represents a real physical lockbox code change for security reasons.",
+    "created_at": "2026-07-11T21:36:11.437Z",
+    "updated_at": "2026-07-11T21:36:11.437Z",
+    "last_verified_at": "2026-07-11T21:36:11.437Z",
+    "derived_from_sha": "6475f16e53d1c289f96d615ce90548ba1a742de0"
   }
 }
