@@ -3,11 +3,13 @@
   "project_idx": 173,
   "name": "FRIDAY",
   "short_name": "FRIDAY",
+  "domain": "friday",
   "backend_domain": "https://dev-cms-production.up.railway.app",
   "brand": null,
+  "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
   "private_aws": false,
-  "_materialized_at": "2026-07-11T01:37:04.542Z"
+  "_materialized_at": "2026-07-11T01:47:17.706Z"
 }
