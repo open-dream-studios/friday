@@ -50,14 +50,35 @@
     "content": "With address and notes now populated alongside customer_id and lead_employee_id, APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR has crossed from initial stub to a substantially filled project record — consistent with a job moving from lead to active scoping or pre-contract. The 'scoping' belief from the prior cycle remains intact and strengthens.",
     "kind": "descriptive",
     "confidence": 0.87,
-    "status": "active",
+    "status": "superseded",
     "supported_by": [
       "f_01KX8AP6SKDZPETKDB0CV93RV8"
     ],
     "falsification_test": "If the notes field shows a status of 'closed', 'declined', or 'completed', this characterization is wrong.",
     "created_at": "2026-07-11T10:13:38.739Z",
-    "updated_at": "2026-07-11T10:13:38.739Z",
+    "updated_at": "2026-07-11T18:03:26.839Z",
     "last_verified_at": "2026-07-11T10:13:38.739Z",
-    "derived_from_sha": "5799018996fc53b45c8027f56dc65ddbdde022f0"
+    "derived_from_sha": "5799018996fc53b45c8027f56dc65ddbdde022f0",
+    "superseded_by": "b_01KX95JE7V6XSC7D34066QRMZB"
+  },
+  "b_01KX95JE7V6XSC7D34066QRMZB": {
+    "id": "b_01KX95JE7V6XSC7D34066QRMZB",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "bristol_project_record_complete",
+    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR has now been fully updated twice in one day, reinforcing that this job is in active early-stage configuration. The repeated full-field writes suggest iterative refinement rather than a one-time entry, consistent with pre-contract scoping or proposal preparation.",
+    "kind": "descriptive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KX95JE7QJ6AZPKYDMPBSTAQB"
+    ],
+    "falsification_test": "If the notes field shows a status of 'closed', 'declined', or 'completed', this characterization is wrong.",
+    "created_at": "2026-07-11T18:03:26.839Z",
+    "updated_at": "2026-07-11T18:03:26.839Z",
+    "last_verified_at": "2026-07-11T18:03:26.839Z",
+    "derived_from_sha": "62005a28c388e6aa7a4018d32f1c625a0e6515d3"
   }
 }
