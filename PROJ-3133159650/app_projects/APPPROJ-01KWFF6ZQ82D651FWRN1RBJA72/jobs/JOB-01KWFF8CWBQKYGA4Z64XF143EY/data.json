@@ -15,6 +15,7 @@
     "type": "planner_job_type",
     "resolved": true
   },
+  "customer": null,
   "scope_document": {
     "id": "doc_01KWFF7HD7FW3ZR595WHRDBTM2",
     "name": "scope.pdf",
@@ -25,5 +26,5 @@
     "name": "308_Evergreen_Addition.xlsx - Summary (1).csv",
     "resolved": true
   },
-  "_materialized_at": "2026-07-11T01:37:05.730Z"
+  "_materialized_at": "2026-07-11T01:47:18.920Z"
 }

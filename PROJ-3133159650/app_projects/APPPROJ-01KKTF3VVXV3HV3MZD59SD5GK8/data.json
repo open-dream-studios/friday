@@ -11,6 +11,7 @@
     "country": "US"
   },
   "valuation": null,
+  "latest_estimation_run_id": null,
   "latest_estimation_total": null,
   "latest_estimation_sent_at": null,
   "notes": null,
@@ -29,5 +30,5 @@
     "email": "joeygoff13@gmail.com",
     "resolved": true
   },
-  "_materialized_at": "2026-07-11T01:37:05.730Z"
+  "_materialized_at": "2026-07-11T01:47:18.920Z"
 }

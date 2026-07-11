@@ -15,5 +15,8 @@
     "type": "planner_job_type",
     "resolved": true
   },
-  "_materialized_at": "2026-07-11T01:37:05.730Z"
+  "customer": null,
+  "scope_document": null,
+  "breakdown_document": null,
+  "_materialized_at": "2026-07-11T01:47:18.920Z"
 }
