@@ -1,0 +1,13 @@
+{
+  "project_id": "PROJ-3133159650",
+  "project_idx": 132,
+  "name": "Tri Cities",
+  "short_name": "Tri Cities",
+  "backend_domain": "https://tricitiesremodeling.shop",
+  "brand": "Tri Cities",
+  "image_compression": "FAST",
+  "video_compression": "FAST",
+  "av1_enabled": false,
+  "private_aws": true,
+  "_materialized_at": "2026-07-11T01:37:05.730Z"
+}

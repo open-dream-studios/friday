@@ -1,0 +1,33 @@
+{
+  "app_project_id": "APPPROJ-01KKTF6DDGKC6A13EWQW7QM6JH",
+  "name": "Kingsport Kitchen Modernization",
+  "project_type": "remodel_kitchen",
+  "address": {
+    "line1": "145 West Main Street",
+    "line2": null,
+    "city": "Jonesborough",
+    "state": "Tennessee",
+    "postal_code": "37659",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4077,
+    "customer_id": "CUST-01KKTEKKC15XY7WMRZRZPNWK99",
+    "name": "shannon lovely",
+    "phone": "4941152912",
+    "email": "shanlov98@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": {
+    "id": 236,
+    "employee_id": "EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX",
+    "name": "Joey Goff",
+    "email": "joeygoff13@gmail.com",
+    "resolved": true
+  },
+  "_materialized_at": "2026-07-11T01:37:05.730Z"
+}

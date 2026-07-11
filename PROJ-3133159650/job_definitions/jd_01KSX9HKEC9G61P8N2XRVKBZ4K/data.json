@@ -1,0 +1,8 @@
+{
+  "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+  "identifier": "Addition",
+  "type": "planner_job_type",
+  "description": "Home Addition Jobs",
+  "parent_chain": [],
+  "_materialized_at": "2026-07-11T01:37:05.730Z"
+}
