@@ -193,5 +193,50 @@
       }
     ],
     "derived_from_sha": "98ea83eaeaa19fdfabb543eaacbf8cead99f84bd"
+  },
+  "f_01KX8ACB6488PEW6ZEYP7MK6A7": {
+    "id": "f_01KX8ACB6488PEW6ZEYP7MK6A7",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "notes_key_updated",
+    "content": "Project notes currently contain 'Key = HORNET' (updated from prior value).",
+    "confidence": 1,
+    "created_at": "2026-07-11T10:08:15.556Z",
+    "updated_at": "2026-07-11T10:08:15.556Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR/data.json:notes",
+        "sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T10:07:25.467Z",
+        "sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
+      }
+    ],
+    "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
+  },
+  "f_01KX8ACB64FWH6K6SWZD5ZYS03": {
+    "id": "f_01KX8ACB64FWH6K6SWZD5ZYS03",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "scope_document_re_edited",
+    "content": "The document 'bristol_scope.pdf' was edited again on 2026-07-11T10:07:05Z via editor doc_01KX76DHHZ4SA44JF49HX3MEJV.",
+    "confidence": 1,
+    "created_at": "2026-07-11T10:08:15.556Z",
+    "updated_at": "2026-07-11T10:08:15.556Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-11T10:07:05.837Z",
+        "sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
+      }
+    ],
+    "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
   }
 }
