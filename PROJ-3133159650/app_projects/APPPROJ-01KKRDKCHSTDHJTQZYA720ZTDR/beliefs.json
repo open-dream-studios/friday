@@ -102,24 +102,24 @@
     "last_verified_at": "2026-07-11T18:04:13.878Z",
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   },
-  "b_01KX9A4K9ZCBFF0F3EDMVFNVS3": {
-    "id": "b_01KX9A4K9ZCBFF0F3EDMVFNVS3",
+  "b_01KX9AQQGTAGKXTZ32CVPDXF4B": {
+    "id": "b_01KX9AQQGTAGKXTZ32CVPDXF4B",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
     },
     "subject": "site_access_key_current",
-    "content": "The notes key is now 'SPIDER' (19:20 update), extending the same-day chain to at least 7 distinct values (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER); at this frequency, a real on-site credential scenario is implausible and this is almost certainly a testing or demo workflow.",
+    "content": "The notes key is now 'BLACKWIDOW' (19:31 update), extending the same-day chain to 8 distinct values (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER → BLACKWIDOW); at this frequency, a real on-site credential scenario is implausible and this is almost certainly a testing or demo workflow.",
     "kind": "prescriptive",
-    "confidence": 0.8,
-    "status": "proposed",
+    "confidence": 0.9,
+    "status": "active",
     "supported_by": [
-      "f_01KX9A4K9X61AZS8SV18KY2KAW"
+      "f_01KX9AQQGQ90RK8R8B306J27R2"
     ],
     "falsification_test": "Would be wrong if this is a real physical key credential and crew is actively scheduled to visit the site today.",
-    "created_at": "2026-07-11T19:23:16.157Z",
-    "updated_at": "2026-07-11T19:23:16.157Z",
-    "last_verified_at": "2026-07-11T19:23:16.157Z",
-    "derived_from_sha": "f7b7204130b9cd969cfef5e799f604672ea22f4e"
+    "created_at": "2026-07-11T19:33:43.063Z",
+    "updated_at": "2026-07-11T19:33:43.063Z",
+    "last_verified_at": "2026-07-11T19:33:43.063Z",
+    "derived_from_sha": "77e87c8ee60537e20903d2dd67f2138ff233ed29"
   }
 }
