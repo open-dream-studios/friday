@@ -301,5 +301,24 @@
       }
     ],
     "derived_from_sha": "5d0656d02e7348a7f8eadd1b933629af15709ff4"
+  },
+  "f_01KX9MCCQX7BQ6AHDBAS8W7EZP": {
+    "id": "f_01KX9MCCQX7BQ6AHDBAS8W7EZP",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "answer_to_q_01KX95KW5S3N7YN41SEHPCM3H5",
+    "content": "Project names must always reflect the actual site city (from address.city), not aspirational or unrelated labels. When name and address disagree, the address is authoritative — update the name to match. Applies to all TCR projects going\nforward.",
+    "confidence": 0.95,
+    "created_at": "2026-07-11T22:22:17.341Z",
+    "updated_at": "2026-07-11T22:22:17.341Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KX95KW5S3N7YN41SEHPCM3H5",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
