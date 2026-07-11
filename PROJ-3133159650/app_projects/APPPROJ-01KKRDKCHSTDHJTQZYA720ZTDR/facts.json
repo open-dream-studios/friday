@@ -282,5 +282,24 @@
       }
     ],
     "derived_from_sha": "6475f16e53d1c289f96d615ce90548ba1a742de0"
+  },
+  "f_01KX9JDWF66WAF5K3TB03EK6MG": {
+    "id": "f_01KX9JDWF66WAF5K3TB03EK6MG",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
+    },
+    "subject": "answer_to_q_01KX9HNZN0D9VPXQDDKVP4FMJA",
+    "content": "Yes. Notes field is currently QA test data — clear it before estimation. Going forward, notes should carry live scope-relevant PM notes only.",
+    "confidence": 0.95,
+    "created_at": "2026-07-11T21:48:09.061Z",
+    "updated_at": "2026-07-11T21:48:09.061Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KX9HNZN0D9VPXQDDKVP4FMJA",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
