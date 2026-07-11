@@ -102,24 +102,24 @@
     "last_verified_at": "2026-07-11T18:04:13.878Z",
     "derived_from_sha": "87163678de0d0eec992689172b96a15454aa3440"
   },
-  "b_01KX98AQTCZBV7S4S6F5NX6K1R": {
-    "id": "b_01KX98AQTCZBV7S4S6F5NX6K1R",
+  "b_01KX9A4K9ZCBFF0F3EDMVFNVS3": {
+    "id": "b_01KX9A4K9ZCBFF0F3EDMVFNVS3",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR"
     },
-    "subject": "key_rotated_again_to_wasp",
-    "content": "The site access key has changed again — from 'BEE' to 'WASP' — in the 18:49 update, extending the same-day rotation chain (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP). Any crew member given a prior key value needs 'WASP' before visiting the site.",
+    "subject": "site_access_key_current",
+    "content": "The notes key is now 'SPIDER' (19:20 update), extending the same-day chain to at least 7 distinct values (ALPHA → HORNET → BLUEJACKET → MCQUEEN → BEE → WASP → SPIDER); at this frequency, a real on-site credential scenario is implausible and this is almost certainly a testing or demo workflow.",
     "kind": "prescriptive",
-    "confidence": 0.82,
+    "confidence": 0.8,
     "status": "proposed",
     "supported_by": [
-      "f_01KX98AQTB8M9FKZ9PFMD2ANKA"
+      "f_01KX9A4K9X61AZS8SV18KY2KAW"
     ],
-    "falsification_test": "Would be wrong if 'Key' does not refer to a physical or access credential and is instead a project classification or template identifier.",
-    "created_at": "2026-07-11T18:51:40.235Z",
-    "updated_at": "2026-07-11T18:51:40.235Z",
-    "last_verified_at": "2026-07-11T18:51:40.235Z",
-    "derived_from_sha": "6fee7ce1f3d325af759f7467cc54645efc12f9a7"
+    "falsification_test": "Would be wrong if this is a real physical key credential and crew is actively scheduled to visit the site today.",
+    "created_at": "2026-07-11T19:23:16.157Z",
+    "updated_at": "2026-07-11T19:23:16.157Z",
+    "last_verified_at": "2026-07-11T19:23:16.157Z",
+    "derived_from_sha": "f7b7204130b9cd969cfef5e799f604672ea22f4e"
   }
 }
