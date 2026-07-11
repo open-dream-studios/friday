@@ -3,11 +3,15 @@
   "project_idx": 25,
   "name": "TSA Backend",
   "short_name": "TSA",
+  "domain": "tannyspaacquisitions.com",
   "backend_domain": "https://tannyspaacquisitions.shop",
   "brand": "Tanny Spa Acquisition",
+  "numbers": [
+    9843588401
+  ],
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
   "private_aws": true,
-  "_materialized_at": "2026-07-11T01:37:06.022Z"
+  "_materialized_at": "2026-07-11T01:47:19.323Z"
 }
