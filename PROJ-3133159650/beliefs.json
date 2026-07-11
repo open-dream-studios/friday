@@ -40,24 +40,24 @@
     "last_verified_at": "2026-07-11T10:08:03.548Z",
     "derived_from_sha": "f7d72114d4c293ad519f632e3b3b17054ca6e5b2"
   },
-  "b_01KX95JE7V6XSC7D34066QRMZB": {
-    "id": "b_01KX95JE7V6XSC7D34066QRMZB",
+  "b_01KX9A0X52Z530NMSKDQS49K7A": {
+    "id": "b_01KX9A0X52Z530NMSKDQS49K7A",
     "entity": {
       "kind": "project",
       "id": "PROJ-3133159650"
     },
     "subject": "bristol_project_record_complete",
-    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR has now been fully updated twice in one day, reinforcing that this job is in active early-stage configuration. The repeated full-field writes suggest iterative refinement rather than a one-time entry, consistent with pre-contract scoping or proposal preparation.",
+    "content": "APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR has now been written five times in a single day across a 9-hour window; the consistent field set and escalating frequency make an automation or UI re-submission loop more likely than intentional manual refinement.",
     "kind": "descriptive",
-    "confidence": 0.88,
-    "status": "active",
+    "confidence": 0.72,
+    "status": "proposed",
     "supported_by": [
-      "f_01KX95JE7QJ6AZPKYDMPBSTAQB"
+      "f_01KX9A0X4YP8TC4YQ02HVBMF61"
     ],
-    "falsification_test": "If the notes field shows a status of 'closed', 'declined', or 'completed', this characterization is wrong.",
-    "created_at": "2026-07-11T18:03:26.839Z",
-    "updated_at": "2026-07-11T18:03:26.839Z",
-    "last_verified_at": "2026-07-11T18:03:26.839Z",
-    "derived_from_sha": "62005a28c388e6aa7a4018d32f1c625a0e6515d3"
+    "falsification_test": "If each write shows distinct value changes in name, address, or notes fields, intentional iterative refinement is the correct read.",
+    "created_at": "2026-07-11T19:21:15.166Z",
+    "updated_at": "2026-07-11T19:21:15.166Z",
+    "last_verified_at": "2026-07-11T19:21:15.166Z",
+    "derived_from_sha": "8bf7c678fbb1bf8fee7517c6609702f1e79baa77"
   }
 }
