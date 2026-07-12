@@ -16,6 +16,10 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
+  "scope_document": {
+    "id": "doc_01KX9ZCKYNDB8WQY3XK1RSMW4K",
+    "name": "308_new_scope.pdf",
+    "resolved": true
+  },
   "breakdown_document": null
 }
