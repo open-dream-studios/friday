@@ -16,6 +16,10 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
+  "scope_document": {
+    "id": "doc_01KXA8F05YN1J0TCTK82XYFRPT",
+    "name": "scope_evergreen.pdf",
+    "resolved": true
+  },
   "breakdown_document": null
 }
