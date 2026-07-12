@@ -1,0 +1,21 @@
+{
+  "job_id": "JOB-01KXA9MARM0KX221CC2Z713WGT",
+  "entity_type": "app_project",
+  "entity_id": "APPPROJ-01KXA9KTEDASC7C8YHGQPS3XR7",
+  "valuation": null,
+  "status": "waiting_work",
+  "priority": "medium",
+  "scheduled_start_date": "2026-10-05 04:00:00",
+  "completed_date": null,
+  "notes": null,
+  "job_definition": {
+    "id": 16,
+    "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+    "identifier": "Addition",
+    "type": "planner_job_type",
+    "resolved": true
+  },
+  "customer": null,
+  "scope_document": null,
+  "breakdown_document": null
+}
