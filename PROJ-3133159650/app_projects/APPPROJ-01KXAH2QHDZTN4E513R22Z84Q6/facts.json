@@ -1,1 +1,197 @@
-{}
+{
+  "f_01KXAH6A66QJ6GPCGK2808T1YM": {
+    "id": "f_01KXAH6A66QJ6GPCGK2808T1YM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "customer_name",
+    "content": "The customer for this project is John Cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.customer_id",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A69PRKG9VK07QV37MN9": {
+    "id": "f_01KXAH6A69PRKG9VK07QV37MN9",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "customer_phone",
+    "content": "Customer phone on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A6AD26VRQJJM78BWR99": {
+    "id": "f_01KXAH6A6AD26VRQJJM78BWR99",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "customer_email",
+    "content": "Customer email on file is johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A6ADFZC0Q2JJWQS8CW3": {
+    "id": "f_01KXAH6A6ADFZC0Q2JJWQS8CW3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "lead_employee_assignment",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR, william.fallon@tcrandc.com) is assigned as lead employee.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee.name",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee.employee_id",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee.email",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A6AWD5JT83SMYZJEVRM": {
+    "id": "f_01KXAH6A6AWD5JT83SMYZJEVRM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (37642, Hawkins County) is approximately 20–25 miles from Kingsport and well within TCR's 45-mile service radius centered on Johnson City.",
+    "confidence": 0.9,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:address.postal_code",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:address.state",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A6A875WM9K0FM4Z4SFX": {
+    "id": "f_01KXAH6A6A875WM9K0FM4Z4SFX",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "notes_field_status",
+    "content": "The notes field is null; no PM notes or QA data are present on this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A6AS1AFXQJAHWQGKJ3T": {
+    "id": "f_01KXAH6A6AS1AFXQJAHWQGKJ3T",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation has been run; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  },
+  "f_01KXAH6A6AAY2HZKJVYZP3TQKV": {
+    "id": "f_01KXAH6A6AAY2HZKJVYZP3TQKV",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAH2QHDZTN4E513R22Z84Q6"
+    },
+    "subject": "scope_document_attached",
+    "content": "A scope document (scope.pdf, 91,515 bytes, sha=41b0b229) is attached to this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:45:46.822Z",
+    "updated_at": "2026-07-12T06:45:46.822Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+      }
+    ],
+    "derived_from_sha": "62e7334c0ccc7e49e386f5977c924b274265d7a6"
+  }
+}
