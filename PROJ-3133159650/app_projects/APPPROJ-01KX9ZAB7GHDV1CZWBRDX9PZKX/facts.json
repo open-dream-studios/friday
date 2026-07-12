@@ -1,1 +1,112 @@
-{}
+{
+  "f_01KX9ZBZ6XS32BSF5PHKKV97CB": {
+    "id": "f_01KX9ZBZ6XS32BSF5PHKKV97CB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9ZAB7GHDV1CZWBRDX9PZKX"
+    },
+    "subject": "property_address",
+    "content": "Property is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:34:17.820Z",
+    "updated_at": "2026-07-12T01:34:17.820Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      }
+    ],
+    "derived_from_sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+  },
+  "f_01KX9ZBZ71444P3DDJT79Y1Y16": {
+    "id": "f_01KX9ZBZ71444P3DDJT79Y1Y16",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9ZAB7GHDV1CZWBRDX9PZKX"
+    },
+    "subject": "customer_identity",
+    "content": "Customer is john cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH), reachable at johncooper@gmail.com or 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:34:17.820Z",
+    "updated_at": "2026-07-12T01:34:17.820Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      }
+    ],
+    "derived_from_sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+  },
+  "f_01KX9ZBZ71K74HY0WV1K5MS8FE": {
+    "id": "f_01KX9ZBZ71K74HY0WV1K5MS8FE",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9ZAB7GHDV1CZWBRDX9PZKX"
+    },
+    "subject": "lead_employee",
+    "content": "Lead employee is Joey Goff (EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX).",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:34:17.820Z",
+    "updated_at": "2026-07-12T01:34:17.820Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      }
+    ],
+    "derived_from_sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+  },
+  "f_01KX9ZBZ71CR0YD55H84ZMYY56": {
+    "id": "f_01KX9ZBZ71CR0YD55H84ZMYY56",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9ZAB7GHDV1CZWBRDX9PZKX"
+    },
+    "subject": "project_type_field",
+    "content": "project_type is set to 'other', which does not map to any of TCR's standard service lines (bathroom, kitchen, addition).",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:34:17.820Z",
+    "updated_at": "2026-07-12T01:34:17.820Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:project_type",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      }
+    ],
+    "derived_from_sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+  },
+  "f_01KX9ZBZ72H821HQYZRH8S4DM6": {
+    "id": "f_01KX9ZBZ72H821HQYZRH8S4DM6",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9ZAB7GHDV1CZWBRDX9PZKX"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation has been run; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:34:17.820Z",
+    "updated_at": "2026-07-12T01:34:17.820Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+      }
+    ],
+    "derived_from_sha": "5f8c67b3065cf2074a634e0ce28d8fd8d45737e4"
+  }
+}
