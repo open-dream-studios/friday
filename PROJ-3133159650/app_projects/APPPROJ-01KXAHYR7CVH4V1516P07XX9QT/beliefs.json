@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXAJ0FSC4DNX9VFAXW9DZ94X": {
+    "id": "b_01KXAJ0FSC4DNX9VFAXW9DZ94X",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAHYR7CVH4V1516P07XX9QT"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN is approximately 10 miles from Kingsport — one of TCR's named core markets — placing it well within the 45-mile service radius centered on Johnson City. This project falls inside the service area.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAJ0FSC2PG5QY9SG69T9HDY"
+    ],
+    "falsification_test": "A precise distance calculation showing Church Hill exceeds 45 road miles from Johnson City would falsify this.",
+    "created_at": "2026-07-12T07:00:04.522Z",
+    "updated_at": "2026-07-12T07:00:04.522Z",
+    "last_verified_at": "2026-07-12T07:00:04.522Z",
+    "derived_from_sha": "acc8eb14f1c5f4e37da5d76ef69e9002ea36413f"
+  }
+}
