@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXAN3HPYZJF0WKVJB98D28BD": {
+    "id": "b_01KXAN3HPYZJF0WKVJB98D28BD",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAN02F52THQWE3ZNKB702YC"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (Hawkins County) is approximately 25-30 miles northeast of Johnson City, placing it within TCR's stated 45-mile service radius. Membership appears valid but has not been geocode-confirmed.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAN3HPW88W1FJWQMACS621F"
+    ],
+    "falsification_test": "A geocoded distance exceeding 45 miles from Johnson City, TN would falsify this.",
+    "created_at": "2026-07-12T07:54:10.523Z",
+    "updated_at": "2026-07-12T07:54:10.523Z",
+    "last_verified_at": "2026-07-12T07:54:10.523Z",
+    "derived_from_sha": "d2c19afa59e1dd75155e750b7262200d1546ca2c"
+  }
+}
