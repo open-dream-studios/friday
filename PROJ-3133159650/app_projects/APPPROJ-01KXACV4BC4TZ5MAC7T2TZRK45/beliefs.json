@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KXACXM6K49A8XGMDS67NBB59": {
+    "id": "b_01KXACXM6K49A8XGMDS67NBB59",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXACV4BC4TZ5MAC7T2TZRK45"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (Hawkins County) is approximately 25 miles from Johnson City, placing it well within TCR's 45-mile service radius. No service-area concern is anticipated.",
+    "kind": "descriptive",
+    "confidence": 0.82,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXACXM6GDS5WS6VT29GJ9H4C"
+    ],
+    "falsification_test": "A confirmed map distance from Church Hill to Johnson City exceeding 45 miles would falsify this.",
+    "created_at": "2026-07-12T05:31:07.856Z",
+    "updated_at": "2026-07-12T05:31:07.856Z",
+    "last_verified_at": "2026-07-12T05:31:07.856Z",
+    "derived_from_sha": "efb881d734aea64c47ba727f793bc8ead82ac0b3"
+  },
+  "b_01KXACXM6KMGT0P7B5CYTN837H": {
+    "id": "b_01KXACXM6KMGT0P7B5CYTN837H",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXACV4BC4TZ5MAC7T2TZRK45"
+    },
+    "subject": "estimation_readiness",
+    "content": "This project is in early intake with no estimation run, no attached documents, and no jobs created; it is not yet estimation-ready.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXACXM6KVF3J3JTZSX38NNJB"
+    ],
+    "falsification_test": "An estimation run or job being created would falsify this.",
+    "created_at": "2026-07-12T05:31:07.856Z",
+    "updated_at": "2026-07-12T05:31:07.856Z",
+    "last_verified_at": "2026-07-12T05:31:07.856Z",
+    "derived_from_sha": "efb881d734aea64c47ba727f793bc8ead82ac0b3"
+  }
+}
