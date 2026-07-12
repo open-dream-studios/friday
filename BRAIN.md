@@ -178,6 +178,26 @@ DB↔trunk map: [`DATA_MODEL.md`](./DATA_MODEL.md).
 
 Rules are eternal until deprecated. Beliefs and patterns rot.
 
+**Shape as shipped (2026-07):** intelligence lives as split JSON/JSONL
+files per entity — `facts.json`, `beliefs.json`, `questions.jsonl`,
+`rules.json`, `proposed_rules.jsonl` — with a `.history/` sibling folder
+tracking every transition (superseded, retired, moot, etc.). Each file
+is preserved through materialize; disk is the source of truth.
+
+**Question status enum:** `open | surfaced | answered | possibly_stale
+| verified | retired | superseded | moot`. Structured `answer` objects
+carry `snapshot_fact_ids` + `snapshot_belief_ids` for drift detection,
+plus `source_channel` (`human_direct | rule | state_change | self_answer`).
+Questions cluster by `concept` slug; auto-flagged contradictions get
+deterministic `concept: contradiction_<subject>` slugs.
+
+**Rules tier:** `rules.json` at project scope holds authoritative
+prescriptives (`kind: must | must_not | constant`) that cascade to every
+descendant scope. `proposed_rules.jsonl` holds pending proposals awaiting
+Boss approval — the answer-to-rule promotion loop watches Q&A answers,
+proposes rules with rationale, and cascades acceptance to descendant
+questions matching the subject.
+
 **Every belief and pattern carries:**
 - `id`, `scope`, `content`, `confidence` (0–1)
 - `authored_at`, `authored_by` (agent or human user_id)
