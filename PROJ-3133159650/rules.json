@@ -1,18 +1,4 @@
 {
-  "r_01KX9MTKXD3K9ZTZGZ0GDBWXKB": {
-    "id": "r_01KX9MTKXD3K9ZTZGZ0GDBWXKB",
-    "entity": {
-      "kind": "project",
-      "id": "PROJ-3133159650"
-    },
-    "subject": "project_name_city_alignment",
-    "content": "Project names must always reflect the actual site city (from address.city). When name and address disagree, the address is authoritative — update the name to match.",
-    "kind": "must",
-    "origin": "system_proposed",
-    "authored_at": "2026-07-11T22:30:03.435Z",
-    "authored_by": "aa575ab285f793e2c90c3aa0aba675",
-    "notes": "Promoted from proposal pr_01KX9MFED5BB6D8V85ZW02NH80 (proposed 2026-07-11T22:23:57.323Z). Rationale: Joey confirmed this applies to all TCR projects going forward to prevent scheduling and routing confusion."
-  },
   "r_01KX9NG926F81SBNQV5HMS8SBY": {
     "id": "r_01KX9NG926F81SBNQV5HMS8SBY",
     "entity": {
