@@ -36,7 +36,7 @@
     "supported_by": [
       "f_01KXA028VSC2Q65W66HRMYYGWF"
     ],
-    "falsification_test": "Joey confirming which figure is current and what each counts would resolve this.",
+    "falsification_test": "the owner confirming which figure is current and what each counts would resolve this.",
     "created_at": "2026-07-12T01:46:28.595Z",
     "updated_at": "2026-07-12T01:46:28.595Z",
     "last_verified_at": "2026-07-12T01:46:28.595Z",
@@ -58,7 +58,7 @@
       "f_01KXA028VV6TSXMWFA8Z64VTHN",
       "f_01KXA028VTV4FSQ4FVQ953BFGM"
     ],
-    "falsification_test": "A documented exception approved by Joey for any of these three items would falsify this.",
+    "falsification_test": "A documented exception approved by the owner for any of these three items would falsify this.",
     "created_at": "2026-07-12T01:46:28.595Z",
     "updated_at": "2026-07-12T01:46:28.595Z",
     "last_verified_at": "2026-07-12T01:46:28.595Z",

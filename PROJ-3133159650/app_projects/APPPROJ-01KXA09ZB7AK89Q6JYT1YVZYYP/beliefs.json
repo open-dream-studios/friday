@@ -1,24 +1,4 @@
 {
-  "b_01KXA0C0EDSHS2G1JEARKR4BBF": {
-    "id": "b_01KXA0C0EDSHS2G1JEARKR4BBF",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
-    },
-    "subject": "project_type_classification",
-    "content": "project_type 'other' does not map to any of TCR's three accepted job categories (bathroom remodel, kitchen remodel, single-story addition); actual work type is currently unknown.",
-    "kind": "descriptive",
-    "confidence": 0.95,
-    "status": "active",
-    "supported_by": [
-      "f_01KXA0C0ED48SDGWJSS3Q3H5JH"
-    ],
-    "falsification_test": "A corrected project_type or attached scope document clarifying the work type would resolve this.",
-    "created_at": "2026-07-12T01:51:47.657Z",
-    "updated_at": "2026-07-12T01:51:47.657Z",
-    "last_verified_at": "2026-07-12T01:51:47.657Z",
-    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
-  },
   "b_01KXA0C0EE1KSG6S9E3QPE2400": {
     "id": "b_01KXA0C0EE1KSG6S9E3QPE2400",
     "entity": {
@@ -38,5 +18,26 @@
     "updated_at": "2026-07-12T01:51:47.657Z",
     "last_verified_at": "2026-07-12T01:51:47.657Z",
     "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  },
+  "b_01KXA0MNZ86A343BPC135VQMSW": {
+    "id": "b_01KXA0MNZ86A343BPC135VQMSW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "project_type_classification",
+    "content": "Project type remains recorded as 'other' in data.json; a scope document is now attached and should resolve the actual work classification at job scope.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA0C0ED48SDGWJSS3Q3H5JH",
+      "f_01KXA0MNZ8T9Q0AJ7J130WJM94"
+    ],
+    "falsification_test": "A corrected project_type field in data.json or job-scope derivation confirming the work category would resolve this.",
+    "created_at": "2026-07-12T01:56:31.847Z",
+    "updated_at": "2026-07-12T01:56:31.847Z",
+    "last_verified_at": "2026-07-12T01:56:31.847Z",
+    "derived_from_sha": "cf8c1dedcc87900dfa1467b7efea97e18772fc6d"
   }
 }
