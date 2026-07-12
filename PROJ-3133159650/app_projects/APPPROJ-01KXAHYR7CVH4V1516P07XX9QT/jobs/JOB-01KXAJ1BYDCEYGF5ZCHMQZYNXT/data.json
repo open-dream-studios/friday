@@ -5,7 +5,7 @@
   "valuation": null,
   "status": "waiting_work",
   "priority": "medium",
-  "scheduled_start_date": "2026-10-15 04:00:00",
+  "scheduled_start_date": "2026-10-05 04:00:00",
   "completed_date": null,
   "notes": null,
   "job_definition": {
@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01KXAJ20EYB48Q9C8F6FKT16BF",
+    "name": "scope_of_work.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01KXAJ29C7T820D3MJEP9FJQ91",
+    "name": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+    "resolved": true
+  }
 }
