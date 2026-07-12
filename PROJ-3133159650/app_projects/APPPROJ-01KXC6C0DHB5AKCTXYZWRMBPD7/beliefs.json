@@ -1,1 +1,23 @@
-{}
+{
+  "b_01KXC6KKW9TCKTJA86BWBD44B5": {
+    "id": "b_01KXC6KKW9TCKTJA86BWBD44B5",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC6C0DHB5AKCTXYZWRMBPD7"
+    },
+    "subject": "customer_contact_reliability",
+    "content": "Customer contact data is partially suspect: phone area code 295 is non-standard and likely a data-entry error, reducing confidence that 2955349323 will reach John Simons. Email appears well-formed.",
+    "kind": "descriptive",
+    "confidence": 0.72,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXC6KKW8FKEMQ26EHF02F83M",
+      "f_01KXC6KKW88KFCA7NHG45ZA4AG"
+    ],
+    "falsification_test": "Owner or customer confirming 2955349323 is intentionally correct would falsify this.",
+    "created_at": "2026-07-12T22:19:17.252Z",
+    "updated_at": "2026-07-12T22:19:17.252Z",
+    "last_verified_at": "2026-07-12T22:19:17.252Z",
+    "derived_from_sha": "307aa52ee33d95b0c3118af01750b1c90d2c5109"
+  }
+}
