@@ -1,1 +1,132 @@
-{}
+{
+  "f_01KX9Y0AF2PWXQEBRTQSY6Y57J": {
+    "id": "f_01KX9Y0AF2PWXQEBRTQSY6Y57J",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9XYTZANTH6YTY39C49CXX1"
+    },
+    "subject": "project_address",
+    "content": "The project is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:10:27.553Z",
+    "updated_at": "2026-07-12T01:10:27.553Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      }
+    ],
+    "derived_from_sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+  },
+  "f_01KX9Y0AF3SN98DJ41QKC78SRK": {
+    "id": "f_01KX9Y0AF3SN98DJ41QKC78SRK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9XYTZANTH6YTY39C49CXX1"
+    },
+    "subject": "customer_identity",
+    "content": "Customer is john cooper, reachable at phone 2955349323 and email johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:10:27.553Z",
+    "updated_at": "2026-07-12T01:10:27.553Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      }
+    ],
+    "derived_from_sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+  },
+  "f_01KX9Y0AF4G4PVDNF28069J58G": {
+    "id": "f_01KX9Y0AF4G4PVDNF28069J58G",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9XYTZANTH6YTY39C49CXX1"
+    },
+    "subject": "lead_employee",
+    "content": "Joey Goff (EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX) is assigned as lead employee.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:10:27.553Z",
+    "updated_at": "2026-07-12T01:10:27.553Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      }
+    ],
+    "derived_from_sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+  },
+  "f_01KX9Y0AF4YNW61FC2K6SPTPS6": {
+    "id": "f_01KX9Y0AF4YNW61FC2K6SPTPS6",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9XYTZANTH6YTY39C49CXX1"
+    },
+    "subject": "project_type_raw",
+    "content": "The project_type field is set to 'other', which does not map to a standard TCR job type (bathroom, kitchen, addition).",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:10:27.553Z",
+    "updated_at": "2026-07-12T01:10:27.553Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:project_type",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      }
+    ],
+    "derived_from_sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+  },
+  "f_01KX9Y0AF44TYQ0HADDTRB6RFB": {
+    "id": "f_01KX9Y0AF44TYQ0HADDTRB6RFB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9XYTZANTH6YTY39C49CXX1"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation has been run; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:10:27.553Z",
+    "updated_at": "2026-07-12T01:10:27.553Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      }
+    ],
+    "derived_from_sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+  },
+  "f_01KX9Y0AF4D51ZJADRRCEAA2AS": {
+    "id": "f_01KX9Y0AF4D51ZJADRRCEAA2AS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9XYTZANTH6YTY39C49CXX1"
+    },
+    "subject": "creation_history",
+    "content": "This is the third '308 Evergreen Street' app_project created; two prior instances (APPPROJ-01KX9VW73PRDVKAXHE16VB70XT and APPPROJ-01KX9WZJGMCNKNXZ4XVVX5G58K) were created and deleted on 2026-07-12, with the second briefly having a job attached before deletion.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:10:27.553Z",
+    "updated_at": "2026-07-12T01:10:27.553Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+      }
+    ],
+    "derived_from_sha": "876645289bad2d02bd8741476bc62de77d5a7e7d"
+  }
+}
