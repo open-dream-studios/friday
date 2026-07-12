@@ -334,26 +334,6 @@
     ],
     "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
   },
-  "f_01KXA028VVERCT2WQPY05RDEVF": {
-    "id": "f_01KXA028VVERCT2WQPY05RDEVF",
-    "entity": {
-      "kind": "project",
-      "id": "PROJ-3133159650"
-    },
-    "subject": "job_types_offered",
-    "content": "TCR offers bathroom remodels, kitchen remodels, and single-story home additions only; commercial work and ground-up builds are excluded.",
-    "confidence": 1,
-    "created_at": "2026-07-12T01:46:28.595Z",
-    "updated_at": "2026-07-12T01:46:28.595Z",
-    "citations": [
-      {
-        "kind": "claude_md",
-        "path": "CLAUDE.md",
-        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
-      }
-    ],
-    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
-  },
   "f_01KXA028VV6TSXMWFA8Z64VTHN": {
     "id": "f_01KXA028VV6TSXMWFA8Z64VTHN",
     "entity": {
@@ -418,5 +398,25 @@
       }
     ],
     "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA3VEEV15605DB3AT3K6DM2": {
+    "id": "f_01KXA3VEEV15605DB3AT3K6DM2",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "job_types_offered",
+    "content": "TCR offers bathroom remodels, kitchen remodels, and home additions (both single- and multi-story); ground-up new construction is a hard no, and commercial or exterior-only work is evaluated case-by-case rather than categorically refused.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:39.259Z",
+    "updated_at": "2026-07-12T02:52:39.259Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "f934be0cb20145b975beee924c390b08262276f5"
+      }
+    ],
+    "derived_from_sha": "f934be0cb20145b975beee924c390b08262276f5"
   }
 }

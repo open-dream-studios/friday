@@ -183,5 +183,24 @@
       }
     ],
     "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3X2RANSAR2AHPBQ92FGPW": {
+    "id": "f_01KXA3X2RANSAR2AHPBQ92FGPW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "answer_to_q_01KXA3T9NQB9YC88XPMAJ7HY91",
+    "content": "Kitchen",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T02:53:32.810Z",
+    "updated_at": "2026-07-12T02:53:32.810Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXA3T9NQB9YC88XPMAJ7HY91",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
