@@ -1,1 +1,157 @@
-{}
+{
+  "f_01KXB26DNMCKBD62W39QDDHK17": {
+    "id": "f_01KXB26DNMCKBD62W39QDDHK17",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "property_address_full",
+    "content": "Property address is 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB26DNQ75RS0ERGQMDV8BCP": {
+    "id": "f_01KXB26DNQ75RS0ERGQMDV8BCP",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "property_service_area_status",
+    "content": "Church Hill, TN is approximately 35–40 miles from Johnson City, TN, placing it within TCR's 45-mile service radius.",
+    "confidence": 0.85,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:address.state",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB26DNQH172BD802SWKKPE1": {
+    "id": "f_01KXB26DNQH172BD802SWKKPE1",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "customer_primary_contact",
+    "content": "Customer is john simons (CUST-01KKSYA9BNQY420D3GEQ8XD5AH), phone 2955349323, email johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB26DNQ8RWVZ71756949K65": {
+    "id": "f_01KXB26DNQ8RWVZ71756949K65",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "lead_employee_assignment",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR) is assigned as lead employee on this project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB26DNQ44F3055ZE8DWBKSX": {
+    "id": "f_01KXB26DNQ44F3055ZE8DWBKSX",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "attached_documents_property_match",
+    "content": "All three attached documents reference 'Simons Residence' or 'Simons Addition', consistent with customer john simons; documents are confirmed to belong to this property.",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      },
+      {
+        "kind": "document",
+        "path": "3725 SIMONS 012226.pdf",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB26DNQ5AWX6J5CVRM69CBC": {
+    "id": "f_01KXB26DNQ5AWX6J5CVRM69CBC",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "notes_field_status",
+    "content": "Notes field is null; no test or QA data is present, compliant with the notes field policy rule.",
+    "confidence": 1,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB26DNQHMBFADR9PXP9V6E3": {
+    "id": "f_01KXB26DNQHMBFADR9PXP9V6E3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB20RZ3J6FTBM00CH4DMAS8"
+    },
+    "subject": "customer_name_casing",
+    "content": "Customer name is stored as 'john simons' (all lowercase) in data.json, which may be a data-entry formatting issue.",
+    "confidence": 1,
+    "created_at": "2026-07-12T11:42:56.180Z",
+    "updated_at": "2026-07-12T11:42:56.180Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  }
+}
