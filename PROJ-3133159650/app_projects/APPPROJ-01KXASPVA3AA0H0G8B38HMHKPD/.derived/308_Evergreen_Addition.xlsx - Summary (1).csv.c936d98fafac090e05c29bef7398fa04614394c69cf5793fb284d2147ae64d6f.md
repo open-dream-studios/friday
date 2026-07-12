@@ -1,5 +1,5 @@
 tier: text
-extracted_at: 2026-07-12T09:10:01.294Z
+extracted_at: 2026-07-12T09:15:31.805Z
 ---
 Two-Story Addition + Bedroom Remodel – Cost Breakdown (Incl. Tankless WH Option),,,,,,,,,Project Totals,
 ,,,,,,,,,Labor Cost,"$45,167.59"
