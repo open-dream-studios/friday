@@ -7,7 +7,7 @@
   "priority": "medium",
   "scheduled_start_date": "2026-10-12 04:00:00",
   "completed_date": null,
-  "notes": null,
+  "notes": "John has a wife named Nancy Simons.",
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01KXC9VK4T9DJCBXFPKG8TVKQH",
+    "name": "scope.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01KXC9VTS5J69569ZQFR97BD72",
+    "name": "308_Evergreen_Addition_Breakdown.csv",
+    "resolved": true
+  }
 }
