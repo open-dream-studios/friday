@@ -1,1 +1,65 @@
-{}
+{
+  "b_01KXC6QGXZ29PKK25G692NDDQG": {
+    "id": "b_01KXC6QGXZ29PKK25G692NDDQG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC6D2650HP1KWDAQ75FBMF1"
+    },
+    "subject": "critical_path_risk_drivers",
+    "content": "TDEC septic determination (4-8 weeks) and roof framing method selection (trusses = 4-6 week lead) are the most time-sensitive pre-construction decisions; both must be resolved immediately to protect the 2026-10-12 start date.",
+    "kind": "predictive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC6QGXZS706T5GDZ2EEQEGA",
+      "f_01KXC6QGXY52TQ783VC0PDMQ6P",
+      "f_01KXC6QGXYE2K1C06V6RKZGTBX"
+    ],
+    "falsification_test": "TDEC confirms no septic action required and stick-framing is confirmed, eliminating both long-lead items from the critical path.",
+    "created_at": "2026-07-12T22:21:25.309Z",
+    "updated_at": "2026-07-12T22:21:25.309Z",
+    "last_verified_at": "2026-07-12T22:21:25.309Z",
+    "derived_from_sha": "307aa52ee33d95b0c3118af01750b1c90d2c5109"
+  },
+  "b_01KXC6QGY0ZT8PJE2TDSQERYNR": {
+    "id": "b_01KXC6QGY0ZT8PJE2TDSQERYNR",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC6D2650HP1KWDAQ75FBMF1"
+    },
+    "subject": "retrofit_scope_present",
+    "content": "The scope contains identifiable retrofit work (hall bath modification, existing bedroom remodel) that is distinct from the new addition shell and should be tracked in separate components per job-type rules.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC6QGXZTK696N3P3NAZD6Q4",
+      "f_01KXC6QGXY35GHCBDCJCBTA4F4"
+    ],
+    "falsification_test": "The scope clarifies that all sections relate directly to new addition construction with no work in existing spaces.",
+    "created_at": "2026-07-12T22:21:25.309Z",
+    "updated_at": "2026-07-12T22:21:25.309Z",
+    "last_verified_at": "2026-07-12T22:21:25.309Z",
+    "derived_from_sha": "307aa52ee33d95b0c3118af01750b1c90d2c5109"
+  },
+  "b_01KXC6QGY0NS0QPJKANMTRSDFJ": {
+    "id": "b_01KXC6QGY0NS0QPJKANMTRSDFJ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC6D2650HP1KWDAQ75FBMF1"
+    },
+    "subject": "contract_price_status",
+    "content": "No customer-facing contract price is recorded; the ~$100,779 cost estimate implies a minimum sell price of ~$143,970 at TCR's 30% margin floor, and this must be set before the job can advance to contract signing.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC6QGXXDXN8Z656KX958CW8"
+    ],
+    "falsification_test": "A contract valuation at or above $143,970 is set on the job record.",
+    "created_at": "2026-07-12T22:21:25.309Z",
+    "updated_at": "2026-07-12T22:21:25.309Z",
+    "last_verified_at": "2026-07-12T22:21:25.309Z",
+    "derived_from_sha": "307aa52ee33d95b0c3118af01750b1c90d2c5109"
+  }
+}
