@@ -1,1 +1,127 @@
-{}
+{
+  "f_01KXAKFDPWGX7VQDTNTJ22RJPN": {
+    "id": "f_01KXAKFDPWGX7VQDTNTJ22RJPN",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      }
+    ],
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  },
+  "f_01KXAKFDPYF3S6GJBVDD9R88ZW": {
+    "id": "f_01KXAKFDPYF3S6GJBVDD9R88ZW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "customer_identity",
+    "content": "The customer is Tracy Ledyard (CUST-01KKTEQ38WQQ5RZWDXAY6JZW6M), reachable at phone 4123923424 and email tracymledyard@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      }
+    ],
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  },
+  "f_01KXAKFDPYZ6ME8G618W2XNKCJ": {
+    "id": "f_01KXAKFDPYZ6ME8G618W2XNKCJ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "lead_employee_assignment",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR) is assigned as lead employee on this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      }
+    ],
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  },
+  "f_01KXAKFDPYPHFXRWRDXMQAFWR5": {
+    "id": "f_01KXAKFDPYPHFXRWRDXMQAFWR5",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "notes_field_status",
+    "content": "The notes field is null — no PM notes or test artifacts are present, which is compliant with the notes_field_purpose rule.",
+    "confidence": 1,
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      }
+    ],
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  },
+  "f_01KXAKFDPYFHNYZ88G2SRHA3E3": {
+    "id": "f_01KXAKFDPYFHNYZ88G2SRHA3E3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation has been run; latest_estimation_run_id and latest_estimation_total are both null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      }
+    ],
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  },
+  "f_01KXAKFDPZEV0B4KCAGJJ6BM4R": {
+    "id": "f_01KXAKFDPZEV0B4KCAGJJ6BM4R",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "scope_document_presence",
+    "content": "A vision-type scope document (scope.pdf, ~91.5 KB) is attached to this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+      }
+    ],
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  }
+}

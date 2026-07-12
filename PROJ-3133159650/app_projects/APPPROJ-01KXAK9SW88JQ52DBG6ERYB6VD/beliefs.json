@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KXAKFDPZMHHC40MG7GQ4K9QY": {
+    "id": "b_01KXAKFDPZMHHC40MG7GQ4K9QY",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (Hawkins County) is approximately 30 miles from Johnson City, placing this property well within TCR's 45-mile service radius.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAKFDPWGX7VQDTNTJ22RJPN"
+    ],
+    "falsification_test": "A route measurement showing Church Hill exceeds 45 road miles from Johnson City would falsify this.",
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "last_verified_at": "2026-07-12T07:25:42.491Z",
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  },
+  "b_01KXAKFDPZT5W0150BDQQGQ9QW": {
+    "id": "b_01KXAKFDPZT5W0150BDQQGQ9QW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAK9SW88JQ52DBG6ERYB6VD"
+    },
+    "subject": "customer_phone_data_quality",
+    "content": "The customer phone 4123923424 carries a 412 area code (Pittsburgh, PA), which is atypical for a Church Hill, TN customer and may be a transcription error.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXAKFDPYF3S6GJBVDD9R88ZW"
+    ],
+    "falsification_test": "Confirmation from the customer or lead employee that 412 is the correct area code would falsify this.",
+    "created_at": "2026-07-12T07:25:42.491Z",
+    "updated_at": "2026-07-12T07:25:42.491Z",
+    "last_verified_at": "2026-07-12T07:25:42.491Z",
+    "derived_from_sha": "ec5373e37156ee02072a4955c7d3f8c61ee1f210"
+  }
+}
