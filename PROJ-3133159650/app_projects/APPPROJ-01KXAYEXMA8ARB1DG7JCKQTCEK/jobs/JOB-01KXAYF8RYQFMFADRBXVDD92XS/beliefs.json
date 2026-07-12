@@ -78,5 +78,46 @@
     "updated_at": "2026-07-12T10:43:16.938Z",
     "last_verified_at": "2026-07-12T10:43:16.938Z",
     "derived_from_sha": "a57e7c54484613ed67b34507b9fc0c4b5af40ac6"
+  },
+  "b_01KXAZENFH0GCKCTFF0DFS6BH0": {
+    "id": "b_01KXAZENFH0GCKCTFF0DFS6BH0",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "hvac_scheduling_implication",
+    "content": "HVAC is a mini-split system; per TCR operational rules, no separate rough-in phase or rough HVAC inspection is required — install is a single-day task after equipment delivery. The rough_inspections phase should not include a rough HVAC gate on this job.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAZENFHG7TWVFXZRPY84BKH"
+    ],
+    "falsification_test": "Scope or local inspector confirms ducted HVAC rough-in or a mandatory rough HVAC inspection regardless of equipment type.",
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "last_verified_at": "2026-07-12T10:55:00.592Z",
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+  },
+  "b_01KXAZENFHD78PVA41ZV93BMAV": {
+    "id": "b_01KXAZENFHD78PVA41ZV93BMAV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "footprint_sqft_coherence",
+    "content": "The CSV records 789 sqft overall footprint while 30'×10'×2 stories implies ~600 sqft; the 189 sqft gap likely reflects the existing bedroom remodel area being included in the footprint basis, but is unverified.",
+    "kind": "descriptive",
+    "confidence": 0.6,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXAZENFGZ2JCD72QT4MMH3R4",
+      "f_01KXAYS6ABBDMJD6DCVE3CBYJB"
+    ],
+    "falsification_test": "Owner or PM confirms what area basis the 789 sqft figure covers, or a measurement error is identified.",
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "last_verified_at": "2026-07-12T10:55:00.592Z",
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
   }
 }

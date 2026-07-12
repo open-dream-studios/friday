@@ -298,5 +298,130 @@
       }
     ],
     "derived_from_sha": "a57e7c54484613ed67b34507b9fc0c4b5af40ac6"
+  },
+  "f_01KXAZENFGA2ZQ49VAQBN5FPPJ": {
+    "id": "f_01KXAZENFGA2ZQ49VAQBN5FPPJ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "Scheduled start date for this job is 2026-10-05.",
+    "confidence": 1,
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+  },
+  "f_01KXAZENFGQVVY7SA1D9W4X39N": {
+    "id": "f_01KXAZENFGQVVY7SA1D9W4X39N",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "job_status_current",
+    "content": "Job status is 'waiting_work' with medium priority.",
+    "confidence": 1,
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:status",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:priority",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+  },
+  "f_01KXAZENFGZ2JCD72QT4MMH3R4": {
+    "id": "f_01KXAZENFGZ2JCD72QT4MMH3R4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "addition_overall_sqft",
+    "content": "Breakdown CSV records overall project footprint as 789 square feet with an 8-foot ceiling height.",
+    "confidence": 1,
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+  },
+  "f_01KXAZENFHG7TWVFXZRPY84BKH": {
+    "id": "f_01KXAZENFHG7TWVFXZRPY84BKH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "hvac_mini_split_type",
+    "content": "HVAC scope is a mini-split system (not ducted), per breakdown section 'HVAC – Mini Split, Tankless WH & Relocations' at $6,503.36 and 36 labor hours; no separate rough-in phase applies.",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+  },
+  "f_01KXAZENFH4MS79MT97F0V44FN": {
+    "id": "f_01KXAZENFH4MS79MT97F0V44FN",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "heat_pump_relocation_scope",
+    "content": "Demo scope includes relocating the existing heat pump and electrical disconnect to accommodate the new addition footprint.",
+    "confidence": 1,
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+  },
+  "f_01KXAZENFHX15WP9K65EQ3QQAF": {
+    "id": "f_01KXAZENFHX15WP9K65EQ3QQAF",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAYF8RYQFMFADRBXVDD92XS"
+    },
+    "subject": "washer_dryer_relocation_scope",
+    "content": "Plumbing scope includes washer/dryer relocation per breakdown section 'Plumbing – Rough-In, Master Bath & W/D Relocation'.",
+    "confidence": 1,
+    "created_at": "2026-07-12T10:55:00.592Z",
+    "updated_at": "2026-07-12T10:55:00.592Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
   }
 }
