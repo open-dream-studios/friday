@@ -1,1 +1,23 @@
-{}
+{
+  "b_01KXB16BARRGGZ12AYRFW5Y2NC": {
+    "id": "b_01KXB16BARRGGZ12AYRFW5Y2NC",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXB10HCT3PGWYGR1853B8ZX2"
+    },
+    "subject": "customer_data_coherence",
+    "content": "Customer data carries two internal inconsistencies: the email 'johncooper@gmail.com' does not match last name 'simmons', and all three attached project documents consistently spell the surname 'Simons' while data.json records 'simmons'.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXB16BAQ62K9WMBNH915RQN7",
+      "f_01KXB16BAQE7NR3ZYZ69ZRFAZE"
+    ],
+    "falsification_test": "Owner confirming the email belongs to john simmons and clarifying the correct spelling of the surname would resolve both discrepancies.",
+    "created_at": "2026-07-12T11:25:25.204Z",
+    "updated_at": "2026-07-12T11:25:25.204Z",
+    "last_verified_at": "2026-07-12T11:25:25.204Z",
+    "derived_from_sha": "cb130280bd25117501246ca139b7a2afc82501b2"
+  }
+}
