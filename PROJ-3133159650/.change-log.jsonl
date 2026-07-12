@@ -8,3 +8,4 @@
 {"ts":"2026-07-12T02:50:34.975Z","reason":"deleted document \"308_scope_doc.pdf\" (id=doc_01KXA0G8WYXQJKW6SQVHHNGJ4Q)","actor":"user","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-07-12T02:50:59.804Z","reason":"created app_project \"308 Evergreen Street\" (id=APPPROJ-01KXA3R8135FG17E81CV9VW888)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXA3R8135FG17E81CV9VW888","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-12T03:01:14.514Z","reason":"boot","actor":"boot","entities":[]}
+{"ts":"2026-07-12T03:01:40.077Z","reason":"deleted app_project APPPROJ-01KXA3R8135FG17E81CV9VW888","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXA3R8135FG17E81CV9VW888","action":"delete","change_kind":"app_project_data"}]}
