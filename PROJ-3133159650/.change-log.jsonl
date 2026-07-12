@@ -1,2 +1,3 @@
 {"ts":"2026-07-12T00:24:32.904Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-07-12T00:33:21.309Z","reason":"created app_project \"308 Evergreen Street\" (id=APPPROJ-01KX9VW73PRDVKAXHE16VB70XT)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KX9VW73PRDVKAXHE16VB70XT","action":"update","change_kind":"app_project_document"}]}
+{"ts":"2026-07-12T00:45:43.372Z","reason":"deleted app_project APPPROJ-01KX9VW73PRDVKAXHE16VB70XT","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KX9VW73PRDVKAXHE16VB70XT","action":"delete","change_kind":"app_project_data"}]}
