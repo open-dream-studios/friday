@@ -1,0 +1,33 @@
+{
+  "app_project_id": "APPPROJ-01KXASPVA3AA0H0G8B38HMHKPD",
+  "name": "308 Evergreen Street",
+  "project_type": "other",
+  "address": {
+    "line1": "308 Evergreen Street",
+    "line2": null,
+    "city": "Church Hill",
+    "state": "Tennessee",
+    "postal_code": "37642",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4078,
+    "customer_id": "CUST-01KKTEMT5X58CV2QHDZF2M5AKH",
+    "name": "ella fosters",
+    "phone": "5911232443",
+    "email": "esheilafosters@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": {
+    "id": 221,
+    "employee_id": "EMP-01KKSZ0G7N7DTC3CN8G33EE6XR",
+    "name": "Will Fallon",
+    "email": "william.fallon@tcrandc.com",
+    "resolved": true
+  }
+}
