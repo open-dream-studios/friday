@@ -1,1 +1,162 @@
-{}
+{
+  "f_01KXC48X7RQ14D3WA2GBMNQST8": {
+    "id": "f_01KXC48X7RQ14D3WA2GBMNQST8",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "property_address",
+    "content": "The property address is 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7TTBFG9X9SC5RK5H3F": {
+    "id": "f_01KXC48X7TTBFG9X9SC5RK5H3F",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "customer_contact",
+    "content": "The customer is John Simons (CUST-01KKSYA9BNQY420D3GEQ8XD5AH), reachable at phone 2955349323 and email johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7T5ZGA79CT3Q5PZT8X": {
+    "id": "f_01KXC48X7T5ZGA79CT3Q5PZT8X",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "lead_employee_assignment",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR) is the assigned lead employee on this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7TDP4Y0DFJKJR0DGPH": {
+    "id": "f_01KXC48X7TDP4Y0DFJKJR0DGPH",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "app_project_notes_status",
+    "content": "The notes field is null; no live PM notes are on file for this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7TAP2ZPXW6XM40Q2EH": {
+    "id": "f_01KXC48X7TAP2ZPXW6XM40Q2EH",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "app_project_valuation",
+    "content": "The property valuation field is null; no valuation has been recorded.",
+    "confidence": 1,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7T6XADYYJZSADQBQKE": {
+    "id": "f_01KXC48X7T6XADYYJZSADQBQKE",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "attached_documents_inventory",
+    "content": "Three documents are attached to this app_project: a cost breakdown CSV ('308_Evergreen_Addition.xlsx - Summary (1).csv'), architectural drawings ('3725 SIMONS 012226.pdf'), and a scope document ('scope.pdf').",
+    "confidence": 1,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DOCUMENTS",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7TWX2TJN56G4PJJG7H": {
+    "id": "f_01KXC48X7TWX2TJN56G4PJJG7H",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "customer_phone_area_code_anomaly",
+    "content": "The customer phone number 2955349323 uses area code 295, which is not a recognized or assigned US telephone area code.",
+    "confidence": 0.9,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  },
+  "f_01KXC48X7VAK63QMYRTGX5E75R": {
+    "id": "f_01KXC48X7VAK63QMYRTGX5E75R",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "drawing_filename_prefix_mismatch",
+    "content": "The architectural drawing file is named '3725 SIMONS 012226.pdf'; the prefix '3725' does not correspond to the property street number '308' at 308 Evergreen Street.",
+    "confidence": 0.85,
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "3725 SIMONS 012226.pdf",
+        "sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+      }
+    ],
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  }
+}

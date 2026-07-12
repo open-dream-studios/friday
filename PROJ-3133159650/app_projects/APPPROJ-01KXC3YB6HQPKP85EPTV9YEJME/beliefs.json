@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXC48X7V53T15K2350RJVZBK": {
+    "id": "b_01KXC48X7V53T15K2350RJVZBK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXC3YB6HQPKP85EPTV9YEJME"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (37642) is approximately 25 miles from Johnson City, TN, well within TCR's 45-mile service radius; this property is in-service-area.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC48X7RQ14D3WA2GBMNQST8"
+    ],
+    "falsification_test": "A verified route distance confirming Church Hill exceeds 45 miles from Johnson City by road would falsify this.",
+    "created_at": "2026-07-12T21:38:29.239Z",
+    "updated_at": "2026-07-12T21:38:29.239Z",
+    "last_verified_at": "2026-07-12T21:38:29.239Z",
+    "derived_from_sha": "7cf09c78427ef2ccfb43705d6bf370cf390af939"
+  }
+}
