@@ -134,24 +134,49 @@
     ],
     "derived_from_sha": "3f4189f3588e7c07021bdd8e2a31f6ba5e793748"
   },
-  "f_01KXA8DD6KK1M505AAVQ1NW6TN": {
-    "id": "f_01KXA8DD6KK1M505AAVQ1NW6TN",
+  "f_01KXA8MF3157MXG61SVXQVP7BF": {
+    "id": "f_01KXA8MF3157MXG61SVXQVP7BF",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA8A1QP88NRJJRHCCAMSYZH"
+    },
+    "subject": "job_created",
+    "content": "Job JOB-01KXA8E6PR4P9KAYBF8Y14WE36 has been created on this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:16:13.408Z",
+    "updated_at": "2026-07-12T04:16:13.408Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "47c6ac21ed5fb95550fef569a606c6e4283459a5"
+      }
+    ],
+    "derived_from_sha": "47c6ac21ed5fb95550fef569a606c6e4283459a5"
+  },
+  "f_01KXA8MF31WMYPC8X160BN7H42": {
+    "id": "f_01KXA8MF31WMYPC8X160BN7H42",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KXA8A1QP88NRJJRHCCAMSYZH"
     },
     "subject": "scope_document_present",
-    "content": "A scope document (evergreen_new_scope.pdf) is attached to this app_project and references '308 Evergreens,' consistent with the project property address.",
-    "confidence": 0.95,
-    "created_at": "2026-07-12T04:12:22.097Z",
-    "updated_at": "2026-07-12T04:12:22.097Z",
+    "content": "A scope document (scope_evergreen.pdf, doc_01KXA8F05YN1J0TCTK82XYFRPT) is attached at the app_project scope, created via editor, referencing 308 Evergreens consistent with the property address.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:16:13.408Z",
+    "updated_at": "2026-07-12T04:16:13.408Z",
     "citations": [
       {
         "kind": "document",
-        "path": "evergreen_new_scope.pdf",
-        "sha": "3f4189f3588e7c07021bdd8e2a31f6ba5e793748"
+        "path": "scope_evergreen.pdf",
+        "sha": "47c6ac21ed5fb95550fef569a606c6e4283459a5"
+      },
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "47c6ac21ed5fb95550fef569a606c6e4283459a5"
       }
     ],
-    "derived_from_sha": "3f4189f3588e7c07021bdd8e2a31f6ba5e793748"
+    "derived_from_sha": "47c6ac21ed5fb95550fef569a606c6e4283459a5"
   }
 }
