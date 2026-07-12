@@ -1,1 +1,104 @@
-{}
+{
+  "b_01KXADA2TVBSJVJ6XJG853FHDP": {
+    "id": "b_01KXADA2TVBSJVJ6XJG853FHDP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXACVC51963SX8RA70XPHJGJ"
+    },
+    "subject": "tdec_timing_risk",
+    "content": "TDEC septic inspection is an explicit pre-construction requirement with a 70-day minimum lead time; with 85 days remaining until 2026-10-05, contact must begin by approximately 2026-07-27 at the latest to avoid delaying the start date.",
+    "kind": "prescriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXADA2TVVFX873ZTE70D3H0H",
+      "f_01KXADA2TV3HY0C7W1ZFTNJFNY"
+    ],
+    "falsification_test": "Confirmation that TDEC contact is already in progress or that the septic system has prior TDEC approval would reduce this risk.",
+    "created_at": "2026-07-12T05:37:56.057Z",
+    "updated_at": "2026-07-12T05:37:56.057Z",
+    "last_verified_at": "2026-07-12T05:37:56.057Z",
+    "derived_from_sha": "247676dd8c7159eb3839e05f0c706cb8fb2a0f3b"
+  },
+  "b_01KXADA2TVNN73W4JF1NCQ7671": {
+    "id": "b_01KXADA2TVNN73W4JF1NCQ7671",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXACVC51963SX8RA70XPHJGJ"
+    },
+    "subject": "electrical_service_assumption_risk",
+    "content": "The scope states an assumption that existing main service capacity supports the 100A subpanel, but no verification task or confirmed amperage reading exists; this could trigger a service upgrade change order.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXADA2TTW1JSVZNXT1A6DCGR"
+    ],
+    "falsification_test": "Documented amperage confirmation from a licensed electrician would falsify this.",
+    "created_at": "2026-07-12T05:37:56.057Z",
+    "updated_at": "2026-07-12T05:37:56.057Z",
+    "last_verified_at": "2026-07-12T05:37:56.057Z",
+    "derived_from_sha": "247676dd8c7159eb3839e05f0c706cb8fb2a0f3b"
+  },
+  "b_01KXADA2TWKBH93MR8XRPB0XEE": {
+    "id": "b_01KXADA2TWKBH93MR8XRPB0XEE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXACVC51963SX8RA70XPHJGJ"
+    },
+    "subject": "roof_tieIn_concealed_condition_risk",
+    "content": "The 3/12 new gable ties into an existing 6/12 roof; per addition job-type rules, this is a concealed-condition risk zone requiring a 2–3 day schedule buffer after the area is opened.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXADA2TTE1S1EPT4ZM8D6830"
+    ],
+    "falsification_test": "A documented pre-construction survey of the existing roof framing eliminating hidden damage or sizing mismatches would reduce this risk.",
+    "created_at": "2026-07-12T05:37:56.057Z",
+    "updated_at": "2026-07-12T05:37:56.057Z",
+    "last_verified_at": "2026-07-12T05:37:56.057Z",
+    "derived_from_sha": "247676dd8c7159eb3839e05f0c706cb8fb2a0f3b"
+  },
+  "b_01KXADA2TWZ002DVD3H84YZ2B2": {
+    "id": "b_01KXADA2TWZ002DVD3H84YZ2B2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXACVC51963SX8RA70XPHJGJ"
+    },
+    "subject": "foundation_basement_coherence",
+    "content": "Scope describes 'basement-level storage' but states 'no CMU or full-height foundation wall anticipated'; these appear inconsistent — a true below-grade storage room normally requires foundation walls not shown in the foundation spec.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXADA2TTG2RKQ9S6RSMZJ409",
+      "f_01KXADA2TT57PS3F5ED5NXBMM9"
+    ],
+    "falsification_test": "Clarification that 'basement level' refers to a daylight/grade-level slab sitting lower than the main house floor (common on hillside sites) would resolve this.",
+    "created_at": "2026-07-12T05:37:56.057Z",
+    "updated_at": "2026-07-12T05:37:56.057Z",
+    "last_verified_at": "2026-07-12T05:37:56.057Z",
+    "derived_from_sha": "247676dd8c7159eb3839e05f0c706cb8fb2a0f3b"
+  },
+  "b_01KXADA2TWTSRX7WGBR1ZQBQ11": {
+    "id": "b_01KXADA2TWTSRX7WGBR1ZQBQ11",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXACVC51963SX8RA70XPHJGJ"
+    },
+    "subject": "estimation_readiness",
+    "content": "The job has scope and breakdown documents attached but no estimation run has been completed; the job is in intake/pre-estimation status.",
+    "kind": "descriptive",
+    "confidence": 0.98,
+    "status": "active",
+    "supported_by": [
+      "f_01KXADA2TVDCAWA3HCZJJTRXBN"
+    ],
+    "falsification_test": "An estimation run being completed would update this.",
+    "created_at": "2026-07-12T05:37:56.057Z",
+    "updated_at": "2026-07-12T05:37:56.057Z",
+    "last_verified_at": "2026-07-12T05:37:56.057Z",
+    "derived_from_sha": "247676dd8c7159eb3839e05f0c706cb8fb2a0f3b"
+  }
+}
