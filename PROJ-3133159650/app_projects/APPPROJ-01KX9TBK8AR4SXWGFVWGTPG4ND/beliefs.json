@@ -1,1 +1,65 @@
-{}
+{
+  "b_01KX9TGN4M3TG40FXRXQHSDCJZ": {
+    "id": "b_01KX9TGN4M3TG40FXRXQHSDCJZ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "estimation_readiness",
+    "content": "A detailed external cost estimate exists ($100,778.92 grand total in CSV) but no formal estimation run has been entered into the platform. The project is pre-estimation in the system despite having offline cost analysis.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9TGN4KHAB5X226X61KQXV8",
+      "f_01KX9TGN4KPYQA3VZ8MK0QS61R"
+    ],
+    "falsification_test": "If an estimation run is initiated in the platform linking to this CSV data, the project would be estimation-complete in the system.",
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "last_verified_at": "2026-07-12T00:09:28.464Z",
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "b_01KX9TGN4MEAY0T4SAW6Z3FDYK": {
+    "id": "b_01KX9TGN4MEAY0T4SAW6Z3FDYK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "simons_drawing_association",
+    "content": "The Simons Residence PDF (Harrisonburg, VA) attached to this Church Hill, TN project appears to be a document upload error — differing state, location, and customer name with no clear connection to 308 Evergreen Street or john cooper.",
+    "kind": "descriptive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9TGN4KQYJ110W921H3R3JR",
+      "f_01KX9TGN4HXAW2X94EX8MBXV6S"
+    ],
+    "falsification_test": "If Joey confirms the Simons drawings are a reference template intentionally attached to this project, the mismatch is intentional.",
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "last_verified_at": "2026-07-12T00:09:28.464Z",
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "b_01KX9TGN4M2SCKEYGR9C5B80PC": {
+    "id": "b_01KX9TGN4M2SCKEYGR9C5B80PC",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "project_type_accuracy",
+    "content": "project_type is 'other' but the scope clearly describes a home addition — this likely affects downstream routing, reporting, or template selection.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9TGN4K2YRXAH11N8J8PDWX",
+      "f_01KX9TGN4KMXMZ435PTMTHVHTK"
+    ],
+    "falsification_test": "If 'other' is the correct type for additions in this system's taxonomy, no correction is needed.",
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "last_verified_at": "2026-07-12T00:09:28.464Z",
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  }
+}

@@ -1,1 +1,212 @@
-{}
+{
+  "f_01KX9TGN4HXAW2X94EX8MBXV6S": {
+    "id": "f_01KX9TGN4HXAW2X94EX8MBXV6S",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "project_address",
+    "content": "308 Evergreen Street is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4KXQS972F84MD8GZA6": {
+    "id": "f_01KX9TGN4KXQS972F84MD8GZA6",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "customer_identity",
+    "content": "The customer is john cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH), phone 2955349323, email johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4K34E8NNB90MK5E3MB": {
+    "id": "f_01KX9TGN4K34E8NNB90MK5E3MB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "lead_employee",
+    "content": "Lead employee is Joey Goff (EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX).",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4KHAB5X226X61KQXV8": {
+    "id": "f_01KX9TGN4KHAB5X226X61KQXV8",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "estimation_status",
+    "content": "No platform estimation has been run; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4KMXMZ435PTMTHVHTK": {
+    "id": "f_01KX9TGN4KMXMZ435PTMTHVHTK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "scope_type",
+    "content": "The scope is a two-story addition (~30'x10') adding basement-level storage and a second-floor primary bedroom, master bathroom, and walk-in closet.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4KPYQA3VZ8MK0QS61R": {
+    "id": "f_01KX9TGN4KPYQA3VZ8MK0QS61R",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "cost_estimate_total",
+    "content": "A cost breakdown CSV shows a grand total of $100,778.92 (labor $45,167.59, materials $52,171.33, equipment $3,440.00) across 1,287 labor hours and 16 sections.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4KENWR7X8GQNN7HBNW": {
+    "id": "f_01KX9TGN4KENWR7X8GQNN7HBNW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "septic_coordination_required",
+    "content": "scope.pdf explicitly requires coordinating a septic inspection with TDEC as part of the project scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4KQYJ110W921H3R3JR": {
+    "id": "f_01KX9TGN4KQYJ110W921H3R3JR",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "simons_drawings_attached",
+    "content": "A PDF of Simons Residence drawings (3725 SIMONS 012226.pdf) from Harrisonburg, Virginia is attached to this Church Hill, Tennessee project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "3725 SIMONS 012226.pdf",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4K2YRXAH11N8J8PDWX": {
+    "id": "f_01KX9TGN4K2YRXAH11N8J8PDWX",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "project_type_field",
+    "content": "project_type is set to 'other' despite the scope describing a two-story home addition.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:project_type",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  },
+  "f_01KX9TGN4M9DDNVCVYWEY5FE72": {
+    "id": "f_01KX9TGN4M9DDNVCVYWEY5FE72",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9TBK8AR4SXWGFVWGTPG4ND"
+    },
+    "subject": "scope_footprint_sf",
+    "content": "Overall footprint is 789 SF with 8-foot ceiling height per the cost breakdown.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:09:28.464Z",
+    "updated_at": "2026-07-12T00:09:28.464Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv:Overall Footprint SF",
+        "sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+      }
+    ],
+    "derived_from_sha": "6045ce62ec7324aa98cf9eb9ab4dbba15eebc546"
+  }
+}
