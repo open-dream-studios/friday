@@ -1,1 +1,85 @@
-{}
+{
+  "b_01KXCA4RRAA3P0XGQZR2E9JMVP": {
+    "id": "b_01KXCA4RRAA3P0XGQZR2E9JMVP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "septic_tdec_timing_risk",
+    "content": "The TDEC septic process (4–8 weeks) has not been confirmed as initiated; with only 92 calendar days to the Oct 12 start, first TDEC contact must happen within days or the start date is at risk.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCA4RR9NM2414YGJJ5X22CJ",
+      "f_01KXCA4RR9ESPAP1PBW104ACDK"
+    ],
+    "falsification_test": "A confirmed TDEC first-contact date showing the process is already underway would falsify the urgency.",
+    "created_at": "2026-07-12T23:21:05.032Z",
+    "updated_at": "2026-07-12T23:21:05.032Z",
+    "last_verified_at": "2026-07-12T23:21:05.032Z",
+    "derived_from_sha": "0ddcac8981fc930f359b05b1e392833f522bbf10"
+  },
+  "b_01KXCA4RRAH7K19Y0DV8B5GM19": {
+    "id": "b_01KXCA4RRAH7K19Y0DV8B5GM19",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "truss_procurement_risk",
+    "content": "The roof framing method is TBD; if trusses are selected, 28–42-day procurement must be ordered at structural sign-off or framing will stall and the schedule will slip.",
+    "kind": "predictive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCA4RR920Z0A99S9B500EG2"
+    ],
+    "falsification_test": "Confirmed decision for stick framing (rafters) would eliminate truss procurement risk.",
+    "created_at": "2026-07-12T23:21:05.032Z",
+    "updated_at": "2026-07-12T23:21:05.032Z",
+    "last_verified_at": "2026-07-12T23:21:05.032Z",
+    "derived_from_sha": "0ddcac8981fc930f359b05b1e392833f522bbf10"
+  },
+  "b_01KXCA4RRAVR4753KHQX6F0KCZ": {
+    "id": "b_01KXCA4RRAVR4753KHQX6F0KCZ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "retrofit_scope_present",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section describes retrofit work on existing space; per addition job-type rules it must be its own component, not gated by new-construction predecessors, and can run in parallel where trades allow.",
+    "kind": "prescriptive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCA4RRANH2AD4QH8Q3F3460",
+      "f_01KXCA4RR9Q2FSX0D9SDWDK7VJ"
+    ],
+    "falsification_test": "Scope confirmation that hall bath work physically depends on new addition framing would falsify the parallel-scheduling assumption.",
+    "created_at": "2026-07-12T23:21:05.032Z",
+    "updated_at": "2026-07-12T23:21:05.032Z",
+    "last_verified_at": "2026-07-12T23:21:05.032Z",
+    "derived_from_sha": "0ddcac8981fc930f359b05b1e392833f522bbf10"
+  },
+  "b_01KXCA4RRAQ1YXR5CQSERC0EX1": {
+    "id": "b_01KXCA4RRAQ1YXR5CQSERC0EX1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "job_margin_unverifiable",
+    "content": "The breakdown grand total ($100,778.92) is a cost figure; job valuation is null, so the contracted sell price is unknown and the 30% gross margin floor cannot be verified.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCA4RR8D6VW8Y4ZHABJCHZM",
+      "f_01KXCA4RR97N2RDGRBKRK2W4RB"
+    ],
+    "falsification_test": "Setting job valuation to the contracted sell price would allow margin verification.",
+    "created_at": "2026-07-12T23:21:05.032Z",
+    "updated_at": "2026-07-12T23:21:05.032Z",
+    "last_verified_at": "2026-07-12T23:21:05.032Z",
+    "derived_from_sha": "0ddcac8981fc930f359b05b1e392833f522bbf10"
+  }
+}
