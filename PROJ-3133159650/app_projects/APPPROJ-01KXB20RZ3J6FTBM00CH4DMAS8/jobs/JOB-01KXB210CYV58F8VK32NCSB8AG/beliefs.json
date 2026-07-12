@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KXB28HKEA5X2H76K4M8SRXAB": {
+    "id": "b_01KXB28HKEA5X2H76K4M8SRXAB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "tdec_timeline_risk",
+    "content": "With a scheduled start of 2026-10-05 (85 days out) and TDEC septic review requiring a 70-day minimum lead time, the septic permit process must be initiated immediately or the October 5 start date is at risk. There is no evidence TDEC contact has been made.",
+    "kind": "predictive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KXB28HKDGCPG5ZEZ57SVRKT5"
+    ],
+    "falsification_test": "Evidence that TDEC contact has already been initiated, or that the existing septic system has been pre-verified as sufficient, would falsify this.",
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "last_verified_at": "2026-07-12T11:44:05.741Z",
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "b_01KXB28HKE5J65YXEHND9WQCYQ": {
+    "id": "b_01KXB28HKE5J65YXEHND9WQCYQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "retrofit_section_separation",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section is a retrofit component that must be tracked and scheduled independently from new-construction tasks; its negative material cost requires owner review before the breakdown is used to set contract pricing.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXB28HKEG0XD8K1KYKD1K403"
+    ],
+    "falsification_test": "Owner confirmation that the negative cost is an intentional salvage credit and the breakdown is approved for contract use would falsify the 'requires review' element.",
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "last_verified_at": "2026-07-12T11:44:05.741Z",
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  }
+}

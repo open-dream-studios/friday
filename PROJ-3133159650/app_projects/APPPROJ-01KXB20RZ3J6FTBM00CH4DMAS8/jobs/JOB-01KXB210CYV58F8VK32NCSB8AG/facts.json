@@ -1,1 +1,217 @@
-{}
+{
+  "f_01KXB28HKD84XVJ1HP6WK8ZD94": {
+    "id": "f_01KXB28HKD84XVJ1HP6WK8ZD94",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "job_total_estimate",
+    "content": "The Simons Addition breakdown totals $100,778.92 (labor $45,167.59 / materials $52,171.33 / equipment $3,440.00 / 1,287 labor hours).",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv:TOTALS row",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKDDZX20K75K44T9Z78": {
+    "id": "f_01KXB28HKDDZX20K75K44T9Z78",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "job_scope_summary",
+    "content": "Scope is a two-story addition approximately 30'x10' adding basement-level storage and a second-floor expansion with primary bedroom, master bathroom, and walk-in closet; full MEP included.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKDGCPG5ZEZ57SVRKT5": {
+    "id": "f_01KXB28HKDGCPG5ZEZ57SVRKT5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "septic_inspection_required",
+    "content": "Scope explicitly requires a TDEC septic inspection; septic relocation or replacement is listed as a change-order trigger excluded from base scope.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf:Codes / Compliance",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf:Change Order Triggers",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKDDNY0SDQVPRYQTRAK": {
+    "id": "f_01KXB28HKDDNY0SDQVPRYQTRAK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "subpanel_scope",
+    "content": "A new 100-amp subpanel with full rough-in and trim-out is included in scope; no existing service amperage verification task is documented.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf:Electrical",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKDVH4TFYP71KV74NKB": {
+    "id": "f_01KXB28HKDVH4TFYP71KV74NKB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "lvl_beam_scope",
+    "content": "Scope includes one 3-ply 14\" LVL beam spanning approximately 15'-6\" to open an existing load-bearing wall, with temporary shoring included.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf:Framing",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKDDYRKSRS06X5K11ME": {
+    "id": "f_01KXB28HKDDYRKSRS06X5K11ME",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "roof_tie_in_pitch_detail",
+    "content": "New addition gable roof is specified at 3/12 pitch tying into the existing structure's 6/12 roof; framing method (truss vs. rafter) is explicitly deferred to the design phase.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf:Roof",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKEG0XD8K1KYKD1K403": {
+    "id": "f_01KXB28HKEG0XD8K1KYKD1K403",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "retrofit_section_present",
+    "content": "Breakdown includes a retrofit section — 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' — with an anomalous negative material cost of -$4,199.00 yielding a -$1,714.20 section total.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKEZKTKE43C1RTRRNT4": {
+    "id": "f_01KXB28HKEZKTKE43C1RTRRNT4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "change_order_exclusions",
+    "content": "Explicit change-order triggers excluded from base scope: rock excavation/unsuitable soils, concealed wiring/plumbing/structural irregularities, and septic relocation/replacement/grinder pump.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf:Change Order Triggers",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKEK80XW3DZZH8SNG1Q": {
+    "id": "f_01KXB28HKEK80XW3DZZH8SNG1Q",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "elevator_shaft_framing",
+    "content": "A 4'x4' future elevator shaft is to be framed in scope; the elevator system itself is excluded from base scope.",
+    "confidence": 0.98,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf:Framing",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  },
+  "f_01KXB28HKEF15DV76G80N8TJD4": {
+    "id": "f_01KXB28HKEF15DV76G80N8TJD4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXB210CYV58F8VK32NCSB8AG"
+    },
+    "subject": "breakdown_footprint_sqft",
+    "content": "Breakdown CSV reports an overall footprint of 789 sqft, versus 300 sqft per floor implied by the 30'x10' addition footprint described in the scope.",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T11:44:05.741Z",
+    "updated_at": "2026-07-12T11:44:05.741Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv:Overall Footprint SF",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+      }
+    ],
+    "derived_from_sha": "74c1f53f25286ae8d577f5c50b44cd943e13fabb"
+  }
+}
