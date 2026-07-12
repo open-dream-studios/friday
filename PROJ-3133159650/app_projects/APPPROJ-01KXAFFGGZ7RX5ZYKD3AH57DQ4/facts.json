@@ -1,1 +1,132 @@
-{}
+{
+  "f_01KXAFJ93JSYJMH5QHPXPN1AN3": {
+    "id": "f_01KXAFJ93JSYJMH5QHPXPN1AN3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAFFGGZ7RX5ZYKD3AH57DQ4"
+    },
+    "subject": "customer_name",
+    "content": "The customer for this property is Shannon Lovely.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:17:21.778Z",
+    "updated_at": "2026-07-12T06:17:21.778Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      }
+    ],
+    "derived_from_sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+  },
+  "f_01KXAFJ93PCTWCYWE75R1CWD7X": {
+    "id": "f_01KXAFJ93PCTWCYWE75R1CWD7X",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAFFGGZ7RX5ZYKD3AH57DQ4"
+    },
+    "subject": "customer_phone",
+    "content": "The customer phone on file is 4941152912; '494' is not a recognized Tennessee area code and may be a transcription error.",
+    "confidence": 0.85,
+    "created_at": "2026-07-12T06:17:21.778Z",
+    "updated_at": "2026-07-12T06:17:21.778Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      }
+    ],
+    "derived_from_sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+  },
+  "f_01KXAFJ93QJ2C6K9DB92PJ00Y7": {
+    "id": "f_01KXAFJ93QJ2C6K9DB92PJ00Y7",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAFFGGZ7RX5ZYKD3AH57DQ4"
+    },
+    "subject": "customer_email",
+    "content": "The customer's email address is shanlov98@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:17:21.778Z",
+    "updated_at": "2026-07-12T06:17:21.778Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      }
+    ],
+    "derived_from_sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+  },
+  "f_01KXAFJ93QNJWTTMSGWCVHJYHR": {
+    "id": "f_01KXAFJ93QNJWTTMSGWCVHJYHR",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAFFGGZ7RX5ZYKD3AH57DQ4"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (william.fallon@tcrandc.com) is the lead employee assigned to this project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:17:21.778Z",
+    "updated_at": "2026-07-12T06:17:21.778Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee.name",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee.email",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      }
+    ],
+    "derived_from_sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+  },
+  "f_01KXAFJ93Q6DAZWZPHPZQ05CXK": {
+    "id": "f_01KXAFJ93Q6DAZWZPHPZQ05CXK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAFFGGZ7RX5ZYKD3AH57DQ4"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:17:21.778Z",
+    "updated_at": "2026-07-12T06:17:21.778Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      }
+    ],
+    "derived_from_sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+  },
+  "f_01KXAFJ93Q608NWHX14HYWE7VS": {
+    "id": "f_01KXAFJ93Q608NWHX14HYWE7VS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAFFGGZ7RX5ZYKD3AH57DQ4"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN is within TCR's 45-mile service radius centered on Johnson City, TN.",
+    "confidence": 0.9,
+    "created_at": "2026-07-12T06:17:21.778Z",
+    "updated_at": "2026-07-12T06:17:21.778Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:address.state",
+        "sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+      }
+    ],
+    "derived_from_sha": "6174fb3c1bd2fb1282f108ff89c0d023df5a0863"
+  }
+}
