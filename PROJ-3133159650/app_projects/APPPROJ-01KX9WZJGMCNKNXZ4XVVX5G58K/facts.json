@@ -108,5 +108,25 @@
       }
     ],
     "derived_from_sha": "f89e3c70a0737ba9e95a709d655078288eca7afa"
+  },
+  "f_01KX9X9S6QJ0HKVZ4W3V5DAMMG": {
+    "id": "f_01KX9X9S6QJ0HKVZ4W3V5DAMMG",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9WZJGMCNKNXZ4XVVX5G58K"
+    },
+    "subject": "active_job",
+    "content": "A job (JOB-01KX9X7HSE7430G80ETYPCSF82) has been created on this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T00:58:08.983Z",
+    "updated_at": "2026-07-12T00:58:08.983Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "cef43d44c5ce64cb78c97a5e8682369f9cec369e"
+      }
+    ],
+    "derived_from_sha": "cef43d44c5ce64cb78c97a5e8682369f9cec369e"
   }
 }

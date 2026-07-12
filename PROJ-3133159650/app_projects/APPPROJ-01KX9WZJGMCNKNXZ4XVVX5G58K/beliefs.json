@@ -1,25 +1,4 @@
 {
-  "b_01KX9X18GX6SPGKJE7R8QK0S3H": {
-    "id": "b_01KX9X18GX6SPGKJE7R8QK0S3H",
-    "entity": {
-      "kind": "app_project",
-      "id": "APPPROJ-01KX9WZJGMCNKNXZ4XVVX5G58K"
-    },
-    "subject": "project_intake_stage",
-    "content": "This project is in early intake with no defined scope type, no valuation, and no estimation run. No scheduling or estimation can proceed until scope is confirmed.",
-    "kind": "descriptive",
-    "confidence": 0.95,
-    "status": "active",
-    "supported_by": [
-      "f_01KX9X18GXH4ZW2BVTS5HAT5JP",
-      "f_01KX9X18GXF12DMDSHPWYVMDC6"
-    ],
-    "falsification_test": "A scope document appears, an estimation is run, or project_type is updated to a standard TCR type.",
-    "created_at": "2026-07-12T00:53:29.754Z",
-    "updated_at": "2026-07-12T00:53:29.754Z",
-    "last_verified_at": "2026-07-12T00:53:29.754Z",
-    "derived_from_sha": "f89e3c70a0737ba9e95a709d655078288eca7afa"
-  },
   "b_01KX9X18GXHG3FK680SMVFT06Q": {
     "id": "b_01KX9X18GXHG3FK680SMVFT06Q",
     "entity": {
@@ -39,5 +18,27 @@
     "updated_at": "2026-07-12T00:53:29.754Z",
     "last_verified_at": "2026-07-12T00:53:29.754Z",
     "derived_from_sha": "f89e3c70a0737ba9e95a709d655078288eca7afa"
+  },
+  "b_01KX9X9S6QRXVH1B8V48QPXZTM": {
+    "id": "b_01KX9X9S6QRXVH1B8V48QPXZTM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9WZJGMCNKNXZ4XVVX5G58K"
+    },
+    "subject": "project_intake_stage",
+    "content": "This project has an active job but no confirmed scope type, valuation, or estimation run; scope must be confirmed before estimation or scheduling can advance.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9X9S6QJ0HKVZ4W3V5DAMMG",
+      "f_01KX9X18GXH4ZW2BVTS5HAT5JP",
+      "f_01KX9X18GXF12DMDSHPWYVMDC6"
+    ],
+    "falsification_test": "An estimation is run, project_type is updated to a standard TCR type, or scope documentation appears.",
+    "created_at": "2026-07-12T00:58:08.983Z",
+    "updated_at": "2026-07-12T00:58:08.983Z",
+    "last_verified_at": "2026-07-12T00:58:08.983Z",
+    "derived_from_sha": "cef43d44c5ce64cb78c97a5e8682369f9cec369e"
   }
 }
