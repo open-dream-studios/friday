@@ -1,1 +1,43 @@
-{}
+{
+  "b_01KX9X18GX6SPGKJE7R8QK0S3H": {
+    "id": "b_01KX9X18GX6SPGKJE7R8QK0S3H",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9WZJGMCNKNXZ4XVVX5G58K"
+    },
+    "subject": "project_intake_stage",
+    "content": "This project is in early intake with no defined scope type, no valuation, and no estimation run. No scheduling or estimation can proceed until scope is confirmed.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9X18GXH4ZW2BVTS5HAT5JP",
+      "f_01KX9X18GXF12DMDSHPWYVMDC6"
+    ],
+    "falsification_test": "A scope document appears, an estimation is run, or project_type is updated to a standard TCR type.",
+    "created_at": "2026-07-12T00:53:29.754Z",
+    "updated_at": "2026-07-12T00:53:29.754Z",
+    "last_verified_at": "2026-07-12T00:53:29.754Z",
+    "derived_from_sha": "f89e3c70a0737ba9e95a709d655078288eca7afa"
+  },
+  "b_01KX9X18GXHG3FK680SMVFT06Q": {
+    "id": "b_01KX9X18GXHG3FK680SMVFT06Q",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KX9WZJGMCNKNXZ4XVVX5G58K"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN is approximately 20-25 miles from Johnson City — well within TCR's 45-mile service radius.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9X18GTA9HAP7V2Z9J3JKEK"
+    ],
+    "falsification_test": "A map measurement places Church Hill beyond 45 miles from Johnson City.",
+    "created_at": "2026-07-12T00:53:29.754Z",
+    "updated_at": "2026-07-12T00:53:29.754Z",
+    "last_verified_at": "2026-07-12T00:53:29.754Z",
+    "derived_from_sha": "f89e3c70a0737ba9e95a709d655078288eca7afa"
+  }
+}
