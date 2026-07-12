@@ -1,1 +1,187 @@
-{}
+{
+  "f_01KXA3T9NM8N8TZZZ6YAXZ9AA1": {
+    "id": "f_01KXA3T9NM8N8TZZZ6YAXZ9AA1",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "property_address",
+    "content": "The project property is located at 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NNJR8JAXYJMJ17KGP3": {
+    "id": "f_01KXA3T9NNJR8JAXYJMJ17KGP3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "customer_name",
+    "content": "The customer for this project is john cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.customer_id",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NNQXKZXFMT3MJE9P8N": {
+    "id": "f_01KXA3T9NNQXKZXFMT3MJE9P8N",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "customer_contact",
+    "content": "Customer john cooper can be reached at phone 2955349323 and email johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NP7V6V0RYBVANYS0G4": {
+    "id": "f_01KXA3T9NP7V6V0RYBVANYS0G4",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR) is the lead employee assigned to this project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NPRCHV8P94PM4QC01M": {
+    "id": "f_01KXA3T9NPRCHV8P94PM4QC01M",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "project_type_classification",
+    "content": "Project type is recorded as 'other', indicating the job category has not yet been classified into a standard TCR type.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:project_type",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NPJKJ2F4R7BWK8P23P": {
+    "id": "f_01KXA3T9NPJKJ2F4R7BWK8P23P",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation run has been performed; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NPENBSDK8X27CXN4BW": {
+    "id": "f_01KXA3T9NPENBSDK8X27CXN4BW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, Tennessee (Hawkins County) sits roughly 20–25 miles from Johnson City, TN — within TCR's 45-mile service radius.",
+    "confidence": 0.88,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:address.state",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  },
+  "f_01KXA3T9NPNZPGF8RBVY7Y6PWJ": {
+    "id": "f_01KXA3T9NPNZPGF8RBVY7Y6PWJ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
+    },
+    "subject": "notes_content",
+    "content": "The notes field is null; no PM notes have been recorded for this project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T02:52:01.587Z",
+    "updated_at": "2026-07-12T02:52:01.587Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+      }
+    ],
+    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+  }
+}
