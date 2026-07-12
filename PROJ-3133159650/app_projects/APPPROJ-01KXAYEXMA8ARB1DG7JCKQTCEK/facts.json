@@ -193,5 +193,25 @@
       }
     ],
     "derived_from_sha": "a57e7c54484613ed67b34507b9fc0c4b5af40ac6"
+  },
+  "f_01KXAZFKC2ER2G0K6NZFTQN2JV": {
+    "id": "f_01KXAZFKC2ER2G0K6NZFTQN2JV",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAYEXMA8ARB1DG7JCKQTCEK"
+    },
+    "subject": "valuation_status",
+    "content": "data.json:valuation is null; no property or project valuation has been recorded for this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T10:55:31.202Z",
+    "updated_at": "2026-07-12T10:55:31.202Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
+      }
+    ],
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
   }
 }

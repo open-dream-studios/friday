@@ -19,5 +19,27 @@
     "updated_at": "2026-07-12T10:40:57.743Z",
     "last_verified_at": "2026-07-12T10:40:57.743Z",
     "derived_from_sha": "a57e7c54484613ed67b34507b9fc0c4b5af40ac6"
+  },
+  "b_01KXAZFKC2HS3E9JTV9SVS7806": {
+    "id": "b_01KXAZFKC2HS3E9JTV9SVS7806",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAYEXMA8ARB1DG7JCKQTCEK"
+    },
+    "subject": "project_lifecycle_stage",
+    "content": "The app_project is in a pre-estimation, pre-job state: supporting documents are attached and the customer record is resolved, but no estimation run has been performed and no linked jobs exist.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAYMYCJRFGR88Q1SNN6MMME",
+      "f_01KXAYMYCJ6M7TRE4ZDHEVGAM1",
+      "f_01KXAZFKC2ER2G0K6NZFTQN2JV"
+    ],
+    "falsification_test": "A linked job record or completed estimation run would move this app_project past the pre-estimation stage.",
+    "created_at": "2026-07-12T10:55:31.202Z",
+    "updated_at": "2026-07-12T10:55:31.202Z",
+    "last_verified_at": "2026-07-12T10:55:31.202Z",
+    "derived_from_sha": "918bf867571c2a2f0ec94cecee61206b979cca22"
   }
 }
