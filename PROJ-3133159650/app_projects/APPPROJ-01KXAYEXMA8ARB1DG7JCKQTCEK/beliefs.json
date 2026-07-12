@@ -1,1 +1,23 @@
-{}
+{
+  "b_01KXAYMYCJAS0E4TQWR62A0GWN": {
+    "id": "b_01KXAYMYCJAS0E4TQWR62A0GWN",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAYEXMA8ARB1DG7JCKQTCEK"
+    },
+    "subject": "customer_document_ownership_coherence",
+    "content": "The attached drawings and cost breakdown consistently reference 'Simons' as the project/residence name while the customer record shows 'john cooper'; it is unresolved whether these documents are correctly attached to this app_project or belong to a different customer record.",
+    "kind": "descriptive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXAYMYCJMMCSVKDQ094VRSMQ",
+      "f_01KXAYMYCFC190KAEK9F6CHJR9"
+    ],
+    "falsification_test": "Owner confirms 'Simons' is a sub-project label or alternate reference for the Cooper job, or confirms documents are mis-attached and re-routes them.",
+    "created_at": "2026-07-12T10:40:57.743Z",
+    "updated_at": "2026-07-12T10:40:57.743Z",
+    "last_verified_at": "2026-07-12T10:40:57.743Z",
+    "derived_from_sha": "a57e7c54484613ed67b34507b9fc0c4b5af40ac6"
+  }
+}
