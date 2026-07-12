@@ -493,5 +493,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCBA90K871SD690SM0Y48CY": {
+    "id": "f_01KXCBA90K871SD690SM0Y48CY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "answer_to_q_01KXCA4RRDQR2SC9Y9VQZD8B4X",
+    "content": "Almost certainly an allowance credit for salvage/reuse of existing materials in the Hall Bath Mod / Bedroom Remodel scope — reusing existing tub, vanity, or tile rather\n   than buying new. Section is a modification-not-replacement scope. Confirm with the estimator, but this reads as intentional credit, not a data-entry error.",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T23:41:34.099Z",
+    "updated_at": "2026-07-12T23:41:34.099Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCA4RRDQR2SC9Y9VQZD8B4X",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
