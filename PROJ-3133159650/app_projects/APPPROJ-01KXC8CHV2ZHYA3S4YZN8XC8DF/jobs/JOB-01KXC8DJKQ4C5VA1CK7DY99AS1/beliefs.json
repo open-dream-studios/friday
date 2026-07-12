@@ -1,1 +1,65 @@
-{}
+{
+  "b_01KXC94R0FEFWZA0H4VRRJA3S1": {
+    "id": "b_01KXC94R0FEFWZA0H4VRRJA3S1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC8DJKQ4C5VA1CK7DY99AS1"
+    },
+    "subject": "septic_risk_to_start",
+    "content": "With only ~92 days until the 2026-10-12 start and TDEC's minimum 70-day septic permit process, the septic permit is the single most time-critical pre-construction item; if not already initiated, the start date is at immediate risk.",
+    "kind": "predictive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC94R0EZQRNJA4W2Z5WZD0A",
+      "f_01KXC94R0DVS19V0DZ31WX1K1G"
+    ],
+    "falsification_test": "Municipal sewer connection is confirmed available at the site eliminating TDEC jurisdiction, or TDEC confirms no fixture-count impact triggers septic review.",
+    "created_at": "2026-07-12T23:03:35.693Z",
+    "updated_at": "2026-07-12T23:03:35.693Z",
+    "last_verified_at": "2026-07-12T23:03:35.693Z",
+    "derived_from_sha": "dffc834bf9ff5e158a45c2701e23524c1e883613"
+  },
+  "b_01KXC94R0FWPW4CATERB1D5G0J": {
+    "id": "b_01KXC94R0FWPW4CATERB1D5G0J",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC8DJKQ4C5VA1CK7DY99AS1"
+    },
+    "subject": "estimate_completeness",
+    "content": "The $100,778.92 grand total is structurally incomplete: septic work is explicitly excluded and will arrive as a change order of unknown magnitude pending TDEC evaluation.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC94R0DAZVT6ZVFSQ8RM31G",
+      "f_01KXC94R0EZQRNJA4W2Z5WZD0A"
+    ],
+    "falsification_test": "TDEC inspection finds no septic upgrade needed, leaving the current estimate as the complete project cost.",
+    "created_at": "2026-07-12T23:03:35.693Z",
+    "updated_at": "2026-07-12T23:03:35.693Z",
+    "last_verified_at": "2026-07-12T23:03:35.693Z",
+    "derived_from_sha": "dffc834bf9ff5e158a45c2701e23524c1e883613"
+  },
+  "b_01KXC94R0F3ND7JBG0AZ3SJRWR": {
+    "id": "b_01KXC94R0F3ND7JBG0AZ3SJRWR",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC8DJKQ4C5VA1CK7DY99AS1"
+    },
+    "subject": "retrofit_scope_present",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section describes retrofit work on existing space outside the new addition footprint; per job_definition rules it must be placed in a separate component and sequenced independently from new-construction dependencies.",
+    "kind": "prescriptive",
+    "confidence": 0.87,
+    "status": "active",
+    "supported_by": [
+      "f_01KXC94R0EFFJ91ZGS4C3G1MVE",
+      "f_01KXC94R0D7Y7B6ZEFMN56203E"
+    ],
+    "falsification_test": "Customer confirms the hall bath and bedroom work are physically inseparable from addition structural work and cannot proceed independently.",
+    "created_at": "2026-07-12T23:03:35.693Z",
+    "updated_at": "2026-07-12T23:03:35.693Z",
+    "last_verified_at": "2026-07-12T23:03:35.693Z",
+    "derived_from_sha": "dffc834bf9ff5e158a45c2701e23524c1e883613"
+  }
+}
