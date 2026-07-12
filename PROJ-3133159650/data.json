@@ -10,7 +10,7 @@
   "image_compression": "FAST",
   "video_compression": "FAST",
   "av1_enabled": false,
-  "private_aws": false,
+  "private_aws": true,
   "profile": {
     "service_area": {
       "center": "Johnson City, TN",
