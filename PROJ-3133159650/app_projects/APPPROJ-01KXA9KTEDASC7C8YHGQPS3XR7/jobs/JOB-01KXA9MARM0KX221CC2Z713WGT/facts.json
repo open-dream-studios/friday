@@ -1,1 +1,302 @@
-{}
+{
+  "f_01KXA9ZXBEMFQHJ88DRVHPEB5A": {
+    "id": "f_01KXA9ZXBEMFQHJ88DRVHPEB5A",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "The job is scheduled to start on 2026-10-05.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBFP1T9ZXP4W5PSZPEP": {
+    "id": "f_01KXA9ZXBFP1T9ZXP4W5PSZPEP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "addition_footprint",
+    "content": "The addition is a 30'×10' two-story structure: basement-level storage below and a second-floor primary bedroom, master bathroom, and walk-in closet above.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBFNZ9EWR322YFSAKW2": {
+    "id": "f_01KXA9ZXBFNZ9EWR322YFSAKW2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "foundation_spec",
+    "content": "Foundation consists of continuous 12\"×12\" concrete footings around the perimeter, 4\" gravel base, vapor barrier, rebar/mesh reinforcement, and a 4\" concrete slab — no CMU or full-height foundation wall.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBFB17YMZYR846RZQMM": {
+    "id": "f_01KXA9ZXBFB17YMZYR846RZQMM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "One 3-ply 14\" engineered LVL beam spanning approximately 15'-6\" is required to open an existing load-bearing wall; temporary shoring is included.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBFF2A920PER3W8D8N0": {
+    "id": "f_01KXA9ZXBFF2A920PER3W8D8N0",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "windows_spec",
+    "content": "Four windows are specified: three 36\"×60\" units and one transom window.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBF3MSXQNCXGE4W063W": {
+    "id": "f_01KXA9ZXBF3MSXQNCXGE4W063W",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "exterior_door_count",
+    "content": "One new exterior door is included in scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBFHQCJDGFY986CV1F7": {
+    "id": "f_01KXA9ZXBFHQCJDGFY986CV1F7",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "electrical_subpanel",
+    "content": "One new 100-amp subpanel is included in the electrical scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBGSX7B4NXH0BDQ8Q1M": {
+    "id": "f_01KXA9ZXBGSX7B4NXH0BDQ8Q1M",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "elevator_shaft",
+    "content": "A future elevator shaft (approximately 4'×4') is framed and a dedicated 120V/30A circuit is provided; the elevator itself is excluded from scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBGXE86FRW5GGVARS1Y": {
+    "id": "f_01KXA9ZXBGXE86FRW5GGVARS1Y",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "septic_scope",
+    "content": "TDEC septic inspection and capacity evaluation is required because the addition adds a master bathroom and primary bedroom; actual septic/grinder remediation costs are excluded from the contract as a future change order.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBGTRGSYWG4W6Y71FFY": {
+    "id": "f_01KXA9ZXBGTRGSYWG4W6Y71FFY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "roof_tie_in",
+    "content": "The new 3/12 gable roof ties into the existing 6/12 roof; architectural asphalt shingle is specified to match existing, with fascia, vinyl soffit, seamless gutters, and all required flashing.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBH5F8D4EWBKN7WCRKB": {
+    "id": "f_01KXA9ZXBH5F8D4EWBKN7WCRKB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "roof_system_type",
+    "content": "The scope describes the roof framing as 'truss or rafter framed' — no determination between the two is made in the scope document.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBH2Z7JV383D0GXM0GK": {
+    "id": "f_01KXA9ZXBH2Z7JV383D0GXM0GK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "heat_pump_relocation",
+    "content": "Relocation of the existing heat pump and its electrical disconnect is included in the site/demo scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBJKM7BN1YCY6E9NQA6": {
+    "id": "f_01KXA9ZXBJKM7BN1YCY6E9NQA6",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "retrofit_items_in_scope",
+    "content": "At least two retrofit items are present alongside the new-construction scope: an existing hallway electrical switch relocation (with drywall patch, prime, and paint) and the existing heat pump relocation.",
+    "confidence": 0.9,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBJZSDGSV03YE691JKX": {
+    "id": "f_01KXA9ZXBJZSDGSV03YE691JKX",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "rock_excavation_exclusion",
+    "content": "Rock excavation is explicitly excluded from the contract; encountering rock during excavation triggers a change order.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "f_01KXA9ZXBJPNNPD5Y8JM9QWSWT": {
+    "id": "f_01KXA9ZXBJPNNPD5Y8JM9QWSWT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "job_valuation_status",
+    "content": "No valuation has been set on this job; data.json:valuation is null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+      }
+    ],
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  }
+}

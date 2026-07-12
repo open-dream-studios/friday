@@ -1,1 +1,86 @@
-{}
+{
+  "b_01KXA9ZXBJQHEH3Z02RPDANSC3": {
+    "id": "b_01KXA9ZXBJQHEH3Z02RPDANSC3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "tdec_timing_risk",
+    "content": "With 85 days until the 2026-10-05 start and the Addition job-type requiring a minimum 70-day TDEC septic lead, only ~15 days of buffer remain; TDEC contact must be initiated immediately or the start date will slip.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA9ZXBGXE86FRW5GGVARS1Y",
+      "f_01KXA9ZXBEMFQHJ88DRVHPEB5A"
+    ],
+    "falsification_test": "Confirmation that TDEC has already been contacted, or evidence the existing septic system has sufficient capacity and no permit is needed.",
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "last_verified_at": "2026-07-12T04:39:57.038Z",
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "b_01KXA9ZXBJ0E61DVJ1BRRDY56N": {
+    "id": "b_01KXA9ZXBJ0E61DVJ1BRRDY56N",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "subpanel_amperage_check_needed",
+    "content": "The 100-amp subpanel scope triggers a mandatory pre-contract amperage verification on the existing main service per the Addition job-type rules; no such verification is documented in any attached material.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA9ZXBFHQCJDGFY986CV1F7"
+    ],
+    "falsification_test": "A documented amperage check result confirming the main service has adequate capacity.",
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "last_verified_at": "2026-07-12T04:39:57.038Z",
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "b_01KXA9ZXBK752CD66X9W8F20AM": {
+    "id": "b_01KXA9ZXBK752CD66X9W8F20AM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "long_lead_procurement_status",
+    "content": "At minimum three long-lead items are unconfirmed: the LVL beam (21-day lead), four windows (14–21 days), and one exterior door (21–28 days); if the roof is truss-framed, custom trusses add a 28–42 day item — all must be ordered at or before structural sign-off.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA9ZXBFB17YMZYR846RZQMM",
+      "f_01KXA9ZXBFF2A920PER3W8D8N0",
+      "f_01KXA9ZXBF3MSXQNCXGE4W063W",
+      "f_01KXA9ZXBH5F8D4EWBKN7WCRKB"
+    ],
+    "falsification_test": "Purchase orders or confirmed delivery dates for each item.",
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "last_verified_at": "2026-07-12T04:39:57.038Z",
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  },
+  "b_01KXA9ZXBKFBYMVN6WCYFW53RQ": {
+    "id": "b_01KXA9ZXBKFBYMVN6WCYFW53RQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA9MARM0KX221CC2Z713WGT"
+    },
+    "subject": "concealed_roof_condition_risk",
+    "content": "The 3/12-to-6/12 roof tie-in involves structural conditions hidden above the existing ceiling that cannot be assessed until demo exposes them; a 2–3 day schedule buffer after opening is warranted per Addition job-type rules.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA9ZXBGTRGSYWG4W6Y71FFY"
+    ],
+    "falsification_test": "A pre-demo structural assessment confirming existing rafters/trusses can accept the new load without modification.",
+    "created_at": "2026-07-12T04:39:57.038Z",
+    "updated_at": "2026-07-12T04:39:57.038Z",
+    "last_verified_at": "2026-07-12T04:39:57.038Z",
+    "derived_from_sha": "e9e0ac7aebd3c641d6180ea3ab7962b6e1d9a5de"
+  }
+}
