@@ -1,1 +1,103 @@
-{}
+{
+  "b_01KXAVEN7YFB3GG6VN5DTQYH7X": {
+    "id": "b_01KXAVEN7YFB3GG6VN5DTQYH7X",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAV036GZSNCDFZ1CFN7PK2C"
+    },
+    "subject": "cost_vs_contract_price",
+    "content": "The $100,778.92 breakdown total is the estimated project cost, not the contract price; TCR's 30% gross margin floor requires a minimum contract price of approximately $144,000 on this job.",
+    "kind": "prescriptive",
+    "confidence": 0.82,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXAVEN7XWTTJTKSHV0R9K1S7"
+    ],
+    "falsification_test": "Owner confirming this figure already reflects customer-facing pricing with margin baked in would falsify this.",
+    "created_at": "2026-07-12T09:45:06.044Z",
+    "updated_at": "2026-07-12T09:45:06.044Z",
+    "last_verified_at": "2026-07-12T09:45:06.044Z",
+    "derived_from_sha": "eb899331b3ee7f5b4ff63562423c5c52666b974d"
+  },
+  "b_01KXAVEN7Z7PP64NS74MJFKBGW": {
+    "id": "b_01KXAVEN7Z7PP64NS74MJFKBGW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAV036GZSNCDFZ1CFN7PK2C"
+    },
+    "subject": "septic_timing_risk",
+    "content": "Addition CLAUDE.md sets a minimum 70-day TDEC lead time; with the Oct 5 start only 85 days away, the septic process must be initiated immediately or the start date will slip.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAVEN7X4M9F9NPHJ5BBT5AE",
+      "f_01KXAVEN7YKAXR8D0BFSD74RZ4"
+    ],
+    "falsification_test": "Confirmation that TDEC process is already underway, or that the existing septic system is unaffected by this addition, would falsify this.",
+    "created_at": "2026-07-12T09:45:06.044Z",
+    "updated_at": "2026-07-12T09:45:06.044Z",
+    "last_verified_at": "2026-07-12T09:45:06.044Z",
+    "derived_from_sha": "eb899331b3ee7f5b4ff63562423c5c52666b974d"
+  },
+  "b_01KXAVEN7ZJ36BMPJWAEG420KV": {
+    "id": "b_01KXAVEN7ZJ36BMPJWAEG420KV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAV036GZSNCDFZ1CFN7PK2C"
+    },
+    "subject": "retrofit_component_present",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section is a retrofit component per addition CLAUDE.md criteria and must be scheduled as a separate parallel component, not gated on new-construction exterior framing.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAVEN7Y2MZXJYB7NMHHXJAY"
+    ],
+    "falsification_test": "Scope confirmation that hall bath work is physically interdependent with the new addition framing would falsify this.",
+    "created_at": "2026-07-12T09:45:06.044Z",
+    "updated_at": "2026-07-12T09:45:06.044Z",
+    "last_verified_at": "2026-07-12T09:45:06.044Z",
+    "derived_from_sha": "eb899331b3ee7f5b4ff63562423c5c52666b974d"
+  },
+  "b_01KXAVEN7ZH1MD1NVH6N6KDJE4": {
+    "id": "b_01KXAVEN7ZH1MD1NVH6N6KDJE4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAV036GZSNCDFZ1CFN7PK2C"
+    },
+    "subject": "tankless_wh_scope_status",
+    "content": "The tankless water heater appears to be an optional upsell rather than confirmed scope — the breakdown title says 'Incl. Tankless WH Option' while the scope document describes extending the existing gas water heater vent through the new roof.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXAVEN7YX72M0Q134QW3AX66"
+    ],
+    "falsification_test": "Explicit scope or contract confirmation of tankless inclusion or exclusion would resolve this.",
+    "created_at": "2026-07-12T09:45:06.044Z",
+    "updated_at": "2026-07-12T09:45:06.044Z",
+    "last_verified_at": "2026-07-12T09:45:06.044Z",
+    "derived_from_sha": "eb899331b3ee7f5b4ff63562423c5c52666b974d"
+  },
+  "b_01KXAVEN7ZPW1STCFVP7DK9XP8": {
+    "id": "b_01KXAVEN7ZPW1STCFVP7DK9XP8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAV036GZSNCDFZ1CFN7PK2C"
+    },
+    "subject": "permit_timing_adequacy",
+    "content": "Johnson City permit review takes 3-6 weeks; with an Oct 5 start date the permit must be filed no later than mid-August 2026, and filing now is the safe posture.",
+    "kind": "predictive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAVEN7YKAXR8D0BFSD74RZ4"
+    ],
+    "falsification_test": "Confirmation the permit has already been submitted would resolve this.",
+    "created_at": "2026-07-12T09:45:06.044Z",
+    "updated_at": "2026-07-12T09:45:06.044Z",
+    "last_verified_at": "2026-07-12T09:45:06.044Z",
+    "derived_from_sha": "eb899331b3ee7f5b4ff63562423c5c52666b974d"
+  }
+}
