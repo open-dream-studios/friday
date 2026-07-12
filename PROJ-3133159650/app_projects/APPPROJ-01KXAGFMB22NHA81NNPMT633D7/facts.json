@@ -1,1 +1,177 @@
-{}
+{
+  "f_01KXAGKGJNA20SX07HXPYNCJYY": {
+    "id": "f_01KXAGKGJNA20SX07HXPYNCJYY",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJQ11CTZ6FQCQYRGAQC": {
+    "id": "f_01KXAGKGJQ11CTZ6FQCQYRGAQC",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "customer_name",
+    "content": "The customer is john cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.customer_id",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJR66HPMD1G5H53EPV4": {
+    "id": "f_01KXAGKGJR66HPMD1G5H53EPV4",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "customer_phone",
+    "content": "The customer's phone number on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJRDM64KA0W3BVEJ457": {
+    "id": "f_01KXAGKGJRDM64KA0W3BVEJ457",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "customer_email",
+    "content": "The customer's email on file is johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJRJ0QXX8QB3HT1JY9K": {
+    "id": "f_01KXAGKGJRJ0QXX8QB3HT1JY9K",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR) is the assigned lead employee.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJRY0TJMGE32MB70GYV": {
+    "id": "f_01KXAGKGJRY0TJMGE32MB70GYV",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "scope_document_attached",
+    "content": "A scope document (scope.pdf, 91515 bytes) is attached to this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJRN07R088MSX4S3DMP": {
+    "id": "f_01KXAGKGJRN07R088MSX4S3DMP",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation run has been performed; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  },
+  "f_01KXAGKGJRX7B82NY8X032TAGK": {
+    "id": "f_01KXAGKGJRX7B82NY8X032TAGK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAGFMB22NHA81NNPMT633D7"
+    },
+    "subject": "notes_field_status",
+    "content": "The notes field is null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T06:35:30.773Z",
+    "updated_at": "2026-07-12T06:35:30.773Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+      }
+    ],
+    "derived_from_sha": "6fe71de15918e415ce364b9c14cbab9df388aa49"
+  }
+}
