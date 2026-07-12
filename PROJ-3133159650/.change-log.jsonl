@@ -35,3 +35,4 @@
 {"ts":"2026-07-12T05:16:50.179Z","reason":"created job JOB-01KXAC3BC85TWQD6YJXXAT60B9 on app_project APPPROJ-01KXAC2V3265ERQECTWKWP76XQ","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXAC2V3265ERQECTWKWP76XQ","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-12T05:17:08.578Z","reason":"created document \"scope_full\" via editor (id=doc_01KXAC3TJA6FWWJPJ0ZFAWCQ9D)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXAC2V3265ERQECTWKWP76XQ","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-12T05:17:29.611Z","reason":"updated job JOB-01KXAC3BC85TWQD6YJXXAT60B9","actor":"user","entities":[{"kind":"job","id":"JOB-01KXAC3BC85TWQD6YJXXAT60B9","action":"update","change_kind":"job_data"}]}
+{"ts":"2026-07-12T05:28:38.137Z","reason":"boot","actor":"boot","entities":[]}

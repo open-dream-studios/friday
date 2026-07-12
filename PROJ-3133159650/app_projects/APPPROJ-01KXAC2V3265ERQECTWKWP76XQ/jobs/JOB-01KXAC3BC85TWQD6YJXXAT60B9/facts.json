@@ -1,1 +1,267 @@
-{}
+{
+  "f_01KXACCVEAZE5T2YNQGVPS29TD": {
+    "id": "f_01KXACCVEAZE5T2YNQGVPS29TD",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "job_scope_type",
+    "content": "This is a two-story addition (~30' x 10') adding basement-level storage and a second-floor expansion containing a primary bedroom, master bathroom, and walk-in closet at 308 Evergreen Street.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBP70WN5MAN8XX88PD": {
+    "id": "f_01KXACCVEBP70WN5MAN8XX88PD",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "addition_footprint",
+    "content": "The addition footprint is approximately 30 feet by 10 feet (300 sq ft).",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBSVY12K8VEWHZA6AM": {
+    "id": "f_01KXACCVEBSVY12K8VEWHZA6AM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "foundation_spec",
+    "content": "Foundation is continuous 12\"x12\" perimeter concrete footings with 4\" gravel base, vapor barrier, and 4\" smooth concrete slab; no CMU or full-height foundation walls.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBQZQCERD39Q07Y8TT": {
+    "id": "f_01KXACCVEBQZQCERD39Q07Y8TT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "Structural scope includes one engineered 3-ply 14\" LVL beam spanning approximately 15'-6\" to open a load-bearing wall, with temporary shoring included.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBB08AEEPH681WA4MY": {
+    "id": "f_01KXACCVEBB08AEEPH681WA4MY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "roof_pitch_detail",
+    "content": "New addition roof is 3/12 pitch tying into the existing 6/12 roof pitch; architectural asphalt shingles to match existing.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEB0MPE2YYWZT6S5G7Z": {
+    "id": "f_01KXACCVEB0MPE2YYWZT6S5G7Z",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "electrical_subpanel_spec",
+    "content": "Electrical scope includes one new 100-amp subpanel with full rough-in and trim-out; scope explicitly states only an assumption that existing service can support the new subpanel.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBX5MZW5EJQ8S83EG3": {
+    "id": "f_01KXACCVEBX5MZW5EJQ8S83EG3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "window_spec",
+    "content": "Scope includes four windows: three 36\"x60\" and one transom window.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBWKZE39NJWG1MCZK8": {
+    "id": "f_01KXACCVEBWKZE39NJWG1MCZK8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "septic_scope_callout",
+    "content": "Scope requires a TDEC septic inspection and evaluation of septic relocation or grinder pump connection to sewer; those remediation costs are explicitly excluded as change-order items.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBNV0E6AA7WY5675G4": {
+    "id": "f_01KXACCVEBNV0E6AA7WY5675G4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "elevator_shaft_framing",
+    "content": "A 4'x4' future elevator shaft is to be framed and a dedicated 120V, 30A circuit installed; the elevator itself is excluded from scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEBEM46G0Q7S6G8HVE1": {
+    "id": "f_01KXACCVEBEM46G0Q7S6G8HVE1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "scheduled_start_date",
+    "content": "Job scheduled start date is 2026-10-05.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVEC02WWRE2SZGF4V5HW": {
+    "id": "f_01KXACCVEC02WWRE2SZGF4V5HW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "job_status_current",
+    "content": "Job status is 'waiting_work' with medium priority; no completion date is set.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:status",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:priority",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVECV7W1VAXJ6HEFBGJS": {
+    "id": "f_01KXACCVECV7W1VAXJ6HEFBGJS",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "exterior_demo_items",
+    "content": "Site work includes saw-cutting/removing existing concrete walkway sections, removing railroad ties, relocating the existing heat pump and electrical disconnect, and extending the gas water heater vent through the new roof.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_full.pdf",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  },
+  "f_01KXACCVECH6Y065VDEFDPM17P": {
+    "id": "f_01KXACCVECH6Y065VDEFDPM17P",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAC3BC85TWQD6YJXXAT60B9"
+    },
+    "subject": "breakdown_document_present",
+    "content": "A breakdown document ('308_Evergreen_Addition.xlsx - Summary (1).csv') is attached to the job per data.json but its content was not available for extraction in this run; no cost total or category rollups are on record.",
+    "confidence": 1,
+    "created_at": "2026-07-12T05:21:58.218Z",
+    "updated_at": "2026-07-12T05:21:58.218Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:breakdown_document",
+        "sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+      }
+    ],
+    "derived_from_sha": "9e4cf6c2d623f10b753f4d889ab69e52bbb13e37"
+  }
+}
