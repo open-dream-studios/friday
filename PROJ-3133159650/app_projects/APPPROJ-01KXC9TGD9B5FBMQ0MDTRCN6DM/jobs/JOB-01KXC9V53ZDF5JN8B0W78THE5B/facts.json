@@ -398,5 +398,24 @@
       }
     ],
     "derived_from_sha": "0ddcac8981fc930f359b05b1e392833f522bbf10"
+  },
+  "f_01KXCB8D120FFKR8VW39KER7WB": {
+    "id": "f_01KXCB8D120FFKR8VW39KER7WB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "answer_to_q_01KXCA4RRCWAX3Z04YFVGRJHEC",
+    "content": "Hawkins County confirmed. Hawkins County residential permit review is typically 2-4 weeks — materially faster than TCR's Johnson City 3-6 week benchmark.",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T23:40:32.674Z",
+    "updated_at": "2026-07-12T23:40:32.674Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCA4RRCWAX3Z04YFVGRJHEC",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
