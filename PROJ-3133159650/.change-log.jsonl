@@ -1,3 +1,4 @@
 {"ts":"2026-07-12T01:49:34.680Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-07-12T01:50:46.392Z","reason":"created app_project \"308 Evergreen Street\" (id=APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-12T01:53:46.597Z","reason":"created job JOB-01KXA0FJ5HJTP1JSMYVSZTWRRJ on app_project APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP","action":"update","change_kind":"app_project_document"}]}
+{"ts":"2026-07-12T01:54:08.525Z","reason":"created document \"308_scope_doc\" via editor (id=doc_01KXA0G8WYXQJKW6SQVHHNGJ4Q)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP","action":"update","change_kind":"app_project_document"}]}
