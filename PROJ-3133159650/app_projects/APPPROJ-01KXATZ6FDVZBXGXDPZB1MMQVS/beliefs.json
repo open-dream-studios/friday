@@ -1,1 +1,63 @@
-{}
+{
+  "b_01KXAV602K9RESWKJE7N5CTVRX": {
+    "id": "b_01KXAV602K9RESWKJE7N5CTVRX",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (Hawkins County) is approximately 20-25 miles from Johnson City, TN, well within TCR's 45-mile service radius; this property is in scope for TCR.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAV602DT4QWKKEZDHP10VZR"
+    ],
+    "falsification_test": "A verified distance calculation showing Church Hill exceeds 45 miles from Johnson City would falsify this.",
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "last_verified_at": "2026-07-12T09:40:22.221Z",
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "b_01KXAV602K6FFTW3CFM1HDPJMB": {
+    "id": "b_01KXAV602K6FFTW3CFM1HDPJMB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "document_project_alignment",
+    "content": "The attached architectural drawings and cost breakdown reference 'Simons Addition'/'Simons Residence' while the customer record says 'john cooper'; either the homeowner's last name is Simons and 'john cooper' is a proxy contact, or one or more documents were attached to the wrong project.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXAV602JVQRTBNRQDHKR0JE6",
+      "f_01KXAV602HHMWJBH6FG6MT4NCH"
+    ],
+    "falsification_test": "Confirmation that the homeowner is named Simons (and Cooper is a contact proxy), or that the drawings belong to a different job, would resolve this.",
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "last_verified_at": "2026-07-12T09:40:22.221Z",
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "b_01KXAV602KXKTHFSVDA01QAC1S": {
+    "id": "b_01KXAV602KXKTHFSVDA01QAC1S",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "customer_phone_validity",
+    "content": "Customer phone 2955349323 uses area code 295, which is not an assigned NANP area code, indicating a likely transcription error.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAV602H75C8JVKD6Y8N9XRB"
+    ],
+    "falsification_test": "Confirmation from the owner or customer that this number dials correctly would falsify this.",
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "last_verified_at": "2026-07-12T09:40:22.221Z",
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  }
+}

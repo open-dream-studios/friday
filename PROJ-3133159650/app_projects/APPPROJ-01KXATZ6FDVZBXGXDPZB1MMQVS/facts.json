@@ -1,1 +1,187 @@
-{}
+{
+  "f_01KXAV602DT4QWKKEZDHP10VZR": {
+    "id": "f_01KXAV602DT4QWKKEZDHP10VZR",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "address",
+    "content": "The property address is 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602HHMWJBH6FG6MT4NCH": {
+    "id": "f_01KXAV602HHMWJBH6FG6MT4NCH",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "customer_name",
+    "content": "The project customer is John Cooper (customer_id CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.customer_id",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602H75C8JVKD6Y8N9XRB": {
+    "id": "f_01KXAV602H75C8JVKD6Y8N9XRB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "customer_phone",
+    "content": "The customer phone on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602JFSBWK8WV1R55YKZ7": {
+    "id": "f_01KXAV602JFSBWK8WV1R55YKZ7",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "customer_email",
+    "content": "The customer email on file is johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602JWCV1DEBFZM57A0TS": {
+    "id": "f_01KXAV602JWCV1DEBFZM57A0TS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "lead_employee",
+    "content": "The assigned lead employee is Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR, william.fallon@tcrandc.com).",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602JE8JA5HQJ3AQRJBHQ": {
+    "id": "f_01KXAV602JE8JA5HQJ3AQRJBHQ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "notes_status",
+    "content": "The project notes field is null; no PM notes or QA artifacts are present.",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602JJMSZ3XE12RM2TFR1": {
+    "id": "f_01KXAV602JJMSZ3XE12RM2TFR1",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation run has been executed; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  },
+  "f_01KXAV602JVQRTBNRQDHKR0JE6": {
+    "id": "f_01KXAV602JVQRTBNRQDHKR0JE6",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXATZ6FDVZBXGXDPZB1MMQVS"
+    },
+    "subject": "document_name_mismatch",
+    "content": "The architectural drawings PDF ('3725 SIMONS 012226.pdf') and cost breakdown CSV both reference the project as 'Simons Addition'/'Simons Residence', while the customer record says 'john cooper' and only the scope PDF title ('308 Evergreens Scope') aligns with the street address.",
+    "confidence": 1,
+    "created_at": "2026-07-12T09:40:22.221Z",
+    "updated_at": "2026-07-12T09:40:22.221Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "3725 SIMONS 012226.pdf",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      },
+      {
+        "kind": "document",
+        "path": "evergreen_scope.pdf",
+        "sha": "eab97c16369747424d765b6c989a70e236b81095"
+      }
+    ],
+    "derived_from_sha": "eab97c16369747424d765b6c989a70e236b81095"
+  }
+}
