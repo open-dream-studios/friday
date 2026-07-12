@@ -1,1 +1,207 @@
-{}
+{
+  "f_01KXA5CGPJRE16ZSJ1Y68334DT": {
+    "id": "f_01KXA5CGPJRE16ZSJ1Y68334DT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "scheduled_start_date",
+    "content": "The job is scheduled to start on 2026-10-05.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPK4V0V2ZBQF7JXZYK2": {
+    "id": "f_01KXA5CGPK4V0V2ZBQF7JXZYK2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "addition_footprint_and_program",
+    "content": "The addition is a two-story, 30' x 10' structure providing basement-level storage and a second-floor primary bedroom, master bathroom, and walk-in closet.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPKD5TQWVBQPJRNSF11": {
+    "id": "f_01KXA5CGPKD5TQWVBQPJRNSF11",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "septic_requirement",
+    "content": "The scope document requires a TDEC septic inspection and feasibility determination (relocate, new tank/leach field, or grinder pump) as a pre-construction action; septic relocation/replacement costs are explicitly excluded and would require a change order.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf:Pre-Construction Actions",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPKDCA4FXN3E828HN9W": {
+    "id": "f_01KXA5CGPKDCA4FXN3E828HN9W",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "lvl_beam_scope",
+    "content": "Structural scope includes one (1) 3-ply 14\" engineered LVL beam spanning approximately 15'-6\".",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPKGYA7K6ZSHAAAPMEG": {
+    "id": "f_01KXA5CGPKGYA7K6ZSHAAAPMEG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "roof_tie_in_pitch",
+    "content": "The new 3/12 pitch roof ties into the existing 6/12 pitch roof.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPK07KKKDTBNBZZ474S": {
+    "id": "f_01KXA5CGPK07KKKDTBNBZZ474S",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "subpanel_scope",
+    "content": "Electrical scope includes a new 100-amp subpanel; the scope document lists 'existing electrical service can support new subpanel' as an assumption, not a verified finding.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf:Electrical",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      },
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf:Exclusions/Assumptions",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPKN3Q2HD1R7BB82QQQ": {
+    "id": "f_01KXA5CGPKN3Q2HD1R7BB82QQQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "windows_scope",
+    "content": "Window scope includes four (4) windows: three 36\" x 60\" units and one transom.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPKC44R2AX636C320TK": {
+    "id": "f_01KXA5CGPKC44R2AX636C320TK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "elevator_shaft_framing",
+    "content": "An approximately 4' x 4' elevator shaft is framed as part of the addition scope; the elevator itself is not included.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPKMQ6GERFN093AZNSD": {
+    "id": "f_01KXA5CGPKMQ6GERFN093AZNSD",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "job_valuation_status",
+    "content": "Job valuation is null; no estimation has been run against this job.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA5CGPK4XHRZNZ2VHYMVRAG": {
+    "id": "f_01KXA5CGPK4XHRZNZ2VHYMVRAG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "exterior_finish_materials",
+    "content": "Exterior finish scope includes architectural asphalt shingle roofing to match existing, vinyl siding to match existing, seamless gutters, fascia board and metal, and vinyl soffit.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "evergreen_new_scope.pdf:Materials",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  }
+}

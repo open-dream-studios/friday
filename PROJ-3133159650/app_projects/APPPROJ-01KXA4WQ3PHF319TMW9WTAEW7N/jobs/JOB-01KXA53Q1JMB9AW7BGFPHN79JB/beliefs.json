@@ -1,1 +1,63 @@
-{}
+{
+  "b_01KXA5CGPMGEA4A2H9FZKN3SXV": {
+    "id": "b_01KXA5CGPMGEA4A2H9FZKN3SXV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "septic_critical_path_risk",
+    "content": "TDEC septic inspection is an explicit pre-construction requirement per the scope document. The TDEC process takes 4–8 weeks end-to-end, making it the longest single lead time in the project and a probable determinant of whether the 2026-10-05 start date is achievable.",
+    "kind": "predictive",
+    "confidence": 0.93,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA5CGPKD5TQWVBQPJRNSF11",
+      "f_01KXA5CGPJRE16ZSJ1Y68334DT"
+    ],
+    "falsification_test": "TDEC process already initiated and permit in hand would reduce this risk; 'Not applicable' determination would eliminate it.",
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "last_verified_at": "2026-07-12T03:19:27.186Z",
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "b_01KXA5CGPMC8NFMJ2FPJZPTXRK": {
+    "id": "b_01KXA5CGPMC8NFMJ2FPJZPTXRK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "roof_tie_in_concealed_condition_risk",
+    "content": "The new 3/12 roof must integrate with an existing 6/12 pitch roof; structural conditions above the existing ceiling are concealed until demo opens them, creating change-order exposure and requiring a post-opening schedule buffer per addition rules.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA5CGPKGYA7K6ZSHAAAPMEG"
+    ],
+    "falsification_test": "Structural drawings or prior inspection confirming existing rafter/truss condition and load capacity would reduce this risk.",
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "last_verified_at": "2026-07-12T03:19:27.186Z",
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "b_01KXA5CGPMSC4P6KZ35RR5QY22": {
+    "id": "b_01KXA5CGPMSC4P6KZ35RR5QY22",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXA53Q1JMB9AW7BGFPHN79JB"
+    },
+    "subject": "subpanel_service_verification_status",
+    "content": "A 100-amp subpanel is in scope, but existing main service capacity is listed only as an assumption in the scope document. Addition rules require a pre-construction amperage check task before the subpanel scope is finalized.",
+    "kind": "prescriptive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KXA5CGPK07KKKDTBNBZZ474S"
+    ],
+    "falsification_test": "A documented load calculation or electrician verification showing adequate main service headroom would resolve this.",
+    "created_at": "2026-07-12T03:19:27.186Z",
+    "updated_at": "2026-07-12T03:19:27.186Z",
+    "last_verified_at": "2026-07-12T03:19:27.186Z",
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  }
+}

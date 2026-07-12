@@ -133,5 +133,45 @@
       }
     ],
     "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  },
+  "f_01KXA593R4S4Z31CTEYB62M9WW": {
+    "id": "f_01KXA593R4S4Z31CTEYB62M9WW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "attached_job",
+    "content": "Job JOB-01KXA53Q1JMB9AW7BGFPHN79JB has been created and attached to this app_project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:17:35.620Z",
+    "updated_at": "2026-07-12T03:17:35.620Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-12T03:14:42.098Z",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+  },
+  "f_01KXA593R4NNSDJZXAXG6S2TZT": {
+    "id": "f_01KXA593R4NNSDJZXAXG6S2TZT",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "scope_document_attached",
+    "content": "A scope document named 'evergreen_new_scope' (doc_01KXA547MH9Q1WBARQENJW4YJ7) has been attached to this project.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:17:35.620Z",
+    "updated_at": "2026-07-12T03:17:35.620Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl:2026-07-12T03:14:56.887Z",
+        "sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
+      }
+    ],
+    "derived_from_sha": "9e9af0e1fa76c6cc2b85cc608887e6ac2109ecca"
   }
 }
