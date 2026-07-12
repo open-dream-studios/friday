@@ -1,3 +1,6 @@
+tier: text
+extracted_at: 2026-07-12T09:10:01.294Z
+---
 Two-Story Addition + Bedroom Remodel – Cost Breakdown (Incl. Tankless WH Option),,,,,,,,,Project Totals,
 ,,,,,,,,,Labor Cost,"$45,167.59"
 Project,Simons Addition – 30'x10' Two-Story + Bedroom Remodel,,,,,,,,Material Cost,"$52,171.33"
