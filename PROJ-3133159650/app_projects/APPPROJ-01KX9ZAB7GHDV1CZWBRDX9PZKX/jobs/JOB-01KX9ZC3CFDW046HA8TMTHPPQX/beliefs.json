@@ -1,1 +1,44 @@
-{}
+{
+  "b_01KX9ZMHMXNV6ZYFR5DB9R69VD": {
+    "id": "b_01KX9ZMHMXNV6ZYFR5DB9R69VD",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KX9ZC3CFDW046HA8TMTHPPQX"
+    },
+    "subject": "execution_readiness",
+    "content": "Job cannot advance to scheduling or breakdown planning until the two-story scope conflict flagged at app_project level is resolved by Joey. No breakdown document exists and the scope falls outside TCR's stated single-story-only service line.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9ZMHMXMBH6Q6T2H2WQ4FM0",
+      "f_01KX9ZMHMWEMWFD25YQGAMG1N8"
+    ],
+    "falsification_test": "Joey explicitly approves the two-story scope and a breakdown document is linked.",
+    "created_at": "2026-07-12T01:38:58.844Z",
+    "updated_at": "2026-07-12T01:38:58.844Z",
+    "last_verified_at": "2026-07-12T01:38:58.844Z",
+    "derived_from_sha": "ebe0bd80ad5aad859c558cdb59d30e8d62630a78"
+  },
+  "b_01KX9ZMHMXRT44YVR541W85NAB": {
+    "id": "b_01KX9ZMHMXRT44YVR541W85NAB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KX9ZC3CFDW046HA8TMTHPPQX"
+    },
+    "subject": "permit_application_timing_risk",
+    "content": "Scheduled start is 2026-08-24 (~44 days from today), but CLAUDE.md notes addition permits in Johnson City can consume 3-6 weeks alone. If Joey approves this project, permit application must be filed immediately or the start date is unachievable.",
+    "kind": "predictive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KX9ZMHMWEMWFD25YQGAMG1N8",
+      "f_01KX9ZMHMX1GTBRXQEF93WSMG5"
+    ],
+    "falsification_test": "Permit application is already submitted, or start date is pushed to accommodate the permit window.",
+    "created_at": "2026-07-12T01:38:58.844Z",
+    "updated_at": "2026-07-12T01:38:58.844Z",
+    "last_verified_at": "2026-07-12T01:38:58.844Z",
+    "derived_from_sha": "ebe0bd80ad5aad859c558cdb59d30e8d62630a78"
+  }
+}
