@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01KXB11CAHZ8AS6Z2ATN4VPQ5V",
+    "name": "scope.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01KXB11NM1Y3M2AT2ATDKEJ6DM",
+    "name": "308_Evergreen_Addition.xlsx - Summary (1).csv",
+    "resolved": true
+  }
 }
