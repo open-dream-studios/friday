@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KXAC6JBD7TXH68Q7K90F1BXB": {
+    "id": "b_01KXAC6JBD7TXH68Q7K90F1BXB",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAC2V3265ERQECTWKWP76XQ"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (37642) is approximately 30 miles from Johnson City, TN, placing this property well within TCR's 45-mile service radius.",
+    "kind": "descriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAC6JBBAPF0F3C48D599KVT"
+    ],
+    "falsification_test": "A verified distance exceeding 45 miles from Johnson City to Church Hill would falsify this.",
+    "created_at": "2026-07-12T05:18:32.299Z",
+    "updated_at": "2026-07-12T05:18:32.299Z",
+    "last_verified_at": "2026-07-12T05:18:32.299Z",
+    "derived_from_sha": "d70fdf62f9d800a4e967b9b63b914492be2e56e1"
+  },
+  "b_01KXAC6JBD3BPGNKFPX8CRFS7P": {
+    "id": "b_01KXAC6JBD3BPGNKFPX8CRFS7P",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAC2V3265ERQECTWKWP76XQ"
+    },
+    "subject": "customer_phone_validity",
+    "content": "The customer phone '5911232443' uses area code 591, which is unassigned in the North American Numbering Plan; the number is likely a transcription error and should be verified before first contact.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAC6JBD6PA7P8FPV6BJME6N"
+    ],
+    "falsification_test": "Customer confirming the number is reachable would falsify this.",
+    "created_at": "2026-07-12T05:18:32.299Z",
+    "updated_at": "2026-07-12T05:18:32.299Z",
+    "last_verified_at": "2026-07-12T05:18:32.299Z",
+    "derived_from_sha": "d70fdf62f9d800a4e967b9b63b914492be2e56e1"
+  }
+}
