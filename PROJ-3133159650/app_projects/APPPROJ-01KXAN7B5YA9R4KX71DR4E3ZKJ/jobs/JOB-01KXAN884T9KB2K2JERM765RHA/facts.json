@@ -1,1 +1,232 @@
-{}
+{
+  "f_01KXANJ1ZS9BDW02F3DTPEFDEK": {
+    "id": "f_01KXANJ1ZS9BDW02F3DTPEFDEK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_addition_dimensions",
+    "content": "The addition is a two-story structure with an approximate 30' × 10' footprint.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZXN80SY7BDQRQW8YEE": {
+    "id": "f_01KXANJ1ZXN80SY7BDQRQW8YEE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_addition_spaces",
+    "content": "The addition includes basement-level storage, a second-floor primary bedroom expansion, a master bathroom, and a walk-in closet.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZYTEEDW4EP14V770VS": {
+    "id": "f_01KXANJ1ZYTEEDW4EP14V770VS",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_septic_requirement",
+    "content": "A TDEC septic inspection is required pre-construction; all septic remediation costs are explicitly excluded from the contract and will require a change order.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZYNBY29R0FS02VFBN1": {
+    "id": "f_01KXANJ1ZYNBY29R0FS02VFBN1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_foundation_spec",
+    "content": "Foundation consists of continuous 12\"×12\" perimeter concrete footings with 4\" gravel base, vapor barrier, rebar/wire mesh, and a 4\" smooth concrete slab; no CMU or full-height foundation wall is anticipated.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZYE8T3A75FDDV9EMY4": {
+    "id": "f_01KXANJ1ZYE8T3A75FDDV9EMY4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_lvl_beam_spec",
+    "content": "One 3-ply 14\" LVL beam spanning approximately 15'-6\" is required to open an existing load-bearing wall; temporary shoring is included in scope.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZYA0ZH1VFN6VKZ6H7P": {
+    "id": "f_01KXANJ1ZYA0ZH1VFN6VKZ6H7P",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_roof_system",
+    "content": "New gable roof at 3/12 pitch tying into existing 6/12; truss vs. rafter system is TBD in design phase with architectural asphalt shingles and seamless gutters.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZYRR4BKSCC8G95G1QZ": {
+    "id": "f_01KXANJ1ZYRR4BKSCC8G95G1QZ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_electrical_subpanel_spec",
+    "content": "Electrical scope includes a 100-amp subpanel, approximately 12 recessed lights, and a dedicated 120V/30A circuit for a future elevator.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZYJYBF6CA2RXTQY7ZW": {
+    "id": "f_01KXANJ1ZYJYBF6CA2RXTQY7ZW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_elevator_shaft_scope",
+    "content": "A future 4'×4' elevator shaft is framed into the structure; the elevator system itself is not included in this contract.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZZ9Y4QS5KV2KMWWJ5M": {
+    "id": "f_01KXANJ1ZZ9Y4QS5KV2KMWWJ5M",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_heat_pump_relocation",
+    "content": "Existing heat pump and electrical disconnect must be relocated during the demo/site work phase.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZZBTSACA3X1KKN6BCW": {
+    "id": "f_01KXANJ1ZZBTSACA3X1KKN6BCW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_window_spec",
+    "content": "Exterior scope includes four windows — three 36\"×60\" and one transom — plus one new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope_of_work.pdf",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  },
+  "f_01KXANJ1ZZ6FZJNC8RSP60K4WM": {
+    "id": "f_01KXANJ1ZZ6FZJNC8RSP60K4WM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAN884T9KB2K2JERM765RHA"
+    },
+    "subject": "job_estimation_status",
+    "content": "No valuation, breakdown document, or estimation run is attached; this job is in pre-estimation state.",
+    "confidence": 1,
+    "created_at": "2026-07-12T08:02:05.945Z",
+    "updated_at": "2026-07-12T08:02:05.945Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:breakdown_document",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:scope_document",
+        "sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+      }
+    ],
+    "derived_from_sha": "1caa9cb260ea4379da557425095b6a4d6baacd4a"
+  }
+}
