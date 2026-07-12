@@ -1,1 +1,422 @@
-{}
+{
+  "f_01KXA028VMRB31KBQYQ03XAE0Q": {
+    "id": "f_01KXA028VMRB31KBQYQ03XAE0Q",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "primary_domain",
+    "content": "TCR's primary customer-facing domain is tricitiesremodelingco.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:domain",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VSJZP1EQGW5SM0PWXW": {
+    "id": "f_01KXA028VSJZP1EQGW5SM0PWXW",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "backend_domain",
+    "content": "TCR's backend/API domain is tricitiesremodeling.shop.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:backend_domain",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VS17BAB34H5R5V6YR7": {
+    "id": "f_01KXA028VS17BAB34H5R5V6YR7",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "service_area",
+    "content": "TCR's service area is centered on Johnson City, TN with a 45-mile radius.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:profile.service_area",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VSKKWNC9BTXC43RZEW": {
+    "id": "f_01KXA028VSKKWNC9BTXC43RZEW",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "working_hours",
+    "content": "TCR's working hours are 07:00–17:00 America/New_York.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:profile.working_hours",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VSC2Q65W66HRMYYGWF": {
+    "id": "f_01KXA028VSC2Q65W66HRMYYGWF",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "field_crew_size",
+    "content": "data.json reports TCR's field crew size as 8.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:profile.field_crew_size",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VSRFQG6B7ETYH30N39": {
+    "id": "f_01KXA028VSRFQG6B7ETYH30N39",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "total_employees",
+    "content": "TCR has 40 total employees per company profile.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:profile.total_employees",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VS31CQ2SK3T2SZW663": {
+    "id": "f_01KXA028VS31CQ2SK3T2SZW663",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "gross_margin_floor",
+    "content": "TCR's gross margin floor is 30%; jobs below this threshold are declined.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.pricing_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VTMG1CBBYWH3VFM8BX": {
+    "id": "f_01KXA028VTMG1CBBYWH3VFM8BX",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "minimum_job_value",
+    "content": "TCR does not accept jobs under $15,000.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VT54D0GNYM8XTESWG5": {
+    "id": "f_01KXA028VT54D0GNYM8XTESWG5",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "deposit_structure",
+    "content": "TCR requires 25% deposits at four milestones: contract signing, demo start, rough-in inspection, and completion.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.pricing_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VT5PT5HDS52V54DYCR": {
+    "id": "f_01KXA028VT5PT5HDS52V54DYCR",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "materials_markup",
+    "content": "Materials are billed at cost plus 15% markup, itemized in estimates; labor is not itemized.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.pricing_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VTAZ7FHHFBVQA783TS": {
+    "id": "f_01KXA028VTAZ7FHHFBVQA783TS",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "contract_type",
+    "content": "TCR uses fixed-price contracts exclusively; time-and-materials is never used for residential work.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.pricing_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VTV4FSQ4FVQ953BFGM": {
+    "id": "f_01KXA028VTV4FSQ4FVQ953BFGM",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "change_order_policy",
+    "content": "Change orders must be written, signed, and paid in full before the associated work begins.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.pricing_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VTDMSPY0PTZXKNQ709": {
+    "id": "f_01KXA028VTDMSPY0PTZXKNQ709",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "labor_warranty_period",
+    "content": "TCR warrants labor for 1 year post-completion; materials are covered per manufacturer warranty.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VT47BTN7WXWHH5VFSJ": {
+    "id": "f_01KXA028VT47BTN7WXWHH5VFSJ",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "waterproofing_standard",
+    "content": "Kerdi or Wedi waterproofing membrane is required behind every tiled shower — no exceptions.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.operating_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VVKW550G3ZHHCM97PE": {
+    "id": "f_01KXA028VVKW550G3ZHHCM97PE",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "staffing_model_type",
+    "content": "TCR uses a hybrid staffing model: in-house crew for finish/quality-critical work, trusted subs for licensed trades, demo, cabinets, countertops, and glass.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.operating_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VVERCT2WQPY05RDEVF": {
+    "id": "f_01KXA028VVERCT2WQPY05RDEVF",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "job_types_offered",
+    "content": "TCR offers bathroom remodels, kitchen remodels, and single-story home additions only; commercial work and ground-up builds are excluded.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VV6TSXMWFA8Z64VTHN": {
+    "id": "f_01KXA028VV6TSXMWFA8Z64VTHN",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "permit_policy",
+    "content": "Permits are required on every applicable job; skipping permits to save time is never acceptable.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VVPRXC096GZ3KRDJ46": {
+    "id": "f_01KXA028VVPRXC096GZ3KRDJ46",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "demo_start_prerequisites",
+    "content": "Demo cannot begin until the signed contract and 25% deposit are received AND materials for the next phase are on site.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:profile.operating_philosophy",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  },
+  "f_01KXA028VV2QA08P5EE4CEZZBD": {
+    "id": "f_01KXA028VV2QA08P5EE4CEZZBD",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-3133159650"
+    },
+    "subject": "material_selection_prerequisite",
+    "content": "Customers must finalize all material selections before a job is scheduled or demo begins.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:46:28.595Z",
+    "updated_at": "2026-07-12T01:46:28.595Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+      }
+    ],
+    "derived_from_sha": "4d4f01a3f54f8b80728bd36b34dde322e868b06c"
+  }
+}
