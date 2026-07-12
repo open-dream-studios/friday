@@ -20,24 +20,24 @@
     "last_verified_at": "2026-07-12T02:52:01.587Z",
     "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
   },
-  "b_01KXA3T9NPPBE6B9ZZW0A6QCX1": {
-    "id": "b_01KXA3T9NPPBE6B9ZZW0A6QCX1",
+  "b_01KXA3YGKD7TEQT30JJQPM4B2R": {
+    "id": "b_01KXA3YGKD7TEQT30JJQPM4B2R",
     "entity": {
       "kind": "app_project",
       "id": "APPPROJ-01KXA3R8135FG17E81CV9VW888"
     },
     "subject": "project_type_classification_status",
-    "content": "Project type 'other' is an unresolved classification; the actual job category (bathroom, kitchen, addition, or other residential work) is unknown and must be confirmed before any workflow can proceed.",
+    "content": "Project type is now resolved as a kitchen remodel via human confirmation; data.json:project_type still reads 'other' and may need a system update to reflect this.",
     "kind": "descriptive",
-    "confidence": 0.92,
+    "confidence": 0.93,
     "status": "active",
     "supported_by": [
-      "f_01KXA3T9NPRCHV8P94PM4QC01M"
+      "f_01KXA3YGKBJ7XYC8MT8PXXKF1A"
     ],
-    "falsification_test": "An updated project_type field with a specific recognized classification would falsify this.",
-    "created_at": "2026-07-12T02:52:01.587Z",
-    "updated_at": "2026-07-12T02:52:01.587Z",
-    "last_verified_at": "2026-07-12T02:52:01.587Z",
-    "derived_from_sha": "1623360a6ae6b204533087b257c156fecbeaceef"
+    "falsification_test": "A different human answer or an updated data.json:project_type field contradicting 'kitchen' would falsify this.",
+    "created_at": "2026-07-12T02:54:19.754Z",
+    "updated_at": "2026-07-12T02:54:19.754Z",
+    "last_verified_at": "2026-07-12T02:54:19.754Z",
+    "derived_from_sha": "11718ab06b20dfd412a702343eea2efa9e8a6bdf"
   }
 }
