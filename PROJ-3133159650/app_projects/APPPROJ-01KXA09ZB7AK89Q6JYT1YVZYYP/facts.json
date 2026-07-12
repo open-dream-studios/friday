@@ -1,1 +1,132 @@
-{}
+{
+  "f_01KXA0C0EAKDF79CR584DWJFQ5": {
+    "id": "f_01KXA0C0EAKDF79CR584DWJFQ5",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "address_full",
+    "content": "Project address is 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:51:47.657Z",
+    "updated_at": "2026-07-12T01:51:47.657Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      }
+    ],
+    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  },
+  "f_01KXA0C0ECRDWEGM0Y3S6EVZ2R": {
+    "id": "f_01KXA0C0ECRDWEGM0Y3S6EVZ2R",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "customer_identity",
+    "content": "Customer is john cooper, phone 2955349323, email johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:51:47.657Z",
+    "updated_at": "2026-07-12T01:51:47.657Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      }
+    ],
+    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  },
+  "f_01KXA0C0EDBBG381MMZETQQHFD": {
+    "id": "f_01KXA0C0EDBBG381MMZETQQHFD",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (william.fallon@tcrandc.com) is the assigned lead employee.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:51:47.657Z",
+    "updated_at": "2026-07-12T01:51:47.657Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      }
+    ],
+    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  },
+  "f_01KXA0C0ED48SDGWJSS3Q3H5JH": {
+    "id": "f_01KXA0C0ED48SDGWJSS3Q3H5JH",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "project_type_raw",
+    "content": "Project type is recorded as 'other' in data.json.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:51:47.657Z",
+    "updated_at": "2026-07-12T01:51:47.657Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:project_type",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      }
+    ],
+    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  },
+  "f_01KXA0C0ED2RPS8TEANWZBY376": {
+    "id": "f_01KXA0C0ED2RPS8TEANWZBY376",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation run has been completed; valuation, estimation total, and estimation sent-at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T01:51:47.657Z",
+    "updated_at": "2026-07-12T01:51:47.657Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      }
+    ],
+    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  },
+  "f_01KXA0C0EDGGE25G833MY4KANK": {
+    "id": "f_01KXA0C0EDGGE25G833MY4KANK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA09ZB7AK89Q6JYT1YVZYYP"
+    },
+    "subject": "customer_phone_validity",
+    "content": "Customer phone 2955349323 carries area code 295, which is not an assigned NANP area code and may be a data-entry error.",
+    "confidence": 0.75,
+    "created_at": "2026-07-12T01:51:47.657Z",
+    "updated_at": "2026-07-12T01:51:47.657Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+      }
+    ],
+    "derived_from_sha": "a734134d81b3f9bc2bbe69b20f6ebe12504a12a3"
+  }
+}
