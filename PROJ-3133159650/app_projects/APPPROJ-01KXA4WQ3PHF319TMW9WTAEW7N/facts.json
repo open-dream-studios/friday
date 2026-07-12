@@ -1,1 +1,137 @@
-{}
+{
+  "f_01KXA4YPTY1XGVE0MXQXKDW0SZ": {
+    "id": "f_01KXA4YPTY1XGVE0MXQXKDW0SZ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "property_address",
+    "content": "The project property is located at 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:11:54.718Z",
+    "updated_at": "2026-07-12T03:11:54.718Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      }
+    ],
+    "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  },
+  "f_01KXA4YPV011NN4Z4GYHQ6CSED": {
+    "id": "f_01KXA4YPV011NN4Z4GYHQ6CSED",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "customer_name",
+    "content": "The customer on record is john cooper (CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:11:54.718Z",
+    "updated_at": "2026-07-12T03:11:54.718Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.customer_id",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      }
+    ],
+    "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  },
+  "f_01KXA4YPV0210CJA4GMHE6DH6R": {
+    "id": "f_01KXA4YPV0210CJA4GMHE6DH6R",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "customer_phone",
+    "content": "Customer phone number on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:11:54.718Z",
+    "updated_at": "2026-07-12T03:11:54.718Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      }
+    ],
+    "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  },
+  "f_01KXA4YPV076634JJ2PW331FC8": {
+    "id": "f_01KXA4YPV076634JJ2PW331FC8",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "customer_email",
+    "content": "Customer email on file is johncooper@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:11:54.718Z",
+    "updated_at": "2026-07-12T03:11:54.718Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      }
+    ],
+    "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  },
+  "f_01KXA4YPV117JN94FGJYVKH8JW": {
+    "id": "f_01KXA4YPV117JN94FGJYVKH8JW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "lead_employee",
+    "content": "Lead employee assigned to this project is Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR, william.fallon@tcrandc.com).",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:11:54.718Z",
+    "updated_at": "2026-07-12T03:11:54.718Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      }
+    ],
+    "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  },
+  "f_01KXA4YPV1TPZF5N19E67N7H32": {
+    "id": "f_01KXA4YPV1TPZF5N19E67N7H32",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXA4WQ3PHF319TMW9WTAEW7N"
+    },
+    "subject": "estimation_status",
+    "content": "No estimation run has been executed; latest_estimation_run_id, latest_estimation_total, and latest_estimation_sent_at are all null.",
+    "confidence": 1,
+    "created_at": "2026-07-12T03:11:54.718Z",
+    "updated_at": "2026-07-12T03:11:54.718Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_run_id",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_total",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:latest_estimation_sent_at",
+        "sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+      }
+    ],
+    "derived_from_sha": "d366971ddc602402253d9cd7df1a7ec7c5e0f480"
+  }
+}
