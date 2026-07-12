@@ -1,1 +1,104 @@
-{}
+{
+  "b_01KXAKQ6APV7XF4291Q3KZD0AV": {
+    "id": "b_01KXAKQ6APV7XF4291Q3KZD0AV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAKABSH9YGPYJKKD30MVX4Z"
+    },
+    "subject": "permit_timing_feasibility",
+    "content": "With 85 calendar days to the scheduled start (2026-10-05) and Johnson City addition permit review taking 3-6 weeks, permits must be filed by late July 2026 at the latest to protect the start date. Any filing delay creates a critical path risk.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAKQ6ANZEZ13Y6W4MD7WYHW"
+    ],
+    "falsification_test": "Confirmation that the permit has already been filed, or that the start date has flexibility, would revise this urgency.",
+    "created_at": "2026-07-12T07:29:57.076Z",
+    "updated_at": "2026-07-12T07:29:57.076Z",
+    "last_verified_at": "2026-07-12T07:29:57.076Z",
+    "derived_from_sha": "d5817b14e8461c9aab74505e042cc48969f41b0e"
+  },
+  "b_01KXAKQ6AP2R9X274J1ZPC2XK8": {
+    "id": "b_01KXAKQ6AP2R9X274J1ZPC2XK8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAKABSH9YGPYJKKD30MVX4Z"
+    },
+    "subject": "tdec_septic_timeline_risk",
+    "content": "Scope requires TDEC septic coordination (4-8 weeks end-to-end per Addition job_definition rules); at 85 days to start, TDEC contact must be initiated immediately — if not already underway, the Oct 5 start date is at risk.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAKQ6ANRQ4TZ96Z35E708D6",
+      "f_01KXAKQ6ANZEZ13Y6W4MD7WYHW"
+    ],
+    "falsification_test": "Confirmation that TDEC has already been contacted, or that septic evaluation has been waived as not applicable, would revise this.",
+    "created_at": "2026-07-12T07:29:57.076Z",
+    "updated_at": "2026-07-12T07:29:57.076Z",
+    "last_verified_at": "2026-07-12T07:29:57.076Z",
+    "derived_from_sha": "d5817b14e8461c9aab74505e042cc48969f41b0e"
+  },
+  "b_01KXAKQ6APYNRH4JJKX4NA7ACT": {
+    "id": "b_01KXAKQ6APYNRH4JJKX4NA7ACT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAKABSH9YGPYJKKD30MVX4Z"
+    },
+    "subject": "roof_structure_procurement_risk",
+    "content": "The truss vs. rafter decision is unresolved; if trusses are selected, the 4-6 week fabrication lead time requires the decision and order to be placed by mid-August 2026 to avoid blocking framing after foundation cures.",
+    "kind": "predictive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAKQ6ANP0AQ474PVAFTYFAV",
+      "f_01KXAKQ6ANZEZ13Y6W4MD7WYHW"
+    ],
+    "falsification_test": "A confirmed rafter selection or evidence trusses are already ordered would revise this.",
+    "created_at": "2026-07-12T07:29:57.076Z",
+    "updated_at": "2026-07-12T07:29:57.076Z",
+    "last_verified_at": "2026-07-12T07:29:57.076Z",
+    "derived_from_sha": "d5817b14e8461c9aab74505e042cc48969f41b0e"
+  },
+  "b_01KXAKQ6APVFCWDQZBHQJP1N71": {
+    "id": "b_01KXAKQ6APVFCWDQZBHQJP1N71",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAKABSH9YGPYJKKD30MVX4Z"
+    },
+    "subject": "existing_service_capacity_risk",
+    "content": "A 100-amp subpanel is in scope but neither the scope document nor any fact confirms the existing main service amperage has been verified; per Addition job_definition rules, this is a mandatory pre-contract check and its omission is a warnings-level gap.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAKQ6ANQA6WV5CKHYETFSN1"
+    ],
+    "falsification_test": "A fact confirming main service amperage has been checked and has adequate capacity would resolve this.",
+    "created_at": "2026-07-12T07:29:57.076Z",
+    "updated_at": "2026-07-12T07:29:57.076Z",
+    "last_verified_at": "2026-07-12T07:29:57.076Z",
+    "derived_from_sha": "d5817b14e8461c9aab74505e042cc48969f41b0e"
+  },
+  "b_01KXAKQ6AP4HFMH0ZE30RXJSS7": {
+    "id": "b_01KXAKQ6AP4HFMH0ZE30RXJSS7",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAKABSH9YGPYJKKD30MVX4Z"
+    },
+    "subject": "estimation_readiness",
+    "content": "No estimation run has been performed and job valuation is null; the job cannot advance to a signed contract or crew scheduling without a completed cost estimate.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAKQ6AP9JA981W3QSNW00PD"
+    ],
+    "falsification_test": "A non-null valuation or a completed estimation run would change this status.",
+    "created_at": "2026-07-12T07:29:57.076Z",
+    "updated_at": "2026-07-12T07:29:57.076Z",
+    "last_verified_at": "2026-07-12T07:29:57.076Z",
+    "derived_from_sha": "d5817b14e8461c9aab74505e042cc48969f41b0e"
+  }
+}
