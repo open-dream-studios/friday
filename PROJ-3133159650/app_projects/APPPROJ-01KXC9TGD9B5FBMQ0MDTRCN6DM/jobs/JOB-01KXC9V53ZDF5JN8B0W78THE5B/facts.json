@@ -531,5 +531,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCBY68D14WTC4B7C15S2JS7": {
+    "id": "f_01KXCBY68D14WTC4B7C15S2JS7",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXC9V53ZDF5JN8B0W78THE5B"
+    },
+    "subject": "answer_to_q_01KXCA4RRCWAX3Z04YFVGRJHEC",
+    "content": "Job valuation is currently null. Cost basis per breakdown is $100,778.92. At the 30% gross margin floor, minimum contract price = $143,970. Actual contracted sell price needs\n  to be entered on the job row.",
+    "confidence": 0.95,
+    "created_at": "2026-07-12T23:52:26.637Z",
+    "updated_at": "2026-07-12T23:52:26.637Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCA4RRCWAX3Z04YFVGRJHEC",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
