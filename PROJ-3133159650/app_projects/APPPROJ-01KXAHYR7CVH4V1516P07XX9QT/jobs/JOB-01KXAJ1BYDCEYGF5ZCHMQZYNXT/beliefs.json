@@ -1,1 +1,63 @@
-{}
+{
+  "b_01KXAJDTNE580TK8CK59EWMW67": {
+    "id": "b_01KXAJDTNE580TK8CK59EWMW67",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAJ1BYDCEYGF5ZCHMQZYNXT"
+    },
+    "subject": "septic_lead_time_feasibility",
+    "content": "With TDEC septic permitting requiring a 70-day minimum lead and the scheduled start 85 days away (2026-10-05), TDEC contact must be initiated within approximately two weeks or the start date is at risk of slipping.",
+    "kind": "predictive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAJDTNDP45J63SGXFGC1C01",
+      "f_01KXAJDTNEZ5DJCTJZYHSEVF1F"
+    ],
+    "falsification_test": "TDEC has already been contacted and is tracking to issue a permit before the start date, or the start date is confirmed flexible.",
+    "created_at": "2026-07-12T07:07:21.644Z",
+    "updated_at": "2026-07-12T07:07:21.644Z",
+    "last_verified_at": "2026-07-12T07:07:21.644Z",
+    "derived_from_sha": "8ffa80793dd900e406f5fa7f56cdf6b8d52c05a2"
+  },
+  "b_01KXAJDTNFVEE7ZD0845ERCVDA": {
+    "id": "b_01KXAJDTNFVEE7ZD0845ERCVDA",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAJ1BYDCEYGF5ZCHMQZYNXT"
+    },
+    "subject": "lvl_retrofit_independence",
+    "content": "Per Addition rules, the LVL beam to open the existing load-bearing wall is a retrofit sub-chain that runs in parallel with new exterior framing and should not gate new-construction sequencing unless the new addition's structural load bears directly on that LVL location.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAJDTNDR1CPS6CQZ70KRTEC"
+    ],
+    "falsification_test": "Engineering review confirms the addition's roof or floor load bears on the LVL location, requiring it to complete before new framing begins.",
+    "created_at": "2026-07-12T07:07:21.644Z",
+    "updated_at": "2026-07-12T07:07:21.644Z",
+    "last_verified_at": "2026-07-12T07:07:21.644Z",
+    "derived_from_sha": "8ffa80793dd900e406f5fa7f56cdf6b8d52c05a2"
+  },
+  "b_01KXAJDTNF5YB8WCSMFGK7QW2P": {
+    "id": "b_01KXAJDTNF5YB8WCSMFGK7QW2P",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXAJ1BYDCEYGF5ZCHMQZYNXT"
+    },
+    "subject": "roof_tie_in_risk",
+    "content": "The 3/12-to-6/12 pitch transition is a concealed-condition risk per Addition rules; a 2–3 day discovery buffer should be built into the schedule immediately after the tie-in area is opened.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAJDTNDA6H5YZ9X1TFH1VCK"
+    ],
+    "falsification_test": "Engineering drawings confirm the rafter or truss configuration at the tie-in point before demo begins, eliminating concealed-condition uncertainty.",
+    "created_at": "2026-07-12T07:07:21.644Z",
+    "updated_at": "2026-07-12T07:07:21.644Z",
+    "last_verified_at": "2026-07-12T07:07:21.644Z",
+    "derived_from_sha": "8ffa80793dd900e406f5fa7f56cdf6b8d52c05a2"
+  }
+}

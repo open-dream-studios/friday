@@ -18,5 +18,26 @@
     "updated_at": "2026-07-12T07:00:04.522Z",
     "last_verified_at": "2026-07-12T07:00:04.522Z",
     "derived_from_sha": "acc8eb14f1c5f4e37da5d76ef69e9002ea36413f"
+  },
+  "b_01KXAJ6XGGYP07F39JXWFJ92J5": {
+    "id": "b_01KXAJ6XGGYP07F39JXWFJ92J5",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXAHYR7CVH4V1516P07XX9QT"
+    },
+    "subject": "project_lifecycle_status",
+    "content": "This app_project has advanced past initial intake: an active job and scope document are now in place. Execution-level intelligence (scope, materials, timeline, permits) is scoped to JOB-01KXAJ1BYDCEYGF5ZCHMQZYNXT.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXAJ6XGFFBR10X8SG2GN4H5S",
+      "f_01KXAJ6XGG1NZC4Q39W3HQQXCV"
+    ],
+    "falsification_test": "If the job is voided or the document removed, the project reverts to intake status.",
+    "created_at": "2026-07-12T07:03:35.183Z",
+    "updated_at": "2026-07-12T07:03:35.183Z",
+    "last_verified_at": "2026-07-12T07:03:35.183Z",
+    "derived_from_sha": "8ffa80793dd900e406f5fa7f56cdf6b8d52c05a2"
   }
 }
