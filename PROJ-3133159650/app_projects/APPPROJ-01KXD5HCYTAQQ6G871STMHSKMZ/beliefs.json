@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXD5PZZKS27R0FCEQ71A4PAY": {
+    "id": "b_01KXD5PZZKS27R0FCEQ71A4PAY",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD5HCYTAQQ6G871STMHSKMZ"
+    },
+    "subject": "customer_contact_reliability",
+    "content": "The customer phone 2955349323 carries area code 295, which is not a recognized US area code, suggesting a likely data entry error that could prevent reaching the customer.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD5PZZKWMGTHFGNPC0TZFMF"
+    ],
+    "falsification_test": "Confirming the correct phone number with the customer or lead employee would resolve this.",
+    "created_at": "2026-07-13T07:22:53.744Z",
+    "updated_at": "2026-07-13T07:22:53.744Z",
+    "last_verified_at": "2026-07-13T07:22:53.744Z",
+    "derived_from_sha": "6f03bb029d598dba76a799658d73cf3a1657cbda"
+  }
+}
