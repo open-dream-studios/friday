@@ -443,5 +443,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCYWXVA8VTW2PRGWXTXGBHP": {
+    "id": "f_01KXCYWXVA8VTW2PRGWXTXGBHP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCYGD0XN78EDFRRN7B5XAKP"
+    },
+    "subject": "answer_to_q_01KXCYNBD83FPDSE6GW8V1KZ4X",
+    "content": "No, independent",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T05:23:48.202Z",
+    "updated_at": "2026-07-13T05:23:48.202Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCYNBD83FPDSE6GW8V1KZ4X",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
