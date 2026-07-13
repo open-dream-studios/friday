@@ -186,3 +186,4 @@
 {"ts":"2026-07-13T00:56:47.098Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-07-13T02:52:15.909Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-07-13T03:24:13.849Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-07-13T03:26:31.539Z","reason":"deleted app_project APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD","action":"delete","change_kind":"app_project_data"},{"kind":"job","id":"JOB-01KXCDTQJK0R1M7GMKV5DPKN74","action":"delete","change_kind":"job_data"},{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
