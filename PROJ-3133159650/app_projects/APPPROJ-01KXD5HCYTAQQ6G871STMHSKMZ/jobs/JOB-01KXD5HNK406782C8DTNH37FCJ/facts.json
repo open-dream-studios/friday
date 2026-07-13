@@ -391,5 +391,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXD5XK33KS0VHH582BKA92PK": {
+    "id": "f_01KXD5XK33KS0VHH582BKA92PK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD5HNK406782C8DTNH37FCJ"
+    },
+    "subject": "answer_to_q_01KXD5VYD0HKF0A77JSTZR8WH5",
+    "content": "Intentional credit — existing hall bath fixtures (tub, tile, vanity, mirror, hardware ~$4,199) return-to-stock through Ferguson. 72 hrs is retrofit labor: demo of removed fixtures, drywall patches, tie into new addition\n  finish work. Note added to breakdown revision B.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T07:26:29.987Z",
+    "updated_at": "2026-07-13T07:26:29.987Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXD5VYD0HKF0A77JSTZR8WH5",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
