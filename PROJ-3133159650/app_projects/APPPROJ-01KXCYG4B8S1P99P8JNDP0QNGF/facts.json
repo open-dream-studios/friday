@@ -153,5 +153,24 @@
       }
     ],
     "derived_from_sha": "d2eb3feb53cbe5e371bb34d051fcb2acc7d3a873"
+  },
+  "f_01KXCYYSMJ4RVDD9E9HZDG4FW2": {
+    "id": "f_01KXCYYSMJ4RVDD9E9HZDG4FW2",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCYG4B8S1P99P8JNDP0QNGF"
+    },
+    "subject": "answer_to_q_01KXCYN8SPWREMYJR4SR5X3WJC",
+    "content": "Will verify",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T05:24:49.426Z",
+    "updated_at": "2026-07-13T05:24:49.426Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCYN8SPWREMYJR4SR5X3WJC",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
