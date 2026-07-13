@@ -1,1 +1,83 @@
-{}
+{
+  "b_01KXD2GW330V3XX4BCWGPXB8M6": {
+    "id": "b_01KXD2GW330V3XX4BCWGPXB8M6",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD1MCTXDM137VJ0X4YYAVRB"
+    },
+    "subject": "tdec_contact_urgency",
+    "content": "With start date 2026-10-12 (91 calendar days out) and TDEC requiring 4-6 weeks from first contact to permit-in-hand, TCR must initiate TDEC contact no later than approximately 2026-09-01 — roughly 7 weeks from today. The window is open but must be acted on in the next 2-3 weeks to preserve any schedule buffer.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD2GW33WXY1H1K6X5GVFFP3",
+      "f_01KXD2GW32S0XZM46ZQ7DM7ZM5"
+    ],
+    "falsification_test": "If the property is confirmed on city sewer, TDEC doesn't apply. If TDEC has already been contacted, the urgency is resolved.",
+    "created_at": "2026-07-13T06:27:07.426Z",
+    "updated_at": "2026-07-13T06:27:07.426Z",
+    "last_verified_at": "2026-07-13T06:27:07.426Z",
+    "derived_from_sha": "f78eaa7cac397ce7ae0dd8d7a41e9006a80c1caf"
+  },
+  "b_01KXD2GW34D0H3ZYV24EQ3NA2H": {
+    "id": "b_01KXD2GW34D0H3ZYV24EQ3NA2H",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD1MCTXDM137VJ0X4YYAVRB"
+    },
+    "subject": "hall_bath_retrofit_status",
+    "content": "The 'Existing Hall Bath Mod' section is a retrofit of existing space (Signal A: area not in addition objective; Signal B: 'existing' in section name) with a negative net total that likely embeds scope credits or removed items. It must be isolated from new-construction components in the task graph.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD2GW3395H3PRQVE674T53F"
+    ],
+    "falsification_test": "If PM confirms the hall bath falls within the new addition footprint, the retrofit flag is wrong. Drawings place the addition on the right/rear, making this unlikely.",
+    "created_at": "2026-07-13T06:27:07.426Z",
+    "updated_at": "2026-07-13T06:27:07.426Z",
+    "last_verified_at": "2026-07-13T06:27:07.426Z",
+    "derived_from_sha": "f78eaa7cac397ce7ae0dd8d7a41e9006a80c1caf"
+  },
+  "b_01KXD2GW34598Q0Y8X7P3A97NY": {
+    "id": "b_01KXD2GW34598Q0Y8X7P3A97NY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD1MCTXDM137VJ0X4YYAVRB"
+    },
+    "subject": "water_heater_scope_status",
+    "content": "The water heater scope is unresolved: scope text commits only to venting the existing WH through the new roof, while the breakdown prices a tankless WH option with $5,140 in materials. Whether procurement, tank_set, and rough-in sequencing apply cannot be determined until the signed contract scope is confirmed.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD2GW330S9JZ23AXWFAVT1B"
+    ],
+    "falsification_test": "Owner or PM confirming the signed contract scope (new tankless vs. vent extension only) resolves this.",
+    "created_at": "2026-07-13T06:27:07.426Z",
+    "updated_at": "2026-07-13T06:27:07.426Z",
+    "last_verified_at": "2026-07-13T06:27:07.426Z",
+    "derived_from_sha": "f78eaa7cac397ce7ae0dd8d7a41e9006a80c1caf"
+  },
+  "b_01KXD2GW34BBPZ9YJDY9JY1KM0": {
+    "id": "b_01KXD2GW34BBPZ9YJDY9JY1KM0",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD1MCTXDM137VJ0X4YYAVRB"
+    },
+    "subject": "job_minimum_threshold_compliance",
+    "content": "At $100,778.92, this job comfortably exceeds TCR's $15k minimum; margin compliance depends on the final contract price relative to the cost breakdown shown.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD2GW32HQ3SKFYG3VWZ3C2W"
+    ],
+    "falsification_test": "If the contract price is materially below $100,778.92 without proportional scope reduction, the 30% margin floor may be at risk.",
+    "created_at": "2026-07-13T06:27:07.426Z",
+    "updated_at": "2026-07-13T06:27:07.426Z",
+    "last_verified_at": "2026-07-13T06:27:07.426Z",
+    "derived_from_sha": "f78eaa7cac397ce7ae0dd8d7a41e9006a80c1caf"
+  }
+}
