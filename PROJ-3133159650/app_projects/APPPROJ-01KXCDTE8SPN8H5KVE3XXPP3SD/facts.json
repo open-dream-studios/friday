@@ -1,1 +1,152 @@
-{}
+{
+  "f_01KXCE21FRKPYJXCC9RQCGW2V2": {
+    "id": "f_01KXCE21FRKPYJXCC9RQCGW2V2",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "customer_name",
+    "content": "The customer on this project is John Simons (stored as 'john simons' in data).",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  },
+  "f_01KXCE21FTZ5RZH36389R9XQW0": {
+    "id": "f_01KXCE21FTZ5RZH36389R9XQW0",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "customer_phone",
+    "content": "The customer phone on file is 2955349323; area code 295 is not a recognized US NANP area code and may be a data-entry error.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  },
+  "f_01KXCE21FT89ZG8SZPR709GVG0": {
+    "id": "f_01KXCE21FT89ZG8SZPR709GVG0",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "customer_email",
+    "content": "John Simons's email address is johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  },
+  "f_01KXCE21FTQR572ED6QY479ZY0": {
+    "id": "f_01KXCE21FTQR572ED6QY479ZY0",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  },
+  "f_01KXCE21FTQ4MSERPT3JC4XFTT": {
+    "id": "f_01KXCE21FTQ4MSERPT3JC4XFTT",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon is the assigned lead employee on this project.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee.name",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  },
+  "f_01KXCE21FTGWH3VPX0KT6D91WK": {
+    "id": "f_01KXCE21FTGWH3VPX0KT6D91WK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN is approximately 25–30 miles from Johnson City, placing it within TCR's 45-mile service radius.",
+    "confidence": 0.88,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  },
+  "f_01KXCE21FTGBK98N26RC7MCCY2": {
+    "id": "f_01KXCE21FTGBK98N26RC7MCCY2",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD"
+    },
+    "subject": "attached_document_alignment",
+    "content": "All three attached documents (scope.pdf, 308_Evergreen_Addition_Breakdown.csv, DRAWINGS.pdf) reference 'Simons Addition' or 'Simons Residence,' consistent with customer John Simons at this address.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T00:29:29.894Z",
+    "updated_at": "2026-07-13T00:29:29.894Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      },
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+      }
+    ],
+    "derived_from_sha": "f009a773590ba14073f8c96682fc6b3f36d008be"
+  }
+}
