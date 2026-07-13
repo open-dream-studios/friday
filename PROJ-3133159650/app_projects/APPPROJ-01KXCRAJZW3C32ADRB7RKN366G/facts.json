@@ -1,1 +1,132 @@
-{}
+{
+  "f_01KXCS3633KCFKDD4R1WSA83YW": {
+    "id": "f_01KXCS3633KCFKDD4R1WSA83YW",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCRAJZW3C32ADRB7RKN366G"
+    },
+    "subject": "property_address",
+    "content": "The property address is 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-13T03:42:21.736Z",
+    "updated_at": "2026-07-13T03:42:21.736Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      }
+    ],
+    "derived_from_sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+  },
+  "f_01KXCS3635EYPR5BHKFVC6BMXT": {
+    "id": "f_01KXCS3635EYPR5BHKFVC6BMXT",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCRAJZW3C32ADRB7RKN366G"
+    },
+    "subject": "customer_name",
+    "content": "The customer is John Simons (john simons), customer ID CUST-01KKSYA9BNQY420D3GEQ8XD5AH.",
+    "confidence": 1,
+    "created_at": "2026-07-13T03:42:21.736Z",
+    "updated_at": "2026-07-13T03:42:21.736Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      }
+    ],
+    "derived_from_sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+  },
+  "f_01KXCS3635QRCFJD3H0ZC3JPT0": {
+    "id": "f_01KXCS3635QRCFJD3H0ZC3JPT0",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCRAJZW3C32ADRB7RKN366G"
+    },
+    "subject": "customer_contact_phone",
+    "content": "Customer phone number on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-13T03:42:21.736Z",
+    "updated_at": "2026-07-13T03:42:21.736Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      }
+    ],
+    "derived_from_sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+  },
+  "f_01KXCS3635QJXKRHX3V29E4PCR": {
+    "id": "f_01KXCS3635QJXKRHX3V29E4PCR",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCRAJZW3C32ADRB7RKN366G"
+    },
+    "subject": "customer_contact_email",
+    "content": "Customer email on file is johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-13T03:42:21.736Z",
+    "updated_at": "2026-07-13T03:42:21.736Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      }
+    ],
+    "derived_from_sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+  },
+  "f_01KXCS363580GWKFEVQB3M1R62": {
+    "id": "f_01KXCS363580GWKFEVQB3M1R62",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCRAJZW3C32ADRB7RKN366G"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (william.fallon@tcrandc.com, EMP-01KKSZ0G7N7DTC3CN8G33EE6XR) is the lead employee on this project.",
+    "confidence": 1,
+    "created_at": "2026-07-13T03:42:21.736Z",
+    "updated_at": "2026-07-13T03:42:21.736Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      }
+    ],
+    "derived_from_sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+  },
+  "f_01KXCS363692E7B1B09C111H92": {
+    "id": "f_01KXCS363692E7B1B09C111H92",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCRAJZW3C32ADRB7RKN366G"
+    },
+    "subject": "attached_documents_belong_to_property",
+    "content": "Three documents are attached — scope.pdf (references '308 Evergreens' and Simons Addition), 308_Evergreen_Addition_Breakdown.csv (references 'Simons Addition'), and DRAWINGS.pdf (references 'Simons Residence / Simons Addition') — all are consistent with this property and customer.",
+    "confidence": 0.97,
+    "created_at": "2026-07-13T03:42:21.736Z",
+    "updated_at": "2026-07-13T03:42:21.736Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      },
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+      }
+    ],
+    "derived_from_sha": "0fde242a0c1dfd69a12d3ebdbed44de3c74ec794"
+  }
+}
