@@ -405,5 +405,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCYWHCZ9DHBV88P699WHQCW": {
+    "id": "f_01KXCYWHCZ9DHBV88P699WHQCW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCYGD0XN78EDFRRN7B5XAKP"
+    },
+    "subject": "answer_to_q_01KXCYNBD7DN21PWJ6HS131EGA",
+    "content": "Included in price",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T05:23:35.454Z",
+    "updated_at": "2026-07-13T05:23:35.454Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCYNBD7DN21PWJ6HS131EGA",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
