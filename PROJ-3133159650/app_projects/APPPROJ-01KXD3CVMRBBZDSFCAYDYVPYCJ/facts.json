@@ -1,1 +1,127 @@
-{}
+{
+  "f_01KXD3HW5JKT3SQ7TSFWXPWQ3W": {
+    "id": "f_01KXD3HW5JKT3SQ7TSFWXPWQ3W",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "customer_name",
+    "content": "The customer on this property is John Simons.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      }
+    ],
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  },
+  "f_01KXD3HW5M3VQZ8XH93Q3YM3JG": {
+    "id": "f_01KXD3HW5M3VQZ8XH93Q3YM3JG",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "customer_phone",
+    "content": "Customer phone on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      }
+    ],
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  },
+  "f_01KXD3HW5M8RJDB7SXNHP1H6J1": {
+    "id": "f_01KXD3HW5M8RJDB7SXNHP1H6J1",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "customer_email",
+    "content": "Customer email on file is johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      }
+    ],
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  },
+  "f_01KXD3HW5MP8QKPSNN6H12K9F5": {
+    "id": "f_01KXD3HW5MP8QKPSNN6H12K9F5",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "property_address",
+    "content": "Property address is 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      }
+    ],
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  },
+  "f_01KXD3HW5MW7ZTXGTZD4TAWA37": {
+    "id": "f_01KXD3HW5MW7ZTXGTZD4TAWA37",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "lead_employee",
+    "content": "Lead employee assigned to this property is Will Fallon (william.fallon@tcrandc.com).",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      }
+    ],
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  },
+  "f_01KXD3HW5MVXEGJ9ZQ3V1RA6WT": {
+    "id": "f_01KXD3HW5MVXEGJ9ZQ3V1RA6WT",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "property_in_service_area",
+    "content": "Church Hill, TN is approximately 25 miles from Johnson City, TN, placing it within TCR's 45-mile service radius.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      },
+      {
+        "kind": "document",
+        "path": "PROJ-3133159650/data.json:profile.service_area",
+        "sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+      }
+    ],
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  }
+}

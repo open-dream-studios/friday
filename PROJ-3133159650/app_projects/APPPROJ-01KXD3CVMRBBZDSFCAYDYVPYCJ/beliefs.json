@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXD3HW5MZYR9WHPJB60H5Z99": {
+    "id": "b_01KXD3HW5MZYR9WHPJB60H5Z99",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD3CVMRBBZDSFCAYDYVPYCJ"
+    },
+    "subject": "customer_contact_data_quality",
+    "content": "The phone number 2955349323 uses area code 295, which is not a recognized US area code; it may be a data-entry error that would prevent successful contact with the customer.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD3HW5M3VQZ8XH93Q3YM3JG"
+    ],
+    "falsification_test": "Owner confirms 295 is a valid area code for this customer, or the correct number is provided.",
+    "created_at": "2026-07-13T06:45:08.844Z",
+    "updated_at": "2026-07-13T06:45:08.844Z",
+    "last_verified_at": "2026-07-13T06:45:08.844Z",
+    "derived_from_sha": "566884153706def324f40edf0e4cdcfb0ace9322"
+  }
+}
