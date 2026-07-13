@@ -429,5 +429,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXD5Y7AE2FZQY9T0W7C2D4R8": {
+    "id": "f_01KXD5Y7AE2FZQY9T0W7C2D4R8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD5HNK406782C8DTNH37FCJ"
+    },
+    "subject": "answer_to_q_01KXD5VYD11PF0DGEG018E4152",
+    "content": "Not yet drawn. Structural engineer (Tri-State, John Beaver PE) producing saddle detail by 7/22 — saddle valley layout, ice-and-water shield 4' either side of tie-in, concealed step flashing behind existing shingle course.\n  Integrates into permit set revision B.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T07:26:50.702Z",
+    "updated_at": "2026-07-13T07:26:50.702Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXD5VYD11PF0DGEG018E4152",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
