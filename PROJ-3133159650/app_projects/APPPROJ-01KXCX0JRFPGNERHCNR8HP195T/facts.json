@@ -1,1 +1,332 @@
-{}
+{
+  "f_01KXCXCTR22V87K64PARJYRYWM": {
+    "id": "f_01KXCXCTR22V87K64PARJYRYWM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR4943FMVX2G362B1JZ": {
+    "id": "f_01KXCXCTR4943FMVX2G362B1JZ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "customer_name",
+    "content": "The customer is John Simons (email: johnsimons@gmail.com, phone: 2955349323).",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR4JF9G2S1A6XZWBZNJ": {
+    "id": "f_01KXCXCTR4JF9G2S1A6XZWBZNJ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (william.fallon@tcrandc.com) is the lead employee on this project.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR4YFY7PQE66R8BE2AY": {
+    "id": "f_01KXCXCTR4YFY7PQE66R8BE2AY",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "job_scope_summary",
+    "content": "Scope is a two-story addition approximately 30' x 10' with basement storage and second-floor primary bedroom, master bathroom, and walk-in closet, plus an existing bedroom remodel.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR4SVTBP8XWT6VPJYAQ": {
+    "id": "f_01KXCXCTR4SVTBP8XWT6VPJYAQ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "job_total_estimate",
+    "content": "The total project estimate is $100,778.92 ($45,167.59 labor + $52,171.33 materials + $3,440.00 equipment).",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR4GB4TJZ4B4SC55PWJ": {
+    "id": "f_01KXCXCTR4GB4TJZ4B4SC55PWJ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "addition_footprint_sf",
+    "content": "The overall addition footprint is 789 square feet per the breakdown.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv:Overall Footprint SF",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR4AWM87BR6PY6RYDZV": {
+    "id": "f_01KXCXCTR4AWM87BR6PY6RYDZV",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "septic_inspection_required",
+    "content": "A TDEC septic inspection is required; septic relocation, replacement, or grinder pump costs are excluded from the current contract and would be change orders.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR499JRNGZD30E8MBG7": {
+    "id": "f_01KXCXCTR499JRNGZD30E8MBG7",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "hvac_type",
+    "content": "HVAC for the addition is a mini-split system; the existing gas water heater vent is being extended through the new roof (no new tank install).",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv:HVAC – Mini Split, Tankless WH & Relocations",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR55P296ZNXX1BH742T": {
+    "id": "f_01KXCXCTR55P296ZNXX1BH742T",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "lvl_beam_scope",
+    "content": "One 3-ply 14\" engineered LVL beam spanning approximately 15'-6\" is required to open an existing load-bearing wall; temporary shoring is included.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR5YDQYRY8977PP5GBS": {
+    "id": "f_01KXCXCTR5YDQYRY8977PP5GBS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "elevator_shaft_framed",
+    "content": "A future elevator shaft approximately 4' x 4' is framed as part of the scope; the elevator system itself is not included.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR5YBMJ73V8SKYY8FBS": {
+    "id": "f_01KXCXCTR5YBMJ73V8SKYY8FBS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "roof_framing_method",
+    "content": "Roof framing method (truss or rafter) is TBD in design; pitch is approximately 3/12 tying into existing 6/12.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR5Q158242ZESCSF779": {
+    "id": "f_01KXCXCTR5Q158242ZESCSF779",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "heat_pump_relocation",
+    "content": "The existing heat pump and electrical disconnect must be relocated as part of site/demo work.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR5FHPV1XV19JSJJ0YS": {
+    "id": "f_01KXCXCTR5FHPV1XV19JSJJ0YS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "window_count",
+    "content": "Scope specifies 4 windows: three 36\" x 60\" and one transom, plus one new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR5YRMCV672H2GMAK8M": {
+    "id": "f_01KXCXCTR5YRMCV672H2GMAK8M",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "hall_bath_mod_negative_section",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section has a negative section total of -$1,714.20 with $4,199 in material credits, indicating scope reductions or credits against prior estimates.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR52Y39EM2KDP6VQE7Q": {
+    "id": "f_01KXCXCTR52Y39EM2KDP6VQE7Q",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "addition_location_on_property",
+    "content": "The addition extends off the right/rear of the existing two-story brick home; new exterior requires vinyl siding and brick veneer at base to match existing.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  },
+  "f_01KXCXCTR5Z4MWADPHBR6Y04C3": {
+    "id": "f_01KXCXCTR5Z4MWADPHBR6Y04C3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXCX0JRFPGNERHCNR8HP195T"
+    },
+    "subject": "designer_name",
+    "content": "The architectural drawings credit Francisco Guerrero (NCIDQ, Interior Architect) as the designer.",
+    "confidence": 0.85,
+    "created_at": "2026-07-13T04:57:32.104Z",
+    "updated_at": "2026-07-13T04:57:32.104Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf:page A-02 title block",
+        "sha": "6818c058fe24320e2221e2840af350865a5ea175"
+      }
+    ],
+    "derived_from_sha": "6818c058fe24320e2221e2840af350865a5ea175"
+  }
+}
