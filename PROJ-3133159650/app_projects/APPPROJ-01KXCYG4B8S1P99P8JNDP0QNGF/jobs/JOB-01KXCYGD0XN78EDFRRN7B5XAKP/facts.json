@@ -500,5 +500,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCYYF5W6HSKJ8T6G378XSAA": {
+    "id": "f_01KXCYYF5W6HSKJ8T6G378XSAA",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCYGD0XN78EDFRRN7B5XAKP"
+    },
+    "subject": "answer_to_q_01KXCYNBD8J472QT42D7S40DC6",
+    "content": "Intentional credit. Existing hall bath fixtures (tub, vanity, tile, mirror) return-to-stock through Ferguson. Bedroom remodel is retrofit-only, minimal task allocation",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T05:24:38.716Z",
+    "updated_at": "2026-07-13T05:24:38.716Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCYNBD8J472QT42D7S40DC6",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
