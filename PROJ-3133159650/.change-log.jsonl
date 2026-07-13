@@ -182,3 +182,4 @@
 {"ts":"2026-07-13T00:26:04.644Z","reason":"uploaded document \"308_Evergreen_Addition_Breakdown.csv\" (id=doc_01KXCDVFQBTYMGMA3BEHQY4X4V), uploaded document \"DRAWINGS.pdf\" (id=doc_01KXCDVHQ5TQ6DZRW96P57CSJC)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXCDTE8SPN8H5KVE3XXPP3SD","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-13T00:26:12.523Z","reason":"updated job JOB-01KXCDTQJK0R1M7GMKV5DPKN74","actor":"user","entities":[{"kind":"job","id":"JOB-01KXCDTQJK0R1M7GMKV5DPKN74","action":"update","change_kind":"job_data"}]}
 {"ts":"2026-07-13T00:26:29.976Z","reason":"updated job JOB-01KXCDTQJK0R1M7GMKV5DPKN74","actor":"user","entities":[{"kind":"job","id":"JOB-01KXCDTQJK0R1M7GMKV5DPKN74","action":"update","change_kind":"job_data"}]}
+{"ts":"2026-07-13T00:39:04.725Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
