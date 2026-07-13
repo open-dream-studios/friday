@@ -1,0 +1,2629 @@
+{
+  "project_id": "simons_addition_30_x10_two_story_bedroom_remodel",
+  "generated_from": {
+    "breakdown_hash": "af2791bdf8c15b6f",
+    "rules_version": "24d4f2ab47556f38"
+  },
+  "phases": [
+    {
+      "id": "pre_construction",
+      "name": "Pre-Construction",
+      "order_index": 0,
+      "is_pre_construction": true
+    },
+    {
+      "id": "procurement_long_leads",
+      "name": "Procurement & Long Leads",
+      "order_index": 1,
+      "is_pre_construction": false
+    },
+    {
+      "id": "site_prep",
+      "name": "Site Prep",
+      "order_index": 2
+    },
+    {
+      "id": "demo_and_protection",
+      "name": "Demolition & Protection",
+      "order_index": 3
+    },
+    {
+      "id": "structural_and_shell",
+      "name": "Structural & Shell",
+      "order_index": 4
+    },
+    {
+      "id": "rough_trades",
+      "name": "Rough Trades",
+      "order_index": 5
+    },
+    {
+      "id": "rough_inspections",
+      "name": "Rough Inspections",
+      "order_index": 6
+    },
+    {
+      "id": "insulation_and_drywall",
+      "name": "Insulation & Drywall",
+      "order_index": 7
+    },
+    {
+      "id": "interior_finishes",
+      "name": "Interior Finishes",
+      "order_index": 8
+    },
+    {
+      "id": "finish_trades",
+      "name": "Finish Trades",
+      "order_index": 9
+    },
+    {
+      "id": "closeout",
+      "name": "Closeout",
+      "order_index": 10
+    }
+  ],
+  "components": [
+    {
+      "id": "permits_and_planning",
+      "phase_id": "pre_construction",
+      "name": "Permits & Planning"
+    },
+    {
+      "id": "tdec_septic",
+      "phase_id": "pre_construction",
+      "name": "TDEC Septic Permit"
+    },
+    {
+      "id": "amperage_check",
+      "phase_id": "pre_construction",
+      "name": "Service Amperage Check"
+    },
+    {
+      "id": "checkpoints",
+      "phase_id": "pre_construction",
+      "name": "PC Checkpoints"
+    },
+    {
+      "id": "procurement_windows",
+      "phase_id": "procurement_long_leads",
+      "name": "Windows & Doors"
+    },
+    {
+      "id": "procurement_lvl",
+      "phase_id": "procurement_long_leads",
+      "name": "LVL Beam"
+    },
+    {
+      "id": "procurement_subpanel",
+      "phase_id": "procurement_long_leads",
+      "name": "Subpanel"
+    },
+    {
+      "id": "procurement_minisplit",
+      "phase_id": "procurement_long_leads",
+      "name": "Mini-Split & Tankless"
+    },
+    {
+      "id": "procurement_tile",
+      "phase_id": "procurement_long_leads",
+      "name": "Tile"
+    },
+    {
+      "id": "procurement_flooring",
+      "phase_id": "procurement_long_leads",
+      "name": "Flooring"
+    },
+    {
+      "id": "procurement_paint",
+      "phase_id": "procurement_long_leads",
+      "name": "Paint"
+    },
+    {
+      "id": "procurement_vanity",
+      "phase_id": "procurement_long_leads",
+      "name": "Vanity & Fixtures"
+    },
+    {
+      "id": "site_setup",
+      "phase_id": "site_prep",
+      "name": "Site Setup"
+    },
+    {
+      "id": "prep_work_before_demo",
+      "phase_id": "site_prep",
+      "name": "Prep Work Before Demo"
+    },
+    {
+      "id": "customer_early_items",
+      "phase_id": "site_prep",
+      "name": "Customer Early Items"
+    },
+    {
+      "id": "demo_new_construction",
+      "phase_id": "demo_and_protection",
+      "name": "Demo — New Construction Zone"
+    },
+    {
+      "id": "demo_retrofit",
+      "phase_id": "demo_and_protection",
+      "name": "Demo — Retrofit Zones"
+    },
+    {
+      "id": "foundation",
+      "phase_id": "structural_and_shell",
+      "name": "Foundation"
+    },
+    {
+      "id": "framing",
+      "phase_id": "structural_and_shell",
+      "name": "Framing"
+    },
+    {
+      "id": "lvl_subchain",
+      "phase_id": "structural_and_shell",
+      "name": "LVL Retrofit"
+    },
+    {
+      "id": "roof_tie_in",
+      "phase_id": "structural_and_shell",
+      "name": "Roof Tie-In"
+    },
+    {
+      "id": "roofing",
+      "phase_id": "structural_and_shell",
+      "name": "Roofing"
+    },
+    {
+      "id": "envelope",
+      "phase_id": "structural_and_shell",
+      "name": "Windows & Doors Envelope"
+    },
+    {
+      "id": "exterior_finishes",
+      "phase_id": "structural_and_shell",
+      "name": "Exterior Siding/Trim/Gutters"
+    },
+    {
+      "id": "rough_electrical",
+      "phase_id": "rough_trades",
+      "name": "Rough Electrical"
+    },
+    {
+      "id": "rough_plumbing",
+      "phase_id": "rough_trades",
+      "name": "Rough Plumbing"
+    },
+    {
+      "id": "rough_hvac",
+      "phase_id": "rough_trades",
+      "name": "Rough HVAC"
+    },
+    {
+      "id": "rough_inspections",
+      "phase_id": "rough_inspections",
+      "name": "Rough Inspections"
+    },
+    {
+      "id": "insulation",
+      "phase_id": "insulation_and_drywall",
+      "name": "Insulation"
+    },
+    {
+      "id": "drywall",
+      "phase_id": "insulation_and_drywall",
+      "name": "Drywall"
+    },
+    {
+      "id": "paint_phase1",
+      "phase_id": "insulation_and_drywall",
+      "name": "Paint Phase 1"
+    },
+    {
+      "id": "flooring",
+      "phase_id": "interior_finishes",
+      "name": "Flooring"
+    },
+    {
+      "id": "tile",
+      "phase_id": "interior_finishes",
+      "name": "Tile"
+    },
+    {
+      "id": "trim",
+      "phase_id": "interior_finishes",
+      "name": "Trim"
+    },
+    {
+      "id": "cabinets",
+      "phase_id": "interior_finishes",
+      "name": "Cabinets & Vanity"
+    },
+    {
+      "id": "hall_bath_mod",
+      "phase_id": "interior_finishes",
+      "name": "Hall Bath Retrofit"
+    },
+    {
+      "id": "paint_phase2",
+      "phase_id": "interior_finishes",
+      "name": "Paint Phase 2"
+    },
+    {
+      "id": "finish_electrical",
+      "phase_id": "finish_trades",
+      "name": "Finish Electrical"
+    },
+    {
+      "id": "finish_plumbing",
+      "phase_id": "finish_trades",
+      "name": "Finish Plumbing"
+    },
+    {
+      "id": "finish_hvac",
+      "phase_id": "finish_trades",
+      "name": "Finish HVAC (Mini-Split Install)"
+    },
+    {
+      "id": "closeout",
+      "phase_id": "closeout",
+      "name": "Closeout"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "general.permitting",
+      "phase_id": "pre_construction",
+      "component_id": "permits_and_planning",
+      "section_id": "general_conditions",
+      "name": "Permit walk-in",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 1,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 15,
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "general_conditions",
+        "rule_ids": [
+          "4A"
+        ],
+        "reasoning": "1-day walk-in permit task; Will pulls same-day ~90% of the time."
+      }
+    },
+    {
+      "id": "permit.tdec_septic",
+      "phase_id": "pre_construction",
+      "component_id": "tdec_septic",
+      "section_id": "general_conditions",
+      "name": "TDEC septic permit process",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 42,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 30,
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "general_conditions",
+        "rule_ids": [
+          "addition.tdec"
+        ],
+        "reasoning": "Scope explicitly names TDEC septic inspection. 6-week process anchored via offset at start of PC. Also gates excavation."
+      }
+    },
+    {
+      "id": "prep.amperage_check",
+      "phase_id": "pre_construction",
+      "component_id": "amperage_check",
+      "section_id": "electrical",
+      "name": "Verify existing service amperage",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 15,
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "electrical",
+        "rule_ids": [
+          "addition.amperage_check"
+        ],
+        "reasoning": "New 100A subpanel in scope — verify existing main service has capacity before signed contract."
+      }
+    },
+    {
+      "id": "checkpoint.selections_finalized",
+      "phase_id": "pre_construction",
+      "component_id": "checkpoints",
+      "section_id": "general_conditions",
+      "name": "Customer selections finalized",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 15,
+      "lead_up_working_days": 5,
+      "derived_from": {
+        "section_id": "general_conditions",
+        "rule_ids": [
+          "4P"
+        ],
+        "reasoning": "PM confirms all customer selections locked 3 weeks before on-site."
+      }
+    },
+    {
+      "id": "checkpoint.equipment_confirmed_demo",
+      "phase_id": "pre_construction",
+      "component_id": "checkpoints",
+      "section_id": "demolition_site_work",
+      "name": "Equipment confirmed — demo",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 10,
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "PM confirms dumpster + demo equipment 2 weeks before demo phase."
+      }
+    },
+    {
+      "id": "checkpoint.equipment_confirmed_excavation",
+      "phase_id": "pre_construction",
+      "component_id": "checkpoints",
+      "section_id": "excavation_foundation",
+      "name": "Equipment confirmed — excavation",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 10,
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "excavation_foundation",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "PM confirms mini-ex + concrete supplier 2 weeks before excavation."
+      }
+    },
+    {
+      "id": "checkpoint.equipment_confirmed_roof",
+      "phase_id": "pre_construction",
+      "component_id": "checkpoints",
+      "section_id": "roof_framing_roofing",
+      "name": "Equipment confirmed — roof",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 10,
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "PM confirms scaffolding + shingle delivery 2 weeks before roof phase."
+      }
+    },
+    {
+      "id": "checkpoint.equipment_confirmed_drywall",
+      "phase_id": "pre_construction",
+      "component_id": "checkpoints",
+      "section_id": "drywall",
+      "name": "Equipment confirmed — drywall",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [],
+      "pre_construction_offset_working_days": 10,
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "drywall",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "PM confirms drywall lift + second dumpster 2 weeks before drywall."
+      }
+    },
+    {
+      "id": "order.windows",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_windows",
+      "section_id": "windows_doors_weatherproofing",
+      "name": "Order windows & exterior door",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "windows_doors_weatherproofing",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM places windows order (3-task pattern step 1). Stock windows assumed."
+      }
+    },
+    {
+      "id": "wait.windows",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_windows",
+      "section_id": "windows_doors_weatherproofing",
+      "name": "Windows supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 21,
+      "depends_on": [
+        {
+          "predecessor_id": "order.windows",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "windows_doors_weatherproofing",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "21-day supplier delivery window for stock windows."
+      }
+    },
+    {
+      "id": "checkpoint.windows_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_windows",
+      "section_id": "windows_doors_weatherproofing",
+      "name": "Windows delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.windows",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "windows_doors_weatherproofing",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms windows delivered."
+      }
+    },
+    {
+      "id": "order.lvl",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_lvl",
+      "section_id": "structural_modifications",
+      "name": "Order LVL beam",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "4R",
+          "addition.lvl"
+        ],
+        "reasoning": "3-ply 14\" LVL beam. Default 14-day safety lead."
+      }
+    },
+    {
+      "id": "wait.lvl",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_lvl",
+      "section_id": "structural_modifications",
+      "name": "LVL supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 14,
+      "depends_on": [
+        {
+          "predecessor_id": "order.lvl",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Standard LVL 2-week safety window."
+      }
+    },
+    {
+      "id": "checkpoint.lvl_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_lvl",
+      "section_id": "structural_modifications",
+      "name": "LVL delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.lvl",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms LVL beam on site."
+      }
+    },
+    {
+      "id": "order.subpanel",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_subpanel",
+      "section_id": "electrical",
+      "name": "Order 100A subpanel",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "electrical",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Order 100A subpanel."
+      }
+    },
+    {
+      "id": "wait.subpanel",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_subpanel",
+      "section_id": "electrical",
+      "name": "Subpanel supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 10,
+      "depends_on": [
+        {
+          "predecessor_id": "order.subpanel",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "electrical",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "10 calendar days for electrical panel."
+      }
+    },
+    {
+      "id": "checkpoint.subpanel_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_subpanel",
+      "section_id": "electrical",
+      "name": "Subpanel delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.subpanel",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "electrical",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms subpanel on site."
+      }
+    },
+    {
+      "id": "order.minisplit",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_minisplit",
+      "section_id": "hvac",
+      "name": "Order mini-split + tankless WH",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "hvac",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Order mini-split unit and tankless WH. Ordered at dried-in per rules."
+      }
+    },
+    {
+      "id": "wait.minisplit",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_minisplit",
+      "section_id": "hvac",
+      "name": "Mini-split supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 10,
+      "depends_on": [
+        {
+          "predecessor_id": "order.minisplit",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "hvac",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "~10 calendar days for mini-split + tankless."
+      }
+    },
+    {
+      "id": "checkpoint.minisplit_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_minisplit",
+      "section_id": "hvac",
+      "name": "Mini-split & tankless delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.minisplit",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "hvac",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms mini-split and tankless on site."
+      }
+    },
+    {
+      "id": "order.tile",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_tile",
+      "section_id": "master_bath",
+      "name": "Order tile",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Order tile ~3 weeks before tile install."
+      }
+    },
+    {
+      "id": "wait.tile",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_tile",
+      "section_id": "master_bath",
+      "name": "Tile supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 14,
+      "depends_on": [
+        {
+          "predecessor_id": "order.tile",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "14 calendar days for tile."
+      }
+    },
+    {
+      "id": "checkpoint.tile_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_tile",
+      "section_id": "master_bath",
+      "name": "Tile delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.tile",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms tile on site."
+      }
+    },
+    {
+      "id": "order.flooring",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_flooring",
+      "section_id": "interior_finish",
+      "name": "Order flooring (LVP)",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "LVP flooring ordered ~1 week before install."
+      }
+    },
+    {
+      "id": "wait.flooring",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_flooring",
+      "section_id": "interior_finish",
+      "name": "Flooring supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 7,
+      "depends_on": [
+        {
+          "predecessor_id": "order.flooring",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Standard LVP delivery window."
+      }
+    },
+    {
+      "id": "checkpoint.flooring_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_flooring",
+      "section_id": "interior_finish",
+      "name": "Flooring delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.flooring",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms flooring on site."
+      }
+    },
+    {
+      "id": "order.paint",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_paint",
+      "section_id": "interior_finish",
+      "name": "Order paint",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Paint is short-lead stock item; single order task 1 week before use."
+      }
+    },
+    {
+      "id": "order.vanity",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_vanity",
+      "section_id": "master_bath",
+      "name": "Order vanity & bath fixtures",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "Order vanity + fixtures."
+      }
+    },
+    {
+      "id": "wait.vanity",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_vanity",
+      "section_id": "master_bath",
+      "name": "Vanity supplier lead",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 10,
+      "depends_on": [
+        {
+          "predecessor_id": "order.vanity",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "10 calendar days for stock vanity + fixtures."
+      }
+    },
+    {
+      "id": "checkpoint.vanity_arrived",
+      "phase_id": "procurement_long_leads",
+      "component_id": "procurement_vanity",
+      "section_id": "master_bath",
+      "name": "Vanity & fixtures delivered",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "wait.vanity",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "4R"
+        ],
+        "reasoning": "PM confirms vanity + fixtures on site."
+      }
+    },
+    {
+      "id": "equipment.dumpster_arrive",
+      "phase_id": "site_prep",
+      "component_id": "site_setup",
+      "section_id": "demolition_site_work",
+      "name": "Dumpster delivery",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.equipment_confirmed_demo",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "Dumpster lands day before demo."
+      }
+    },
+    {
+      "id": "general.site_setup",
+      "phase_id": "site_prep",
+      "component_id": "site_setup",
+      "section_id": "general_conditions",
+      "name": "Site protection & setup",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "general.permitting",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "equipment.dumpster_arrive",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "general_conditions",
+        "rule_ids": [
+          "site_prep"
+        ],
+        "reasoning": "Establish site protection, staging, and safety."
+      }
+    },
+    {
+      "id": "prep.heat_pump_relocate",
+      "phase_id": "site_prep",
+      "component_id": "prep_work_before_demo",
+      "section_id": "demolition_site_work",
+      "name": "Relocate existing heat pump",
+      "trade": "hvac",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "general.site_setup",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "4K",
+          "addition.heat_pump"
+        ],
+        "reasoning": "Existing heat pump in addition footprint must be relocated BEFORE main demo begins."
+      }
+    },
+    {
+      "id": "prep.electrical_disconnect_relocate",
+      "phase_id": "site_prep",
+      "component_id": "prep_work_before_demo",
+      "section_id": "demolition_site_work",
+      "name": "Relocate electrical disconnect",
+      "trade": "electrical",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "general.site_setup",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "4K"
+        ],
+        "reasoning": "Electrical disconnect in addition footprint relocated before demo."
+      }
+    },
+    {
+      "id": "demo.sawcut_walkway",
+      "phase_id": "demo_and_protection",
+      "component_id": "demo_new_construction",
+      "section_id": "demolition_site_work",
+      "name": "Saw-cut concrete walkway & remove obstructions",
+      "trade": "demo",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "prep.heat_pump_relocate",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "prep.electrical_disconnect_relocate",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "demo"
+        ],
+        "reasoning": "Concrete saw-cut + railroad tie removal for addition footprint."
+      }
+    },
+    {
+      "id": "demo.tie_in_open",
+      "phase_id": "demo_and_protection",
+      "component_id": "demo_new_construction",
+      "section_id": "demolition_site_work",
+      "name": "Open tie-in wall/roof line",
+      "trade": "demo",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "demo.sawcut_walkway",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "demo"
+        ],
+        "reasoning": "Open the existing wall/roof where addition ties in."
+      }
+    },
+    {
+      "id": "demo.expose_bearing_wall",
+      "phase_id": "demo_and_protection",
+      "component_id": "demo_retrofit",
+      "section_id": "structural_modifications",
+      "name": "Expose existing load-bearing wall",
+      "trade": "demo",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "demo.sawcut_walkway",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "lvl_subchain"
+        ],
+        "reasoning": "Expose the existing load-bearing wall to prep for LVL install (independent retrofit)."
+      }
+    },
+    {
+      "id": "demo.hall_bath_prep",
+      "phase_id": "demo_and_protection",
+      "component_id": "demo_retrofit",
+      "section_id": "hall_bath_closeout",
+      "name": "Hall bath retrofit prep demo",
+      "trade": "demo",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "general.site_setup",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "retrofit"
+        ],
+        "reasoning": "Hall bath is mentioned in scope but is not in the addition objective areas — retrofit demo isolated."
+      }
+    },
+    {
+      "id": "excavation.dig",
+      "phase_id": "structural_and_shell",
+      "component_id": "foundation",
+      "section_id": "excavation_foundation",
+      "name": "Excavate footings/slab",
+      "trade": "excavation",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "demo.sawcut_walkway",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.equipment_confirmed_excavation",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "permit.tdec_septic",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "excavation_foundation",
+        "rule_ids": [
+          "excavation"
+        ],
+        "reasoning": "Mini-ex dig for footings and slab. Gated by TDEC per addition rules."
+      }
+    },
+    {
+      "id": "foundation.form_and_prep",
+      "phase_id": "structural_and_shell",
+      "component_id": "foundation",
+      "section_id": "excavation_foundation",
+      "name": "Form footings, gravel, vapor, rebar",
+      "trade": "concrete",
+      "kind": "work",
+      "duration_days": 1.5,
+      "crew_size": 4,
+      "depends_on": [
+        {
+          "predecessor_id": "excavation.dig",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "excavation_foundation",
+        "rule_ids": [
+          "4B"
+        ],
+        "reasoning": "Form footings, place gravel base, vapor barrier, rebar in one task for monolithic pour."
+      }
+    },
+    {
+      "id": "inspect.footing",
+      "phase_id": "structural_and_shell",
+      "component_id": "foundation",
+      "section_id": "excavation_foundation",
+      "name": "Footing inspection",
+      "trade": "inspector",
+      "kind": "inspection",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "foundation.form_and_prep",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "excavation_foundation",
+        "rule_ids": [
+          "4B",
+          "inspection.footing"
+        ],
+        "reasoning": "Single footing inspection covers footings and slab prep (monolithic)."
+      }
+    },
+    {
+      "id": "foundation.monolithic_pour",
+      "phase_id": "structural_and_shell",
+      "component_id": "foundation",
+      "section_id": "excavation_foundation",
+      "name": "Monolithic foundation pour",
+      "trade": "concrete",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 4,
+      "depends_on": [
+        {
+          "predecessor_id": "inspect.footing",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "excavation_foundation",
+        "rule_ids": [
+          "4B"
+        ],
+        "reasoning": "Footings + slab in ONE pour. Default per Will."
+      }
+    },
+    {
+      "id": "foundation.cure",
+      "phase_id": "structural_and_shell",
+      "component_id": "foundation",
+      "section_id": "excavation_foundation",
+      "name": "Concrete cure",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "foundation.monolithic_pour",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "excavation_foundation",
+        "rule_ids": [
+          "4B"
+        ],
+        "reasoning": "2-calendar-day cure before framing loads."
+      }
+    },
+    {
+      "id": "framing.floor_system",
+      "phase_id": "structural_and_shell",
+      "component_id": "framing",
+      "section_id": "framing",
+      "name": "Floor system + subfloor",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 3,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "foundation.cure",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "framing",
+        "rule_ids": [
+          "framing"
+        ],
+        "reasoning": "Dimensional/engineered floor system + glued subfloor over cured foundation."
+      }
+    },
+    {
+      "id": "framing.exterior_walls",
+      "phase_id": "structural_and_shell",
+      "component_id": "framing",
+      "section_id": "framing",
+      "name": "Exterior & interior walls",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 5,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.floor_system",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "framing",
+        "rule_ids": [
+          "framing"
+        ],
+        "reasoning": "2x4 @ 16 O.C. framing for basement, first-floor, and second-floor walls incl. elevator shaft framing."
+      }
+    },
+    {
+      "id": "framing.roof",
+      "phase_id": "structural_and_shell",
+      "component_id": "framing",
+      "section_id": "roof_framing_roofing",
+      "name": "Roof framing (stick-frame)",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 3,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.exterior_walls",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "framing.roof",
+          "addition.trusses"
+        ],
+        "reasoning": "Scope ambiguous — 'truss or rafter framed (TBD design phase)'. Small addition footprint (~300 sqft roof, ~10 ft span). Default stick-frame per addition rules."
+      }
+    },
+    {
+      "id": "roof.concealed_buffer",
+      "phase_id": "structural_and_shell",
+      "component_id": "roof_tie_in",
+      "section_id": "roof_framing_roofing",
+      "name": "Concealed roof tie-in buffer",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.roof",
+          "type": "SS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "addition.roof_tie_in"
+        ],
+        "reasoning": "3-day buffer concurrent with roof framing for concealed rafter condition discovery on tie-in."
+      }
+    },
+    {
+      "id": "structural.temp_shoring",
+      "phase_id": "structural_and_shell",
+      "component_id": "lvl_subchain",
+      "section_id": "structural_modifications",
+      "name": "Temporary shoring",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "demo.expose_bearing_wall",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "lvl_subchain"
+        ],
+        "reasoning": "Temp shoring before LVL install."
+      }
+    },
+    {
+      "id": "structural.install_lvl",
+      "phase_id": "structural_and_shell",
+      "component_id": "lvl_subchain",
+      "section_id": "structural_modifications",
+      "name": "Install LVL beam",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 1.5,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "structural.temp_shoring",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.lvl_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "lvl_subchain"
+        ],
+        "reasoning": "Install 3-ply 14\" LVL spanning ~15'-6\"."
+      }
+    },
+    {
+      "id": "structural.remove_shoring",
+      "phase_id": "structural_and_shell",
+      "component_id": "lvl_subchain",
+      "section_id": "structural_modifications",
+      "name": "Remove temporary shoring",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "structural.install_lvl",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "structural_modifications",
+        "rule_ids": [
+          "lvl_subchain"
+        ],
+        "reasoning": "Remove temp shoring after LVL bears load. Bundled with framing inspection — no separate inspection."
+      }
+    },
+    {
+      "id": "framing.sheathing",
+      "phase_id": "structural_and_shell",
+      "component_id": "framing",
+      "section_id": "roof_framing_roofing",
+      "name": "Roof sheathing",
+      "trade": "framing",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.roof",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "framing.roof"
+        ],
+        "reasoning": "Sheathing after roof framing complete."
+      }
+    },
+    {
+      "id": "equipment.scaffolding_arrive",
+      "phase_id": "structural_and_shell",
+      "component_id": "roofing",
+      "section_id": "roof_framing_roofing",
+      "name": "Scaffolding delivery",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.equipment_confirmed_roof",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "framing.sheathing",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "Scaffolding lands day before roof underlayment."
+      }
+    },
+    {
+      "id": "roofing.underlayment",
+      "phase_id": "structural_and_shell",
+      "component_id": "roofing",
+      "section_id": "roof_framing_roofing",
+      "name": "Roof underlayment + drip edge",
+      "trade": "roofing",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.sheathing",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "equipment.scaffolding_arrive",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "roofing"
+        ],
+        "reasoning": "Synthetic underlayment + drip edge. Building weatherproof after this step."
+      }
+    },
+    {
+      "id": "windows.install",
+      "phase_id": "structural_and_shell",
+      "component_id": "envelope",
+      "section_id": "windows_doors_weatherproofing",
+      "name": "Install windows & exterior door",
+      "trade": "windows_doors",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.roof",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.windows_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "windows_doors_weatherproofing",
+        "rule_ids": [
+          "4J",
+          "addition.windows"
+        ],
+        "reasoning": "4 windows + 1 exterior door installed AS SOON AS roof is framed. Parallel with roofing.underlayment."
+      }
+    },
+    {
+      "id": "roofing.shingles",
+      "phase_id": "structural_and_shell",
+      "component_id": "roofing",
+      "section_id": "roof_framing_roofing",
+      "name": "Install architectural shingles + ridge vent + flashing",
+      "trade": "roofing",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "roof_framing_roofing",
+        "rule_ids": [
+          "roofing"
+        ],
+        "reasoning": "~300 sqft roof — 1 day for shingles + ridge vent + flashing per TCR baseline."
+      }
+    },
+    {
+      "id": "roofing.gutters_fascia",
+      "phase_id": "structural_and_shell",
+      "component_id": "exterior_finishes",
+      "section_id": "exterior_finishes",
+      "name": "Fascia, soffit & seamless gutters",
+      "trade": "siding",
+      "kind": "work",
+      "duration_days": 1.5,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.shingles",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "exterior_finishes",
+        "rule_ids": [
+          "same_crew_exterior"
+        ],
+        "reasoning": "Same crew does siding, trim, and gutters as a continuous block."
+      }
+    },
+    {
+      "id": "exterior.sheathing_wrb",
+      "phase_id": "structural_and_shell",
+      "component_id": "exterior_finishes",
+      "section_id": "exterior_finishes",
+      "name": "Sheathing + WRB",
+      "trade": "siding",
+      "kind": "work",
+      "duration_days": 1.5,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "framing.exterior_walls",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "exterior_finishes",
+        "rule_ids": [
+          "exterior"
+        ],
+        "reasoning": "Sheathing + WRB after wall framing complete."
+      }
+    },
+    {
+      "id": "milestone.dried_in",
+      "phase_id": "structural_and_shell",
+      "component_id": "exterior_finishes",
+      "section_id": "exterior_finishes",
+      "name": "Dried-in milestone",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.shingles",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "exterior.sheathing_wrb",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "exterior_finishes",
+        "rule_ids": [
+          "milestone.dried_in"
+        ],
+        "reasoning": "Dried-in gates exterior siding. Does NOT gate MEPs."
+      }
+    },
+    {
+      "id": "exterior.siding",
+      "phase_id": "structural_and_shell",
+      "component_id": "exterior_finishes",
+      "section_id": "exterior_finishes",
+      "name": "Vinyl siding install",
+      "trade": "siding",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "milestone.dried_in",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "exterior_finishes",
+        "rule_ids": [
+          "exterior"
+        ],
+        "reasoning": "Vinyl lap siding to match existing."
+      }
+    },
+    {
+      "id": "plumbing.tank_set",
+      "phase_id": "rough_trades",
+      "component_id": "rough_plumbing",
+      "section_id": "hvac",
+      "name": "Set tankless water heater",
+      "trade": "plumbing",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.minisplit_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hvac",
+        "rule_ids": [
+          "4H"
+        ],
+        "reasoning": "Tankless WH set FIRST before plumbing rough-in per Will's rule."
+      }
+    },
+    {
+      "id": "electrical.rough_in",
+      "phase_id": "rough_trades",
+      "component_id": "rough_electrical",
+      "section_id": "electrical",
+      "name": "Rough electrical incl. subpanel",
+      "trade": "electrical",
+      "kind": "work",
+      "duration_days": 4,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.subpanel_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "electrical",
+        "rule_ids": [
+          "4I",
+          "electrical"
+        ],
+        "reasoning": "Rough electrical: 100A subpanel install, ~12 recessed cans, outlets, dedicated elevator circuit. Gated by underlayment + windows."
+      }
+    },
+    {
+      "id": "plumbing.rough_in",
+      "phase_id": "rough_trades",
+      "component_id": "rough_plumbing",
+      "section_id": "plumbing",
+      "name": "Rough plumbing",
+      "trade": "plumbing",
+      "kind": "work",
+      "duration_days": 3,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "plumbing.tank_set",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "plumbing",
+        "rule_ids": [
+          "4I",
+          "plumbing"
+        ],
+        "reasoning": "Rough plumbing: master bath + W/D relocation. Stubs into set tankless."
+      }
+    },
+    {
+      "id": "hvac.minisplit_rough",
+      "phase_id": "rough_trades",
+      "component_id": "rough_hvac",
+      "section_id": "hvac",
+      "name": "Mini-split line set rough-in",
+      "trade": "hvac",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hvac",
+        "rule_ids": [
+          "4G"
+        ],
+        "reasoning": "Mini-split line set rough is 0.5d, 1 person."
+      }
+    },
+    {
+      "id": "gas.wh_vent_extend",
+      "phase_id": "rough_trades",
+      "component_id": "rough_hvac",
+      "section_id": "demolition_site_work",
+      "name": "Extend gas WH vent through new roof",
+      "trade": "plumbing",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "roofing.shingles",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "demolition_site_work",
+        "rule_ids": [
+          "scope.gas_vent"
+        ],
+        "reasoning": "Existing gas WH stays; vent extended through new roof. Retrofit trade item."
+      }
+    },
+    {
+      "id": "inspect.rough_bundled",
+      "phase_id": "rough_inspections",
+      "component_id": "rough_inspections",
+      "section_id": "framing",
+      "name": "Bundled rough inspection (E/P/M + framing)",
+      "trade": "inspector",
+      "kind": "inspection",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "electrical.rough_in",
+          "type": "FS",
+          "lag_days": 1
+        },
+        {
+          "predecessor_id": "plumbing.rough_in",
+          "type": "FS",
+          "lag_days": 1
+        },
+        {
+          "predecessor_id": "hvac.minisplit_rough",
+          "type": "FS",
+          "lag_days": 1
+        },
+        {
+          "predecessor_id": "structural.remove_shoring",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "framing",
+        "rule_ids": [
+          "4C"
+        ],
+        "reasoning": "Bundled rough inspection: electrical + plumbing + mini-split + framing on one day with one inspector."
+      }
+    },
+    {
+      "id": "buffer.post_rough_inspection",
+      "phase_id": "rough_inspections",
+      "component_id": "rough_inspections",
+      "section_id": "framing",
+      "name": "Post-rough punch buffer",
+      "trade": "general",
+      "kind": "lead_time",
+      "duration_days": 0,
+      "crew_size": 0,
+      "lead_time_days": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "inspect.rough_bundled",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "framing",
+        "rule_ids": [
+          "4D"
+        ],
+        "reasoning": "Standard 2-day punch-list buffer after rough inspection."
+      }
+    },
+    {
+      "id": "insulation.install",
+      "phase_id": "insulation_and_drywall",
+      "component_id": "insulation",
+      "section_id": "insulation_air_sealing",
+      "name": "Insulation & air sealing",
+      "trade": "insulation",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "buffer.post_rough_inspection",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "insulation_air_sealing",
+        "rule_ids": [
+          "insulation"
+        ],
+        "reasoning": "Batts + air sealing throughout addition."
+      }
+    },
+    {
+      "id": "inspect.insulation",
+      "phase_id": "insulation_and_drywall",
+      "component_id": "insulation",
+      "section_id": "insulation_air_sealing",
+      "name": "Insulation inspection",
+      "trade": "inspector",
+      "kind": "inspection",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "insulation.install",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "insulation_air_sealing",
+        "rule_ids": [
+          "inspection.insulation"
+        ],
+        "reasoning": "Standard insulation inspection gate before drywall."
+      }
+    },
+    {
+      "id": "equipment.drywall_dumpster",
+      "phase_id": "insulation_and_drywall",
+      "component_id": "drywall",
+      "section_id": "drywall",
+      "name": "Second dumpster + drywall lift arrive",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "checkpoint.equipment_confirmed_drywall",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "inspect.insulation",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "drywall",
+        "rule_ids": [
+          "4O"
+        ],
+        "reasoning": "Equipment lands day before drywall hang."
+      }
+    },
+    {
+      "id": "drywall.consolidated",
+      "phase_id": "insulation_and_drywall",
+      "component_id": "drywall",
+      "section_id": "drywall",
+      "name": "Drywall hang / tape / sand — consolidated (addition + retrofit)",
+      "trade": "drywall",
+      "kind": "work",
+      "duration_days": 6,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "inspect.insulation",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "equipment.drywall_dumpster",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "drywall",
+        "rule_ids": [
+          "drywall.consolidated"
+        ],
+        "reasoning": "Consolidated hang + tape + sand for new addition AND existing bedroom + hall bath retrofit patches in single block. Cure waits modeled inside task duration."
+      }
+    },
+    {
+      "id": "paint.phase_1",
+      "phase_id": "insulation_and_drywall",
+      "component_id": "paint_phase1",
+      "section_id": "interior_finish",
+      "name": "Paint phase 1 — primer + ceiling finish",
+      "trade": "paint",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "drywall.consolidated",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "order.paint",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 2,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4E"
+        ],
+        "reasoning": "1d covers primer (walls + ceilings) AM + ceiling finish coat PM same day per Will's standard sequence."
+      }
+    },
+    {
+      "id": "tile.shower_substrate",
+      "phase_id": "interior_finishes",
+      "component_id": "tile",
+      "section_id": "master_bath",
+      "name": "Tile shower substrate & waterproofing",
+      "trade": "tile",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "paint.phase_1",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.tile_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "tile.substrate"
+        ],
+        "reasoning": "Kerdi/Wedi waterproofing + substrate before tile."
+      }
+    },
+    {
+      "id": "tile.shower_set",
+      "phase_id": "interior_finishes",
+      "component_id": "tile",
+      "section_id": "master_bath",
+      "name": "Set shower tile",
+      "trade": "tile",
+      "kind": "work",
+      "duration_days": 3,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "tile.shower_substrate",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "tile"
+        ],
+        "reasoning": "Custom master bath shower tile set."
+      }
+    },
+    {
+      "id": "tile.grout_seal",
+      "phase_id": "interior_finishes",
+      "component_id": "tile",
+      "section_id": "master_bath",
+      "name": "Grout & seal tile",
+      "trade": "tile",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "tile.shower_set",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "tile"
+        ],
+        "reasoning": "Grout + seal after thinset cure."
+      }
+    },
+    {
+      "id": "flooring.install",
+      "phase_id": "interior_finishes",
+      "component_id": "flooring",
+      "section_id": "interior_finish",
+      "name": "Flooring install (LVP)",
+      "trade": "flooring",
+      "kind": "work",
+      "duration_days": 3,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "paint.phase_1",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "tile.shower_substrate",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.flooring_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4L"
+        ],
+        "reasoning": "LVP flooring after paint phase 1 and shower substrate."
+      }
+    },
+    {
+      "id": "trim.install",
+      "phase_id": "interior_finishes",
+      "component_id": "trim",
+      "section_id": "interior_finish",
+      "name": "Trim carpentry (base, case, doors)",
+      "trade": "trim_carpentry",
+      "kind": "work",
+      "duration_days": 3,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "flooring.install",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4L"
+        ],
+        "reasoning": "Trim after flooring."
+      }
+    },
+    {
+      "id": "cabinets.install",
+      "phase_id": "interior_finishes",
+      "component_id": "cabinets",
+      "section_id": "master_bath",
+      "name": "Vanity install",
+      "trade": "cabinets",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "flooring.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.vanity_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "master_bath",
+        "rule_ids": [
+          "cabinets"
+        ],
+        "reasoning": "Vanity install after flooring."
+      }
+    },
+    {
+      "id": "retrofit.hall_bath_repaint",
+      "phase_id": "interior_finishes",
+      "component_id": "hall_bath_mod",
+      "section_id": "hall_bath_closeout",
+      "name": "Hall bath repaint (retrofit)",
+      "trade": "paint",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "drywall.consolidated",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "order.paint",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "retrofit"
+        ],
+        "reasoning": "Hall bath is outside addition objective areas — retrofit component, gated only on drywall consolidated."
+      }
+    },
+    {
+      "id": "electrical.finish",
+      "phase_id": "finish_trades",
+      "component_id": "finish_electrical",
+      "section_id": "electrical",
+      "name": "Electrical finish (trim out)",
+      "trade": "electrical",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "paint.phase_1",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "electrical",
+        "rule_ids": [
+          "4L"
+        ],
+        "reasoning": "Fixture, outlet, switch trim after paint phase 1."
+      }
+    },
+    {
+      "id": "plumbing.finish",
+      "phase_id": "finish_trades",
+      "component_id": "finish_plumbing",
+      "section_id": "plumbing",
+      "name": "Plumbing finish",
+      "trade": "plumbing",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "cabinets.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "flooring.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "tile.grout_seal",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "plumbing",
+        "rule_ids": [
+          "4L"
+        ],
+        "reasoning": "Plumbing finish after cabinets, flooring, tile grout."
+      }
+    },
+    {
+      "id": "hvac.minisplit_install",
+      "phase_id": "finish_trades",
+      "component_id": "finish_hvac",
+      "section_id": "hvac",
+      "name": "Mini-split install",
+      "trade": "hvac",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "paint.phase_1",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "electrical.finish",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "checkpoint.minisplit_arrived",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hvac",
+        "rule_ids": [
+          "4N"
+        ],
+        "reasoning": "Mini-split day-of-install. Sequenced AFTER electrical finish per 2-trade-max stagger rule."
+      }
+    },
+    {
+      "id": "paint.phase_2",
+      "phase_id": "interior_finishes",
+      "component_id": "paint_phase2",
+      "section_id": "interior_finish",
+      "name": "Paint phase 2 — final wall coat",
+      "trade": "paint",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "trim.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "flooring.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "cabinets.install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "tile.grout_seal",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "plumbing.finish",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "electrical.finish",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "hvac.minisplit_install",
+          "type": "FS"
+        },
+        {
+          "predecessor_id": "retrofit.hall_bath_repaint",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4F"
+        ],
+        "reasoning": "Paint phase 2 gates on every finish trade — LAST work task on site."
+      }
+    },
+    {
+      "id": "milestone.substantial_completion",
+      "phase_id": "interior_finishes",
+      "component_id": "paint_phase2",
+      "section_id": "interior_finish",
+      "name": "Substantial completion",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "paint.phase_2",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "interior_finish",
+        "rule_ids": [
+          "4F"
+        ],
+        "reasoning": "Home substantially complete when paint 2 finishes."
+      }
+    },
+    {
+      "id": "closeout.pm_walkthrough",
+      "phase_id": "closeout",
+      "component_id": "closeout",
+      "section_id": "hall_bath_closeout",
+      "name": "PM walkthrough with customer",
+      "trade": "pm",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "milestone.substantial_completion",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "closeout"
+        ],
+        "reasoning": "PM walkthrough to produce punch list."
+      }
+    },
+    {
+      "id": "closeout.punch_list",
+      "phase_id": "closeout",
+      "component_id": "closeout",
+      "section_id": "hall_bath_closeout",
+      "name": "Punch list work",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "closeout.pm_walkthrough",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "closeout"
+        ],
+        "reasoning": "Punch-list return for multiple trades."
+      }
+    },
+    {
+      "id": "closeout.final_clean",
+      "phase_id": "closeout",
+      "component_id": "closeout",
+      "section_id": "hall_bath_closeout",
+      "name": "Final clean",
+      "trade": "cleanup",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 2,
+      "depends_on": [
+        {
+          "predecessor_id": "closeout.punch_list",
+          "type": "FS"
+        }
+      ],
+      "lead_up_working_days": 0,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "closeout"
+        ],
+        "reasoning": "Whole-house clean after punch list."
+      }
+    },
+    {
+      "id": "inspect.final_bundled",
+      "phase_id": "closeout",
+      "component_id": "closeout",
+      "section_id": "hall_bath_closeout",
+      "name": "Final bundled inspection (E/P/M + building)",
+      "trade": "inspector",
+      "kind": "inspection",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "closeout.final_clean",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "4M"
+        ],
+        "reasoning": "All finals + final building bundled to one inspector on one day."
+      }
+    },
+    {
+      "id": "closeout.wills_walkthrough",
+      "phase_id": "closeout",
+      "component_id": "closeout",
+      "section_id": "hall_bath_closeout",
+      "name": "Will's final walkthrough",
+      "trade": "general",
+      "kind": "work",
+      "duration_days": 0.5,
+      "crew_size": 1,
+      "depends_on": [
+        {
+          "predecessor_id": "inspect.final_bundled",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "lead_up_working_days": 1,
+      "derived_from": {
+        "section_id": "hall_bath_closeout",
+        "rule_ids": [
+          "closeout.wills_walkthrough"
+        ],
+        "reasoning": "Will's personal final walkthrough with customer — end of project."
+      }
+    }
+  ],
+  "warnings": [
+    "Scope ambiguous on truss vs rafter framing ('TBD design phase') — defaulted to stick-frame for small addition (~300 sqft roof, ~10 ft span). PM interview should confirm.",
+    "Septic scope explicitly present — TDEC septic permit modeled with 6-week lead. Confirm home is on septic (scope references septic explicitly).",
+    "No customer-requested early item confirmed by PM interview — none emitted. If customer asked for pre-job work in hall bath, flag for PM.",
+    "Hall bath work flagged as retrofit (mentioned in scope, not in addition objective areas — bedroom/bath/closet). Isolated to hall_bath_mod component + demo_retrofit. Retrofit drywall consolidated into main drywall block per rules.",
+    "Elevator shaft framing included in framing.exterior_walls — elevator itself NOT in scope. Dedicated 30A/120V circuit rough-in modeled inside electrical.rough_in.",
+    "Concealed roof tie-in — PM must document existing rafter conditions on day 1 of framing.roof so any change order can be processed fast. 3-day buffer reserved.",
+    "Section 'hall_bath_closeout' has negative section_total (-$1714.20) — scope credit for reduced bath work. Minimal retrofit tasks only.",
+    "LVL beam procurement uses 14-day (~3 week) safety lead — confirm standard vs pressure-treated with PM.",
+    "4 windows + 1 exterior door is small — assumed stock. Confirm at PM interview; custom would extend lead to 28-42 days.",
+    "W/D relocation included in plumbing.rough_in — may warrant separate task if scope grows.",
+    "Interior finish phase deliberately staggers HVAC install AFTER electrical finish to hold 2-trades-max interior rule."
+  ],
+  "assumptions": [
+    "Home is on septic (scope explicitly names TDEC/septic). TDEC modeled.",
+    "Roof framed stick-built (not trusses) — small addition, ambiguous scope language.",
+    "Windows are stock (21-day lead).",
+    "Water heater in scope is tankless (per HVAC section). Existing gas WH stays; vent extended through new roof.",
+    "Mini-split is the HVAC solution (line-set rough 0.5d, install 1d).",
+    "LVL is standard 14-day lead.",
+    "1-year warranty return budgeted for drywall cracking at addition tie-ins (standard TCR addition practice).",
+    "Retrofit drywall (hall bath patch, existing bedroom) consolidated into main drywall block per editor rule.",
+    "Elevator itself not installed; only shaft framing + dedicated circuit rough included.",
+    "Weather buffer NOT modeled explicitly (v0.1 limitation) — flag for PM given exterior work volume (foundation, framing, roof, siding)."
+  ]
+}
