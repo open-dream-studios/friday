@@ -1,1 +1,65 @@
-{}
+{
+  "b_01KXCXH2KCKGQWCYFZ8EFHCY17": {
+    "id": "b_01KXCXH2KCKGQWCYFZ8EFHCY17",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCX0XNY6M7HNTZGX14XMZ42"
+    },
+    "subject": "tdec_permit_urgency",
+    "content": "With a scheduled Oct 12 start and TDEC's 4-6 week end-to-end timeline, TDEC contact must be initiated by early August 2026 at the latest — ideally now (mid-July) — to have the permit in hand before excavation. No TDEC initiation is documented as of today (2026-07-13).",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCXH2KCDDGQYSXGSF8A0MWZ",
+      "f_01KXCXH2KCB7EBRX8DNZD8MBXA"
+    ],
+    "falsification_test": "TDEC is confirmed as already filed, or property is verified on city sewer making TDEC inapplicable.",
+    "created_at": "2026-07-13T04:59:51.206Z",
+    "updated_at": "2026-07-13T04:59:51.206Z",
+    "last_verified_at": "2026-07-13T04:59:51.206Z",
+    "derived_from_sha": "08caea3b3789a9f0b59c366feff002d253390da2"
+  },
+  "b_01KXCXH2KC47GSQ7VRA4Q53F23": {
+    "id": "b_01KXCXH2KC47GSQ7VRA4Q53F23",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCX0XNY6M7HNTZGX14XMZ42"
+    },
+    "subject": "water_heater_scope_ambiguity",
+    "content": "There is a direct conflict between the scope document (extend existing gas WH vent only) and the breakdown title ('Tankless WH Option'); this must be resolved before scheduling because a tankless WH installation changes plumbing rough-in sequencing, adds procurement, and affects the HVAC section budget.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCXH2KC5K31K3D61ADH2J6N",
+      "f_01KXCXH2KCCAKJFSK75VHRQHBT"
+    ],
+    "falsification_test": "PM explicitly confirms either vent-extend-only or a new tankless WH install as the contracted scope.",
+    "created_at": "2026-07-13T04:59:51.206Z",
+    "updated_at": "2026-07-13T04:59:51.206Z",
+    "last_verified_at": "2026-07-13T04:59:51.206Z",
+    "derived_from_sha": "08caea3b3789a9f0b59c366feff002d253390da2"
+  },
+  "b_01KXCXH2KCMSC357BV49Y536MC": {
+    "id": "b_01KXCXH2KCMSC357BV49Y536MC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCX0XNY6M7HNTZGX14XMZ42"
+    },
+    "subject": "october_start_exterior_weather_risk",
+    "content": "An Oct 12 start means foundation, framing, and roofing could extend into December, overlapping TCR's avoidance window (mid-Dec through mid-Feb) for weather-sensitive exterior structural work; the schedule needs an explicit weather buffer or the start date should shift earlier.",
+    "kind": "predictive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXCXH2KCB7EBRX8DNZD8MBXA",
+      "f_01KXCXH2KCWR1PZW0NMWXK843Z"
+    ],
+    "falsification_test": "Schedule analysis confirms all exterior phases complete by Dec 12 with 20% weather buffer already applied.",
+    "created_at": "2026-07-13T04:59:51.206Z",
+    "updated_at": "2026-07-13T04:59:51.206Z",
+    "last_verified_at": "2026-07-13T04:59:51.206Z",
+    "derived_from_sha": "08caea3b3789a9f0b59c366feff002d253390da2"
+  }
+}
