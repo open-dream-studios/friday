@@ -1,1 +1,64 @@
-{}
+{
+  "b_01KXD5VYCV5VN1PT267Q9QXAEJ": {
+    "id": "b_01KXD5VYCV5VN1PT267Q9QXAEJ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD5HNK406782C8DTNH37FCJ"
+    },
+    "subject": "tdec_timing_status",
+    "content": "TDEC contact must occur by approximately 2026-09-01 (6 weeks before the 2026-10-12 start); as of 2026-07-13 only ~7 weeks remain, making immediate TDEC outreach time-critical to avoid pushing the start date.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD5VYCR7QZZM1VRQEHYG6YZ",
+      "f_01KXD5VYCRTWTFG85PXRY80VE9"
+    ],
+    "falsification_test": "TDEC has already been contacted and a soil scientist visit is scheduled, or the start date is moved to allow the full 6-week window.",
+    "created_at": "2026-07-13T07:25:35.958Z",
+    "updated_at": "2026-07-13T07:25:35.958Z",
+    "last_verified_at": "2026-07-13T07:25:35.958Z",
+    "derived_from_sha": "2d36518063f71b8361c5ac22e5ee434ed0ca10a0"
+  },
+  "b_01KXD5VYCX4TE1MQS729QDBXDQ": {
+    "id": "b_01KXD5VYCX4TE1MQS729QDBXDQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD5HNK406782C8DTNH37FCJ"
+    },
+    "subject": "retrofit_scope_present",
+    "content": "The job contains retrofit work (existing hall bath modification and existing bedroom remodel) distinct from the new addition that must be scheduled independently and not gated on new-construction framing or foundation dependencies.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD5VYCT23SJTNDFCFZE5AT5",
+      "f_01KXD5VYCRBM5HYV9XM9F9VDDQ"
+    ],
+    "falsification_test": "PM confirms the hall bath and bedroom work fall entirely within the new addition footprint and not in existing structure.",
+    "created_at": "2026-07-13T07:25:35.958Z",
+    "updated_at": "2026-07-13T07:25:35.958Z",
+    "last_verified_at": "2026-07-13T07:25:35.958Z",
+    "derived_from_sha": "2d36518063f71b8361c5ac22e5ee434ed0ca10a0"
+  },
+  "b_01KXD5VYCX5GZJARE2DPA3B2Y3": {
+    "id": "b_01KXD5VYCX5GZJARE2DPA3B2Y3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD5HNK406782C8DTNH37FCJ"
+    },
+    "subject": "hvac_pre_demo_relocation_risk",
+    "content": "The HVAC section includes 'Relocations,' which per addition rules must be completed at least 3 working days before main demo; the specific component(s) and their location relative to the addition footprint are unconfirmed and must be resolved before scheduling.",
+    "kind": "prescriptive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXD5VYCRF4M9GVRDR7P10ZHZ"
+    ],
+    "falsification_test": "PM confirms no existing HVAC components are in the addition footprint, and 'Relocations' refers only to internal repositioning within the new space.",
+    "created_at": "2026-07-13T07:25:35.958Z",
+    "updated_at": "2026-07-13T07:25:35.958Z",
+    "last_verified_at": "2026-07-13T07:25:35.958Z",
+    "derived_from_sha": "2d36518063f71b8361c5ac22e5ee434ed0ca10a0"
+  }
+}
