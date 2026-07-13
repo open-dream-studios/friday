@@ -1,0 +1,17 @@
+{
+  "pep_version": 1,
+  "generated_from": {
+    "task_graph_sha": "6e0879eea7901bb8f62abea1eff04ad1be6f62c0",
+    "schedule_sha": "6e0879eea7901bb8f62abea1eff04ad1be6f62c0",
+    "derived_from_intel_sha": "c51cf54e1b8aa35255e58ad2d69d40dd1990308d"
+  },
+  "generated_at": "2026-07-13T19:58:36.238Z",
+  "generated_by": "friday",
+  "sections": [],
+  "meta": {
+    "model": "opus",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "duration_ms": 101047
+  }
+}
