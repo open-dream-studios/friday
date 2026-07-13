@@ -1,24 +1,4 @@
 {
-  "f_01KXCE3W1M1KDN0HHED0KPCW43": {
-    "id": "f_01KXCE3W1M1KDN0HHED0KPCW43",
-    "entity": {
-      "kind": "job",
-      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
-    },
-    "subject": "job_total_estimate",
-    "content": "Simons Addition breakdown totals $100,778.92: labor $45,167.59, materials $52,171.33, equipment $3,440.00.",
-    "confidence": 1,
-    "created_at": "2026-07-13T00:30:29.864Z",
-    "updated_at": "2026-07-13T00:30:29.864Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "308_Evergreen_Addition_Breakdown.csv",
-        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
-      }
-    ],
-    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
-  },
   "f_01KXCE3W1NV8978HTWE8ZTKB71": {
     "id": "f_01KXCE3W1NV8978HTWE8ZTKB71",
     "entity": {
@@ -512,5 +492,30 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCETA5TZJ9BXEG928SCSNXX": {
+    "id": "f_01KXCETA5TZJ9BXEG928SCSNXX",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "job_total_estimate",
+    "content": "With the tankless WH excluded per owner direction, the revised pre-contract estimate is approximately $94,275 (original $100,778.92 minus the $6,503.36 HVAC/tankless line); formal breakdown revision is pending.",
+    "confidence": 0.8,
+    "created_at": "2026-07-13T00:42:45.225Z",
+    "updated_at": "2026-07-13T00:42:45.225Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv:HVAC section",
+        "sha": "56de7d544fe6eddfafc23bc65cf5cb589429b6aa"
+      },
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXCEFBWNCH737QN6225QZ6VD",
+        "sha": "56de7d544fe6eddfafc23bc65cf5cb589429b6aa"
+      }
+    ],
+    "derived_from_sha": "56de7d544fe6eddfafc23bc65cf5cb589429b6aa"
   }
 }
