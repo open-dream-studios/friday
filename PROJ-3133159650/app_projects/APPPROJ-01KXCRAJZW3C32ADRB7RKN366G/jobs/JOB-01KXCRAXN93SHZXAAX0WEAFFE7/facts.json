@@ -1,1 +1,252 @@
-{}
+{
+  "f_01KXCS86QFRWNVHESSGXGJFTRE": {
+    "id": "f_01KXCS86QFRWNVHESSGXGJFTRE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "job_total_estimate",
+    "content": "The Simons Addition grand total estimate is $100,778.92 (labor $45,167.59 / materials $52,171.33 / equipment $3,440.00 / 1,287 labor hours).",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QGEQAH358ZAM6AJZ0E": {
+    "id": "f_01KXCS86QGEQAH358ZAM6AJZ0E",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "addition_footprint_and_scope",
+    "content": "The addition is a two-story 30'x10' structure (789 SF footprint) adding basement-level storage, a second-floor primary bedroom expansion, master bathroom, and walk-in closet.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QGE5RJRC68QH13TX66": {
+    "id": "f_01KXCS86QGE5RJRC68QH13TX66",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "job_scheduled_start",
+    "content": "The job scheduled start date is 2026-10-12.",
+    "confidence": 1,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QG3HDMC2YH1V98GDZF": {
+    "id": "f_01KXCS86QG3HDMC2YH1V98GDZF",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "septic_requirement_and_exclusion",
+    "content": "A TDEC septic inspection is required and the scope explicitly evaluates relocation, new tank/leach field, or grinder pump connection — septic costs are excluded from the contract and require a separate change order.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QG82MDQBG9DGVK1DWX": {
+    "id": "f_01KXCS86QG82MDQBG9DGVK1DWX",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "roof_pitch_tie_in",
+    "content": "The new gable roof is pitched at approximately 3/12 tying into the existing 6/12 roof; truss vs. rafter framing method is TBD per design.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QG5GS66YVX8J605KEC": {
+    "id": "f_01KXCS86QG5GS66YVX8J605KEC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "Scope includes one 3-ply 14\" LVL beam spanning approximately 15'-6\" to open an existing load-bearing wall, with temporary shoring included.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QGE0P7ND8554803WHJ": {
+    "id": "f_01KXCS86QGE0P7ND8554803WHJ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "electrical_subpanel_scope",
+    "content": "A 100A subpanel with full rough-in and trim-out is included in the electrical scope.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QG35NKQY14SX3ZQ938": {
+    "id": "f_01KXCS86QG35NKQY14SX3ZQ938",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "hvac_system_type",
+    "content": "HVAC scope is a mini-split system (not ducted) per the breakdown section title.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QG5DG21841GGNCV2VP": {
+    "id": "f_01KXCS86QG5DG21841GGNCV2VP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "elevator_shaft_scope",
+    "content": "A future 4'x4' elevator shaft is framed in scope; the elevator itself is not included.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QHX7KNT9MTBA9TMDCW": {
+    "id": "f_01KXCS86QHX7KNT9MTBA9TMDCW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "window_count_and_specs",
+    "content": "Exterior scope includes 4 windows — (3) 36\"x60\" + (1) transom — and 1 new exterior door.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QH8M32W6M3B2DYP3RH": {
+    "id": "f_01KXCS86QH8M32W6M3B2DYP3RH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "breakdown_hall_bath_negative_cost",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' breakdown section shows -$4,199.00 in material cost, yielding a section total of -$1,714.20.",
+    "confidence": 0.99,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "f_01KXCS86QH7K7JF31XTAV3MYK5": {
+    "id": "f_01KXCS86QH7K7JF31XTAV3MYK5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "customer_spouse_name",
+    "content": "Customer John Simons' wife is named Alicia, per job notes.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+      }
+    ],
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  }
+}

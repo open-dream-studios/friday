@@ -1,1 +1,64 @@
-{}
+{
+  "b_01KXCS86QH1GHX8N6HGNBNA7R4": {
+    "id": "b_01KXCS86QH1GHX8N6HGNBNA7R4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "tdec_septic_start_date_feasibility",
+    "content": "With the scheduled start on 2026-10-12 (92 days away) and TDEC septic requiring a minimum 70-day lead time, there are only ~22 days of buffer — and since the job is in 'waiting_work' status, TDEC initiation has not yet begun, putting the Oct 12 start date at significant risk.",
+    "kind": "predictive",
+    "confidence": 0.88,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCS86QGE5RJRC68QH13TX66",
+      "f_01KXCS86QG3HDMC2YH1V98GDZF"
+    ],
+    "falsification_test": "Evidence that TDEC was already contacted or that the septic evaluation is actively in progress would reduce this risk.",
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "last_verified_at": "2026-07-13T03:45:06.228Z",
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "b_01KXCS86QHHPDCQWXPMZHDJ9RC": {
+    "id": "b_01KXCS86QHHPDCQWXPMZHDJ9RC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "retrofit_section_present",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' and 'Drywall – New Addition & Existing Bedroom' breakdown sections indicate retrofit work is mixed with new-construction scope; per job_definition rules these must be tracked in separate components and cannot share new-construction predecessors that don't physically apply.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCS86QH8M32W6M3B2DYP3RH",
+      "f_01KXCS86QGEQAH358ZAM6AJZ0E"
+    ],
+    "falsification_test": "If the hall bath section is confirmed as a direct new-construction dependency (e.g., plumbing tied to the new addition rough-in), this belief is weakened.",
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "last_verified_at": "2026-07-13T03:45:06.228Z",
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  },
+  "b_01KXCS86QHN9V0SZVS0DNN8X3K": {
+    "id": "b_01KXCS86QHN9V0SZVS0DNN8X3K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCRAXN93SHZXAAX0WEAFFE7"
+    },
+    "subject": "hvac_no_rough_in_phase",
+    "content": "Because the HVAC scope is a mini-split, no separate rough-in phase should be modeled; per TCR rules, mini-splits are day-of-install once equipment is on site.",
+    "kind": "prescriptive",
+    "confidence": 0.93,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCS86QG35NKQY14SX3ZQ938"
+    ],
+    "falsification_test": "Scope language calling out duct runs or a split-unit requiring separate rough-in would falsify this.",
+    "created_at": "2026-07-13T03:45:06.228Z",
+    "updated_at": "2026-07-13T03:45:06.228Z",
+    "last_verified_at": "2026-07-13T03:45:06.228Z",
+    "derived_from_sha": "711d51ffea6a4271ff8283ea8bbd5127250088f5"
+  }
+}
