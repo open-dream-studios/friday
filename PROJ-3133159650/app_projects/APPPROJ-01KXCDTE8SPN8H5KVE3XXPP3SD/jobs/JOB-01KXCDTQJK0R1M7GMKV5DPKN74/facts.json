@@ -474,5 +474,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCEN5DZS20KKJGGAB0YHQXQ": {
+    "id": "f_01KXCEN5DZS20KKJGGAB0YHQXQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "answer_to_q_01KXCEFBWK634ERWDYJVC05V9R",
+    "content": "Will (PM lead) initiates first contact with TDEC by end of week — 2026-07-19. That preserves a 5-day internal buffer before the 70-day minimum lead-time clock starts, keeping the Oct 12 start protected even if TDEC hits the 8-week ceiling.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T00:39:56.607Z",
+    "updated_at": "2026-07-13T00:39:56.607Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCEFBWK634ERWDYJVC05V9R",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
