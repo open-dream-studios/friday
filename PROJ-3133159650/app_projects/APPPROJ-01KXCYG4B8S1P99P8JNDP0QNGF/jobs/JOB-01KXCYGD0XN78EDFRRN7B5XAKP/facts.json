@@ -481,5 +481,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCYXZEAW2M80MJFKEQ75KCM": {
+    "id": "f_01KXCYXZEAW2M80MJFKEQ75KCM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCYGD0XN78EDFRRN7B5XAKP"
+    },
+    "subject": "answer_to_q_01KXCYNBD8J472QT42D7S40DC6",
+    "content": "Intentional credit",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T05:24:22.602Z",
+    "updated_at": "2026-07-13T05:24:22.602Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCYNBD8J472QT42D7S40DC6",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
