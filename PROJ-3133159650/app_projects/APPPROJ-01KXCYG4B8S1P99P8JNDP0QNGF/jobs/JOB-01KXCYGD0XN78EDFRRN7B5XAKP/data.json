@@ -7,7 +7,7 @@
   "priority": "medium",
   "scheduled_start_date": "2026-10-12 04:00:00",
   "completed_date": null,
-  "notes": "John has a wife named Cindy",
+  "notes": "John has a wife named Cindy. Brother, who is also a point of contact, is named Jasper Simons. Task graph should mention a checkpoint to call jasper, 1 week before job start. ",
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
