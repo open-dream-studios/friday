@@ -1,1 +1,157 @@
-{}
+{
+  "f_01KXD2BRB8EWWZWM4DEMVBYQ08": {
+    "id": "f_01KXD2BRB8EWWZWM4DEMVBYQ08",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  },
+  "f_01KXD2BRBARF5WN1S578VM3Z63": {
+    "id": "f_01KXD2BRBARF5WN1S578VM3Z63",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "customer_name",
+    "content": "The customer on this project is John Simons.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  },
+  "f_01KXD2BRBAZ4FRNYY50W508A48": {
+    "id": "f_01KXD2BRBAZ4FRNYY50W508A48",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "customer_phone",
+    "content": "Customer phone on file is 2955349323.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  },
+  "f_01KXD2BRBA722R5Z2W9VNB3F9V": {
+    "id": "f_01KXD2BRBA722R5Z2W9VNB3F9V",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "customer_email",
+    "content": "Customer email on file is johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  },
+  "f_01KXD2BRBAY8S8N986RR8Q6HY3": {
+    "id": "f_01KXD2BRBAY8S8N986RR8Q6HY3",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "lead_employee",
+    "content": "Lead employee assigned to this project is Will Fallon (william.fallon@tcrandc.com).",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  },
+  "f_01KXD2BRBA235SSGKJWSQD2TB2": {
+    "id": "f_01KXD2BRBA235SSGKJWSQD2TB2",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN is approximately 25–30 miles from Johnson City, TN, placing it within TCR's 45-mile service radius.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      },
+      {
+        "kind": "document",
+        "path": "PROJ-3133159650/data.json:profile.service_area",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  },
+  "f_01KXD2BRBACK8M7BJV19V4FQNK": {
+    "id": "f_01KXD2BRBACK8M7BJV19V4FQNK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXD1M399GS065Q1KYKJZWD05"
+    },
+    "subject": "attached_documents",
+    "content": "Three documents are attached to this property: a scope document (scope.pdf), a cost breakdown CSV (308_Evergreen_Addition_Breakdown.csv), and architectural drawings (DRAWINGS.pdf); all reference the Simons property / 308 Evergreen.",
+    "confidence": 1,
+    "created_at": "2026-07-13T06:24:19.753Z",
+    "updated_at": "2026-07-13T06:24:19.753Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      },
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+      }
+    ],
+    "derived_from_sha": "74c8042ee5d4ef07196d05eb484e1158f76440e6"
+  }
+}
