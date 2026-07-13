@@ -1,1 +1,307 @@
-{}
+{
+  "f_01KXCE3W1M1KDN0HHED0KPCW43": {
+    "id": "f_01KXCE3W1M1KDN0HHED0KPCW43",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "job_total_estimate",
+    "content": "Simons Addition breakdown totals $100,778.92: labor $45,167.59, materials $52,171.33, equipment $3,440.00.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NV8978HTWE8ZTKB71": {
+    "id": "f_01KXCE3W1NV8978HTWE8ZTKB71",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "Scheduled start date for this job is 2026-10-12.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NGJF3B171HV63EDHR": {
+    "id": "f_01KXCE3W1NGJF3B171HV63EDHR",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "job_addition_dimensions",
+    "content": "Addition is a 30'x10' two-story structure; breakdown records an overall project footprint of 789 sq ft, which exceeds the 300 sq ft addition footprint and likely includes existing remodel areas.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NN3EVJX5G29PXWF0K": {
+    "id": "f_01KXCE3W1NN3EVJX5G29PXWF0K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "job_scope_spaces",
+    "content": "Addition creates basement-level storage, 2nd-floor primary bedroom expansion, master bathroom, and walk-in closet.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NTFPWWYAGRQCTJJ9R": {
+    "id": "f_01KXCE3W1NTFPWWYAGRQCTJJ9R",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "septic_excluded_change_order",
+    "content": "Scope requires a TDEC septic inspection; septic relocation, replacement, or grinder pump costs are explicitly excluded and require a change order.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NFXFV2NMPAH09SCBW": {
+    "id": "f_01KXCE3W1NFXFV2NMPAH09SCBW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "LVL beam is 3-ply 14\", spanning approximately 15'-6\", opening an existing load-bearing wall; temporary shoring is included in scope.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NWVD6W7KV6YPBV4JV": {
+    "id": "f_01KXCE3W1NWVD6W7KV6YPBV4JV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "elevator_shaft_scope",
+    "content": "A 4'x4' future elevator shaft is framed in scope; the elevator system itself is excluded but a dedicated 120V/30A circuit is included.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1NZ2EEQTXKMCYEYNTQ": {
+    "id": "f_01KXCE3W1NZ2EEQTXKMCYEYNTQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "roof_pitch_and_tie_in",
+    "content": "New gable roof is pitched at 3/12 and ties into the existing 6/12 roof — a concealed-condition risk zone per addition job-definition rules.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      },
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1PPD9KM10Z4RTSN2XT": {
+    "id": "f_01KXCE3W1PPD9KM10Z4RTSN2XT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "roof_framing_system_status",
+    "content": "Roof framing system (truss vs rafter) is listed as TBD in the design phase; no decision is recorded in scope or breakdown.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1PRA04NASX56H1B9KK": {
+    "id": "f_01KXCE3W1PRA04NASX56H1B9KK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "window_scope",
+    "content": "Scope includes 4 windows (3x 36\"x60\" + 1 transom) and 1 new exterior door; whether windows are custom or stock is not specified.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1PJVP6858DFR4EF6WK": {
+    "id": "f_01KXCE3W1PJVP6858DFR4EF6WK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "subpanel_no_service_check",
+    "content": "100A subpanel is in scope; the breakdown contains no amperage verification task or existing-service-upgrade section.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1QEDMSWNYD4S0M2VPT": {
+    "id": "f_01KXCE3W1QEDMSWNYD4S0M2VPT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "customer_spouse_name",
+    "content": "John Simons's wife is named Lola Simons.",
+    "confidence": 0.9,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1QJWQ190EYB8CJ1WWH": {
+    "id": "f_01KXCE3W1QJWQ190EYB8CJ1WWH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "hall_bath_negative_material_cost",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' breakdown section shows -$4,199.00 in materials and a -$1,714.20 section total — anomalous and unexplained.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "f_01KXCE3W1QEMYDXZM2QBGG01GR": {
+    "id": "f_01KXCE3W1QEMYDXZM2QBGG01GR",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "tankless_wh_vs_existing_gas_wh",
+    "content": "Scope describes extending the existing gas water heater vent through the new roof, but the breakdown title and HVAC section both reference a tankless water heater option — the contract inclusion status of the tankless is ambiguous.",
+    "confidence": 0.85,
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+      }
+    ],
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  }
+}

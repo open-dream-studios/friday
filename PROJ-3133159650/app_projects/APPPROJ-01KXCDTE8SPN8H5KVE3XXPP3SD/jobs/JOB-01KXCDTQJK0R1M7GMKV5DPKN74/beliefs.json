@@ -1,1 +1,63 @@
-{}
+{
+  "b_01KXCE3W1RV3WBFDVKT45ZH5PD": {
+    "id": "b_01KXCE3W1RV3WBFDVKT45ZH5PD",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "septic_timing_risk",
+    "content": "TDEC septic permitting takes 4–8 weeks (70-day default lead per addition job-definition rules); with only 91 calendar days to the 2026-10-12 start, the process must be initiated immediately or the start date will slip.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCE3W1NTFPWWYAGRQCTJJ9R",
+      "f_01KXCE3W1NV8978HTWE8ZTKB71"
+    ],
+    "falsification_test": "Confirmation that TDEC has already been contacted and the process is underway, or that the existing septic system is confirmed adequate for the added fixtures without TDEC action.",
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "last_verified_at": "2026-07-13T00:30:29.864Z",
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "b_01KXCE3W1RBND61GQ1GYK7XJZ0": {
+    "id": "b_01KXCE3W1RBND61GQ1GYK7XJZ0",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "winter_weather_schedule_risk",
+    "content": "A 2026-10-12 start on a 10–16 week addition places foundation and framing squarely in TCR's mid-December through mid-February weather-risk window — the schedule has not been evaluated against this constraint.",
+    "kind": "predictive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCE3W1NV8978HTWE8ZTKB71"
+    ],
+    "falsification_test": "A phasing plan showing structural work completes before mid-December, or owner acknowledgment with an explicit weather buffer built into the timeline.",
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "last_verified_at": "2026-07-13T00:30:29.864Z",
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  },
+  "b_01KXCE3W1RXDFYR7YHE3AMMY8W": {
+    "id": "b_01KXCE3W1RXDFYR7YHE3AMMY8W",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "service_amperage_check_required",
+    "content": "Per addition job-definition rules, a 100A subpanel in scope mandates a pre-construction existing-service amperage verification task; none appears in the breakdown, leaving an unresolved prerequisite before contract execution.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCE3W1PJVP6858DFR4EF6WK"
+    ],
+    "falsification_test": "An amperage verification task added to pre-construction, or a documented electrician confirmation of main service headroom.",
+    "created_at": "2026-07-13T00:30:29.864Z",
+    "updated_at": "2026-07-13T00:30:29.864Z",
+    "last_verified_at": "2026-07-13T00:30:29.864Z",
+    "derived_from_sha": "725d35ed5d8d76ad694fe86bdd659c9589e31cfc"
+  }
+}
