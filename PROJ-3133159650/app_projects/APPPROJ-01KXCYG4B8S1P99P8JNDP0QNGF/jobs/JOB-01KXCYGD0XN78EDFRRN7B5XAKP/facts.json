@@ -348,5 +348,24 @@
       }
     ],
     "derived_from_sha": "3865c2b7cd7f64aa33c1997953d89abab8f7a66f"
+  },
+  "f_01KXCYVCRCT6QYQATSXCV2BTXK": {
+    "id": "f_01KXCYVCRCT6QYQATSXCV2BTXK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCYGD0XN78EDFRRN7B5XAKP"
+    },
+    "subject": "answer_to_q_01KXCYNBD5SYFXDVGB0D7XXCYQ",
+    "content": "Septic",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T05:22:57.931Z",
+    "updated_at": "2026-07-13T05:22:57.931Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCYNBD5SYFXDVGB0D7XXCYQ",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
