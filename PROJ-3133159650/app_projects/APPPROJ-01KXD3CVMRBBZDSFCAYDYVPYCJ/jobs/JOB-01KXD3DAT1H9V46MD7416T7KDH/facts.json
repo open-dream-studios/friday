@@ -382,5 +382,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXD4217KZJ23DDRRB4N1CV2V": {
+    "id": "f_01KXD4217KZJ23DDRRB4N1CV2V",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD3DAT1H9V46MD7416T7KDH"
+    },
+    "subject": "answer_to_q_01KXD3PQD1R4X2X46512N3SCWS",
+    "content": "Trusses",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T06:53:58.387Z",
+    "updated_at": "2026-07-13T06:53:58.387Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXD3PQD1R4X2X46512N3SCWS",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
