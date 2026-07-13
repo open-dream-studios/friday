@@ -417,5 +417,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCE8YB05ZN0E7T208EXVXVH": {
+    "id": "f_01KXCE8YB05ZN0E7T208EXVXVH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "answer_to_q_01KXCE3W1XCW6BR9D354NF7BR8",
+    "content": "Yes — 789 includes the existing hall bath + bedroom remodel areas. New addition alone is ~600 sqft (30×10×2 floors). The 189 sqft delta is the retrofit scope, and\n  per the breakdown's 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section, it IS captured. The negative material cost in that section confirms retrofit-not-new-build treatment.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T00:33:16.128Z",
+    "updated_at": "2026-07-13T00:33:16.128Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCE3W1XCW6BR9D354NF7BR8",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
