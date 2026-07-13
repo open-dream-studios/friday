@@ -455,5 +455,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXCEA6T4CDFC90KTQVW4G3XC": {
+    "id": "f_01KXCEA6T4CDFC90KTQVW4G3XC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCDTQJK0R1M7GMKV5DPKN74"
+    },
+    "subject": "answer_to_q_01KXCE3W1XG8TYC7FJKRTM8Z0R",
+    "content": "Not selected yet. Breakdown title reads \"Incl. Tankless WH Option\"",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T00:33:57.572Z",
+    "updated_at": "2026-07-13T00:33:57.572Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXCE3W1XG8TYC7FJKRTM8Z0R",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
