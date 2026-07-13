@@ -193,3 +193,4 @@
 {"ts":"2026-07-13T03:29:26.934Z","reason":"created document \"scope\" via editor (id=doc_01KXCRBB09SGZMT0YAD3AYSG1Q)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXCRAJZW3C32ADRB7RKN366G","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-13T03:29:42.825Z","reason":"uploaded document \"308_Evergreen_Addition_Breakdown.csv\" (id=doc_01KXCRBNZGQ4SBFV94TWZJDPA0), uploaded document \"DRAWINGS.pdf\" (id=doc_01KXCRBR58VWD5NVZ33ZCYEQDQ)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KXCRAJZW3C32ADRB7RKN366G","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-07-13T03:29:57.270Z","reason":"updated job JOB-01KXCRAXN93SHZXAAX0WEAFFE7","actor":"user","entities":[{"kind":"job","id":"JOB-01KXCRAXN93SHZXAAX0WEAFFE7","action":"update","change_kind":"job_data"}]}
+{"ts":"2026-07-13T03:38:53.104Z","reason":"boot","actor":"boot","entities":[]}
