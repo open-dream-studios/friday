@@ -1,1 +1,43 @@
-{}
+{
+  "b_01KXD3PQCVKEXFN013WQ559DY3": {
+    "id": "b_01KXD3PQCVKEXFN013WQ559DY3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD3DAT1H9V46MD7416T7KDH"
+    },
+    "subject": "tdec_filing_urgency",
+    "content": "TDEC septic permitting is explicitly required by scope and takes 4-6 weeks end-to-end; with a 2026-10-12 on-site start, initial TDEC contact must occur by approximately 2026-09-01 to clear before excavation. The window is open but closing — roughly 7 weeks from today.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD3PQCV51F4F0QZB584E8VK",
+      "f_01KXD3PQCVKAGVE38P6Y7E6ZCC"
+    ],
+    "falsification_test": "TDEC permit is already filed or in hand, or excavation is confirmed to start significantly later than on-site day 7.",
+    "created_at": "2026-07-13T06:47:47.814Z",
+    "updated_at": "2026-07-13T06:47:47.814Z",
+    "last_verified_at": "2026-07-13T06:47:47.814Z",
+    "derived_from_sha": "c39fdf63b05cb98fa1cd8e4d9bb4dc9ca7d1fca2"
+  },
+  "b_01KXD3PQCW7THANMW8V0SXMYHP": {
+    "id": "b_01KXD3PQCW7THANMW8V0SXMYHP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXD3DAT1H9V46MD7416T7KDH"
+    },
+    "subject": "hall_bath_retrofit_classification",
+    "content": "'Existing Hall Bath Mod' is a clear retrofit (Signal A: hall bath not in the addition objective; Signal B: 'existing' in name) and must be scheduled in its own Component independent of new-construction framing; the negative material cost also needs PM clarification before the breakdown is treated as final.",
+    "kind": "descriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXD3PQCVJYH0S0QF0EE5TSKZ"
+    ],
+    "falsification_test": "PM confirms the hall bath is inside the new addition footprint and the negative material line is a documented credit, not a data error.",
+    "created_at": "2026-07-13T06:47:47.814Z",
+    "updated_at": "2026-07-13T06:47:47.814Z",
+    "last_verified_at": "2026-07-13T06:47:47.814Z",
+    "derived_from_sha": "c39fdf63b05cb98fa1cd8e4d9bb4dc9ca7d1fca2"
+  }
+}
