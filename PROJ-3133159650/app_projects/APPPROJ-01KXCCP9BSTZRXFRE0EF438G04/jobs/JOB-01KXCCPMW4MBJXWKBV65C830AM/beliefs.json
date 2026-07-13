@@ -1,1 +1,64 @@
-{}
+{
+  "b_01KXCCZJ4MWFKY3FTQ0Y69RPZF": {
+    "id": "b_01KXCCZJ4MWFKY3FTQ0Y69RPZF",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "septic_timing_risk",
+    "content": "TDEC septic lead time (~70 calendar days minimum) against a 2026-10-12 start leaves virtually no slack — with today at 2026-07-12, the process must begin immediately or the start date slips.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCCZJ4K23WWYXXKX653NEB9",
+      "f_01KXCCZJ4KB6MGXAWQQHC0Z2Y5"
+    ],
+    "falsification_test": "Confirmation that TDEC process is already in progress, or that the existing septic system is confirmed adequate and no TDEC action is required.",
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "last_verified_at": "2026-07-13T00:10:40.146Z",
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "b_01KXCCZJ4M4A821AF8A4Y0WNZ9": {
+    "id": "b_01KXCCZJ4M4A821AF8A4Y0WNZ9",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "retrofit_component_present",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section describes work on existing space outside the new 30'×10' footprint and should be componentized separately from new-construction tasks per job-definition rules.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCCZJ4KR7F2564S43PDVKH1",
+      "f_01KXCCZJ4KZAQ49YNPBD80VSGS"
+    ],
+    "falsification_test": "Owner clarifies this work is physically inside the new addition footprint rather than existing retrofit space.",
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "last_verified_at": "2026-07-13T00:10:40.146Z",
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "b_01KXCCZJ4MWSJY0RFYC1DTZ64T": {
+    "id": "b_01KXCCZJ4MWSJY0RFYC1DTZ64T",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "subpanel_amperage_unverified",
+    "content": "No existing-service amperage verification has been documented; the job-definition rule requires this check before the 100A subpanel scope is finalized, and no service-upgrade line appears in the breakdown.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXCCZJ4K5SRX12XYDW6GM5A2"
+    ],
+    "falsification_test": "A recorded fact confirms the existing main service was checked and has adequate capacity for the new subpanel without upgrade.",
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "last_verified_at": "2026-07-13T00:10:40.146Z",
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  }
+}

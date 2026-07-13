@@ -1,1 +1,297 @@
-{}
+{
+  "f_01KXCCZJ4JF32TJ76R93327RAV": {
+    "id": "f_01KXCCZJ4JF32TJ76R93327RAV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "job_total_estimate",
+    "content": "Breakdown grand total is $100,778.92 — labor $45,167.59, materials $52,171.33, equipment $3,440.00 — across 1,287 total labor hours.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4JMBCJKHZE539DRY5S": {
+    "id": "f_01KXCCZJ4JMBCJKHZE539DRY5S",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "job_footprint_sf",
+    "content": "Overall project footprint is 789 SF at 8-foot ceiling height per the breakdown header.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4KR7F2564S43PDVKH1": {
+    "id": "f_01KXCCZJ4KR7F2564S43PDVKH1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "job_scope_summary",
+    "content": "Scope is a 30'×10' two-story addition providing basement-level storage and a second-floor primary bedroom, master bathroom, and walk-in closet at 308 Evergreen Street, Church Hill, TN.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4KB6MGXAWQQHC0Z2Y5": {
+    "id": "f_01KXCCZJ4KB6MGXAWQQHC0Z2Y5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "job_scheduled_start",
+    "content": "Job scheduled start date is 2026-10-12.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4K23WWYXXKX653NEB9": {
+    "id": "f_01KXCCZJ4K23WWYXXKX653NEB9",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "septic_requirement",
+    "content": "TDEC septic inspection is explicitly required per scope; septic relocation, new tank/leach field, or grinder pump costs are excluded from the $100,778.92 estimate and addressed via change order if needed.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4K6J2YE604RF066DPN": {
+    "id": "f_01KXCCZJ4K6J2YE604RF066DPN",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "One engineered LVL beam — 3-ply, 14\" deep, spanning approximately 15'-6\" — replaces an existing load-bearing wall; temporary shoring is included in scope.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4K0SF8D4SR93HQCN3H": {
+    "id": "f_01KXCCZJ4K0SF8D4SR93HQCN3H",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "roof_tie_in_spec",
+    "content": "New gable roof is approximately 3/12 pitch tying into the existing 6/12 pitch; architectural shingles to match existing; roof system type (truss vs. rafter) is TBD.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4K5SRX12XYDW6GM5A2": {
+    "id": "f_01KXCCZJ4K5SRX12XYDW6GM5A2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "subpanel_spec",
+    "content": "Electrical scope includes a 100A subpanel and a dedicated 120V/30A circuit for a future elevator; GFCI/AFCI protection per NEC.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4K9TAVT5RKKETW02D2": {
+    "id": "f_01KXCCZJ4K9TAVT5RKKETW02D2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "elevator_shaft_framing",
+    "content": "A 4'×4' future elevator shaft is framed as part of the addition; the elevator unit itself is explicitly not in scope, but a dedicated 120V/30A circuit is included.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4KPB5HJ2Q4E8C541X5": {
+    "id": "f_01KXCCZJ4KPB5HJ2Q4E8C541X5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "hvac_spec",
+    "content": "HVAC section ($6,503.36) includes a mini-split unit and tankless water heater option; existing heat pump and electrical disconnect are relocated as part of demo/site work.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4K0G5AWMQF7D32FZ9C": {
+    "id": "f_01KXCCZJ4K0G5AWMQF7D32FZ9C",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "windows_spec",
+    "content": "Exterior finishes include four windows — three 36\"×60\" units and one transom — plus one new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4KV0WHTH09A5V11GD1": {
+    "id": "f_01KXCCZJ4KV0WHTH09A5V11GD1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "customer_spouse_name",
+    "content": "Customer John Simons's wife's name is Clara.",
+    "confidence": 1,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4KZAQ49YNPBD80VSGS": {
+    "id": "f_01KXCCZJ4KZAQ49YNPBD80VSGS",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "negative_section_total",
+    "content": "Breakdown section 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' carries -$4,199.00 in material costs and a -$1,714.20 section total, which may represent a salvage/owner-supplied materials credit or a data entry anomaly.",
+    "confidence": 0.7,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  },
+  "f_01KXCCZJ4KNHEG29GS3F4RWX7K": {
+    "id": "f_01KXCCZJ4KNHEG29GS3F4RWX7K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXCCPMW4MBJXWKBV65C830AM"
+    },
+    "subject": "addition_exterior_design",
+    "content": "Addition extends off the right/rear of the existing two-story brick home; new siding is vinyl with brick veneer at the base to match existing; a multi-level deck/stair system is shown on the right elevation.",
+    "confidence": 0.95,
+    "created_at": "2026-07-13T00:10:40.146Z",
+    "updated_at": "2026-07-13T00:10:40.146Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+      }
+    ],
+    "derived_from_sha": "8500957a3449eb363846c5686750f4d2e5471ce7"
+  }
+}
