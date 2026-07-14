@@ -1610,12 +1610,13 @@
       "name": "Exterior & interior walls (2nd floor)",
       "trade": "framing",
       "kind": "work",
-      "duration_days": 3,
+      "duration_days": 4,
       "crew_size": 3,
       "depends_on": [
         {
           "predecessor_id": "framing.floor_system",
-          "type": "FS"
+          "type": "FS",
+          "lag_days": -1
         }
       ],
       "lead_up_working_days": 1,
@@ -1641,7 +1642,7 @@
         {
           "predecessor_id": "framing.exterior_walls",
           "type": "SS",
-          "lag_days": 1
+          "lag_days": 2
         }
       ],
       "lead_up_working_days": 0,
