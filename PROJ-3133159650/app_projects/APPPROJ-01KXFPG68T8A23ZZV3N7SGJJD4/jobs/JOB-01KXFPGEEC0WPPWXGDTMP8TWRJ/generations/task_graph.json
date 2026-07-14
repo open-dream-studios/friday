@@ -379,7 +379,7 @@
       "name": "Verify existing service capacity for new subpanel",
       "trade": "general",
       "kind": "work",
-      "duration_days": 0.5,
+      "duration_days": 1.5,
       "crew_size": 1,
       "depends_on": [],
       "pre_construction_offset_working_days": 15,
