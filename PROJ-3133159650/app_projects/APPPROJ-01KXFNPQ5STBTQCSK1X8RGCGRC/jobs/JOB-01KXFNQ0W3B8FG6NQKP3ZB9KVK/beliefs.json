@@ -1,1 +1,85 @@
-{}
+{
+  "b_01KXFNYVEJNF4FKQ321YGS9AZ3": {
+    "id": "b_01KXFNYVEJNF4FKQ321YGS9AZ3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "tdec_initiation_urgency",
+    "content": "With a 2026-10-12 start date and TDEC requiring 4–6 weeks lead (initial contact by ~2026-08-31), TCR has approximately 48 days from today (2026-07-14) to initiate TDEC contact before the window tightens into risk territory.",
+    "kind": "predictive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFNYVEJFWBT2WT3E5BQF10M",
+      "f_01KXFNYVEJRGGVCPG1XAJKWTSK"
+    ],
+    "falsification_test": "TDEC contact already placed, or PM confirms property is on city sewer (contradicting scope text).",
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "last_verified_at": "2026-07-14T06:45:17.319Z",
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "b_01KXFNYVEJPSFJ66Q99B4T88CY": {
+    "id": "b_01KXFNYVEJPSFJ66Q99B4T88CY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "truss_procurement_not_required",
+    "content": "Trusses procurement is NOT required: footprint is 789 sqft (below the 800 sqft trigger), scope language is 'truss or rafter framed (TBD)' rather than an explicit truss call, and the addition rules default to stick-frame for this ambiguity.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFNYVEJD3XXREFD1S6TGJ69",
+      "f_01KXFNYVEJ03ZJ40XXZ6H9B4NA"
+    ],
+    "falsification_test": "PM Interview or final design phase explicitly confirms trusses are required.",
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "last_verified_at": "2026-07-14T06:45:17.319Z",
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "b_01KXFNYVEJZAG2CNQQYCJBM4M5": {
+    "id": "b_01KXFNYVEJZAG2CNQQYCJBM4M5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "hall_bath_retrofit_classification",
+    "content": "The 'Existing Hall Bath Mod' section is a retrofit component (Signal A: area not in addition objective; Signal B: 'Existing' keyword) and must be isolated in its own scheduling component, not commingled with new-construction phases.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFNYVEJC9M74X227T8H2FY6"
+    ],
+    "falsification_test": "PM Interview confirms hall bath scope is entirely within the new addition footprint.",
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "last_verified_at": "2026-07-14T06:45:17.319Z",
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "b_01KXFNYVEJ6Q036QSVKF4CKPZD": {
+    "id": "b_01KXFNYVEJ6Q036QSVKF4CKPZD",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "weather_window_risk_assessment",
+    "content": "A 2026-10-12 start on a 10–16 week addition places foundation/excavation in late October and framing in November, approaching the mid-December weather risk window TCR avoids for outdoor-touching phases.",
+    "kind": "predictive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXFNYVEJRGGVCPG1XAJKWTSK",
+      "f_01KXFNYVEJD3XXREFD1S6TGJ69"
+    ],
+    "falsification_test": "Schedule review confirms framing completes by December 12, 2026 with weather buffer accounted for.",
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "last_verified_at": "2026-07-14T06:45:17.319Z",
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  }
+}

@@ -1,1 +1,327 @@
-{}
+{
+  "f_01KXFNYVEHMB2NQWMBCDCT3NJQ": {
+    "id": "f_01KXFNYVEHMB2NQWMBCDCT3NJQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "job_total_estimate",
+    "content": "The Simons Addition breakdown total is $100,778.92 (labor $45,167.59 + materials $52,171.33 + equipment $3,440.00).",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEHWTN754T165FBF0WV": {
+    "id": "f_01KXFNYVEHWTN754T165FBF0WV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "job_total_labor_hours",
+    "content": "Total estimated labor hours for the Simons Addition are 1,287 hours across all sections.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJD3XXREFD1S6TGJ69": {
+    "id": "f_01KXFNYVEJD3XXREFD1S6TGJ69",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "addition_footprint",
+    "content": "The addition footprint is approximately 30'×10' with an overall breakdown footprint of 789 sqft at 8' ceiling height.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJP652MSFBCN1C5GNT": {
+    "id": "f_01KXFNYVEJP652MSFBCN1C5GNT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "hvac_type",
+    "content": "HVAC scope is a mini-split system (not ducted); breakdown section is titled 'HVAC – Mini Split, Tankless WH & Relocations'.",
+    "confidence": 0.95,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJVC50HJ2ECENJ3BQW": {
+    "id": "f_01KXFNYVEJVC50HJ2ECENJ3BQW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "subpanel_in_scope",
+    "content": "A 100-amp electrical subpanel is explicitly included in the electrical scope.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJCJX0693PEMBWK73M": {
+    "id": "f_01KXFNYVEJCJX0693PEMBWK73M",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "Scope includes a 3-ply 14\" LVL beam spanning approximately 15'-6\" to open an existing load-bearing wall, with temporary shoring included.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJFWBT2WT3E5BQF10M": {
+    "id": "f_01KXFNYVEJFWBT2WT3E5BQF10M",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "septic_tdec_trigger",
+    "content": "Scope explicitly requires 'Septic inspection to coordinate with TDEC,' confirming the property is on septic and triggering the TDEC lead-time process.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJWE4AN3VDDPVYB0SR": {
+    "id": "f_01KXFNYVEJWE4AN3VDDPVYB0SR",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "water_heater_scope",
+    "content": "The scope does not replace the water heater; it only extends the existing gas water heater vent through the new roof — no new tank installation is required.",
+    "confidence": 0.9,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJYHNYZXP9XS8AEC8K": {
+    "id": "f_01KXFNYVEJYHNYZXP9XS8AEC8K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "heat_pump_relocation_required",
+    "content": "Scope requires relocation of the existing heat pump and electrical disconnect as part of demolition/site work.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJSZFKRQH2B28W86GV": {
+    "id": "f_01KXFNYVEJSZFKRQH2B28W86GV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "windows_and_door_count",
+    "content": "Exterior scope includes 4 windows — (3) 36\"×60\" and (1) transom — plus (1) new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJ8JX5Y4ATJZB03VVS": {
+    "id": "f_01KXFNYVEJ8JX5Y4ATJZB03VVS",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "elevator_shaft_scope",
+    "content": "A 4'×4' elevator shaft is framed only; the elevator system itself is explicitly excluded from scope.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJ03ZJ40XXZ6H9B4NA": {
+    "id": "f_01KXFNYVEJ03ZJ40XXZ6H9B4NA",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "roof_framing_method_tbd",
+    "content": "Roof framing method is listed as 'truss or rafter framed (TBD in design phase)' — not yet resolved.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJC9M74X227T8H2FY6": {
+    "id": "f_01KXFNYVEJC9M74X227T8H2FY6",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "hall_bath_negative_section_total",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section carries a negative section total of -$1,714.20 driven by a -$4,199.00 material credit against $2,484.80 in labor.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJRGGVCPG1XAJKWTSK": {
+    "id": "f_01KXFNYVEJRGGVCPG1XAJKWTSK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "scheduled_start_date",
+    "content": "Job is scheduled to start on-site 2026-10-12.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJG9HDN8Z7KJH9BVS5": {
+    "id": "f_01KXFNYVEJG9HDN8Z7KJH9BVS5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "breakdown_section_framing_cost",
+    "content": "Framing (floor system, walls, elevator shaft) is the single largest section at $14,007.55 with 146 labor hours.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  },
+  "f_01KXFNYVEJ1993WXPWWGV377TE": {
+    "id": "f_01KXFNYVEJ1993WXPWWGV377TE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFNQ0W3B8FG6NQKP3ZB9KVK"
+    },
+    "subject": "breakdown_section_drywall_cost",
+    "content": "Drywall (new addition and existing bedroom) is $9,330.70 with 159 labor hours — the highest labor-hour section.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:45:17.319Z",
+    "updated_at": "2026-07-14T06:45:17.319Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+      }
+    ],
+    "derived_from_sha": "6b37552dc8fa5f21cb8ee29b3ffe7e36db345400"
+  }
+}
