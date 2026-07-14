@@ -84,7 +84,7 @@
         "kind": "fixed",
         "month": 11
       },
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Thanksgiving",
