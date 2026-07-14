@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXFNJTG8Y5SMKSBBTCYY11FK": {
+    "id": "b_01KXFNJTG8Y5SMKSBBTCYY11FK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFNCPKX9P6WGGXHHD42CM3N"
+    },
+    "subject": "customer_phone_validity",
+    "content": "The recorded customer phone (2955349323) uses area code 295, which does not exist in the NANP; this is almost certainly a data entry error and the correct number is unknown.",
+    "kind": "descriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFNJTG8P2T3M9SWKT6YTBJM"
+    ],
+    "falsification_test": "Customer confirms 2955349323 is reachable and dialable.",
+    "created_at": "2026-07-14T06:38:43.145Z",
+    "updated_at": "2026-07-14T06:38:43.145Z",
+    "last_verified_at": "2026-07-14T06:38:43.145Z",
+    "derived_from_sha": "e4fd526a0a66337dbbc33ad8f76958b4d390e755"
+  }
+}
