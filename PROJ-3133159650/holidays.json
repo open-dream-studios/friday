@@ -141,6 +141,16 @@
         "month": 12
       },
       "enabled": false
+    },
+    {
+      "name": "2nd Mon November",
+      "rule": {
+        "n": 2,
+        "kind": "nth_weekday",
+        "month": 11,
+        "weekday": 1
+      },
+      "enabled": true
     }
   ]
 }
