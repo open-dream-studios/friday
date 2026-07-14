@@ -3,144 +3,144 @@
   "holidays": [
     {
       "name": "New Year's Day",
-      "enabled": true,
       "rule": {
+        "day": 1,
         "kind": "fixed",
-        "month": 1,
-        "day": 1
-      }
+        "month": 1
+      },
+      "enabled": true
     },
     {
       "name": "MLK Day",
-      "enabled": false,
       "rule": {
+        "n": 3,
         "kind": "nth_weekday",
         "month": 1,
-        "weekday": 1,
-        "n": 3
-      }
+        "weekday": 1
+      },
+      "enabled": false
     },
     {
       "name": "Presidents' Day",
-      "enabled": false,
       "rule": {
+        "n": 3,
         "kind": "nth_weekday",
         "month": 2,
-        "weekday": 1,
-        "n": 3
-      }
+        "weekday": 1
+      },
+      "enabled": false
     },
     {
       "name": "Memorial Day",
-      "enabled": true,
       "rule": {
         "kind": "last_weekday",
         "month": 5,
         "weekday": 1
-      }
+      },
+      "enabled": true
     },
     {
       "name": "Juneteenth",
-      "enabled": false,
       "rule": {
+        "day": 19,
         "kind": "fixed",
-        "month": 6,
-        "day": 19
-      }
+        "month": 6
+      },
+      "enabled": true
     },
     {
       "name": "Independence Day",
-      "enabled": true,
       "rule": {
+        "day": 4,
         "kind": "fixed",
-        "month": 7,
-        "day": 4
-      }
+        "month": 7
+      },
+      "enabled": true
     },
     {
       "name": "Labor Day",
-      "enabled": true,
       "rule": {
+        "n": 1,
         "kind": "nth_weekday",
         "month": 9,
-        "weekday": 1,
-        "n": 1
-      }
+        "weekday": 1
+      },
+      "enabled": true
     },
     {
       "name": "Columbus / Indigenous Peoples' Day",
-      "enabled": false,
       "rule": {
+        "n": 2,
         "kind": "nth_weekday",
         "month": 10,
-        "weekday": 1,
-        "n": 2
-      }
+        "weekday": 1
+      },
+      "enabled": false
     },
     {
       "name": "Veterans Day",
-      "enabled": false,
       "rule": {
+        "day": 11,
         "kind": "fixed",
-        "month": 11,
-        "day": 11
-      }
+        "month": 11
+      },
+      "enabled": false
     },
     {
       "name": "Thanksgiving",
-      "enabled": true,
       "rule": {
+        "n": 4,
         "kind": "nth_weekday",
         "month": 11,
-        "weekday": 4,
-        "n": 4
-      }
+        "weekday": 4
+      },
+      "enabled": true
     },
     {
       "name": "Day after Thanksgiving",
-      "enabled": true,
       "rule": {
+        "n": 4,
         "kind": "nth_weekday",
         "month": 11,
-        "weekday": 5,
-        "n": 4
-      }
+        "weekday": 5
+      },
+      "enabled": true
     },
     {
       "name": "Christmas Eve",
-      "enabled": true,
       "rule": {
+        "day": 24,
         "kind": "fixed",
-        "month": 12,
-        "day": 24
-      }
+        "month": 12
+      },
+      "enabled": true
     },
     {
       "name": "Christmas Day",
-      "enabled": true,
       "rule": {
+        "day": 25,
         "kind": "fixed",
-        "month": 12,
-        "day": 25
-      }
+        "month": 12
+      },
+      "enabled": true
     },
     {
       "name": "Day after Christmas",
-      "enabled": true,
       "rule": {
+        "day": 26,
         "kind": "fixed",
-        "month": 12,
-        "day": 26
-      }
+        "month": 12
+      },
+      "enabled": true
     },
     {
       "name": "New Year's Eve",
-      "enabled": false,
       "rule": {
+        "day": 31,
         "kind": "fixed",
-        "month": 12,
-        "day": 31
-      }
+        "month": 12
+      },
+      "enabled": false
     }
   ]
 }
