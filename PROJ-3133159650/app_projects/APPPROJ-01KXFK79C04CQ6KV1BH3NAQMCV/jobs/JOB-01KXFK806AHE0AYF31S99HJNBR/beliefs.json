@@ -1,1 +1,63 @@
-{}
+{
+  "b_01KXFKP8QE61SMXNH2GNEVM8G6": {
+    "id": "b_01KXFKP8QE61SMXNH2GNEVM8G6",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFK806AHE0AYF31S99HJNBR"
+    },
+    "subject": "tdec_initiation_timing",
+    "content": "TDEC septic contact must happen by approximately 2026-08-31 (6 weeks before the 2026-10-12 start) per the TCR addition rule; today is 2026-07-14, leaving ~48 days — the window is open now and contact should be initiated within 2–3 weeks to preserve schedule.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFKP8QEBJBXNE62W3RFXRS2",
+      "f_01KXFKP8QE9M323JZ45WC19ZZZ"
+    ],
+    "falsification_test": "TDEC contact is confirmed already made, or on-site start date is pushed past 2026-11-12.",
+    "created_at": "2026-07-14T06:05:38.889Z",
+    "updated_at": "2026-07-14T06:05:38.889Z",
+    "last_verified_at": "2026-07-14T06:05:38.889Z",
+    "derived_from_sha": "e61cfbaa5f3ac02e48d94b72f14ea075c2ca99c3"
+  },
+  "b_01KXFKP8QFZ3436HZ74AE600BT": {
+    "id": "b_01KXFKP8QFZ3436HZ74AE600BT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFK806AHE0AYF31S99HJNBR"
+    },
+    "subject": "property_on_septic",
+    "content": "The property at 308 Evergreen Street is on septic (not city sewer), confirmed by the scope's explicit TDEC inspection and feasibility study requirement.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFKP8QEBJBXNE62W3RFXRS2"
+    ],
+    "falsification_test": "Property is confirmed on city sewer and the TDEC reference is an error.",
+    "created_at": "2026-07-14T06:05:38.889Z",
+    "updated_at": "2026-07-14T06:05:38.889Z",
+    "last_verified_at": "2026-07-14T06:05:38.889Z",
+    "derived_from_sha": "e61cfbaa5f3ac02e48d94b72f14ea075c2ca99c3"
+  },
+  "b_01KXFKP8QF2354DRGG5D6KANJ4": {
+    "id": "b_01KXFKP8QF2354DRGG5D6KANJ4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXFK806AHE0AYF31S99HJNBR"
+    },
+    "subject": "water_heater_scope_clarity",
+    "content": "Whether a tankless water heater is part of the contracted scope is unresolved: the breakdown prices it as an 'Option' within the HVAC section while the scope only mentions extending the existing WH vent — this ambiguity affects procurement, plumbing sequencing, and the contract total.",
+    "kind": "descriptive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXFKP8QE2REYP0KKQPMZ9TCA"
+    ],
+    "falsification_test": "Owner or PM confirms in writing whether the tankless WH is included or excluded from the signed contract.",
+    "created_at": "2026-07-14T06:05:38.889Z",
+    "updated_at": "2026-07-14T06:05:38.889Z",
+    "last_verified_at": "2026-07-14T06:05:38.889Z",
+    "derived_from_sha": "e61cfbaa5f3ac02e48d94b72f14ea075c2ca99c3"
+  }
+}
