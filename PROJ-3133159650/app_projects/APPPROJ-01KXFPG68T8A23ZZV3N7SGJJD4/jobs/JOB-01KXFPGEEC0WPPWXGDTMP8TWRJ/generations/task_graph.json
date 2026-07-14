@@ -359,8 +359,8 @@
       "kind": "lead_time",
       "duration_days": 0,
       "crew_size": 0,
-      "lead_time_days": 42,
-      "pre_construction_offset_working_days": 30,
+      "lead_time_days": 43,
+      "pre_construction_offset_working_days": 31,
       "lead_up_working_days": 0,
       "depends_on": [],
       "derived_from": {
