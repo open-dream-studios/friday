@@ -238,3 +238,4 @@
 {"ts":"2026-07-13T18:42:58.817Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-07-14T03:30:20.093Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01KXD5HNK406782C8DTNH37FCJ","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-07-14T04:05:08.619Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01KXD5HNK406782C8DTNH37FCJ","action":"update","change_kind":"job_document"}]}
+{"ts":"2026-07-14T05:30:17.205Z","reason":"uploaded document \"DRAWINGS.pdf\" (id=doc_01KXFHNDV71SJ4VTV9BA81GF61)","actor":"user","entities":[{"kind":"job","id":"JOB-01KXD5HNK406782C8DTNH37FCJ","action":"update","change_kind":"job_document"}]}
