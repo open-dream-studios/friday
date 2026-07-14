@@ -220,7 +220,37 @@
       "float_days": 40.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "order.flooring",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-12"
+        },
+        {
+          "successor_id": "order.paint",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-12"
+        },
+        {
+          "successor_id": "order.tile",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-12"
+        },
+        {
+          "successor_id": "order.vanity",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-12"
+        }
+      ]
     },
     {
       "id": "permit.tdec_septic",
@@ -423,7 +453,16 @@
       "float_days": 7.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.windows",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-11-02"
+        }
+      ]
     },
     {
       "id": "wait.windows",
@@ -457,7 +496,23 @@
       "float_days": 7.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.windows",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.windows_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-02",
+          "successor_earliest_finish": "2026-11-02"
+        }
+      ]
     },
     {
       "id": "checkpoint.windows_arrived",
@@ -490,7 +545,14 @@
       "float_days": 7.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.windows",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.lvl",
@@ -518,7 +580,16 @@
       "float_days": 45,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.lvl",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-26"
+        }
+      ]
     },
     {
       "id": "wait.lvl",
@@ -553,7 +624,23 @@
       "float_days": 45,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.lvl",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.lvl_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-26",
+          "successor_earliest_finish": "2026-10-26"
+        }
+      ]
     },
     {
       "id": "checkpoint.lvl_arrived",
@@ -586,7 +673,23 @@
       "float_days": 45,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.lvl",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "structural.install_lvl",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-26",
+          "successor_earliest_finish": "2026-10-27"
+        }
+      ]
     },
     {
       "id": "order.subpanel",
@@ -614,7 +717,16 @@
       "float_days": 17,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.subpanel",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "wait.subpanel",
@@ -648,7 +760,23 @@
       "float_days": 17,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.subpanel",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.subpanel_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-22",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "checkpoint.subpanel_arrived",
@@ -681,7 +809,14 @@
       "float_days": 17,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.subpanel",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.minisplit",
@@ -709,7 +844,16 @@
       "float_days": 39.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.minisplit",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "wait.minisplit",
@@ -743,7 +887,23 @@
       "float_days": 39.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.minisplit",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.minisplit_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-22",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "checkpoint.minisplit_arrived",
@@ -776,7 +936,14 @@
       "float_days": 39.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.minisplit",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.tankless",
@@ -805,7 +972,16 @@
       "float_days": 16.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.tankless",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "wait.tankless",
@@ -839,7 +1015,23 @@
       "float_days": 16.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.tankless",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.tankless_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-22",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "checkpoint.tankless_arrived",
@@ -872,7 +1064,14 @@
       "float_days": 16.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.tankless",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.tile",
@@ -906,7 +1105,23 @@
       "float_days": 25.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.tile",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-11-02"
+        }
+      ]
     },
     {
       "id": "wait.tile",
@@ -940,7 +1155,23 @@
       "float_days": 25.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.tile",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.tile_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-02",
+          "successor_earliest_finish": "2026-11-02"
+        }
+      ]
     },
     {
       "id": "checkpoint.tile_arrived",
@@ -973,7 +1204,14 @@
       "float_days": 25.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.tile",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.vanity",
@@ -1006,7 +1244,23 @@
       "float_days": 36.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.vanity",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-26"
+        }
+      ]
     },
     {
       "id": "wait.vanity",
@@ -1040,7 +1294,23 @@
       "float_days": 36.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.vanity",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.vanity_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-26",
+          "successor_earliest_finish": "2026-10-26"
+        }
+      ]
     },
     {
       "id": "checkpoint.vanity_arrived",
@@ -1073,7 +1343,14 @@
       "float_days": 36.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.vanity",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.flooring",
@@ -1106,7 +1383,23 @@
       "float_days": 36.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.flooring",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "wait.flooring",
@@ -1140,7 +1433,23 @@
       "float_days": 36.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.flooring",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.flooring_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-22",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "checkpoint.flooring_arrived",
@@ -1173,7 +1482,14 @@
       "float_days": 36.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.flooring",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.paint",
@@ -1206,7 +1522,14 @@
       "float_days": 39.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "checkpoint.selections_finalized",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "order.shower_glass_template",
@@ -1239,7 +1562,23 @@
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "tile.grout_seal",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "wait.shower_glass",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-23",
+          "successor_earliest_finish": "2027-01-06"
+        }
+      ]
     },
     {
       "id": "wait.shower_glass",
@@ -1273,7 +1612,23 @@
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "order.shower_glass_template",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "checkpoint.shower_glass_arrived",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2027-01-07",
+          "successor_earliest_finish": "2027-01-07"
+        }
+      ]
     },
     {
       "id": "checkpoint.shower_glass_arrived",
@@ -1306,7 +1661,23 @@
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "wait.shower_glass",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "glazing.shower_install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2027-01-07",
+          "successor_earliest_finish": "2027-01-07"
+        }
+      ]
     },
     {
       "id": "equipment.dumpster_arrive",
@@ -1334,7 +1705,16 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "general.site_setup",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-12",
+          "successor_earliest_finish": "2026-10-12"
+        }
+      ]
     },
     {
       "id": "general.site_setup",
@@ -1367,7 +1747,37 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "equipment.dumpster_arrive",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "early.acrylic_shower_swap",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-13",
+          "successor_earliest_finish": "2026-10-13"
+        },
+        {
+          "successor_id": "prep.electrical_disconnect_relocate",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-13",
+          "successor_earliest_finish": "2026-10-13"
+        },
+        {
+          "successor_id": "prep.heat_pump_relocate",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-13",
+          "successor_earliest_finish": "2026-10-13"
+        }
+      ]
     },
     {
       "id": "prep.heat_pump_relocate",
@@ -1401,7 +1811,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "general.site_setup",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "demo.walkway_and_obstructions",
+          "type": "FS",
+          "lag_days": 2,
+          "successor_earliest_start": "2026-10-16",
+          "successor_earliest_finish": "2026-10-16"
+        }
+      ]
     },
     {
       "id": "prep.electrical_disconnect_relocate",
@@ -1435,7 +1861,14 @@
       "float_days": 0.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "general.site_setup",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "early.acrylic_shower_swap",
@@ -1469,7 +1902,14 @@
       "float_days": 55.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "general.site_setup",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "equipment.mini_ex_arrive",
@@ -1502,7 +1942,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "demo.haul_out",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "excavation.dig",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-21",
+          "successor_earliest_finish": "2026-10-22"
+        }
+      ]
     },
     {
       "id": "demo.walkway_and_obstructions",
@@ -1545,7 +2001,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "prep.heat_pump_relocate",
+          "type": "FS",
+          "lag_days": 2
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "demo.expose_bearing_wall",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-19",
+          "successor_earliest_finish": "2026-10-19"
+        },
+        {
+          "successor_id": "demo.hall_bath_window",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-19",
+          "successor_earliest_finish": "2026-10-19"
+        }
+      ]
     },
     {
       "id": "demo.expose_bearing_wall",
@@ -1578,7 +2057,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "demo.walkway_and_obstructions",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "demo.haul_out",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-20",
+          "successor_earliest_finish": "2026-10-20"
+        },
+        {
+          "successor_id": "structural.temp_shoring",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-20",
+          "successor_earliest_finish": "2026-10-20"
+        }
+      ]
     },
     {
       "id": "demo.hall_bath_window",
@@ -1611,7 +2113,23 @@
       "float_days": 43,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "demo.walkway_and_obstructions",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "retrofit.hall_bath_window_infill",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-19",
+          "successor_earliest_finish": "2026-10-19"
+        }
+      ]
     },
     {
       "id": "demo.haul_out",
@@ -1644,7 +2162,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "demo.expose_bearing_wall",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "equipment.mini_ex_arrive",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-20",
+          "successor_earliest_finish": "2026-10-20"
+        }
+      ]
     },
     {
       "id": "excavation.dig",
@@ -1681,7 +2215,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "equipment.mini_ex_arrive",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "foundation.form_and_prep",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-23",
+          "successor_earliest_finish": "2026-10-26"
+        }
+      ]
     },
     {
       "id": "foundation.form_and_prep",
@@ -1714,7 +2264,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "excavation.dig",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "inspect.footing",
+          "type": "FS",
+          "lag_days": 1,
+          "successor_earliest_start": "2026-10-27",
+          "successor_earliest_finish": "2026-10-27"
+        }
+      ]
     },
     {
       "id": "inspect.footing",
@@ -1748,7 +2314,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "foundation.form_and_prep",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "foundation.monolithic_pour",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-28",
+          "successor_earliest_finish": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "foundation.monolithic_pour",
@@ -1781,7 +2363,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "inspect.footing",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "foundation.cure",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-29",
+          "successor_earliest_finish": "2026-10-30"
+        }
+      ]
     },
     {
       "id": "foundation.cure",
@@ -1815,7 +2413,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "foundation.monolithic_pour",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "framing.basement_walls",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-02",
+          "successor_earliest_finish": "2026-11-03"
+        },
+        {
+          "successor_id": "framing.floor_system",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-02",
+          "successor_earliest_finish": "2026-11-03"
+        }
+      ]
     },
     {
       "id": "framing.floor_system",
@@ -1848,7 +2469,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "foundation.cure",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "framing.exterior_walls",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-04",
+          "successor_earliest_finish": "2026-11-06"
+        }
+      ]
     },
     {
       "id": "framing.basement_walls",
@@ -1881,7 +2518,14 @@
       "float_days": 41,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "foundation.cure",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "framing.exterior_walls",
@@ -1914,7 +2558,37 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.floor_system",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "exterior.sheathing_wrb",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-10",
+          "successor_earliest_finish": "2026-11-10"
+        },
+        {
+          "successor_id": "framing.elevator_shaft",
+          "type": "SS",
+          "lag_days": 1,
+          "successor_earliest_start": "2026-11-05",
+          "successor_earliest_finish": "2026-11-05"
+        },
+        {
+          "successor_id": "framing.roof",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-10",
+          "successor_earliest_finish": "2026-11-13"
+        }
+      ]
     },
     {
       "id": "framing.elevator_shaft",
@@ -1948,7 +2622,14 @@
       "float_days": 39,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.exterior_walls",
+          "type": "SS",
+          "lag_days": 1
+        }
+      ]
     },
     {
       "id": "structural.temp_shoring",
@@ -1981,7 +2662,14 @@
       "float_days": 49,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "demo.expose_bearing_wall",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "structural.install_lvl",
@@ -2018,7 +2706,23 @@
       "float_days": 45,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "checkpoint.lvl_arrived",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "structural.remove_temp_shoring",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-10-28",
+          "successor_earliest_finish": "2026-10-28"
+        }
+      ]
     },
     {
       "id": "structural.remove_temp_shoring",
@@ -2051,7 +2755,14 @@
       "float_days": 45,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "structural.install_lvl",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "framing.roof",
@@ -2084,7 +2795,37 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.exterior_walls",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "framing.sheathing",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-16",
+          "successor_earliest_finish": "2026-11-16"
+        },
+        {
+          "successor_id": "roof.concealed_buffer",
+          "type": "SS",
+          "lag_days": 1,
+          "successor_earliest_start": "2026-11-12",
+          "successor_earliest_finish": "2026-11-16"
+        },
+        {
+          "successor_id": "windows.install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-16",
+          "successor_earliest_finish": "2026-11-17"
+        }
+      ]
     },
     {
       "id": "roof.concealed_buffer",
@@ -2119,7 +2860,14 @@
       "float_days": 33.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.roof",
+          "type": "SS",
+          "lag_days": 1
+        }
+      ]
     },
     {
       "id": "framing.sheathing",
@@ -2152,7 +2900,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.roof",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "roofing.underlayment",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-17",
+          "successor_earliest_finish": "2026-11-17"
+        }
+      ]
     },
     {
       "id": "windows.install",
@@ -2190,7 +2954,37 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.roof",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "electrical.rough_in",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-20"
+        },
+        {
+          "successor_id": "hvac.minisplit_rough",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
+        },
+        {
+          "successor_id": "plumbing.tank_set",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
+        }
+      ]
     },
     {
       "id": "roofing.underlayment",
@@ -2223,7 +3017,44 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.sheathing",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "roofing.shingles",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
+        },
+        {
+          "successor_id": "electrical.rough_in",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-20"
+        },
+        {
+          "successor_id": "hvac.minisplit_rough",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
+        },
+        {
+          "successor_id": "plumbing.tank_set",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
+        }
+      ]
     },
     {
       "id": "roofing.shingles",
@@ -2256,7 +3087,30 @@
       "float_days": 28.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "hvac.wh_vent_extend",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-19"
+        },
+        {
+          "successor_id": "milestone.dried_in",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-19"
+        }
+      ]
     },
     {
       "id": "exterior.sheathing_wrb",
@@ -2289,7 +3143,14 @@
       "float_days": 33.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "framing.exterior_walls",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "milestone.dried_in",
@@ -2330,7 +3191,23 @@
       "float_days": 28.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "roofing.shingles",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "exterior.siding_trim_gutters",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-23"
+        }
+      ]
     },
     {
       "id": "exterior.siding_trim_gutters",
@@ -2363,7 +3240,14 @@
       "float_days": 28.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "milestone.dried_in",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "electrical.rough_in",
@@ -2405,7 +3289,19 @@
       "float_days": 0.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS",
+          "lag_days": 0
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "plumbing.tank_set",
@@ -2446,7 +3342,28 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS",
+          "lag_days": 0
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "plumbing.rough_in",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-23"
+        }
+      ]
     },
     {
       "id": "plumbing.rough_in",
@@ -2480,7 +3397,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "plumbing.tank_set",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "inspect.rough_bundled",
+          "type": "FS",
+          "lag_days": 1,
+          "successor_earliest_start": "2026-11-24",
+          "successor_earliest_finish": "2026-11-24"
+        }
+      ]
     },
     {
       "id": "hvac.minisplit_rough",
@@ -2518,7 +3451,19 @@
       "float_days": 3,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "roofing.underlayment",
+          "type": "FS",
+          "lag_days": 0
+        },
+        {
+          "predecessor_id": "windows.install",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "hvac.wh_vent_extend",
@@ -2551,7 +3496,14 @@
       "float_days": 31,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "roofing.shingles",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "inspect.rough_bundled",
@@ -2595,7 +3547,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "plumbing.rough_in",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "buffer.post_rough_inspection",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-11-25",
+          "successor_earliest_finish": "2026-11-30"
+        }
+      ]
     },
     {
       "id": "buffer.post_rough_inspection",
@@ -2629,7 +3597,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "inspect.rough_bundled",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "insulation.install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-01",
+          "successor_earliest_finish": "2026-12-01"
+        }
+      ]
     },
     {
       "id": "insulation.install",
@@ -2662,7 +3646,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "buffer.post_rough_inspection",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "inspect.insulation",
+          "type": "FS",
+          "lag_days": 1,
+          "successor_earliest_start": "2026-12-03",
+          "successor_earliest_finish": "2026-12-03"
+        }
+      ]
     },
     {
       "id": "inspect.insulation",
@@ -2696,7 +3696,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "insulation.install",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "equipment.drywall_dumpster",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-03",
+          "successor_earliest_finish": "2026-12-03"
+        }
+      ]
     },
     {
       "id": "equipment.drywall_dumpster",
@@ -2729,7 +3745,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "inspect.insulation",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "drywall.consolidated",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-04",
+          "successor_earliest_finish": "2026-12-10"
+        }
+      ]
     },
     {
       "id": "drywall.consolidated",
@@ -2766,7 +3798,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "equipment.drywall_dumpster",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "paint.phase_1",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-11",
+          "successor_earliest_finish": "2026-12-11"
+        },
+        {
+          "successor_id": "retrofit.hallway_switch_relocate",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-11",
+          "successor_earliest_finish": "2026-12-11"
+        }
+      ]
     },
     {
       "id": "paint.phase_1",
@@ -2803,7 +3858,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "drywall.consolidated",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "electrical.finish",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-14",
+          "successor_earliest_finish": "2026-12-15"
+        },
+        {
+          "successor_id": "tile.shower_substrate",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-14",
+          "successor_earliest_finish": "2026-12-15"
+        }
+      ]
     },
     {
       "id": "tile.shower_substrate",
@@ -2841,7 +3919,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "paint.phase_1",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "flooring.install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-15",
+          "successor_earliest_finish": "2026-12-17"
+        },
+        {
+          "successor_id": "tile.shower_walls_floor",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-15",
+          "successor_earliest_finish": "2026-12-18"
+        }
+      ]
     },
     {
       "id": "tile.shower_walls_floor",
@@ -2874,7 +3975,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "tile.shower_substrate",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "tile.grout_seal",
+          "type": "FS",
+          "lag_days": 1,
+          "successor_earliest_start": "2026-12-21",
+          "successor_earliest_finish": "2026-12-22"
+        }
+      ]
     },
     {
       "id": "tile.grout_seal",
@@ -2908,7 +4025,30 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "tile.shower_walls_floor",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "order.shower_glass_template",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-22",
+          "successor_earliest_finish": "2026-12-22"
+        },
+        {
+          "successor_id": "plumbing.finish",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-22",
+          "successor_earliest_finish": "2026-12-23"
+        }
+      ]
     },
     {
       "id": "flooring.install",
@@ -2949,7 +4089,30 @@
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "tile.shower_substrate",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "cabinets.vanity_install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-17",
+          "successor_earliest_finish": "2026-12-17"
+        },
+        {
+          "successor_id": "trim.install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-17",
+          "successor_earliest_finish": "2026-12-21"
+        }
+      ]
     },
     {
       "id": "trim.install",
@@ -2982,7 +4145,14 @@
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "flooring.install",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "cabinets.vanity_install",
@@ -3019,7 +4189,14 @@
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "flooring.install",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "retrofit.hall_bath_window_infill",
@@ -3053,7 +4230,14 @@
       "float_days": 43,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "demo.hall_bath_window",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "retrofit.hallway_switch_relocate",
@@ -3086,7 +4270,14 @@
       "float_days": 8.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "drywall.consolidated",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "electrical.finish",
@@ -3119,7 +4310,23 @@
       "float_days": 5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "paint.phase_1",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "hvac.minisplit_install",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-16",
+          "successor_earliest_finish": "2026-12-16"
+        }
+      ]
     },
     {
       "id": "plumbing.finish",
@@ -3160,7 +4367,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "tile.grout_seal",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "paint.phase_2",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-28",
+          "successor_earliest_finish": "2026-12-28"
+        }
+      ]
     },
     {
       "id": "hvac.minisplit_install",
@@ -3202,7 +4425,14 @@
       "float_days": 5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "electrical.finish",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "glazing.shower_install",
@@ -3239,7 +4469,14 @@
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "checkpoint.shower_glass_arrived",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ]
     },
     {
       "id": "paint.phase_2",
@@ -3304,7 +4541,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "plumbing.finish",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "milestone.substantial_completion",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-29",
+          "successor_earliest_finish": "2026-12-29"
+        }
+      ]
     },
     {
       "id": "milestone.substantial_completion",
@@ -3337,7 +4590,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "paint.phase_2",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "closeout.pm_walkthrough",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-29",
+          "successor_earliest_finish": "2026-12-29"
+        }
+      ]
     },
     {
       "id": "closeout.pm_walkthrough",
@@ -3370,7 +4639,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "milestone.substantial_completion",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "closeout.punch_list_work",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-29",
+          "successor_earliest_finish": "2026-12-31"
+        }
+      ]
     },
     {
       "id": "closeout.punch_list_work",
@@ -3403,7 +4688,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "closeout.pm_walkthrough",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "closeout.final_clean",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2026-12-31",
+          "successor_earliest_finish": "2027-01-04"
+        }
+      ]
     },
     {
       "id": "closeout.final_clean",
@@ -3436,7 +4737,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "closeout.punch_list_work",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "inspect.final_bundled",
+          "type": "FS",
+          "lag_days": 2,
+          "successor_earliest_start": "2027-01-06",
+          "successor_earliest_finish": "2027-01-06"
+        }
+      ]
     },
     {
       "id": "inspect.final_bundled",
@@ -3470,7 +4787,23 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "closeout.final_clean",
+          "type": "FS",
+          "lag_days": 2
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "closeout.wills_walkthrough",
+          "type": "FS",
+          "lag_days": 1,
+          "successor_earliest_start": "2027-01-08",
+          "successor_earliest_finish": "2027-01-08"
+        }
+      ]
     },
     {
       "id": "closeout.wills_walkthrough",
@@ -3504,7 +4837,14 @@
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "inspect.final_bundled",
+          "type": "FS",
+          "lag_days": 1
+        }
+      ]
     }
   ],
   "critical_path": [
