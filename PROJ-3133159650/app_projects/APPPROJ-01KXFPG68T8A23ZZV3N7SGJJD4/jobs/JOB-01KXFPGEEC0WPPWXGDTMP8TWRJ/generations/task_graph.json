@@ -1741,7 +1741,7 @@
       "name": "Roof framing (stick-frame)",
       "trade": "framing",
       "kind": "work",
-      "duration_days": 3,
+      "duration_days": 4,
       "crew_size": 3,
       "depends_on": [
         {
@@ -1798,7 +1798,8 @@
       "depends_on": [
         {
           "predecessor_id": "framing.roof",
-          "type": "FS"
+          "type": "FS",
+          "lag_days": -1
         }
       ],
       "lead_up_working_days": 0,
@@ -1823,7 +1824,8 @@
       "depends_on": [
         {
           "predecessor_id": "framing.roof",
-          "type": "FS"
+          "type": "FS",
+          "lag_days": -1
         },
         {
           "predecessor_id": "checkpoint.windows_arrived",
