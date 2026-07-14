@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXFKK9EQ25HAPP7PVMMJZC92": {
+    "id": "b_01KXFKK9EQ25HAPP7PVMMJZC92",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFK79C04CQ6KV1BH3NAQMCV"
+    },
+    "subject": "customer_phone_validity",
+    "content": "The customer phone number 2955349323 uses area code 295, which is not an assigned US area code; this is almost certainly a data entry error and the actual number is unknown.",
+    "kind": "descriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFKK9ENRBFCT8BRJYQVBWSQ"
+    ],
+    "falsification_test": "Owner or customer confirms the number reaches John Simons successfully.",
+    "created_at": "2026-07-14T06:04:01.293Z",
+    "updated_at": "2026-07-14T06:04:01.293Z",
+    "last_verified_at": "2026-07-14T06:04:01.293Z",
+    "derived_from_sha": "9e7b267a9ca720cc7502f48c9f85bb163c9f088c"
+  }
+}
