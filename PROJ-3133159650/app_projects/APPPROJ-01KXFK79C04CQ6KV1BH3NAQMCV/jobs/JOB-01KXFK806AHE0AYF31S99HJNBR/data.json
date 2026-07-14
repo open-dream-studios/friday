@@ -7,7 +7,7 @@
   "priority": "medium",
   "scheduled_start_date": "2026-10-12 04:00:00",
   "completed_date": null,
-  "notes": null,
+  "notes": "John has a sister named Tracy. ",
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01KXFKCCA87TGHFKW6Q35689MP",
+    "name": "scope.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01KXFKCS1BEN67GQF3SSS72WYA",
+    "name": "308_Evergreen_Addition_Breakdown.csv",
+    "resolved": true
+  }
 }
