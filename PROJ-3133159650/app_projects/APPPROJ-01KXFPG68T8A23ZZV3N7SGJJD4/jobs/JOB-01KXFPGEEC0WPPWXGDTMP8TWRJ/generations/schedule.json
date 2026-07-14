@@ -1,7 +1,7 @@
 {
   "project_id": "simons_addition_30_x10_two_story_bedroom_remodel",
   "start_date": "2026-10-12",
-  "pre_construction_start_date": "2026-08-28",
+  "pre_construction_start_date": "2026-08-27",
   "end_date": "2027-01-08",
   "calendar": {
     "workdays": [
@@ -262,8 +262,8 @@
       "kind": "lead_time",
       "duration_days": 0,
       "crew_size": 0,
-      "lead_time_days": 42,
-      "pre_construction_offset_working_days": 30,
+      "lead_time_days": 43,
+      "pre_construction_offset_working_days": 31,
       "lead_up_working_days": 0,
       "depends_on": [],
       "derived_from": {
@@ -273,10 +273,10 @@
         ],
         "reasoning": "Scope adds bedroom + bathroom and explicitly names TDEC septic evaluation. 6-week window, offset to pre-construction start. Gates excavation."
       },
-      "scheduled_start": "2026-08-28",
+      "scheduled_start": "2026-08-27",
       "scheduled_end": "2026-10-09",
-      "earliest_start": "2026-08-28",
-      "latest_start": "2026-09-09",
+      "earliest_start": "2026-08-27",
+      "latest_start": "2026-09-08",
       "float_days": 7,
       "status": "not_started",
       "actual_start": null,
