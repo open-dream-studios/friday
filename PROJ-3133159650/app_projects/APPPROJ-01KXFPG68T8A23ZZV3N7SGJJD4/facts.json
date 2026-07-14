@@ -1,1 +1,112 @@
-{}
+{
+  "f_01KXFPKK5QT6CC72E4TXVNB57N": {
+    "id": "f_01KXFPKK5QT6CC72E4TXVNB57N",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFPG68T8A23ZZV3N7SGJJD4"
+    },
+    "subject": "property_address",
+    "content": "The property is located at 308 Evergreen Street, Church Hill, Tennessee 37642, US.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:56:36.979Z",
+    "updated_at": "2026-07-14T06:56:36.979Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      }
+    ],
+    "derived_from_sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+  },
+  "f_01KXFPKK5R80P89EFR7395ZA7A": {
+    "id": "f_01KXFPKK5R80P89EFR7395ZA7A",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFPG68T8A23ZZV3N7SGJJD4"
+    },
+    "subject": "customer_name",
+    "content": "The customer of record is john simons (ID: CUST-01KKSYA9BNQY420D3GEQ8XD5AH).",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:56:36.979Z",
+    "updated_at": "2026-07-14T06:56:36.979Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.name",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      }
+    ],
+    "derived_from_sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+  },
+  "f_01KXFPKK5S30WDJKTA6P2PHK03": {
+    "id": "f_01KXFPKK5S30WDJKTA6P2PHK03",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFPG68T8A23ZZV3N7SGJJD4"
+    },
+    "subject": "customer_contact",
+    "content": "Customer john simons can be reached at phone 2955349323 and email johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:56:36.979Z",
+    "updated_at": "2026-07-14T06:56:36.979Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer.phone",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:customer.email",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      }
+    ],
+    "derived_from_sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+  },
+  "f_01KXFPKK5SPFBVBMEFYXBB19YZ": {
+    "id": "f_01KXFPKK5SPFBVBMEFYXBB19YZ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFPG68T8A23ZZV3N7SGJJD4"
+    },
+    "subject": "lead_employee",
+    "content": "Will Fallon (EMP-01KKSZ0G7N7DTC3CN8G33EE6XR, william.fallon@tcrandc.com) is the lead employee on this property.",
+    "confidence": 1,
+    "created_at": "2026-07-14T06:56:36.979Z",
+    "updated_at": "2026-07-14T06:56:36.979Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      }
+    ],
+    "derived_from_sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+  },
+  "f_01KXFPKK5SCFB4HFKN8ZYSPTKG": {
+    "id": "f_01KXFPKK5SCFB4HFKN8ZYSPTKG",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFPG68T8A23ZZV3N7SGJJD4"
+    },
+    "subject": "service_area_membership",
+    "content": "Church Hill, TN (Hawkins County) is approximately 25 miles from Johnson City, placing it within TCR's 45-mile service radius.",
+    "confidence": 0.9,
+    "created_at": "2026-07-14T06:56:36.979Z",
+    "updated_at": "2026-07-14T06:56:36.979Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address.city",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      },
+      {
+        "kind": "document",
+        "path": "PROJ-3133159650/data.json:profile.service_area",
+        "sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+      }
+    ],
+    "derived_from_sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+  }
+}

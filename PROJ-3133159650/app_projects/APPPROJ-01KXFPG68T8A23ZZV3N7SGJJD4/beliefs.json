@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXFPKK5S8025ZD13N25ZN5H8": {
+    "id": "b_01KXFPKK5S8025ZD13N25ZN5H8",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFPG68T8A23ZZV3N7SGJJD4"
+    },
+    "subject": "customer_name_data_quality",
+    "content": "The customer name 'john simons' is stored in all-lowercase, which is likely a data-entry error rather than an intentional format.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXFPKK5R80P89EFR7395ZA7A"
+    ],
+    "falsification_test": "Customer confirms they prefer lowercase rendering of their name.",
+    "created_at": "2026-07-14T06:56:36.979Z",
+    "updated_at": "2026-07-14T06:56:36.979Z",
+    "last_verified_at": "2026-07-14T06:56:36.979Z",
+    "derived_from_sha": "15cc783c0e1c4d4546149d4b29689e07a87b4883"
+  }
+}
