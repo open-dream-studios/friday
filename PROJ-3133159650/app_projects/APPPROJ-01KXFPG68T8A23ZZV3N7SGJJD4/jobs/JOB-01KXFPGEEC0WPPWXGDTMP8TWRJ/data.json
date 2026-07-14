@@ -7,7 +7,7 @@
   "priority": "medium",
   "scheduled_start_date": "2026-10-12 04:00:00",
   "completed_date": null,
-  "notes": "John has a brother named Zach. contact zach the day before job start by phone.",
+  "notes": "John has a brother named Zach. contact zach the day before job start by phone. zach should be asked for a first payment on this day. ",
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
