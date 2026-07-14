@@ -1,1 +1,42 @@
-{}
+{
+  "b_01KXFNVDZQGARYJ0M86CTKAM90": {
+    "id": "b_01KXFNVDZQGARYJ0M86CTKAM90",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFNPQ5STBTQCSK1X8RGCGRC"
+    },
+    "subject": "property_service_area_membership",
+    "content": "Church Hill, TN is within Hawkins County, which falls within TCR's 45-mile service radius centered on Johnson City, TN — this property is in-service-area.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFNVDZMRBVXBRV4XJ46CEYR"
+    ],
+    "falsification_test": "If Church Hill exceeds 45 road miles from Johnson City, TN, this would be false.",
+    "created_at": "2026-07-14T06:43:25.214Z",
+    "updated_at": "2026-07-14T06:43:25.214Z",
+    "last_verified_at": "2026-07-14T06:43:25.214Z",
+    "derived_from_sha": "b3ca7e52eb924f435853e9218f8887ab2f3f5f16"
+  },
+  "b_01KXFNVDZRMKS7PT4GP65AMKKS": {
+    "id": "b_01KXFNVDZRMKS7PT4GP65AMKKS",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXFNPQ5STBTQCSK1X8RGCGRC"
+    },
+    "subject": "septic_risk_flag",
+    "content": "A septic system is confirmed present; CLAUDE.md policy requires checking septic age before proceeding on any addition that adds plumbing load — this has not yet been documented.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXFNVDZQA155EA8WW4QTJ2QM"
+    ],
+    "falsification_test": "A recorded fact confirming septic age and capacity adequacy would resolve this.",
+    "created_at": "2026-07-14T06:43:25.214Z",
+    "updated_at": "2026-07-14T06:43:25.214Z",
+    "last_verified_at": "2026-07-14T06:43:25.214Z",
+    "derived_from_sha": "b3ca7e52eb924f435853e9218f8887ab2f3f5f16"
+  }
+}
