@@ -339,35 +339,6 @@
       "actual_end": null
     },
     {
-      "id": "pm.john_meeting",
-      "section_id": "customer_payment_prep",
-      "name": "Meeting with John — one week after job start",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 0.5,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "general.site_setup",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "customer_payment_prep",
-        "rule_ids": [],
-        "reasoning": "PM directive: include a meeting with John one week after job start. Anchored to general.site_setup (the first on-site task) with a 5-working-day FS lag to land one week (5 working days) after job start."
-      },
-      "scheduled_start": "2026-10-20",
-      "scheduled_end": "2026-10-20",
-      "earliest_start": "2026-10-20",
-      "latest_start": "2027-01-04",
-      "float_days": 49,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
       "id": "order.windows",
       "phase_id": "procurement_long_leads",
       "component_id": "procurement_windows",
@@ -3689,6 +3660,6 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 38% of tasks (37/97). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 39% of tasks (37/96). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ]
 }
