@@ -567,5 +567,205 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXJAJB12YJFH0Y88BJ8W4FSS": {
+    "id": "f_01KXJAJB12YJFH0Y88BJ8W4FSS",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "contract_status",
+    "content": "As of 2026-07-15, neither the signed contract nor the 25% initial deposit has been received from John Simons.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23V0SK59E8WPTAEC42K9",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB13HA4XHNA9121XKPTB": {
+    "id": "f_01KXJAJB13HA4XHNA9121XKPTB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "customer_selections_status",
+    "content": "Customer material selections (tile, flooring, fixtures, paint) have not been started as of 2026-07-15.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23TZCHK0015KWVBJC5M9",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB132NABN9N55RQGS95R": {
+    "id": "f_01KXJAJB132NABN9N55RQGS95R",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "septic_sewer_utility_status",
+    "content": "Whether the property at 308 Evergreen Street is on septic or connected to city sewer is currently unknown as of 2026-07-15.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23TXNTP32A7VGYJR3EM5",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB13BFYKRCKGADR42B9Q": {
+    "id": "f_01KXJAJB13BFYKRCKGADR42B9Q",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "tdec_contact_status",
+    "content": "TDEC has not been contacted as of 2026-07-15; the septic inspection process has not been initiated.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23TYW165A9J95BV6A15R",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB13A5VX0FYYX6RG0NMB": {
+    "id": "f_01KXJAJB13A5VX0FYYX6RG0NMB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "elevator_shaft_retrofit_confirmed",
+    "content": "The future elevator shaft (~4'x4') is confirmed to cut into existing structure rather than being contained within the new addition footprint.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23V1W3MG3GSDC6XGKSAC",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB13YV3MMVRB33820MA4": {
+    "id": "f_01KXJAJB13YV3MMVRB33820MA4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "lvl_independence_confirmed",
+    "content": "The LVL beam sub-chain is confirmed independent of new exterior addition framing — the addition's floor/roof load does not bear on the LVL location.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23V1XK8KQT73BM4FSGAT",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB148N1J53XTJHVAY39A": {
+    "id": "f_01KXJAJB148N1J53XTJHVAY39A",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "roof_tie_in_buffer_needed",
+    "content": "A concealed-condition schedule buffer has been confirmed as needed for the 3/12-into-6/12 roof tie-in due to unknown rafter conditions above the existing ceiling.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23V0K8R33GQ9MYM5H0X6",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB14TZTCYC1VDNQKSFHE": {
+    "id": "f_01KXJAJB14TZTCYC1VDNQKSFHE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "electrical_amperage_unverified",
+    "content": "Main electrical service amperage has not been verified as of 2026-07-15, despite a 100A subpanel being in scope.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23TXDD63Y6TTK57NHC2N",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB14V01EBHER5JRZEKTC": {
+    "id": "f_01KXJAJB14V01EBHER5JRZEKTC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "tankless_wh_decision_pending",
+    "content": "The tankless water heater is a TBD option as of 2026-07-15 and has not been confirmed in or excluded from the contract.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23TY6GBAP7DWYVZNRB94",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "f_01KXJAJB14KAYK22T8N7C5G4GK": {
+    "id": "f_01KXJAJB14KAYK22T8N7C5G4GK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "hvac_relocation_sub_status",
+    "content": "No HVAC sub has been identified for the heat pump and electrical disconnect relocation as of 2026-07-15.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "answer_to_q_01KXJA23V1XWYQW3YP5FSSP6PG",
+        "sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+      }
+    ],
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
   }
 }

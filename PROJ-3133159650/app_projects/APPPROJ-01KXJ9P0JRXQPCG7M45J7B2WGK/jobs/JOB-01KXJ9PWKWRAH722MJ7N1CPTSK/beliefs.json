@@ -1,25 +1,4 @@
 {
-  "b_01KXJA23TVPZ2BF2BCZ95D8DTG": {
-    "id": "b_01KXJA23TVPZ2BF2BCZ95D8DTG",
-    "entity": {
-      "kind": "job",
-      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
-    },
-    "subject": "tdec_initiation_urgency",
-    "content": "With a 2026-10-12 on-site start and TDEC requiring 4–6 weeks from first contact, the TDEC process must be initiated by approximately 2026-09-01 at the latest; no evidence of TDEC contact exists yet, making this immediately actionable.",
-    "kind": "prescriptive",
-    "confidence": 0.9,
-    "status": "active",
-    "supported_by": [
-      "f_01KXJA23TTY2XBFE6120M9KE5D",
-      "f_01KXJA23TSX9T24CNM2HMAC8J2"
-    ],
-    "falsification_test": "Evidence that TDEC has already been contacted or that the property is confirmed on city sewer would falsify this.",
-    "created_at": "2026-07-15T07:15:04.597Z",
-    "updated_at": "2026-07-15T07:15:04.597Z",
-    "last_verified_at": "2026-07-15T07:15:04.597Z",
-    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
-  },
   "b_01KXJA23TVT0JXPBHX3HKFAPNY": {
     "id": "b_01KXJA23TVT0JXPBHX3HKFAPNY",
     "entity": {
@@ -59,5 +38,74 @@
     "updated_at": "2026-07-15T07:15:04.597Z",
     "last_verified_at": "2026-07-15T07:15:04.597Z",
     "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "b_01KXJAJB14K1WAK2XF3ZMY94M1": {
+    "id": "b_01KXJAJB14K1WAK2XF3ZMY94M1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "tdec_initiation_urgency",
+    "content": "TDEC has not been contacted (confirmed 2026-07-15) and septic vs. sewer status is unknown; the 4-6 week TDEC process must begin by ~2026-09-01 to protect the 2026-10-12 start, leaving approximately 7 weeks — the utility type must be confirmed immediately as the first step.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXJAJB13BFYKRCKGADR42B9Q",
+      "f_01KXJAJB132NABN9N55RQGS95R",
+      "f_01KXJA23TSX9T24CNM2HMAC8J2",
+      "f_01KXJA23TTY2XBFE6120M9KE5D"
+    ],
+    "falsification_test": "Utility is confirmed as city sewer (TDEC not needed), or TDEC is contacted before 2026-09-01.",
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "last_verified_at": "2026-07-15T07:23:56.249Z",
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "b_01KXJAJB17DC1PZBYMX1XSQWXA": {
+    "id": "b_01KXJAJB17DC1PZBYMX1XSQWXA",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "pre_start_critical_path_risk",
+    "content": "As of 2026-07-15 with 13 weeks until the 2026-10-12 start, at least five parallel critical-path blockers are unresolved: contract/deposit not received, material selections not started, septic/TDEC status unknown (window closes ~2026-09-01), electrical service unverified, and HVAC relocation sub not identified — without immediate parallel action the scheduled start date is at serious risk.",
+    "kind": "prescriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXJAJB12YJFH0Y88BJ8W4FSS",
+      "f_01KXJAJB13HA4XHNA9121XKPTB",
+      "f_01KXJAJB132NABN9N55RQGS95R",
+      "f_01KXJAJB13BFYKRCKGADR42B9Q",
+      "f_01KXJAJB14TZTCYC1VDNQKSFHE",
+      "f_01KXJAJB14KAYK22T8N7C5G4GK"
+    ],
+    "falsification_test": "Contract signed, deposit received, utility status confirmed, TDEC initiated, amperage verified, and HVAC sub booked — all before 2026-09-01.",
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "last_verified_at": "2026-07-15T07:23:56.249Z",
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
+  },
+  "b_01KXJAJB17YQN89VPNVKH6N95Y": {
+    "id": "b_01KXJAJB17YQN89VPNVKH6N95Y",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "elevator_shaft_retrofit_sequencing",
+    "content": "The elevator shaft is a confirmed retrofit (cuts into existing structure) and must be scheduled as an independent component separate from new addition framing; the structural method for opening the existing floor/ceiling is unspecified in scope and requires PM or engineer confirmation before scheduling.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXJAJB13A5VX0FYYX6RG0NMB",
+      "f_01KXJA23TVMB92P3HDZTGBVBDH"
+    ],
+    "falsification_test": "Engineer or PM confirms the shaft opening method and gates it appropriately within the schedule without impacting existing structural load paths.",
+    "created_at": "2026-07-15T07:23:56.249Z",
+    "updated_at": "2026-07-15T07:23:56.249Z",
+    "last_verified_at": "2026-07-15T07:23:56.249Z",
+    "derived_from_sha": "3d94fdb9c2d247a461becab036a2f4a27f542a3a"
   }
 }
