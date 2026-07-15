@@ -1,1 +1,22 @@
-{}
+{
+  "b_01KXJ9XMXZ37A1NER6D1YX0E00": {
+    "id": "b_01KXJ9XMXZ37A1NER6D1YX0E00",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXJ9P0JRXQPCG7M45J7B2WGK"
+    },
+    "subject": "property_service_area_membership",
+    "content": "The property address (Hillsdale, NJ 07642) is approximately 700+ miles from TCR's service center in Johnson City, TN — far outside the 45-mile radius service area. This is either a data-entry error or a deliberate exception requiring explanation.",
+    "kind": "descriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXJ9XMXXYBXS6CY1SNPKSMDG"
+    ],
+    "falsification_test": "Owner confirms TCR is intentionally taking work in northern NJ, or the address is corrected to a location within the service area.",
+    "created_at": "2026-07-15T07:12:38.248Z",
+    "updated_at": "2026-07-15T07:12:38.248Z",
+    "last_verified_at": "2026-07-15T07:12:38.248Z",
+    "derived_from_sha": "95fb00a66b84701a47a8f8624b378c7c16db01b0"
+  }
+}
