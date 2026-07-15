@@ -1,2 +1,0 @@
-{"ts":"2026-07-15T07:41:53.408Z","role":"user","content":"When is the meeting with howie?"}
-{"ts":"2026-07-15T07:43:06.078Z","role":"assistant","content":"**Thursday, 2026-10-08** — 2 working days before the 2026-10-12 job start.\n\nSource: `generations/task_graph.json` line 2642 — `customer.call_howie`, a 1-day PM task pinned via `pre_construction_offset_working_days: 2`, mirroring `customer.call_ben` (which is scheduled `2026-10-08` per `generations/schedule.json:336`)."}
