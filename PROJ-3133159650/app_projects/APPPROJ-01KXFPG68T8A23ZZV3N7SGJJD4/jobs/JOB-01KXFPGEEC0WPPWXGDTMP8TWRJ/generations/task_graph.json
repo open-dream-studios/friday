@@ -458,7 +458,7 @@
       "name": "Meeting with John — one week after job start",
       "trade": "pm",
       "kind": "work",
-      "duration_days": 0.5,
+      "duration_days": 1,
       "crew_size": 1,
       "depends_on": [
         {
@@ -471,7 +471,8 @@
         "section_id": "customer_payment_prep",
         "rule_ids": [],
         "reasoning": "PM directive: include a meeting with John one week after job start. Anchored to general.site_setup (the first on-site task) with a 5-working-day FS lag to land one week (5 working days) after job start."
-      }
+      },
+      "pinned_start_date": "2026-10-19"
     },
     {
       "id": "order.windows",
