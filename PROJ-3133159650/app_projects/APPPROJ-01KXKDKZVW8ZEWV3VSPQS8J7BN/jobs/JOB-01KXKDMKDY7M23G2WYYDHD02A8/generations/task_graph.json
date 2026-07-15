@@ -348,6 +348,12 @@
           "reason": "shorter tdec",
           "rank": "job",
           "changes": "lead_time → 33 cal-d · pc_offset → 24wd"
+        },
+        {
+          "at": "2026-07-15T18:18:47.080Z",
+          "reason": "tdec shorter",
+          "rank": "job",
+          "changes": "lead_time → 33 cal-d · pc_offset → 24wd"
         }
       ]
     },
