@@ -2769,7 +2769,8 @@
         "section_id": "tdec_septic",
         "rule_ids": [],
         "reasoning": "PM directive: set a meeting with Howie one week after start of TDEC permit (SS+5 working days on permit.tdec_septic)."
-      }
+      },
+      "pre_construction_offset_working_days": 1
     }
   ],
   "warnings": [
