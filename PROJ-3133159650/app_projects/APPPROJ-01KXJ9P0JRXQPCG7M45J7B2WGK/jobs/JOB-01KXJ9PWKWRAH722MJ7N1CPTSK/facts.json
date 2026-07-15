@@ -396,5 +396,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXJA875JEC0N59DSC9EVPREK": {
+    "id": "f_01KXJA875JEC0N59DSC9EVPREK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "answer_to_q_01KXJA23TY6GBAP7DWYVZNRB94",
+    "content": "TBD / option",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:18:24.690Z",
+    "updated_at": "2026-07-15T07:18:24.690Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXJA23TY6GBAP7DWYVZNRB94",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
