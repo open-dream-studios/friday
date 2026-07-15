@@ -356,7 +356,7 @@
       "kind": "coordination",
       "duration_days": 1,
       "crew_size": 1,
-      "pre_construction_offset_working_days": 25,
+      "pre_construction_offset_working_days": 21,
       "depends_on": [
         {
           "predecessor_id": "permit.tdec_septic",
