@@ -436,7 +436,7 @@
       "phase_id": "pre_construction",
       "component_id": "customer_payment_prep",
       "section_id": "general_conditions",
-      "name": "Call Zach (John's brother) — request $9,550 first payment",
+      "name": "Call Zach (John's brother) — request $1,250 first payment",
       "trade": "pm",
       "kind": "work",
       "duration_days": 0.25,
