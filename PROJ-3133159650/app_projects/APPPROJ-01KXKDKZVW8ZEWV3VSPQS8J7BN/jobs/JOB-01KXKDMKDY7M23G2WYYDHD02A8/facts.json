@@ -452,5 +452,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXKEF7D06NJY85B3QFQHPWRV": {
+    "id": "f_01KXKEF7D06NJY85B3QFQHPWRV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "answer_to_q_01KXKE0P93X9YB4FKBD0898PBG",
+    "content": "the existing roof structure is going to go onto this new lvl beam, in order to make an opening that is continuous without having to continuously wall frame.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T17:51:23.040Z",
+    "updated_at": "2026-07-15T17:51:23.040Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXKE0P93X9YB4FKBD0898PBG",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
