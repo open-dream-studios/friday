@@ -2878,8 +2878,8 @@
       "scheduled_start": "2026-11-18",
       "scheduled_end": "2026-11-18",
       "earliest_start": "2026-11-18",
-      "latest_start": "2026-12-28",
-      "float_days": 24,
+      "latest_start": "2027-01-06",
+      "float_days": 30,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -2941,8 +2941,8 @@
       "scheduled_start": "2026-11-19",
       "scheduled_end": "2026-11-20",
       "earliest_start": "2026-11-19",
-      "latest_start": "2026-12-29",
-      "float_days": 24,
+      "latest_start": "2027-01-07",
+      "float_days": 30,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -2992,8 +2992,8 @@
       "scheduled_start": "2026-11-18",
       "scheduled_end": "2026-11-18",
       "earliest_start": "2026-11-18",
-      "latest_start": "2026-12-29",
-      "float_days": 25.5,
+      "latest_start": "2027-01-07",
+      "float_days": 31.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -3047,8 +3047,8 @@
       "scheduled_start": "2026-11-19",
       "scheduled_end": "2026-11-19",
       "earliest_start": "2026-11-19",
-      "latest_start": "2026-12-30",
-      "float_days": 25.5,
+      "latest_start": "2027-01-08",
+      "float_days": 31.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -3096,8 +3096,8 @@
       "scheduled_start": "2026-11-23",
       "scheduled_end": "2026-11-25",
       "earliest_start": "2026-11-23",
-      "latest_start": "2026-12-30",
-      "float_days": 23.5,
+      "latest_start": "2027-01-08",
+      "float_days": 29.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -3106,51 +3106,6 @@
           "predecessor_id": "roofing.trim_gutters",
           "type": "FS",
           "lag_days": 0
-        }
-      ],
-      "binding_successors_of_this": [
-        {
-          "successor_id": "pm.john_meeting_siding_done",
-          "type": "FS",
-          "lag_days": 5,
-          "successor_earliest_start": "2026-12-07",
-          "successor_earliest_finish": "2026-12-07"
-        }
-      ]
-    },
-    {
-      "id": "pm.john_meeting_siding_done",
-      "section_id": "exterior_finishes",
-      "name": "Meeting with John — one week after vinyl siding install complete",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "exterior.siding",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "exterior_finishes",
-        "rule_ids": [],
-        "reasoning": "PM directive: set a meeting with John one week (5 working days) after vinyl siding install (exterior.siding) is complete."
-      },
-      "scheduled_start": "2026-12-07",
-      "scheduled_end": "2026-12-07",
-      "earliest_start": "2026-12-07",
-      "latest_start": "2027-01-12",
-      "float_days": 23.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "exterior.siding",
-          "type": "FS",
-          "lag_days": 5
         }
       ]
     },
@@ -5044,7 +4999,7 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 1% of tasks (1/99). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 1% of tasks (1/98). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ],
   "holidays_used": [
     "2026-01-01",
