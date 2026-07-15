@@ -348,29 +348,6 @@
       }
     },
     {
-      "id": "pm.meet_amanda_tdec",
-      "name": "Meeting with Amanda — 1 week after TDEC permit start",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "pre_construction_offset_working_days": 21,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "pm_directive",
-        "rule_ids": [],
-        "reasoning": "PM directive: 'set a meeting with amanda one week after start of tdec septic permit'. Trigger phrase is 'after start of X' → SS on permit.tdec_septic with lag_days: 5 (1 week = 5 working days). Meeting is a single-point coordination event, so duration_days: 1, crew_size: 1, trade: pm."
-      }
-    },
-    {
       "id": "prep.amperage_check",
       "phase_id": "pre_construction",
       "component_id": "amperage_check",
