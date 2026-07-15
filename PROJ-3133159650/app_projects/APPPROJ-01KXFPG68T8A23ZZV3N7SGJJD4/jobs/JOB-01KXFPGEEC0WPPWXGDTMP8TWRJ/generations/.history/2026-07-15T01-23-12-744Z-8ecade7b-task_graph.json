@@ -2770,27 +2770,6 @@
         ],
         "reasoning": "Will's personal final walkthrough — end of project."
       }
-    },
-    {
-      "id": "pm.amanda_meeting",
-      "section_id": "punch_and_final",
-      "name": "Meeting with Amanda (John's wife) — 2 days before job end",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "closeout.wills_walkthrough",
-          "type": "FF",
-          "lag_days": -2
-        }
-      ],
-      "derived_from": {
-        "section_id": "punch_and_final",
-        "rule_ids": [],
-        "reasoning": "PM directive: set a meeting with John's wife Amanda 2 days before job ends. Anchored FF-2 to the final task (closeout.wills_walkthrough) so it lands 2 working days before job completion."
-      }
     }
   ],
   "warnings": [
