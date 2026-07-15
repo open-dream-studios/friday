@@ -2901,28 +2901,6 @@
         "rule_ids": [],
         "reasoning": "PM directive: meeting with Howie one week after start of TDEC septic permit (SS+5 on permit.tdec_septic)"
       }
-    },
-    {
-      "id": "pm.amanda_john_meeting_tdec_start",
-      "name": "Meeting with Amanda and John together — one week after TDEC septic permit process begins",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: meeting with Amanda and John together, 1 week after start of TDEC septic permit (SS+5 on permit.tdec_septic)"
-      }
     }
   ],
   "warnings": [
