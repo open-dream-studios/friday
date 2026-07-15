@@ -17,5 +17,9 @@
   },
   "customer": null,
   "scope_document": null,
-  "breakdown_document": null
+  "breakdown_document": {
+    "id": "doc_01KXKDQPKVP20MP4SKHPDMJJN4",
+    "name": "308_Evergreen_Addition_Breakdown.csv",
+    "resolved": true
+  }
 }
