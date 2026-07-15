@@ -348,27 +348,6 @@
       }
     },
     {
-      "id": "pm.will_meeting_tdec_start",
-      "section_id": "tdec_septic",
-      "name": "Meeting with Will — one week after TDEC septic permit process begins",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: add a meeting with Will one week after TDEC permit process begins. Positioned 5 working days (one week) after the SS start of permit.tdec_septic."
-      }
-    },
-    {
       "id": "prep.amperage_check",
       "phase_id": "pre_construction",
       "component_id": "amperage_check",
