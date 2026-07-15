@@ -505,5 +505,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXKD4W2RD6M8JWBMXJ7ZC1WV": {
+    "id": "f_01KXKD4W2RD6M8JWBMXJ7ZC1WV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "answer_to_q_01KXKCZYPFA2B9SGTYRB4JPE3Y",
+    "content": "Stock",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T17:28:15.192Z",
+    "updated_at": "2026-07-15T17:28:15.192Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXKCZYPFA2B9SGTYRB4JPE3Y",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
