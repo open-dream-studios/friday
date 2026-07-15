@@ -68,12 +68,34 @@ Container `app_projects/` is generated when at least one row exists.
 - Source: `jobs` where `entity_type = 'app_project'` and
   `entity_id = <app_project_id>`
 - Path: `friday/<project_id>/app_projects/<app_project_id>/jobs/<job_id>/`
-- Contents:
+- Contents at job root (all trunk-native, preserved through materialize):
   - `data.json` — resolved row + job_definition + scope/breakdown docs
-  - `facts.json`, `rules.json`, `beliefs.json`
-  - (Downstream generators may write `intelligence/`, `interview/`,
-    `inputs/`, `generations/` under here — those are trunk-native
-    and preserved through materialize.)
+  - `facts.json`, `rules.json`, `beliefs.json` — intel leaves
+  - `questions.jsonl`, `proposed_rules.jsonl` — intel side-channels
+  - `manual_edits.jsonl` — **PM direct edits to the schedule / task
+    graph** (one line per staged edit at save time). Each entry
+    carries `task_id`, `task_field_mutations` /
+    `link_lag_mutations` / `deletion`, plus the human `reason` string
+    the PM typed at save time and a `rank`
+    (`job` | `project` | `job_type` | `company`). This is the ONLY
+    place the PM's reason lives; git commit subjects for the
+    task_graph write are terse and don't repeat it. **When Boss asks
+    "why did task X change?" always read this file before answering
+    from git log alone** — the answer is almost always in the
+    matching entry's `reason`.
+  - `plan_history.jsonl` — **AI-driven task_graph decisions** (one
+    line per full / incremental generation). Carries the PM's
+    natural-language directive (if any), the LLM's own reasoning,
+    which manual edits it considered / superseded, and the resulting
+    commit sha. Same "read before answering WHY" rule as
+    `manual_edits.jsonl`.
+  - `chats/<timestamp>.jsonl` — per-conversation chat transcripts.
+  - `generations/` — deterministic outputs (`task_graph.json`,
+    `schedule.json`, `pep.md`, `.history/`) written by the brain +
+    CPM. Regenerated on each Update Plan / Generate Plan run;
+    replaced verbatim, never merged.
+  - (Downstream generators may also write `intelligence/`,
+    `interview/`, `inputs/` under here — trunk-native and preserved.)
 
 ---
 
