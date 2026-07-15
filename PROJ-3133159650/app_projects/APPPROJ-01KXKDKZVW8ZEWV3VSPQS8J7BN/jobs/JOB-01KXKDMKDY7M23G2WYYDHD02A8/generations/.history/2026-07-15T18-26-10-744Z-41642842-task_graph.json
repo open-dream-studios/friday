@@ -2795,28 +2795,6 @@
         ],
         "reasoning": "Owner's personal final touchpoint with customer, 1 working day after final inspection."
       }
-    },
-    {
-      "id": "pm.meet_howie",
-      "name": "Meeting with Howie",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: 'set a meeting with howie one week after tdec starts' — trigger phrase 'after ... starts' means SS on the TDEC task with lag +5 working days (one week). Meeting is a single-point event, duration 1 day."
-      }
     }
   ],
   "warnings": [
