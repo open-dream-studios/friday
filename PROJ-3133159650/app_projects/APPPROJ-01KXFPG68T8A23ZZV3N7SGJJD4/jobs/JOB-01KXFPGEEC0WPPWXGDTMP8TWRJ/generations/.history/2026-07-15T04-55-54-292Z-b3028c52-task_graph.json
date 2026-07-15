@@ -2748,28 +2748,6 @@
         ],
         "reasoning": "Will's personal final walkthrough — end of project."
       }
-    },
-    {
-      "id": "pm.meet_howie_dried_in",
-      "name": "Meeting with Howie — 1 week after dried-in milestone",
-      "phase_id": "structural_and_shell",
-      "component_id": "envelope",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "milestone.dried_in",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "envelope",
-        "rule_ids": [],
-        "reasoning": "PM directive: schedule meeting with Howie one week (5 working days) after dried-in milestone. Trigger phrase 'one week after dried in milestone' → FS on milestone.dried_in with lag_days: 5 (1 working week). Meeting is single-point coordination event, duration_days: 1."
-      }
     }
   ],
   "warnings": [
