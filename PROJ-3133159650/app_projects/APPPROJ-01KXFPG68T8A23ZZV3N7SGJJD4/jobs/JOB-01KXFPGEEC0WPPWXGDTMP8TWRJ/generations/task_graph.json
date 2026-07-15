@@ -464,7 +464,7 @@
         {
           "predecessor_id": "general.site_setup",
           "type": "FS",
-          "lag_days": 5
+          "lag_days": 3
         }
       ],
       "derived_from": {
