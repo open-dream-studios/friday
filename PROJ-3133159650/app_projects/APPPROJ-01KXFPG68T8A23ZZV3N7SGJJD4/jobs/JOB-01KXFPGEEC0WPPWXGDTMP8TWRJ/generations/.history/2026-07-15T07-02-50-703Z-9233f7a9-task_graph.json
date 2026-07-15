@@ -2800,28 +2800,6 @@
         "rule_ids": [],
         "reasoning": "PM directive: meeting with Howie 2 days after TDEC septic permit starts. Trigger word 'after start' → SS on permit.tdec_septic with lag_days: +2. Duration 1 (single-point meeting)."
       }
-    },
-    {
-      "id": "pm.meet_amanda_tdec",
-      "name": "Meeting with Amanda (John's wife) — 5 days after TDEC septic permit start",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: meeting with Amanda 5 days after start of TDEC (SS+5). Trigger word 'after start of' → SS dependency with positive lag."
-      }
     }
   ],
   "warnings": [

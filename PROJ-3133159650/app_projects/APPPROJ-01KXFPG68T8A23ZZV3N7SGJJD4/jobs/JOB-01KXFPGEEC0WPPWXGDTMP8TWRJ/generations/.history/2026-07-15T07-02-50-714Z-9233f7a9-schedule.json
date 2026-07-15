@@ -2,7 +2,7 @@
   "project_id": "simons_addition_30_x10_two_story_bedroom_remodel",
   "start_date": "2026-10-12",
   "pre_construction_start_date": "2026-08-28",
-  "end_date": "2027-01-11",
+  "end_date": "2027-01-13",
   "calendar": {
     "workdays": [
       1,
@@ -14,8 +14,11 @@
     "holidays": [
       "2026-01-01",
       "2026-05-25",
+      "2026-06-19",
       "2026-07-04",
       "2026-09-07",
+      "2026-11-09",
+      "2026-11-11",
       "2026-11-26",
       "2026-11-27",
       "2026-12-24",
@@ -23,8 +26,11 @@
       "2026-12-26",
       "2027-01-01",
       "2027-05-31",
+      "2027-06-19",
       "2027-07-04",
       "2027-09-06",
+      "2027-11-08",
+      "2027-11-11",
       "2027-11-25",
       "2027-11-26",
       "2027-12-24",
@@ -32,8 +38,11 @@
       "2027-12-26",
       "2028-01-01",
       "2028-05-29",
+      "2028-06-19",
       "2028-07-04",
       "2028-09-04",
+      "2028-11-11",
+      "2028-11-13",
       "2028-11-23",
       "2028-11-24",
       "2028-12-24",
@@ -41,8 +50,11 @@
       "2028-12-26",
       "2029-01-01",
       "2029-05-28",
+      "2029-06-19",
       "2029-07-04",
       "2029-09-03",
+      "2029-11-11",
+      "2029-11-12",
       "2029-11-22",
       "2029-11-23",
       "2029-12-24",
@@ -50,8 +62,10 @@
       "2029-12-26",
       "2030-01-01",
       "2030-05-27",
+      "2030-06-19",
       "2030-07-04",
       "2030-09-02",
+      "2030-11-11",
       "2030-11-22",
       "2030-11-28",
       "2030-12-24",
@@ -61,44 +75,58 @@
     "holiday_names": {
       "2026-01-01": "New Year's Day",
       "2026-05-25": "Memorial Day",
+      "2026-06-19": "Juneteenth",
       "2026-07-04": "Independence Day",
       "2026-09-07": "Labor Day",
+      "2026-11-11": "Veterans Day",
       "2026-11-26": "Thanksgiving",
       "2026-11-27": "Day after Thanksgiving",
       "2026-12-24": "Christmas Eve",
       "2026-12-25": "Christmas Day",
       "2026-12-26": "Day after Christmas",
+      "2026-11-09": "2nd Mon November",
       "2027-01-01": "New Year's Day",
       "2027-05-31": "Memorial Day",
+      "2027-06-19": "Juneteenth",
       "2027-07-04": "Independence Day",
       "2027-09-06": "Labor Day",
+      "2027-11-11": "Veterans Day",
       "2027-11-25": "Thanksgiving",
       "2027-11-26": "Day after Thanksgiving",
       "2027-12-24": "Christmas Eve",
       "2027-12-25": "Christmas Day",
       "2027-12-26": "Day after Christmas",
+      "2027-11-08": "2nd Mon November",
       "2028-01-01": "New Year's Day",
       "2028-05-29": "Memorial Day",
+      "2028-06-19": "Juneteenth",
       "2028-07-04": "Independence Day",
       "2028-09-04": "Labor Day",
+      "2028-11-11": "Veterans Day",
       "2028-11-23": "Thanksgiving",
       "2028-11-24": "Day after Thanksgiving",
       "2028-12-24": "Christmas Eve",
       "2028-12-25": "Christmas Day",
       "2028-12-26": "Day after Christmas",
+      "2028-11-13": "2nd Mon November",
       "2029-01-01": "New Year's Day",
       "2029-05-28": "Memorial Day",
+      "2029-06-19": "Juneteenth",
       "2029-07-04": "Independence Day",
       "2029-09-03": "Labor Day",
+      "2029-11-11": "Veterans Day",
       "2029-11-22": "Thanksgiving",
       "2029-11-23": "Day after Thanksgiving",
       "2029-12-24": "Christmas Eve",
       "2029-12-25": "Christmas Day",
       "2029-12-26": "Day after Christmas",
+      "2029-11-12": "2nd Mon November",
       "2030-01-01": "New Year's Day",
       "2030-05-27": "Memorial Day",
+      "2030-06-19": "Juneteenth",
       "2030-07-04": "Independence Day",
       "2030-09-02": "Labor Day",
+      "2030-11-11": "2nd Mon November",
       "2030-11-28": "Thanksgiving",
       "2030-11-22": "Day after Thanksgiving",
       "2030-12-24": "Christmas Eve",
@@ -157,7 +185,7 @@
       "scheduled_start": "2026-09-28",
       "scheduled_end": "2026-09-28",
       "earliest_start": "2026-09-28",
-      "latest_start": "2027-01-11",
+      "latest_start": "2027-01-13",
       "float_days": 70,
       "status": "not_started",
       "actual_start": null,
@@ -224,7 +252,7 @@
       "scheduled_start": "2026-09-21",
       "scheduled_end": "2026-09-21",
       "earliest_start": "2026-09-21",
-      "latest_start": "2026-11-18",
+      "latest_start": "2026-11-20",
       "float_days": 42,
       "status": "not_started",
       "actual_start": null,
@@ -253,7 +281,7 @@
       "scheduled_start": "2026-09-21",
       "scheduled_end": "2026-09-21",
       "earliest_start": "2026-09-21",
-      "latest_start": "2026-11-25",
+      "latest_start": "2026-12-01",
       "float_days": 47.5,
       "status": "not_started",
       "actual_start": null,
@@ -312,7 +340,7 @@
       "scheduled_start": "2026-09-28",
       "scheduled_end": "2026-09-28",
       "earliest_start": "2026-09-28",
-      "latest_start": "2027-01-11",
+      "latest_start": "2027-01-13",
       "float_days": 70.5,
       "status": "not_started",
       "actual_start": null,
@@ -341,7 +369,7 @@
       "scheduled_start": "2026-09-28",
       "scheduled_end": "2026-09-28",
       "earliest_start": "2026-09-28",
-      "latest_start": "2027-01-11",
+      "latest_start": "2027-01-13",
       "float_days": 70.5,
       "status": "not_started",
       "actual_start": null,
@@ -370,7 +398,7 @@
       "scheduled_start": "2026-10-09",
       "scheduled_end": "2026-10-09",
       "earliest_start": "2026-10-09",
-      "latest_start": "2027-01-08",
+      "latest_start": "2027-01-12",
       "float_days": 60.5,
       "status": "not_started",
       "actual_start": null,
@@ -490,7 +518,7 @@
       "scheduled_start": "2026-11-03",
       "scheduled_end": "2026-11-03",
       "earliest_start": "2026-11-03",
-      "latest_start": "2026-11-16",
+      "latest_start": "2026-11-18",
       "float_days": 9.5,
       "status": "not_started",
       "actual_start": null,
@@ -617,7 +645,7 @@
       "scheduled_start": "2026-10-27",
       "scheduled_end": "2026-10-27",
       "earliest_start": "2026-10-27",
-      "latest_start": "2026-11-19",
+      "latest_start": "2026-11-23",
       "float_days": 17.5,
       "status": "not_started",
       "actual_start": null,
@@ -704,7 +732,7 @@
       "scheduled_start": "2026-10-13",
       "scheduled_end": "2026-10-22",
       "earliest_start": "2026-10-13",
-      "latest_start": "2026-11-09",
+      "latest_start": "2026-11-10",
       "float_days": 19,
       "status": "not_started",
       "actual_start": null,
@@ -753,7 +781,7 @@
       "scheduled_start": "2026-10-23",
       "scheduled_end": "2026-10-23",
       "earliest_start": "2026-10-23",
-      "latest_start": "2026-11-19",
+      "latest_start": "2026-11-23",
       "float_days": 19,
       "status": "not_started",
       "actual_start": null,
@@ -788,7 +816,7 @@
       "scheduled_start": "2026-10-12",
       "scheduled_end": "2026-10-12",
       "earliest_start": "2026-10-12",
-      "latest_start": "2026-12-10",
+      "latest_start": "2026-12-14",
       "float_days": 41.5,
       "status": "not_started",
       "actual_start": null,
@@ -831,7 +859,7 @@
       "scheduled_start": "2026-10-13",
       "scheduled_end": "2026-10-26",
       "earliest_start": "2026-10-13",
-      "latest_start": "2026-12-11",
+      "latest_start": "2026-12-15",
       "float_days": 41,
       "status": "not_started",
       "actual_start": null,
@@ -880,7 +908,7 @@
       "scheduled_start": "2026-10-27",
       "scheduled_end": "2026-10-27",
       "earliest_start": "2026-10-27",
-      "latest_start": "2026-12-29",
+      "latest_start": "2026-12-31",
       "float_days": 41,
       "status": "not_started",
       "actual_start": null,
@@ -1007,7 +1035,7 @@
       "scheduled_start": "2026-10-23",
       "scheduled_end": "2026-10-23",
       "earliest_start": "2026-10-23",
-      "latest_start": "2026-11-18",
+      "latest_start": "2026-11-20",
       "float_days": 18.5,
       "status": "not_started",
       "actual_start": null,
@@ -1047,7 +1075,7 @@
       "scheduled_start": "2026-10-12",
       "scheduled_end": "2026-10-12",
       "earliest_start": "2026-10-12",
-      "latest_start": "2026-11-25",
+      "latest_start": "2026-12-01",
       "float_days": 32.5,
       "status": "not_started",
       "actual_start": null,
@@ -1097,7 +1125,7 @@
       "scheduled_start": "2026-10-13",
       "scheduled_end": "2026-10-26",
       "earliest_start": "2026-10-13",
-      "latest_start": "2026-11-30",
+      "latest_start": "2026-12-02",
       "float_days": 32,
       "status": "not_started",
       "actual_start": null,
@@ -1146,7 +1174,7 @@
       "scheduled_start": "2026-10-27",
       "scheduled_end": "2026-10-27",
       "earliest_start": "2026-10-27",
-      "latest_start": "2026-12-14",
+      "latest_start": "2026-12-16",
       "float_days": 32,
       "status": "not_started",
       "actual_start": null,
@@ -1186,7 +1214,7 @@
       "scheduled_start": "2026-10-12",
       "scheduled_end": "2026-10-12",
       "earliest_start": "2026-10-12",
-      "latest_start": "2026-12-07",
+      "latest_start": "2026-12-09",
       "float_days": 38.5,
       "status": "not_started",
       "actual_start": null,
@@ -1236,7 +1264,7 @@
       "scheduled_start": "2026-10-13",
       "scheduled_end": "2026-10-26",
       "earliest_start": "2026-10-13",
-      "latest_start": "2026-12-08",
+      "latest_start": "2026-12-10",
       "float_days": 38,
       "status": "not_started",
       "actual_start": null,
@@ -1285,7 +1313,7 @@
       "scheduled_start": "2026-10-27",
       "scheduled_end": "2026-10-27",
       "earliest_start": "2026-10-27",
-      "latest_start": "2026-12-22",
+      "latest_start": "2026-12-28",
       "float_days": 38,
       "status": "not_started",
       "actual_start": null,
@@ -1325,7 +1353,7 @@
       "scheduled_start": "2026-10-12",
       "scheduled_end": "2026-10-12",
       "earliest_start": "2026-10-12",
-      "latest_start": "2026-12-07",
+      "latest_start": "2026-12-09",
       "float_days": 38.5,
       "status": "not_started",
       "actual_start": null,
@@ -1375,7 +1403,7 @@
       "scheduled_start": "2026-10-13",
       "scheduled_end": "2026-10-22",
       "earliest_start": "2026-10-13",
-      "latest_start": "2026-12-08",
+      "latest_start": "2026-12-10",
       "float_days": 38,
       "status": "not_started",
       "actual_start": null,
@@ -1424,7 +1452,7 @@
       "scheduled_start": "2026-10-23",
       "scheduled_end": "2026-10-23",
       "earliest_start": "2026-10-23",
-      "latest_start": "2026-12-18",
+      "latest_start": "2026-12-22",
       "float_days": 38,
       "status": "not_started",
       "actual_start": null,
@@ -1464,7 +1492,7 @@
       "scheduled_start": "2026-10-12",
       "scheduled_end": "2026-10-12",
       "earliest_start": "2026-10-12",
-      "latest_start": "2026-12-10",
+      "latest_start": "2026-12-14",
       "float_days": 41.5,
       "status": "not_started",
       "actual_start": null,
@@ -1499,7 +1527,7 @@
       "scheduled_start": "2026-10-12",
       "scheduled_end": "2026-10-12",
       "earliest_start": "2026-10-12",
-      "latest_start": "2026-12-28",
+      "latest_start": "2026-12-30",
       "float_days": 51.5,
       "status": "not_started",
       "actual_start": null,
@@ -1542,7 +1570,7 @@
       "scheduled_start": "2026-10-13",
       "scheduled_end": "2026-10-22",
       "earliest_start": "2026-10-13",
-      "latest_start": "2026-12-29",
+      "latest_start": "2026-12-31",
       "float_days": 51,
       "status": "not_started",
       "actual_start": null,
@@ -1591,7 +1619,7 @@
       "scheduled_start": "2026-10-23",
       "scheduled_end": "2026-10-23",
       "earliest_start": "2026-10-23",
-      "latest_start": "2027-01-11",
+      "latest_start": "2027-01-13",
       "float_days": 51,
       "status": "not_started",
       "actual_start": null,
@@ -1950,7 +1978,7 @@
       "scheduled_start": "2026-10-16",
       "scheduled_end": "2026-10-16",
       "earliest_start": "2026-10-16",
-      "latest_start": "2026-11-17",
+      "latest_start": "2026-11-19",
       "float_days": 22.5,
       "status": "not_started",
       "actual_start": null,
@@ -2364,7 +2392,7 @@
           "type": "FS",
           "lag_days": 0,
           "successor_earliest_start": "2026-11-05",
-          "successor_earliest_finish": "2026-11-09"
+          "successor_earliest_finish": "2026-11-10"
         }
       ]
     },
@@ -2395,7 +2423,7 @@
       "scheduled_start": "2026-10-19",
       "scheduled_end": "2026-10-19",
       "earliest_start": "2026-10-19",
-      "latest_start": "2026-11-18",
+      "latest_start": "2026-11-20",
       "float_days": 22.5,
       "status": "not_started",
       "actual_start": null,
@@ -2439,7 +2467,7 @@
       "scheduled_start": "2026-10-27",
       "scheduled_end": "2026-10-28",
       "earliest_start": "2026-10-27",
-      "latest_start": "2026-11-19",
+      "latest_start": "2026-11-23",
       "float_days": 17.5,
       "status": "not_started",
       "actual_start": null,
@@ -2488,7 +2516,7 @@
       "scheduled_start": "2026-10-29",
       "scheduled_end": "2026-10-29",
       "earliest_start": "2026-10-29",
-      "latest_start": "2026-11-23",
+      "latest_start": "2026-11-25",
       "float_days": 17.5,
       "status": "not_started",
       "actual_start": null,
@@ -2524,9 +2552,9 @@
         "reasoning": "2x4 @16\" walls + 4x4 elevator shaft framing."
       },
       "scheduled_start": "2026-11-05",
-      "scheduled_end": "2026-11-09",
+      "scheduled_end": "2026-11-10",
       "earliest_start": "2026-11-05",
-      "latest_start": "2026-11-09",
+      "latest_start": "2026-11-10",
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
@@ -2543,8 +2571,8 @@
           "successor_id": "framing.roof",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-10",
-          "successor_earliest_finish": "2026-11-12"
+          "successor_earliest_start": "2026-11-12",
+          "successor_earliest_finish": "2026-11-16"
         }
       ]
     },
@@ -2572,10 +2600,10 @@
         ],
         "reasoning": "Stick-frame default: small addition, ambiguous truss/rafter scope."
       },
-      "scheduled_start": "2026-11-10",
-      "scheduled_end": "2026-11-12",
-      "earliest_start": "2026-11-10",
-      "latest_start": "2026-11-12",
+      "scheduled_start": "2026-11-12",
+      "scheduled_end": "2026-11-16",
+      "earliest_start": "2026-11-12",
+      "latest_start": "2026-11-16",
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
@@ -2592,22 +2620,22 @@
           "successor_id": "framing.sheathing",
           "type": "FS",
           "lag_days": -1,
-          "successor_earliest_start": "2026-11-12",
-          "successor_earliest_finish": "2026-11-12"
+          "successor_earliest_start": "2026-11-16",
+          "successor_earliest_finish": "2026-11-16"
         },
         {
           "successor_id": "roof.concealed_buffer",
           "type": "SS",
           "lag_days": 1,
-          "successor_earliest_start": "2026-11-11",
-          "successor_earliest_finish": "2026-11-13"
+          "successor_earliest_start": "2026-11-13",
+          "successor_earliest_finish": "2026-11-17"
         },
         {
           "successor_id": "windows.install",
           "type": "FS",
           "lag_days": -1,
-          "successor_earliest_start": "2026-11-12",
-          "successor_earliest_finish": "2026-11-13"
+          "successor_earliest_start": "2026-11-16",
+          "successor_earliest_finish": "2026-11-17"
         }
       ]
     },
@@ -2637,10 +2665,10 @@
         ],
         "reasoning": "Buffer for concealed rafter conditions when tying into existing 6/12 roof."
       },
-      "scheduled_start": "2026-11-11",
-      "scheduled_end": "2026-11-13",
-      "earliest_start": "2026-11-11",
-      "latest_start": "2027-01-06",
+      "scheduled_start": "2026-11-13",
+      "scheduled_end": "2026-11-17",
+      "earliest_start": "2026-11-13",
+      "latest_start": "2027-01-08",
       "float_days": 35.5,
       "status": "not_started",
       "actual_start": null,
@@ -2676,10 +2704,10 @@
         "rule_ids": [],
         "reasoning": "Sheathing overlaps last day of roof framing."
       },
-      "scheduled_start": "2026-11-12",
-      "scheduled_end": "2026-11-12",
-      "earliest_start": "2026-11-12",
-      "latest_start": "2026-11-16",
+      "scheduled_start": "2026-11-16",
+      "scheduled_end": "2026-11-16",
+      "earliest_start": "2026-11-16",
+      "latest_start": "2026-11-18",
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
@@ -2696,8 +2724,8 @@
           "successor_id": "roofing.underlayment",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-13",
-          "successor_earliest_finish": "2026-11-13"
+          "successor_earliest_start": "2026-11-17",
+          "successor_earliest_finish": "2026-11-17"
         }
       ]
     },
@@ -2725,10 +2753,10 @@
         ],
         "reasoning": "Synthetic underlayment makes building weatherproof for MEPs."
       },
-      "scheduled_start": "2026-11-13",
-      "scheduled_end": "2026-11-13",
-      "earliest_start": "2026-11-13",
-      "latest_start": "2026-11-17",
+      "scheduled_start": "2026-11-17",
+      "scheduled_end": "2026-11-17",
+      "earliest_start": "2026-11-17",
+      "latest_start": "2026-11-19",
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
@@ -2745,22 +2773,22 @@
           "successor_id": "roofing.shingles",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-16",
-          "successor_earliest_finish": "2026-11-16"
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
         },
         {
           "successor_id": "electrical.rough_in",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-16",
-          "successor_earliest_finish": "2026-11-18"
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-20"
         },
         {
           "successor_id": "plumbing.tank_set",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-16",
-          "successor_earliest_finish": "2026-11-16"
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
         }
       ]
     },
@@ -2794,10 +2822,10 @@
         ],
         "reasoning": "Windows install as soon as roof framed, in parallel with underlayment."
       },
-      "scheduled_start": "2026-11-12",
-      "scheduled_end": "2026-11-13",
-      "earliest_start": "2026-11-12",
-      "latest_start": "2026-11-16",
+      "scheduled_start": "2026-11-16",
+      "scheduled_end": "2026-11-17",
+      "earliest_start": "2026-11-16",
+      "latest_start": "2026-11-18",
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
@@ -2814,22 +2842,22 @@
           "successor_id": "electrical.rough_in",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-16",
-          "successor_earliest_finish": "2026-11-18"
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-20"
         },
         {
           "successor_id": "exterior.sheathing_wrb",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-16",
-          "successor_earliest_finish": "2026-11-16"
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
         },
         {
           "successor_id": "plumbing.tank_set",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-16",
-          "successor_earliest_finish": "2026-11-16"
+          "successor_earliest_start": "2026-11-18",
+          "successor_earliest_finish": "2026-11-18"
         }
       ]
     },
@@ -2855,10 +2883,10 @@
         "rule_ids": [],
         "reasoning": "Small addition roof, 1 day."
       },
-      "scheduled_start": "2026-11-16",
-      "scheduled_end": "2026-11-16",
-      "earliest_start": "2026-11-16",
-      "latest_start": "2027-01-04",
+      "scheduled_start": "2026-11-18",
+      "scheduled_end": "2026-11-18",
+      "earliest_start": "2026-11-18",
+      "latest_start": "2027-01-06",
       "float_days": 30,
       "status": "not_started",
       "actual_start": null,
@@ -2875,22 +2903,22 @@
           "successor_id": "electrical.gas_wh_vent",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-17",
-          "successor_earliest_finish": "2026-11-17"
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-19"
         },
         {
           "successor_id": "roofing.trim_gutters",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-17",
-          "successor_earliest_finish": "2026-11-18"
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-20"
         },
         {
           "successor_id": "milestone.dried_in",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-17",
-          "successor_earliest_finish": "2026-11-17"
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-19"
         }
       ]
     },
@@ -2918,10 +2946,10 @@
         ],
         "reasoning": "Same siding crew does trim/gutters as continuous block."
       },
-      "scheduled_start": "2026-11-17",
-      "scheduled_end": "2026-11-18",
-      "earliest_start": "2026-11-17",
-      "latest_start": "2027-01-05",
+      "scheduled_start": "2026-11-19",
+      "scheduled_end": "2026-11-20",
+      "earliest_start": "2026-11-19",
+      "latest_start": "2027-01-07",
       "float_days": 30,
       "status": "not_started",
       "actual_start": null,
@@ -2938,8 +2966,8 @@
           "successor_id": "exterior.siding",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-19",
-          "successor_earliest_finish": "2026-11-23"
+          "successor_earliest_start": "2026-11-23",
+          "successor_earliest_finish": "2026-11-25"
         }
       ]
     },
@@ -2969,10 +2997,10 @@
         "rule_ids": [],
         "reasoning": "WRB after windows so flashing integrates."
       },
-      "scheduled_start": "2026-11-16",
-      "scheduled_end": "2026-11-16",
-      "earliest_start": "2026-11-16",
-      "latest_start": "2027-01-05",
+      "scheduled_start": "2026-11-18",
+      "scheduled_end": "2026-11-18",
+      "earliest_start": "2026-11-18",
+      "latest_start": "2027-01-07",
       "float_days": 31.5,
       "status": "not_started",
       "actual_start": null,
@@ -2989,8 +3017,8 @@
           "successor_id": "milestone.dried_in",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-17",
-          "successor_earliest_finish": "2026-11-17"
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-19"
         }
       ]
     },
@@ -3024,10 +3052,10 @@
         "rule_ids": [],
         "reasoning": "Dried-in gates siding, not MEPs."
       },
-      "scheduled_start": "2026-11-17",
-      "scheduled_end": "2026-11-17",
-      "earliest_start": "2026-11-17",
-      "latest_start": "2027-01-06",
+      "scheduled_start": "2026-11-19",
+      "scheduled_end": "2026-11-19",
+      "earliest_start": "2026-11-19",
+      "latest_start": "2027-01-08",
       "float_days": 31.5,
       "status": "not_started",
       "actual_start": null,
@@ -3049,8 +3077,8 @@
           "successor_id": "pm.meet_howie_dried_in",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2026-11-18",
-          "successor_earliest_finish": "2026-11-18"
+          "successor_earliest_start": "2026-11-20",
+          "successor_earliest_finish": "2026-11-20"
         }
       ]
     },
@@ -3082,10 +3110,10 @@
         ],
         "reasoning": "Continuous with roof trim/gutters — same crew."
       },
-      "scheduled_start": "2026-11-19",
-      "scheduled_end": "2026-11-23",
-      "earliest_start": "2026-11-19",
-      "latest_start": "2027-01-06",
+      "scheduled_start": "2026-11-23",
+      "scheduled_end": "2026-11-25",
+      "earliest_start": "2026-11-23",
+      "latest_start": "2027-01-08",
       "float_days": 29.5,
       "status": "not_started",
       "actual_start": null,
@@ -3130,10 +3158,10 @@
         ],
         "reasoning": "Tankless set before plumbing rough-in per tank-set-first rule."
       },
-      "scheduled_start": "2026-11-16",
-      "scheduled_end": "2026-11-16",
-      "earliest_start": "2026-11-16",
-      "latest_start": "2026-11-18",
+      "scheduled_start": "2026-11-18",
+      "scheduled_end": "2026-11-18",
+      "earliest_start": "2026-11-18",
+      "latest_start": "2026-11-20",
       "float_days": 2.5,
       "status": "not_started",
       "actual_start": null,
@@ -3155,8 +3183,8 @@
           "successor_id": "plumbing.rough_in",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-17",
-          "successor_earliest_finish": "2026-11-19"
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-23"
         }
       ]
     },
@@ -3184,10 +3212,10 @@
         ],
         "reasoning": "Rough-in stubs into set tank; MEPs gated on underlayment + windows via tank_set."
       },
-      "scheduled_start": "2026-11-17",
-      "scheduled_end": "2026-11-19",
-      "earliest_start": "2026-11-17",
-      "latest_start": "2026-11-19",
+      "scheduled_start": "2026-11-19",
+      "scheduled_end": "2026-11-23",
+      "earliest_start": "2026-11-19",
+      "latest_start": "2026-11-23",
       "float_days": 2,
       "status": "not_started",
       "actual_start": null,
@@ -3204,8 +3232,8 @@
           "successor_id": "inspect.rough_bundled",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2026-11-23",
-          "successor_earliest_finish": "2026-11-23"
+          "successor_earliest_start": "2026-11-25",
+          "successor_earliest_finish": "2026-11-25"
         }
       ]
     },
@@ -3245,10 +3273,10 @@
         ],
         "reasoning": "Rough-in + 100A subpanel + elevator dedicated circuit."
       },
-      "scheduled_start": "2026-11-16",
-      "scheduled_end": "2026-11-18",
-      "earliest_start": "2026-11-16",
-      "latest_start": "2026-11-19",
+      "scheduled_start": "2026-11-18",
+      "scheduled_end": "2026-11-20",
+      "earliest_start": "2026-11-18",
+      "latest_start": "2026-11-23",
       "float_days": 3,
       "status": "not_started",
       "actual_start": null,
@@ -3270,8 +3298,8 @@
           "successor_id": "hvac.minisplit_rough",
           "type": "SS",
           "lag_days": 1,
-          "successor_earliest_start": "2026-11-17",
-          "successor_earliest_finish": "2026-11-18"
+          "successor_earliest_start": "2026-11-19",
+          "successor_earliest_finish": "2026-11-20"
         }
       ]
     },
@@ -3297,10 +3325,10 @@
         "rule_ids": [],
         "reasoning": "Extend existing gas WH vent (existing tank stays) through new roof after shingles."
       },
-      "scheduled_start": "2026-11-17",
-      "scheduled_end": "2026-11-17",
-      "earliest_start": "2026-11-17",
-      "latest_start": "2027-01-11",
+      "scheduled_start": "2026-11-19",
+      "scheduled_end": "2026-11-19",
+      "earliest_start": "2026-11-19",
+      "latest_start": "2027-01-13",
       "float_days": 34,
       "status": "not_started",
       "actual_start": null,
@@ -3346,10 +3374,10 @@
         ],
         "reasoning": "Mini-split line set only, 0.5d/1 person."
       },
-      "scheduled_start": "2026-11-17",
-      "scheduled_end": "2026-11-18",
-      "earliest_start": "2026-11-17",
-      "latest_start": "2026-11-20",
+      "scheduled_start": "2026-11-19",
+      "scheduled_end": "2026-11-20",
+      "earliest_start": "2026-11-19",
+      "latest_start": "2026-11-24",
       "float_days": 3.5,
       "status": "not_started",
       "actual_start": null,
@@ -3402,10 +3430,10 @@
         ],
         "reasoning": "One inspector, one day, all four rough inspections."
       },
-      "scheduled_start": "2026-11-23",
-      "scheduled_end": "2026-11-23",
-      "earliest_start": "2026-11-23",
-      "latest_start": "2026-11-25",
+      "scheduled_start": "2026-11-25",
+      "scheduled_end": "2026-11-25",
+      "earliest_start": "2026-11-25",
+      "latest_start": "2026-12-01",
       "float_days": 2,
       "status": "not_started",
       "actual_start": null,
@@ -3422,8 +3450,8 @@
           "successor_id": "buffer.post_rough_inspection",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-24",
-          "successor_earliest_finish": "2026-11-25"
+          "successor_earliest_start": "2026-11-30",
+          "successor_earliest_finish": "2026-12-01"
         }
       ]
     },
@@ -3452,10 +3480,10 @@
         ],
         "reasoning": "2-day fix-and-re-inspect buffer."
       },
-      "scheduled_start": "2026-11-24",
-      "scheduled_end": "2026-11-25",
-      "earliest_start": "2026-11-24",
-      "latest_start": "2026-11-25",
+      "scheduled_start": "2026-11-30",
+      "scheduled_end": "2026-12-01",
+      "earliest_start": "2026-11-30",
+      "latest_start": "2026-12-01",
       "float_days": 1.5,
       "status": "not_started",
       "actual_start": null,
@@ -3472,8 +3500,8 @@
           "successor_id": "insulation.install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-11-30",
-          "successor_earliest_finish": "2026-11-30"
+          "successor_earliest_start": "2026-12-02",
+          "successor_earliest_finish": "2026-12-02"
         }
       ]
     },
@@ -3499,10 +3527,10 @@
         "rule_ids": [],
         "reasoning": "Batts for addition ~1 day."
       },
-      "scheduled_start": "2026-11-30",
-      "scheduled_end": "2026-11-30",
-      "earliest_start": "2026-11-30",
-      "latest_start": "2026-12-01",
+      "scheduled_start": "2026-12-02",
+      "scheduled_end": "2026-12-02",
+      "earliest_start": "2026-12-02",
+      "latest_start": "2026-12-03",
       "float_days": 1.5,
       "status": "not_started",
       "actual_start": null,
@@ -3519,8 +3547,8 @@
           "successor_id": "inspect.insulation",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2026-12-02",
-          "successor_earliest_finish": "2026-12-02"
+          "successor_earliest_start": "2026-12-04",
+          "successor_earliest_finish": "2026-12-04"
         }
       ]
     },
@@ -3547,10 +3575,10 @@
         "rule_ids": [],
         "reasoning": "Insulation inspection before drywall."
       },
-      "scheduled_start": "2026-12-02",
-      "scheduled_end": "2026-12-02",
-      "earliest_start": "2026-12-02",
-      "latest_start": "2026-12-03",
+      "scheduled_start": "2026-12-04",
+      "scheduled_end": "2026-12-04",
+      "earliest_start": "2026-12-04",
+      "latest_start": "2026-12-07",
       "float_days": 1.5,
       "status": "not_started",
       "actual_start": null,
@@ -3567,8 +3595,8 @@
           "successor_id": "drywall.consolidated",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-03",
-          "successor_earliest_finish": "2026-12-10"
+          "successor_earliest_start": "2026-12-07",
+          "successor_earliest_finish": "2026-12-14"
         }
       ]
     },
@@ -3596,10 +3624,10 @@
         ],
         "reasoning": "Consolidated hang/finish for new addition + existing bedroom + hall bath patches."
       },
-      "scheduled_start": "2026-12-03",
-      "scheduled_end": "2026-12-10",
-      "earliest_start": "2026-12-03",
-      "latest_start": "2026-12-04",
+      "scheduled_start": "2026-12-07",
+      "scheduled_end": "2026-12-14",
+      "earliest_start": "2026-12-07",
+      "latest_start": "2026-12-08",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -3616,22 +3644,22 @@
           "successor_id": "paint.phase_1",
           "type": "FS",
           "lag_days": -1,
-          "successor_earliest_start": "2026-12-10",
-          "successor_earliest_finish": "2026-12-10"
+          "successor_earliest_start": "2026-12-14",
+          "successor_earliest_finish": "2026-12-14"
         },
         {
           "successor_id": "retrofit.electrical_switch_relocate",
           "type": "FS",
           "lag_days": -1,
-          "successor_earliest_start": "2026-12-10",
-          "successor_earliest_finish": "2026-12-10"
+          "successor_earliest_start": "2026-12-14",
+          "successor_earliest_finish": "2026-12-14"
         },
         {
           "successor_id": "retrofit.hall_bath_window_infill",
           "type": "FS",
           "lag_days": -2,
-          "successor_earliest_start": "2026-12-09",
-          "successor_earliest_finish": "2026-12-09"
+          "successor_earliest_start": "2026-12-11",
+          "successor_earliest_finish": "2026-12-11"
         }
       ]
     },
@@ -3664,10 +3692,10 @@
         ],
         "reasoning": "1d covers primer (walls + ceilings) AM + ceiling finish coat PM same day per Will's standard sequence."
       },
-      "scheduled_start": "2026-12-10",
-      "scheduled_end": "2026-12-10",
-      "earliest_start": "2026-12-10",
-      "latest_start": "2026-12-11",
+      "scheduled_start": "2026-12-14",
+      "scheduled_end": "2026-12-14",
+      "earliest_start": "2026-12-14",
+      "latest_start": "2026-12-15",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -3684,8 +3712,8 @@
           "successor_id": "tile.shower_substrate",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-11",
-          "successor_earliest_finish": "2026-12-14"
+          "successor_earliest_start": "2026-12-15",
+          "successor_earliest_finish": "2026-12-16"
         }
       ]
     },
@@ -3715,10 +3743,10 @@
         "rule_ids": [],
         "reasoning": "Waterproofing standard; no compromise."
       },
-      "scheduled_start": "2026-12-11",
-      "scheduled_end": "2026-12-14",
-      "earliest_start": "2026-12-11",
-      "latest_start": "2026-12-14",
+      "scheduled_start": "2026-12-15",
+      "scheduled_end": "2026-12-16",
+      "earliest_start": "2026-12-15",
+      "latest_start": "2026-12-16",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -3735,15 +3763,15 @@
           "successor_id": "flooring.install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-15",
-          "successor_earliest_finish": "2026-12-16"
+          "successor_earliest_start": "2026-12-17",
+          "successor_earliest_finish": "2026-12-18"
         },
         {
           "successor_id": "tile.shower_install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-15",
-          "successor_earliest_finish": "2026-12-18"
+          "successor_earliest_start": "2026-12-17",
+          "successor_earliest_finish": "2026-12-22"
         }
       ]
     },
@@ -3769,10 +3797,10 @@
         "rule_ids": [],
         "reasoning": "Wall tile ~30 sqft/day custom shower."
       },
-      "scheduled_start": "2026-12-15",
-      "scheduled_end": "2026-12-18",
-      "earliest_start": "2026-12-15",
-      "latest_start": "2026-12-16",
+      "scheduled_start": "2026-12-17",
+      "scheduled_end": "2026-12-22",
+      "earliest_start": "2026-12-17",
+      "latest_start": "2026-12-18",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -3789,8 +3817,8 @@
           "successor_id": "tile.grout_seal",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2026-12-22",
-          "successor_earliest_finish": "2026-12-22"
+          "successor_earliest_start": "2026-12-28",
+          "successor_earliest_finish": "2026-12-28"
         }
       ]
     },
@@ -3817,10 +3845,10 @@
         "rule_ids": [],
         "reasoning": "Cure lag after tile before grout."
       },
-      "scheduled_start": "2026-12-22",
-      "scheduled_end": "2026-12-22",
-      "earliest_start": "2026-12-22",
-      "latest_start": "2026-12-23",
+      "scheduled_start": "2026-12-28",
+      "scheduled_end": "2026-12-28",
+      "earliest_start": "2026-12-28",
+      "latest_start": "2026-12-29",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -3837,15 +3865,15 @@
           "successor_id": "glazing.shower_install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-23",
-          "successor_earliest_finish": "2026-12-23"
+          "successor_earliest_start": "2026-12-29",
+          "successor_earliest_finish": "2026-12-29"
         },
         {
           "successor_id": "plumbing.finish",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-23",
-          "successor_earliest_finish": "2026-12-28"
+          "successor_earliest_start": "2026-12-29",
+          "successor_earliest_finish": "2026-12-30"
         }
       ]
     },
@@ -3881,10 +3909,10 @@
         ],
         "reasoning": "Flooring after paint phase 1; parallel with tile."
       },
-      "scheduled_start": "2026-12-15",
-      "scheduled_end": "2026-12-16",
-      "earliest_start": "2026-12-15",
-      "latest_start": "2026-12-18",
+      "scheduled_start": "2026-12-17",
+      "scheduled_end": "2026-12-18",
+      "earliest_start": "2026-12-17",
+      "latest_start": "2026-12-22",
       "float_days": 3,
       "status": "not_started",
       "actual_start": null,
@@ -3901,15 +3929,15 @@
           "successor_id": "cabinets.vanity_install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-17",
-          "successor_earliest_finish": "2026-12-17"
+          "successor_earliest_start": "2026-12-21",
+          "successor_earliest_finish": "2026-12-21"
         },
         {
           "successor_id": "trim.install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-17",
-          "successor_earliest_finish": "2026-12-21"
+          "successor_earliest_start": "2026-12-21",
+          "successor_earliest_finish": "2026-12-23"
         }
       ]
     },
@@ -3937,10 +3965,10 @@
         ],
         "reasoning": "Trim after flooring, before paint phase 2."
       },
-      "scheduled_start": "2026-12-17",
-      "scheduled_end": "2026-12-21",
-      "earliest_start": "2026-12-17",
-      "latest_start": "2026-12-23",
+      "scheduled_start": "2026-12-21",
+      "scheduled_end": "2026-12-23",
+      "earliest_start": "2026-12-21",
+      "latest_start": "2026-12-29",
       "float_days": 4,
       "status": "not_started",
       "actual_start": null,
@@ -3979,10 +4007,10 @@
         "rule_ids": [],
         "reasoning": "Vanity install after flooring."
       },
-      "scheduled_start": "2026-12-17",
-      "scheduled_end": "2026-12-17",
-      "earliest_start": "2026-12-17",
-      "latest_start": "2026-12-22",
+      "scheduled_start": "2026-12-21",
+      "scheduled_end": "2026-12-21",
+      "earliest_start": "2026-12-21",
+      "latest_start": "2026-12-28",
       "float_days": 3,
       "status": "not_started",
       "actual_start": null,
@@ -3999,8 +4027,8 @@
           "successor_id": "electrical.finish",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-18",
-          "successor_earliest_finish": "2026-12-21"
+          "successor_earliest_start": "2026-12-22",
+          "successor_earliest_finish": "2026-12-23"
         }
       ]
     },
@@ -4029,10 +4057,10 @@
         ],
         "reasoning": "Retrofit hall bath modification — separate component per retrofit heuristic. Rolls into consolidated drywall block."
       },
-      "scheduled_start": "2026-12-09",
-      "scheduled_end": "2026-12-09",
-      "earliest_start": "2026-12-09",
-      "latest_start": "2027-01-08",
+      "scheduled_start": "2026-12-11",
+      "scheduled_end": "2026-12-11",
+      "earliest_start": "2026-12-11",
+      "latest_start": "2027-01-12",
       "float_days": 19.5,
       "status": "not_started",
       "actual_start": null,
@@ -4070,10 +4098,10 @@
         ],
         "reasoning": "Existing hallway switch relocation — retrofit item, includes drywall patch bundled into consolidated drywall."
       },
-      "scheduled_start": "2026-12-10",
-      "scheduled_end": "2026-12-10",
-      "earliest_start": "2026-12-10",
-      "latest_start": "2027-01-11",
+      "scheduled_start": "2026-12-14",
+      "scheduled_end": "2026-12-14",
+      "earliest_start": "2026-12-14",
+      "latest_start": "2027-01-13",
       "float_days": 19,
       "status": "not_started",
       "actual_start": null,
@@ -4135,10 +4163,10 @@
         ],
         "reasoning": "Paint phase 2 gates on ALL finish trades."
       },
-      "scheduled_start": "2026-12-29",
-      "scheduled_end": "2026-12-29",
-      "earliest_start": "2026-12-29",
-      "latest_start": "2026-12-30",
+      "scheduled_start": "2026-12-31",
+      "scheduled_end": "2026-12-31",
+      "earliest_start": "2026-12-31",
+      "latest_start": "2027-01-04",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -4155,8 +4183,8 @@
           "successor_id": "milestone.substantial_completion",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-30",
-          "successor_earliest_finish": "2026-12-30"
+          "successor_earliest_start": "2027-01-04",
+          "successor_earliest_finish": "2027-01-04"
         }
       ]
     },
@@ -4184,10 +4212,10 @@
         ],
         "reasoning": "Fires at end of paint phase 2."
       },
-      "scheduled_start": "2026-12-30",
-      "scheduled_end": "2026-12-30",
-      "earliest_start": "2026-12-30",
-      "latest_start": "2026-12-31",
+      "scheduled_start": "2027-01-04",
+      "scheduled_end": "2027-01-04",
+      "earliest_start": "2027-01-04",
+      "latest_start": "2027-01-05",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -4204,8 +4232,8 @@
           "successor_id": "closeout.pm_walkthrough",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-30",
-          "successor_earliest_finish": "2026-12-30"
+          "successor_earliest_start": "2027-01-04",
+          "successor_earliest_finish": "2027-01-04"
         }
       ]
     },
@@ -4237,10 +4265,10 @@
         ],
         "reasoning": "Finish trim-out after paint phase 1."
       },
-      "scheduled_start": "2026-12-18",
-      "scheduled_end": "2026-12-21",
-      "earliest_start": "2026-12-18",
-      "latest_start": "2026-12-23",
+      "scheduled_start": "2026-12-22",
+      "scheduled_end": "2026-12-23",
+      "earliest_start": "2026-12-22",
+      "latest_start": "2026-12-29",
       "float_days": 3,
       "status": "not_started",
       "actual_start": null,
@@ -4257,8 +4285,8 @@
           "successor_id": "hvac.minisplit_install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-22",
-          "successor_earliest_finish": "2026-12-22"
+          "successor_earliest_start": "2026-12-28",
+          "successor_earliest_finish": "2026-12-28"
         }
       ]
     },
@@ -4294,10 +4322,10 @@
         ],
         "reasoning": "Finish plumbing after cabinets, flooring, tile grout."
       },
-      "scheduled_start": "2026-12-23",
-      "scheduled_end": "2026-12-28",
-      "earliest_start": "2026-12-23",
-      "latest_start": "2026-12-28",
+      "scheduled_start": "2026-12-29",
+      "scheduled_end": "2026-12-30",
+      "earliest_start": "2026-12-29",
+      "latest_start": "2026-12-30",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -4314,8 +4342,8 @@
           "successor_id": "paint.phase_2",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-29",
-          "successor_earliest_finish": "2026-12-29"
+          "successor_earliest_start": "2026-12-31",
+          "successor_earliest_finish": "2026-12-31"
         }
       ]
     },
@@ -4352,10 +4380,10 @@
         ],
         "reasoning": "Mini-split day-of. Serialized after electrical.finish per 2-trades-max stagger rule."
       },
-      "scheduled_start": "2026-12-22",
-      "scheduled_end": "2026-12-22",
-      "earliest_start": "2026-12-22",
-      "latest_start": "2026-12-29",
+      "scheduled_start": "2026-12-28",
+      "scheduled_end": "2026-12-28",
+      "earliest_start": "2026-12-28",
+      "latest_start": "2026-12-31",
       "float_days": 3,
       "status": "not_started",
       "actual_start": null,
@@ -4394,10 +4422,10 @@
         "rule_ids": [],
         "reasoning": "Shower glass after tile grout + fab."
       },
-      "scheduled_start": "2026-12-23",
-      "scheduled_end": "2026-12-23",
-      "earliest_start": "2026-12-23",
-      "latest_start": "2027-01-11",
+      "scheduled_start": "2026-12-29",
+      "scheduled_end": "2026-12-29",
+      "earliest_start": "2026-12-29",
+      "latest_start": "2027-01-13",
       "float_days": 10,
       "status": "not_started",
       "actual_start": null,
@@ -4432,10 +4460,10 @@
         "rule_ids": [],
         "reasoning": "PM walkthrough after substantial completion."
       },
-      "scheduled_start": "2026-12-30",
-      "scheduled_end": "2026-12-30",
-      "earliest_start": "2026-12-30",
-      "latest_start": "2026-12-31",
+      "scheduled_start": "2027-01-04",
+      "scheduled_end": "2027-01-04",
+      "earliest_start": "2027-01-04",
+      "latest_start": "2027-01-05",
       "float_days": 1,
       "status": "not_started",
       "actual_start": null,
@@ -4452,8 +4480,8 @@
           "successor_id": "closeout.punch_work",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2026-12-31",
-          "successor_earliest_finish": "2027-01-04"
+          "successor_earliest_start": "2027-01-05",
+          "successor_earliest_finish": "2027-01-06"
         }
       ]
     },
@@ -4479,10 +4507,10 @@
         "rule_ids": [],
         "reasoning": "Combined punch trade returns."
       },
-      "scheduled_start": "2026-12-31",
-      "scheduled_end": "2027-01-04",
-      "earliest_start": "2026-12-31",
-      "latest_start": "2026-12-31",
+      "scheduled_start": "2027-01-05",
+      "scheduled_end": "2027-01-06",
+      "earliest_start": "2027-01-05",
+      "latest_start": "2027-01-05",
       "float_days": 0.5,
       "status": "not_started",
       "actual_start": null,
@@ -4499,8 +4527,8 @@
           "successor_id": "closeout.final_clean",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-01-05",
-          "successor_earliest_finish": "2027-01-05"
+          "successor_earliest_start": "2027-01-07",
+          "successor_earliest_finish": "2027-01-07"
         }
       ]
     },
@@ -4526,10 +4554,10 @@
         "rule_ids": [],
         "reasoning": "Final clean before final inspection."
       },
-      "scheduled_start": "2027-01-05",
-      "scheduled_end": "2027-01-05",
-      "earliest_start": "2027-01-05",
-      "latest_start": "2027-01-05",
+      "scheduled_start": "2027-01-07",
+      "scheduled_end": "2027-01-07",
+      "earliest_start": "2027-01-07",
+      "latest_start": "2027-01-07",
       "float_days": 0.5,
       "status": "not_started",
       "actual_start": null,
@@ -4546,8 +4574,8 @@
           "successor_id": "inspect.final_bundled",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2027-01-07",
-          "successor_earliest_finish": "2027-01-07"
+          "successor_earliest_start": "2027-01-11",
+          "successor_earliest_finish": "2027-01-11"
         }
       ]
     },
@@ -4576,10 +4604,10 @@
         ],
         "reasoning": "One inspector, one day, all finals."
       },
-      "scheduled_start": "2027-01-07",
-      "scheduled_end": "2027-01-07",
-      "earliest_start": "2027-01-07",
-      "latest_start": "2027-01-07",
+      "scheduled_start": "2027-01-11",
+      "scheduled_end": "2027-01-11",
+      "earliest_start": "2027-01-11",
+      "latest_start": "2027-01-11",
       "float_days": 0.5,
       "status": "not_started",
       "actual_start": null,
@@ -4596,8 +4624,8 @@
           "successor_id": "closeout.wills_walkthrough",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2027-01-11",
-          "successor_earliest_finish": "2027-01-11"
+          "successor_earliest_start": "2027-01-13",
+          "successor_earliest_finish": "2027-01-13"
         }
       ]
     },
@@ -4626,10 +4654,10 @@
         ],
         "reasoning": "Will's personal final walkthrough — end of project."
       },
-      "scheduled_start": "2027-01-11",
-      "scheduled_end": "2027-01-11",
-      "earliest_start": "2027-01-11",
-      "latest_start": "2027-01-11",
+      "scheduled_start": "2027-01-13",
+      "scheduled_end": "2027-01-13",
+      "earliest_start": "2027-01-13",
+      "latest_start": "2027-01-13",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -4663,10 +4691,10 @@
         "rule_ids": [],
         "reasoning": "PM directive: schedule meeting with Howie one week (5 working days) after dried-in milestone. Trigger phrase 'one week after dried in milestone' → FS on milestone.dried_in with lag_days: 5 (1 working week). Meeting is single-point coordination event, duration_days: 1."
       },
-      "scheduled_start": "2026-11-18",
-      "scheduled_end": "2026-11-18",
-      "earliest_start": "2026-11-18",
-      "latest_start": "2027-01-08",
+      "scheduled_start": "2026-11-20",
+      "scheduled_end": "2026-11-20",
+      "earliest_start": "2026-11-20",
+      "latest_start": "2027-01-12",
       "float_days": 32.5,
       "status": "not_started",
       "actual_start": null,
@@ -4703,38 +4731,8 @@
       "scheduled_start": "2026-09-01",
       "scheduled_end": "2026-09-01",
       "earliest_start": "2026-09-01",
-      "latest_start": "2027-01-08",
+      "latest_start": "2027-01-12",
       "float_days": 87.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
-      "id": "pm.meet_amanda_tdec",
-      "name": "Meeting with Amanda (John's wife) — 5 days after TDEC septic permit start",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: meeting with Amanda 5 days after start of TDEC (SS+5). Trigger word 'after start of' → SS dependency with positive lag."
-      },
-      "scheduled_start": "2026-09-04",
-      "scheduled_end": "2026-09-04",
-      "earliest_start": "2026-09-04",
-      "latest_start": "2027-01-08",
-      "float_days": 84.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -5024,6 +5022,67 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 1% of tasks (1/99). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 1% of tasks (1/98). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+  ],
+  "holidays_used": [
+    "2026-01-01",
+    "2026-05-25",
+    "2026-06-19",
+    "2026-07-04",
+    "2026-09-07",
+    "2026-11-09",
+    "2026-11-11",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-12-24",
+    "2026-12-25",
+    "2026-12-26",
+    "2027-01-01",
+    "2027-05-31",
+    "2027-06-19",
+    "2027-07-04",
+    "2027-09-06",
+    "2027-11-08",
+    "2027-11-11",
+    "2027-11-25",
+    "2027-11-26",
+    "2027-12-24",
+    "2027-12-25",
+    "2027-12-26",
+    "2028-01-01",
+    "2028-05-29",
+    "2028-06-19",
+    "2028-07-04",
+    "2028-09-04",
+    "2028-11-11",
+    "2028-11-13",
+    "2028-11-23",
+    "2028-11-24",
+    "2028-12-24",
+    "2028-12-25",
+    "2028-12-26",
+    "2029-01-01",
+    "2029-05-28",
+    "2029-06-19",
+    "2029-07-04",
+    "2029-09-03",
+    "2029-11-11",
+    "2029-11-12",
+    "2029-11-22",
+    "2029-11-23",
+    "2029-12-24",
+    "2029-12-25",
+    "2029-12-26",
+    "2030-01-01",
+    "2030-05-27",
+    "2030-06-19",
+    "2030-07-04",
+    "2030-09-02",
+    "2030-11-11",
+    "2030-11-22",
+    "2030-11-28",
+    "2030-12-24",
+    "2030-12-25",
+    "2030-12-26"
   ]
 }
