@@ -1899,27 +1899,6 @@
       }
     },
     {
-      "id": "pm.john_meeting_siding_done",
-      "section_id": "exterior_finishes",
-      "name": "Meeting with John — one week after vinyl siding install complete",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "exterior.siding",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "exterior_finishes",
-        "rule_ids": [],
-        "reasoning": "PM directive: set a meeting with John one week (5 working days) after vinyl siding install (exterior.siding) is complete."
-      }
-    },
-    {
       "id": "plumbing.tank_set",
       "phase_id": "rough_trades",
       "component_id": "rough_plumbing",
