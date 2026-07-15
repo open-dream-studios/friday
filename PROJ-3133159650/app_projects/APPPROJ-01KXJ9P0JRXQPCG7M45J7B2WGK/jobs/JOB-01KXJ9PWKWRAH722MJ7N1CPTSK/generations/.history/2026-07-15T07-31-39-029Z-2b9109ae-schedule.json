@@ -4399,31 +4399,6 @@
           "lag_days": 1
         }
       ]
-    },
-    {
-      "id": "customer.call_howie",
-      "name": "Call Howie — 2 days before job start",
-      "phase_id": "pre_construction",
-      "component_id": "customer_touchpoints",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "pre_construction_offset_working_days": 2,
-      "depends_on": [],
-      "derived_from": {
-        "section_id": "customer_touchpoints",
-        "rule_ids": [],
-        "reasoning": "PM directive: add a meeting with Howie 2 days before job start. Modeled as a pre-construction customer touchpoint task with pre_construction_offset_working_days: 2 so CPM pins it 2 working days before on-site start, mirroring the existing customer.call_ben pattern."
-      },
-      "scheduled_start": "2026-10-08",
-      "scheduled_end": "2026-10-08",
-      "earliest_start": "2026-10-08",
-      "latest_start": "2027-01-25",
-      "float_days": 72,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
     }
   ],
   "critical_path": [
@@ -4702,6 +4677,6 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 14% of tasks (13/91). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 14% of tasks (13/90). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ]
 }

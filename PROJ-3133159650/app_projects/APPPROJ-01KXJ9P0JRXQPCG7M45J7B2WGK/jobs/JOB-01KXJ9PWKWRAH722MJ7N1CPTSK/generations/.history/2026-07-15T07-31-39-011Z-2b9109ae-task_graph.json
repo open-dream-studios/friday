@@ -2637,23 +2637,6 @@
         ],
         "reasoning": "Will's personal final walkthrough with the customer — last touchpoint per addition rules."
       }
-    },
-    {
-      "id": "customer.call_howie",
-      "name": "Call Howie — 2 days before job start",
-      "phase_id": "pre_construction",
-      "component_id": "customer_touchpoints",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "pre_construction_offset_working_days": 2,
-      "depends_on": [],
-      "derived_from": {
-        "section_id": "customer_touchpoints",
-        "rule_ids": [],
-        "reasoning": "PM directive: add a meeting with Howie 2 days before job start. Modeled as a pre-construction customer touchpoint task with pre_construction_offset_working_days: 2 so CPM pins it 2 working days before on-site start, mirroring the existing customer.call_ben pattern."
-      }
     }
   ],
   "warnings": [
