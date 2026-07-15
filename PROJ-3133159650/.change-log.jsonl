@@ -295,3 +295,4 @@
 {"ts":"2026-07-15T01:37:57.454Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-07-15T01:52:12.611Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"},{"kind":"job","id":"JOB-01KXFPGEEC0WPPWXGDTMP8TWRJ","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-07-15T02:09:36.850Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-07-15T02:48:09.977Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"},{"kind":"job","id":"JOB-01KXFPGEEC0WPPWXGDTMP8TWRJ","action":"update","change_kind":"job_document"}]}
