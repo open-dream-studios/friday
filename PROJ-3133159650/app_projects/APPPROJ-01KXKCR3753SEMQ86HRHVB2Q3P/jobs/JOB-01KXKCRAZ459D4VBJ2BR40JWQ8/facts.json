@@ -1,1 +1,357 @@
-{}
+{
+  "f_01KXKCZYP83Q7DE3W6AX3QMSBW": {
+    "id": "f_01KXKCZYP83Q7DE3W6AX3QMSBW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "job_type_description",
+    "content": "This job is a Two-Story Addition (approx. 30'×10') plus Bedroom Remodel at 308 Evergreen Street, Church Hill, TN, per scope.pdf.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP897HRG75GDWE4B6GH": {
+    "id": "f_01KXKCZYP897HRG75GDWE4B6GH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "The job is scheduled to start 2026-10-12 per data.json.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP8B17A65CVSDGPWJ29": {
+    "id": "f_01KXKCZYP8B17A65CVSDGPWJ29",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "job_total_estimate",
+    "content": "The grand total cost estimate for this job is $100,778.92 ($45,167.59 labor + $52,171.33 materials + $3,440.00 equipment).",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP97CAX35SPHWC2ZZHP": {
+    "id": "f_01KXKCZYP97CAX35SPHWC2ZZHP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "job_total_labor_hours",
+    "content": "Total estimated labor hours for this job are 1,287 hours across all sections.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP9XW2D4JANBVZSQBXM": {
+    "id": "f_01KXKCZYP9XW2D4JANBVZSQBXM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "addition_footprint_and_spaces",
+    "content": "The addition is approximately 30'×10' two-story, adding basement-level storage, 2nd-floor primary bedroom expansion, master bathroom, and walk-in closet.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP95Y5DJ87MWAJ5N2BW": {
+    "id": "f_01KXKCZYP95Y5DJ87MWAJ5N2BW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "septic_tdec_scope_status",
+    "content": "Scope explicitly calls for a TDEC septic evaluation (relocation, new tank/leach field, or grinder pump to sewer connection); these costs are excluded from the $100,778.92 estimate and flagged as a change order.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP9YH8M0D3PEZCMRTM7": {
+    "id": "f_01KXKCZYP9YH8M0D3PEZCMRTM7",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "roof_pitch_tie_in",
+    "content": "The new addition gable roof is specified at approximately 3/12 pitch tying into the existing 6/12 pitch roof; truss vs. rafter framing is TBD in design phase.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP9SJ1Z9PR0R8Q8NGP7": {
+    "id": "f_01KXKCZYP9SJ1Z9PR0R8Q8NGP7",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "Scope calls for one engineered LVL beam (3-ply 14\") spanning approximately 15'-6\" to open a load-bearing wall, including temporary shoring.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP96AH7V8ZWH8E4B8EN": {
+    "id": "f_01KXKCZYP96AH7V8ZWH8E4B8EN",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "subpanel_spec",
+    "content": "Electrical scope includes one new 100-amp subpanel with full rough-in and trim-out.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYP95NMVSJVN1PRMVBP1": {
+    "id": "f_01KXKCZYP95NMVSJVN1PRMVBP1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "hvac_type_confirmed",
+    "content": "HVAC for the addition is a mini-split system per breakdown section title 'HVAC – Mini Split, Tankless WH & Relocations'.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPAC267Z0S9GTRZHD32": {
+    "id": "f_01KXKCZYPAC267Z0S9GTRZHD32",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "heat_pump_relocation_in_scope",
+    "content": "Scope requires relocating the existing heat pump and electrical disconnect before demo begins.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPAHKXWHSN44FAS0ZBV": {
+    "id": "f_01KXKCZYPAHKXWHSN44FAS0ZBV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "window_count_and_spec",
+    "content": "Exterior envelope includes 4 windows (three 36\"×60\" + one transom) and one new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPA7ZBNM8W4KC6K3T3Z": {
+    "id": "f_01KXKCZYPA7ZBNM8W4KC6K3T3Z",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "elevator_shaft_scope",
+    "content": "Framing scope includes one future elevator shaft (approx. 4'×4'); the elevator system itself is explicitly excluded from this contract.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPA72RG2PTY4S66RM8K": {
+    "id": "f_01KXKCZYPA72RG2PTY4S66RM8K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "tankless_wh_scope_ambiguity",
+    "content": "Breakdown section is titled 'HVAC – Mini Split, Tankless WH & Relocations' (implying new tankless installation) but scope text only references extending the existing gas water heater vent through the new roof — the two documents are inconsistent on whether a new tankless unit is being installed.",
+    "confidence": 0.85,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPAAZHECD8Q8A907R63": {
+    "id": "f_01KXKCZYPAAZHECD8Q8A907R63",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "negative_section_hall_bath",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section carries a -$1,714.20 section total driven by -$4,199.00 in material cost, despite 72 labor hours — the negative material figure is unexplained.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPAE7B2H60NRBWV69GY": {
+    "id": "f_01KXKCZYPAE7B2H60NRBWV69GY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "exterior_facade_drawing_callout",
+    "content": "Drawings (Sheet A-02) include the callout 'ADD BRICK TO MATCH EXISTING' at the base of the addition, while scope describes vinyl siding to match existing — the relationship between brick veneer and siding is not reconciled in scope text.",
+    "confidence": 0.9,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "f_01KXKCZYPAVWWZ6N5DAAT3YQYT": {
+    "id": "f_01KXKCZYPAVWWZ6N5DAAT3YQYT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "drawings_deck_not_in_scope",
+    "content": "Drawings show a multi-level deck and stair system on the right/rear elevation of the addition; deck construction is not mentioned in scope.pdf.",
+    "confidence": 0.9,
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+      }
+    ],
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  }
+}

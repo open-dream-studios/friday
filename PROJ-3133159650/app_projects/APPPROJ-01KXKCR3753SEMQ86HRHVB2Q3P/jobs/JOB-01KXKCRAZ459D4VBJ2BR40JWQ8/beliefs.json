@@ -1,1 +1,65 @@
-{}
+{
+  "b_01KXKCZYPA9HWTFEJTPY2TXX9J": {
+    "id": "b_01KXKCZYPA9HWTFEJTPY2TXX9J",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "tdec_septic_schedule_criticality",
+    "content": "With a 2026-10-12 start date and TDEC typically requiring 4–6 weeks end-to-end, contact with TDEC must be initiated by approximately 2026-08-31 — only 47 calendar days from today (2026-07-15). If the property is on septic and TDEC has not been contacted, the start date is at risk.",
+    "kind": "predictive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXKCZYP95Y5DJ87MWAJ5N2BW",
+      "f_01KXKCZYP897HRG75GDWE4B6GH"
+    ],
+    "falsification_test": "If the property is confirmed on city sewer, TDEC is not needed. Or if TDEC has already been contacted and is in process, the risk is reduced.",
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "last_verified_at": "2026-07-15T17:25:33.962Z",
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "b_01KXKCZYPBVX81WAMG62ZFFXE0": {
+    "id": "b_01KXKCZYPBVX81WAMG62ZFFXE0",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "winter_exterior_schedule_risk",
+    "content": "A 2026-10-12 start on a 10–16 week addition will push exterior phases (roofing, siding, framing dry-in) into late November through early February 2027, overlapping TCR's weather-sensitive window (mid-Dec through mid-Feb). A 20% weather buffer will extend the schedule further into winter.",
+    "kind": "predictive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXKCZYP897HRG75GDWE4B6GH",
+      "f_01KXKCZYP9XW2D4JANBVZSQBXM"
+    ],
+    "falsification_test": "If the exterior shell can be completed within ~6 weeks of on-site start (before mid-November), the weather risk is avoided.",
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "last_verified_at": "2026-07-15T17:25:33.962Z",
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  },
+  "b_01KXKCZYPBXW87YPRJEFSKGR9K": {
+    "id": "b_01KXKCZYPBXW87YPRJEFSKGR9K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "septic_cost_exposure_to_customer",
+    "content": "The TDEC septic evaluation and any required septic work (relocation, new tank, or sewer connection) represent an open-ended change order exposure that is currently excluded from the customer's $100,778.92 estimate. It is unclear whether the customer has been formally advised of this potential additional cost.",
+    "kind": "descriptive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXKCZYP95Y5DJ87MWAJ5N2BW",
+      "f_01KXKCZYP8B17A65CVSDGPWJ29"
+    ],
+    "falsification_test": "A signed change order acknowledgment or written customer confirmation of the septic exclusion would resolve this.",
+    "created_at": "2026-07-15T17:25:33.962Z",
+    "updated_at": "2026-07-15T17:25:33.962Z",
+    "last_verified_at": "2026-07-15T17:25:33.962Z",
+    "derived_from_sha": "0d4f5fcb4acc0c78047f6917d3bde9e1aa3d8065"
+  }
+}
