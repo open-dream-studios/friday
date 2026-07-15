@@ -2128,8 +2128,8 @@
       "scheduled_start": "2026-11-11",
       "scheduled_end": "2026-11-12",
       "earliest_start": "2026-11-11",
-      "latest_start": "2026-12-15",
-      "float_days": 21.5,
+      "latest_start": "2026-12-21",
+      "float_days": 26,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -2161,8 +2161,8 @@
       "scheduled_start": "2026-11-12",
       "scheduled_end": "2026-11-13",
       "earliest_start": "2026-11-12",
-      "latest_start": "2026-12-16",
-      "float_days": 21.5,
+      "latest_start": "2026-12-28",
+      "float_days": 27.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -2196,8 +2196,8 @@
       "scheduled_start": "2026-11-11",
       "scheduled_end": "2026-11-12",
       "earliest_start": "2026-11-11",
-      "latest_start": "2026-12-16",
-      "float_days": 23,
+      "latest_start": "2026-12-21",
+      "float_days": 26,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -2235,8 +2235,8 @@
       "scheduled_start": "2026-11-12",
       "scheduled_end": "2026-11-12",
       "earliest_start": "2026-11-12",
-      "latest_start": "2026-12-17",
-      "float_days": 23,
+      "latest_start": "2026-12-22",
+      "float_days": 26,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -2301,37 +2301,8 @@
       "scheduled_start": "2026-11-16",
       "scheduled_end": "2026-11-18",
       "earliest_start": "2026-11-16",
-      "latest_start": "2026-12-17",
-      "float_days": 21.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
-      "id": "pm.john_meeting_siding_done",
-      "section_id": "exterior_finishes",
-      "name": "Meeting with John — one week after vinyl siding install complete",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "exterior.siding",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "exterior_finishes",
-        "rule_ids": [],
-        "reasoning": "PM directive: set a meeting with John one week (5 working days) after vinyl siding install (exterior.siding) is complete."
-      },
-      "scheduled_start": "2026-11-30",
-      "scheduled_end": "2026-11-30",
-      "earliest_start": "2026-11-30",
-      "latest_start": "2026-12-31",
-      "float_days": 21.5,
+      "latest_start": "2026-12-29",
+      "float_days": 27.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -3748,6 +3719,6 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 37% of tasks (37/99). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 38% of tasks (37/98). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ]
 }
