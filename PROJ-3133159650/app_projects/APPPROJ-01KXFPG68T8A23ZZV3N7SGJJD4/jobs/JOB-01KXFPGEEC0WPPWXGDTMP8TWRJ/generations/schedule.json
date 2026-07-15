@@ -397,36 +397,6 @@
       "actual_end": null
     },
     {
-      "id": "pm.john_meeting",
-      "section_id": "customer_payment_prep",
-      "name": "Meeting with Amanda (John's wife) — one week after job start",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "general.site_setup",
-          "type": "FS",
-          "lag_days": 3
-        }
-      ],
-      "derived_from": {
-        "section_id": "customer_payment_prep",
-        "rule_ids": [],
-        "reasoning": "PM directive: include a meeting with John one week after job start. Anchored to general.site_setup (the first on-site task) with a 5-working-day FS lag to land one week (5 working days) after job start."
-      },
-      "pinned_start_date": "2026-10-19",
-      "scheduled_start": "2026-10-19",
-      "scheduled_end": "2026-10-19",
-      "earliest_start": "2026-10-19",
-      "latest_start": "2027-01-12",
-      "float_days": 54.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
       "id": "order.windows",
       "phase_id": "procurement_long_leads",
       "component_id": "procurement_windows",
@@ -5119,7 +5089,7 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 1% of tasks (1/101). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 1% of tasks (1/100). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ],
   "holidays_used": [
     "2026-01-01",
