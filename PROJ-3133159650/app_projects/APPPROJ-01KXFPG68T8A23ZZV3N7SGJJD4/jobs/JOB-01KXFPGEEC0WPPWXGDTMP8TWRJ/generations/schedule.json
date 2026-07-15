@@ -241,11 +241,11 @@
         "rule_ids": [],
         "reasoning": "PM directive: add a meeting with Will one week after TDEC permit process begins. Positioned 5 working days (one week) after the SS start of permit.tdec_septic."
       },
-      "scheduled_start": "2026-10-09",
-      "scheduled_end": "2026-10-09",
-      "earliest_start": "2026-10-09",
+      "scheduled_start": "2026-09-04",
+      "scheduled_end": "2026-09-04",
+      "earliest_start": "2026-09-04",
       "latest_start": "2027-01-12",
-      "float_days": 60.5,
+      "float_days": 84.5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null
@@ -5088,7 +5088,6 @@
   ],
   "reflow_warnings": [
     "Task \"pm.will_meeting_tdec_start\" auto-classified as pre_construction: no explicit phase_id, but all its predecessors are pre-construction tasks. Add `phase_id: \"pre_construction\"` explicitly in the LLM's next output to make this deterministic.",
-    "Pre-construction task \"pm.will_meeting_tdec_start\" has no downstream consumer and no pre_construction_offset_working_days hint — anchored to end at on-site start as a fallback. Wire it to a real consumer or set an explicit offset for precise placement.",
     "[CPM] Critical path covers only 1% of tasks (1/100). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ],
   "holidays_used": [
