@@ -1892,27 +1892,6 @@
       }
     },
     {
-      "id": "pm.john_meeting_dried_in",
-      "section_id": "envelope",
-      "name": "Meeting with John — one week after dried-in milestone",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "milestone.dried_in",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "envelope",
-        "rule_ids": [],
-        "reasoning": "PM directive: set a meeting with John one week (5 working days) after the dried-in milestone."
-      }
-    },
-    {
       "id": "exterior.siding",
       "phase_id": "structural_and_shell",
       "component_id": "exterior_finishes",
