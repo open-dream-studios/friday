@@ -408,7 +408,7 @@
         {
           "predecessor_id": "general.site_setup",
           "type": "FS",
-          "lag_days": 5
+          "lag_days": 3
         }
       ],
       "derived_from": {
@@ -417,21 +417,14 @@
         "reasoning": "PM directive: include a meeting with John one week after job start. Anchored to general.site_setup (the first on-site task) with a 5-working-day FS lag to land one week (5 working days) after job start."
       },
       "pinned_start_date": "2026-10-19",
-      "scheduled_start": "2026-10-21",
-      "scheduled_end": "2026-10-21",
-      "earliest_start": "2026-10-21",
+      "scheduled_start": "2026-10-19",
+      "scheduled_end": "2026-10-19",
+      "earliest_start": "2026-10-19",
       "latest_start": "2027-01-12",
-      "float_days": 52.5,
+      "float_days": 54.5,
       "status": "not_started",
       "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "general.site_setup",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ]
+      "actual_end": null
     },
     {
       "id": "order.windows",
@@ -1764,13 +1757,6 @@
         }
       ],
       "binding_successors_of_this": [
-        {
-          "successor_id": "pm.john_meeting",
-          "type": "FS",
-          "lag_days": 5,
-          "successor_earliest_start": "2026-10-21",
-          "successor_earliest_finish": "2026-10-21"
-        },
         {
           "successor_id": "prep.electrical_disconnect_relocate",
           "type": "FS",
