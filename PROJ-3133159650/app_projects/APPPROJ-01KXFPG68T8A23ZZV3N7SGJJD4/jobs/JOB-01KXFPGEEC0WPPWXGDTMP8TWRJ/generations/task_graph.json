@@ -355,7 +355,7 @@
       "name": "Verify existing service amperage for subpanel",
       "trade": "general",
       "kind": "work",
-      "duration_days": 2,
+      "duration_days": 1,
       "crew_size": 1,
       "depends_on": [],
       "pre_construction_offset_working_days": 15,
@@ -366,7 +366,15 @@
           "addition-amperage-check"
         ],
         "reasoning": "Subpanel in scope; must confirm existing main service can support new load."
-      }
+      },
+      "edit_notes": [
+        {
+          "at": "2026-07-15T06:10:25.691Z",
+          "reason": "I changed my mind",
+          "rank": "job",
+          "changes": "duration 2wd → 1wd"
+        }
+      ]
     },
     {
       "id": "checkpoint.selections_finalized",
