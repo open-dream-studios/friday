@@ -4706,36 +4706,6 @@
           "lag_days": 1
         }
       ]
-    },
-    {
-      "id": "pm.meet_howie_tdec",
-      "name": "Meeting with Howie — 2 days after TDEC septic permit start",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 2
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: meeting with Howie 2 days after TDEC septic permit starts. Trigger word 'after start' → SS on permit.tdec_septic with lag_days: +2. Duration 1 (single-point meeting)."
-      },
-      "scheduled_start": "2026-09-01",
-      "scheduled_end": "2026-09-01",
-      "earliest_start": "2026-09-01",
-      "latest_start": "2027-01-12",
-      "float_days": 87.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
     }
   ],
   "critical_path": [
@@ -5022,7 +4992,7 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 1% of tasks (1/98). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 1% of tasks (1/97). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ],
   "holidays_used": [
     "2026-01-01",
