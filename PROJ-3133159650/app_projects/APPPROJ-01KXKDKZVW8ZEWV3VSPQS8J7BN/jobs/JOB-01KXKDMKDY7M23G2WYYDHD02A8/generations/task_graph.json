@@ -331,9 +331,9 @@
       "kind": "lead_time",
       "duration_days": 0,
       "crew_size": 0,
-      "lead_time_days": 42,
+      "lead_time_days": 33,
       "depends_on": [],
-      "pre_construction_offset_working_days": 30,
+      "pre_construction_offset_working_days": 24,
       "lead_up_working_days": 0,
       "derived_from": {
         "section_id": "general_conditions",
@@ -341,7 +341,15 @@
           "TDEC"
         ],
         "reasoning": "Scope explicitly calls out TDEC septic inspection; 6-week window with mandatory 30 working day offset."
-      }
+      },
+      "edit_notes": [
+        {
+          "at": "2026-07-15T18:18:13.267Z",
+          "reason": "shorter tdec",
+          "rank": "job",
+          "changes": "lead_time → 33 cal-d · pc_offset → 24wd"
+        }
+      ]
     },
     {
       "id": "prep.amperage_check",
