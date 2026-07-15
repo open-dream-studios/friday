@@ -222,37 +222,6 @@
       "actual_end": null
     },
     {
-      "id": "pm.meet_amanda_tdec",
-      "name": "Meeting with Amanda — 1 week after TDEC permit start",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "pre_construction_offset_working_days": 21,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "pm_directive",
-        "rule_ids": [],
-        "reasoning": "PM directive: 'set a meeting with amanda one week after start of tdec septic permit'. Trigger phrase is 'after start of X' → SS on permit.tdec_septic with lag_days: 5 (1 week = 5 working days). Meeting is a single-point coordination event, so duration_days: 1, crew_size: 1, trade: pm."
-      },
-      "scheduled_start": "2026-09-11",
-      "scheduled_end": "2026-09-11",
-      "earliest_start": "2026-09-11",
-      "latest_start": "2027-01-12",
-      "float_days": 80.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
       "id": "prep.amperage_check",
       "phase_id": "pre_construction",
       "component_id": "amperage_check",
@@ -4969,7 +4938,7 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 1% of tasks (1/97). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 1% of tasks (1/96). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ],
   "holidays_used": [
     "2026-01-01",
