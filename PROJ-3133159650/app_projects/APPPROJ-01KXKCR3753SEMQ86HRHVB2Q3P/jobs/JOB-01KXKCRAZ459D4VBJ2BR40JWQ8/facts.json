@@ -391,5 +391,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXKD472J8RVAVY5CV76NY17N": {
+    "id": "f_01KXKD472J8RVAVY5CV76NY17N",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "answer_to_q_01KXKCZYPECJ6PC13YGG1F7FH9",
+    "content": "New tankless install",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T17:27:53.682Z",
+    "updated_at": "2026-07-15T17:27:53.682Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXKCZYPECJ6PC13YGG1F7FH9",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
