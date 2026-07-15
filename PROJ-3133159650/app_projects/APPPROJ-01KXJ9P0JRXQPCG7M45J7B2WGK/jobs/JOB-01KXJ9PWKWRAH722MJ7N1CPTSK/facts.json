@@ -548,5 +548,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXJA940FVT3CT0H8FE12MBQ3": {
+    "id": "f_01KXJA940FVT3CT0H8FE12MBQ3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "answer_to_q_01KXJA23V0K8R33GQ9MYM5H0X6",
+    "content": "Buffer needed",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T07:18:54.223Z",
+    "updated_at": "2026-07-15T07:18:54.223Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXJA23V0K8R33GQ9MYM5H0X6",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
