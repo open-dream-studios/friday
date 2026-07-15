@@ -348,28 +348,6 @@
       }
     },
     {
-      "id": "pm.meet_howie_tdec",
-      "name": "Meeting with Howie — 1 week after TDEC permit start",
-      "phase_id": "pre_construction",
-      "component_id": "tdec_septic",
-      "trade": "pm",
-      "kind": "coordination",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "permit.tdec_septic",
-          "type": "SS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "tdec_septic",
-        "rule_ids": [],
-        "reasoning": "PM directive: meeting with Howie one week after START of TDEC septic permit. Trigger word 'start of X' + '1 week' → SS on permit.tdec_septic with lag_days=5 (5 working days). Meeting is a single-point event → duration_days=1."
-      }
-    },
-    {
       "id": "prep.amperage_check",
       "phase_id": "pre_construction",
       "component_id": "amperage_check",
