@@ -1,1 +1,23 @@
-{}
+{
+  "b_01KXKDT1D8HPYRKY8RM0EXQWNJ": {
+    "id": "b_01KXKDT1D8HPYRKY8RM0EXQWNJ",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KXKDKZVW8ZEWV3VSPQS8J7BN"
+    },
+    "subject": "job_scope_type",
+    "content": "Based on the attached drawings, the job involves a multi-story addition to an existing two-story brick home, with new exterior siding and brick veneer to match existing — consistent with TCR's home addition work type.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXKDT1D5J9ETYC21J8XY5752",
+      "f_01KXKDT1D5FZMTPMX7HF61MMXK"
+    ],
+    "falsification_test": "A job data.json or scope document that contradicts or narrows the addition scope would falsify this.",
+    "created_at": "2026-07-15T17:39:48.711Z",
+    "updated_at": "2026-07-15T17:39:48.711Z",
+    "last_verified_at": "2026-07-15T17:39:48.711Z",
+    "derived_from_sha": "2d616aca9ba966508fa16849dd4b42c1b8d4e33d"
+  }
+}
