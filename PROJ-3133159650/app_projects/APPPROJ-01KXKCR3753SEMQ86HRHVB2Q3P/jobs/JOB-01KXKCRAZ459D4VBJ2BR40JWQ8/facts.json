@@ -372,5 +372,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KXKD3V8TDR6ZQR2TKCFTEKBG": {
+    "id": "f_01KXKD3V8TDR6ZQR2TKCFTEKBG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKCRAZ459D4VBJ2BR40JWQ8"
+    },
+    "subject": "answer_to_q_01KXKCZYPEBCQX6X9E783TQK9V",
+    "content": "Future item",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T17:27:41.594Z",
+    "updated_at": "2026-07-15T17:27:41.594Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KXKCZYPEBCQX6X9E783TQK9V",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
