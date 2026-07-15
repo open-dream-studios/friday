@@ -1,1 +1,63 @@
-{}
+{
+  "b_01KXJA23TVPZ2BF2BCZ95D8DTG": {
+    "id": "b_01KXJA23TVPZ2BF2BCZ95D8DTG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "tdec_initiation_urgency",
+    "content": "With a 2026-10-12 on-site start and TDEC requiring 4–6 weeks from first contact, the TDEC process must be initiated by approximately 2026-09-01 at the latest; no evidence of TDEC contact exists yet, making this immediately actionable.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KXJA23TTY2XBFE6120M9KE5D",
+      "f_01KXJA23TSX9T24CNM2HMAC8J2"
+    ],
+    "falsification_test": "Evidence that TDEC has already been contacted or that the property is confirmed on city sewer would falsify this.",
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "last_verified_at": "2026-07-15T07:15:04.597Z",
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "b_01KXJA23TVT0JXPBHX3HKFAPNY": {
+    "id": "b_01KXJA23TVT0JXPBHX3HKFAPNY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "hall_bath_section_credit_interpretation",
+    "content": "The negative $1,714.20 total on the hall bath / bedroom remodel / closeout section most likely reflects a material credit or scope reduction absorbed elsewhere in the estimate, not an error — but the combination of large negative total with 72 labor hours is unusual and warrants PM confirmation.",
+    "kind": "descriptive",
+    "confidence": 0.7,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXJA23TV27VZ99E267YTXCZ5"
+    ],
+    "falsification_test": "PM explaining the specific credit source (e.g., allowance reduction, returned material, deductive change) would confirm or reframe this interpretation.",
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "last_verified_at": "2026-07-15T07:15:04.597Z",
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "b_01KXJA23TWKTPWN9SYWJEG03QK": {
+    "id": "b_01KXJA23TWKTPWN9SYWJEG03QK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "tankless_wh_contract_status",
+    "content": "The tankless water heater appears to be an unanswered option — the breakdown title explicitly labels it as optional and the scope text only describes extending the existing gas WH vent; whether the tankless WH is in contract is unresolved and affects both procurement and plumbing scope.",
+    "kind": "descriptive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KXJA23TT32PVW9SJ314265MY"
+    ],
+    "falsification_test": "A signed contract or PM confirmation explicitly including or excluding the tankless WH would resolve this.",
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "last_verified_at": "2026-07-15T07:15:04.597Z",
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  }
+}

@@ -1,1 +1,362 @@
-{}
+{
+  "f_01KXJA23TRR0NZGZJ1F7XJ0AAC": {
+    "id": "f_01KXJA23TRR0NZGZJ1F7XJ0AAC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "job_total_estimate",
+    "content": "The Simons Addition job has a grand total estimate of $100,778.92 ($45,167.59 labor, $52,171.33 materials, $3,440.00 equipment).",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TS93XJM6V7VX4RHQ76": {
+    "id": "f_01KXJA23TS93XJM6V7VX4RHQ76",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "job_total_labor_hours",
+    "content": "Total estimated labor hours for the Simons Addition are 1,287 hours across all sections.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TSTTHR5ABCZSYFANGT": {
+    "id": "f_01KXJA23TSTTHR5ABCZSYFANGT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "addition_footprint_sf",
+    "content": "The addition footprint is 789 sq ft, described as a two-story structure approximately 30' x 10'.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TSX9T24CNM2HMAC8J2": {
+    "id": "f_01KXJA23TSX9T24CNM2HMAC8J2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "This job is scheduled to start on 2026-10-12.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TSJFSKCVQNWBY5AAFV": {
+    "id": "f_01KXJA23TSJFSKCVQNWBY5AAFV",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "addition_scope_spaces",
+    "content": "The addition includes basement-level storage, 2nd-floor primary bedroom expansion, master bathroom, and walk-in closet.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TTY2XBFE6120M9KE5D": {
+    "id": "f_01KXJA23TTY2XBFE6120M9KE5D",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "tdec_septic_required",
+    "content": "Scope explicitly requires TDEC septic inspection pre-construction and calls for evaluating feasibility of relocation, new tank/leach field, or grinder pump to sewer connection.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TT32PVW9SJ314265MY": {
+    "id": "f_01KXJA23TT32PVW9SJ314265MY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "hvac_type",
+    "content": "HVAC for this job is a mini-split system; a tankless water heater is listed as an option in the breakdown title but scope text only mentions extending the existing gas WH vent through the new roof.",
+    "confidence": 0.85,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      },
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TTPDNAZW47ADHHQN19": {
+    "id": "f_01KXJA23TTPDNAZW47ADHHQN19",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "scope_subpanel",
+    "content": "Scope includes a 100-amp subpanel with full rough-in and trim-out.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TTJV35KVPH8Q8HD0PM": {
+    "id": "f_01KXJA23TTJV35KVPH8Q8HD0PM",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "One LVL beam is in scope: 3-ply 14\", spanning approximately 15'-6\" to open an existing load-bearing wall, with temporary shoring.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TTB4X2RWB49W372WXW": {
+    "id": "f_01KXJA23TTB4X2RWB49W372WXW",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "roof_pitch_tie_in",
+    "content": "New addition roof is approximately 3/12 pitch tying into the existing 6/12 pitch; gable roof with architectural shingles.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TTC50S2MPEA4D3PXF9": {
+    "id": "f_01KXJA23TTC50S2MPEA4D3PXF9",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "window_count_and_spec",
+    "content": "Scope includes 4 windows: three 36\"x60\" units and one transom, plus one new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TTQGA7K0XF08FR0BWE": {
+    "id": "f_01KXJA23TTQGA7K0XF08FR0BWE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "heat_pump_relocation_in_scope",
+    "content": "Scope includes relocating the existing heat pump and electrical disconnect as part of demolition and site work.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TVMB92P3HDZTGBVBDH": {
+    "id": "f_01KXJA23TVMB92P3HDZTGBVBDH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "elevator_shaft_in_scope",
+    "content": "Scope includes framing a future elevator shaft approximately 4'x4'; the elevator itself is excluded.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TV27VZ99E267YTXCZ5": {
+    "id": "f_01KXJA23TV27VZ99E267YTXCZ5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "hall_bath_section_negative_total",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section has a negative total of -$1,714.20 despite 72 labor hours, indicating a credit or scope offset.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TVESPJD7QVMZGDRAKH": {
+    "id": "f_01KXJA23TVESPJD7QVMZGDRAKH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "customer_sibling",
+    "content": "Customer John Simons has a brother named Ben.",
+    "confidence": 0.9,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:notes",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TVPS6HH9J3X5JYD2PN": {
+    "id": "f_01KXJA23TVPS6HH9J3X5JYD2PN",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "designer_of_record",
+    "content": "Drawings are signed by Francisco Guerrero, NCIDQ (Interior Architect) as the designer of record.",
+    "confidence": 0.85,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  },
+  "f_01KXJA23TVEC6EMQGDC3KVVWKZ": {
+    "id": "f_01KXJA23TVEC6EMQGDC3KVVWKZ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXJ9PWKWRAH722MJ7N1CPTSK"
+    },
+    "subject": "addition_siding_spec",
+    "content": "Exterior of addition requires vinyl siding to match existing and brick veneer at base to match existing; exact match on siding is not guaranteed.",
+    "confidence": 1,
+    "created_at": "2026-07-15T07:15:04.597Z",
+    "updated_at": "2026-07-15T07:15:04.597Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      },
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+      }
+    ],
+    "derived_from_sha": "d0230f90736cec2043ad0d5e9f6165327df0e1f0"
+  }
+}
