@@ -3063,51 +3063,6 @@
           "type": "FS",
           "lag_days": 0
         }
-      ],
-      "binding_successors_of_this": [
-        {
-          "successor_id": "pm.john_meeting_dried_in",
-          "type": "FS",
-          "lag_days": 5,
-          "successor_earliest_start": "2026-11-30",
-          "successor_earliest_finish": "2026-11-30"
-        }
-      ]
-    },
-    {
-      "id": "pm.john_meeting_dried_in",
-      "section_id": "envelope",
-      "name": "Meeting with John — one week after dried-in milestone",
-      "trade": "pm",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 1,
-      "depends_on": [
-        {
-          "predecessor_id": "milestone.dried_in",
-          "type": "FS",
-          "lag_days": 5
-        }
-      ],
-      "derived_from": {
-        "section_id": "envelope",
-        "rule_ids": [],
-        "reasoning": "PM directive: set a meeting with John one week (5 working days) after the dried-in milestone."
-      },
-      "scheduled_start": "2026-11-30",
-      "scheduled_end": "2026-11-30",
-      "earliest_start": "2026-11-30",
-      "latest_start": "2027-01-12",
-      "float_days": 28.5,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "milestone.dried_in",
-          "type": "FS",
-          "lag_days": 5
-        }
       ]
     },
     {
@@ -5089,7 +5044,7 @@
     }
   ],
   "reflow_warnings": [
-    "[CPM] Critical path covers only 1% of tasks (1/100). Graph may be over-parallelized — real construction has more serial dependency than people expect."
+    "[CPM] Critical path covers only 1% of tasks (1/99). Graph may be over-parallelized — real construction has more serial dependency than people expect."
   ],
   "holidays_used": [
     "2026-01-01",
