@@ -1,1 +1,64 @@
-{}
+{
+  "b_01KXKE0P8X9H7NX9MYX2N6VD90": {
+    "id": "b_01KXKE0P8X9H7NX9MYX2N6VD90",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "tdec_contact_urgency",
+    "content": "TDEC septic evaluation must be initiated by approximately August 31, 2026 (42 calendar days before the October 12 on-site start). As of July 15, there are ~47 days of margin — tight but workable if action is taken within the next 1–2 weeks.",
+    "kind": "prescriptive",
+    "confidence": 0.95,
+    "status": "active",
+    "supported_by": [
+      "f_01KXKE0P8XJX5EXVVQA367D1NH",
+      "f_01KXKE0P8XWVB3X98Q5G5T496W"
+    ],
+    "falsification_test": "TDEC permit in hand before October 12 with contact initiated after August 31 would falsify — or the property connecting to city sewer eliminating the TDEC requirement entirely.",
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "last_verified_at": "2026-07-15T17:43:26.644Z",
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "b_01KXKE0P8X4TBMJGK2E0KNRHMG": {
+    "id": "b_01KXKE0P8X4TBMJGK2E0KNRHMG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "winter_schedule_feasibility",
+    "content": "An October 12 on-site start for a 10–16 week addition puts exterior framing, roofing, and siding into November–January, overlapping TCR's mid-December through mid-February weather risk window for outdoor-phase work.",
+    "kind": "predictive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KXKE0P8XWVB3X98Q5G5T496W",
+      "f_01KXKE0P8X24GPVY91DT0EGQ6M"
+    ],
+    "falsification_test": "A schedule showing all exterior phases completing before December 15, 2026 would reduce this risk.",
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "last_verified_at": "2026-07-15T17:43:26.644Z",
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "b_01KXKE0P8XBDJ824ZEKQPKYYM8": {
+    "id": "b_01KXKE0P8XBDJ824ZEKQPKYYM8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "retrofit_work_confirmed",
+    "content": "At minimum two retrofit signals are present: the hall bath modification (Signal A — area not in addition objective) and 'Existing Bedroom' drywall (Signal B — 'existing' keyword in breakdown section). These must be isolated into separate Components from new-construction work.",
+    "kind": "descriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KXKE0P8XGCW0FP5PVDYSQKCY"
+    ],
+    "falsification_test": "PM confirming all listed work physically occurs inside the new addition footprint would remove the retrofit classification.",
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "last_verified_at": "2026-07-15T17:43:26.644Z",
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  }
+}

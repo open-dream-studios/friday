@@ -1,1 +1,342 @@
-{}
+{
+  "f_01KXKE0P8WX4F3RMSBDEZJ2YBJ": {
+    "id": "f_01KXKE0P8WX4F3RMSBDEZJ2YBJ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_total_estimate",
+    "content": "The Simons Addition job has a grand total estimated cost of $100,778.92 (labor $45,167.59, materials $52,171.33, equipment $3,440.00).",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8WTKWW937C55ZKRG8E": {
+    "id": "f_01KXKE0P8WTKWW937C55ZKRG8E",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_total_labor_hours",
+    "content": "The Simons Addition breakdown totals 1,287 labor hours across all sections.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8X24GPVY91DT0EGQ6M": {
+    "id": "f_01KXKE0P8X24GPVY91DT0EGQ6M",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_addition_footprint",
+    "content": "The addition footprint is 789 sqft (30'x10' two-story per breakdown metadata), with 8' ceiling height.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XWVB3X98Q5G5T496W": {
+    "id": "f_01KXKE0P8XWVB3X98Q5G5T496W",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "On-site start is scheduled for 2026-10-12.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XJX5EXVVQA367D1NH": {
+    "id": "f_01KXKE0P8XJX5EXVVQA367D1NH",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "tdec_septic_required",
+    "content": "Scope explicitly requires a TDEC septic inspection; grinder pump to sewer line is also under consideration; septic costs are excluded from the estimate and will be change-ordered if needed.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XT52RA1YDZXPXEBHQ": {
+    "id": "f_01KXKE0P8XT52RA1YDZXPXEBHQ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_heat_pump_relocation_required",
+    "content": "Scope requires relocating the existing heat pump and electrical disconnect before demo can begin.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XRHAT1X09ST1KF0J4": {
+    "id": "f_01KXKE0P8XRHAT1X09ST1KF0J4",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_hvac_type",
+    "content": "HVAC for the addition is a mini-split system per scope and breakdown section name.",
+    "confidence": 0.95,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8X22RRENQQ8RXFS9W8": {
+    "id": "f_01KXKE0P8X22RRENQQ8RXFS9W8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_electrical_subpanel",
+    "content": "A 100A electrical subpanel is in scope for the addition.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XSE18REKKCS489TV2": {
+    "id": "f_01KXKE0P8XSE18REKKCS489TV2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_lvl_beam_spec",
+    "content": "Scope includes one 3-ply 14\" LVL beam spanning approximately 15'-6\" to open an existing load-bearing wall, with temporary shoring.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XCT8PWQDJ17CQYA6C": {
+    "id": "f_01KXKE0P8XCT8PWQDJ17CQYA6C",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_roof_tie_in_pitch",
+    "content": "The new addition gable roof is pitched at approximately 3/12 and ties into the existing 6/12 roof.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      },
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XERJ8420WMH37S4P6": {
+    "id": "f_01KXKE0P8XERJ8420WMH37S4P6",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_elevator_shaft",
+    "content": "A future elevator shaft (approx. 4'x4') is to be framed only — the elevator itself is not in scope.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XPKXPZT63844FST01": {
+    "id": "f_01KXKE0P8XPKXPZT63844FST01",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_windows_and_doors",
+    "content": "Scope includes 4 windows (three 36\"x60\", one transom) and one new exterior door.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XGCW0FP5PVDYSQKCY": {
+    "id": "f_01KXKE0P8XGCW0FP5PVDYSQKCY",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_retrofit_hall_bath_signal",
+    "content": "The last breakdown section is titled 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' — hall bath is not in the addition objective areas, triggering Signal A retrofit detection.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XCATZ3R6M1KVDVHBP": {
+    "id": "f_01KXKE0P8XCATZ3R6M1KVDVHBP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_negative_section_total",
+    "content": "The 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section has a negative section total of -$1,714.20 with 72 labor hours.",
+    "confidence": 1,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XE5HDZ9R3CQMQC6SE": {
+    "id": "f_01KXKE0P8XE5HDZ9R3CQMQC6SE",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_water_heater_scope_ambiguity",
+    "content": "Scope text says to extend the existing gas water heater vent through the new roof only (no new WH), but the breakdown CSV title is 'Incl. Tankless WH Option' — these are contradictory.",
+    "confidence": 0.9,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      },
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "f_01KXKE0P8XTDV7HQHXYMYC9CV5": {
+    "id": "f_01KXKE0P8XTDV7HQHXYMYC9CV5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_drawings_designer",
+    "content": "Architectural drawings are by Francisco Guerrero, NCIDQ (Interior Architect), and show at minimum sheets A-01 and A-02 with a deck/stair system on the right/rear elevation.",
+    "confidence": 0.9,
+    "created_at": "2026-07-15T17:43:26.644Z",
+    "updated_at": "2026-07-15T17:43:26.644Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+      }
+    ],
+    "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  }
+}
