@@ -1,0 +1,26 @@
+{
+  "app_project_id": "APPPROJ-01KZ222KF8QAYCBFH35N36KNMT",
+  "name": "328 East Elk Avenue",
+  "project_type": "other",
+  "address": {
+    "line1": "328 East Elk Avenue",
+    "line2": null,
+    "city": "Elizabethton",
+    "state": "Tennessee",
+    "postal_code": "37643",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": null,
+  "lead_employee": {
+    "id": 222,
+    "employee_id": "EMP-01KKSZ0R3G8P0D630KDFDRPN12",
+    "name": "Patrick Fallon",
+    "email": "patrick.fallon@tcrandc.com",
+    "resolved": true
+  }
+}
