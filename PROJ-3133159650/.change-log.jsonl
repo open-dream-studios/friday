@@ -344,3 +344,4 @@
 {"ts":"2026-08-03T01:15:56.064Z","reason":"updated app_project APPPROJ-01KZ222KF8QAYCBFH35N36KNMT (fields: name, customer_id, lead_employee_id, address_line1, address_line2, address_city, address_state, address_postal_code, address_country, notes)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KZ222KF8QAYCBFH35N36KNMT","action":"update","change_kind":"app_project_document"}]}
 {"ts":"2026-08-03T01:38:32.723Z","reason":"created folder \"Test1\" (scope: media)","actor":"user","entities":[]}
 {"ts":"2026-08-03T02:58:30.735Z","reason":"created folder \"jjj\" (scope: documents)","actor":"user","entities":[]}
+{"ts":"2026-08-03T03:59:10.555Z","reason":"created app_project \"42 Rhodes Street\" (id=APPPROJ-01KZ2WCWHSSCQXJ0G5SYZPPY91)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KZ2WCWHSSCQXJ0G5SYZPPY91","action":"update","change_kind":"app_project_document"}]}
