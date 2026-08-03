@@ -1,0 +1,27 @@
+{
+  "app_project_id": "APPPROJ-01KZ3TEJVSCFJ0JNSC698DS0B0",
+  "name": "42 Rennie Road",
+  "project_type": "other",
+  "address": {
+    "line1": "42 Rennie Road",
+    "line2": null,
+    "city": "Hanover",
+    "state": "NH",
+    "postal_code": "03755",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4078,
+    "customer_id": "CUST-01KKTEMT5X58CV2QHDZF2M5AKH",
+    "name": "ella fosters",
+    "phone": "5911232443",
+    "email": "esheilafosters@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": null
+}
