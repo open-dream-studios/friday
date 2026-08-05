@@ -386,6 +386,31 @@
       "component": "exterior_cladding"
     },
     {
+      "id": "wh_vent_extension",
+      "kind": "work",
+      "name": "Extend existing appliance vents through new roof",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "roofing"
+        }
+      ],
+      "notes": "Promoted from an escape-hatch catch on 308 Evergreen (2026-08-05) — the addition roof covered the existing gas WH vent path.",
+      "phase": "exterior_finish",
+      "trade": "hvac",
+      "vetted": true,
+      "trigger": "Include when existing appliance vents (water heater flue, furnace vent, range/dryer exhausts) pass through the new roof area and must be extended per code.",
+      "duration": {
+        "max": 1,
+        "min": 0.5,
+        "hint": "Half-day for a single flue; a day when multiple penetrations need flashing.",
+        "kind": "range",
+        "default": 0.5
+      },
+      "component": "exterior_cladding"
+    },
+    {
       "id": "plumbing_rough",
       "kind": "work",
       "name": "Rough plumbing",
@@ -1042,7 +1067,7 @@
       "order": 10
     }
   ],
-  "version": 2,
+  "version": 3,
   "job_type": "Addition",
   "components": [
     {
