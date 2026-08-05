@@ -9,6 +9,6 @@
   "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
-  "av1_enabled": false,
-  "private_aws": false
+  "av1_enabled": true,
+  "private_aws": true
 }
