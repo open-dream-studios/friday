@@ -359,3 +359,4 @@
 {"ts":"2026-08-03T16:36:27.144Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01KXKDMKDY7M23G2WYYDHD02A8","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-08-05T04:08:53.170Z","reason":"mirror task_structure v1 (Task Graph v2 Phase 0)","actor":"system","entities":[{"kind":"job_definition","id":"task_structure.json","action":"update","change_kind":"job_definition_document"}]}
 {"ts":"2026-08-05T04:38:19.427Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"},{"kind":"job","id":"JOB-01KXKDMKDY7M23G2WYYDHD02A8","action":"update","change_kind":"job_document"}]}
+{"ts":"2026-08-05T15:13:05.297Z","reason":"mirror task_structure v1 (Task Graph v2 Phase 0)","actor":"system","entities":[{"kind":"job_definition","id":"task_structure.json","action":"update","change_kind":"job_definition_document"}]}

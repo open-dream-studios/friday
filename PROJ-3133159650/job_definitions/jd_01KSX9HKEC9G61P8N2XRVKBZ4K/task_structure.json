@@ -8,7 +8,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "job_start"
+          "target": "retro_work.start"
         }
       ],
       "phase": "retro",
@@ -21,7 +21,8 @@
         "hint": "1 day for a single relocation; add a day per additional trade involved.",
         "kind": "range",
         "default": 1
-      }
+      },
+      "component": "retro_work"
     },
     {
       "id": "retro_demo",
@@ -44,7 +45,8 @@
         "hint": "Scale with number of rooms disturbed.",
         "kind": "range",
         "default": 1
-      }
+      },
+      "component": "retro_work"
     },
     {
       "id": "retro_rough_meps",
@@ -67,7 +69,8 @@
         "hint": "1-2 days per trade involved; most retrofits touch one or two trades.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "retro_work"
     },
     {
       "id": "retro_inspection",
@@ -87,7 +90,8 @@
       "duration": {
         "kind": "fixed",
         "default": 1
-      }
+      },
+      "component": "retro_work"
     },
     {
       "id": "retro_drywall",
@@ -110,7 +114,8 @@
         "hint": "Hang/tape/sand cycle — 3 days minimum when any full sheets go up.",
         "kind": "range",
         "default": 3
-      }
+      },
+      "component": "retro_work"
     },
     {
       "id": "retro_finishes",
@@ -133,28 +138,8 @@
         "hint": "A full shower rebuild runs 5-8 days; paint-and-patch only runs 1-2.",
         "kind": "range",
         "default": 3
-      }
-    },
-    {
-      "id": "retro_complete",
-      "kind": "milestone",
-      "name": "Retrofit complete",
-      "links": [
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "retro_finishes"
-        }
-      ],
-      "phase": "retro",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "auto",
-      "duration": {
-        "kind": "fixed",
-        "default": 0
       },
-      "auto_include": true
+      "component": "retro_work"
     },
     {
       "id": "demo_main",
@@ -164,7 +149,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "retro_complete"
+          "target": "main_demo.start"
         }
       ],
       "phase": "demo",
@@ -177,7 +162,8 @@
         "hint": "1 day light site clearing; 3-4 days with concrete sawcut + structure removal.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "main_demo"
     },
     {
       "id": "site_prep",
@@ -190,6 +176,7 @@
           "target": "demo_main"
         }
       ],
+      "notes": "Deliberately overlaps demo's last day (FS -1) — site prep and excavation start the same day demo wraps.",
       "phase": "site_foundation",
       "trade": "general",
       "vetted": true,
@@ -200,7 +187,8 @@
         "hint": "1 day standard; 2 if occupied-home protection is heavy.",
         "kind": "range",
         "default": 1
-      }
+      },
+      "component": "groundwork"
     },
     {
       "id": "excavation",
@@ -213,6 +201,7 @@
           "target": "site_prep"
         }
       ],
+      "notes": "Rock is common in this area — hitting rock becomes a change order, not schedule padding.",
       "phase": "site_foundation",
       "trade": "excavation",
       "vetted": true,
@@ -223,7 +212,8 @@
         "hint": "Scale with footprint and rock risk — Tri-Cities digs hit rock often.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "groundwork"
     },
     {
       "id": "foundation",
@@ -246,7 +236,8 @@
         "hint": "Monolithic slab ~3-4 days including footing inspection; crawlspace/basement walls push toward 7.",
         "kind": "range",
         "default": 4
-      }
+      },
+      "component": "groundwork"
     },
     {
       "id": "framing",
@@ -260,6 +251,7 @@
           "target": "foundation"
         }
       ],
+      "notes": "The 7-calendar-day gap after foundation is cure time before loading. Roof tie-in to existing structure carries concealed-condition risk — document day 1 of roof framing for fast change orders.",
       "phase": "framing_shell",
       "trade": "framing",
       "vetted": true,
@@ -270,7 +262,8 @@
         "hint": "Single-story ~300sqft addition ~5-8 days; two-story or complex roof tie-in pushes 10-15.",
         "kind": "range",
         "default": 8
-      }
+      },
+      "component": "structure_frame"
     },
     {
       "id": "deck_build",
@@ -279,8 +272,8 @@
       "links": [
         {
           "lag": 0,
-          "type": "SS",
-          "target": "framing"
+          "type": "FS",
+          "target": "deck.start"
         }
       ],
       "phase": "framing_shell",
@@ -293,7 +286,8 @@
         "hint": "Simple platform deck 2-3 days; large or railed/covered decks 5-8.",
         "kind": "range",
         "default": 4
-      }
+      },
+      "component": "deck"
     },
     {
       "id": "ext_windows_doors",
@@ -316,7 +310,8 @@
         "hint": "~3 windows/day including flashing.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "structure_frame"
     },
     {
       "id": "roofing",
@@ -326,7 +321,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "ext_windows_doors"
+          "target": "exterior_cladding.start"
         }
       ],
       "phase": "exterior_finish",
@@ -339,7 +334,8 @@
         "hint": "Small addition roof 1-2 days; complex tie-in to existing adds a day.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "exterior_cladding"
     },
     {
       "id": "siding",
@@ -349,7 +345,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "ext_windows_doors"
+          "target": "exterior_cladding.start"
         }
       ],
       "phase": "exterior_finish",
@@ -362,7 +358,8 @@
         "hint": "~250 sqft/day lap siding; matching existing adds time.",
         "kind": "range",
         "default": 4
-      }
+      },
+      "component": "exterior_cladding"
     },
     {
       "id": "fascia_soffit_gutters",
@@ -372,7 +369,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "ext_windows_doors"
+          "target": "exterior_cladding.start"
         }
       ],
       "phase": "exterior_finish",
@@ -385,38 +382,8 @@
         "hint": "Same crew as siding, continuous block.",
         "kind": "range",
         "default": 2
-      }
-    },
-    {
-      "id": "exterior_complete",
-      "kind": "milestone",
-      "name": "Exterior complete",
-      "links": [
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "roofing"
-        },
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "siding"
-        },
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "fascia_soffit_gutters"
-        }
-      ],
-      "phase": "exterior_finish",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "auto",
-      "duration": {
-        "kind": "fixed",
-        "default": 0
       },
-      "auto_include": true
+      "component": "exterior_cladding"
     },
     {
       "id": "plumbing_rough",
@@ -426,9 +393,10 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "exterior_complete"
+          "target": "rough_meps.start"
         }
       ],
+      "notes": "If a water heater is in scope, it gets SET before rough-in begins — the rough-in stubs into the already-set tank.",
       "phase": "rough_trades",
       "trade": "plumbing",
       "vetted": true,
@@ -439,7 +407,8 @@
         "hint": "~4hr per fixture including supply + DWV; a full bath ~3 days.",
         "kind": "range",
         "default": 3
-      }
+      },
+      "component": "rough_meps"
     },
     {
       "id": "hvac_rough",
@@ -462,7 +431,8 @@
         "hint": "Mini-split line set 1 day; duct extension 2-4.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "rough_meps"
     },
     {
       "id": "electrical_rough",
@@ -485,7 +455,8 @@
         "hint": "~6 boxes/hour rough; subpanel adds half a day.",
         "kind": "range",
         "default": 3
-      }
+      },
+      "component": "rough_meps"
     },
     {
       "id": "rough_inspections",
@@ -495,19 +466,10 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "electrical_rough"
-        },
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "plumbing_rough"
-        },
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "hvac_rough"
+          "target": "rough_trades.end"
         }
       ],
+      "notes": "Order within the visit is strict: MEP inspections first, framing LAST (trades drill the framing, so it isn't final until MEPs are in).",
       "phase": "inspections",
       "trade": "inspector",
       "vetted": true,
@@ -518,7 +480,8 @@
         "hint": "Try for one day; plan 2 for scheduling reality.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "rough_inspection"
     },
     {
       "id": "insulation",
@@ -528,9 +491,10 @@
         {
           "lag": 5,
           "type": "FS",
-          "target": "rough_inspections"
+          "target": "inspections.end"
         }
       ],
+      "notes": "Planned +1 week after inspections pass. Game-day the PM often pulls it earlier the moment the framing inspection clears — that's a manual edit, not the plan.",
       "phase": "insulation_drywall",
       "trade": "insulation",
       "vetted": true,
@@ -541,7 +505,8 @@
         "hint": "Batts, 1 day typical for an addition.",
         "kind": "range",
         "default": 1
-      }
+      },
+      "component": "envelope_close"
     },
     {
       "id": "insulation_inspection",
@@ -561,7 +526,8 @@
       "duration": {
         "kind": "fixed",
         "default": 1
-      }
+      },
+      "component": "envelope_close"
     },
     {
       "id": "drywall",
@@ -574,6 +540,7 @@
           "target": "insulation_inspection"
         }
       ],
+      "notes": "No inspections block anything after the insulation inspection — from here the job flows on TCR's own pace until the final inspection at closeout.",
       "phase": "insulation_drywall",
       "trade": "drywall",
       "vetted": true,
@@ -584,7 +551,8 @@
         "hint": "~1 week for a typical addition; scale with sqft + retrofit patching.",
         "kind": "range",
         "default": 5
-      }
+      },
+      "component": "envelope_close"
     },
     {
       "id": "paint_1",
@@ -607,7 +575,8 @@
         "hint": "Mostly priming and wall fixing — 2 days typical.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "envelope_close"
     },
     {
       "id": "shower_work",
@@ -617,7 +586,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "paint_1"
+          "target": "interior_installs.start"
         }
       ],
       "phase": "interior_finish",
@@ -630,7 +599,8 @@
         "hint": "Substrate 1d + set 2-4d + grout 1d for a custom shower.",
         "kind": "range",
         "default": 4
-      }
+      },
+      "component": "interior_installs"
     },
     {
       "id": "flooring_hard",
@@ -643,6 +613,7 @@
           "target": "shower_work"
         }
       ],
+      "notes": "Starts on shower work's last day (1-day overlap) — on bigger houses the crews work different rooms.",
       "phase": "interior_finish",
       "trade": "flooring",
       "vetted": true,
@@ -653,7 +624,8 @@
         "hint": "LVP ~250 sqft/day; hardwood slower.",
         "kind": "range",
         "default": 3
-      }
+      },
+      "component": "interior_installs"
     },
     {
       "id": "fixtures_cabinets",
@@ -666,6 +638,7 @@
           "target": "flooring_hard"
         }
       ],
+      "notes": "This is the 'things that ding walls and need no boots on new floors' block — bring-ins happen after hard flooring, before carpet.",
       "phase": "interior_finish",
       "trade": "cabinets",
       "vetted": true,
@@ -676,7 +649,8 @@
         "hint": "Vanity 0.5d; kitchen run 1.5d; counters add a template+install cycle.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "interior_installs"
     },
     {
       "id": "carpet_floating",
@@ -699,7 +673,8 @@
         "hint": "1 day typical for addition-scale carpet.",
         "kind": "range",
         "default": 1
-      }
+      },
+      "component": "interior_installs"
     },
     {
       "id": "final_trades",
@@ -709,9 +684,10 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "carpet_floating"
+          "target": "final_finish.start"
         }
       ],
+      "notes": "Faucets into vanities, sink hookups, wall electronics — the final connect pass across every trade still on the job.",
       "phase": "interior_finish",
       "trade": "trim_carpentry",
       "vetted": true,
@@ -722,7 +698,8 @@
         "hint": "Trim 2-3d + each finish trade ~1d, staggered max 2 interior trades at once.",
         "kind": "range",
         "default": 4
-      }
+      },
+      "component": "final_finish"
     },
     {
       "id": "stairs",
@@ -745,7 +722,8 @@
         "hint": "Finish carpentry on a straight run ~2 days.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "final_finish"
     },
     {
       "id": "paint_2",
@@ -768,7 +746,8 @@
         "hint": "2 days typical.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "final_finish"
     },
     {
       "id": "substantial_completion",
@@ -781,6 +760,7 @@
           "target": "paint_2"
         }
       ],
+      "notes": "Paint 2 finishing IS substantial completion — the client's 'done' moment. Closeout runs after; the project is functionally complete here.",
       "phase": "interior_finish",
       "trade": "general",
       "vetted": true,
@@ -789,6 +769,7 @@
         "kind": "fixed",
         "default": 0
       },
+      "component": "final_finish",
       "auto_include": true
     },
     {
@@ -799,7 +780,7 @@
         {
           "lag": 0,
           "type": "FS",
-          "target": "paint_2"
+          "target": "exterior_sitework.start"
         }
       ],
       "phase": "sitework",
@@ -812,7 +793,8 @@
         "hint": "Form+pour+strip; scale with area.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "exterior_sitework"
     },
     {
       "id": "landscaping",
@@ -835,7 +817,8 @@
         "hint": "1-2 days restoration; real landscape scope pushes higher.",
         "kind": "range",
         "default": 2
-      }
+      },
+      "component": "exterior_sitework"
     },
     {
       "id": "walkthrough_closeout",
@@ -843,9 +826,9 @@
       "name": "Customer walkthrough & punch list",
       "links": [
         {
-          "lag": 2,
+          "lag": 0,
           "type": "FS",
-          "target": "substantial_completion"
+          "target": "closeout_work.start"
         }
       ],
       "phase": "closeout",
@@ -855,7 +838,8 @@
       "duration": {
         "kind": "fixed",
         "default": 1
-      }
+      },
+      "component": "closeout_work"
     },
     {
       "id": "final_inspection",
@@ -875,7 +859,8 @@
       "duration": {
         "kind": "fixed",
         "default": 1
-      }
+      },
+      "component": "closeout_work"
     },
     {
       "id": "job_complete",
@@ -893,6 +878,7 @@
           "target": "landscaping"
         }
       ],
+      "notes": "Will personally closes every addition with the customer, one working day after the last item finishes — inspection AND landscaping both done.",
       "phase": "closeout",
       "trade": "general",
       "vetted": true,
@@ -901,6 +887,7 @@
         "kind": "fixed",
         "default": 0
       },
+      "component": "closeout_work",
       "auto_include": true
     }
   ],
@@ -909,71 +896,316 @@
       "id": "retro",
       "name": "Retrofit (pre-addition work)",
       "block": "retro",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "job_start"
+        }
+      ],
+      "notes": "Retro work on the EXISTING home completes FULLY before addition demo begins — its own mini-job including MEPs, inspection, and finishes. Empty on jobs with no pre-addition work.",
       "order": 0
     },
     {
       "id": "demo",
       "name": "Demolition",
       "block": "exterior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "retro.end"
+        }
+      ],
+      "notes": "True job start for the addition itself. Building permit must be delivered before demo begins (gate added automatically).",
       "order": 1
     },
     {
       "id": "site_foundation",
       "name": "Site Prep & Foundation",
       "block": "exterior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "demo.end"
+        }
+      ],
       "order": 2
     },
     {
       "id": "framing_shell",
       "name": "Framing & Shell",
       "block": "exterior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "site_foundation.end"
+        }
+      ],
       "order": 3
     },
     {
       "id": "exterior_finish",
       "name": "Exterior Finishes",
       "block": "exterior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "ext_windows_doors"
+        }
+      ],
+      "notes": "Anchored to windows/doors completion — NOT the whole framing phase end, because deck build runs parallel and nothing here waits on the deck.",
       "order": 4
     },
     {
       "id": "rough_trades",
       "name": "Rough Trades (MEPs)",
       "block": "interior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "exterior_finish.end"
+        }
+      ],
+      "notes": "Interior work begins only when the exterior is FULLY finished (siding, roofing, fascia, soffit all done) — current TCR practice, revisit later if we want MEPs to start at dried-in.",
       "order": 5
     },
     {
       "id": "inspections",
       "name": "Rough Inspections",
       "block": "interior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "rough_trades.end"
+        }
+      ],
       "order": 6
     },
     {
       "id": "insulation_drywall",
       "name": "Insulation & Drywall",
       "block": "interior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "inspections.end"
+        }
+      ],
       "order": 7
     },
     {
       "id": "interior_finish",
       "name": "Interior Finishes",
       "block": "interior",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "insulation_drywall.end"
+        }
+      ],
+      "notes": "Everything before this phase is tight and rushed — the whole project waits on each step. From here on, breathing room is OK and fewer mistakes happen. Don't panic-compress interior finishes.",
       "order": 8
     },
     {
       "id": "sitework",
       "name": "Concrete & Landscaping",
       "block": "closeout",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "paint_2"
+        }
+      ],
+      "notes": "Runs parallel with closeout — starts right after paint 2, independent of walkthrough.",
       "order": 9
     },
     {
       "id": "closeout",
       "name": "Closeout",
       "block": "closeout",
+      "links": [
+        {
+          "lag": 2,
+          "type": "FS",
+          "target": "substantial_completion"
+        }
+      ],
       "order": 10
     }
   ],
-  "version": 1,
+  "version": 2,
   "job_type": "Addition",
+  "components": [
+    {
+      "id": "retro_work",
+      "name": "Retrofit Work",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "retro.start"
+        }
+      ],
+      "phase": "retro"
+    },
+    {
+      "id": "main_demo",
+      "name": "Main Demolition",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "demo.start"
+        }
+      ],
+      "phase": "demo"
+    },
+    {
+      "id": "groundwork",
+      "name": "Groundwork",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "site_foundation.start"
+        }
+      ],
+      "phase": "site_foundation"
+    },
+    {
+      "id": "structure_frame",
+      "name": "Structural Framing",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "framing_shell.start"
+        }
+      ],
+      "phase": "framing_shell"
+    },
+    {
+      "id": "deck",
+      "name": "Deck",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "framing"
+        }
+      ],
+      "notes": "Starts alongside framing and runs as its own parallel track — nothing downstream ever waits on the deck.",
+      "phase": "framing_shell"
+    },
+    {
+      "id": "exterior_cladding",
+      "name": "Cladding & Roof",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "exterior_finish.start"
+        }
+      ],
+      "notes": "Roofing, siding, and fascia/soffit/gutters all start together and run in parallel.",
+      "phase": "exterior_finish"
+    },
+    {
+      "id": "rough_meps",
+      "name": "Rough MEPs",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "rough_trades.start"
+        }
+      ],
+      "notes": "Plumbing → HVAC → electrical with 1-day overlaps: each next trade starts on the prior trade's last day.",
+      "phase": "rough_trades"
+    },
+    {
+      "id": "rough_inspection",
+      "name": "Bundled Inspections",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "inspections.start"
+        }
+      ],
+      "phase": "inspections"
+    },
+    {
+      "id": "envelope_close",
+      "name": "Insulation, Drywall & Prime",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "insulation_drywall.start"
+        }
+      ],
+      "phase": "insulation_drywall"
+    },
+    {
+      "id": "interior_installs",
+      "name": "Interior Installs",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "interior_finish.start"
+        }
+      ],
+      "notes": "Order matters: shower work → hard flooring → wall-dinging installs (cabinets/vanities/counters/commodes) → carpet last.",
+      "phase": "interior_finish"
+    },
+    {
+      "id": "final_finish",
+      "name": "Final Trades & Paint 2",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "interior_installs.end"
+        }
+      ],
+      "phase": "interior_finish"
+    },
+    {
+      "id": "exterior_sitework",
+      "name": "Concrete & Landscape",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "sitework.start"
+        }
+      ],
+      "phase": "sitework"
+    },
+    {
+      "id": "closeout_work",
+      "name": "Walkthrough & Final Inspection",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "closeout.start"
+        }
+      ],
+      "phase": "closeout"
+    }
+  ],
   "procurement": [
     {
       "id": "proc_building_permit",
@@ -986,6 +1218,7 @@
     {
       "id": "proc_tdec_septic",
       "name": "TDEC septic permit",
+      "notes": "~6-week TDEC process: contact → soil scientist visit ($500 fee) → soil report → permit. Often the longest lead in the whole job; do NOT break ground without it.",
       "vetted": true,
       "trigger": "Include ONLY when the scope modifies the existing septic system or installs a new one. Adding bedrooms/bathrooms alone does NOT trigger it.",
       "window_days": 70,
@@ -1002,6 +1235,7 @@
     {
       "id": "proc_lvl",
       "name": "LVL / engineered beams",
+      "notes": "Nominal 1-2 weeks but availability swings with the lumber market — early-order rather than halt framing.",
       "vetted": true,
       "trigger": "Include when engineered structural members are on the project.",
       "window_days": 14,
@@ -1018,6 +1252,7 @@
     {
       "id": "proc_subpanel",
       "name": "Subpanel / service equipment",
+      "notes": "Existing main service amperage must be verified before contract — 200A is typical but panel space for the subpanel is the real question.",
       "vetted": true,
       "trigger": "Include when a subpanel or service upgrade is in scope (verify amperage first).",
       "window_days": 10,
@@ -1035,7 +1270,7 @@
       "id": "proc_water_heater",
       "name": "Water heater (tank or tankless)",
       "vetted": true,
-      "trigger": "Include when a water heater is in scope.",
+      "trigger": "Include when a NEW water heater is in scope (serving the addition or replacing existing). Extending an existing WH's vent does NOT trigger this.",
       "window_days": 14,
       "install_node": "plumbing_rough"
     },
@@ -1050,6 +1285,7 @@
     {
       "id": "proc_flooring",
       "name": "Hard flooring",
+      "notes": "Ordering ties to USE date, not job start — interior finish materials wait until the shell is underway.",
       "vetted": true,
       "trigger": "Include when hard flooring is in scope. Order ~3 weeks before install; deliver 2 weeks ahead of use.",
       "window_days": 14,
