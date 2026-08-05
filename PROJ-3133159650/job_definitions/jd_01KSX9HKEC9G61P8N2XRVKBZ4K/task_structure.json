@@ -2,6 +2,13 @@
   "nodes": [
     {
       "id": "retro_relocations",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "hint": "1 tech per trade being relocated plus a helper when lines are long.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
       "links": [
@@ -26,6 +33,12 @@
     },
     {
       "id": "retro_demo",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Retrofit demolition (interior areas outside the addition)",
       "links": [
@@ -50,6 +63,13 @@
     },
     {
       "id": "retro_rough_meps",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "hint": "Usually one 2-man trade crew at a time; 3 only when trades stack.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Retrofit rough MEPs",
       "links": [
@@ -74,6 +94,10 @@
     },
     {
       "id": "retro_inspection",
+      "crew": {
+        "kind": "fixed",
+        "default": 1
+      },
       "kind": "inspection",
       "name": "Retrofit rough inspection",
       "links": [
@@ -95,6 +119,12 @@
     },
     {
       "id": "retro_drywall",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Retrofit drywall & patching",
       "links": [
@@ -119,6 +149,12 @@
     },
     {
       "id": "retro_finishes",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Retrofit finishes (paint, tile, flooring, fixtures)",
       "links": [
@@ -143,6 +179,13 @@
     },
     {
       "id": "demo_main",
+      "crew": {
+        "max": 4,
+        "min": 2,
+        "hint": "Duration hint assumes a 3-man demo crew; drop to 2 for light site clearing.",
+        "kind": "range",
+        "default": 3
+      },
       "kind": "work",
       "name": "Demolition (site + structure at addition footprint)",
       "links": [
@@ -167,6 +210,12 @@
     },
     {
       "id": "site_prep",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Site prep (protection, staging, access)",
       "links": [
@@ -192,6 +241,13 @@
     },
     {
       "id": "excavation",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "hint": "Operator + laborer is the TCR standard dig crew.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Excavation (footings, slab, access)",
       "links": [
@@ -217,6 +273,13 @@
     },
     {
       "id": "foundation",
+      "crew": {
+        "max": 5,
+        "min": 3,
+        "hint": "Duration hint assumes a 4-man concrete crew — forming and pour days need all hands.",
+        "kind": "range",
+        "default": 4
+      },
       "kind": "work",
       "name": "Foundation (form, inspect, pour)",
       "links": [
@@ -241,6 +304,13 @@
     },
     {
       "id": "framing",
+      "crew": {
+        "max": 5,
+        "min": 2,
+        "hint": "3-man frame crew is the TCR baseline the duration hint assumes; two-story or heavy roof tie-in earns 4-5.",
+        "kind": "range",
+        "default": 3
+      },
       "kind": "work",
       "name": "Framing (floor, walls, roof structure, sheathing)",
       "links": [
@@ -267,6 +337,12 @@
     },
     {
       "id": "deck_build",
+      "crew": {
+        "max": 3,
+        "min": 2,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Deck build",
       "links": [
@@ -291,6 +367,13 @@
     },
     {
       "id": "ext_windows_doors",
+      "crew": {
+        "max": 3,
+        "min": 2,
+        "hint": "~3 windows/day is at a 2-man crew.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Exterior windows & doors install",
       "links": [
@@ -315,6 +398,13 @@
     },
     {
       "id": "roofing",
+      "crew": {
+        "max": 5,
+        "min": 2,
+        "hint": "Duration hint assumes 3; a full 5-man crew shingles a small addition in a day.",
+        "kind": "range",
+        "default": 3
+      },
       "kind": "work",
       "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
       "links": [
@@ -339,6 +429,13 @@
     },
     {
       "id": "siding",
+      "crew": {
+        "max": 4,
+        "min": 2,
+        "hint": "~250 sqft/day is at a 2-man crew.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Siding (WRB, siding, tie-in blend)",
       "links": [
@@ -363,6 +460,12 @@
     },
     {
       "id": "fascia_soffit_gutters",
+      "crew": {
+        "max": 3,
+        "min": 2,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Fascia, soffit & gutters",
       "links": [
@@ -387,6 +490,12 @@
     },
     {
       "id": "wh_vent_extension",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "kind": "range",
+        "default": 1
+      },
       "kind": "work",
       "name": "Extend existing appliance vents through new roof",
       "links": [
@@ -412,6 +521,13 @@
     },
     {
       "id": "plumbing_rough",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "hint": "~4hr/fixture pace assumes a 2-man crew (plumber + helper).",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Rough plumbing",
       "links": [
@@ -437,6 +553,12 @@
     },
     {
       "id": "hvac_rough",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Rough HVAC (line set / duct extension)",
       "links": [
@@ -461,6 +583,13 @@
     },
     {
       "id": "electrical_rough",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "hint": "~6 boxes/hour pace assumes a 2-man crew.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Rough electrical (circuits, subpanel, boxes)",
       "links": [
@@ -485,6 +614,10 @@
     },
     {
       "id": "rough_inspections",
+      "crew": {
+        "kind": "fixed",
+        "default": 1
+      },
       "kind": "inspection",
       "name": "Rough inspections (MEPs then framing, bundled)",
       "links": [
@@ -510,6 +643,12 @@
     },
     {
       "id": "insulation",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Insulation & air sealing",
       "links": [
@@ -535,6 +674,10 @@
     },
     {
       "id": "insulation_inspection",
+      "crew": {
+        "kind": "fixed",
+        "default": 1
+      },
       "kind": "inspection",
       "name": "Insulation inspection",
       "links": [
@@ -556,6 +699,13 @@
     },
     {
       "id": "drywall",
+      "crew": {
+        "max": 4,
+        "min": 2,
+        "hint": "The ~1-week duration assumes a 3-man hang/tape/sand crew.",
+        "kind": "range",
+        "default": 3
+      },
       "kind": "work",
       "name": "Drywall (hang, tape, sand)",
       "links": [
@@ -581,6 +731,12 @@
     },
     {
       "id": "paint_1",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Paint phase 1 (prime + wall prep + ceilings)",
       "links": [
@@ -605,6 +761,13 @@
     },
     {
       "id": "shower_work",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "hint": "One tile setter; a helper only on big multi-wall showers.",
+        "kind": "range",
+        "default": 1
+      },
       "kind": "work",
       "name": "Shower work (waterproofing, tile, grout)",
       "links": [
@@ -629,6 +792,13 @@
     },
     {
       "id": "flooring_hard",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "hint": "~250 sqft/day LVP pace is at a 2-man crew.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Hard flooring install (LVP, hardwood, tile floors)",
       "links": [
@@ -654,6 +824,12 @@
     },
     {
       "id": "fixtures_cabinets",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Cabinets, counters, vanities & fixed items",
       "links": [
@@ -679,6 +855,12 @@
     },
     {
       "id": "carpet_floating",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Carpet & floating floors",
       "links": [
@@ -703,6 +885,13 @@
     },
     {
       "id": "final_trades",
+      "crew": {
+        "max": 3,
+        "min": 2,
+        "hint": "Max 2 interior trades on site at once — this crew number is per day, not total heads across the block.",
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Final trades (trim, interior doors, final E/P/M)",
       "links": [
@@ -728,6 +917,12 @@
     },
     {
       "id": "stairs",
+      "crew": {
+        "max": 2,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Stairs (build/finish)",
       "links": [
@@ -752,6 +947,12 @@
     },
     {
       "id": "paint_2",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Paint phase 2 (final coats)",
       "links": [
@@ -799,6 +1000,12 @@
     },
     {
       "id": "concrete_flatwork",
+      "crew": {
+        "max": 4,
+        "min": 2,
+        "kind": "range",
+        "default": 3
+      },
       "kind": "work",
       "name": "Concrete flatwork (patios, driveways, walkways)",
       "links": [
@@ -823,6 +1030,12 @@
     },
     {
       "id": "landscaping",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
       "kind": "work",
       "name": "Landscaping & site restoration",
       "links": [
@@ -847,6 +1060,10 @@
     },
     {
       "id": "walkthrough_closeout",
+      "crew": {
+        "kind": "fixed",
+        "default": 1
+      },
       "kind": "work",
       "name": "Customer walkthrough & punch list",
       "links": [
@@ -868,6 +1085,10 @@
     },
     {
       "id": "final_inspection",
+      "crew": {
+        "kind": "fixed",
+        "default": 1
+      },
       "kind": "inspection",
       "name": "Final inspections (building + E/P/M, bundled)",
       "links": [
@@ -1067,7 +1288,7 @@
       "order": 10
     }
   ],
-  "version": 3,
+  "version": 4,
   "job_type": "Addition",
   "components": [
     {
