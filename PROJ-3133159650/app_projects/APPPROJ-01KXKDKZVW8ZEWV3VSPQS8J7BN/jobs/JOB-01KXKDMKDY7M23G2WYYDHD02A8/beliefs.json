@@ -60,5 +60,46 @@
     "updated_at": "2026-07-15T17:43:26.644Z",
     "last_verified_at": "2026-07-15T17:43:26.644Z",
     "derived_from_sha": "6ef4ebe0fcc4b64ca41167788a410c59f159a688"
+  },
+  "b_01KZ82JSR3G6BP2KVXMGFF523J": {
+    "id": "b_01KZ82JSR3G6BP2KVXMGFF523J",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_scope_ambiguities_resolved",
+    "content": "Most PM-Interview-flagged scope ambiguities (water heater, deck, elevator shaft location, roof tie-in detail, window type, LVL structural dependency, framing method) are now resolved. The septic routing decision and current TDEC contact status remain the two open items blocking pre-construction scheduling confidence.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KZ82JSQZ8B93XGD4BEA7A5AE",
+      "f_01KZ82JSR38C9NXKZRP86DC6ZT"
+    ],
+    "falsification_test": "If a later scope revision reopens any of the resolved items (water heater, deck, elevator, roof tie-in, windows, LVL, framing method), this belief is falsified.",
+    "created_at": "2026-08-05T04:23:22.018Z",
+    "updated_at": "2026-08-05T04:23:22.018Z",
+    "last_verified_at": "2026-08-05T04:23:22.018Z",
+    "derived_from_sha": "d50d5a501b5c683ca7d8e2902858d59cd8896026"
+  },
+  "b_01KZ82JSR37FW0HMWQA9GERVB3": {
+    "id": "b_01KZ82JSR37FW0HMWQA9GERVB3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "hall_bath_early_item_vs_retrofit_split",
+    "content": "Per job_definition Rule 4V (which cites this exact job as its worked example), the guest/hall bath shower swap must be scheduled as a customer_early_items task in site_prep before main demo, while any other hall bath retrofit work (window infill, drywall patch, repaint) belongs in its own hall_bath_mod component in interior_finishes — same room, two separate schedule buckets.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KZ82JSR3YCKVR44REDPZBDK7"
+    ],
+    "falsification_test": "If the PM confirms the hall bath section in the breakdown is a different physical room from the guest bathroom shower swap, this split does not apply the same way.",
+    "created_at": "2026-08-05T04:23:22.018Z",
+    "updated_at": "2026-08-05T04:23:22.018Z",
+    "last_verified_at": "2026-08-05T04:23:22.018Z",
+    "derived_from_sha": "d50d5a501b5c683ca7d8e2902858d59cd8896026"
   }
 }
