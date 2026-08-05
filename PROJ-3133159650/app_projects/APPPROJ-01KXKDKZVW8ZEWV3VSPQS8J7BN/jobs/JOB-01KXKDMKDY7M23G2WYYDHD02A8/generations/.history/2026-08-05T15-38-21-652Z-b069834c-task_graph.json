@@ -1,7 +1,7 @@
 {
   "schema": "task_graph_v2",
   "job_type": "Addition",
-  "structure_version": 3,
+  "structure_version": 2,
   "phases": {
     "pre_construction": [
       {
@@ -377,11 +377,39 @@
     ],
     "retro": [
       {
+        "code": "retro.start",
+        "name": "Retrofit (pre-addition work) — start",
+        "duration": 0,
+        "links": [],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "retro_work.start",
+        "name": "Retrofit Work — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "retro.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
         "code": "retro_relocations",
         "component": "retro_work",
         "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
-        "duration": 2,
-        "links": [],
+        "duration": 3,
+        "links": [
+          {
+            "target": "retro_work.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
         "trade": "general",
         "kind": "work"
       },
@@ -389,7 +417,7 @@
         "code": "retro_demo",
         "component": "retro_work",
         "name": "Retrofit demolition (interior areas outside the addition)",
-        "duration": 2,
+        "duration": 1,
         "links": [
           {
             "target": "retro_relocations",
@@ -434,7 +462,7 @@
         "code": "retro_drywall",
         "component": "retro_work",
         "name": "Retrofit drywall & patching",
-        "duration": 4,
+        "duration": 3,
         "links": [
           {
             "target": "retro_inspection",
@@ -449,7 +477,7 @@
         "code": "retro_finishes",
         "component": "retro_work",
         "name": "Retrofit finishes (paint, tile, flooring, fixtures)",
-        "duration": 6,
+        "duration": 5,
         "links": [
           {
             "target": "retro_drywall",
@@ -466,7 +494,37 @@
         "duration": 0,
         "links": [
           {
+            "target": "retro_relocations",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "retro_demo",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "retro_rough_meps",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "retro_inspection",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "retro_drywall",
+            "type": "FS",
+            "lag": 0
+          },
+          {
             "target": "retro_finishes",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "retro.start",
             "type": "FS",
             "lag": 0
           }
@@ -477,13 +535,41 @@
     ],
     "demo": [
       {
-        "code": "demo_main",
-        "component": "main_demo",
-        "name": "Demolition (site + structure at addition footprint)",
-        "duration": 3,
+        "code": "demo.start",
+        "name": "Demolition — start",
+        "duration": 0,
         "links": [
           {
             "target": "retro.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "main_demo.start",
+        "name": "Main Demolition — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "demo.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "demo_main",
+        "component": "main_demo",
+        "name": "Demolition (site + structure at addition footprint)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "main_demo.start",
             "type": "FS",
             "lag": 0
           },
@@ -517,7 +603,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 3,
+        "duration": 2,
         "links": [
           {
             "target": "site_prep",
@@ -554,7 +640,7 @@
         "code": "framing",
         "component": "structure_frame",
         "name": "Framing (floor, walls, roof structure, sheathing)",
-        "duration": 12,
+        "duration": 11,
         "links": [
           {
             "target": "foundation",
@@ -589,15 +675,17 @@
         ],
         "trade": "windows_doors",
         "kind": "work"
-      },
+      }
+    ],
+    "exterior_finish": [
       {
-        "code": "deck.start",
-        "name": "Deck — start",
+        "code": "exterior_finish.start",
+        "name": "Exterior Finishes — start",
         "duration": 0,
         "links": [
           {
-            "target": "framing",
-            "type": "SS",
+            "target": "ext_windows_doors",
+            "type": "FS",
             "lag": 0
           }
         ],
@@ -605,22 +693,19 @@
         "kind": "milestone"
       },
       {
-        "code": "deck_build",
-        "component": "deck",
-        "name": "Deck build",
-        "duration": 4,
+        "code": "exterior_cladding.start",
+        "name": "Cladding & Roof — start",
+        "duration": 0,
         "links": [
           {
-            "target": "deck.start",
+            "target": "exterior_finish.start",
             "type": "FS",
             "lag": 0
           }
         ],
-        "trade": "framing",
-        "kind": "work"
-      }
-    ],
-    "exterior_finish": [
+        "trade": "general",
+        "kind": "milestone"
+      },
       {
         "code": "roofing",
         "component": "exterior_cladding",
@@ -628,7 +713,7 @@
         "duration": 3,
         "links": [
           {
-            "target": "ext_windows_doors",
+            "target": "exterior_cladding.start",
             "type": "FS",
             "lag": 0
           }
@@ -643,7 +728,7 @@
         "duration": 4,
         "links": [
           {
-            "target": "ext_windows_doors",
+            "target": "exterior_cladding.start",
             "type": "FS",
             "lag": 0
           }
@@ -658,7 +743,7 @@
         "duration": 2,
         "links": [
           {
-            "target": "ext_windows_doors",
+            "target": "exterior_cladding.start",
             "type": "FS",
             "lag": 0
           }
@@ -667,25 +752,15 @@
         "kind": "work"
       },
       {
-        "code": "wh_vent_extension",
-        "component": "exterior_cladding",
-        "name": "Extend existing appliance vents through new roof",
-        "duration": 0.5,
+        "code": "exterior_finish.end",
+        "name": "Exterior Finishes — complete",
+        "duration": 0,
         "links": [
           {
             "target": "roofing",
             "type": "FS",
             "lag": 0
-          }
-        ],
-        "trade": "hvac",
-        "kind": "work"
-      },
-      {
-        "code": "exterior_finish.end",
-        "name": "Exterior Finishes — complete",
-        "duration": 0,
-        "links": [
+          },
           {
             "target": "siding",
             "type": "FS",
@@ -697,7 +772,7 @@
             "lag": 0
           },
           {
-            "target": "wh_vent_extension",
+            "target": "exterior_finish.start",
             "type": "FS",
             "lag": 0
           }
@@ -708,13 +783,41 @@
     ],
     "rough_trades": [
       {
+        "code": "rough_trades.start",
+        "name": "Rough Trades (MEPs) — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "exterior_finish.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "rough_meps.start",
+        "name": "Rough MEPs — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "rough_trades.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
         "code": "plumbing_rough",
         "component": "rough_meps",
         "name": "Rough plumbing",
         "duration": 3,
         "links": [
           {
-            "target": "exterior_finish.end",
+            "target": "rough_meps.start",
             "type": "FS",
             "lag": 0
           }
@@ -746,7 +849,7 @@
         "code": "electrical_rough",
         "component": "rough_meps",
         "name": "Rough electrical (circuits, subpanel, boxes)",
-        "duration": 3,
+        "duration": 4,
         "links": [
           {
             "target": "hvac_rough",
@@ -779,6 +882,11 @@
           },
           {
             "target": "electrical_rough",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "rough_trades.start",
             "type": "FS",
             "lag": 0
           }
@@ -823,7 +931,7 @@
         "code": "insulation",
         "component": "envelope_close",
         "name": "Insulation & air sealing",
-        "duration": 2,
+        "duration": 1,
         "links": [
           {
             "target": "inspections.end",
@@ -853,7 +961,7 @@
         "code": "drywall",
         "component": "envelope_close",
         "name": "Drywall (hang, tape, sand)",
-        "duration": 7,
+        "duration": 6,
         "links": [
           {
             "target": "insulation_inspection",
@@ -890,6 +998,21 @@
         "duration": 0,
         "links": [
           {
+            "target": "insulation",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "insulation_inspection",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "drywall",
+            "type": "FS",
+            "lag": 0
+          },
+          {
             "target": "paint_1",
             "type": "FS",
             "lag": 0
@@ -901,13 +1024,41 @@
     ],
     "interior_finish": [
       {
+        "code": "interior_finish.start",
+        "name": "Interior Finishes — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "insulation_drywall.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "interior_installs.start",
+        "name": "Interior Installs — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "interior_finish.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
         "code": "shower_work",
         "component": "interior_installs",
         "name": "Shower work (waterproofing, tile, grout)",
         "duration": 4,
         "links": [
           {
-            "target": "insulation_drywall.end",
+            "target": "interior_installs.start",
             "type": "FS",
             "lag": 0
           },
@@ -971,7 +1122,31 @@
             "lag": 0
           },
           {
+            "target": "flooring_hard",
+            "type": "FS",
+            "lag": 0
+          },
+          {
             "target": "fixtures_cabinets",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "interior_installs.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "final_finish.start",
+        "name": "Final Trades & Paint 2 — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "interior_installs.end",
             "type": "FS",
             "lag": 0
           }
@@ -983,10 +1158,25 @@
         "code": "final_trades",
         "component": "final_finish",
         "name": "Final trades (trim, interior doors, final E/P/M)",
-        "duration": 5,
+        "duration": 4,
         "links": [
           {
-            "target": "interior_installs.end",
+            "target": "final_finish.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "trim_carpentry",
+        "kind": "work"
+      },
+      {
+        "code": "stairs",
+        "component": "final_finish",
+        "name": "Stairs (build/finish)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "final_trades",
             "type": "FS",
             "lag": 0
           }
@@ -1001,7 +1191,7 @@
         "duration": 2,
         "links": [
           {
-            "target": "final_trades",
+            "target": "stairs",
             "type": "FS",
             "lag": 0
           }
@@ -1027,10 +1217,9 @@
     ],
     "sitework": [
       {
-        "code": "concrete_flatwork",
-        "component": "exterior_sitework",
-        "name": "Concrete flatwork (patios, driveways, walkways)",
-        "duration": 2,
+        "code": "sitework.start",
+        "name": "Concrete & Landscaping — start",
+        "duration": 0,
         "links": [
           {
             "target": "paint_2",
@@ -1038,8 +1227,22 @@
             "lag": 0
           }
         ],
-        "trade": "concrete",
-        "kind": "work"
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "exterior_sitework.start",
+        "name": "Concrete & Landscape — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "sitework.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
       },
       {
         "code": "landscaping",
@@ -1048,7 +1251,7 @@
         "duration": 2,
         "links": [
           {
-            "target": "concrete_flatwork",
+            "target": "exterior_sitework.start",
             "type": "FS",
             "lag": 0
           }
@@ -1073,13 +1276,27 @@
         "kind": "milestone"
       },
       {
+        "code": "closeout_work.start",
+        "name": "Walkthrough & Final Inspection — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "closeout.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
         "code": "walkthrough_closeout",
         "component": "closeout_work",
         "name": "Customer walkthrough & punch list",
         "duration": 1,
         "links": [
           {
-            "target": "closeout.start",
+            "target": "closeout_work.start",
             "type": "FS",
             "lag": 0
           }
@@ -1146,11 +1363,6 @@
       "name": "Structural Framing"
     },
     {
-      "id": "deck",
-      "phase": "framing_shell",
-      "name": "Deck"
-    },
-    {
       "id": "exterior_cladding",
       "phase": "exterior_finish",
       "name": "Cladding & Roof"
@@ -1193,27 +1405,22 @@
   ],
   "warnings": [],
   "assumptions": [
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: No flooring selection given for primary bedroom — carpet vs hard surface unresolved..",
-    "\"Stairs (build/finish)\" (stairs) EXCLUDED pending answer: Second-floor access method unclear — new interior stair vs. tie-in to existing stairwell..",
-    "Procurement \"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer.",
+    "\"Deck build\" (deck_build) EXCLUDED pending answer: Drawings show deck/stair system but written scope doesn't confirm deck.",
+    "\"Concrete flatwork (patios, driveways, walkways)\" (concrete_flatwork) EXCLUDED pending answer: Walkway removed but no confirmation new flatwork is repoured.",
     "Procurement \"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer."
   ],
   "needs_info": [
     {
-      "node_id": "carpet_floating",
-      "reason": "No flooring selection given for primary bedroom — carpet vs hard surface unresolved."
+      "node_id": "deck_build",
+      "reason": "Drawings show deck/stair system but written scope doesn't confirm deck"
     },
     {
-      "node_id": "stairs",
-      "reason": "Second-floor access method unclear — new interior stair vs. tie-in to existing stairwell."
-    },
-    {
-      "node_id": "proc_carpet",
-      "reason": "Mirrors carpet_floating — bedroom flooring type unconfirmed."
+      "node_id": "concrete_flatwork",
+      "reason": "Walkway removed but no confirmation new flatwork is repoured"
     },
     {
       "node_id": "proc_shower_glass",
-      "reason": "Master bath shower enclosure type (glass vs. curtain) not specified in scope."
+      "reason": "Scope doesn't specify glass enclosure vs other shower door type"
     }
   ]
 }
