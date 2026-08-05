@@ -124,44 +124,64 @@
     ],
     "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
   },
-  "f_01KX97RSAFYRF7DERN8PMYY23K": {
-    "id": "f_01KX97RSAFYRF7DERN8PMYY23K",
+  "f_01KZ81VJWP94S43KYW62WA8FBS": {
+    "id": "f_01KZ81VJWP94S43KYW62WA8FBS",
     "entity": {
       "kind": "project",
       "id": "PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7"
     },
     "subject": "av1_enabled",
-    "content": "AV1 video encoding is disabled for this project.",
+    "content": "AV1 video encoding is now enabled for this project (changed from disabled).",
     "confidence": 1,
-    "created_at": "2026-07-11T18:41:51.948Z",
-    "updated_at": "2026-07-11T18:41:51.948Z",
+    "created_at": "2026-08-05T04:10:41.332Z",
+    "updated_at": "2026-08-05T04:10:41.332Z",
     "citations": [
       {
         "kind": "document",
         "path": "data.json:av1_enabled",
-        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+        "sha": "556faf67200c32370deb9f282c969ecdb226144c"
       }
     ],
-    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+    "derived_from_sha": "556faf67200c32370deb9f282c969ecdb226144c"
   },
-  "f_01KX97RSAGNSZBN4Y4Y358SNJP": {
-    "id": "f_01KX97RSAGNSZBN4Y4Y358SNJP",
+  "f_01KZ81VJWSF6FFENM6GW5KKCW1": {
+    "id": "f_01KZ81VJWSF6FFENM6GW5KKCW1",
     "entity": {
       "kind": "project",
       "id": "PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7"
     },
     "subject": "private_aws",
-    "content": "The project does not use a private AWS configuration.",
+    "content": "The project now uses a private AWS configuration (changed from non-private).",
     "confidence": 1,
-    "created_at": "2026-07-11T18:41:51.948Z",
-    "updated_at": "2026-07-11T18:41:51.948Z",
+    "created_at": "2026-08-05T04:10:41.332Z",
+    "updated_at": "2026-08-05T04:10:41.332Z",
     "citations": [
       {
         "kind": "document",
         "path": "data.json:private_aws",
-        "sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+        "sha": "556faf67200c32370deb9f282c969ecdb226144c"
       }
     ],
-    "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+    "derived_from_sha": "556faf67200c32370deb9f282c969ecdb226144c"
+  },
+  "f_01KZ81VJWS04XV2HD2YWDVT45G": {
+    "id": "f_01KZ81VJWS04XV2HD2YWDVT45G",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7"
+    },
+    "subject": "holiday_schedule",
+    "content": "A holidays.json calendar defines 15 candidate US holidays for this project, with 10 enabled (New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving, Day after Thanksgiving, Christmas Eve, Christmas Day, Day after Christmas) and 6 disabled (MLK Day, Presidents' Day, Juneteenth, Columbus/Indigenous Peoples' Day, Veterans Day, New Year's Eve).",
+    "confidence": 0.95,
+    "created_at": "2026-08-05T04:10:41.332Z",
+    "updated_at": "2026-08-05T04:10:41.332Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "holidays.json",
+        "sha": "556faf67200c32370deb9f282c969ecdb226144c"
+      }
+    ],
+    "derived_from_sha": "556faf67200c32370deb9f282c969ecdb226144c"
   }
 }
