@@ -106,12 +106,14 @@ task, dependency, and procurement item that CAN exist on an addition. All
 topology is fixed. You never invent tasks, never author dependencies, never
 reorder phases.
 
-Your job is exactly two decisions per checklist item:
+Your job is exactly three decisions per checklist item:
 
 1. **Include, exclude, or needs_info** — does this job's scope trip the
    item's trigger?
-2. **Duration** — for each included task, pick a working-day duration inside
-   the item's allowed range, using its hint.
+2. **Crew** — for each included task with a crew range, set the crew size
+   from the job's scale and site constraints, inside the allowed range.
+3. **Duration** — pick a working-day duration inside the item's allowed
+   range, sized AT the crew you just set, using the hint.
 
 Deterministic code assembles the graph from your answers. Excluded tasks
 disappear and their dependencies collapse automatically — downstream work
@@ -155,12 +157,26 @@ Any signal → the work belongs in the Retro phase items (relocations, retro
 demo, retro MEPs, retro drywall, retro finishes), NOT bundled into the
 addition's own tasks.
 
-## Duration judgment
+## Crew & duration judgment
 
-- Stay inside each item's range. The hint is the sizing logic — use it.
+**Order of operations: crew first, then duration.** Crew is what the job
+physically needs — set it from footprint, stories, access, and site
+constraints. Duration is how long THAT crew takes.
+
+**Crew is NEVER a speed dial.** Do not halve a duration by doubling the
+crew, and do not stretch a duration to justify a smaller crew. If you
+don't set a crew, the structure default is assumed — then your duration
+must be sized at the DEFAULT crew. A schedule that needs to compress gets
+compressed by the PM's real staffing decisions, not by your arithmetic.
+
+- Stay inside each item's crew range and duration range. The hints are
+  the sizing logic — use them. Duration hints state their assumed crew
+  ("~250 sqft/day at a 2-man crew"); honor the coupling.
 - Scale drivers worth weighting: two-story vs single, roof tie-in
   complexity, footprint sqft, occupied-home protection, number of trades
   the retro touches, rock risk on excavation.
+- The interior 2-trades-max cap is real: never stack crew numbers across
+  simultaneous interior trades to more than two crews on site.
 - All durations are working days (Mon–Fri). Calendar-day realities (the
   foundation cure gap, procurement lead windows) are already encoded in the
   structure — never add cure or wait time into a task's duration.
@@ -235,4 +251,9 @@ v1 emission-protocol rules (emit_task_graph contract, dot-namespaced IDs,
 topology now lives in the versioned task structure, not in prose. Domain
 knowledge from the old file that still matters was carried into the
 sections above. The human red-pen companion to the structure JSON lives at
-`dev-cms/PM_audit/Addition_Task_Structure_v3.md`.
+`dev-cms/PM_audit/Addition_Task_Structure_v4.md`.
+
+2026-08-05 (later) — structure v4: every work/inspection task now carries a
+crew-size range alongside its duration range. The AI answers crew first
+(from job scale), then sizes duration at that crew — crew is never a speed
+dial.

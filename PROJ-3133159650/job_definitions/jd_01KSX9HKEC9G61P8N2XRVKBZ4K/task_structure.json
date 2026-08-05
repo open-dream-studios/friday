@@ -1288,7 +1288,44 @@
       "order": 10
     }
   ],
-  "version": 4,
+  "permits": [
+    {
+      "id": "permit_building",
+      "name": "Building permit",
+      "notes": "Will gets permits same-day ~90% of the time — the 2-week application anchor is the safety margin, not the expectation. Demo never starts without it in hand.",
+      "vetted": true,
+      "trigger": "Always include.",
+      "gate_node": "demo_main",
+      "apply_weeks_before": 2
+    },
+    {
+      "id": "permit_tdec_septic",
+      "name": "TDEC septic permit",
+      "notes": "~6-week TDEC process: contact → soil scientist visit ($500 fee) → soil report → permit. Often the longest lead in the whole job; do NOT break ground without it.",
+      "vetted": true,
+      "trigger": "Include ONLY when the scope modifies the existing septic system or installs a new one. Adding bedrooms/bathrooms alone does NOT trigger it.",
+      "gate_node": "excavation",
+      "apply_weeks_before": 6
+    },
+    {
+      "id": "permit_electrical_service",
+      "name": "Electrical service / meter permit",
+      "notes": "Utility coordination for service work can outrun the 2-week anchor — confirm with the utility early.",
+      "vetted": false,
+      "trigger": "Include when the job upgrades the main service or relocates the meter (utility + state inspection involvement). A subpanel alone does NOT trigger it — that rides the building permit.",
+      "gate_node": "electrical_rough",
+      "apply_weeks_before": 2
+    },
+    {
+      "id": "permit_land_disturbance",
+      "name": "Land disturbance / stormwater permit",
+      "vetted": false,
+      "trigger": "Include when excavation disturbs enough ground to trip local stormwater rules (large footprint, steep lot, near a waterway) — rare on typical additions.",
+      "gate_node": "excavation",
+      "apply_weeks_before": 2
+    }
+  ],
+  "version": 5,
   "job_type": "Addition",
   "components": [
     {
@@ -1454,29 +1491,18 @@
   ],
   "procurement": [
     {
-      "id": "proc_building_permit",
-      "name": "Building permit",
-      "vetted": true,
-      "trigger": "Always include.",
-      "window_days": 14,
-      "install_node": "demo_main"
-    },
-    {
-      "id": "proc_tdec_septic",
-      "name": "TDEC septic permit",
-      "notes": "~6-week TDEC process: contact → soil scientist visit ($500 fee) → soil report → permit. Often the longest lead in the whole job; do NOT break ground without it.",
-      "vetted": true,
-      "trigger": "Include ONLY when the scope modifies the existing septic system or installs a new one. Adding bedrooms/bathrooms alone does NOT trigger it.",
-      "window_days": 70,
-      "install_node": "excavation"
-    },
-    {
       "id": "proc_windows_doors",
       "name": "Windows & exterior doors",
       "vetted": true,
       "trigger": "Always include. Order minimum 21 calendar days before demo; confirm custom vs stock with customer (custom runs 28-42).",
-      "window_days": 21,
-      "install_node": "ext_windows_doors"
+      "install_node": "ext_windows_doors",
+      "delivery_time": {
+        "max": 42,
+        "min": 14,
+        "hint": "Stock 2-3 weeks; custom runs 4-6 weeks — confirm custom vs stock with the customer.",
+        "kind": "range",
+        "default": 21
+      }
     },
     {
       "id": "proc_lvl",
@@ -1484,16 +1510,28 @@
       "notes": "Nominal 1-2 weeks but availability swings with the lumber market — early-order rather than halt framing.",
       "vetted": true,
       "trigger": "Include when engineered structural members are on the project.",
-      "window_days": 14,
-      "install_node": "framing"
+      "install_node": "framing",
+      "delivery_time": {
+        "max": 21,
+        "min": 7,
+        "hint": "Standard LVL ~1 week; pressure-treated or custom, or a tight lumber market, pushes 3 weeks.",
+        "kind": "range",
+        "default": 10
+      }
     },
     {
       "id": "proc_trusses",
       "name": "Roof trusses (custom)",
       "vetted": true,
       "trigger": "Include when the roof is trussed (not stick-framed).",
-      "window_days": 35,
-      "install_node": "framing"
+      "install_node": "framing",
+      "delivery_time": {
+        "max": 42,
+        "min": 28,
+        "hint": "Truss plant queue drives it — bigger/complex roofs sit longer in engineering.",
+        "kind": "range",
+        "default": 35
+      }
     },
     {
       "id": "proc_subpanel",
@@ -1501,32 +1539,55 @@
       "notes": "Existing main service amperage must be verified before contract — 200A is typical but panel space for the subpanel is the real question.",
       "vetted": true,
       "trigger": "Include when a subpanel or service upgrade is in scope (verify amperage first).",
-      "window_days": 10,
-      "install_node": "electrical_rough"
+      "install_node": "electrical_rough",
+      "delivery_time": {
+        "max": 14,
+        "min": 5,
+        "kind": "range",
+        "default": 10
+      }
     },
     {
       "id": "proc_hvac_equipment",
       "name": "HVAC equipment (mini-split / system)",
       "vetted": true,
       "trigger": "Include when new HVAC equipment serves the addition.",
-      "window_days": 14,
-      "install_node": "hvac_rough"
+      "install_node": "hvac_rough",
+      "delivery_time": {
+        "max": 21,
+        "min": 7,
+        "hint": "Common mini-splits ~1 week; matched ducted systems or specialty sizes push 3 weeks.",
+        "kind": "range",
+        "default": 14
+      }
     },
     {
       "id": "proc_water_heater",
       "name": "Water heater (tank or tankless)",
       "vetted": true,
       "trigger": "Include when a NEW water heater is in scope (serving the addition or replacing existing). Extending an existing WH's vent does NOT trigger this.",
-      "window_days": 14,
-      "install_node": "plumbing_rough"
+      "install_node": "plumbing_rough",
+      "delivery_time": {
+        "max": 14,
+        "min": 3,
+        "hint": "Stock tanks are days; tankless or specialty venting pushes 2 weeks.",
+        "kind": "range",
+        "default": 7
+      }
     },
     {
       "id": "proc_tile",
       "name": "Tile & setting materials",
       "vetted": true,
       "trigger": "Include when tile is in scope.",
-      "window_days": 21,
-      "install_node": "shower_work"
+      "install_node": "shower_work",
+      "delivery_time": {
+        "max": 21,
+        "min": 7,
+        "hint": "In-stock tile ~1 week; special-order or large custom showers push 3 weeks.",
+        "kind": "range",
+        "default": 14
+      }
     },
     {
       "id": "proc_flooring",
@@ -1534,32 +1595,53 @@
       "notes": "Ordering ties to USE date, not job start — interior finish materials wait until the shell is underway.",
       "vetted": true,
       "trigger": "Include when hard flooring is in scope. Order ~3 weeks before install; deliver 2 weeks ahead of use.",
-      "window_days": 14,
-      "install_node": "flooring_hard"
+      "install_node": "flooring_hard",
+      "delivery_time": {
+        "max": 21,
+        "min": 7,
+        "kind": "range",
+        "default": 14
+      }
     },
     {
       "id": "proc_carpet",
       "name": "Carpet / floating floor",
       "vetted": true,
       "trigger": "Include when carpet or floating floors are in scope.",
-      "window_days": 10,
-      "install_node": "carpet_floating"
+      "install_node": "carpet_floating",
+      "delivery_time": {
+        "max": 14,
+        "min": 5,
+        "kind": "range",
+        "default": 10
+      }
     },
     {
       "id": "proc_cabinets",
       "name": "Cabinets / vanities",
       "vetted": true,
       "trigger": "Include when cabinetry is in scope. Custom cabinets run 42-56 days — order at structural sign-off.",
-      "window_days": 28,
-      "install_node": "fixtures_cabinets"
+      "install_node": "fixtures_cabinets",
+      "delivery_time": {
+        "max": 56,
+        "min": 21,
+        "hint": "Stock/semi-custom 3-4 weeks; full custom runs 6-8 weeks — order at structural sign-off.",
+        "kind": "range",
+        "default": 35
+      }
     },
     {
       "id": "proc_paint",
       "name": "Paint",
       "vetted": true,
       "trigger": "Always include.",
-      "window_days": 7,
-      "install_node": "paint_1"
+      "install_node": "paint_1",
+      "delivery_time": {
+        "max": 7,
+        "min": 2,
+        "kind": "range",
+        "default": 3
+      }
     },
     {
       "id": "proc_shower_glass",
@@ -1567,8 +1649,56 @@
       "vetted": true,
       "trigger": "Include when a glass shower enclosure is in scope.",
       "order_after": "shower_work",
-      "window_days": 10,
-      "install_node": "final_trades"
+      "install_node": "final_trades",
+      "delivery_time": {
+        "max": 14,
+        "min": 7,
+        "hint": "Template happens after tile — the window only starts once measurements exist.",
+        "kind": "range",
+        "default": 10
+      }
+    },
+    {
+      "id": "proc_doors_trim",
+      "name": "Interior doors & trim package",
+      "vetted": false,
+      "trigger": "Always include — interior doors, casing, base, and trim stock for the final trades block.",
+      "install_node": "final_trades",
+      "delivery_time": {
+        "max": 14,
+        "min": 5,
+        "hint": "Stock profiles ~1 week; special-order doors or matching existing profiles push 2 weeks.",
+        "kind": "range",
+        "default": 7
+      }
+    },
+    {
+      "id": "proc_plumbing_fixtures",
+      "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
+      "vetted": false,
+      "trigger": "Include when the addition adds plumbing fixtures (nearly always when a bath/kitchen is in scope).",
+      "install_node": "final_trades",
+      "delivery_time": {
+        "max": 21,
+        "min": 5,
+        "hint": "Stock fixtures are days; designer or specialty finishes push 3 weeks.",
+        "kind": "range",
+        "default": 7
+      }
+    },
+    {
+      "id": "proc_light_fixtures",
+      "name": "Light fixtures & devices",
+      "vetted": false,
+      "trigger": "Always include — fixtures, fans, devices, and plates for electrical finish.",
+      "install_node": "final_trades",
+      "delivery_time": {
+        "max": 21,
+        "min": 5,
+        "hint": "Stock is days; customer-selected specialty fixtures push 3 weeks.",
+        "kind": "range",
+        "default": 7
+      }
     }
   ],
   "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
