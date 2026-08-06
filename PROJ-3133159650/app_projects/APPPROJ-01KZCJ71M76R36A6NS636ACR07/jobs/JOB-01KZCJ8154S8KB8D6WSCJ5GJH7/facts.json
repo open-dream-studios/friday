@@ -316,5 +316,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KZCJWRPNZRFJDG7GKTVV4BPN": {
+    "id": "f_01KZCJWRPNZRFJDG7GKTVV4BPN",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCJH0SJD8EMA38TCGDEK0Q3",
+    "content": "Both are correct: 30'×10' (~300 SF) is the footprint per level; 789 SF is the total affected area (two addition levels ~600 SF + ~200 SF bedroom remodel). Size foundation/excavation/roofing from ~300 SF; size interior finishes from 789 SF.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:25:23.669Z",
+    "updated_at": "2026-08-06T22:25:23.669Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCJH0SJD8EMA38TCGDEK0Q3",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
