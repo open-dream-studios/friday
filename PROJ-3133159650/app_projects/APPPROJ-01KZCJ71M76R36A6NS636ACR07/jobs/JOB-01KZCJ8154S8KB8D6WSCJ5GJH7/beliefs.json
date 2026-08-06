@@ -1,1 +1,107 @@
-{}
+{
+  "b_01KZCJH0SGEQ9Y14Z1AD6MKX2S": {
+    "id": "b_01KZCJH0SGEQ9Y14Z1AD6MKX2S",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "addition_scope_and_cost_summary",
+    "content": "This job is a two-story addition (789 SF per breakdown, described as ~30'x10' in scope) adding basement storage, a bedroom expansion, master bath, and walk-in closet, budgeted at $100,778.92 total across 1,287 labor hours.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KZCJH0SE87RGKK38SCRM7ET2",
+      "f_01KZCJH0SE2CYE6G1D7NFXDVSA",
+      "f_01KZCJH0SFHSKSJYVJKKE4EJ9N"
+    ],
+    "falsification_test": "A revised breakdown or scope document with different totals or footprint would falsify this.",
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "last_verified_at": "2026-08-06T22:18:58.664Z",
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "b_01KZCJH0SGFV2KYTVG7XNFXP7A": {
+    "id": "b_01KZCJH0SGFV2KYTVG7XNFXP7A",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "roof_structure_default",
+    "content": "Scope states the roof is 'truss or rafter TBD in design phase' without confirming trusses, span >24ft, or footprint >800sqft, so per job-def default logic this job should be planned stick-frame unless the PM confirms otherwise.",
+    "kind": "prescriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KZCJH0SF7ZAMDY0FJ0B3R505",
+      "f_01KZCJH0SE2CYE6G1D7NFXDVSA"
+    ],
+    "falsification_test": "PM confirmation of trusses, or a footprint update pushing the addition over ~800 SF, would falsify this.",
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "last_verified_at": "2026-08-06T22:18:58.664Z",
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "b_01KZCJH0SGF9Y8W8EY95Q0TW77": {
+    "id": "b_01KZCJH0SGF9Y8W8EY95Q0TW77",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "hvac_system_type",
+    "content": "HVAC in this addition is mini-split based per the breakdown's 'HVAC – Mini Split, Tankless WH & Relocations' section title, so rough-in should be a short line-set task with no separate rough-in/finish split.",
+    "kind": "descriptive",
+    "confidence": 0.7,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KZCJH0SE87RGKK38SCRM7ET2"
+    ],
+    "falsification_test": "Scope or breakdown language confirming ducted HVAC instead would falsify this.",
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "last_verified_at": "2026-08-06T22:18:58.664Z",
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "b_01KZCJH0SGPXJY4T6W6VBDC3HK": {
+    "id": "b_01KZCJH0SGPXJY4T6W6VBDC3HK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "retrofit_work_present",
+    "content": "This job contains retrofit work on the existing home (heat pump relocation, electrical disconnect relocation, hallway switch relocation, existing hall bath modification) that per job-def Retrofit Detection Signal B belongs in the Retro phase rather than bundled into addition tasks.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KZCJH0SFM4NN9WH53R3NA241",
+      "f_01KZCJH0SFJ63YTQ1N0N9YGEF5"
+    ],
+    "falsification_test": "If these relocation/mod items are found to actually be new-construction scope inside the addition footprint, this would be falsified.",
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "last_verified_at": "2026-08-06T22:18:58.664Z",
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "b_01KZCJH0SGQAHHN1C358CQEBHC": {
+    "id": "b_01KZCJH0SGQAHHN1C358CQEBHC",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "septic_permit_timeline_risk",
+    "content": "Whether TDEC permitting (6-week lead) applies to this job hinges on confirming actual septic system modification; until confirmed, the schedule should treat TDEC as a live risk to the 2026-10-12 start date.",
+    "kind": "predictive",
+    "confidence": 0.7,
+    "status": "proposed",
+    "supported_by": [
+      "f_01KZCJH0SFM4NN9WH53R3NA241",
+      "f_01KZCJH0SEBYCG0M3ZH4C54EN8"
+    ],
+    "falsification_test": "Confirmation that septic will not be modified, or that the property is on city sewer, would falsify this.",
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "last_verified_at": "2026-08-06T22:18:58.664Z",
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  }
+}

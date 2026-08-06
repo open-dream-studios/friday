@@ -1,1 +1,282 @@
-{}
+{
+  "f_01KZCJH0SE87RGKK38SCRM7ET2": {
+    "id": "f_01KZCJH0SE87RGKK38SCRM7ET2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "job_total_estimate",
+    "content": "The 308 Evergreen addition breakdown totals $100,778.92 (Labor $45,167.59, Material $52,171.33, Equipment $3,440.00) across 1,287 labor hours.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv:TOTALS",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SE2CYE6G1D7NFXDVSA": {
+    "id": "f_01KZCJH0SE2CYE6G1D7NFXDVSA",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "job_footprint_sf",
+    "content": "The breakdown lists an overall footprint of 789 SF with 8-foot ceiling height for this addition.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv:Overall Footprint SF",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SEBYCG0M3ZH4C54EN8": {
+    "id": "f_01KZCJH0SEBYCG0M3ZH4C54EN8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "job_scheduled_start_date",
+    "content": "This job's scheduled start date is 2026-10-12.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:scheduled_start_date",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SFHSKSJYVJKKE4EJ9N": {
+    "id": "f_01KZCJH0SFHSKSJYVJKKE4EJ9N",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "job_scope_summary",
+    "content": "The addition is approx. 30'x10', two stories, adding basement storage, a primary bedroom expansion, master bathroom, and walk-in closet, per IRC 2018/NEC code.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SFM4NN9WH53R3NA241": {
+    "id": "f_01KZCJH0SFM4NN9WH53R3NA241",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "septic_evaluation_required",
+    "content": "Scope requires a TDEC septic inspection and evaluation of relocation vs. new tank/leach field vs. grinder-pump-to-sewer, with septic costs excluded pending a change order.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SF887AKS1R17FJYXRX": {
+    "id": "f_01KZCJH0SF887AKS1R17FJYXRX",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "lvl_beam_spec",
+    "content": "Scope specifies a 3-ply 14\" LVL beam spanning approx. 15'-6\" to open an existing load-bearing wall, with temporary shoring included.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SF0NVQNHV0T2H63C0H": {
+    "id": "f_01KZCJH0SF0NVQNHV0T2H63C0H",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "elevator_shaft_provision",
+    "content": "Scope frames a future 4'x4' elevator shaft and a dedicated 120V/30A circuit for a future elevator, though the elevator system itself is not included in this job.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SFH9HZW57WNX0ZMW35": {
+    "id": "f_01KZCJH0SFH9HZW57WNX0ZMW35",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "window_door_scope",
+    "content": "Scope calls for four windows (three 36\"x60\" and one transom) plus one new exterior door.",
+    "confidence": 0.85,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SFPXP89NSJ0SBKGJ9Y": {
+    "id": "f_01KZCJH0SFPXP89NSJ0SBKGJ9Y",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "electrical_scope_summary",
+    "content": "Electrical scope includes a new 100A subpanel with full rough-in/trim-out, ~12 recessed lights (~$25 each budget), 2 vanity fixtures, a bath vent fan/light combo, dimmers, and GFCI/AFCI per code; the scope assumes the existing service supports the new subpanel.",
+    "confidence": 0.85,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SF7ZAMDY0FJ0B3R505": {
+    "id": "f_01KZCJH0SF7ZAMDY0FJ0B3R505",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "roof_tie_in_pitch",
+    "content": "The new roof is a gable roof at approx. 3/12 pitch tying into the existing 6/12 pitch, with architectural asphalt shingles to match existing.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "scope.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SFJ63YTQ1N0N9YGEF5": {
+    "id": "f_01KZCJH0SFJ63YTQ1N0N9YGEF5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "negative_cost_section",
+    "content": "The breakdown's 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section shows a negative material cost of -$4,199.00, producing a negative section total of -$1,714.20.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "308_Evergreen_Addition_Breakdown.csv:Existing Hall Bath Mod",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SF12S4P3G6HNRTGZS6": {
+    "id": "f_01KZCJH0SF12S4P3G6HNRTGZS6",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "job_valuation_unset",
+    "content": "The job's valuation field is null — no contracted price is currently recorded against the $100,778.92 cost estimate.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:valuation",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SGJS2GASMFTJZA27YP": {
+    "id": "f_01KZCJH0SGJS2GASMFTJZA27YP",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "drawings_brick_callout",
+    "content": "Architectural elevation drawings call out 'ADD BRICK TO MATCH EXISTING' at the base of the new addition.",
+    "confidence": 0.75,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJH0SGH9G2507WR6X8C2F9": {
+    "id": "f_01KZCJH0SGH9G2507WR6X8C2F9",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "drawings_deck_stair",
+    "content": "The elevation drawings show a multi-level deck/stair structure on the addition's exterior (right elevation).",
+    "confidence": 0.75,
+    "created_at": "2026-08-06T22:18:58.664Z",
+    "updated_at": "2026-08-06T22:18:58.664Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+      }
+    ],
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  }
+}
