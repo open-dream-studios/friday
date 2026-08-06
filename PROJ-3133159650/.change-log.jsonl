@@ -366,3 +366,4 @@
 {"ts":"2026-08-06T20:01:33.631Z","reason":"cli","actor":"cli","entities":[{"kind":"job_definition","id":"task_structure.json","action":"update","change_kind":"job_definition_document"}]}
 {"ts":"2026-08-06T20:13:18.774Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-08-06T20:19:25.122Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"},{"kind":"job","id":"JOB-01KXKDMKDY7M23G2WYYDHD02A8","action":"update","change_kind":"job_document"}]}
+{"ts":"2026-08-06T20:31:03.395Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"},{"kind":"job","id":"JOB-01KXKDMKDY7M23G2WYYDHD02A8","action":"update","change_kind":"job_document"}]}
