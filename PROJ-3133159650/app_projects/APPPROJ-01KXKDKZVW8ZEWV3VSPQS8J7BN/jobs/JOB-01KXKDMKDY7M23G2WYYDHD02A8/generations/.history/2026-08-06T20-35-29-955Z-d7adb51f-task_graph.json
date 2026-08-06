@@ -9,7 +9,7 @@
         "component": "retrofit_work",
         "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
         "duration": 3,
-        "crew": 3,
+        "crew": 2,
         "links": [],
         "trade": "general",
         "kind": "work"
@@ -121,7 +121,7 @@
         "code": "site_prep",
         "component": "groundwork",
         "name": "Site prep (protection, staging, access)",
-        "duration": 1,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -137,7 +137,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -251,50 +251,6 @@
         ],
         "trade": "windows_doors",
         "kind": "work"
-      },
-      {
-        "code": "deck.start",
-        "name": "Deck — start",
-        "duration": 0,
-        "links": [
-          {
-            "target": "framing",
-            "type": "SS",
-            "lag": 0
-          }
-        ],
-        "trade": "general",
-        "kind": "milestone"
-      },
-      {
-        "code": "deck_build",
-        "component": "deck",
-        "name": "Deck build",
-        "duration": 4,
-        "crew": 2,
-        "links": [
-          {
-            "target": "deck.start",
-            "type": "FS",
-            "lag": 0
-          }
-        ],
-        "trade": "framing",
-        "kind": "work"
-      },
-      {
-        "code": "deck.end",
-        "name": "Deck — complete",
-        "duration": 0,
-        "links": [
-          {
-            "target": "deck_build",
-            "type": "FS",
-            "lag": 0
-          }
-        ],
-        "trade": "general",
-        "kind": "milestone"
       }
     ],
     "exterior_finishes": [
@@ -335,7 +291,7 @@
         "component": "cladding_roof",
         "name": "Fascia, soffit & gutters",
         "duration": 2,
-        "crew": 3,
+        "crew": 2,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -449,7 +405,7 @@
         "code": "rough_electrical",
         "component": "rough_meps",
         "name": "Rough electrical (circuits, subpanel, boxes)",
-        "duration": 3,
+        "duration": 4,
         "crew": 2,
         "links": [
           {
@@ -663,7 +619,7 @@
         "code": "hard_flooring",
         "component": "interior_installs",
         "name": "Hard flooring install (LVP, hardwood, tile floors)",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -799,29 +755,6 @@
         "kind": "milestone"
       }
     ],
-    "concrete_landscaping": [
-      {
-        "code": "concrete_flatwork",
-        "component": "concrete_landscape",
-        "name": "Concrete flatwork (patios, driveways, walkways)",
-        "duration": 2,
-        "crew": 3,
-        "links": [
-          {
-            "target": "paint_phase_2",
-            "type": "FS",
-            "lag": 0
-          },
-          {
-            "target": "proc_concrete_patio",
-            "type": "FS",
-            "lag": 3
-          }
-        ],
-        "trade": "concrete",
-        "kind": "work"
-      }
-    ],
     "closeout": [
       {
         "code": "closeout.start",
@@ -881,7 +814,7 @@
             "lag": 1
           },
           {
-            "target": "concrete_flatwork",
+            "target": "paint_phase_2",
             "type": "FS",
             "lag": 0
           },
@@ -891,7 +824,7 @@
             "lag": 0
           },
           {
-            "target": "deck.end",
+            "target": "framing",
             "type": "FS",
             "lag": 0
           }
@@ -1063,8 +996,8 @@
         "code": "proc_cabinets",
         "component": "procurement_items",
         "name": "Cabinets / vanities",
-        "duration": 18,
-        "lead_time": 25,
+        "duration": 15,
+        "lead_time": 21,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -1073,8 +1006,8 @@
         "code": "proc_countertops",
         "component": "procurement_items",
         "name": "Countertops",
-        "duration": 15,
-        "lead_time": 21,
+        "duration": 18,
+        "lead_time": 25,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -1118,16 +1051,6 @@
         "links": [],
         "trade": "general",
         "kind": "procurement"
-      },
-      {
-        "code": "proc_concrete_patio",
-        "component": "procurement_items",
-        "name": "Concrete + Patio Work",
-        "duration": 1,
-        "lead_time": 2,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
       }
     ]
   },
@@ -1151,11 +1074,6 @@
       "id": "structural_framing",
       "phase": "framing_shell",
       "name": "Structural Framing"
-    },
-    {
-      "id": "deck",
-      "phase": "framing_shell",
-      "name": "Deck"
     },
     {
       "id": "cladding_roof",
@@ -1188,11 +1106,6 @@
       "name": "Final Trades & Paint 2"
     },
     {
-      "id": "concrete_landscape",
-      "phase": "concrete_landscaping",
-      "name": "Concrete & Landscape"
-    },
-    {
       "id": "walkthrough_final_inspection",
       "phase": "closeout",
       "name": "Walkthrough & Final Inspection"
@@ -1210,27 +1123,22 @@
   ],
   "warnings": [],
   "assumptions": [
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom flooring type (carpet vs hard) not specified.",
-    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Second-floor access method (stair type/location) unspecified.",
-    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Contingent on carpet vs hard flooring decision.",
-    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Shower glass vs curtain not specified in scope."
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom/closet flooring type (carpet vs hard) not specified.",
+    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Depends on unresolved bedroom flooring type.",
+    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Shower enclosure type (glass vs curtain) not specified in scope."
   ],
   "needs_info": [
     {
       "node_id": "carpet_floating",
-      "reason": "Bedroom flooring type (carpet vs hard) not specified"
-    },
-    {
-      "node_id": "stair_build",
-      "reason": "Second-floor access method (stair type/location) unspecified"
+      "reason": "Bedroom/closet flooring type (carpet vs hard) not specified"
     },
     {
       "node_id": "proc_carpet",
-      "reason": "Contingent on carpet vs hard flooring decision"
+      "reason": "Depends on unresolved bedroom flooring type"
     },
     {
       "node_id": "proc_shower_glass",
-      "reason": "Shower glass vs curtain not specified in scope"
+      "reason": "Shower enclosure type (glass vs curtain) not specified in scope"
     }
   ]
 }
