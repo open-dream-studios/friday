@@ -8,8 +8,8 @@
         "code": "proc_foundation_package",
         "component": "procurement_items",
         "name": "Foundation",
-        "duration": 9,
-        "lead_time": 12,
+        "duration": 10,
+        "lead_time": 14,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -18,8 +18,8 @@
         "code": "proc_windows_doors",
         "component": "procurement_items",
         "name": "Windows & exterior doors",
-        "duration": 15,
-        "lead_time": 21,
+        "duration": 13,
+        "lead_time": 18,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -78,8 +78,8 @@
         "code": "proc_water_heater",
         "component": "procurement_items",
         "name": "Water heater (tank or tankless)",
-        "duration": 7,
-        "lead_time": 10,
+        "duration": 9,
+        "lead_time": 12,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -138,8 +138,8 @@
         "code": "proc_cabinets",
         "component": "procurement_items",
         "name": "Cabinets / vanities",
-        "duration": 15,
-        "lead_time": 21,
+        "duration": 21,
+        "lead_time": 30,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -148,8 +148,8 @@
         "code": "proc_countertops",
         "component": "procurement_items",
         "name": "Countertops",
-        "duration": 15,
-        "lead_time": 21,
+        "duration": 21,
+        "lead_time": 30,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -190,6 +190,16 @@
         "name": "Light fixtures & devices",
         "duration": 4,
         "lead_time": 5,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_concrete_patio",
+        "component": "procurement_items",
+        "name": "Concrete + Patio Work",
+        "duration": 1,
+        "lead_time": 2,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -235,28 +245,12 @@
     ],
     "retrofit": [
       {
-        "code": "utility_relocations",
-        "component": "retrofit_work",
-        "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
-        "duration": 2,
-        "crew": 2,
-        "links": [],
-        "trade": "general",
-        "kind": "work"
-      },
-      {
         "code": "retrofit_demo",
         "component": "retrofit_work",
         "name": "Retrofit demolition (interior areas outside the addition)",
-        "duration": 2,
+        "duration": 1,
         "crew": 2,
-        "links": [
-          {
-            "target": "utility_relocations",
-            "type": "FS",
-            "lag": 0
-          }
-        ],
+        "links": [],
         "trade": "demo",
         "kind": "work"
       },
@@ -280,7 +274,7 @@
         "code": "retrofit_drywall",
         "component": "retrofit_work",
         "name": "Retrofit drywall & patching",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -351,7 +345,7 @@
         "code": "site_prep",
         "component": "groundwork",
         "name": "Site prep (protection, staging, access)",
-        "duration": 1,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -367,7 +361,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -388,7 +382,7 @@
         "code": "foundation",
         "component": "groundwork",
         "name": "Foundation (form, inspect, pour)",
-        "duration": 5,
+        "duration": 4,
         "crew": 4,
         "links": [
           {
@@ -439,7 +433,7 @@
         "code": "framing",
         "component": "structural_framing",
         "name": "Framing (floor, walls, roof structure, sheathing)",
-        "duration": 10,
+        "duration": 12,
         "crew": 4,
         "links": [
           {
@@ -481,6 +475,50 @@
         ],
         "trade": "windows_doors",
         "kind": "work"
+      },
+      {
+        "code": "deck.start",
+        "name": "Deck — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "framing",
+            "type": "SS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "deck_build",
+        "component": "deck",
+        "name": "Deck build",
+        "duration": 5,
+        "crew": 2,
+        "links": [
+          {
+            "target": "deck.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "framing",
+        "kind": "work"
+      },
+      {
+        "code": "deck.end",
+        "name": "Deck — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "deck_build",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
       }
     ],
     "exterior_finishes": [
@@ -505,7 +543,7 @@
         "component": "cladding_roof",
         "name": "Siding (WRB, siding, tie-in blend)",
         "duration": 5,
-        "crew": 2,
+        "crew": 3,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -640,7 +678,7 @@
         "code": "rough_electrical",
         "component": "rough_meps",
         "name": "Rough electrical (circuits, subpanel, boxes)",
-        "duration": 3,
+        "duration": 4,
         "crew": 2,
         "links": [
           {
@@ -992,19 +1030,24 @@
     ],
     "concrete_landscaping": [
       {
-        "code": "landscaping",
+        "code": "concrete_flatwork",
         "component": "concrete_landscape",
-        "name": "Landscaping & site restoration",
-        "duration": 1,
-        "crew": 2,
+        "name": "Concrete flatwork (patios, driveways, walkways)",
+        "duration": 2,
+        "crew": 3,
         "links": [
           {
             "target": "paint_phase_2",
             "type": "FS",
             "lag": 0
+          },
+          {
+            "target": "proc_concrete_patio",
+            "type": "FS",
+            "lag": 3
           }
         ],
-        "trade": "landscaping",
+        "trade": "concrete",
         "kind": "work"
       }
     ],
@@ -1067,7 +1110,7 @@
             "lag": 1
           },
           {
-            "target": "landscaping",
+            "target": "concrete_flatwork",
             "type": "FS",
             "lag": 0
           },
@@ -1077,7 +1120,7 @@
             "lag": 0
           },
           {
-            "target": "framing",
+            "target": "deck.end",
             "type": "FS",
             "lag": 0
           }
@@ -1117,6 +1160,11 @@
       "id": "structural_framing",
       "phase": "framing_shell",
       "name": "Structural Framing"
+    },
+    {
+      "id": "deck",
+      "phase": "framing_shell",
+      "name": "Deck"
     },
     {
       "id": "cladding_roof",
@@ -1159,16 +1207,19 @@
       "name": "Walkthrough & Final Inspection"
     }
   ],
-  "warnings": [
-    "Duration for \"roofing\" clamped 3 → 2 (range 1-2)."
-  ],
+  "warnings": [],
   "assumptions": [
-    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Basement storage access/stair method not specified."
+    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Glass enclosure vs. shower door/curtain not specified for master bath..",
+    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Scope doesn't confirm new interior stairs vs. tie-in to existing stairs.."
   ],
   "needs_info": [
     {
+      "node_id": "proc_shower_glass",
+      "reason": "Glass enclosure vs. shower door/curtain not specified for master bath."
+    },
+    {
       "node_id": "stair_build",
-      "reason": "Basement storage access/stair method not specified"
+      "reason": "Scope doesn't confirm new interior stairs vs. tie-in to existing stairs."
     }
   ]
 }
