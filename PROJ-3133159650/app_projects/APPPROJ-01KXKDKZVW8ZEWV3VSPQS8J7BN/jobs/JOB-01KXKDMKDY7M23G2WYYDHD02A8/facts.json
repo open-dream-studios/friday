@@ -801,5 +801,145 @@
       }
     ],
     "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCBDD42NVZBFA1F1GQBG58D": {
+    "id": "f_01KZCBDD42NVZBFA1F1GQBG58D",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_block_sequence",
+    "content": "Every TCR addition runs four blocks in fixed order — Retro (existing-home work, fully complete before addition begins), Exterior (demo→foundation→framing→exterior finishes, tight and serial), Interior (rough MEPs→rough inspections→insulation/drywall→interior finishes, which begins once ROOFING is complete while siding/fascia/soffit/gutters/vent extensions continue in parallel outside), and Closeout.",
+    "confidence": 0.92,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBDD441B5VF50D1QAGGA7X": {
+    "id": "f_01KZCBDD441B5VF50D1QAGGA7X",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_retro_inspection_coverage",
+    "content": "Retro-phase MEP work does not get its own inspection — it is covered when the regular rough inspections run.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBDD45QFTZ939P4B4MM7H1": {
+    "id": "f_01KZCBDD45QFTZ939P4B4MM7H1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_rock_change_order",
+    "content": "Hitting rock during excavation on Tri-Cities digs is treated as a change order, not absorbed into schedule padding.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBDD455S4VKPFMZASF7HQ3": {
+    "id": "f_01KZCBDD455S4VKPFMZASF7HQ3",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_roof_tie_in_documentation",
+    "content": "When a new roof ties into an existing roof, existing rafter conditions must be documented on day one of roof framing so any resulting change order (concealed conditions) processes fast.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBDD45AYBWYDS6KVD4236J": {
+    "id": "f_01KZCBDD45AYBWYDS6KVD4236J",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_drywall_cracking_warranty",
+    "content": "Hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are expected in year one and are covered under the standard one-year warranty return rather than scheduled as job work.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBDD45RY10ZM3SY74HP6XN": {
+    "id": "f_01KZCBDD45RY10ZM3SY74HP6XN",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_closeout_flow",
+    "content": "Job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item finishes (final inspection, landscaping, exterior finishes, and deck all done); concrete flatwork and landscaping run parallel to closeout, starting right after final paint.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBDD452FT28CH7AD4BZK9K": {
+    "id": "f_01KZCBDD452FT28CH7AD4BZK9K",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_pacing_rule",
+    "content": "Everything before interior finishes on an addition is rushed and schedule-tight; from interior finishes onward breathing room is acceptable and should not be panic-compressed.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:14:40.157Z",
+    "updated_at": "2026-08-06T20:14:40.157Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+      }
+    ],
+    "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
   }
 }
