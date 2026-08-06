@@ -1,1 +1,23 @@
-{}
+{
+  "b_01KZCJCZ9S58BK7K53JCVAF4NM": {
+    "id": "b_01KZCJCZ9S58BK7K53JCVAF4NM",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KZCJ71M76R36A6NS636ACR07"
+    },
+    "subject": "document_property_match",
+    "content": "DRAWINGS.pdf correctly belongs to this property: its title ('Simons Residence / Simons Addition') matches customer John Simons on record.",
+    "kind": "descriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KZCJCZ9SQA5AVQRRHW3ZM91B",
+      "f_01KZCJCZ9SJBTFQ7Y8546CC81M"
+    ],
+    "falsification_test": "If the drawings' title block or referenced address turns out to name a different customer or property.",
+    "created_at": "2026-08-06T22:16:46.049Z",
+    "updated_at": "2026-08-06T22:16:46.049Z",
+    "last_verified_at": "2026-08-06T22:16:46.049Z",
+    "derived_from_sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+  }
+}

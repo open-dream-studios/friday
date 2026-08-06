@@ -215,3 +215,31 @@ When a belief conflicts with data:
    fact set.
 5. Cross-entity beliefs (Opus-derived) DON'T override per-entity
    beliefs — they layer.
+
+---
+
+## Question lifecycle v2 (2026-08-06)
+
+- **Ceiling: 10 open questions per scope** (was 12; env
+  `INTEL_OPEN_QUESTION_CEILING`). Server-enforced at warm-loop merge.
+- **Hot surface: top 5** by materiality × blast_radius are marked
+  `surfaced` each run (env `INTEL_HOT_SURFACE_COUNT`); the inbox leads
+  with them. Ranking gives a +6 boost to `taskgraph_*` concepts —
+  questions that resolve a generation `needs_info` outrank everything.
+- **Earn-a-slot rule:** every new question must carry `unblocks` — one
+  sentence naming what answering it concretely unlocks (a schedule
+  item, a cost decision, a checklist answer). Can't state it → record
+  a belief instead, don't ask.
+- **Displacement:** an incoming critical question that can't fit evicts
+  the weakest non-critical open question (to history, never deleted).
+- **Ancestor dedupe:** a question whose concept is already open at an
+  ancestor scope is dropped at merge — the ancestor question governs.
+  Property concerns (site, access, septic-vs-sewer, service capacity)
+  are asked ONCE at app_project scope and inherited by every job.
+- **Generation reads the cascade:** task-graph interrogation now
+  consumes facts/beliefs from job + property + project scopes, labeled
+  by scope.
+- **Delta manifest:** every warm-loop run records
+  `{diff_kind, touched_files, changelog_lines}` in `.runlog.jsonl`
+  alongside per-phase timings — the one-line answer to "why did this
+  run do work".

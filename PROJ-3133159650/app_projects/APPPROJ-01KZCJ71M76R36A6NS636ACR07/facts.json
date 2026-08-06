@@ -1,1 +1,82 @@
-{}
+{
+  "f_01KZCJCZ9P9SPWA666EC1AJDYK": {
+    "id": "f_01KZCJCZ9P9SPWA666EC1AJDYK",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KZCJ71M76R36A6NS636ACR07"
+    },
+    "subject": "property_address",
+    "content": "The property at this app_project is located at 308 Evergreen Street, Church Hill, TN 37642.",
+    "confidence": 1,
+    "created_at": "2026-08-06T22:16:46.049Z",
+    "updated_at": "2026-08-06T22:16:46.049Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:address",
+        "sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+      }
+    ],
+    "derived_from_sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+  },
+  "f_01KZCJCZ9SJBTFQ7Y8546CC81M": {
+    "id": "f_01KZCJCZ9SJBTFQ7Y8546CC81M",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KZCJ71M76R36A6NS636ACR07"
+    },
+    "subject": "customer_identity",
+    "content": "The customer of record for 308 Evergreen Street is John Simons, phone 2955349323, email johnsimons@gmail.com.",
+    "confidence": 1,
+    "created_at": "2026-08-06T22:16:46.049Z",
+    "updated_at": "2026-08-06T22:16:46.049Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:customer",
+        "sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+      }
+    ],
+    "derived_from_sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+  },
+  "f_01KZCJCZ9SQJ7671XZAGSRJC9F": {
+    "id": "f_01KZCJCZ9SQJ7671XZAGSRJC9F",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KZCJ71M76R36A6NS636ACR07"
+    },
+    "subject": "lead_employee_assignment",
+    "content": "Joey Goff is the lead employee assigned to the 308 Evergreen Street property.",
+    "confidence": 1,
+    "created_at": "2026-08-06T22:16:46.049Z",
+    "updated_at": "2026-08-06T22:16:46.049Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:lead_employee",
+        "sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+      }
+    ],
+    "derived_from_sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+  },
+  "f_01KZCJCZ9SQA5AVQRRHW3ZM91B": {
+    "id": "f_01KZCJCZ9SQA5AVQRRHW3ZM91B",
+    "entity": {
+      "kind": "app_project",
+      "id": "APPPROJ-01KZCJ71M76R36A6NS636ACR07"
+    },
+    "subject": "drawings_document_subject",
+    "content": "DRAWINGS.pdf attached to this property is titled 'Simons Residence / Simons Addition' and depicts an existing two-story brick and vinyl-siding home with a planned addition off the rear/right elevation, designed by Francisco Guerrero, NCIDQ.",
+    "confidence": 0.85,
+    "created_at": "2026-08-06T22:16:46.049Z",
+    "updated_at": "2026-08-06T22:16:46.049Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "DRAWINGS.pdf",
+        "sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+      }
+    ],
+    "derived_from_sha": "f2ac1e0614b315b5d7dfc6960ac33daa5c2e85ce"
+  }
+}
