@@ -101,5 +101,46 @@
     "updated_at": "2026-08-05T04:23:22.018Z",
     "last_verified_at": "2026-08-05T04:23:22.018Z",
     "derived_from_sha": "d50d5a501b5c683ca7d8e2902858d59cd8896026"
+  },
+  "b_01KZCB22FZT1HT4WJ1F6ZQE84M": {
+    "id": "b_01KZCB22FZT1HT4WJ1F6ZQE84M",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_task_graph_generation_model",
+    "content": "For Addition-type jobs, the AI's schedule-generation role is narrowly scoped to three per-item decisions (include/exclude/needs_info, crew size, duration) against a fixed versioned task_structure.json topology — it must never invent tasks, author dependencies, or reorder phases.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01KZCB22FWQZ6FXJY3R77QVQVG"
+    ],
+    "falsification_test": "If a future job_definition revision reintroduces prose-defined task topology, or the extra_tasks escape hatch becomes routine rather than exceptional, this belief is falsified.",
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "last_verified_at": "2026-08-06T20:08:28.819Z",
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "b_01KZCB22FZQPAMW7T1ERZFWJE2": {
+    "id": "b_01KZCB22FZQPAMW7T1ERZFWJE2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_known_variance_traps",
+    "content": "Six job attributes must never be silently guessed on an addition — septic vs. city sewer, trusses vs. stick-frame, stairs/second-floor access method, carpet vs. hard flooring, shower glass vs. curtain, and mini-split vs. ducted HVAC — each requires needs_info when scope doesn't state it explicitly.",
+    "kind": "prescriptive",
+    "confidence": 0.92,
+    "status": "active",
+    "supported_by": [
+      "f_01KZCB22FZK1V94RX8XRH6JENZ",
+      "f_01KZCB22FZ7870BPES4Q2JRAQ8"
+    ],
+    "falsification_test": "A future structure revision removing any of these six from the mandatory needs_info list would falsify this.",
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "last_verified_at": "2026-08-06T20:08:28.819Z",
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
   }
 }

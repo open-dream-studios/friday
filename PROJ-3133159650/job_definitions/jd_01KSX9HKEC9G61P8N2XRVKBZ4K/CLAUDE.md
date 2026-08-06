@@ -290,6 +290,16 @@ crew-size range alongside its duration range. The AI answers crew first
 (from job scale), then sizes duration at that crew — crew is never a speed
 dial.
 
+2026-08-06 (later) — structure v6, converted 1:1 from the Will-vetted doc:
+one unified schema for every item (Trade / Kind / Include When / Crew /
+Duration / Depends / Notes), kinds work|inspection|milestone|permit|
+procurement. Permits and procurement are phases 12/13 with normal nodes —
+permits anchor `job_start (SF+0)` and the gated task carries the
+dependency; procurement anchors `<consumer> (SF-3)`. The doc's dependency
+convention (group refs via SS/FS, SF anchors) IS the JSON convention. In
+the schedule, permit/procurement rows render as a window bar with a
+diamond at each end (application/order → verified).
+
 2026-08-06 — aligned with Will's full red-pen vetting of the structure doc:
 interior now gates on roofing completion (not full exterior finish), permit
 set corrected (plumbing + mechanical in, land disturbance out), retro

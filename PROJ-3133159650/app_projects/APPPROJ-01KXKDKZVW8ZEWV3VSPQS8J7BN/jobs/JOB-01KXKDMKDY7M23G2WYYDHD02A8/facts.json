@@ -601,5 +601,205 @@
       }
     ],
     "derived_from_sha": "d50d5a501b5c683ca7d8e2902858d59cd8896026"
+  },
+  "f_01KZCB22FWQZ6FXJY3R77QVQVG": {
+    "id": "f_01KZCB22FWQZ6FXJY3R77QVQVG",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_task_structure_versioning",
+    "content": "The Addition job type's task topology now lives in a versioned task_structure.json file mirrored in this job_definition folder rather than in CLAUDE.md prose; the AI's role is limited to answering include/exclude/needs_info, crew size, and duration per checklist item.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FY7EJKM1151T5RX44E": {
+    "id": "f_01KZCB22FY7EJKM1151T5RX44E",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_tdec_septic_trigger",
+    "content": "TDEC septic permitting is only triggered when the scope modifies or installs the septic system itself — adding bedrooms or bathrooms alone never triggers it; the process runs roughly six weeks end-to-end (contact TDEC, $500 fee, soil scientist visit, soil report, permit).",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FYPXVREHRQMWKQ66JF": {
+    "id": "f_01KZCB22FYPXVREHRQMWKQ66JF",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_building_permit_practice",
+    "content": "Building permits are applied for on a 2-week safety anchor before job start, though Will typically receives them same-day roughly 90% of the time; demo never starts without the permit in hand.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FYZNJ87D3C175V05H8": {
+    "id": "f_01KZCB22FYZNJ87D3C175V05H8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_retrofit_signals",
+    "content": "Retrofit work on an addition is detected via three signals — Signal A (area mismatch, a room/feature outside the addition objective), Signal B (the word 'existing' in scope text), and Signal C (spatial ambiguity of a new feature's location) — and any signal routes the work into the Retro phase rather than the addition's own tasks.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FYJBFH4Y7P9CA10A62": {
+    "id": "f_01KZCB22FYJBFH4Y7P9CA10A62",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_deck_scheduling_rule",
+    "content": "Decks run as a parallel track starting alongside framing; nothing in the build chain waits on the deck, but job completion is gated on the deck being finished.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FYF4PZ8CYJN1FPMJBT": {
+    "id": "f_01KZCB22FYF4PZ8CYJN1FPMJBT",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_water_heater_trigger",
+    "content": "A NEW water heater (tank or tankless) triggers water-heater procurement and adds one day to the start of rough plumbing; merely extending an existing water heater's vent through a new roof does not trigger a tank and is instead a dedicated vent-extension task in exterior finishes.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FZK1V94RX8XRH6JENZ": {
+    "id": "f_01KZCB22FZK1V94RX8XRH6JENZ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_stairs_ambiguity_rule",
+    "content": "Any second-story addition needs an explicit stair-access answer (new stair vs. tie-in to existing stairwell); if scope doesn't state it, this is a mandatory needs_info item, never a silent default.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FZ7870BPES4Q2JRAQ8": {
+    "id": "f_01KZCB22FZ7870BPES4Q2JRAQ8",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_truss_default",
+    "content": "Stick-frame is the TCR default for small additions; truss procurement is included only when scope explicitly specifies trusses, roof span exceeds ~24 feet, footprint exceeds ~800 sqft, or the PM confirms.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FZT3TMM0F25JAGD5YZ": {
+    "id": "f_01KZCB22FZT3TMM0F25JAGD5YZ",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_procurement_timing_rule",
+    "content": "Procurement items use a two-checkpoint model (order placed → delivery verified); material must be delivered 3 working days before the task it attaches to starts, with delivery time sized within each item's allowed range.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+  },
+  "f_01KZCB22FZRFDXWYW2KBG93VME": {
+    "id": "f_01KZCB22FZRFDXWYW2KBG93VME",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_permit_set_v6",
+    "content": "Per the 2026-08-06 structure revision, the addition permit set includes plumbing and mechanical permits but excludes land disturbance; permits anchor to job_start (SF+0) with verification gating the first task that legally needs them.",
+    "confidence": 0.85,
+    "created_at": "2026-08-06T20:08:28.819Z",
+    "updated_at": "2026-08-06T20:08:28.819Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "15ba372b6665443e427e4ce261e45537d09744fc"
+      }
+    ],
+    "derived_from_sha": "15ba372b6665443e427e4ce261e45537d09744fc"
   }
 }
