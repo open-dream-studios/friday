@@ -468,5 +468,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KZCKRJ6P6PXD9F74HJZ40G9B": {
+    "id": "f_01KZCKRJ6P6PXD9F74HJZ40G9B",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCK8S5S03FY1PZSKHKS38WQ",
+    "content": "Q: Schedule checklist: does this job include \"Shower glass (template after tile)\"? Glass enclosure vs. shower door/curtain not specified for master bath. → A: Exclude — no glass enclosure or shower door is priced in the breakdown or named in the master bath scope (tile shower, niche, bench, dual valve only). If the customer selects glass at finish selections, it's a change order and we'll add it via Update Schedule.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:40:34.517Z",
+    "updated_at": "2026-08-06T22:40:34.517Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCK8S5S03FY1PZSKHKS38WQ",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
