@@ -506,5 +506,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KZCM2XZ16MHZEG2MQXJM1YQ5": {
+    "id": "f_01KZCM2XZ16MHZEG2MQXJM1YQ5",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCKZC2JJHRKPPVPWJ9W8VYS",
+    "content": "Q: Schedule checklist: does this job include \"Carpet / floating floor\"? Bedroom flooring material (carpet vs hard surface) not specified → A: Exclude it",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:46:14.240Z",
+    "updated_at": "2026-08-06T22:46:14.240Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCKZC2JJHRKPPVPWJ9W8VYS",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
