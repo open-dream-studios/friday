@@ -1,228 +1,8 @@
 {
   "schema": "task_graph_v2",
   "job_type": "Addition",
-  "structure_version": 7,
+  "structure_version": 6,
   "phases": {
-    "procurement": [
-      {
-        "code": "proc_foundation_package",
-        "component": "procurement_items",
-        "name": "Foundation",
-        "duration": 7,
-        "lead_time": 10,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_windows_doors",
-        "component": "procurement_items",
-        "name": "Windows & exterior doors",
-        "duration": 10,
-        "lead_time": 14,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_lvl",
-        "component": "procurement_items",
-        "name": "LVL / engineered beams",
-        "duration": 5,
-        "lead_time": 7,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_framing_package",
-        "component": "procurement_items",
-        "name": "Framing Package",
-        "duration": 7,
-        "lead_time": 10,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_subpanel",
-        "component": "procurement_items",
-        "name": "Subpanel / service equipment",
-        "duration": 4,
-        "lead_time": 5,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_hvac_equipment",
-        "component": "procurement_items",
-        "name": "HVAC equipment (mini-split / system)",
-        "duration": 5,
-        "lead_time": 7,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_electrical_package",
-        "component": "procurement_items",
-        "name": "Electrical Package",
-        "duration": 4,
-        "lead_time": 5,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_plumbing_package",
-        "component": "procurement_items",
-        "name": "Plumbing Package",
-        "duration": 2,
-        "lead_time": 3,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_tile",
-        "component": "procurement_items",
-        "name": "Tile & setting materials",
-        "duration": 5,
-        "lead_time": 7,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_hard_flooring",
-        "component": "procurement_items",
-        "name": "Hard flooring",
-        "duration": 10,
-        "lead_time": 14,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_insulation",
-        "component": "procurement_items",
-        "name": "Insulation",
-        "duration": 1,
-        "lead_time": 2,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_drywall",
-        "component": "procurement_items",
-        "name": "Drywall",
-        "duration": 4,
-        "lead_time": 5,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_cabinets",
-        "component": "procurement_items",
-        "name": "Cabinets / vanities",
-        "duration": 15,
-        "lead_time": 21,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_countertops",
-        "component": "procurement_items",
-        "name": "Countertops",
-        "duration": 15,
-        "lead_time": 21,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_paint",
-        "component": "procurement_items",
-        "name": "Paint + Primer",
-        "duration": 1,
-        "lead_time": 2,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_doors_trim",
-        "component": "procurement_items",
-        "name": "Interior doors & trim package",
-        "duration": 5,
-        "lead_time": 7,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_plumbing_fixtures",
-        "component": "procurement_items",
-        "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
-        "duration": 5,
-        "lead_time": 7,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_light_fixtures",
-        "component": "procurement_items",
-        "name": "Light fixtures & devices",
-        "duration": 4,
-        "lead_time": 5,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      }
-    ],
-    "permits": [
-      {
-        "code": "permit_building",
-        "component": "permit_items",
-        "name": "Building permit",
-        "duration": 10,
-        "links": [],
-        "trade": "general",
-        "kind": "permit"
-      },
-      {
-        "code": "permit_tdec_septic",
-        "component": "permit_items",
-        "name": "TDEC septic permit",
-        "duration": 30,
-        "links": [],
-        "trade": "general",
-        "kind": "permit"
-      },
-      {
-        "code": "permit_plumbing",
-        "component": "permit_items",
-        "name": "Plumbing Permit",
-        "duration": 10,
-        "links": [],
-        "trade": "general",
-        "kind": "permit"
-      },
-      {
-        "code": "permit_mechanical",
-        "component": "permit_items",
-        "name": "Mechanical Permit",
-        "duration": 10,
-        "links": [],
-        "trade": "general",
-        "kind": "permit"
-      }
-    ],
     "retrofit": [
       {
         "code": "utility_relocations",
@@ -254,7 +34,7 @@
         "code": "retrofit_rough_meps",
         "component": "retrofit_work",
         "name": "Retrofit rough MEPs",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -270,7 +50,7 @@
         "code": "retrofit_drywall",
         "component": "retrofit_work",
         "name": "Retrofit drywall & patching",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -357,7 +137,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -429,7 +209,7 @@
         "code": "framing",
         "component": "structural_framing",
         "name": "Framing (floor, walls, roof structure, sheathing)",
-        "duration": 10,
+        "duration": 12,
         "crew": 4,
         "links": [
           {
@@ -539,7 +319,7 @@
         "component": "cladding_roof",
         "name": "Siding (WRB, siding, tie-in blend)",
         "duration": 5,
-        "crew": 3,
+        "crew": 2,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -554,7 +334,7 @@
         "code": "fascia_soffit_gutters",
         "component": "cladding_roof",
         "name": "Fascia, soffit & gutters",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -669,7 +449,7 @@
         "code": "rough_electrical",
         "component": "rough_meps",
         "name": "Rough electrical (circuits, subpanel, boxes)",
-        "duration": 4,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -804,7 +584,7 @@
         "code": "drywall",
         "component": "insulation_drywall_prime",
         "name": "Drywall (hang, tape, sand)",
-        "duration": 6,
+        "duration": 5,
         "crew": 3,
         "links": [
           {
@@ -883,7 +663,7 @@
         "code": "hard_flooring",
         "component": "interior_installs",
         "name": "Hard flooring install (LVP, hardwood, tile floors)",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -1019,6 +799,29 @@
         "kind": "milestone"
       }
     ],
+    "concrete_landscaping": [
+      {
+        "code": "concrete_flatwork",
+        "component": "concrete_landscape",
+        "name": "Concrete flatwork (patios, driveways, walkways)",
+        "duration": 2,
+        "crew": 3,
+        "links": [
+          {
+            "target": "paint_phase_2",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_concrete_patio",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work"
+      }
+    ],
     "closeout": [
       {
         "code": "closeout.start",
@@ -1078,7 +881,7 @@
             "lag": 1
           },
           {
-            "target": "paint_phase_2",
+            "target": "concrete_flatwork",
             "type": "FS",
             "lag": 0
           },
@@ -1096,19 +899,239 @@
         "trade": "general",
         "kind": "milestone"
       }
+    ],
+    "permits": [
+      {
+        "code": "permit_building",
+        "component": "permit_items",
+        "name": "Building permit",
+        "duration": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "permit"
+      },
+      {
+        "code": "permit_tdec_septic",
+        "component": "permit_items",
+        "name": "TDEC septic permit",
+        "duration": 30,
+        "links": [],
+        "trade": "general",
+        "kind": "permit"
+      },
+      {
+        "code": "permit_plumbing",
+        "component": "permit_items",
+        "name": "Plumbing Permit",
+        "duration": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "permit"
+      },
+      {
+        "code": "permit_mechanical",
+        "component": "permit_items",
+        "name": "Mechanical Permit",
+        "duration": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "permit"
+      }
+    ],
+    "procurement": [
+      {
+        "code": "proc_foundation_package",
+        "component": "procurement_items",
+        "name": "Foundation",
+        "duration": 10,
+        "lead_time": 14,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_windows_doors",
+        "component": "procurement_items",
+        "name": "Windows & exterior doors",
+        "duration": 13,
+        "lead_time": 18,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_lvl",
+        "component": "procurement_items",
+        "name": "LVL / engineered beams",
+        "duration": 7,
+        "lead_time": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_framing_package",
+        "component": "procurement_items",
+        "name": "Framing Package",
+        "duration": 7,
+        "lead_time": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_subpanel",
+        "component": "procurement_items",
+        "name": "Subpanel / service equipment",
+        "duration": 4,
+        "lead_time": 5,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_hvac_equipment",
+        "component": "procurement_items",
+        "name": "HVAC equipment (mini-split / system)",
+        "duration": 7,
+        "lead_time": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_electrical_package",
+        "component": "procurement_items",
+        "name": "Electrical Package",
+        "duration": 4,
+        "lead_time": 5,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_plumbing_package",
+        "component": "procurement_items",
+        "name": "Plumbing Package",
+        "duration": 2,
+        "lead_time": 3,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_tile",
+        "component": "procurement_items",
+        "name": "Tile & setting materials",
+        "duration": 5,
+        "lead_time": 7,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_hard_flooring",
+        "component": "procurement_items",
+        "name": "Hard flooring",
+        "duration": 10,
+        "lead_time": 14,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_insulation",
+        "component": "procurement_items",
+        "name": "Insulation",
+        "duration": 1,
+        "lead_time": 2,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_drywall",
+        "component": "procurement_items",
+        "name": "Drywall",
+        "duration": 4,
+        "lead_time": 5,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_cabinets",
+        "component": "procurement_items",
+        "name": "Cabinets / vanities",
+        "duration": 20,
+        "lead_time": 28,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_countertops",
+        "component": "procurement_items",
+        "name": "Countertops",
+        "duration": 21,
+        "lead_time": 30,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_paint",
+        "component": "procurement_items",
+        "name": "Paint + Primer",
+        "duration": 1,
+        "lead_time": 2,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_doors_trim",
+        "component": "procurement_items",
+        "name": "Interior doors & trim package",
+        "duration": 5,
+        "lead_time": 7,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_plumbing_fixtures",
+        "component": "procurement_items",
+        "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
+        "duration": 5,
+        "lead_time": 7,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_light_fixtures",
+        "component": "procurement_items",
+        "name": "Light fixtures & devices",
+        "duration": 5,
+        "lead_time": 7,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_concrete_patio",
+        "component": "procurement_items",
+        "name": "Concrete + Patio Work",
+        "duration": 1,
+        "lead_time": 2,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      }
     ]
   },
   "components": [
-    {
-      "id": "procurement_items",
-      "phase": "procurement",
-      "name": "Procurement Items"
-    },
-    {
-      "id": "permit_items",
-      "phase": "permits",
-      "name": "Permit Items"
-    },
     {
       "id": "retrofit_work",
       "phase": "retrofit",
@@ -1165,34 +1188,51 @@
       "name": "Final Trades & Paint 2"
     },
     {
+      "id": "concrete_landscape",
+      "phase": "concrete_landscaping",
+      "name": "Concrete & Landscape"
+    },
+    {
       "id": "walkthrough_final_inspection",
       "phase": "closeout",
       "name": "Walkthrough & Final Inspection"
+    },
+    {
+      "id": "permit_items",
+      "phase": "permits",
+      "name": "Permit Items"
+    },
+    {
+      "id": "procurement_items",
+      "phase": "procurement",
+      "name": "Procurement Items"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "Duration for \"roofing\" clamped 3 → 2 (range 1-2)."
+  ],
   "assumptions": [
-    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Bedroom floor covering (carpet vs hard) not specified.",
-    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Shower glass vs curtain not specified in scope.",
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom floor covering (carpet vs hard) not specified.",
-    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Second-floor stair access method (new vs tie-in) not stated."
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom floor covering (carpet vs hard) not specified in scope.",
+    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Second-floor stair access method (new vs tie-in existing) not stated.",
+    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Depends on unresolved carpet vs hard flooring decision.",
+    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Glass enclosure vs shower curtain not specified in scope."
   ],
   "needs_info": [
     {
-      "node_id": "proc_carpet",
-      "reason": "Bedroom floor covering (carpet vs hard) not specified"
-    },
-    {
-      "node_id": "proc_shower_glass",
-      "reason": "Shower glass vs curtain not specified in scope"
-    },
-    {
       "node_id": "carpet_floating",
-      "reason": "Bedroom floor covering (carpet vs hard) not specified"
+      "reason": "Bedroom floor covering (carpet vs hard) not specified in scope"
     },
     {
       "node_id": "stair_build",
-      "reason": "Second-floor stair access method (new vs tie-in) not stated"
+      "reason": "Second-floor stair access method (new vs tie-in existing) not stated"
+    },
+    {
+      "node_id": "proc_carpet",
+      "reason": "Depends on unresolved carpet vs hard flooring decision"
+    },
+    {
+      "node_id": "proc_shower_glass",
+      "reason": "Glass enclosure vs shower curtain not specified in scope"
     }
   ]
 }
