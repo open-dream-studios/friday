@@ -9,7 +9,7 @@
         "component": "retrofit_work",
         "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
         "duration": 3,
-        "crew": 2,
+        "crew": 3,
         "links": [],
         "trade": "general",
         "kind": "work"
@@ -66,7 +66,7 @@
         "code": "retrofit_finishes",
         "component": "retrofit_work",
         "name": "Retrofit finishes (paint, tile, flooring, fixtures)",
-        "duration": 4,
+        "duration": 5,
         "crew": 2,
         "links": [
           {
@@ -98,7 +98,7 @@
         "code": "site_and_structure_demo",
         "component": "main_demolition",
         "name": "Demolition (site + structure at addition footprint)",
-        "duration": 2,
+        "duration": 3,
         "crew": 3,
         "links": [
           {
@@ -121,7 +121,7 @@
         "code": "site_prep",
         "component": "groundwork",
         "name": "Site prep (protection, staging, access)",
-        "duration": 2,
+        "duration": 1,
         "crew": 2,
         "links": [
           {
@@ -137,7 +137,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -158,7 +158,7 @@
         "code": "foundation",
         "component": "groundwork",
         "name": "Foundation (form, inspect, pour)",
-        "duration": 5,
+        "duration": 4,
         "crew": 4,
         "links": [
           {
@@ -209,7 +209,7 @@
         "code": "framing",
         "component": "structural_framing",
         "name": "Framing (floor, walls, roof structure, sheathing)",
-        "duration": 10,
+        "duration": 12,
         "crew": 4,
         "links": [
           {
@@ -251,6 +251,50 @@
         ],
         "trade": "windows_doors",
         "kind": "work"
+      },
+      {
+        "code": "deck.start",
+        "name": "Deck — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "framing",
+            "type": "SS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "deck_build",
+        "component": "deck",
+        "name": "Deck build",
+        "duration": 4,
+        "crew": 2,
+        "links": [
+          {
+            "target": "deck.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "framing",
+        "kind": "work"
+      },
+      {
+        "code": "deck.end",
+        "name": "Deck — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "deck_build",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
       }
     ],
     "exterior_finishes": [
@@ -259,7 +303,7 @@
         "component": "cladding_roof",
         "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
         "duration": 2,
-        "crew": 3,
+        "crew": 4,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -275,7 +319,7 @@
         "component": "cladding_roof",
         "name": "Siding (WRB, siding, tie-in blend)",
         "duration": 5,
-        "crew": 2,
+        "crew": 3,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -291,7 +335,7 @@
         "component": "cladding_roof",
         "name": "Fascia, soffit & gutters",
         "duration": 2,
-        "crew": 2,
+        "crew": 3,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -405,7 +449,7 @@
         "code": "rough_electrical",
         "component": "rough_meps",
         "name": "Rough electrical (circuits, subpanel, boxes)",
-        "duration": 4,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -619,7 +663,7 @@
         "code": "hard_flooring",
         "component": "interior_installs",
         "name": "Hard flooring install (LVP, hardwood, tile floors)",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -640,7 +684,7 @@
         "code": "cabinets_counters",
         "component": "interior_installs",
         "name": "Cabinets, counters, vanities & fixed items",
-        "duration": 2,
+        "duration": 1,
         "crew": 2,
         "links": [
           {
@@ -755,6 +799,29 @@
         "kind": "milestone"
       }
     ],
+    "concrete_landscaping": [
+      {
+        "code": "concrete_flatwork",
+        "component": "concrete_landscape",
+        "name": "Concrete flatwork (patios, driveways, walkways)",
+        "duration": 2,
+        "crew": 3,
+        "links": [
+          {
+            "target": "paint_phase_2",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_concrete_patio",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work"
+      }
+    ],
     "closeout": [
       {
         "code": "closeout.start",
@@ -814,7 +881,7 @@
             "lag": 1
           },
           {
-            "target": "paint_phase_2",
+            "target": "concrete_flatwork",
             "type": "FS",
             "lag": 0
           },
@@ -824,7 +891,7 @@
             "lag": 0
           },
           {
-            "target": "framing",
+            "target": "deck.end",
             "type": "FS",
             "lag": 0
           }
@@ -1046,8 +1113,18 @@
         "code": "proc_light_fixtures",
         "component": "procurement_items",
         "name": "Light fixtures & devices",
-        "duration": 4,
-        "lead_time": 5,
+        "duration": 5,
+        "lead_time": 7,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement"
+      },
+      {
+        "code": "proc_concrete_patio",
+        "component": "procurement_items",
+        "name": "Concrete + Patio Work",
+        "duration": 1,
+        "lead_time": 2,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -1074,6 +1151,11 @@
       "id": "structural_framing",
       "phase": "framing_shell",
       "name": "Structural Framing"
+    },
+    {
+      "id": "deck",
+      "phase": "framing_shell",
+      "name": "Deck"
     },
     {
       "id": "cladding_roof",
@@ -1106,6 +1188,11 @@
       "name": "Final Trades & Paint 2"
     },
     {
+      "id": "concrete_landscape",
+      "phase": "concrete_landscaping",
+      "name": "Concrete & Landscape"
+    },
+    {
       "id": "walkthrough_final_inspection",
       "phase": "closeout",
       "name": "Walkthrough & Final Inspection"
@@ -1123,28 +1210,23 @@
   ],
   "warnings": [],
   "assumptions": [
-    "\"Deck build\" (deck_build) EXCLUDED pending answer: Drawings show deck/stair but scope text doesn't confirm inclusion.",
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom flooring material (carpet vs hard surface) not specified.",
-    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Second-story access method (new stair vs existing tie-in) not stated.",
-    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Mirrors carpet_floating — bedroom flooring choice undetermined.",
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom flooring type (carpet vs hard) not specified.",
+    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Second-floor access method (stair type/location) unspecified.",
+    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Contingent on carpet vs hard flooring decision.",
     "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Shower glass vs curtain not specified in scope."
   ],
   "needs_info": [
     {
-      "node_id": "deck_build",
-      "reason": "Drawings show deck/stair but scope text doesn't confirm inclusion"
-    },
-    {
       "node_id": "carpet_floating",
-      "reason": "Bedroom flooring material (carpet vs hard surface) not specified"
+      "reason": "Bedroom flooring type (carpet vs hard) not specified"
     },
     {
       "node_id": "stair_build",
-      "reason": "Second-story access method (new stair vs existing tie-in) not stated"
+      "reason": "Second-floor access method (stair type/location) unspecified"
     },
     {
       "node_id": "proc_carpet",
-      "reason": "Mirrors carpet_floating — bedroom flooring choice undetermined"
+      "reason": "Contingent on carpet vs hard flooring decision"
     },
     {
       "node_id": "proc_shower_glass",
