@@ -1093,7 +1093,7 @@
       "vetted": true,
       "trigger": "Always.",
       "duration": {
-        "max": 2,
+        "max": 3,
         "min": 1,
         "hint": "Small addition roof 1-2 days; complex tie-in to existing adds a day.",
         "kind": "range",
@@ -2034,7 +2034,7 @@
       "order": 12
     }
   ],
-  "version": 7,
+  "version": 8,
   "job_type": "Addition",
   "components": [
     {
