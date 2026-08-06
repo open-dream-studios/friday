@@ -1,6 +1,694 @@
 {
   "nodes": [
     {
+      "id": "proc_foundation_package",
+      "kind": "procurement",
+      "name": "Foundation",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "foundation"
+        }
+      ],
+      "notes": "Foundation order should include rebar, chairs, block, mortar, sand, and concrete depending on foundation type.When we do things like elevated concrete pads, we will need to order twice because we have to core fill the block before pouring the slab etc. We'll need to coordinate delivery of the concrete truck and possibly the concrete pump depending on the project. Be sure to always include form boards. And cut-offs, bracing material, etc. This should really include extra lumber for forming depending on the foundation type.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Always",
+      "duration": {
+        "cal": true,
+        "max": 21,
+        "min": 7,
+        "kind": "range",
+        "default": 14
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_windows_doors",
+      "kind": "procurement",
+      "name": "Windows & exterior doors",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "exterior_windows_doors"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Always. Order minimum 21 calendar days before demo; confirm custom vs stock with customer (custom runs 28-42).",
+      "duration": {
+        "cal": true,
+        "max": 42,
+        "min": 14,
+        "hint": "Stock 2-3 weeks; custom runs 4-6 weeks — confirm custom vs stock with the customer.",
+        "kind": "range",
+        "default": 21
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_lvl",
+      "kind": "procurement",
+      "name": "LVL / engineered beams",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "framing"
+        }
+      ],
+      "notes": "Nominal 1-2 weeks but availability swings with the lumber market — early-order rather than halt framing.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When engineered structural members are on the project.",
+      "duration": {
+        "cal": true,
+        "max": 21,
+        "min": 7,
+        "hint": "Standard LVL ~1 week; pressure-treated or custom, or a tight lumber market, pushes 3 weeks.",
+        "kind": "range",
+        "default": 10
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_framing_package",
+      "kind": "procurement",
+      "name": "Framing Package",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "framing"
+        }
+      ],
+      "notes": "Nominal 1-2 weeks but availability swings with the lumber market — early-order rather than halt framing.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Any Framing Work",
+      "duration": {
+        "cal": true,
+        "max": 21,
+        "min": 7,
+        "kind": "range",
+        "default": 10
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_trusses",
+      "kind": "procurement",
+      "name": "Roof trusses (custom)",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "framing"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When the roof is trussed (not stick-framed).",
+      "duration": {
+        "cal": true,
+        "max": 42,
+        "min": 28,
+        "hint": "Truss plant queue drives it — bigger/complex roofs sit longer in engineering.",
+        "kind": "range",
+        "default": 35
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_subpanel",
+      "kind": "procurement",
+      "name": "Subpanel / service equipment",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "rough_electrical"
+        }
+      ],
+      "notes": "Existing main service amperage must be verified before contract — 200A is typical but panel space for the subpanel is the real question.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When a subpanel or service upgrade is in scope (verify amperage first).",
+      "duration": {
+        "cal": true,
+        "max": 7,
+        "min": 2,
+        "kind": "range",
+        "default": 5
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_hvac_equipment",
+      "kind": "procurement",
+      "name": "HVAC equipment (mini-split / system)",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "rough_hvac"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When new HVAC equipment serves the addition.",
+      "duration": {
+        "cal": true,
+        "max": 14,
+        "min": 7,
+        "hint": "Common mini-splits ~1 week; matched ducted systems or specialty sizes push 3 weeks.",
+        "kind": "range",
+        "default": 10
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_electrical_package",
+      "kind": "procurement",
+      "name": "Electrical Package",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "rough_electrical"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Rough electrical",
+      "duration": {
+        "cal": true,
+        "max": 7,
+        "min": 2,
+        "kind": "range",
+        "default": 5
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_water_heater",
+      "kind": "procurement",
+      "name": "Water heater (tank or tankless)",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "rough_plumbing"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When a NEW water heater is in scope (serving the addition or replacing existing). Extending an existing WH's vent does NOT trigger this.",
+      "duration": {
+        "cal": true,
+        "max": 14,
+        "min": 3,
+        "hint": "Stock tanks are days; tankless or specialty venting pushes 2 weeks.",
+        "kind": "range",
+        "default": 7
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_plumbing_package",
+      "kind": "procurement",
+      "name": "Plumbing Package",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "rough_plumbing"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Plumbing in scope",
+      "duration": {
+        "cal": true,
+        "max": 5,
+        "min": 2,
+        "kind": "range",
+        "default": 3
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_tile",
+      "kind": "procurement",
+      "name": "Tile & setting materials",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "shower_work"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When tile is in scope.",
+      "duration": {
+        "cal": true,
+        "max": 12,
+        "min": 5,
+        "hint": "In-stock tile ~1 week; special-order or large custom showers push 3 weeks.",
+        "kind": "range",
+        "default": 7
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_hard_flooring",
+      "kind": "procurement",
+      "name": "Hard flooring",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "hard_flooring"
+        }
+      ],
+      "notes": "Ordering ties to USE date, not job start — interior finish materials wait until the shell is underway.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When hard flooring is in scope. Order ~3 weeks before install; deliver 2 weeks ahead of use.",
+      "duration": {
+        "cal": true,
+        "max": 21,
+        "min": 7,
+        "kind": "range",
+        "default": 14
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_carpet",
+      "kind": "procurement",
+      "name": "Carpet / floating floor",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "carpet_floating"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When carpet or floating floors are in scope.",
+      "duration": {
+        "cal": true,
+        "max": 14,
+        "min": 5,
+        "kind": "range",
+        "default": 7
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_insulation",
+      "kind": "procurement",
+      "name": "Insulation",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "insulation"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Insulation in scope",
+      "duration": {
+        "cal": true,
+        "max": 5,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_drywall",
+      "kind": "procurement",
+      "name": "Drywall",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "drywall"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Drywall in scope of work",
+      "duration": {
+        "cal": true,
+        "max": 14,
+        "min": 5,
+        "kind": "range",
+        "default": 5
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_cabinets",
+      "kind": "procurement",
+      "name": "Cabinets / vanities",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "cabinets_counters"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When cabinetry is in scope. Custom cabinets run 42-56 days — order at start of schedule sign-off.",
+      "duration": {
+        "cal": true,
+        "max": 60,
+        "min": 21,
+        "hint": "Stock/semi-custom 3-4 weeks; full custom runs 6-8 weeks — order at structural sign-off.",
+        "kind": "range",
+        "default": 42
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_countertops",
+      "kind": "procurement",
+      "name": "Countertops",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "cabinets_counters"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Countertops in scope",
+      "duration": {
+        "cal": true,
+        "max": 40,
+        "min": 21,
+        "kind": "range",
+        "default": 30
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_paint",
+      "kind": "procurement",
+      "name": "Paint + Primer",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "paint_phase_1"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Always.",
+      "duration": {
+        "cal": true,
+        "max": 5,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_shower_glass",
+      "kind": "procurement",
+      "name": "Shower glass (template after tile)",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "finish_carpentry"
+        },
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "shower_work"
+        }
+      ],
+      "notes": "If custom glass, then delivery time is 15 calendar days.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When a glass shower enclosure is in scope.",
+      "duration": {
+        "cal": true,
+        "max": 14,
+        "min": 7,
+        "hint": "Template happens after tile — the window only starts once measurements exist.",
+        "kind": "range",
+        "default": 10
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_doors_trim",
+      "kind": "procurement",
+      "name": "Interior doors & trim package",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "finish_carpentry"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Always — interior doors, casing, base, and trim stock for the final trades block.",
+      "duration": {
+        "cal": true,
+        "max": 14,
+        "min": 5,
+        "hint": "Stock profiles ~1 week; special-order doors or matching existing profiles push 2 weeks.",
+        "kind": "range",
+        "default": 7
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_plumbing_fixtures",
+      "kind": "procurement",
+      "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "mep_fixture_install"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When the addition adds plumbing fixtures (nearly always when a bath/kitchen is in scope).",
+      "duration": {
+        "cal": true,
+        "max": 21,
+        "min": 5,
+        "hint": "Stock fixtures are days; designer or specialty finishes push 3 weeks.",
+        "kind": "range",
+        "default": 7
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_light_fixtures",
+      "kind": "procurement",
+      "name": "Light fixtures & devices",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "mep_fixture_install"
+        }
+      ],
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Always — fixtures, fans, devices, and plates for electrical finish.",
+      "duration": {
+        "cal": true,
+        "max": 21,
+        "min": 5,
+        "hint": "Stock is days; customer-selected specialty fixtures push 3 weeks.",
+        "kind": "range",
+        "default": 7
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "proc_concrete_patio",
+      "kind": "procurement",
+      "name": "Concrete + Patio Work",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "concrete_flatwork"
+        }
+      ],
+      "notes": "When making this material order be sure to include: form boards, materials, bracing, concrete, rebars, chairs, rebar ties, etc… Possibly we'll need concrete pump depending on the project.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Concrete or Patio in scope",
+      "duration": {
+        "cal": true,
+        "max": 5,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "permit_building",
+      "kind": "permit",
+      "name": "Building permit",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SF",
+          "target": "job_start"
+        }
+      ],
+      "notes": "Will gets permits same-day ~90% of the time — the 2-week application anchor is the safety margin, not the expectation. Demo never starts without it in hand.",
+      "phase": "permits",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Always.",
+      "duration": {
+        "hint": "application filed 2 weeks before job_start; verified by job_start.",
+        "kind": "fixed",
+        "default": 10
+      },
+      "component": "permit_items"
+    },
+    {
+      "id": "permit_tdec_septic",
+      "kind": "permit",
+      "name": "TDEC septic permit",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SF",
+          "target": "job_start"
+        }
+      ],
+      "notes": "~6-week TDEC process: contact → soil scientist visit ($500 fee) → soil report → permit. Often the longest lead in the whole job; do NOT break ground without it.",
+      "phase": "permits",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "ONLY when the scope modifies the existing septic system or installs a new one. Adding bedrooms/bathrooms alone does NOT trigger it.",
+      "duration": {
+        "hint": "application filed 6 weeks before job_start; verified by job_start.",
+        "kind": "fixed",
+        "default": 30
+      },
+      "component": "permit_items"
+    },
+    {
+      "id": "permit_electrical_service",
+      "kind": "permit",
+      "name": "Electrical service / meter permit",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SF",
+          "target": "job_start"
+        }
+      ],
+      "notes": "Utility coordination for service work can outrun the 2-week anchor — confirm with the utility early.",
+      "phase": "permits",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "When the job upgrades the main service or relocates the meter (utility + state inspection involvement). A subpanel alone does NOT trigger it — that rides the building permit.",
+      "duration": {
+        "hint": "application filed 2 weeks before job_start; verified by job_start.",
+        "kind": "fixed",
+        "default": 10
+      },
+      "component": "permit_items"
+    },
+    {
+      "id": "permit_plumbing",
+      "kind": "permit",
+      "name": "Plumbing Permit",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SF",
+          "target": "job_start"
+        }
+      ],
+      "phase": "permits",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "Plumbing in scope",
+      "duration": {
+        "hint": "application filed 2 weeks before job_start; verified by job_start.",
+        "kind": "fixed",
+        "default": 10
+      },
+      "component": "permit_items"
+    },
+    {
+      "id": "permit_mechanical",
+      "kind": "permit",
+      "name": "Mechanical Permit",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SF",
+          "target": "job_start"
+        }
+      ],
+      "phase": "permits",
+      "trade": "general",
+      "vetted": true,
+      "trigger": "HVAC work in scope",
+      "duration": {
+        "hint": "application filed 2 weeks before job_start; verified by job_start.",
+        "kind": "fixed",
+        "default": 10
+      },
+      "component": "permit_items"
+    },
+    {
       "id": "utility_relocations",
       "crew": {
         "max": 3,
@@ -1176,697 +1864,25 @@
       },
       "component": "walkthrough_final_inspection",
       "auto_include": true
-    },
-    {
-      "id": "permit_building",
-      "kind": "permit",
-      "name": "Building permit",
-      "links": [
-        {
-          "lag": 0,
-          "type": "SF",
-          "target": "job_start"
-        }
-      ],
-      "notes": "Will gets permits same-day ~90% of the time — the 2-week application anchor is the safety margin, not the expectation. Demo never starts without it in hand.",
-      "phase": "permits",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Always.",
-      "duration": {
-        "hint": "application filed 2 weeks before job_start; verified by job_start.",
-        "kind": "fixed",
-        "default": 10
-      },
-      "component": "permit_items"
-    },
-    {
-      "id": "permit_tdec_septic",
-      "kind": "permit",
-      "name": "TDEC septic permit",
-      "links": [
-        {
-          "lag": 0,
-          "type": "SF",
-          "target": "job_start"
-        }
-      ],
-      "notes": "~6-week TDEC process: contact → soil scientist visit ($500 fee) → soil report → permit. Often the longest lead in the whole job; do NOT break ground without it.",
-      "phase": "permits",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "ONLY when the scope modifies the existing septic system or installs a new one. Adding bedrooms/bathrooms alone does NOT trigger it.",
-      "duration": {
-        "hint": "application filed 6 weeks before job_start; verified by job_start.",
-        "kind": "fixed",
-        "default": 30
-      },
-      "component": "permit_items"
-    },
-    {
-      "id": "permit_electrical_service",
-      "kind": "permit",
-      "name": "Electrical service / meter permit",
-      "links": [
-        {
-          "lag": 0,
-          "type": "SF",
-          "target": "job_start"
-        }
-      ],
-      "notes": "Utility coordination for service work can outrun the 2-week anchor — confirm with the utility early.",
-      "phase": "permits",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When the job upgrades the main service or relocates the meter (utility + state inspection involvement). A subpanel alone does NOT trigger it — that rides the building permit.",
-      "duration": {
-        "hint": "application filed 2 weeks before job_start; verified by job_start.",
-        "kind": "fixed",
-        "default": 10
-      },
-      "component": "permit_items"
-    },
-    {
-      "id": "permit_plumbing",
-      "kind": "permit",
-      "name": "Plumbing Permit",
-      "links": [
-        {
-          "lag": 0,
-          "type": "SF",
-          "target": "job_start"
-        }
-      ],
-      "phase": "permits",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Plumbing in scope",
-      "duration": {
-        "hint": "application filed 2 weeks before job_start; verified by job_start.",
-        "kind": "fixed",
-        "default": 10
-      },
-      "component": "permit_items"
-    },
-    {
-      "id": "permit_mechanical",
-      "kind": "permit",
-      "name": "Mechanical Permit",
-      "links": [
-        {
-          "lag": 0,
-          "type": "SF",
-          "target": "job_start"
-        }
-      ],
-      "phase": "permits",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "HVAC work in scope",
-      "duration": {
-        "hint": "application filed 2 weeks before job_start; verified by job_start.",
-        "kind": "fixed",
-        "default": 10
-      },
-      "component": "permit_items"
-    },
-    {
-      "id": "proc_foundation_package",
-      "kind": "procurement",
-      "name": "Foundation",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "foundation"
-        }
-      ],
-      "notes": "Foundation order should include rebar, chairs, block, mortar, sand, and concrete depending on foundation type.When we do things like elevated concrete pads, we will need to order twice because we have to core fill the block before pouring the slab etc. We'll need to coordinate delivery of the concrete truck and possibly the concrete pump depending on the project. Be sure to always include form boards. And cut-offs, bracing material, etc. This should really include extra lumber for forming depending on the foundation type.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Always",
-      "duration": {
-        "cal": true,
-        "max": 21,
-        "min": 7,
-        "kind": "range",
-        "default": 14
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_windows_doors",
-      "kind": "procurement",
-      "name": "Windows & exterior doors",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "exterior_windows_doors"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Always. Order minimum 21 calendar days before demo; confirm custom vs stock with customer (custom runs 28-42).",
-      "duration": {
-        "cal": true,
-        "max": 42,
-        "min": 14,
-        "hint": "Stock 2-3 weeks; custom runs 4-6 weeks — confirm custom vs stock with the customer.",
-        "kind": "range",
-        "default": 21
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_lvl",
-      "kind": "procurement",
-      "name": "LVL / engineered beams",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "framing"
-        }
-      ],
-      "notes": "Nominal 1-2 weeks but availability swings with the lumber market — early-order rather than halt framing.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When engineered structural members are on the project.",
-      "duration": {
-        "cal": true,
-        "max": 21,
-        "min": 7,
-        "hint": "Standard LVL ~1 week; pressure-treated or custom, or a tight lumber market, pushes 3 weeks.",
-        "kind": "range",
-        "default": 10
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_framing_package",
-      "kind": "procurement",
-      "name": "Framing Package",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "framing"
-        }
-      ],
-      "notes": "Nominal 1-2 weeks but availability swings with the lumber market — early-order rather than halt framing.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Any Framing Work",
-      "duration": {
-        "cal": true,
-        "max": 21,
-        "min": 7,
-        "kind": "range",
-        "default": 10
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_trusses",
-      "kind": "procurement",
-      "name": "Roof trusses (custom)",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "framing"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When the roof is trussed (not stick-framed).",
-      "duration": {
-        "cal": true,
-        "max": 42,
-        "min": 28,
-        "hint": "Truss plant queue drives it — bigger/complex roofs sit longer in engineering.",
-        "kind": "range",
-        "default": 35
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_subpanel",
-      "kind": "procurement",
-      "name": "Subpanel / service equipment",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "rough_electrical"
-        }
-      ],
-      "notes": "Existing main service amperage must be verified before contract — 200A is typical but panel space for the subpanel is the real question.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When a subpanel or service upgrade is in scope (verify amperage first).",
-      "duration": {
-        "cal": true,
-        "max": 7,
-        "min": 2,
-        "kind": "range",
-        "default": 5
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_hvac_equipment",
-      "kind": "procurement",
-      "name": "HVAC equipment (mini-split / system)",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "rough_hvac"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When new HVAC equipment serves the addition.",
-      "duration": {
-        "cal": true,
-        "max": 14,
-        "min": 7,
-        "hint": "Common mini-splits ~1 week; matched ducted systems or specialty sizes push 3 weeks.",
-        "kind": "range",
-        "default": 10
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_electrical_package",
-      "kind": "procurement",
-      "name": "Electrical Package",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "rough_electrical"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Rough electrical",
-      "duration": {
-        "cal": true,
-        "max": 7,
-        "min": 2,
-        "kind": "range",
-        "default": 5
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_water_heater",
-      "kind": "procurement",
-      "name": "Water heater (tank or tankless)",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "rough_plumbing"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When a NEW water heater is in scope (serving the addition or replacing existing). Extending an existing WH's vent does NOT trigger this.",
-      "duration": {
-        "cal": true,
-        "max": 14,
-        "min": 3,
-        "hint": "Stock tanks are days; tankless or specialty venting pushes 2 weeks.",
-        "kind": "range",
-        "default": 7
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_plumbing_package",
-      "kind": "procurement",
-      "name": "Plumbing Package",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "rough_plumbing"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Plumbing in scope",
-      "duration": {
-        "cal": true,
-        "max": 5,
-        "min": 2,
-        "kind": "range",
-        "default": 3
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_tile",
-      "kind": "procurement",
-      "name": "Tile & setting materials",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "shower_work"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When tile is in scope.",
-      "duration": {
-        "cal": true,
-        "max": 12,
-        "min": 5,
-        "hint": "In-stock tile ~1 week; special-order or large custom showers push 3 weeks.",
-        "kind": "range",
-        "default": 7
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_hard_flooring",
-      "kind": "procurement",
-      "name": "Hard flooring",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "hard_flooring"
-        }
-      ],
-      "notes": "Ordering ties to USE date, not job start — interior finish materials wait until the shell is underway.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When hard flooring is in scope. Order ~3 weeks before install; deliver 2 weeks ahead of use.",
-      "duration": {
-        "cal": true,
-        "max": 21,
-        "min": 7,
-        "kind": "range",
-        "default": 14
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_carpet",
-      "kind": "procurement",
-      "name": "Carpet / floating floor",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "carpet_floating"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When carpet or floating floors are in scope.",
-      "duration": {
-        "cal": true,
-        "max": 14,
-        "min": 5,
-        "kind": "range",
-        "default": 7
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_insulation",
-      "kind": "procurement",
-      "name": "Insulation",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "insulation"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Insulation in scope",
-      "duration": {
-        "cal": true,
-        "max": 5,
-        "min": 1,
-        "kind": "range",
-        "default": 2
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_drywall",
-      "kind": "procurement",
-      "name": "Drywall",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "drywall"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Drywall in scope of work",
-      "duration": {
-        "cal": true,
-        "max": 14,
-        "min": 5,
-        "kind": "range",
-        "default": 5
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_cabinets",
-      "kind": "procurement",
-      "name": "Cabinets / vanities",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "cabinets_counters"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When cabinetry is in scope. Custom cabinets run 42-56 days — order at start of schedule sign-off.",
-      "duration": {
-        "cal": true,
-        "max": 60,
-        "min": 21,
-        "hint": "Stock/semi-custom 3-4 weeks; full custom runs 6-8 weeks — order at structural sign-off.",
-        "kind": "range",
-        "default": 42
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_countertops",
-      "kind": "procurement",
-      "name": "Countertops",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "cabinets_counters"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Countertops in scope",
-      "duration": {
-        "cal": true,
-        "max": 40,
-        "min": 21,
-        "kind": "range",
-        "default": 30
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_paint",
-      "kind": "procurement",
-      "name": "Paint + Primer",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "paint_phase_1"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Always.",
-      "duration": {
-        "cal": true,
-        "max": 5,
-        "min": 1,
-        "kind": "range",
-        "default": 2
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_shower_glass",
-      "kind": "procurement",
-      "name": "Shower glass (template after tile)",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "finish_carpentry"
-        },
-        {
-          "lag": 0,
-          "type": "FS",
-          "target": "shower_work"
-        }
-      ],
-      "notes": "If custom glass, then delivery time is 15 calendar days.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When a glass shower enclosure is in scope.",
-      "duration": {
-        "cal": true,
-        "max": 14,
-        "min": 7,
-        "hint": "Template happens after tile — the window only starts once measurements exist.",
-        "kind": "range",
-        "default": 10
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_doors_trim",
-      "kind": "procurement",
-      "name": "Interior doors & trim package",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "finish_carpentry"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Always — interior doors, casing, base, and trim stock for the final trades block.",
-      "duration": {
-        "cal": true,
-        "max": 14,
-        "min": 5,
-        "hint": "Stock profiles ~1 week; special-order doors or matching existing profiles push 2 weeks.",
-        "kind": "range",
-        "default": 7
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_plumbing_fixtures",
-      "kind": "procurement",
-      "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "mep_fixture_install"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "When the addition adds plumbing fixtures (nearly always when a bath/kitchen is in scope).",
-      "duration": {
-        "cal": true,
-        "max": 21,
-        "min": 5,
-        "hint": "Stock fixtures are days; designer or specialty finishes push 3 weeks.",
-        "kind": "range",
-        "default": 7
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_light_fixtures",
-      "kind": "procurement",
-      "name": "Light fixtures & devices",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "mep_fixture_install"
-        }
-      ],
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Always — fixtures, fans, devices, and plates for electrical finish.",
-      "duration": {
-        "cal": true,
-        "max": 21,
-        "min": 5,
-        "hint": "Stock is days; customer-selected specialty fixtures push 3 weeks.",
-        "kind": "range",
-        "default": 7
-      },
-      "component": "procurement_items"
-    },
-    {
-      "id": "proc_concrete_patio",
-      "kind": "procurement",
-      "name": "Concrete + Patio Work",
-      "links": [
-        {
-          "lag": -3,
-          "type": "SF",
-          "target": "concrete_flatwork"
-        }
-      ],
-      "notes": "When making this material order be sure to include: form boards, materials, bracing, concrete, rebars, chairs, rebar ties, etc… Possibly we'll need concrete pump depending on the project.",
-      "phase": "procurement",
-      "trade": "general",
-      "vetted": true,
-      "trigger": "Concrete or Patio in scope",
-      "duration": {
-        "cal": true,
-        "max": 5,
-        "min": 1,
-        "kind": "range",
-        "default": 2
-      },
-      "component": "procurement_items"
     }
   ],
   "phases": [
+    {
+      "id": "procurement",
+      "name": "Procurement",
+      "block": "logistics",
+      "links": [],
+      "notes": "Materials and orders. Each item’s duration is its delivery window (calendar days, AI-sized from the order’s magnitude); SF−3 lands delivery 3 working days before the consuming task starts, and the order date falls out backward. Renders as a window bar with order/delivery-verified diamonds at the ends.",
+      "order": 0
+    },
+    {
+      "id": "permits",
+      "name": "Permits",
+      "block": "logistics",
+      "links": [],
+      "notes": "Not part of the build chain — each permit anchors itself: its duration is the application window and it finishes at job_start (SF+0). The task that legally needs it lists the permit in its own Depends. Renders as a window bar with application/verification diamonds at the ends.",
+      "order": 1
+    },
     {
       "id": "retrofit",
       "name": "Retrofit (pre-addition work)",
@@ -1879,7 +1895,7 @@
         }
       ],
       "notes": "Retro work on the EXISTING home completes FULLY before addition demo begins — its own mini-job including MEPs, inspection, and finishes. Empty on jobs with no pre-addition work.",
-      "order": 0
+      "order": 2
     },
     {
       "id": "demolition",
@@ -1893,7 +1909,7 @@
         }
       ],
       "notes": "True job start for the addition itself. Building permit must be delivered before demo begins (gate added automatically).",
-      "order": 1
+      "order": 3
     },
     {
       "id": "site_foundation",
@@ -1906,7 +1922,7 @@
           "target": "demolition"
         }
       ],
-      "order": 2
+      "order": 4
     },
     {
       "id": "framing_shell",
@@ -1919,7 +1935,7 @@
           "target": "site_foundation"
         }
       ],
-      "order": 3
+      "order": 5
     },
     {
       "id": "exterior_finishes",
@@ -1933,7 +1949,7 @@
         }
       ],
       "notes": "Anchored to windows/doors completion — NOT the whole framing phase end, because deck build runs parallel and nothing here waits on the deck.",
-      "order": 4
+      "order": 6
     },
     {
       "id": "rough_trades",
@@ -1947,7 +1963,7 @@
         }
       ],
       "notes": "Interior work begins only when roofing is complete.",
-      "order": 5
+      "order": 7
     },
     {
       "id": "rough_inspections",
@@ -1960,7 +1976,7 @@
           "target": "rough_trades"
         }
       ],
-      "order": 6
+      "order": 8
     },
     {
       "id": "insulation_drywall",
@@ -1974,7 +1990,7 @@
         }
       ],
       "notes": "Planned +1 week after inspections pass. Game-day the PM often pulls it earlier the moment the framing inspection clears — that's a manual edit, not the plan",
-      "order": 7
+      "order": 9
     },
     {
       "id": "interior_finishes",
@@ -1988,7 +2004,7 @@
         }
       ],
       "notes": "Everything before this phase is tight and rushed — the whole project waits on each step. From here on, breathing room is OK and fewer mistakes happen. Don't panic-compress interior finishes.",
-      "order": 8
+      "order": 10
     },
     {
       "id": "concrete_landscaping",
@@ -2002,7 +2018,7 @@
         }
       ],
       "notes": "Runs parallel with closeout — starts right after paint 2, independent of walkthrough.",
-      "order": 9
+      "order": 11
     },
     {
       "id": "closeout",
@@ -2015,28 +2031,24 @@
           "target": "substantial_completion"
         }
       ],
-      "order": 10
-    },
-    {
-      "id": "permits",
-      "name": "Permits",
-      "block": "logistics",
-      "links": [],
-      "notes": "Not part of the build chain — each permit anchors itself: its duration is the application window and it finishes at job_start (SF+0). The task that legally needs it lists the permit in its own Depends. Renders as a window bar with application/verification diamonds at the ends.",
-      "order": 11
-    },
-    {
-      "id": "procurement",
-      "name": "Procurement",
-      "block": "logistics",
-      "links": [],
-      "notes": "Materials and orders. Each item’s duration is its delivery window (calendar days, AI-sized from the order’s magnitude); SF−3 lands delivery 3 working days before the consuming task starts, and the order date falls out backward. Renders as a window bar with order/delivery-verified diamonds at the ends.",
       "order": 12
     }
   ],
-  "version": 6,
+  "version": 7,
   "job_type": "Addition",
   "components": [
+    {
+      "id": "procurement_items",
+      "name": "Procurement Items",
+      "links": [],
+      "phase": "procurement"
+    },
+    {
+      "id": "permit_items",
+      "name": "Permit Items",
+      "links": [],
+      "phase": "permits"
+    },
     {
       "id": "retrofit_work",
       "name": "Retrofit Work",
@@ -2196,18 +2208,6 @@
         }
       ],
       "phase": "closeout"
-    },
-    {
-      "id": "permit_items",
-      "name": "Permit Items",
-      "links": [],
-      "phase": "permits"
-    },
-    {
-      "id": "procurement_items",
-      "name": "Procurement Items",
-      "links": [],
-      "phase": "procurement"
     }
   ],
   "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
