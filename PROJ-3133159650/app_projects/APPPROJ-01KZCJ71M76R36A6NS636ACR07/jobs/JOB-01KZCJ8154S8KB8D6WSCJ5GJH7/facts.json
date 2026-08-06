@@ -286,7 +286,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SG3W9HTHP0PV9EVQWA",
-    "content": "TDEC evaluation is in scope and must start now. Base contract assumes existing capacity is adequate — relocation/new tank/grinder only happens as a change order pending the TDEC soil report. For scheduling: include the TDEC permit process.",
+    "content": "Q: Will the septic system be modified, relocated, or replaced as part of this addition? → A: TDEC evaluation is in scope and must start now. Base contract assumes existing capacity is adequate — relocation/new tank/grinder only happens as a change order pending the TDEC soil report. For scheduling: include the TDEC permit process.",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:24:55.439Z",
     "updated_at": "2026-08-06T22:24:55.439Z",
@@ -305,7 +305,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SH7HXSG48AWR95YH70",
-    "content": "Tie into existing",
+    "content": "Q: Does second-floor access use a new stair, or does it tie into the existing stairwell? → A: Tie into existing",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:25:04.457Z",
     "updated_at": "2026-08-06T22:25:04.457Z",
@@ -324,7 +324,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SJD8EMA38TCGDEK0Q3",
-    "content": "Both are correct: 30'×10' (~300 SF) is the footprint per level; 789 SF is the total affected area (two addition levels ~600 SF + ~200 SF bedroom remodel). Size foundation/excavation/roofing from ~300 SF; size interior finishes from 789 SF.",
+    "content": "Q: Does the addition's footprint match the breakdown's stated 789 SF, or the scope's approx. 30'x10' (300 SF) description? → A: Both are correct: 30'×10' (~300 SF) is the footprint per level; 789 SF is the total affected area (two addition levels ~600 SF + ~200 SF bedroom remodel). Size foundation/excavation/roofing from ~300 SF; size interior finishes from 789 SF.",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:25:23.669Z",
     "updated_at": "2026-08-06T22:25:23.669Z",
@@ -343,7 +343,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SJ71TMZ1NSM93DFZVC",
-    "content": "New tankless WH",
+    "content": "Q: Is a new tankless water heater being installed, or is the existing gas water heater simply retained with its vent extended through the new roof? → A: New tankless WH",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:25:30.549Z",
     "updated_at": "2026-08-06T22:25:30.549Z",
@@ -362,7 +362,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SK012KB6PN3ZQDK4X1",
-    "content": "No",
+    "content": "Q: Is a deck included in this job's scope, as shown in the drawings' multi-level deck/stair structure on the addition's exterior? → A: No",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:25:44.369Z",
     "updated_at": "2026-08-06T22:25:44.369Z",
@@ -381,7 +381,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SKTTYKBHCDKH3G6CSJ",
-    "content": "No, intentional credit",
+    "content": "Q: Is the negative -$4,199 material cost in the breakdown's 'Existing Hall Bath Mod, Bedroom Remodel & Closeout' section a data-entry error? → A: No, intentional credit",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:25:55.268Z",
     "updated_at": "2026-08-06T22:25:55.268Z",
@@ -400,7 +400,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SKX0VAH0Z2D54SE5MX",
-    "content": "Don't worry about margins, or pricing. Your job is just scheduling.",
+    "content": "Q: What is the contracted price for this job, to verify it clears TCR's 30% gross margin floor against the $100,778.92 cost estimate? → A: Don't worry about margins, or pricing. Your job is just scheduling.",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:26:34.003Z",
     "updated_at": "2026-08-06T22:26:34.003Z",
@@ -419,7 +419,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SMBAJKFFHBFPM2DDH3",
-    "content": "No, siding only",
+    "content": "Q: Is brick veneer required at the addition's base, per the drawings' 'ADD BRICK TO MATCH EXISTING' callout, in addition to the vinyl siding specified in the scope? → A: No, siding only",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:27:01.452Z",
     "updated_at": "2026-08-06T22:27:01.452Z",
@@ -438,7 +438,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SM3V0CB8QP94YPD158",
-    "content": "Yes — customer-requested early item identified: the existing hall bath acrylic shower swap, so the customer has a working shower during construction. Schedule it in the Retro phase before addition demo. No other early items.",
+    "content": "Q: Has a PM interview been conducted to identify any customer-requested early items that should be scheduled in the Retro phase before addition demo begins? → A: Yes — customer-requested early item identified: the existing hall bath acrylic shower swap, so the customer has a working shower during construction. Schedule it in the Retro phase before addition demo. No other early items.",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:27:30.107Z",
     "updated_at": "2026-08-06T22:27:30.107Z",
@@ -457,7 +457,7 @@
       "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
     },
     "subject": "answer_to_q_01KZCJH0SM5QAX4WZ4HA64DZR3",
-    "content": "No, document day-of",
+    "content": "Q: Should a pre-framing attic/roof inspection be scheduled to document existing rafter conditions at the 3/12-into-6/12 roof tie-in before framing opens it up? → A: No, document day-of",
     "confidence": 0.95,
     "created_at": "2026-08-06T22:27:43.770Z",
     "updated_at": "2026-08-06T22:27:43.770Z",
