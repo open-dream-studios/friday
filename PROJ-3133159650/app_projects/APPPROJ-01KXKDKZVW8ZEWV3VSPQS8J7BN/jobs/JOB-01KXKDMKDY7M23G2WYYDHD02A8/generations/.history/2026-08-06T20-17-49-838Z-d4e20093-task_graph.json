@@ -1,0 +1,1219 @@
+{
+  "schema": "task_graph_v2",
+  "job_type": "Addition",
+  "structure_version": 3,
+  "phases": {
+    "pre_construction": [
+      {
+        "code": "proc_building_permit.order",
+        "name": "Order: Building permit",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_building_permit.wait",
+        "name": "Building permit — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_building_permit.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 14
+      },
+      {
+        "code": "proc_building_permit.delivered",
+        "name": "Building permit delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_building_permit.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_tdec_septic.order",
+        "name": "Order: TDEC septic permit",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_tdec_septic.wait",
+        "name": "TDEC septic permit — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_tdec_septic.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 70
+      },
+      {
+        "code": "proc_tdec_septic.delivered",
+        "name": "TDEC septic permit delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_tdec_septic.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_windows_doors.order",
+        "name": "Order: Windows & exterior doors",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_windows_doors.wait",
+        "name": "Windows & exterior doors — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_windows_doors.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 21
+      },
+      {
+        "code": "proc_windows_doors.delivered",
+        "name": "Windows & exterior doors delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_windows_doors.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_lvl.order",
+        "name": "Order: LVL / engineered beams",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_lvl.wait",
+        "name": "LVL / engineered beams — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_lvl.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 14
+      },
+      {
+        "code": "proc_lvl.delivered",
+        "name": "LVL / engineered beams delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_lvl.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_subpanel.order",
+        "name": "Order: Subpanel / service equipment",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_subpanel.wait",
+        "name": "Subpanel / service equipment — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_subpanel.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 10
+      },
+      {
+        "code": "proc_subpanel.delivered",
+        "name": "Subpanel / service equipment delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_subpanel.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_hvac_equipment.order",
+        "name": "Order: HVAC equipment (mini-split / system)",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_hvac_equipment.wait",
+        "name": "HVAC equipment (mini-split / system) — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_hvac_equipment.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 14
+      },
+      {
+        "code": "proc_hvac_equipment.delivered",
+        "name": "HVAC equipment (mini-split / system) delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_hvac_equipment.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_tile.order",
+        "name": "Order: Tile & setting materials",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_tile.wait",
+        "name": "Tile & setting materials — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_tile.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 21
+      },
+      {
+        "code": "proc_tile.delivered",
+        "name": "Tile & setting materials delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_tile.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_flooring.order",
+        "name": "Order: Hard flooring",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_flooring.wait",
+        "name": "Hard flooring — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_flooring.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 14
+      },
+      {
+        "code": "proc_flooring.delivered",
+        "name": "Hard flooring delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_flooring.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_cabinets.order",
+        "name": "Order: Cabinets / vanities",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_cabinets.wait",
+        "name": "Cabinets / vanities — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_cabinets.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 28
+      },
+      {
+        "code": "proc_cabinets.delivered",
+        "name": "Cabinets / vanities delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_cabinets.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "proc_paint.order",
+        "name": "Order: Paint",
+        "duration": 0.5,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "proc_paint.wait",
+        "name": "Paint — supplier lead",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_paint.order",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "lead_time",
+        "lead_time": 7
+      },
+      {
+        "code": "proc_paint.delivered",
+        "name": "Paint delivered",
+        "duration": 0,
+        "links": [
+          {
+            "target": "proc_paint.wait",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "retro": [
+      {
+        "code": "retro_relocations",
+        "component": "retro_work",
+        "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
+        "duration": 2,
+        "links": [],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "retro_demo",
+        "component": "retro_work",
+        "name": "Retrofit demolition (interior areas outside the addition)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "retro_relocations",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "demo",
+        "kind": "work"
+      },
+      {
+        "code": "retro_rough_meps",
+        "component": "retro_work",
+        "name": "Retrofit rough MEPs",
+        "duration": 2,
+        "links": [
+          {
+            "target": "retro_demo",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "plumbing",
+        "kind": "work"
+      },
+      {
+        "code": "retro_inspection",
+        "component": "retro_work",
+        "name": "Retrofit rough inspection",
+        "duration": 1,
+        "links": [
+          {
+            "target": "retro_rough_meps",
+            "type": "FS",
+            "lag": 1
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection"
+      },
+      {
+        "code": "retro_drywall",
+        "component": "retro_work",
+        "name": "Retrofit drywall & patching",
+        "duration": 4,
+        "links": [
+          {
+            "target": "retro_inspection",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "drywall",
+        "kind": "work"
+      },
+      {
+        "code": "retro_finishes",
+        "component": "retro_work",
+        "name": "Retrofit finishes (paint, tile, flooring, fixtures)",
+        "duration": 6,
+        "links": [
+          {
+            "target": "retro_drywall",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "retro.end",
+        "name": "Retrofit (pre-addition work) — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "retro_finishes",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "demo": [
+      {
+        "code": "demo_main",
+        "component": "main_demo",
+        "name": "Demolition (site + structure at addition footprint)",
+        "duration": 3,
+        "links": [
+          {
+            "target": "retro.end",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_building_permit.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "demo",
+        "kind": "work"
+      }
+    ],
+    "site_foundation": [
+      {
+        "code": "site_prep",
+        "component": "groundwork",
+        "name": "Site prep (protection, staging, access)",
+        "duration": 1,
+        "links": [
+          {
+            "target": "demo_main",
+            "type": "FS",
+            "lag": -1
+          }
+        ],
+        "trade": "general",
+        "kind": "work"
+      },
+      {
+        "code": "excavation",
+        "component": "groundwork",
+        "name": "Excavation (footings, slab, access)",
+        "duration": 3,
+        "links": [
+          {
+            "target": "site_prep",
+            "type": "SS",
+            "lag": 0
+          },
+          {
+            "target": "proc_tdec_septic.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "excavation",
+        "kind": "work"
+      },
+      {
+        "code": "foundation",
+        "component": "groundwork",
+        "name": "Foundation (form, inspect, pour)",
+        "duration": 4,
+        "links": [
+          {
+            "target": "excavation",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work"
+      }
+    ],
+    "framing_shell": [
+      {
+        "code": "framing",
+        "component": "structure_frame",
+        "name": "Framing (floor, walls, roof structure, sheathing)",
+        "duration": 12,
+        "links": [
+          {
+            "target": "foundation",
+            "type": "FS",
+            "lag": 5
+          },
+          {
+            "target": "proc_lvl.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "framing",
+        "kind": "work"
+      },
+      {
+        "code": "ext_windows_doors",
+        "component": "structure_frame",
+        "name": "Exterior windows & doors install",
+        "duration": 2,
+        "links": [
+          {
+            "target": "framing",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_windows_doors.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "windows_doors",
+        "kind": "work"
+      },
+      {
+        "code": "deck.start",
+        "name": "Deck — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "framing",
+            "type": "SS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "deck_build",
+        "component": "deck",
+        "name": "Deck build",
+        "duration": 4,
+        "links": [
+          {
+            "target": "deck.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "framing",
+        "kind": "work"
+      }
+    ],
+    "exterior_finish": [
+      {
+        "code": "roofing",
+        "component": "exterior_cladding",
+        "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
+        "duration": 3,
+        "links": [
+          {
+            "target": "ext_windows_doors",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "roofing",
+        "kind": "work"
+      },
+      {
+        "code": "siding",
+        "component": "exterior_cladding",
+        "name": "Siding (WRB, siding, tie-in blend)",
+        "duration": 4,
+        "links": [
+          {
+            "target": "ext_windows_doors",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "siding",
+        "kind": "work"
+      },
+      {
+        "code": "fascia_soffit_gutters",
+        "component": "exterior_cladding",
+        "name": "Fascia, soffit & gutters",
+        "duration": 2,
+        "links": [
+          {
+            "target": "ext_windows_doors",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "siding",
+        "kind": "work"
+      },
+      {
+        "code": "wh_vent_extension",
+        "component": "exterior_cladding",
+        "name": "Extend existing appliance vents through new roof",
+        "duration": 0.5,
+        "links": [
+          {
+            "target": "roofing",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "hvac",
+        "kind": "work"
+      },
+      {
+        "code": "exterior_finish.end",
+        "name": "Exterior Finishes — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "siding",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "fascia_soffit_gutters",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "wh_vent_extension",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "rough_trades": [
+      {
+        "code": "plumbing_rough",
+        "component": "rough_meps",
+        "name": "Rough plumbing",
+        "duration": 3,
+        "links": [
+          {
+            "target": "exterior_finish.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "plumbing",
+        "kind": "work"
+      },
+      {
+        "code": "hvac_rough",
+        "component": "rough_meps",
+        "name": "Rough HVAC (line set / duct extension)",
+        "duration": 1,
+        "links": [
+          {
+            "target": "plumbing_rough",
+            "type": "FS",
+            "lag": -1
+          },
+          {
+            "target": "proc_hvac_equipment.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "hvac",
+        "kind": "work"
+      },
+      {
+        "code": "electrical_rough",
+        "component": "rough_meps",
+        "name": "Rough electrical (circuits, subpanel, boxes)",
+        "duration": 3,
+        "links": [
+          {
+            "target": "hvac_rough",
+            "type": "FS",
+            "lag": -1
+          },
+          {
+            "target": "proc_subpanel.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "electrical",
+        "kind": "work"
+      },
+      {
+        "code": "rough_trades.end",
+        "name": "Rough Trades (MEPs) — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "plumbing_rough",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "hvac_rough",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "electrical_rough",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "inspections": [
+      {
+        "code": "rough_inspections",
+        "component": "rough_inspection",
+        "name": "Rough inspections (MEPs then framing, bundled)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "rough_trades.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection"
+      },
+      {
+        "code": "inspections.end",
+        "name": "Rough Inspections — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "rough_inspections",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "insulation_drywall": [
+      {
+        "code": "insulation",
+        "component": "envelope_close",
+        "name": "Insulation & air sealing",
+        "duration": 2,
+        "links": [
+          {
+            "target": "inspections.end",
+            "type": "FS",
+            "lag": 5
+          }
+        ],
+        "trade": "insulation",
+        "kind": "work"
+      },
+      {
+        "code": "insulation_inspection",
+        "component": "envelope_close",
+        "name": "Insulation inspection",
+        "duration": 1,
+        "links": [
+          {
+            "target": "insulation",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection"
+      },
+      {
+        "code": "drywall",
+        "component": "envelope_close",
+        "name": "Drywall (hang, tape, sand)",
+        "duration": 7,
+        "links": [
+          {
+            "target": "insulation_inspection",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "drywall",
+        "kind": "work"
+      },
+      {
+        "code": "paint_1",
+        "component": "envelope_close",
+        "name": "Paint phase 1 (prime + wall prep + ceilings)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "drywall",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_paint.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "paint",
+        "kind": "work"
+      },
+      {
+        "code": "insulation_drywall.end",
+        "name": "Insulation & Drywall — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "paint_1",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "interior_finish": [
+      {
+        "code": "shower_work",
+        "component": "interior_installs",
+        "name": "Shower work (waterproofing, tile, grout)",
+        "duration": 4,
+        "links": [
+          {
+            "target": "insulation_drywall.end",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_tile.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "tile",
+        "kind": "work"
+      },
+      {
+        "code": "flooring_hard",
+        "component": "interior_installs",
+        "name": "Hard flooring install (LVP, hardwood, tile floors)",
+        "duration": 3,
+        "links": [
+          {
+            "target": "shower_work",
+            "type": "FS",
+            "lag": -1
+          },
+          {
+            "target": "proc_flooring.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "flooring",
+        "kind": "work"
+      },
+      {
+        "code": "fixtures_cabinets",
+        "component": "interior_installs",
+        "name": "Cabinets, counters, vanities & fixed items",
+        "duration": 2,
+        "links": [
+          {
+            "target": "flooring_hard",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_cabinets.delivered",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "cabinets",
+        "kind": "work"
+      },
+      {
+        "code": "interior_installs.end",
+        "name": "Interior Installs — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "shower_work",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "fixtures_cabinets",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "final_trades",
+        "component": "final_finish",
+        "name": "Final trades (trim, interior doors, final E/P/M)",
+        "duration": 5,
+        "links": [
+          {
+            "target": "interior_installs.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "trim_carpentry",
+        "kind": "work"
+      },
+      {
+        "code": "paint_2",
+        "component": "final_finish",
+        "name": "Paint phase 2 (final coats)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "final_trades",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "paint",
+        "kind": "work"
+      },
+      {
+        "code": "substantial_completion",
+        "component": "final_finish",
+        "name": "Substantial completion",
+        "duration": 0,
+        "links": [
+          {
+            "target": "paint_2",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "sitework": [
+      {
+        "code": "concrete_flatwork",
+        "component": "exterior_sitework",
+        "name": "Concrete flatwork (patios, driveways, walkways)",
+        "duration": 2,
+        "links": [
+          {
+            "target": "paint_2",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work"
+      },
+      {
+        "code": "landscaping",
+        "component": "exterior_sitework",
+        "name": "Landscaping & site restoration",
+        "duration": 2,
+        "links": [
+          {
+            "target": "concrete_flatwork",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "landscaping",
+        "kind": "work"
+      }
+    ],
+    "closeout": [
+      {
+        "code": "closeout.start",
+        "name": "Closeout — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "substantial_completion",
+            "type": "FS",
+            "lag": 2
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "walkthrough_closeout",
+        "component": "closeout_work",
+        "name": "Customer walkthrough & punch list",
+        "duration": 1,
+        "links": [
+          {
+            "target": "closeout.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "pm",
+        "kind": "work"
+      },
+      {
+        "code": "final_inspection",
+        "component": "closeout_work",
+        "name": "Final inspections (building + E/P/M, bundled)",
+        "duration": 1,
+        "links": [
+          {
+            "target": "walkthrough_closeout",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection"
+      },
+      {
+        "code": "job_complete",
+        "component": "closeout_work",
+        "name": "Job complete (owner walkthrough with customer)",
+        "duration": 0,
+        "links": [
+          {
+            "target": "final_inspection",
+            "type": "FS",
+            "lag": 1
+          },
+          {
+            "target": "landscaping",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "retro_work",
+      "phase": "retro",
+      "name": "Retrofit Work"
+    },
+    {
+      "id": "main_demo",
+      "phase": "demo",
+      "name": "Main Demolition"
+    },
+    {
+      "id": "groundwork",
+      "phase": "site_foundation",
+      "name": "Groundwork"
+    },
+    {
+      "id": "structure_frame",
+      "phase": "framing_shell",
+      "name": "Structural Framing"
+    },
+    {
+      "id": "deck",
+      "phase": "framing_shell",
+      "name": "Deck"
+    },
+    {
+      "id": "exterior_cladding",
+      "phase": "exterior_finish",
+      "name": "Cladding & Roof"
+    },
+    {
+      "id": "rough_meps",
+      "phase": "rough_trades",
+      "name": "Rough MEPs"
+    },
+    {
+      "id": "rough_inspection",
+      "phase": "inspections",
+      "name": "Bundled Inspections"
+    },
+    {
+      "id": "envelope_close",
+      "phase": "insulation_drywall",
+      "name": "Insulation, Drywall & Prime"
+    },
+    {
+      "id": "interior_installs",
+      "phase": "interior_finish",
+      "name": "Interior Installs"
+    },
+    {
+      "id": "final_finish",
+      "phase": "interior_finish",
+      "name": "Final Trades & Paint 2"
+    },
+    {
+      "id": "exterior_sitework",
+      "phase": "sitework",
+      "name": "Concrete & Landscape"
+    },
+    {
+      "id": "closeout_work",
+      "phase": "closeout",
+      "name": "Walkthrough & Final Inspection"
+    }
+  ],
+  "warnings": [],
+  "assumptions": [
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: No flooring selection given for primary bedroom — carpet vs hard surface unresolved..",
+    "\"Stairs (build/finish)\" (stairs) EXCLUDED pending answer: Second-floor access method unclear — new interior stair vs. tie-in to existing stairwell..",
+    "Procurement \"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer.",
+    "Procurement \"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer."
+  ],
+  "needs_info": [
+    {
+      "node_id": "carpet_floating",
+      "reason": "No flooring selection given for primary bedroom — carpet vs hard surface unresolved."
+    },
+    {
+      "node_id": "stairs",
+      "reason": "Second-floor access method unclear — new interior stair vs. tie-in to existing stairwell."
+    },
+    {
+      "node_id": "proc_carpet",
+      "reason": "Mirrors carpet_floating — bedroom flooring type unconfirmed."
+    },
+    {
+      "node_id": "proc_shower_glass",
+      "reason": "Master bath shower enclosure type (glass vs. curtain) not specified in scope."
+    }
+  ]
+}
