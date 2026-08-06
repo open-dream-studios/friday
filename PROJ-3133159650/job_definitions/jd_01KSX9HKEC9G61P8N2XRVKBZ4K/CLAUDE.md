@@ -16,15 +16,17 @@ is the default, the scope is the job.
 Every addition runs the same four blocks, in the same order:
 
 1. **Retro** — work on the EXISTING home completes fully before the addition
-   begins. Its own mini-job: relocations, demo, MEPs, inspection, drywall,
-   finishes. Empty when the job has no pre-addition work.
+   begins. Its own mini-job: relocations, demo, MEPs, drywall, finishes.
+   Retro MEPs do NOT get their own inspection — they're covered when the
+   regular rough inspections run. Empty when the job has no pre-addition
+   work.
 2. **Exterior** — demo → site/foundation → framing & shell → exterior
    finishes. This stretch is tight and serial; the whole project waits on
    each step.
 3. **Interior** — rough MEPs → rough inspections → insulation & drywall →
-   interior finishes. Interior work begins only when the exterior is FULLY
-   finished (siding, roofing, fascia, soffit all done) — current TCR
-   practice.
+   interior finishes. Interior work begins once ROOFING is complete —
+   siding, fascia/soffit/gutters, and vent extensions keep running in
+   parallel outside, and job completion waits for all of them.
 4. **Closeout** — walkthrough, final inspection, and Will's personal close
    with the customer. Concrete flatwork and landscaping run parallel to
    closeout, starting right after final paint.
@@ -36,15 +38,25 @@ panic-compress the back half of the job.
 
 ## Permits and TDEC septic
 
-- **Building permit:** Will gets permits same-day roughly 90% of the time.
-  The 14-day window in the structure is safety, not expectation. Demo never
-  starts without the permit in hand.
+The permit rule: **every permit is applied for 2 weeks before job start —
+except TDEC, which is 6 weeks.** Each permit is two schedule checkpoints,
+no bar: application filed, then permit verified; verification gates the
+first work that legally needs it.
+
+- **Building permit:** every addition. Will gets permits same-day roughly
+  90% of the time — the 2-week application anchor is safety, not
+  expectation. Demo never starts without the permit in hand.
 - **TDEC septic permit:** only in play when the scope modifies the existing
   septic system or installs a new one — adding bedrooms or bathrooms alone
   does NOT trigger it. The process: contact TDEC, pay the $500 fee, soil
   scientist site visit, soil report, permit. Roughly six weeks end-to-end
   and unpredictable in both directions. It is often the longest lead in the
   whole job. Never break ground without it.
+- **Electrical service / meter permit:** only when the main service is
+  upgraded or the meter relocates (utility involvement). A subpanel alone
+  rides the building permit.
+- **Plumbing permit:** when plumbing is in scope; gates rough plumbing.
+- **Mechanical permit:** when HVAC work is in scope; gates rough HVAC.
 
 
 ## Change-order realities
@@ -67,9 +79,10 @@ panic-compress the back half of the job.
   before the main job so they can live comfortably during construction (a
   shower swap in another bath, a leaky fixture). These belong in the Retro
   phase, before addition demo. Ask for them in the PM interview; don't guess.
-- **Will closes every addition personally** — the job-complete milestone is
-  Will's walkthrough with the customer, one working day after the last item
-  (final inspection AND landscaping) finishes.
+- **The PM closes every addition personally** — the job-complete milestone
+  is the PM's walkthrough with the customer, one working day after the last
+  item finishes (final inspection, landscaping, exterior finishes, and deck
+  all done).
 
 
 
@@ -109,11 +122,13 @@ reorder phases.
 Your job is exactly three decisions per checklist item:
 
 1. **Include, exclude, or needs_info** — does this job's scope trip the
-   item's trigger?
+   item's trigger? (Applies to tasks, procurement items, AND permits.)
 2. **Crew** — for each included task with a crew range, set the crew size
    from the job's scale and site constraints, inside the allowed range.
 3. **Duration** — pick a working-day duration inside the item's allowed
-   range, sized AT the crew you just set, using the hint.
+   range, sized AT the crew you just set, using the hint. For procurement
+   items this answer is instead the expected **delivery time in calendar
+   days** (see below).
 
 Deterministic code assembles the graph from your answers. Excluded tasks
 disappear and their dependencies collapse automatically — downstream work
@@ -200,24 +215,41 @@ Knowledge that doesn't fit in one trigger line:
   lumber market. The structure early-orders them; your only call is whether
   engineered members are on the job at all.
 - **Water heater:** a NEW tank or tankless triggers the water-heater
-  procurement, and the tank gets SET before plumbing rough begins — the
-  rough-in stubs into the already-set tank. Merely extending an existing
+  procurement and adds one day to the start of rough plumbing (the tank
+  gets set first; the rough-in stubs into it). Merely extending an existing
   water heater's vent through the new roof does NOT trigger a tank — that's
-  the vent-extension task in exterior finishes.
+  the vent-extension task in exterior finishes (HVAC and/or plumbing trade;
+  covers appliance flues AND plumbing drain vents).
 - **HVAC type:** "mini-split" in scope → line-set rough, short duration.
   "Ducted," "duct work," "air handler" → duct extension, longer. Unclear →
   needs_info and default mini-split.
 - **Windows custom vs stock:** the structure's lead window assumes stock
   (21 days). If the scope suggests custom (28–42 days), still include —
   and raise needs_info so the PM confirms and adjusts the order date.
-- **Deck:** a pure leaf. It starts alongside framing and nothing downstream
-  ever waits on it. Never let deck work gate anything.
+- **Deck:** a parallel track. It starts alongside framing and nothing in
+  the build chain waits on it — only job completion gates on the deck
+  being done (same as exterior finishes and landscaping).
 - **Stairs:** any second-story addition needs an access answer. If the
   scope doesn't state new stair vs tie-in to the existing stairwell →
   needs_info; do not silently include or exclude.
 - **Insulation timing:** the structure plans insulation about a week after
   rough inspections pass. Game-day, the PM often pulls it earlier the
   moment framing clears — that's a manual edit, not your plan.
+
+## Permits & procurement in the schedule
+
+- **Permits are two checkpoints, no bar:** application filed → permit
+  verified. Application lands 2 weeks before the verification (6 for
+  TDEC); verification gates the first task that legally needs the permit.
+  You only answer include/exclude/needs_info — dates are computed.
+- **Procurement is two checkpoints, no bar:** order placed → delivery
+  verified. The rule: material is delivered **3 working days before** the
+  task it attaches to starts. The order date is computed backward from
+  that: attach date − 3 days − delivery time.
+- **You size the delivery time** (calendar days, within the item's range)
+  from the order's magnitude: custom vs stock, size of the package,
+  supplier reality per the hint. Same discipline as crew — size it from
+  reality, never bend it to make a schedule fit.
 
 
 
@@ -257,3 +289,17 @@ sections above. The human red-pen companion to the structure JSON lives at
 crew-size range alongside its duration range. The AI answers crew first
 (from job scale), then sizes duration at that crew — crew is never a speed
 dial.
+
+2026-08-06 — aligned with Will's full red-pen vetting of the structure doc:
+interior now gates on roofing completion (not full exterior finish), permit
+set corrected (plumbing + mechanical in, land disturbance out), retro
+inspection removed (covered at regular roughs), water heater encoded as +1
+day on rough plumbing, deck/exterior finishes/landscaping all gate job
+completion, PM (not Will by name) closes every job.
+
+2026-08-05 (later still) — structure v5: permits became their own section
+(two checkpoints: application 2 weeks ahead — 6 for TDEC — then
+verification gating the first permitted work). Procurement reworked to two
+checkpoints (order placed → delivery verified, delivery 3 working days
+before the attached task) with AI-sized delivery-time ranges, and grew
+interior doors/trim, plumbing fixtures, and light fixtures items.
