@@ -392,5 +392,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KZCJYXCK9HKB0NQ73DB5GJB1": {
+    "id": "f_01KZCJYXCK9HKB0NQ73DB5GJB1",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCJH0SKX0VAH0Z2D54SE5MX",
+    "content": "Don't worry about margins, or pricing. Your job is just scheduling.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:26:34.003Z",
+    "updated_at": "2026-08-06T22:26:34.003Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCJH0SKX0VAH0Z2D54SE5MX",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
