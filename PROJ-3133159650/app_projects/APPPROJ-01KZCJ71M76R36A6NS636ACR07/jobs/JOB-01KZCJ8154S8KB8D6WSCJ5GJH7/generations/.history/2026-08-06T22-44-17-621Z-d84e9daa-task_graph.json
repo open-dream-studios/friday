@@ -8,8 +8,8 @@
         "code": "proc_foundation_package",
         "component": "procurement_items",
         "name": "Foundation",
-        "duration": 10,
-        "lead_time": 14,
+        "duration": 9,
+        "lead_time": 12,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -28,8 +28,8 @@
         "code": "proc_lvl",
         "component": "procurement_items",
         "name": "LVL / engineered beams",
-        "duration": 9,
-        "lead_time": 12,
+        "duration": 7,
+        "lead_time": 10,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -78,8 +78,8 @@
         "code": "proc_water_heater",
         "component": "procurement_items",
         "name": "Water heater (tank or tankless)",
-        "duration": 9,
-        "lead_time": 12,
+        "duration": 7,
+        "lead_time": 10,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -98,8 +98,8 @@
         "code": "proc_tile",
         "component": "procurement_items",
         "name": "Tile & setting materials",
-        "duration": 7,
-        "lead_time": 10,
+        "duration": 5,
+        "lead_time": 7,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -248,7 +248,7 @@
         "code": "retrofit_demo",
         "component": "retrofit_work",
         "name": "Retrofit demolition (interior areas outside the addition)",
-        "duration": 1,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -388,7 +388,7 @@
         "code": "foundation",
         "component": "groundwork",
         "name": "Foundation (form, inspect, pour)",
-        "duration": 4,
+        "duration": 5,
         "crew": 4,
         "links": [
           {
@@ -505,7 +505,7 @@
         "component": "cladding_roof",
         "name": "Siding (WRB, siding, tie-in blend)",
         "duration": 5,
-        "crew": 3,
+        "crew": 2,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -640,7 +640,7 @@
         "code": "rough_electrical",
         "component": "rough_meps",
         "name": "Rough electrical (circuits, subpanel, boxes)",
-        "duration": 4,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -738,7 +738,7 @@
         "code": "insulation",
         "component": "insulation_drywall_prime",
         "name": "Insulation & air sealing",
-        "duration": 2,
+        "duration": 1,
         "crew": 2,
         "links": [
           {
@@ -775,7 +775,7 @@
         "code": "drywall",
         "component": "insulation_drywall_prime",
         "name": "Drywall (hang, tape, sand)",
-        "duration": 6,
+        "duration": 5,
         "crew": 3,
         "links": [
           {
@@ -833,7 +833,7 @@
         "code": "shower_work",
         "component": "interior_installs",
         "name": "Shower work (waterproofing, tile, grout)",
-        "duration": 5,
+        "duration": 4,
         "crew": 1,
         "links": [
           {
@@ -875,7 +875,7 @@
         "code": "cabinets_counters",
         "component": "interior_installs",
         "name": "Cabinets, counters, vanities & fixed items",
-        "duration": 1,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -990,6 +990,24 @@
         "kind": "milestone"
       }
     ],
+    "concrete_landscaping": [
+      {
+        "code": "landscaping",
+        "component": "concrete_landscape",
+        "name": "Landscaping & site restoration",
+        "duration": 1,
+        "crew": 2,
+        "links": [
+          {
+            "target": "paint_phase_2",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "landscaping",
+        "kind": "work"
+      }
+    ],
     "closeout": [
       {
         "code": "closeout.start",
@@ -1049,7 +1067,7 @@
             "lag": 1
           },
           {
-            "target": "paint_phase_2",
+            "target": "landscaping",
             "type": "FS",
             "lag": 0
           },
@@ -1131,6 +1149,11 @@
       "name": "Final Trades & Paint 2"
     },
     {
+      "id": "concrete_landscape",
+      "phase": "concrete_landscaping",
+      "name": "Concrete & Landscape"
+    },
+    {
       "id": "walkthrough_final_inspection",
       "phase": "closeout",
       "name": "Walkthrough & Final Inspection"
@@ -1140,17 +1163,12 @@
     "Duration for \"roofing\" clamped 3 → 2 (range 1-2)."
   ],
   "assumptions": [
-    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Bedroom flooring material (carpet vs hard surface) not specified.",
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom flooring material not specified in scope."
+    "\"Stairs (build/finish)\" (stair_build) EXCLUDED pending answer: Basement storage access/stair method not specified."
   ],
   "needs_info": [
     {
-      "node_id": "proc_carpet",
-      "reason": "Bedroom flooring material (carpet vs hard surface) not specified"
-    },
-    {
-      "node_id": "carpet_floating",
-      "reason": "Bedroom flooring material not specified in scope"
+      "node_id": "stair_build",
+      "reason": "Basement storage access/stair method not specified"
     }
   ]
 }
