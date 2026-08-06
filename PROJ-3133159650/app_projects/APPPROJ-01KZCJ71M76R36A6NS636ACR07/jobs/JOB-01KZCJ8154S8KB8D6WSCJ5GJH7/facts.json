@@ -278,5 +278,24 @@
       }
     ],
     "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+  },
+  "f_01KZCJVX4FZMPCM9861191F1ZK": {
+    "id": "f_01KZCJVX4FZMPCM9861191F1ZK",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCJH0SG3W9HTHP0PV9EVQWA",
+    "content": "TDEC evaluation is in scope and must start now. Base contract assumes existing capacity is adequate — relocation/new tank/grinder only happens as a change order pending the TDEC soil report. For scheduling: include the TDEC permit process.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:24:55.439Z",
+    "updated_at": "2026-08-06T22:24:55.439Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCJH0SG3W9HTHP0PV9EVQWA",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
