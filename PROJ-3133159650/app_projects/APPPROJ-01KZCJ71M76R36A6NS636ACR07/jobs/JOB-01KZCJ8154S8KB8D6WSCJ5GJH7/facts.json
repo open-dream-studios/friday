@@ -487,5 +487,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KZCKRV6CQFXJGZX0DP0T0XE2": {
+    "id": "f_01KZCKRV6CQFXJGZX0DP0T0XE2",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCK8S5SSNC01E1KR2MQB7XF",
+    "content": "Q: Schedule checklist: does this job include \"Stairs (build/finish)\"? Scope doesn't confirm new interior stairs vs. tie-in to existing stairs. → A: Exclude — no interior stair work exists anywhere in the priced scope. Second-floor access ties into the existing floor plan (rooms are expansions of existing rooms), and basement storage is reached through the existing basement / the one new exterior door in scope — not a new interior stair. Any new stair would be a change order.",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:40:43.724Z",
+    "updated_at": "2026-08-06T22:40:43.724Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCK8S5SSNC01E1KR2MQB7XF",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
