@@ -18,8 +18,8 @@
         "code": "proc_windows_doors",
         "component": "procurement_items",
         "name": "Windows & exterior doors",
-        "duration": 13,
-        "lead_time": 18,
+        "duration": 15,
+        "lead_time": 21,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -28,8 +28,8 @@
         "code": "proc_lvl",
         "component": "procurement_items",
         "name": "LVL / engineered beams",
-        "duration": 7,
-        "lead_time": 10,
+        "duration": 9,
+        "lead_time": 12,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -138,8 +138,8 @@
         "code": "proc_cabinets",
         "component": "procurement_items",
         "name": "Cabinets / vanities",
-        "duration": 18,
-        "lead_time": 25,
+        "duration": 15,
+        "lead_time": 21,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -188,8 +188,8 @@
         "code": "proc_light_fixtures",
         "component": "procurement_items",
         "name": "Light fixtures & devices",
-        "duration": 5,
-        "lead_time": 7,
+        "duration": 4,
+        "lead_time": 5,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -264,8 +264,8 @@
         "code": "retrofit_rough_meps",
         "component": "retrofit_work",
         "name": "Retrofit rough MEPs",
-        "duration": 3,
-        "crew": 3,
+        "duration": 2,
+        "crew": 2,
         "links": [
           {
             "target": "retrofit_demo",
@@ -280,7 +280,7 @@
         "code": "retrofit_drywall",
         "component": "retrofit_work",
         "name": "Retrofit drywall & patching",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -328,7 +328,7 @@
         "code": "site_and_structure_demo",
         "component": "main_demolition",
         "name": "Demolition (site + structure at addition footprint)",
-        "duration": 2,
+        "duration": 3,
         "crew": 3,
         "links": [
           {
@@ -351,7 +351,7 @@
         "code": "site_prep",
         "component": "groundwork",
         "name": "Site prep (protection, staging, access)",
-        "duration": 2,
+        "duration": 1,
         "crew": 2,
         "links": [
           {
@@ -367,7 +367,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -738,7 +738,7 @@
         "code": "insulation",
         "component": "insulation_drywall_prime",
         "name": "Insulation & air sealing",
-        "duration": 1,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -775,7 +775,7 @@
         "code": "drywall",
         "component": "insulation_drywall_prime",
         "name": "Drywall (hang, tape, sand)",
-        "duration": 5,
+        "duration": 6,
         "crew": 3,
         "links": [
           {
@@ -834,7 +834,7 @@
         "component": "interior_installs",
         "name": "Shower work (waterproofing, tile, grout)",
         "duration": 5,
-        "crew": 2,
+        "crew": 1,
         "links": [
           {
             "target": "insulation_drywall.end",
@@ -875,7 +875,7 @@
         "code": "cabinets_counters",
         "component": "interior_installs",
         "name": "Cabinets, counters, vanities & fixed items",
-        "duration": 2,
+        "duration": 1,
         "crew": 2,
         "links": [
           {
@@ -1140,12 +1140,17 @@
     "Duration for \"roofing\" clamped 3 → 2 (range 1-2)."
   ],
   "assumptions": [
-    "\"Landscaping & site restoration\" (landscaping) EXCLUDED pending answer: Seed/straw restoration not confirmed in provided scope pages."
+    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Bedroom flooring material (carpet vs hard surface) not specified.",
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Bedroom flooring material not specified in scope."
   ],
   "needs_info": [
     {
-      "node_id": "landscaping",
-      "reason": "Seed/straw restoration not confirmed in provided scope pages"
+      "node_id": "proc_carpet",
+      "reason": "Bedroom flooring material (carpet vs hard surface) not specified"
+    },
+    {
+      "node_id": "carpet_floating",
+      "reason": "Bedroom flooring material not specified in scope"
     }
   ]
 }
