@@ -411,5 +411,24 @@
         "user_id": "aa575ab285f793e2c90c3aa0aba675"
       }
     ]
+  },
+  "f_01KZCJZR6CE0K4HSCYWSAWFTDB": {
+    "id": "f_01KZCJZR6CE0K4HSCYWSAWFTDB",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
+    },
+    "subject": "answer_to_q_01KZCJH0SMBAJKFFHBFPM2DDH3",
+    "content": "No, siding only",
+    "confidence": 0.95,
+    "created_at": "2026-08-06T22:27:01.452Z",
+    "updated_at": "2026-08-06T22:27:01.452Z",
+    "citations": [
+      {
+        "kind": "human_answer",
+        "question_id": "q_01KZCJH0SMBAJKFFHBFPM2DDH3",
+        "user_id": "aa575ab285f793e2c90c3aa0aba675"
+      }
+    ]
   }
 }
