@@ -941,5 +941,45 @@
       }
     ],
     "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "f_01KZCBSJEE63TQY3PJWBCFXA4G": {
+    "id": "f_01KZCBSJEE63TQY3PJWBCFXA4G",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_electrical_permit_trigger",
+    "content": "Per job_definition rules, the electrical service/meter permit is only required when the main electrical service is upgraded or the meter relocates — a subpanel alone rides the building permit; plumbing and mechanical permits are separately triggered by plumbing and HVAC scope respectively.",
+    "confidence": 0.9,
+    "created_at": "2026-08-06T20:21:18.829Z",
+    "updated_at": "2026-08-06T20:21:18.829Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "897fa956efa88513a461da68c68a36b99226ea1b"
+      }
+    ],
+    "derived_from_sha": "897fa956efa88513a461da68c68a36b99226ea1b"
+  },
+  "f_01KZCBSJEH34ZAHFARGC41EVED": {
+    "id": "f_01KZCBSJEH34ZAHFARGC41EVED",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "addition_insulation_timing_default",
+    "content": "The Addition task structure schedules insulation about one week after rough inspections pass by default, though the PM often pulls it earlier once framing clears as a manual schedule edit rather than a plan change.",
+    "confidence": 0.85,
+    "created_at": "2026-08-06T20:21:18.829Z",
+    "updated_at": "2026-08-06T20:21:18.829Z",
+    "citations": [
+      {
+        "kind": "claude_md",
+        "path": "CLAUDE.md",
+        "sha": "897fa956efa88513a461da68c68a36b99226ea1b"
+      }
+    ],
+    "derived_from_sha": "897fa956efa88513a461da68c68a36b99226ea1b"
   }
 }

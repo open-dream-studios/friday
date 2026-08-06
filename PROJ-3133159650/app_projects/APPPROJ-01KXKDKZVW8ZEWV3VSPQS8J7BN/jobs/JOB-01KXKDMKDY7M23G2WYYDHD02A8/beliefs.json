@@ -184,5 +184,26 @@
     "updated_at": "2026-08-06T20:14:40.157Z",
     "last_verified_at": "2026-08-06T20:14:40.157Z",
     "derived_from_sha": "ff195fae738f4aea6ade03997d98510ceea9e164"
+  },
+  "b_01KZCBSJEHS48N85NCXK2XZG7A": {
+    "id": "b_01KZCBSJEHS48N85NCXK2XZG7A",
+    "entity": {
+      "kind": "job",
+      "id": "JOB-01KXKDMKDY7M23G2WYYDHD02A8"
+    },
+    "subject": "job_electrical_permit_scope_resolved",
+    "content": "Since this job's electrical scope is limited to a 100A subpanel and the existing main service capacity was verified sufficient (no upgrade), the electrical service/meter permit is not needed — only the building permit (which already covers the subpanel) plus the plumbing and mechanical permits apply.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01KZCBSJEE63TQY3PJWBCFXA4G",
+      "f_01KXKE0P8X22RRENQQ8RXFS9W8"
+    ],
+    "falsification_test": "If scope later adds a main service upgrade or meter relocation, this belief is falsified and a separate electrical service permit would be required.",
+    "created_at": "2026-08-06T20:21:18.829Z",
+    "updated_at": "2026-08-06T20:21:18.829Z",
+    "last_verified_at": "2026-08-06T20:21:18.829Z",
+    "derived_from_sha": "897fa956efa88513a461da68c68a36b99226ea1b"
   }
 }
