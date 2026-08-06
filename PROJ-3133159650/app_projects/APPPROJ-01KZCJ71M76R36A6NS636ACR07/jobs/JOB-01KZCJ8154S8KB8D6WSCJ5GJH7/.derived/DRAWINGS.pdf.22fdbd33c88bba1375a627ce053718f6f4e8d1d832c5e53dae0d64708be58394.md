@@ -1,5 +1,5 @@
 tier: vision
-extracted_at: 2026-08-06T22:15:42.924Z
+extracted_at: 2026-08-06T22:42:15.623Z
 ---
 PROJECT: Simons Addition / Simons Residence
 DRAWING SET: Architectural Elevations
