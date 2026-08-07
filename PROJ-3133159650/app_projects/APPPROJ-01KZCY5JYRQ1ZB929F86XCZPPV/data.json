@@ -1,0 +1,33 @@
+{
+  "app_project_id": "APPPROJ-01KZCY5JYRQ1ZB929F86XCZPPV",
+  "name": "166 Fairground Lane",
+  "project_type": "other",
+  "address": {
+    "line1": "166 Fairground Lane",
+    "line2": null,
+    "city": "Mountain City",
+    "state": "Tennessee",
+    "postal_code": "37683",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4220,
+    "customer_id": "CUST-01KZCY5EQV9X4WVMFFRB86KEZ9",
+    "name": "jeanne chastain",
+    "phone": null,
+    "email": "jeannechastain12991@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": {
+    "id": 236,
+    "employee_id": "EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX",
+    "name": "Joey Goff",
+    "email": "joeygoff13@gmail.com",
+    "resolved": true
+  }
+}
