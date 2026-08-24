@@ -19,5 +19,27 @@
     "updated_at": "2026-07-11T18:42:19.827Z",
     "last_verified_at": "2026-07-11T18:42:19.827Z",
     "derived_from_sha": "f65670b4e20feb0698af5174846fe920260a08d2"
+  },
+  "b_01M0TK8P7EH8BZX4CKDEF5YH0K": {
+    "id": "b_01M0TK8P7EH8BZX4CKDEF5YH0K",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-90959de1e1d"
+    },
+    "subject": "business_service_model",
+    "content": "Tanny Spa Acquisitions operates a tiered hot tub restoration business (Base/Essential, Premium, Platinum) with flat all-in pricing, round-trip transport, and warranty-backed work, formalized through a standard Restoration Service Agreement and priced package sheet.",
+    "kind": "descriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01M0TK8P7DPQZBYG5DF3Y9T6WD",
+      "f_01M0TK8P7DZ09VSDQCP26ZAZKH",
+      "f_01M0TK8P7DBTPRK27A4KPBZSCE"
+    ],
+    "falsification_test": "If new documents show a different pricing structure, non-flat/variable pricing, or a business model outside hot tub restoration, this belief would be wrong.",
+    "created_at": "2026-08-24T19:16:58.171Z",
+    "updated_at": "2026-08-24T19:16:58.171Z",
+    "last_verified_at": "2026-08-24T19:16:58.171Z",
+    "derived_from_sha": "fbe13b0d1d34047af0870a5479af61ce6673d650"
   }
 }
