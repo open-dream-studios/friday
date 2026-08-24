@@ -1,0 +1,27 @@
+{
+  "app_project_id": "APPPROJ-01M07YSCWPH96D1V99WAHDVX25",
+  "name": "218 Main St",
+  "project_type": "other",
+  "address": {
+    "line1": "218 Main St",
+    "line2": null,
+    "city": "Bluff City",
+    "state": "TN",
+    "postal_code": "37618",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4228,
+    "customer_id": "CUST-01M07YS6YVHZQX6QZVM9GMSTE9",
+    "name": "pamela taylor",
+    "phone": "8043170657",
+    "email": "pgtaylor01@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": null
+}

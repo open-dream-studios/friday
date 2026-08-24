@@ -1,0 +1,21 @@
+{
+  "job_id": "JOB-01KZY1RFRFPP73YJMPG7XFB91J",
+  "entity_type": "app_project",
+  "entity_id": "APPPROJ-01KZY1PT2GQ8785W8RXEPPXHYF",
+  "valuation": null,
+  "status": "waiting_work",
+  "priority": "medium",
+  "scheduled_start_date": "2026-08-13 04:00:00",
+  "completed_date": null,
+  "notes": null,
+  "job_definition": {
+    "id": 17,
+    "job_definition_id": "jd_01KSX9J3Q7EWR0V9MV5Q9YX9SB",
+    "identifier": "Bathroom Remodel",
+    "type": "planner_job_type",
+    "resolved": true
+  },
+  "customer": null,
+  "scope_document": null,
+  "breakdown_document": null
+}

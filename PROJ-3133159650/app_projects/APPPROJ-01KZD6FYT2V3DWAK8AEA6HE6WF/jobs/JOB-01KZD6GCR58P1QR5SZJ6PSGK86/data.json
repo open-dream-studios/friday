@@ -1,7 +1,7 @@
 {
-  "job_id": "JOB-01KZCY75VT44R0NXQG1F6Z6E8N",
+  "job_id": "JOB-01KZD6GCR58P1QR5SZJ6PSGK86",
   "entity_type": "app_project",
-  "entity_id": "APPPROJ-01KZCY5JYRQ1ZB929F86XCZPPV",
+  "entity_id": "APPPROJ-01KZD6FYT2V3DWAK8AEA6HE6WF",
   "valuation": null,
   "status": "waiting_work",
   "priority": "medium",
@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01KZD6HNFFYQSD22GZW8YCDXNV",
+    "name": "scope.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01KZD6HBYT2WQWMPHGDP2TYG7T",
+    "name": "Fairground - Breakdown.xlsx - Summary.csv",
+    "resolved": true
+  }
 }

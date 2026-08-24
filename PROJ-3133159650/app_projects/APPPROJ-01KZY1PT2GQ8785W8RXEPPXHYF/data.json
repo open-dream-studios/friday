@@ -1,0 +1,27 @@
+{
+  "app_project_id": "APPPROJ-01KZY1PT2GQ8785W8RXEPPXHYF",
+  "name": "285 Max Jett Road",
+  "project_type": "other",
+  "address": {
+    "line1": "285 Max Jett Road",
+    "line2": null,
+    "city": "Johnson City",
+    "state": "Tennessee",
+    "postal_code": "37601",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4225,
+    "customer_id": "CUST-01KZY1MB9VCN2YJMGPRWR37Q42",
+    "name": "larry davis",
+    "phone": "4234318370",
+    "email": "creek1763@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": null
+}
