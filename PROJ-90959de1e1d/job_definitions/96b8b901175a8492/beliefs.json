@@ -1,1 +1,42 @@
-{}
+{
+  "b_01M0TKAWW70B0CBZ4YTN573D2D": {
+    "id": "b_01M0TKAWW70B0CBZ4YTN573D2D",
+    "entity": {
+      "kind": "job_definition",
+      "id": "96b8b901175a8492"
+    },
+    "subject": "job_definition_service_model",
+    "content": "This job_definition represents the hot tub refurbishment job type through which the project's tiered Base/Premium/Platinum restoration packages are likely executed as individual jobs.",
+    "kind": "descriptive",
+    "confidence": 0.7,
+    "status": "proposed",
+    "supported_by": [
+      "f_01M0TKAWW7YV5JDBRY9ZT8W4XS"
+    ],
+    "falsification_test": "If a job created under this job_definition has no relation to the restoration package tiers or pricing, this belief would be wrong.",
+    "created_at": "2026-08-24T19:18:10.510Z",
+    "updated_at": "2026-08-24T19:18:10.510Z",
+    "last_verified_at": "2026-08-24T19:18:10.510Z",
+    "derived_from_sha": "63512b5a740659fe57b6c82ddcf5857d7d409681"
+  },
+  "b_01M0TKAWW8GTNFJ7C6HWN0FB7V": {
+    "id": "b_01M0TKAWW8GTNFJ7C6HWN0FB7V",
+    "entity": {
+      "kind": "job_definition",
+      "id": "96b8b901175a8492"
+    },
+    "subject": "shop_inspection_workflow",
+    "content": "The 'shop' inspection_type setting implies teardown/inspection for this job type happens after the spa is transported to the shop, consistent with the round-trip transport model described in the project's Restoration Service Agreement.",
+    "kind": "descriptive",
+    "confidence": 0.65,
+    "status": "proposed",
+    "supported_by": [
+      "f_01M0TKAWW73ZN3XG7GEM377A5A"
+    ],
+    "falsification_test": "If a job of this type documents on-site (not shop) inspection or teardown, this belief would be wrong.",
+    "created_at": "2026-08-24T19:18:10.510Z",
+    "updated_at": "2026-08-24T19:18:10.510Z",
+    "last_verified_at": "2026-08-24T19:18:10.510Z",
+    "derived_from_sha": "63512b5a740659fe57b6c82ddcf5857d7d409681"
+  }
+}
