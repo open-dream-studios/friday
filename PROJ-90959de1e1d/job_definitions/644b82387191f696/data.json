@@ -3,5 +3,8 @@
   "identifier": "service-job",
   "type": "Service",
   "description": "Customer tub service job",
-  "parent_chain": []
+  "parent_chain": [],
+  "profile": {
+    "inspection_type": "service"
+  }
 }

@@ -3,5 +3,8 @@
   "identifier": "sale-job",
   "type": "Sale",
   "description": "Acquire and resell a hot tub",
-  "parent_chain": []
+  "parent_chain": [],
+  "profile": {
+    "inspection_type": "shop"
+  }
 }

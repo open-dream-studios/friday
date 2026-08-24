@@ -3,5 +3,8 @@
   "identifier": "refurbishment-job",
   "type": "Refurbishment",
   "description": "Customer tub refurbishment",
-  "parent_chain": []
+  "parent_chain": [],
+  "profile": {
+    "inspection_type": "shop"
+  }
 }

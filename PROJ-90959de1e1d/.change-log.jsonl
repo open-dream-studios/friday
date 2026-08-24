@@ -8,3 +8,4 @@
 {"ts":"2026-07-11T22:21:12.207Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-07-13T07:18:55.567Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-07-14T08:21:33.880Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-90959de1e1d","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-08-24T19:15:25.286Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-90959de1e1d","action":"update","change_kind":"project_data"},{"kind":"job_definition","id":"644b82387191f696","action":"update","change_kind":"job_definition_data"},{"kind":"job_definition","id":"96b8b901175a8492","action":"update","change_kind":"job_definition_data"},{"kind":"job_definition","id":"ceafbe9ab524f622","action":"update","change_kind":"job_definition_data"}]}
