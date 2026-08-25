@@ -19,7 +19,16 @@
     "created_at": "2026-08-06T22:18:58.664Z",
     "updated_at": "2026-08-06T22:18:58.664Z",
     "last_verified_at": "2026-08-06T22:18:58.664Z",
-    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098",
+    "stale_because": {
+      "scope": {
+        "kind": "job_definition",
+        "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+      },
+      "sha": "unknown",
+      "reason": "job_definition_data: upserted job_definition \"Addition\" (id=jd_01KSX9HKEC9G61P8N2XRVKBZ4K)",
+      "flagged_at": "2026-08-25T18:55:46.083Z"
+    }
   },
   "b_01KZCJH0SGFV2KYTVG7XNFXP7A": {
     "id": "b_01KZCJH0SGFV2KYTVG7XNFXP7A",
@@ -40,7 +49,16 @@
     "created_at": "2026-08-06T22:18:58.664Z",
     "updated_at": "2026-08-06T22:18:58.664Z",
     "last_verified_at": "2026-08-06T22:18:58.664Z",
-    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098",
+    "stale_because": {
+      "scope": {
+        "kind": "job_definition",
+        "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+      },
+      "sha": "unknown",
+      "reason": "job_definition_data: upserted job_definition \"Addition\" (id=jd_01KSX9HKEC9G61P8N2XRVKBZ4K)",
+      "flagged_at": "2026-08-25T18:55:46.083Z"
+    }
   },
   "b_01KZCJH0SGF9Y8W8EY95Q0TW77": {
     "id": "b_01KZCJH0SGF9Y8W8EY95Q0TW77",
@@ -60,7 +78,16 @@
     "created_at": "2026-08-06T22:18:58.664Z",
     "updated_at": "2026-08-06T22:18:58.664Z",
     "last_verified_at": "2026-08-06T22:18:58.664Z",
-    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098",
+    "stale_because": {
+      "scope": {
+        "kind": "job_definition",
+        "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+      },
+      "sha": "unknown",
+      "reason": "job_definition_data: upserted job_definition \"Addition\" (id=jd_01KSX9HKEC9G61P8N2XRVKBZ4K)",
+      "flagged_at": "2026-08-25T18:55:46.083Z"
+    }
   },
   "b_01KZCJH0SGPXJY4T6W6VBDC3HK": {
     "id": "b_01KZCJH0SGPXJY4T6W6VBDC3HK",
@@ -81,7 +108,16 @@
     "created_at": "2026-08-06T22:18:58.664Z",
     "updated_at": "2026-08-06T22:18:58.664Z",
     "last_verified_at": "2026-08-06T22:18:58.664Z",
-    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098",
+    "stale_because": {
+      "scope": {
+        "kind": "job_definition",
+        "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+      },
+      "sha": "unknown",
+      "reason": "job_definition_data: upserted job_definition \"Addition\" (id=jd_01KSX9HKEC9G61P8N2XRVKBZ4K)",
+      "flagged_at": "2026-08-25T18:55:46.083Z"
+    }
   },
   "b_01KZCJH0SGQAHHN1C358CQEBHC": {
     "id": "b_01KZCJH0SGQAHHN1C358CQEBHC",
@@ -102,6 +138,15 @@
     "created_at": "2026-08-06T22:18:58.664Z",
     "updated_at": "2026-08-06T22:18:58.664Z",
     "last_verified_at": "2026-08-06T22:18:58.664Z",
-    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098"
+    "derived_from_sha": "dd153f26e1fb7128a3365d0692776f238b001098",
+    "stale_because": {
+      "scope": {
+        "kind": "job_definition",
+        "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+      },
+      "sha": "unknown",
+      "reason": "job_definition_data: upserted job_definition \"Addition\" (id=jd_01KSX9HKEC9G61P8N2XRVKBZ4K)",
+      "flagged_at": "2026-08-25T18:55:46.083Z"
+    }
   }
 }
