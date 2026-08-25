@@ -12,7 +12,7 @@
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
     "identifier": "Addition",
-    "type": "planner_job2",
+    "type": "addition_job",
     "resolved": true
   },
   "customer": null,
