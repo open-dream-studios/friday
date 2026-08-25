@@ -1,1 +1,25 @@
-{}
+{
+  "b_01M0X4EJBFG9QH83YC4T1Q13X7": {
+    "id": "b_01M0X4EJBFG9QH83YC4T1Q13X7",
+    "entity": {
+      "kind": "job_definition",
+      "id": "jd_01KSX9J3Q7EWR0V9MV5Q9YX9SB"
+    },
+    "subject": "bathroom_remodel_standard_checklist",
+    "content": "This job_definition governs bathroom remodels, which follow a fixed 4-8 week shape (demo → rough MEP → tile/waterproofing → fixtures/finish) with permit pull always and tile/fixture selections locked before demo. These are non-negotiable prerequisites, not optional guidance.",
+    "kind": "prescriptive",
+    "confidence": 0.9,
+    "status": "active",
+    "supported_by": [
+      "f_01M0X4EJBDPCDH9NYD6BZS3VJN",
+      "f_01M0X4EJBEFSEZNRXVEKME9CZ5",
+      "f_01M0X4EJBEGFKYQS5TWQDAN5GH",
+      "f_01M0X4EJBEV4ZGVNE9RVXTJNS9"
+    ],
+    "falsification_test": "A signed bathroom remodel job that starts demo before material selections are finalized, or skips a permit, would falsify this.",
+    "created_at": "2026-08-25T18:55:45.442Z",
+    "updated_at": "2026-08-25T18:55:45.442Z",
+    "last_verified_at": "2026-08-25T18:55:45.442Z",
+    "derived_from_sha": "b380987eee25c3c5034df44a47861ff5f2fe7cb2"
+  }
+}
