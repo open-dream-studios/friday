@@ -1,1 +1,56 @@
-{}
+{
+  "r_company_deposit_gates": {
+    "id": "r_company_deposit_gates",
+    "entity": { "kind": "project", "id": "PROJ-3133159650" },
+    "subject": "deposit_gates_scheduling",
+    "content": "A job is never scheduled until its contract is signed and its deposit has cleared.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)",
+    "notes": "Observed on the Fairground contract ($12k deposit gating scheduling). Confirm this is universal."
+  },
+  "r_company_building_permit": {
+    "id": "r_company_building_permit",
+    "entity": { "kind": "project", "id": "PROJ-3133159650" },
+    "subject": "building_permit",
+    "content": "Every structural or addition job carries a building permit; permit coordination is the contractor's responsibility.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)",
+    "notes": "TODO(Will): confirm whether small interior-only remodels ever run permit-free."
+  },
+  "r_company_weather_window": {
+    "id": "r_company_weather_window",
+    "entity": { "kind": "project", "id": "PROJ-3133159650" },
+    "subject": "weather_windows",
+    "content": "Foundation pours, exterior flatwork, and roof framing are not scheduled between mid-December and mid-February without explicit approval.",
+    "kind": "must_not",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)",
+    "notes": "TODO(Will): exact dates and what cold-weather measures unlock an exception."
+  },
+  "r_company_rock_excluded": {
+    "id": "r_company_rock_excluded",
+    "entity": { "kind": "project", "id": "PROJ-3133159650" },
+    "subject": "rock_excavation",
+    "content": "Rock excavation is always excluded from base scope; encountering rock becomes a change order, never absorbed.",
+    "kind": "constant",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)"
+  },
+  "r_company_local_pricing": {
+    "id": "r_company_local_pricing",
+    "entity": { "kind": "project", "id": "PROJ-3133159650" },
+    "subject": "allowance_pricing",
+    "content": "Allowance pricing from national-average retail data must be confirmed against local Tri-Cities supplier pricing before any order is placed.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)",
+    "notes": "Stated verbatim in TCR's own take-off documents."
+  }
+}
