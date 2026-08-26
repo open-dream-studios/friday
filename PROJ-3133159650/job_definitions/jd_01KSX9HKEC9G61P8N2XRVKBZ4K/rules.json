@@ -1,1 +1,53 @@
-{}
+{
+  "r_addition_window_leadtime": {
+    "id": "r_addition_window_leadtime",
+    "entity": { "kind": "job_definition", "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K" },
+    "subject": "procurement_windows",
+    "content": "Windows and exterior doors are ordered at least 21 calendar days before demolition start.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)"
+  },
+  "r_addition_weathertight_gate": {
+    "id": "r_addition_weathertight_gate",
+    "entity": { "kind": "job_definition", "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K" },
+    "subject": "weathertight_gate",
+    "content": "Insulation and drywall are never scheduled before the shell is weathertight and rough inspections have passed.",
+    "kind": "must_not",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)"
+  },
+  "r_addition_roof_tiein_photos": {
+    "id": "r_addition_roof_tiein_photos",
+    "entity": { "kind": "job_definition", "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K" },
+    "subject": "roof_tie_in",
+    "content": "When a new roof ties into or over-frames an existing roof, existing conditions are photo-documented on day one of roof framing.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)",
+    "notes": "Concealed roof tie-in is the top change-order source on additions."
+  },
+  "r_addition_septic_trigger": {
+    "id": "r_addition_septic_trigger",
+    "entity": { "kind": "job_definition", "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K" },
+    "subject": "septic_trigger",
+    "content": "Any added bedroom or bathroom on a septic property triggers a TDEC septic evaluation before permit submittal.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)"
+  },
+  "r_addition_service_capacity": {
+    "id": "r_addition_service_capacity",
+    "entity": { "kind": "job_definition", "id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K" },
+    "subject": "electrical_capacity",
+    "content": "Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed.",
+    "kind": "must",
+    "origin": "human",
+    "authored_at": "2026-08-26T00:00:00.000Z",
+    "authored_by": "Friday (draft — Boss review)"
+  }
+}
