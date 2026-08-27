@@ -1,7 +1,7 @@
 {
   "job_definition_id": "JOBDEF-01M0X4FVSD7XRZ1M86G8RAC3YJ",
-  "identifier": "Kitchen Remodel",
-  "type": "kitchen_remodel_job",
-  "description": "Kitchen Remodel Job",
+  "identifier": "kitchen-remodel-job",
+  "type": "Kitchen Remodel",
+  "description": "Kitchen remodel job",
   "parent_chain": []
 }
