@@ -12,3 +12,4 @@
 {"ts":"2026-08-24T19:21:47.352Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-90959de1e1d","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-08-26T19:15:43.855Z","reason":"upserted job_definition \"tub-maintenance-service\" (id=JOBDEF-01KEJM0WYWVR0815GETECMB9ZA)","actor":"user","entities":[{"kind":"job_definition","id":"JOBDEF-01KEJM0WYWVR0815GETECMB9ZA","action":"update","change_kind":"job_definition_data"}]}
 {"ts":"2026-08-27T20:33:57.394Z","reason":"upserted job_definition \"cleaning-job\" (id=JOBDEF-01M12EVMSB0K83S3FQJ8V46T1A)","actor":"user","entities":[{"kind":"job_definition","id":"","action":"update","change_kind":"job_definition_document"}]}
+{"ts":"2026-08-27T20:34:09.641Z","reason":"upserted job_definition \"cleaning-job\" (id=JOBDEF-01M12EVMSB0K83S3FQJ8V46T1A)","actor":"user","entities":[{"kind":"job_definition","id":"JOBDEF-01M12EVMSB0K83S3FQJ8V46T1A","action":"update","change_kind":"job_definition_data"}]}
