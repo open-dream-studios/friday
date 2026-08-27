@@ -1,0 +1,7 @@
+{
+  "job_definition_id": "JOBDEF-01M12EVMSB0K83S3FQJ8V46T1A",
+  "identifier": "cleaning-job",
+  "type": "Cleaning",
+  "description": "Cleaning Job",
+  "parent_chain": []
+}
