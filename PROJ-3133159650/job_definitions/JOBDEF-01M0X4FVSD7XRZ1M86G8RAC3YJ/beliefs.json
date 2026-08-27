@@ -1,1 +1,45 @@
-{}
+{
+  "b_01M12F9W8RF66MDYRE1V6Q4K7V": {
+    "id": "b_01M12F9W8RF66MDYRE1V6Q4K7V",
+    "entity": {
+      "kind": "job_definition",
+      "id": "JOBDEF-01M0X4FVSD7XRZ1M86G8RAC3YJ"
+    },
+    "subject": "kitchen_critical_path_driver",
+    "content": "For kitchen remodels, cabinet lead time (42-56 days for custom cabinets) is the schedule-critical-path driver; demo and the rest of the timeline should be sequenced around the cabinet ship date rather than a fixed start date.",
+    "kind": "prescriptive",
+    "confidence": 0.85,
+    "status": "active",
+    "supported_by": [
+      "f_01M12F9W8RXYDBMXDR8GS92QMV",
+      "f_01M12F9W8RJ05Y0W7K6V81ZW06",
+      "f_01M12F9W8QCGGY7JRGPZ4VT2ZZ"
+    ],
+    "falsification_test": "A kitchen job where demo is scheduled without regard to cabinet ship date, or where a non-cabinet trade turns out to be the longer pole, would falsify this.",
+    "created_at": "2026-08-27T20:41:38.258Z",
+    "updated_at": "2026-08-27T20:41:38.258Z",
+    "last_verified_at": "2026-08-27T20:41:38.258Z",
+    "derived_from_sha": "7aa14dace4b47061da31cb2a20a8b428cf39082c"
+  },
+  "b_01M12F9W8RWNR37PD84KMT0K08": {
+    "id": "b_01M12F9W8RWNR37PD84KMT0K08",
+    "entity": {
+      "kind": "job_definition",
+      "id": "JOBDEF-01M0X4FVSD7XRZ1M86G8RAC3YJ"
+    },
+    "subject": "kitchen_countertop_dead_window",
+    "content": "Countertop install always trails cabinet install by at least ~14 days (slab lead time from template) because templating cannot happen until cabinets are physically in place — this is a structural dead window in every kitchen remodel schedule, not an exception.",
+    "kind": "descriptive",
+    "confidence": 0.8,
+    "status": "proposed",
+    "supported_by": [
+      "f_01M12F9W8RBQGVR816SM6CH0ZD",
+      "f_01M12F9W8R01NTCT3PBMA9FHPA"
+    ],
+    "falsification_test": "A kitchen job with countertop install occurring within days of cabinet install (no ~14-day gap) would falsify this.",
+    "created_at": "2026-08-27T20:41:38.258Z",
+    "updated_at": "2026-08-27T20:41:38.258Z",
+    "last_verified_at": "2026-08-27T20:41:38.258Z",
+    "derived_from_sha": "7aa14dace4b47061da31cb2a20a8b428cf39082c"
+  }
+}
