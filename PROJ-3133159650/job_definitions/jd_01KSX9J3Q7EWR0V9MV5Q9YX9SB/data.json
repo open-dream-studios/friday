@@ -1,7 +1,7 @@
 {
   "job_definition_id": "jd_01KSX9J3Q7EWR0V9MV5Q9YX9SB",
-  "identifier": "Bathroom Remodel",
-  "type": "bathroom_remodel_job",
-  "description": "Bathroom Remodel Jobs",
+  "identifier": "bathroom-remodel-job",
+  "type": "Bathroom Remodel",
+  "description": "Bathroom remodel job",
   "parent_chain": []
 }

@@ -11,8 +11,8 @@
   "job_definition": {
     "id": 17,
     "job_definition_id": "jd_01KSX9J3Q7EWR0V9MV5Q9YX9SB",
-    "identifier": "Bathroom Remodel",
-    "type": "bathroom_remodel_job",
+    "identifier": "bathroom-remodel-job",
+    "type": "Bathroom Remodel",
     "resolved": true
   },
   "customer": null,
