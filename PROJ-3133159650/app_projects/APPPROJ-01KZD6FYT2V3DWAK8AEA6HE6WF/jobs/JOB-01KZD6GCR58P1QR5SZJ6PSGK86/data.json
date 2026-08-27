@@ -11,8 +11,8 @@
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
-    "identifier": "Addition",
-    "type": "addition_job",
+    "identifier": "addition-job",
+    "type": "Addition",
     "resolved": true
   },
   "customer": null,
