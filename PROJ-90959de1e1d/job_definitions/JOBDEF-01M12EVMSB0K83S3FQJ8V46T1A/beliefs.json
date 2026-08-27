@@ -1,1 +1,22 @@
-{}
+{
+  "b_01M12F1NRAHFVJ7QPKJVETS5XE": {
+    "id": "b_01M12F1NRAHFVJ7QPKJVETS5XE",
+    "entity": {
+      "kind": "job_definition",
+      "id": "JOBDEF-01M12EVMSB0K83S3FQJ8V46T1A"
+    },
+    "subject": "cleaning_job_scope_type",
+    "content": "The cleaning-job type covers recurring/scheduled hot-tub cleaning maintenance visits for customers, distinct from the one-time tiered restoration packages (Essential/Premium/Platinum) documented at the project level.",
+    "kind": "descriptive",
+    "confidence": 0.75,
+    "status": "proposed",
+    "supported_by": [
+      "f_01M12F1NR9MN1ZRN9KHB0HWCKW"
+    ],
+    "falsification_test": "If the description changes to something unrelated to tub cleaning, or a job created under this definition addresses full restoration scope rather than routine cleaning, this belief is wrong.",
+    "created_at": "2026-08-27T20:37:09.440Z",
+    "updated_at": "2026-08-27T20:37:09.440Z",
+    "last_verified_at": "2026-08-27T20:37:09.440Z",
+    "derived_from_sha": "c0c87a3f8d685184f3f409b231b8806b83539595"
+  }
+}
