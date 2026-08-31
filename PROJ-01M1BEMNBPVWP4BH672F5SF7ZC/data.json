@@ -1,0 +1,14 @@
+{
+  "project_id": "PROJ-01M1BEMNBPVWP4BH672F5SF7ZC",
+  "project_idx": 185,
+  "name": "MP Landscaping",
+  "short_name": null,
+  "domain": null,
+  "backend_domain": null,
+  "brand": null,
+  "numbers": null,
+  "image_compression": "FAST",
+  "video_compression": "FAST",
+  "av1_enabled": false,
+  "private_aws": false
+}
