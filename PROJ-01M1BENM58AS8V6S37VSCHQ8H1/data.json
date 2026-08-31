@@ -1,0 +1,14 @@
+{
+  "project_id": "PROJ-01M1BENM58AS8V6S37VSCHQ8H1",
+  "project_idx": 186,
+  "name": "Luxury Cars",
+  "short_name": null,
+  "domain": null,
+  "backend_domain": null,
+  "brand": null,
+  "numbers": null,
+  "image_compression": "FAST",
+  "video_compression": "FAST",
+  "av1_enabled": false,
+  "private_aws": false
+}
