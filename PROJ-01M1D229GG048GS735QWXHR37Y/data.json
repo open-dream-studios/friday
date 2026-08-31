@@ -1,0 +1,14 @@
+{
+  "project_id": "PROJ-01M1D229GG048GS735QWXHR37Y",
+  "project_idx": 191,
+  "name": "Ghana Site",
+  "short_name": null,
+  "domain": null,
+  "backend_domain": null,
+  "brand": null,
+  "numbers": null,
+  "image_compression": "FAST",
+  "video_compression": "FAST",
+  "av1_enabled": false,
+  "private_aws": false
+}
