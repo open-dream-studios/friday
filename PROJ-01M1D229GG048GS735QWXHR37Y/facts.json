@@ -1,34 +1,4 @@
 {
-  "f_01M1D3RY453RDRV42Q45D6YXPX": {
-    "id": "f_01M1D3RY453RDRV42Q45D6YXPX",
-    "entity": {
-      "kind": "project",
-      "id": "PROJ-01M1D229GG048GS735QWXHR37Y"
-    },
-    "subject": "project_identity",
-    "content": "The project is named \"Ghana Site\" with brand \"Ghana Site\" and is hosted at domain dev-creator-kpelezo.vercel.app.",
-    "confidence": 1,
-    "created_at": "2026-08-31T23:51:47.584Z",
-    "updated_at": "2026-08-31T23:51:47.584Z",
-    "citations": [
-      {
-        "kind": "document",
-        "path": "data.json:name",
-        "sha": "87478960f2fa125165a9434c683890a949b120dd"
-      },
-      {
-        "kind": "document",
-        "path": "data.json:brand",
-        "sha": "87478960f2fa125165a9434c683890a949b120dd"
-      },
-      {
-        "kind": "document",
-        "path": "data.json:domain",
-        "sha": "87478960f2fa125165a9434c683890a949b120dd"
-      }
-    ],
-    "derived_from_sha": "87478960f2fa125165a9434c683890a949b120dd"
-  },
   "f_01M1D3RY47X9GAEKWPKFEGVD91": {
     "id": "f_01M1D3RY47X9GAEKWPKFEGVD91",
     "entity": {
@@ -88,5 +58,35 @@
       }
     ],
     "derived_from_sha": "87478960f2fa125165a9434c683890a949b120dd"
+  },
+  "f_01M1D42YG2PWBG3WAQN438GVS6": {
+    "id": "f_01M1D42YG2PWBG3WAQN438GVS6",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01M1D229GG048GS735QWXHR37Y"
+    },
+    "subject": "project_identity",
+    "content": "The project is named \"Ghana Site\" with brand \"Ghana Site\" and currently has no domain configured (domain field is null).",
+    "confidence": 0.95,
+    "created_at": "2026-08-31T23:57:15.646Z",
+    "updated_at": "2026-08-31T23:57:15.646Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:name",
+        "sha": "d802d8ead6501abbfc1dd70e5d1e2b1a099d8fa6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:brand",
+        "sha": "d802d8ead6501abbfc1dd70e5d1e2b1a099d8fa6"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:domain",
+        "sha": "d802d8ead6501abbfc1dd70e5d1e2b1a099d8fa6"
+      }
+    ],
+    "derived_from_sha": "d802d8ead6501abbfc1dd70e5d1e2b1a099d8fa6"
   }
 }
