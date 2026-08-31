@@ -5,7 +5,7 @@
   "short_name": "MP Landscaping",
   "domain": "https://dev-creator-mp-landscaping.vercel.app",
   "backend_domain": null,
-  "brand": null,
+  "brand": "MP Landscaping",
   "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
