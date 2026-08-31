@@ -1,2 +1,3 @@
 {"ts":"2026-08-31T23:22:02.294Z","reason":"upserted project \"Ghana Site\" (project_id=PROJ-01M1D229GG048GS735QWXHR37Y)","actor":"user","entities":[{"kind":"project","id":"PROJ-01M1D229GG048GS735QWXHR37Y","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-08-31T23:22:14.617Z","reason":"upserted project \"Ghana Site\" (project_id=PROJ-01M1D229GG048GS735QWXHR37Y)","actor":"user","entities":[{"kind":"project","id":"PROJ-01M1D229GG048GS735QWXHR37Y","action":"update","change_kind":"project_data"}]}
+{"ts":"2026-08-31T23:50:47.718Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1D229GG048GS735QWXHR37Y","action":"update","change_kind":"project_data"}]}
