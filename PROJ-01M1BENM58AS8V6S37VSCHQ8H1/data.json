@@ -5,7 +5,7 @@
   "short_name": "LC",
   "domain": "https://dev-creator-opendream-184d.vercel.app",
   "backend_domain": null,
-  "brand": null,
+  "brand": "Luxury Cars",
   "numbers": null,
   "image_compression": "FAST",
   "video_compression": "FAST",
