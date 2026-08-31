@@ -1,1 +1,92 @@
-{}
+{
+  "f_01M1D3RY453RDRV42Q45D6YXPX": {
+    "id": "f_01M1D3RY453RDRV42Q45D6YXPX",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01M1D229GG048GS735QWXHR37Y"
+    },
+    "subject": "project_identity",
+    "content": "The project is named \"Ghana Site\" with brand \"Ghana Site\" and is hosted at domain dev-creator-kpelezo.vercel.app.",
+    "confidence": 1,
+    "created_at": "2026-08-31T23:51:47.584Z",
+    "updated_at": "2026-08-31T23:51:47.584Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:name",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:brand",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:domain",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      }
+    ],
+    "derived_from_sha": "87478960f2fa125165a9434c683890a949b120dd"
+  },
+  "f_01M1D3RY47X9GAEKWPKFEGVD91": {
+    "id": "f_01M1D3RY47X9GAEKWPKFEGVD91",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01M1D229GG048GS735QWXHR37Y"
+    },
+    "subject": "project_media_compression",
+    "content": "Image and video compression are both set to FAST and AV1 encoding is disabled.",
+    "confidence": 1,
+    "created_at": "2026-08-31T23:51:47.584Z",
+    "updated_at": "2026-08-31T23:51:47.584Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:image_compression",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:video_compression",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:av1_enabled",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      }
+    ],
+    "derived_from_sha": "87478960f2fa125165a9434c683890a949b120dd"
+  },
+  "f_01M1D3RY47D1Y11GQHC14XCQ75": {
+    "id": "f_01M1D3RY47D1Y11GQHC14XCQ75",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01M1D229GG048GS735QWXHR37Y"
+    },
+    "subject": "project_infra_flags",
+    "content": "No backend domain or numbers are configured, and private AWS is disabled for this project.",
+    "confidence": 0.9,
+    "created_at": "2026-08-31T23:51:47.584Z",
+    "updated_at": "2026-08-31T23:51:47.584Z",
+    "citations": [
+      {
+        "kind": "document",
+        "path": "data.json:backend_domain",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:numbers",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      },
+      {
+        "kind": "document",
+        "path": "data.json:private_aws",
+        "sha": "87478960f2fa125165a9434c683890a949b120dd"
+      }
+    ],
+    "derived_from_sha": "87478960f2fa125165a9434c683890a949b120dd"
+  }
+}
