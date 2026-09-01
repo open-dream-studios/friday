@@ -108,5 +108,25 @@
       }
     ],
     "derived_from_sha": "c96b03981d9742f201e47ff96a86bc865e710205"
+  },
+  "f_01M1DBT4R6QM9WHSZKDK8MPGD8": {
+    "id": "f_01M1DBT4R6QM9WHSZKDK8MPGD8",
+    "entity": {
+      "kind": "project",
+      "id": "PROJ-01M1D229GG048GS735QWXHR37Y"
+    },
+    "subject": "media_folder_mp_landscaping_deleted",
+    "content": "The media folder referencing the 'mp-landscaping' domain, created on 2026-08-31, was deleted on 2026-09-01 (about an hour after creation).",
+    "confidence": 0.95,
+    "created_at": "2026-09-01T02:12:15.740Z",
+    "updated_at": "2026-09-01T02:12:15.740Z",
+    "citations": [
+      {
+        "kind": "db_row",
+        "path": ".change-log.jsonl",
+        "sha": "753b946d9f87fb7ed95d2405e0ee470de94098e3"
+      }
+    ],
+    "derived_from_sha": "753b946d9f87fb7ed95d2405e0ee470de94098e3"
   }
 }
