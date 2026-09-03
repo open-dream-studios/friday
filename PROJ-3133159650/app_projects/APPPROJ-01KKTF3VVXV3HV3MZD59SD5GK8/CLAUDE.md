@@ -1,3 +1,3 @@
-# Tri Cities — Company Canon
+# Elizabethton Primary Bathroom Transformation — Project Canon (Tri Cities)
 
 <!-- GENERATED from canon.json — do not edit by hand. Edit the canon; this file is rebuilt on every change. -->
