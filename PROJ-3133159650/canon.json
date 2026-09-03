@@ -1,207 +1,309 @@
 {
-  "cn_company_deposit_gates": {
-    "id": "cn_company_deposit_gates",
-    "type": "policy",
-    "title": "Deposit gates",
-    "statement": "Demo never begins without the signed contract in hand and the 25% deposit received; payment runs 25% at contract, 25% at demo start, 25% at rough-in inspection, 25% at completion.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_fixed_price_only": {
-    "id": "cn_company_fixed_price_only",
-    "type": "policy",
-    "title": "Fixed-price contracts only",
-    "statement": "Fixed-price contracts exclusively; time-and-materials is never used for residential work.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_change_orders": {
-    "id": "cn_company_change_orders",
-    "type": "policy",
-    "title": "Change orders",
-    "statement": "Change orders are written, signed, and paid in full before the associated work begins.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_no_demo_without_materials": {
-    "id": "cn_company_no_demo_without_materials",
-    "type": "policy",
-    "title": "No demo without materials",
-    "statement": "Never demo without the next phase's materials on site, and never schedule a job before the customer's final material selections are made.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_local_pricing": {
-    "id": "cn_company_local_pricing",
-    "type": "policy",
-    "title": "Local pricing confirmation",
-    "statement": "Allowance pricing from national-average retail data must be confirmed against local Tri-Cities supplier pricing before any order is placed.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_permits_always": {
-    "id": "cn_company_permits_always",
-    "type": "policy",
-    "title": "Permits always",
-    "statement": "Permits are pulled on every applicable job; skipping permits to save time is never acceptable.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_kerdi_wedi": {
-    "id": "cn_company_kerdi_wedi",
-    "type": "policy",
-    "title": "Shower waterproofing",
-    "statement": "Kerdi or Wedi waterproofing membrane goes behind every tiled shower — non-negotiable.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_never_split_framing": {
-    "id": "cn_company_never_split_framing",
-    "type": "policy",
-    "title": "Never split framing",
-    "statement": "Framing is never split between a sub and the in-house crew.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_friday_punchlist": {
-    "id": "cn_company_friday_punchlist",
-    "type": "policy",
-    "title": "Friday punch-list",
-    "statement": "Fridays are punch-list days, not new demo starts.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_monday_updates": {
-    "id": "cn_company_monday_updates",
-    "type": "policy",
-    "title": "Monday customer updates",
-    "statement": "Every active customer gets a weekly Monday update.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_job_photos": {
-    "id": "cn_company_job_photos",
-    "type": "policy",
-    "title": "Job photo documentation",
-    "statement": "Before, during, and after photos are captured into every job's inputs folder.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_rock_excluded": {
-    "id": "cn_company_rock_excluded",
-    "type": "policy",
-    "title": "Rock excavation excluded",
-    "statement": "Rock excavation is always excluded from base scope; encountering rock becomes a change order, never absorbed.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_pricing_presentation": {
-    "id": "cn_company_pricing_presentation",
-    "type": "policy",
-    "title": "Pricing presentation",
-    "statement": "Materials are billed at cost plus 15% markup, itemized in estimates; labor is never itemized to shopping customers — total-vs-total only. Discounts are rare; prefer scope reduction over price cuts.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_interior_concurrency": {
-    "id": "cn_company_interior_concurrency",
-    "type": "policy",
-    "title": "Interior trade concurrency",
-    "statement": "No more than two trades work concurrently inside the building; exterior trades carry no such limit.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_min_job_floor": {
-    "id": "cn_company_min_job_floor",
-    "type": "policy",
-    "title": "Minimum job size",
-    "statement": "Minimum job size is $15,000; smaller leads are referred out.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_margin_floor": {
-    "id": "cn_company_margin_floor",
-    "type": "policy",
-    "title": "Margin floor",
-    "statement": "Gross margin floor is 30%; below that, walk.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_weather_window": {
-    "id": "cn_company_weather_window",
-    "type": "policy",
-    "title": "Winter weather window",
-    "statement": "Foundation and framing are not scheduled between mid-December and mid-February; every outdoor-touching phase carries a 20% timeline buffer.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_offerings": {
-    "id": "cn_company_offerings",
-    "type": "policy",
-    "title": "Accepted work",
-    "statement": "TCR takes bathroom remodels, kitchen remodels, and home additions (single- and multi-story). Ground-up new construction is a hard no; commercial or exterior-only work is evaluated case-by-case.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_warranty": {
-    "id": "cn_company_warranty",
-    "type": "policy",
-    "title": "Warranty terms",
-    "statement": "Labor is warranted 1 year post-completion; materials are covered per manufacturer warranty.",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_staffing_split": {
-    "id": "cn_company_staffing_split",
-    "type": "default",
-    "title": "Hybrid staffing split",
-    "assume": "the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes",
-    "unless": "job specifics or crew capacity dictate otherwise",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_sub_threshold": {
-    "id": "cn_company_sub_threshold",
-    "type": "default",
-    "title": "In-house vs sub threshold",
-    "assume": "if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it",
-    "unless": "the work is licensed-trade or the never-split-framing policy applies",
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_capacity": {
-    "id": "cn_company_capacity",
-    "type": "calibration",
-    "title": "Staffing capacity",
-    "subject": "company staffing",
-    "rows": [
-      { "label": "field crew", "value": 6, "unit": "people" },
-      { "label": "total employees", "value": 40, "unit": "people" }
-    ],
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_working_hours": {
-    "id": "cn_company_working_hours",
-    "type": "calibration",
-    "title": "Working hours",
-    "subject": "site working hours",
-    "rows": [
-      { "label": "hours", "value": "07:00–17:00", "context": "America/New_York" }
-    ],
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
-  },
-  "cn_company_service_area": {
-    "id": "cn_company_service_area",
-    "type": "calibration",
-    "title": "Service area",
-    "subject": "service radius",
-    "rows": [
-      { "label": "center", "value": "Johnson City, TN" },
-      { "label": "radius", "value": 45, "unit": "miles" }
-    ],
-    "origin": "human",
-    "updated_at": "2026-09-03T00:00:00.000Z"
+  "version": 2,
+  "groups": [
+    {
+      "id": "grp_sales_pricing",
+      "name": "Sales & Pricing",
+      "ordinal": 0
+    },
+    {
+      "id": "grp_contracts_payments",
+      "name": "Contracts & Payments",
+      "ordinal": 1
+    },
+    {
+      "id": "grp_crews_staffing",
+      "name": "Crews & Staffing",
+      "ordinal": 2
+    },
+    {
+      "id": "grp_scheduling",
+      "name": "Scheduling",
+      "ordinal": 3
+    },
+    {
+      "id": "grp_quality_compliance",
+      "name": "Quality & Compliance",
+      "ordinal": 4
+    },
+    {
+      "id": "grp_customer_communication",
+      "name": "Customer Communication",
+      "ordinal": 5
+    }
+  ],
+  "entries": {
+    "cn_company_offerings": {
+      "id": "cn_company_offerings",
+      "type": "policy",
+      "title": "Accepted work",
+      "statement": "TCR takes bathroom remodels, kitchen remodels, and home additions (single- and multi-story). Ground-up new construction is a hard no; commercial or exterior-only work is evaluated case-by-case.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 0
+    },
+    "cn_company_change_orders": {
+      "id": "cn_company_change_orders",
+      "type": "policy",
+      "title": "Change orders",
+      "statement": "Change orders are written, signed, and paid in full before the associated work begins.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_contracts_payments",
+      "ordinal": 2
+    },
+    "cn_company_deposit_gates": {
+      "id": "cn_company_deposit_gates",
+      "type": "policy",
+      "title": "Deposit gates",
+      "statement": "Demo never begins without the signed contract in hand and the 25% deposit received; payment runs 25% at contract, 25% at demo start, 25% at rough-in inspection, 25% at completion.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_contracts_payments",
+      "ordinal": 1
+    },
+    "cn_company_fixed_price_only": {
+      "id": "cn_company_fixed_price_only",
+      "type": "policy",
+      "title": "Fixed-price contracts only",
+      "statement": "Fixed-price contracts exclusively; time-and-materials is never used for residential work.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_contracts_payments",
+      "ordinal": 0
+    },
+    "cn_company_friday_punchlist": {
+      "id": "cn_company_friday_punchlist",
+      "type": "policy",
+      "title": "Friday punch-list",
+      "statement": "Fridays are punch-list days, not new demo starts.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_scheduling",
+      "ordinal": 1
+    },
+    "cn_company_interior_concurrency": {
+      "id": "cn_company_interior_concurrency",
+      "type": "policy",
+      "title": "Interior trade concurrency",
+      "statement": "No more than two trades work concurrently inside the building; exterior trades carry no such limit.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_scheduling",
+      "ordinal": 2
+    },
+    "cn_company_job_photos": {
+      "id": "cn_company_job_photos",
+      "type": "policy",
+      "title": "Job photo documentation",
+      "statement": "Before, during, and after photos are captured into every job's inputs folder.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_quality_compliance",
+      "ordinal": 2
+    },
+    "cn_company_local_pricing": {
+      "id": "cn_company_local_pricing",
+      "type": "policy",
+      "title": "Local pricing confirmation",
+      "statement": "Allowance pricing from national-average retail data must be confirmed against local Tri-Cities supplier pricing before any order is placed.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 5
+    },
+    "cn_company_margin_floor": {
+      "id": "cn_company_margin_floor",
+      "type": "policy",
+      "title": "Margin floor",
+      "statement": "Gross margin floor is 30%; below that, walk.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 3
+    },
+    "cn_company_min_job_floor": {
+      "id": "cn_company_min_job_floor",
+      "type": "policy",
+      "title": "Minimum job size",
+      "statement": "Minimum job size is $15,000; smaller leads are referred out.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 2
+    },
+    "cn_company_monday_updates": {
+      "id": "cn_company_monday_updates",
+      "type": "policy",
+      "title": "Monday customer updates",
+      "statement": "Every active customer gets a weekly Monday update.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_customer_communication",
+      "ordinal": 0
+    },
+    "cn_company_never_split_framing": {
+      "id": "cn_company_never_split_framing",
+      "type": "policy",
+      "title": "Never split framing",
+      "statement": "Framing is never split between a sub and the in-house crew.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 4
+    },
+    "cn_company_no_demo_without_materials": {
+      "id": "cn_company_no_demo_without_materials",
+      "type": "policy",
+      "title": "No demo without materials",
+      "statement": "Never demo without the next phase's materials on site, and never schedule a job before the customer's final material selections are made.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_scheduling",
+      "ordinal": 0
+    },
+    "cn_company_permits_always": {
+      "id": "cn_company_permits_always",
+      "type": "policy",
+      "title": "Permits always",
+      "statement": "Permits are pulled on every applicable job; skipping permits to save time is never acceptable.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_quality_compliance",
+      "ordinal": 0
+    },
+    "cn_company_pricing_presentation": {
+      "id": "cn_company_pricing_presentation",
+      "type": "policy",
+      "title": "Pricing presentation",
+      "statement": "Materials are billed at cost plus 15% markup, itemized in estimates; labor is never itemized to shopping customers — total-vs-total only. Discounts are rare; prefer scope reduction over price cuts.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 4
+    },
+    "cn_company_rock_excluded": {
+      "id": "cn_company_rock_excluded",
+      "type": "policy",
+      "title": "Rock excavation excluded",
+      "statement": "Rock excavation is always excluded from base scope; encountering rock becomes a change order, never absorbed.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_contracts_payments",
+      "ordinal": 3
+    },
+    "cn_company_kerdi_wedi": {
+      "id": "cn_company_kerdi_wedi",
+      "type": "policy",
+      "title": "Shower waterproofing",
+      "statement": "Kerdi or Wedi waterproofing membrane goes behind every tiled shower — non-negotiable.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_quality_compliance",
+      "ordinal": 1
+    },
+    "cn_company_warranty": {
+      "id": "cn_company_warranty",
+      "type": "policy",
+      "title": "Warranty terms",
+      "statement": "Labor is warranted 1 year post-completion; materials are covered per manufacturer warranty.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_contracts_payments",
+      "ordinal": 4
+    },
+    "cn_company_weather_window": {
+      "id": "cn_company_weather_window",
+      "type": "policy",
+      "title": "Winter weather window",
+      "statement": "Foundation and framing are not scheduled between mid-December and mid-February; every outdoor-touching phase carries a 20% timeline buffer.",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_scheduling",
+      "ordinal": 3
+    },
+    "cn_company_staffing_split": {
+      "id": "cn_company_staffing_split",
+      "type": "default",
+      "title": "Hybrid staffing split",
+      "assume": "the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes",
+      "unless": "job specifics or crew capacity dictate otherwise",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 2
+    },
+    "cn_company_sub_threshold": {
+      "id": "cn_company_sub_threshold",
+      "type": "default",
+      "title": "In-house vs sub threshold",
+      "assume": "if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it",
+      "unless": "the work is licensed-trade or the never-split-framing policy applies",
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 3
+    },
+    "cn_company_service_area": {
+      "id": "cn_company_service_area",
+      "type": "calibration",
+      "title": "Service area",
+      "subject": "service radius",
+      "rows": [
+        {
+          "label": "center",
+          "value": "Johnson City, TN"
+        },
+        {
+          "label": "radius",
+          "value": 45,
+          "unit": "miles"
+        }
+      ],
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 1
+    },
+    "cn_company_capacity": {
+      "id": "cn_company_capacity",
+      "type": "calibration",
+      "title": "Staffing capacity",
+      "subject": "company staffing",
+      "rows": [
+        {
+          "label": "field crew",
+          "value": 6,
+          "unit": "people"
+        },
+        {
+          "label": "total employees",
+          "value": 40,
+          "unit": "people"
+        }
+      ],
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 0
+    },
+    "cn_company_working_hours": {
+      "id": "cn_company_working_hours",
+      "type": "calibration",
+      "title": "Working hours",
+      "subject": "site working hours",
+      "rows": [
+        {
+          "label": "hours",
+          "value": "07:00–17:00",
+          "context": "America/New_York"
+        }
+      ],
+      "origin": "human",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 1
+    }
   }
 }
