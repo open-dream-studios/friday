@@ -13,20 +13,20 @@
 - **LVL-omitted risk** `default` _(when: structural documents contain "LVL omitted, sized per IRC" language)_: assume carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering — unless final engineering is already complete.
 - **Below-grade package** `default` _(when: sloped-lot or walkout addition)_: assume a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill — unless engineering specifies otherwise.
 - **Roof tie-in photos** `policy` _(when: the new roof ties into or over-frames the existing roof)_: Existing conditions are photo-documented on day one of roof framing.
-- **Habitable space threshold** `reference` — storage/crawl level classification _(source: IRC practice)_:
+- **Habitable space threshold** `reference` _(source: IRC practice)_:
   - non-habitable clear height: under ~5 ft (no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior)
 
 ## Mechanical, Electrical & Plumbing
 
 - **HVAC type** `default`: assume mini-split — short line-set rough, no separate rough-in phase — unless scope says "ducted", "duct work", or "air handler" (duct-extension path applies); if still ambiguous, ask rather than guess.
 - **Electrical service capacity** `policy`: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
-- **Water heater plumbing delay** `calibration` _(when: scope includes a new tank or tankless water heater)_ — rough plumbing start delay:
+- **Water heater plumbing delay** `calibration` _(when: scope includes a new tank or tankless water heater)_:
   - added delay: 1 working day (tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing)
 
 ## Procurement & Lead Times
 
 - **Window ordering** `policy`: Windows and exterior doors are ordered at permit submittal; any non-stock size is verified for real lead time before the schedule assumes stock.
-- **Window lead times** `reference` — window and exterior door lead times _(source: TCR supplier experience)_:
+- **Window lead times** `reference` _(source: TCR supplier experience)_:
   - stock sizes: 21 calendar days
   - non-stock / custom sizes: verify with supplier before scheduling (silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit)
 
