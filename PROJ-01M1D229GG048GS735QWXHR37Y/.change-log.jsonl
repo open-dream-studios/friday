@@ -11,3 +11,4 @@
 {"ts":"2026-09-02T04:33:09.954Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-02T05:01:03.083Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1D229GG048GS735QWXHR37Y","action":"update","change_kind":"project_data"}]}
 {"ts":"2026-09-02T17:58:20.756Z","reason":"boot","actor":"boot","entities":[]}
+{"ts":"2026-09-03T21:49:36.473Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1D229GG048GS735QWXHR37Y","action":"update","change_kind":"project_document"}]}
