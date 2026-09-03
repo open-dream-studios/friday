@@ -1,1 +1,175 @@
-{}
+{
+  "cn_addition_permit_lead": {
+    "id": "cn_addition_permit_lead",
+    "type": "policy",
+    "title": "Permit lead times",
+    "statement": "Every permit application is filed 2 weeks before job start — except TDEC septic, which is filed 6 weeks before; demo never starts without the building permit in hand.",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_septic_trigger": {
+    "id": "cn_addition_septic_trigger",
+    "type": "policy",
+    "title": "TDEC septic trigger",
+    "statement": "TDEC septic permitting applies only when the job modifies or installs a septic system — added bedrooms or bathrooms alone do not trigger it; never break ground while TDEC is pending.",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_window_order": {
+    "id": "cn_addition_window_order",
+    "type": "policy",
+    "title": "Window ordering",
+    "statement": "Windows and exterior doors are ordered at permit submittal; any non-stock size is verified for real lead time before the schedule assumes stock.",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_weathertight_gate": {
+    "id": "cn_addition_weathertight_gate",
+    "type": "policy",
+    "title": "Weathertight gate",
+    "statement": "Interior work begins only once roofing is complete, and insulation/drywall are never scheduled before rough inspections pass.",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_service_capacity": {
+    "id": "cn_addition_service_capacity",
+    "type": "policy",
+    "title": "Electrical service capacity",
+    "statement": "Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_roof_tiein_photos": {
+    "id": "cn_addition_roof_tiein_photos",
+    "type": "policy",
+    "title": "Roof tie-in photos",
+    "condition": "the new roof ties into or over-frames the existing roof",
+    "statement": "Existing conditions are photo-documented on day one of roof framing.",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_hvac_type": {
+    "id": "cn_addition_hvac_type",
+    "type": "default",
+    "title": "HVAC type",
+    "assume": "mini-split — short line-set rough, no separate rough-in phase",
+    "unless": "scope says \"ducted\", \"duct work\", or \"air handler\" (duct-extension path applies); if still ambiguous, ask rather than guess",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_framing_method": {
+    "id": "cn_addition_framing_method",
+    "type": "default",
+    "title": "Framing method",
+    "assume": "stick-frame for small additions",
+    "unless": "scope explicitly specifies trusses, roof span exceeds ~24 ft, footprint exceeds ~800 sqft, or the PM confirms trusses",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_retro_detection": {
+    "id": "cn_addition_retro_detection",
+    "type": "default",
+    "title": "Retro-phase detection",
+    "assume": "work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, \"existing\" language in scope text, or unresolved spatial location for a new feature",
+    "unless": "the PM explicitly folds it into the addition's new-construction scope",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_completion_milestone": {
+    "id": "cn_addition_completion_milestone",
+    "type": "default",
+    "title": "Completion milestone",
+    "assume": "the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes",
+    "unless": "customer scheduling forces a different day",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_settling_cracks": {
+    "id": "cn_addition_settling_cracks",
+    "type": "default",
+    "title": "Tie-in settling cracks",
+    "assume": "hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task",
+    "unless": "cracking is structural or beyond hairline",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_schedule_slack": {
+    "id": "cn_addition_schedule_slack",
+    "type": "default",
+    "title": "Front-loaded schedule pressure",
+    "assume": "compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed",
+    "unless": "the PM explicitly directs compressing closeout",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_water_heater_day": {
+    "id": "cn_addition_water_heater_day",
+    "type": "calibration",
+    "title": "Water heater plumbing delay",
+    "condition": "scope includes a new tank or tankless water heater",
+    "subject": "rough plumbing start delay",
+    "rows": [
+      {
+        "label": "added delay",
+        "value": 1,
+        "unit": "working day",
+        "context": "tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing"
+      }
+    ],
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_below_grade_package": {
+    "id": "cn_addition_below_grade_package",
+    "type": "default",
+    "title": "Below-grade package",
+    "condition": "sloped-lot or walkout addition",
+    "assume": "a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill",
+    "unless": "engineering specifies otherwise",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_lvl_risk": {
+    "id": "cn_addition_lvl_risk",
+    "type": "default",
+    "title": "LVL-omitted risk",
+    "condition": "structural documents contain \"LVL omitted, sized per IRC\" language",
+    "assume": "carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering",
+    "unless": "final engineering is already complete",
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_window_leadtimes": {
+    "id": "cn_addition_window_leadtimes",
+    "type": "reference",
+    "title": "Window lead times",
+    "subject": "window and exterior door lead times",
+    "source": "TCR supplier experience",
+    "rows": [
+      { "label": "stock sizes", "value": 21, "unit": "calendar days" },
+      {
+        "label": "non-stock / custom sizes",
+        "value": "verify with supplier before scheduling",
+        "context": "silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit"
+      }
+    ],
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  },
+  "cn_addition_crawl_height": {
+    "id": "cn_addition_crawl_height",
+    "type": "reference",
+    "title": "Habitable space threshold",
+    "subject": "storage/crawl level classification",
+    "source": "IRC practice",
+    "rows": [
+      {
+        "label": "non-habitable clear height",
+        "value": "under ~5 ft",
+        "context": "no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior"
+      }
+    ],
+    "origin": "human",
+    "updated_at": "2026-09-03T00:00:00.000Z"
+  }
+}
