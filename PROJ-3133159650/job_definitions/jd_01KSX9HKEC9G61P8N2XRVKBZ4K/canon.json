@@ -118,14 +118,14 @@
     },
     "cn_addition_framing_method": {
       "id": "cn_addition_framing_method",
-      "type": "default",
       "title": "Framing method",
-      "assume": "stick-frame for small additions",
-      "unless": "scope explicitly specifies trusses, roof span exceeds ~24 ft, footprint exceeds ~800 sqft, or the PM confirms trusses",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T00:30:17.363Z",
+      "condition": "unless scope explicitly specifies trusses, roof span exceeds ~24 ft, footprint exceeds ~800 sqft, or the PM confirms trusses",
       "group_id": "grp_structure_site",
-      "ordinal": 0
+      "ordinal": 0,
+      "type": "default",
+      "assume": "stick-frame for small additions",
+      "origin": "human"
     },
     "cn_addition_schedule_slack": {
       "id": "cn_addition_schedule_slack",
