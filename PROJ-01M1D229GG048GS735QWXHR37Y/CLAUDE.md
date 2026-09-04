@@ -1,3 +1,2 @@
-# Ghana Site — Company Canon
-
-<!-- GENERATED from canon.json — do not edit by hand. Edit the canon; this file is rebuilt on every change. -->
+# CANON - Company Scope (Priority Level 1/4 - Lowest)
+<!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->
