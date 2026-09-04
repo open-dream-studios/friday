@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "groups": [
-    {
-      "id": "grp_jjj",
-      "name": "jjj",
-      "ordinal": 0
-    }
-  ],
+  "groups": [],
   "entries": {}
 }
