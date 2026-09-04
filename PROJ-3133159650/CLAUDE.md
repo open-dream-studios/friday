@@ -23,7 +23,7 @@
 
 ## Crews & Staffing
 
-- **Staffing capacity** `calibration`:
+- **Staff** `calibration`:
   - Standard field crew size: 6 people
   - Total TCR employees: 40 people (Includes)
 - **Working hours** `calibration`:
