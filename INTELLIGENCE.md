@@ -243,3 +243,13 @@ When a belief conflicts with data:
   `{diff_kind, touched_files, changelog_lines}` in `.runlog.jsonl`
   alongside per-phase timings — the one-line answer to "why did this
   run do work".
+
+---
+
+## Addendum 2026-09-04 — canon storage moved to MySQL
+
+The canonical knowledge layer no longer lives in trunk files. `canon.json` and `proposed.json` are GONE from every scope; MySQL is the source of truth (`canon_groups` / `canon_entries` = human pen, `proposed_entries` = machine pen, keyed by project_idx + scope_kind + scope_id). Each scope\x27s `CLAUDE.md` is still rendered per scope — now from the DB during materialize and on every canon mutation — and remains the ONLY knowledge surface agents read on disk.
+
+- `canon_history` (append-only, before/after JSON + reason + actor) is the audit trail of the human pen; `canon_scopes.revision` is a per-scope monotonic counter bumped by human mutations only — the future freshness token replacing `derived_from_sha`.
+- The warm loop\x27s proposed reads/writes go through the DB seam in `server_a1/services/brain/canonFiles.ts` (same function signatures, DB-backed). Prompts and flows unchanged.
+- `questions.jsonl` remains trunk-native for now (queued for the next intelligence pass).
