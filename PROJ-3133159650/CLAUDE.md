@@ -29,7 +29,7 @@
 - **Working hours** `reference`:
   - hours: 07:00–17:00 (America/New_York)
 - **Hybrid staffing split** `default` _(when: Unless job specifics or crew capacity dictate otherwise)_: assume The in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes.
-- **In-house vs sub threshold** `default` _(when: unless the work is licensed-trade or the never-split-framing policy applies)_: assume if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it.
+- **In-house vs sub threshold** `default` _(when: Unless the work is licensed-trade or the never-split-framing policy applies)_: assume If the in-house crew can do it in a day, use them; if it would take 3+ days, sub it.
 - **Never split framing** `policy`: Framing is never split between a sub and the in-house crew.
 
 ## Scheduling

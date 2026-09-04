@@ -237,12 +237,12 @@
     "cn_company_sub_threshold": {
       "id": "cn_company_sub_threshold",
       "title": "In-house vs sub threshold",
-      "updated_at": "2026-09-04T00:30:16.930Z",
-      "condition": "unless the work is licensed-trade or the never-split-framing policy applies",
+      "updated_at": "2026-09-04T03:12:44.396Z",
+      "condition": "Unless the work is licensed-trade or the never-split-framing policy applies",
       "group_id": "grp_crews_staffing",
       "ordinal": 3,
       "type": "default",
-      "assume": "if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it",
+      "assume": "If the in-house crew can do it in a day, use them; if it would take 3+ days, sub it",
       "origin": "human"
     },
     "cn_company_service_area": {
