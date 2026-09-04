@@ -401,3 +401,4 @@
 {"ts":"2026-09-04T03:24:54.291Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-04T04:30:43.384Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-04T17:07:31.615Z","reason":"boot","actor":"boot","entities":[]}
+{"ts":"2026-09-04T17:10:10.251Z","reason":"e2e canary write (retrigger)","actor":"user","entities":[]}
