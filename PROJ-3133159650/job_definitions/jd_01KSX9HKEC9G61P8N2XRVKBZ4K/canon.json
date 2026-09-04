@@ -119,12 +119,12 @@
     "cn_addition_framing_method": {
       "id": "cn_addition_framing_method",
       "title": "Framing method",
-      "updated_at": "2026-09-04T00:30:17.363Z",
-      "condition": "unless scope explicitly specifies trusses, roof span exceeds ~24 ft, footprint exceeds ~800 sqft, or the PM confirms trusses",
+      "updated_at": "2026-09-04T03:12:45.111Z",
+      "condition": "Unless scope explicitly specifies trusses, roof span exceeds ~24 ft, footprint exceeds ~800 sqft, or the PM confirms trusses",
       "group_id": "grp_structure_site",
       "ordinal": 0,
       "type": "default",
-      "assume": "stick-frame for small additions",
+      "assume": "Stick-frame for small additions",
       "origin": "human"
     },
     "cn_addition_schedule_slack": {
