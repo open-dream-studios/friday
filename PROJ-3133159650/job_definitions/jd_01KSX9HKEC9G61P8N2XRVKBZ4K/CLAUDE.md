@@ -57,3 +57,6 @@
 - DEFAULT: Addition job cost breakdowns are built from a repurposed Basement-Remodel template: This was observed on one job's breakdown document, which self-declared 'Template Anchor: Basement_Remodel_Breakdown_Locked_Template_v1.xlsx' — treated as evidence of a company-wide practice, not confirmed across other Addition jobs. (Unvetted, Confidence 50%)
     Condition: If When reviewing or auditing an internal cost-breakdown spreadsheet for an Addition job against its scope-of-work.
     Notes: If a future Addition job's breakdown total looks unexplainably low relative to its scope, check first whether septic and roof-framing-method costs were folded into a generic bucket (e.g. 'General Conditions') or omitted entirely, before assuming the scope itself changed.
+- DEFAULT: Treat job.notes dimensional/spec claims as unverified until cross-checked against scope and drawings: job.notes reflects a human's shorthand/paraphrase and may contain transcription errors (e.g. typos), not a superseding instruction (Unvetted, Confidence 50%)
+    Condition: If If job.notes states a dimension, material choice, or scope detail that conflicts with the anchor scope-of-work or drawings on an Addition job
+    Notes: Single-incident evidence so far; raise confidence if the same pattern (note vs. concurring documents) recurs on future Addition jobs.
