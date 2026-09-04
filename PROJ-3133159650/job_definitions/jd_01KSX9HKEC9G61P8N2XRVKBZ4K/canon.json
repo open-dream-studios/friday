@@ -108,12 +108,12 @@
     "cn_addition_completion_milestone": {
       "id": "cn_addition_completion_milestone",
       "title": "Completion milestone",
-      "updated_at": "2026-09-04T00:30:17.237Z",
-      "condition": "unless customer scheduling forces a different day",
+      "updated_at": "2026-09-04T03:12:45.002Z",
+      "condition": "Unless customer scheduling forces a different day",
       "group_id": "grp_closeout",
       "ordinal": 0,
       "type": "default",
-      "assume": "the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes",
+      "assume": "The job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes",
       "origin": "human"
     },
     "cn_addition_framing_method": {
