@@ -174,12 +174,12 @@
     "cn_addition_settling_cracks": {
       "id": "cn_addition_settling_cracks",
       "title": "Tie-in settling cracks",
-      "updated_at": "2026-09-04T00:30:17.912Z",
-      "condition": "unless cracking is structural or beyond hairline",
+      "updated_at": "2026-09-04T03:12:45.595Z",
+      "condition": "Unless cracking is structural or beyond hairline",
       "group_id": "grp_closeout",
       "ordinal": 1,
       "type": "default",
-      "assume": "hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task",
+      "assume": "Hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task",
       "origin": "human"
     },
     "cn_addition_water_heater_day": {
