@@ -268,7 +268,7 @@
     "cn_company_capacity": {
       "id": "cn_company_capacity",
       "title": "Staff",
-      "updated_at": "2026-09-04T02:31:41.785Z",
+      "updated_at": "2026-09-04T03:12:44.591Z",
       "group_id": "grp_crews_staffing",
       "ordinal": 0,
       "type": "reference",
@@ -276,12 +276,12 @@
         {
           "label": "Standard field crew size",
           "value": 6,
-          "unit": "people"
+          "unit": "People"
         },
         {
           "label": "Total TCR employees",
           "value": 40,
-          "unit": "people",
+          "unit": "People",
           "context": "Includes"
         }
       ],
