@@ -151,15 +151,14 @@
     },
     "cn_addition_lvl_risk": {
       "id": "cn_addition_lvl_risk",
-      "type": "default",
       "title": "LVL-omitted risk",
-      "condition": "structural documents contain \"LVL omitted, sized per IRC\" language",
-      "assume": "carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering",
-      "unless": "final engineering is already complete",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T00:30:17.689Z",
+      "condition": "structural documents contain \"LVL omitted, sized per IRC\" language — unless final engineering is already complete",
       "group_id": "grp_structure_site",
-      "ordinal": 1
+      "ordinal": 1,
+      "type": "default",
+      "assume": "carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering",
+      "origin": "human"
     },
     "cn_addition_retro_detection": {
       "id": "cn_addition_retro_detection",
