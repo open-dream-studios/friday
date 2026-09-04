@@ -290,13 +290,13 @@
     "cn_company_working_hours": {
       "id": "cn_company_working_hours",
       "title": "Working hours",
-      "updated_at": "2026-09-04T02:31:41.872Z",
+      "updated_at": "2026-09-04T03:12:44.680Z",
       "group_id": "grp_crews_staffing",
       "ordinal": 1,
       "type": "reference",
       "rows": [
         {
-          "label": "hours",
+          "label": "Hours",
           "value": "07:00–17:00",
           "context": "America/New_York"
         }
