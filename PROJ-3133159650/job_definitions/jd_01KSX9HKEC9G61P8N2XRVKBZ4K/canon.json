@@ -96,15 +96,14 @@
     },
     "cn_addition_below_grade_package": {
       "id": "cn_addition_below_grade_package",
-      "type": "default",
       "title": "Below-grade package",
-      "condition": "sloped-lot or walkout addition",
-      "assume": "a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill",
-      "unless": "engineering specifies otherwise",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T00:30:17.118Z",
+      "condition": "sloped-lot or walkout addition — unless engineering specifies otherwise",
       "group_id": "grp_structure_site",
-      "ordinal": 2
+      "ordinal": 2,
+      "type": "default",
+      "assume": "a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill",
+      "origin": "human"
     },
     "cn_addition_completion_milestone": {
       "id": "cn_addition_completion_milestone",

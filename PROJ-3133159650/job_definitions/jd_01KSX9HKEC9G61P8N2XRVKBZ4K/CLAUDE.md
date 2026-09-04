@@ -11,7 +11,7 @@
 
 - **Framing method** `default`: assume stick-frame for small additions.
 - **LVL-omitted risk** `default` _(when: structural documents contain "LVL omitted, sized per IRC" language)_: assume carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering.
-- **Below-grade package** `default` _(when: sloped-lot or walkout addition)_: assume a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill.
+- **Below-grade package** `default` _(when: sloped-lot or walkout addition — unless engineering specifies otherwise)_: assume a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill.
 - **Roof tie-in photos** `policy` _(when: the new roof ties into or over-frames the existing roof)_: Existing conditions are photo-documented on day one of roof framing.
 - **Habitable space threshold** `reference` _(source: IRC practice)_:
   - non-habitable clear height: under ~5 ft (no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior)
