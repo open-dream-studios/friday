@@ -184,10 +184,12 @@
     },
     "cn_addition_water_heater_day": {
       "id": "cn_addition_water_heater_day",
-      "type": "calibration",
       "title": "Water heater plumbing delay",
+      "updated_at": "2026-09-04T02:31:42.029Z",
       "condition": "scope includes a new tank or tankless water heater",
-      "subject": "rough plumbing start delay",
+      "group_id": "grp_mech_electrical_plumbing",
+      "ordinal": 2,
+      "type": "reference",
       "rows": [
         {
           "label": "added delay",
@@ -196,10 +198,7 @@
           "context": "tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing"
         }
       ],
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
-      "group_id": "grp_mech_electrical_plumbing",
-      "ordinal": 2
+      "origin": "human"
     },
     "cn_addition_crawl_height": {
       "id": "cn_addition_crawl_height",

@@ -20,6 +20,8 @@
 
 - **HVAC type** `default` _(when: unless scope says "ducted", "duct work", or "air handler" (duct-extension path applies); if still ambiguous, ask rather than guess)_: assume mini-split — short line-set rough, no separate rough-in phase.
 - **Electrical service capacity** `policy`: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
+- **Water heater plumbing delay** `reference` _(when: scope includes a new tank or tankless water heater)_:
+  - added delay: 1 working day (tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing)
 
 ## Procurement & Lead Times
 
