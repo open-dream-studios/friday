@@ -1,5 +1,5 @@
 {
-  "job_id": "JOB-01M1TESTEVERGREEN000000001",
+  "job_id": "JOB-01M1TESTEVERGREEN000000002",
   "entity_type": "app_project",
   "entity_id": "APPPROJ-01M1PVHE9C2WXKHCH6681T0H9V",
   "valuation": null,
@@ -7,7 +7,7 @@
   "priority": "medium",
   "scheduled_start_date": null,
   "completed_date": null,
-  "notes": "Homeowner confirmed: keep the existing tub, addition footprint 14x20.",
+  "notes": null,
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
@@ -16,14 +16,6 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": {
-    "id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
-    "name": "scope-v2.pdf",
-    "resolved": true
-  },
-  "breakdown_document": {
-    "id": "doc_01KZCJ9Y8YJ3XMSY4MFQ0DABVE",
-    "name": "308_Evergreen_Addition_Breakdown.csv",
-    "resolved": true
-  }
+  "scope_document": null,
+  "breakdown_document": null
 }
