@@ -5,10 +5,18 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T21:58:01.841Z",
+  "built_at": "2026-09-04T22:15:33.505Z",
   "built_by": "synthesis",
   "inputs": {
     "docs": [
+      {
+        "document_id": "doc_01KX76DHHZ4SA44JF49HX3MEJV",
+        "version": 3,
+        "name": "bristol_reference.pdf",
+        "size": 22007,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      },
       {
         "document_id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
         "version": 2,
@@ -39,7 +47,7 @@
       {
         "scope_kind": "project",
         "scope_id": "PROJ-3133159650",
-        "revision": 2
+        "revision": 3
       },
       {
         "scope_kind": "job_definition",
@@ -87,8 +95,8 @@
       "sha256": "a89ff688d447cd81643c1e1f7ac3fd936a7e7114cd5f554ae54da5cd92ee7c83"
     },
     "changelog": {
-      "lines": 412,
-      "tail_sha256": "99ccb98e4390d3e1ea9c8e5e142300223e97dfebec1d3134358787d3cd69fa31"
+      "lines": 414,
+      "tail_sha256": "ab4e18ca4c366bff3d2fe3e70c70c2f71f847e81b9421d4c10f0ccbe22f7dd01"
     }
   }
 }
