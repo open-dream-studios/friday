@@ -203,16 +203,16 @@
     "cn_addition_crawl_height": {
       "id": "cn_addition_crawl_height",
       "title": "Habitable space threshold",
-      "updated_at": "2026-09-04T02:31:42.130Z",
+      "updated_at": "2026-09-04T03:12:45.792Z",
       "group_id": "grp_structure_site",
       "ordinal": 4,
-      "notes": "source: IRC practice",
+      "notes": "Source: IRC practice",
       "type": "reference",
       "rows": [
         {
-          "label": "non-habitable clear height",
-          "value": "under ~5 ft",
-          "context": "no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior"
+          "label": "Non-habitable clear height",
+          "value": "Under ~5 ft",
+          "context": "No habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior"
         }
       ],
       "origin": "human"

@@ -14,8 +14,8 @@
 - **Below-grade package** `default` _(when: Sloped-lot or walkout addition — unless engineering specifies otherwise)_: assume A below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill.
 - **Roof tie-in photos** `policy` _(when: The new roof ties into or over-frames the existing roof)_: Existing conditions are photo-documented on day one of roof framing.
 - **Habitable space threshold** `reference`:
-  - non-habitable clear height: under ~5 ft (no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior)
-  - _source: IRC practice_
+  - Non-habitable clear height: Under ~5 ft (No habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior)
+  - _Source: IRC practice_
 
 ## Mechanical, Electrical & Plumbing
 
