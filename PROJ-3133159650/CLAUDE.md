@@ -28,8 +28,8 @@
   - total employees: 40 people
 - **Working hours** `calibration`:
   - hours: 07:00–17:00 (America/New_York)
-- **Hybrid staffing split** `default`: assume the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes — unless job specifics or crew capacity dictate otherwise.
-- **In-house vs sub threshold** `default`: assume if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it — unless the work is licensed-trade or the never-split-framing policy applies.
+- **Hybrid staffing split** `default`: assume the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes.
+- **In-house vs sub threshold** `default`: assume if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it.
 - **Never split framing** `policy`: Framing is never split between a sub and the in-house crew.
 
 ## Scheduling

@@ -9,16 +9,16 @@
 
 ## Structure & Site
 
-- **Framing method** `default`: assume stick-frame for small additions — unless scope explicitly specifies trusses, roof span exceeds ~24 ft, footprint exceeds ~800 sqft, or the PM confirms trusses.
-- **LVL-omitted risk** `default` _(when: structural documents contain "LVL omitted, sized per IRC" language)_: assume carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering — unless final engineering is already complete.
-- **Below-grade package** `default` _(when: sloped-lot or walkout addition)_: assume a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill — unless engineering specifies otherwise.
+- **Framing method** `default`: assume stick-frame for small additions.
+- **LVL-omitted risk** `default` _(when: structural documents contain "LVL omitted, sized per IRC" language)_: assume carry it as a flagged change-order risk — value-engineered engineered lumber tends to come back as a change order after final engineering.
+- **Below-grade package** `default` _(when: sloped-lot or walkout addition)_: assume a below-grade package runs between foundation and framing: waterproofing and drainage board on the below-grade wall, foundation drain with filter fabric sloped to daylight, gravel backfill.
 - **Roof tie-in photos** `policy` _(when: the new roof ties into or over-frames the existing roof)_: Existing conditions are photo-documented on day one of roof framing.
 - **Habitable space threshold** `reference` _(source: IRC practice)_:
   - non-habitable clear height: under ~5 ft (no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior)
 
 ## Mechanical, Electrical & Plumbing
 
-- **HVAC type** `default`: assume mini-split — short line-set rough, no separate rough-in phase — unless scope says "ducted", "duct work", or "air handler" (duct-extension path applies); if still ambiguous, ask rather than guess.
+- **HVAC type** `default`: assume mini-split — short line-set rough, no separate rough-in phase.
 - **Electrical service capacity** `policy`: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
 - **Water heater plumbing delay** `calibration` _(when: scope includes a new tank or tankless water heater)_:
   - added delay: 1 working day (tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing)
@@ -33,10 +33,10 @@
 ## Sequencing & Schedule
 
 - **Weathertight gate** `policy`: Interior work begins only once roofing is complete, and insulation/drywall are never scheduled before rough inspections pass.
-- **Retro-phase detection** `default`: assume work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, "existing" language in scope text, or unresolved spatial location for a new feature — unless the PM explicitly folds it into the addition's new-construction scope.
-- **Front-loaded schedule pressure** `default`: assume compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed — unless the PM explicitly directs compressing closeout.
+- **Retro-phase detection** `default`: assume work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, "existing" language in scope text, or unresolved spatial location for a new feature.
+- **Front-loaded schedule pressure** `default`: assume compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed.
 
 ## Closeout & Warranty
 
-- **Completion milestone** `default`: assume the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes — unless customer scheduling forces a different day.
-- **Tie-in settling cracks** `default`: assume hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task — unless cracking is structural or beyond hairline.
+- **Completion milestone** `default`: assume the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes.
+- **Tie-in settling cracks** `default`: assume hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task.
