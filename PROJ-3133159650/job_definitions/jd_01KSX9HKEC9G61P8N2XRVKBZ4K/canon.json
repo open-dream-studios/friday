@@ -185,17 +185,17 @@
     "cn_addition_water_heater_day": {
       "id": "cn_addition_water_heater_day",
       "title": "Water heater plumbing delay",
-      "updated_at": "2026-09-04T02:31:42.029Z",
-      "condition": "scope includes a new tank or tankless water heater",
+      "updated_at": "2026-09-04T03:12:45.696Z",
+      "condition": "Scope includes a new tank or tankless water heater",
       "group_id": "grp_mech_electrical_plumbing",
       "ordinal": 2,
       "type": "reference",
       "rows": [
         {
-          "label": "added delay",
+          "label": "Added delay",
           "value": 1,
-          "unit": "working day",
-          "context": "tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing"
+          "unit": "Working day",
+          "context": "Tank is set before rough-in stubs into it; merely extending an existing heater's vent adds nothing"
         }
       ],
       "origin": "human"
