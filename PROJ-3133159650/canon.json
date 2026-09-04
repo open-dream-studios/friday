@@ -289,9 +289,11 @@
     },
     "cn_company_working_hours": {
       "id": "cn_company_working_hours",
-      "type": "calibration",
       "title": "Working hours",
-      "subject": "site working hours",
+      "updated_at": "2026-09-04T02:31:41.872Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 1,
+      "type": "reference",
       "rows": [
         {
           "label": "hours",
@@ -299,10 +301,7 @@
           "context": "America/New_York"
         }
       ],
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
-      "group_id": "grp_crews_staffing",
-      "ordinal": 1
+      "origin": "human"
     }
   }
 }
