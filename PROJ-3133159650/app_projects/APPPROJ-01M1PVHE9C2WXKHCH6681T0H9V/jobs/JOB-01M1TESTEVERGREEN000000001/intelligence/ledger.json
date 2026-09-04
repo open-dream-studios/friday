@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T22:20:38.200Z",
+  "built_at": "2026-09-04T22:25:23.075Z",
   "built_by": "synthesis",
   "inputs": {
     "docs": [
@@ -84,7 +84,7 @@
       {
         "scope_kind": "job",
         "scope_id": "JOB-01M1TESTEVERGREEN000000001",
-        "sha256": "e2c2c998be2f23382bd2a9eb18ad97491b38065636358798a3e5fe34dd6272d7"
+        "sha256": "d9702c07c0eb0419c5636cc3b1018537bedd07c17d086aa56ce1d664b0396eef"
       }
     ],
     "questions": {
@@ -96,8 +96,8 @@
       "sha256": "10f3b018585162f30f3a4d61e454ede05cb36dde8c90953d586c64fb4ecc1779"
     },
     "changelog": {
-      "lines": 415,
-      "tail_sha256": "221589d709edfc718717f403938176dca33a606b7ef3614c00e38ffcb8afbd3f"
+      "lines": 416,
+      "tail_sha256": "40c4a3531e73adffd870b3683a56f0eeaac0c531958e9d2a6f280d487cfa318b"
     }
   }
 }
