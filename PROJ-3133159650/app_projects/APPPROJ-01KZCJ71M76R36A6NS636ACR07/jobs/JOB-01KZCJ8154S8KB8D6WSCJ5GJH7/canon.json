@@ -23,27 +23,6 @@
       "statement": "ttttt",
       "origin": "human",
       "ordinal": 0
-    },
-    "cn_sfd": {
-      "id": "cn_sfd",
-      "title": "sfdffrrrrgh5",
-      "updated_at": "2026-09-04T09:19:34.714Z",
-      "group_id": "grp_gg",
-      "ordinal": 1,
-      "type": "reference",
-      "rows": [
-        {
-          "label": "ttf",
-          "value": "gfwfdwfqwfqwdfqwdfq",
-          "unit": "qwfq",
-          "context": "qsdfqdsf"
-        },
-        {
-          "label": "t",
-          "value": "e"
-        }
-      ],
-      "origin": "human"
     }
   }
 }

@@ -5,6 +5,3 @@
 
 - POLICY: ttttt: ttttt
     Condition: If ww
-- REFERENCE: sfdffrrrrgh5
-    Label: ttf | Value: gfwfdwfqwfqwdfqwdfq | Unit: qwfq | Context: qsdfqdsf
-    Label: t | Value: e
