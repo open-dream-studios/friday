@@ -34,7 +34,7 @@
 
 - **Weathertight gate** `policy`: Interior work begins only once roofing is complete, and insulation/drywall are never scheduled before rough inspections pass.
 - **Retro-phase detection** `default`: assume work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, "existing" language in scope text, or unresolved spatial location for a new feature.
-- **Front-loaded schedule pressure** `default`: assume compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed.
+- **Front-loaded schedule pressure** `default` _(when: unless the PM explicitly directs compressing closeout)_: assume compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed.
 
 ## Closeout & Warranty
 

@@ -129,14 +129,14 @@
     },
     "cn_addition_schedule_slack": {
       "id": "cn_addition_schedule_slack",
-      "type": "default",
       "title": "Front-loaded schedule pressure",
-      "assume": "compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed",
-      "unless": "the PM explicitly directs compressing closeout",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T00:30:17.472Z",
+      "condition": "unless the PM explicitly directs compressing closeout",
       "group_id": "grp_sequencing_schedule",
-      "ordinal": 2
+      "ordinal": 2,
+      "type": "default",
+      "assume": "compression pressure belongs before interior finishes; from interior finishes onward the schedule keeps intentional slack and the back half is not panic-compressed",
+      "origin": "human"
     },
     "cn_addition_hvac_type": {
       "id": "cn_addition_hvac_type",
