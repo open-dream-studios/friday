@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T21:07:50.959Z",
+  "built_at": "2026-09-04T21:08:17.077Z",
   "built_by": "diag",
   "inputs": {
     "docs": [
@@ -64,9 +64,11 @@
       }
     ],
     "questions": {
-      "count": 0,
-      "answered_ids": [],
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      "count": 1,
+      "answered_ids": [
+        "q_01M1TESTLEDGERQ0000000001"
+      ],
+      "sha256": "a89ff688d447cd81643c1e1f7ac3fd936a7e7114cd5f554ae54da5cd92ee7c83"
     },
     "changelog": {
       "lines": 411,
