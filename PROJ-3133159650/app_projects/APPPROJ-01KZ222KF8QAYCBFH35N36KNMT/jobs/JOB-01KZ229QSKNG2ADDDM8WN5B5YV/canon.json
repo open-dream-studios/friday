@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "groups": [
-    {
-      "id": "grp_test",
-      "name": "Test Group",
-      "ordinal": 0
-    }
-  ],
+  "groups": [],
   "entries": {}
 }
