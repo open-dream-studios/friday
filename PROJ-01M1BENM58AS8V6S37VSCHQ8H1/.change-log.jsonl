@@ -3,3 +3,4 @@
 {"ts":"2026-08-31T08:46:13.237Z","reason":"upserted project \"Luxury Cars\" (project_id=PROJ-01M1BENM58AS8V6S37VSCHQ8H1)","actor":"user","entities":[{"kind":"project","id":"PROJ-01M1BENM58AS8V6S37VSCHQ8H1","action":"update","change_kind":"project_data"}]}
 {"ts":"2026-08-31T09:06:05.638Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1BENM58AS8V6S37VSCHQ8H1","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-09-03T21:49:36.436Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1BENM58AS8V6S37VSCHQ8H1","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-09-04T03:24:53.960Z","reason":"boot","actor":"boot","entities":[]}
