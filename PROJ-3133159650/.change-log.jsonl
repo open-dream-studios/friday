@@ -416,3 +416,4 @@
 {"ts":"2026-09-04T22:22:02.012Z","reason":"kill-switch test: job notes touched","actor":"user","entities":[{"kind":"job","id":"JOB-01M1TESTEVERGREEN000000001","action":"update","change_kind":"job_data"}]}
 {"ts":"2026-09-04T22:45:59.630Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-04T22:48:09.849Z","reason":"phase4 verify: projection stability pass 1","actor":"cli","entities":[]}
+{"ts":"2026-09-04T22:49:50.064Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
