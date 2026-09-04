@@ -26,9 +26,10 @@
     },
     "cn_sfd": {
       "id": "cn_sfd",
-      "title": "sfd",
-      "updated_at": "2026-09-04T09:07:31.044Z",
+      "title": "sfdff",
+      "updated_at": "2026-09-04T09:07:38.781Z",
       "group_id": "grp_gg",
+      "ordinal": 1,
       "type": "reference",
       "rows": [
         {
@@ -38,8 +39,7 @@
           "context": "qsdfqdsf"
         }
       ],
-      "origin": "human",
-      "ordinal": 1
+      "origin": "human"
     }
   }
 }
