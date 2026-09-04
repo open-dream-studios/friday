@@ -247,9 +247,11 @@
     },
     "cn_company_service_area": {
       "id": "cn_company_service_area",
-      "type": "calibration",
       "title": "Service area",
-      "subject": "service radius",
+      "updated_at": "2026-09-04T02:31:41.678Z",
+      "group_id": "grp_sales_pricing",
+      "ordinal": 1,
+      "type": "reference",
       "rows": [
         {
           "label": "center",
@@ -261,10 +263,7 @@
           "unit": "miles"
         }
       ],
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
-      "group_id": "grp_sales_pricing",
-      "ordinal": 1
+      "origin": "human"
     },
     "cn_company_capacity": {
       "id": "cn_company_capacity",
