@@ -220,21 +220,21 @@
     "cn_addition_window_leadtimes": {
       "id": "cn_addition_window_leadtimes",
       "title": "Window lead times",
-      "updated_at": "2026-09-04T02:31:42.250Z",
+      "updated_at": "2026-09-04T03:12:45.886Z",
       "group_id": "grp_procurement_leadtimes",
       "ordinal": 1,
-      "notes": "source: TCR supplier experience",
+      "notes": "Source: TCR supplier experience",
       "type": "reference",
       "rows": [
         {
-          "label": "stock sizes",
+          "label": "Stock sizes",
           "value": 21,
-          "unit": "calendar days"
+          "unit": "Calendar days"
         },
         {
-          "label": "non-stock / custom sizes",
-          "value": "verify with supplier before scheduling",
-          "context": "silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit"
+          "label": "Non-stock / custom sizes",
+          "value": "Verify with supplier before scheduling",
+          "context": "Silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit"
         }
       ],
       "origin": "human"

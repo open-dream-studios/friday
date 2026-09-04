@@ -28,9 +28,9 @@
 
 - **Window ordering** `policy`: Windows and exterior doors are ordered at permit submittal; any non-stock size is verified for real lead time before the schedule assumes stock.
 - **Window lead times** `reference`:
-  - stock sizes: 21 calendar days
-  - non-stock / custom sizes: verify with supplier before scheduling (silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit)
-  - _source: TCR supplier experience_
+  - Stock sizes: 21 Calendar days
+  - Non-stock / custom sizes: Verify with supplier before scheduling (Silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit)
+  - _Source: TCR supplier experience_
 
 ## Sequencing & Schedule
 
