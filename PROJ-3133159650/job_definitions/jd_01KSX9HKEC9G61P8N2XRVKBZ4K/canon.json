@@ -163,12 +163,12 @@
     "cn_addition_retro_detection": {
       "id": "cn_addition_retro_detection",
       "title": "Retro-phase detection",
-      "updated_at": "2026-09-04T00:30:17.792Z",
-      "condition": "unless the PM explicitly folds it into the addition's new-construction scope",
+      "updated_at": "2026-09-04T03:12:45.497Z",
+      "condition": "Unless the PM explicitly folds it into the addition's new-construction scope",
       "group_id": "grp_sequencing_schedule",
       "ordinal": 1,
       "type": "default",
-      "assume": "work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, \"existing\" language in scope text, or unresolved spatial location for a new feature",
+      "assume": "Work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, \"existing\" language in scope text, or unresolved spatial location for a new feature",
       "origin": "human"
     },
     "cn_addition_settling_cracks": {
