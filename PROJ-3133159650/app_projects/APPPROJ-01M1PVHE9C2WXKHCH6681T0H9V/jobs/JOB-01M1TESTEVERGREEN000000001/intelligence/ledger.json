@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T21:04:27.759Z",
+  "built_at": "2026-09-04T21:05:43.454Z",
   "built_by": "diag",
   "inputs": {
     "docs": [
@@ -23,7 +23,7 @@
       {
         "scope_kind": "project",
         "scope_id": "PROJ-3133159650",
-        "revision": 1
+        "revision": 2
       },
       {
         "scope_kind": "job_definition",
@@ -38,7 +38,7 @@
       {
         "scope_kind": "job",
         "scope_id": "JOB-01M1TESTEVERGREEN000000001",
-        "revision": 0
+        "revision": 1
       }
     ],
     "data": [
@@ -69,8 +69,8 @@
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     "changelog": {
-      "lines": 409,
-      "tail_sha256": "e0de1ba78eca38a03eaaad863df77bd2cfee8f2bdf5015e66e397c17b76064b5"
+      "lines": 410,
+      "tail_sha256": "468681ce78402039028e5041cbc4b36b96fea2a87e04fe0fb7a5ebb95da6c766"
     }
   }
 }
