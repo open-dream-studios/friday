@@ -404,3 +404,4 @@
 {"ts":"2026-09-04T17:10:10.251Z","reason":"e2e canary write (retrigger)","actor":"user","entities":[]}
 {"ts":"2026-09-04T17:10:55.260Z","reason":"e2e canary delete","actor":"user","entities":[]}
 {"ts":"2026-09-04T17:17:08.442Z","reason":"edited canon default \"Completion milestone\"","actor":"user","entities":[]}
+{"ts":"2026-09-04T17:25:03.434Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_data"}]}
