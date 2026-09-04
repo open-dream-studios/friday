@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01KZCJ8154S8KB8D6WSCJ5GJH7"
   },
-  "built_at": "2026-09-04T23:16:23.667Z",
+  "built_at": "2026-09-04T23:56:41.312Z",
   "built_by": "synthesis",
   "inputs": {
     "docs": [
@@ -44,7 +44,7 @@
       {
         "scope_kind": "job_definition",
         "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
-        "revision": 3
+        "revision": 4
       },
       {
         "scope_kind": "app_project",
@@ -80,7 +80,7 @@
       }
     ],
     "questions": {
-      "count": 20,
+      "count": 21,
       "answered_ids": [
         "q_01KZCJH0SG3W9HTHP0PV9EVQWA",
         "q_01KZCJH0SH7HXSG48AWR95YH70",
@@ -101,8 +101,8 @@
       "sha256": "83ec82f3033bcf96fb9c8670b96bfd400d0446700b2c6c8aecac10a2006d238a"
     },
     "changelog": {
-      "lines": 420,
-      "tail_sha256": "0661f0b8a463f51afe089143cae27f6432268f08aeb7d9a02e215d971113478b"
+      "lines": 424,
+      "tail_sha256": "41d0b3d036455eb325fa829090b819320a9f57400ebbb0f29ce60a32dee51d4c"
     }
   }
 }
