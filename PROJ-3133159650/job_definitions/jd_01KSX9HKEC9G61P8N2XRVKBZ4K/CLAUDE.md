@@ -55,6 +55,7 @@
 ## Inbox
 
 - DEFAULT: Additions assume engineered footings: every addition gets engineered footings unless the drawings say otherwise
+- POLICY: Pre-demolition asbestos inspection required: Every addition involving demolition of existing structure requires a certified asbestos inspection completed and documented BEFORE any demo work begins.
 
 ## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
 
