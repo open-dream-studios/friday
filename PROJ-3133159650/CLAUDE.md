@@ -5,9 +5,6 @@
 ## Sales & Pricing
 
 - **Accepted work** `policy`: TCR takes bathroom remodels, kitchen remodels, and home additions (single- and multi-story). Ground-up new construction is a hard no; commercial or exterior-only work is evaluated case-by-case.
-- **Service area** `calibration`:
-  - center: Johnson City, TN
-  - radius: 45 miles
 - **Minimum job size** `policy`: Minimum job size is $15,000; smaller leads are referred out.
 - **Margin floor** `policy`: Gross margin floor is 30%; below that, walk.
 - **Pricing presentation** `policy`: Materials are billed at cost plus 15% markup, itemized in estimates; labor is never itemized to shopping customers — total-vs-total only. Discounts are rare; prefer scope reduction over price cuts.
@@ -23,11 +20,6 @@
 
 ## Crews & Staffing
 
-- **Staff** `calibration`:
-  - Standard field crew size: 6 people
-  - Total TCR employees: 40 people (Includes)
-- **Working hours** `calibration`:
-  - hours: 07:00–17:00 (America/New_York)
 - **Hybrid staffing split** `default` _(when: unless job specifics or crew capacity dictate otherwise)_: assume the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes.
 - **In-house vs sub threshold** `default` _(when: unless the work is licensed-trade or the never-split-framing policy applies)_: assume if the in-house crew can do it in a day, use them; if it would take 3+ days, sub it.
 - **Never split framing** `policy`: Framing is never split between a sub and the in-house crew.
