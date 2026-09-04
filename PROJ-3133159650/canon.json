@@ -226,12 +226,12 @@
     "cn_company_staffing_split": {
       "id": "cn_company_staffing_split",
       "title": "Hybrid staffing split",
-      "updated_at": "2026-09-04T00:30:16.815Z",
-      "condition": "unless job specifics or crew capacity dictate otherwise",
+      "updated_at": "2026-09-04T03:12:44.298Z",
+      "condition": "Unless job specifics or crew capacity dictate otherwise",
       "group_id": "grp_crews_staffing",
       "ordinal": 2,
       "type": "default",
-      "assume": "the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes",
+      "assume": "The in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes",
       "origin": "human"
     },
     "cn_company_sub_threshold": {
