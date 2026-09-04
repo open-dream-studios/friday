@@ -226,8 +226,8 @@
     "cn_company_staffing_split": {
       "id": "cn_company_staffing_split",
       "title": "Hybrid staffing split",
-      "updated_at": "2026-09-04T03:35:26.008Z",
-      "condition": "Job specifics or crew capacity do not dictate otherwise",
+      "updated_at": "2026-09-04T03:37:55.607Z",
+      "condition": "Unless job specifics or crew capacity dictate otherwise",
       "group_id": "grp_crews_staffing",
       "ordinal": 2,
       "type": "default",
