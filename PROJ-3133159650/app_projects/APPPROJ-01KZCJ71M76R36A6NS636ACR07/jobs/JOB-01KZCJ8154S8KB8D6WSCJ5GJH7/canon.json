@@ -12,5 +12,17 @@
       "ordinal": 1
     }
   ],
-  "entries": {}
+  "entries": {
+    "cn_ttttt": {
+      "id": "cn_ttttt",
+      "title": "ttttt",
+      "updated_at": "2026-09-04T09:07:07.476Z",
+      "condition": "ww",
+      "group_id": "grp_gg",
+      "type": "policy",
+      "statement": "ttttt",
+      "origin": "human",
+      "ordinal": 0
+    }
+  }
 }
