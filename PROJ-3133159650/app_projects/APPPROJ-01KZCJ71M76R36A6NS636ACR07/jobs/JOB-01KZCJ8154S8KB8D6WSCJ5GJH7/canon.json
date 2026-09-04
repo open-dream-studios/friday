@@ -23,6 +23,23 @@
       "statement": "ttttt",
       "origin": "human",
       "ordinal": 0
+    },
+    "cn_sfd": {
+      "id": "cn_sfd",
+      "title": "sfd",
+      "updated_at": "2026-09-04T09:07:31.044Z",
+      "group_id": "grp_gg",
+      "type": "reference",
+      "rows": [
+        {
+          "label": "tt",
+          "value": "gfwfdwfqwfqwdfqwdfq",
+          "unit": "qwfq",
+          "context": "qsdfqdsf"
+        }
+      ],
+      "origin": "human",
+      "ordinal": 1
     }
   }
 }
