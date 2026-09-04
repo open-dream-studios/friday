@@ -5,8 +5,8 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T21:08:17.077Z",
-  "built_by": "diag",
+  "built_at": "2026-09-04T21:55:07.499Z",
+  "built_by": "synthesis",
   "inputs": {
     "docs": [
       {
@@ -16,6 +16,22 @@
         "size": 91515,
         "mime_type": "application/pdf",
         "role": "anchor"
+      },
+      {
+        "document_id": "doc_01KZCJ9Y8YJ3XMSY4MFQ0DABVE",
+        "version": 2,
+        "name": "308_Evergreen_Addition_Breakdown.csv",
+        "size": 2251,
+        "mime_type": "text/csv",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01KZCJA2HT7M39K1MYWHWV93M7",
+        "version": 2,
+        "name": "DRAWINGS.pdf",
+        "size": 761097,
+        "mime_type": "application/pdf",
+        "role": "attached"
       }
     ],
     "anchor_document_id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
@@ -60,19 +76,19 @@
       {
         "scope_kind": "job",
         "scope_id": "JOB-01M1TESTEVERGREEN000000001",
-        "sha256": "d8a6f67723d21197ba0e42b8fd72a91d8b0b25c2fd4bda146f86675f0526364c"
+        "sha256": "e2c2c998be2f23382bd2a9eb18ad97491b38065636358798a3e5fe34dd6272d7"
       }
     ],
     "questions": {
-      "count": 1,
+      "count": 8,
       "answered_ids": [
         "q_01M1TESTLEDGERQ0000000001"
       ],
       "sha256": "a89ff688d447cd81643c1e1f7ac3fd936a7e7114cd5f554ae54da5cd92ee7c83"
     },
     "changelog": {
-      "lines": 411,
-      "tail_sha256": "ec15ce9622b2bd148bf87f121e81bb7c3d6be0edf735329d9d467e613654b6ff"
+      "lines": 412,
+      "tail_sha256": "99ccb98e4390d3e1ea9c8e5e142300223e97dfebec1d3134358787d3cd69fa31"
     }
   }
 }
