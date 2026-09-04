@@ -162,14 +162,14 @@
     },
     "cn_addition_retro_detection": {
       "id": "cn_addition_retro_detection",
-      "type": "default",
       "title": "Retro-phase detection",
-      "assume": "work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, \"existing\" language in scope text, or unresolved spatial location for a new feature",
-      "unless": "the PM explicitly folds it into the addition's new-construction scope",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T00:30:17.792Z",
+      "condition": "unless the PM explicitly folds it into the addition's new-construction scope",
       "group_id": "grp_sequencing_schedule",
-      "ordinal": 1
+      "ordinal": 1,
+      "type": "default",
+      "assume": "work belongs in its own Retro-phase item (pre-addition work on the existing home) when any signal fires: area mismatch with the addition objective, \"existing\" language in scope text, or unresolved spatial location for a new feature",
+      "origin": "human"
     },
     "cn_addition_settling_cracks": {
       "id": "cn_addition_settling_cracks",
