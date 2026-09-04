@@ -55,14 +55,14 @@
     },
     "cn_addition_roof_tiein_photos": {
       "id": "cn_addition_roof_tiein_photos",
-      "type": "policy",
       "title": "Roof tie-in photos",
-      "condition": "the new roof ties into or over-frames the existing roof",
-      "statement": "Existing conditions are photo-documented on day one of roof framing.",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T03:12:44.831Z",
+      "condition": "The new roof ties into or over-frames the existing roof",
       "group_id": "grp_structure_site",
-      "ordinal": 3
+      "ordinal": 3,
+      "type": "policy",
+      "statement": "Existing conditions are photo-documented on day one of roof framing.",
+      "origin": "human"
     },
     "cn_addition_septic_trigger": {
       "id": "cn_addition_septic_trigger",
