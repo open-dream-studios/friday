@@ -141,12 +141,12 @@
     "cn_addition_hvac_type": {
       "id": "cn_addition_hvac_type",
       "title": "HVAC type",
-      "updated_at": "2026-09-04T00:30:17.576Z",
-      "condition": "unless scope says \"ducted\", \"duct work\", or \"air handler\" (duct-extension path applies); if still ambiguous, ask rather than guess",
+      "updated_at": "2026-09-04T03:12:45.299Z",
+      "condition": "Unless scope says \"ducted\", \"duct work\", or \"air handler\" (duct-extension path applies); if still ambiguous, ask rather than guess",
       "group_id": "grp_mech_electrical_plumbing",
       "ordinal": 0,
       "type": "default",
-      "assume": "mini-split — short line-set rough, no separate rough-in phase",
+      "assume": "Mini-split — short line-set rough, no separate rough-in phase",
       "origin": "human"
     },
     "cn_addition_lvl_risk": {
