@@ -107,14 +107,14 @@
     },
     "cn_addition_completion_milestone": {
       "id": "cn_addition_completion_milestone",
-      "type": "default",
       "title": "Completion milestone",
-      "assume": "the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes",
-      "unless": "customer scheduling forces a different day",
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-04T00:30:17.237Z",
+      "condition": "unless customer scheduling forces a different day",
       "group_id": "grp_closeout",
-      "ordinal": 0
+      "ordinal": 0,
+      "type": "default",
+      "assume": "the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes",
+      "origin": "human"
     },
     "cn_addition_framing_method": {
       "id": "cn_addition_framing_method",

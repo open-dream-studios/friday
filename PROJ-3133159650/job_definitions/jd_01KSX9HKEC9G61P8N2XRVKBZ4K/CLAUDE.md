@@ -38,5 +38,5 @@
 
 ## Closeout & Warranty
 
-- **Completion milestone** `default`: assume the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes.
+- **Completion milestone** `default` _(when: unless customer scheduling forces a different day)_: assume the job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes.
 - **Tie-in settling cracks** `default`: assume hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task.
