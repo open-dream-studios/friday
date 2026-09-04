@@ -24,8 +24,8 @@
 ## Crews & Staffing
 
 - **Staffing capacity** `calibration`:
-  - field crew: 6 people
-  - total employees: 40 people
+  - Standard field crew size: 6 people
+  - Total TCR employees: 40 people (Includes)
 - **Working hours** `calibration`:
   - hours: 07:00–17:00 (America/New_York)
 - **Hybrid staffing split** `default` _(when: unless job specifics or crew capacity dictate otherwise)_: assume the in-house crew handles anything the customer will see every day for 20 years — framing, drywall, tile, carpentry, finish — while subs handle licensed trades (electrical, plumbing, HVAC), demo, cabinet install, countertops, glass, and larger paint scopes.

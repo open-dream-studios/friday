@@ -268,25 +268,25 @@
     },
     "cn_company_capacity": {
       "id": "cn_company_capacity",
-      "type": "calibration",
       "title": "Staffing capacity",
-      "subject": "company staffing",
+      "updated_at": "2026-09-04T02:10:26.469Z",
+      "group_id": "grp_crews_staffing",
+      "ordinal": 0,
+      "type": "calibration",
       "rows": [
         {
-          "label": "field crew",
+          "label": "Standard field crew size",
           "value": 6,
           "unit": "people"
         },
         {
-          "label": "total employees",
+          "label": "Total TCR employees",
           "value": 40,
-          "unit": "people"
+          "unit": "people",
+          "context": "Includes"
         }
       ],
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
-      "group_id": "grp_crews_staffing",
-      "ordinal": 0
+      "origin": "human"
     },
     "cn_company_working_hours": {
       "id": "cn_company_working_hours",
