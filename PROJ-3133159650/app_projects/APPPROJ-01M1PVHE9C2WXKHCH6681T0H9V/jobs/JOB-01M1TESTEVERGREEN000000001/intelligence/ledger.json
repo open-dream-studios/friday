@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T22:25:23.075Z",
+  "built_at": "2026-09-04T22:52:17.125Z",
   "built_by": "synthesis",
   "inputs": {
     "docs": [
@@ -52,17 +52,17 @@
       {
         "scope_kind": "job_definition",
         "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
-        "revision": 2
+        "revision": 3
       },
       {
         "scope_kind": "app_project",
         "scope_id": "APPPROJ-01M1PVHE9C2WXKHCH6681T0H9V",
-        "revision": 2
+        "revision": 3
       },
       {
         "scope_kind": "job",
         "scope_id": "JOB-01M1TESTEVERGREEN000000001",
-        "revision": 2
+        "revision": 4
       }
     ],
     "data": [
@@ -88,16 +88,18 @@
       }
     ],
     "questions": {
-      "count": 8,
+      "count": 11,
       "answered_ids": [
         "q_01M1Q6P62NGSEHTYD2MF5DD5JG",
-        "q_01M1TESTLEDGERQ0000000001"
+        "q_01M1TESTLEDGERQ0000000001",
+        "q_01M1TESTVETCONFIRMQ00001",
+        "q_01M1TESTVETCONTRAQ00001"
       ],
-      "sha256": "10f3b018585162f30f3a4d61e454ede05cb36dde8c90953d586c64fb4ecc1779"
+      "sha256": "8da046efc3424219f1aa6833e8b240bf0545dd66b47314d9cb71f59c9592a0a8"
     },
     "changelog": {
-      "lines": 416,
-      "tail_sha256": "40c4a3531e73adffd870b3683a56f0eeaac0c531958e9d2a6f280d487cfa318b"
+      "lines": 419,
+      "tail_sha256": "afbb84804ddeb2080cc15a66c5d18e25160a7320bb5108f487269795cd580069"
     }
   }
 }
