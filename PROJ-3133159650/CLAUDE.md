@@ -6,8 +6,8 @@
 
 - **Accepted work** `policy`: TCR takes bathroom remodels, kitchen remodels, and home additions (single- and multi-story). Ground-up new construction is a hard no; commercial or exterior-only work is evaluated case-by-case.
 - **Service area** `reference`:
-  - center: Johnson City, TN
-  - radius: 45 miles
+  - Center: Johnson City, TN
+  - Radius: 45 Miles
 - **Minimum job size** `policy`: Minimum job size is $15,000; smaller leads are referred out.
 - **Margin floor** `policy`: Gross margin floor is 30%; below that, walk.
 - **Pricing presentation** `policy`: Materials are billed at cost plus 15% markup, itemized in estimates; labor is never itemized to shopping customers — total-vs-total only. Discounts are rare; prefer scope reduction over price cuts.

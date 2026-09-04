@@ -248,19 +248,19 @@
     "cn_company_service_area": {
       "id": "cn_company_service_area",
       "title": "Service area",
-      "updated_at": "2026-09-04T02:31:41.678Z",
+      "updated_at": "2026-09-04T03:12:44.504Z",
       "group_id": "grp_sales_pricing",
       "ordinal": 1,
       "type": "reference",
       "rows": [
         {
-          "label": "center",
+          "label": "Center",
           "value": "Johnson City, TN"
         },
         {
-          "label": "radius",
+          "label": "Radius",
           "value": 45,
-          "unit": "miles"
+          "unit": "Miles"
         }
       ],
       "origin": "human"
