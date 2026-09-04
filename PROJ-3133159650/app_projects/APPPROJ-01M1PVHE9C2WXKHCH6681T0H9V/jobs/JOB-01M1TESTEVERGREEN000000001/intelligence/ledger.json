@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M1TESTEVERGREEN000000001"
   },
-  "built_at": "2026-09-04T21:55:07.499Z",
+  "built_at": "2026-09-04T21:58:01.841Z",
   "built_by": "synthesis",
   "inputs": {
     "docs": [
@@ -19,7 +19,7 @@
       },
       {
         "document_id": "doc_01KZCJ9Y8YJ3XMSY4MFQ0DABVE",
-        "version": 2,
+        "version": 3,
         "name": "308_Evergreen_Addition_Breakdown.csv",
         "size": 2251,
         "mime_type": "text/csv",

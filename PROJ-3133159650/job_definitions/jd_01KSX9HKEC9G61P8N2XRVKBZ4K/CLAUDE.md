@@ -51,3 +51,9 @@
     Condition: If Unless customer scheduling forces it to be on a different day
 - DEFAULT: Tie-in settling cracks: Hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task
     Condition: If Unless cracking is structural or beyond hairline
+
+## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
+
+- DEFAULT: Addition job cost breakdowns are built from a repurposed Basement-Remodel template: This was observed on one job's breakdown document, which self-declared 'Template Anchor: Basement_Remodel_Breakdown_Locked_Template_v1.xlsx' — treated as evidence of a company-wide practice, not confirmed across other Addition jobs. (Unvetted, Confidence 50%)
+    Condition: If When reviewing or auditing an internal cost-breakdown spreadsheet for an Addition job against its scope-of-work.
+    Notes: If a future Addition job's breakdown total looks unexplainably low relative to its scope, check first whether septic and roof-framing-method costs were folded into a generic bucket (e.g. 'General Conditions') or omitted entirely, before assuming the scope itself changed.
