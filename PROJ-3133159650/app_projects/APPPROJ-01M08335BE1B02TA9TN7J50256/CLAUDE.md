@@ -1,3 +1,2 @@
-# 119 Carrville Avenue — Project Canon (Tri Cities)
-
-<!-- GENERATED from canon.json — do not edit by hand. Edit the canon; this file is rebuilt on every change. -->
+# CANON - 119 Carrville Avenue Scope (Priority Level 3/4)
+<!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->

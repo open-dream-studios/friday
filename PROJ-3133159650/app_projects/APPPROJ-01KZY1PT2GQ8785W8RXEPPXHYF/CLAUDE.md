@@ -1,3 +1,2 @@
-# 285 Max Jett Road — Project Canon (Tri Cities)
-
-<!-- GENERATED from canon.json — do not edit by hand. Edit the canon; this file is rebuilt on every change. -->
+# CANON - 285 Max Jett Road Scope (Priority Level 3/4)
+<!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->

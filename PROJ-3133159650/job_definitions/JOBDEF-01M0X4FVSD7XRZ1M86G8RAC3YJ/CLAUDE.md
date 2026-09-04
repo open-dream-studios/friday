@@ -1,3 +1,2 @@
-# Kitchen Remodel — Job Type Canon (Tri Cities)
-
-<!-- GENERATED from canon.json — do not edit by hand. Edit the canon; this file is rebuilt on every change. -->
+# CANON - Kitchen Remodel Scope (Priority Level 2/4)
+<!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->
