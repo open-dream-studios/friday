@@ -48,6 +48,6 @@
 ## Closeout & Warranty
 
 - DEFAULT: Completion milestone: The job-complete milestone is the PM's personal walkthrough with the customer, one working day after the last item (final inspection, landscaping, exterior finishes, deck) finishes
-    Condition: If Unless customer scheduling forces a different day
+    Condition: If Unless customer scheduling forces it to be on a different day
 - DEFAULT: Tie-in settling cracks: Hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task
     Condition: If Unless cracking is structural or beyond hairline
