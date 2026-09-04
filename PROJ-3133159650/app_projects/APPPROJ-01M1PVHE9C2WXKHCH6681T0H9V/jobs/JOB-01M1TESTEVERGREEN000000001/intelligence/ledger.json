@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "project_idx": 132,
+    "scope_kind": "job",
+    "scope_id": "JOB-01M1TESTEVERGREEN000000001"
+  },
+  "built_at": "2026-09-04T21:04:27.759Z",
+  "built_by": "diag",
+  "inputs": {
+    "docs": [
+      {
+        "document_id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
+        "version": 2,
+        "name": "scope-v2.pdf",
+        "size": 91515,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      }
+    ],
+    "anchor_document_id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 1
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 2
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M1PVHE9C2WXKHCH6681T0H9V",
+        "revision": 2
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M1TESTEVERGREEN000000001",
+        "revision": 0
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M1PVHE9C2WXKHCH6681T0H9V",
+        "sha256": "4d796f289a4f0bbb3921193231d4dec7ea30443451e446f4dacc709f39ab2c4c"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M1TESTEVERGREEN000000001",
+        "sha256": "d8a6f67723d21197ba0e42b8fd72a91d8b0b25c2fd4bda146f86675f0526364c"
+      }
+    ],
+    "questions": {
+      "count": 0,
+      "answered_ids": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "changelog": {
+      "lines": 409,
+      "tail_sha256": "e0de1ba78eca38a03eaaad863df77bd2cfee8f2bdf5015e66e397c17b76064b5"
+    }
+  }
+}

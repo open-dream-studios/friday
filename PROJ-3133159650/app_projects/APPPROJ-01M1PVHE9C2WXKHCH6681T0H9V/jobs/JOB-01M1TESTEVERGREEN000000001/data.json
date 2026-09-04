@@ -7,7 +7,7 @@
   "priority": "medium",
   "scheduled_start_date": null,
   "completed_date": null,
-  "notes": null,
+  "notes": "Homeowner confirmed: keep the existing tub, addition footprint 14x20.",
   "job_definition": {
     "id": 16,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
@@ -16,6 +16,10 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
+  "scope_document": {
+    "id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
+    "name": "scope-v2.pdf",
+    "resolved": true
+  },
   "breakdown_document": null
 }
