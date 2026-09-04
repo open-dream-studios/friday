@@ -30,6 +30,7 @@
 - **Window lead times** `reference`:
   - stock sizes: 21 calendar days
   - non-stock / custom sizes: verify with supplier before scheduling (silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit)
+  - _source: TCR supplier experience_
 
 ## Sequencing & Schedule
 

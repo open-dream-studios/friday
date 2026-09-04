@@ -219,10 +219,12 @@
     },
     "cn_addition_window_leadtimes": {
       "id": "cn_addition_window_leadtimes",
-      "type": "reference",
       "title": "Window lead times",
-      "subject": "window and exterior door lead times",
-      "source": "TCR supplier experience",
+      "updated_at": "2026-09-04T02:31:42.250Z",
+      "group_id": "grp_procurement_leadtimes",
+      "ordinal": 1,
+      "notes": "source: TCR supplier experience",
+      "type": "reference",
       "rows": [
         {
           "label": "stock sizes",
@@ -235,10 +237,7 @@
           "context": "silent lead-time trap — the schedule may assume stock lead for what is actually a custom unit"
         }
       ],
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
-      "group_id": "grp_procurement_leadtimes",
-      "ordinal": 1
+      "origin": "human"
     }
   }
 }
