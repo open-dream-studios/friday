@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "generation_id": "01M1QD4BDRYQVBXJFKPFAAP1XH",
+  "generated_at": "2026-09-04T23:50:45.858Z",
+  "structure": {
+    "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
+    "version": 8,
+    "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+  },
+  "ledger": {
+    "docs": [
+      {
+        "document_id": "doc_01KX76DHHZ4SA44JF49HX3MEJV",
+        "version": 3,
+        "name": "bristol_reference.pdf",
+        "size": 22007,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      },
+      {
+        "document_id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
+        "version": 2,
+        "name": "scope-v2.pdf",
+        "size": 91515,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01KZCJ9Y8YJ3XMSY4MFQ0DABVE",
+        "version": 3,
+        "name": "308_Evergreen_Addition_Breakdown.csv",
+        "size": 2251,
+        "mime_type": "text/csv",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01KZCJA2HT7M39K1MYWHWV93M7",
+        "version": 2,
+        "name": "DRAWINGS.pdf",
+        "size": 761097,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01KZCJ91P06CCE965WVM6FHG0P",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 3
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 3
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M1PVHE9C2WXKHCH6681T0H9V",
+        "revision": 3
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M1TESTEVERGREEN000000001",
+        "revision": 4
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M1PVHE9C2WXKHCH6681T0H9V",
+        "sha256": "4d796f289a4f0bbb3921193231d4dec7ea30443451e446f4dacc709f39ab2c4c"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M1TESTEVERGREEN000000001",
+        "sha256": "d9702c07c0eb0419c5636cc3b1018537bedd07c17d086aa56ce1d664b0396eef"
+      }
+    ],
+    "questions": {
+      "count": 20,
+      "answered_ids": [
+        "q_01M1Q6P62NGSEHTYD2MF5DD5JG",
+        "q_01M1TESTLEDGERQ0000000001",
+        "q_01M1TESTVETCONFIRMQ00001",
+        "q_01M1TESTVETCONTRAQ00001"
+      ],
+      "sha256": "8da046efc3424219f1aa6833e8b240bf0545dd66b47314d9cb71f59c9592a0a8"
+    },
+    "changelog": {
+      "lines": 422,
+      "tail_sha256": "581c5da829f04627af69479b94cdb720b572a2e4f7ba0648fe0b9054804604aa"
+    }
+  },
+  "blocking_open_at_generation": 0
+}

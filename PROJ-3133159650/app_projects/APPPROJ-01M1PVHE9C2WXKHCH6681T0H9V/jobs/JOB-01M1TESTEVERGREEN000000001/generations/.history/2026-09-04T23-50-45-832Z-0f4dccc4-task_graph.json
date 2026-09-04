@@ -38,8 +38,8 @@
         "code": "proc_hvac_equipment",
         "component": "procurement_items",
         "name": "HVAC equipment (mini-split / system)",
-        "duration": 7,
-        "lead_time": 10,
+        "duration": 5,
+        "lead_time": 7,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -50,16 +50,6 @@
         "name": "Electrical Package",
         "duration": 4,
         "lead_time": 5,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_plumbing_package",
-        "component": "procurement_items",
-        "name": "Plumbing Package",
-        "duration": 2,
-        "lead_time": 3,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -115,16 +105,6 @@
         "kind": "procurement"
       },
       {
-        "code": "proc_plumbing_fixtures",
-        "component": "procurement_items",
-        "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
-        "duration": 5,
-        "lead_time": 7,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
         "code": "proc_light_fixtures",
         "component": "procurement_items",
         "name": "Light fixtures & devices",
@@ -140,15 +120,6 @@
         "code": "permit_building",
         "component": "permit_items",
         "name": "Building permit",
-        "duration": 10,
-        "links": [],
-        "trade": "general",
-        "kind": "permit"
-      },
-      {
-        "code": "permit_plumbing",
-        "component": "permit_items",
-        "name": "Plumbing Permit",
         "duration": 10,
         "links": [],
         "trade": "general",
@@ -219,7 +190,7 @@
         "code": "foundation",
         "component": "groundwork",
         "name": "Foundation (form, inspect, pour)",
-        "duration": 4,
+        "duration": 5,
         "crew": 4,
         "links": [
           {
@@ -331,7 +302,7 @@
         "component": "cladding_roof",
         "name": "Siding (WRB, siding, tie-in blend)",
         "duration": 5,
-        "crew": 2,
+        "crew": 3,
         "links": [
           {
             "target": "exterior_windows_doors",
@@ -385,32 +356,6 @@
     ],
     "rough_trades": [
       {
-        "code": "rough_plumbing",
-        "component": "rough_meps",
-        "name": "Rough plumbing",
-        "duration": 2,
-        "crew": 2,
-        "links": [
-          {
-            "target": "roofing",
-            "type": "FS",
-            "lag": 0
-          },
-          {
-            "target": "permit_plumbing",
-            "type": "FS",
-            "lag": 0
-          },
-          {
-            "target": "proc_plumbing_package",
-            "type": "FS",
-            "lag": 3
-          }
-        ],
-        "trade": "plumbing",
-        "kind": "work"
-      },
-      {
         "code": "rough_hvac",
         "component": "rough_meps",
         "name": "Rough HVAC (line set / duct extension)",
@@ -418,7 +363,7 @@
         "crew": 2,
         "links": [
           {
-            "target": "rough_plumbing",
+            "target": "roofing",
             "type": "FS",
             "lag": -1
           },
@@ -462,11 +407,6 @@
         "name": "Rough Trades (MEPs) — complete",
         "duration": 0,
         "links": [
-          {
-            "target": "rough_plumbing",
-            "type": "FS",
-            "lag": 0
-          },
           {
             "target": "rough_hvac",
             "type": "FS",
@@ -570,7 +510,7 @@
         "code": "drywall",
         "component": "insulation_drywall_prime",
         "name": "Drywall (hang, tape, sand)",
-        "duration": 4,
+        "duration": 5,
         "crew": 3,
         "links": [
           {
@@ -628,7 +568,7 @@
         "code": "hard_flooring",
         "component": "interior_installs",
         "name": "Hard flooring install (LVP, hardwood, tile floors)",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -664,17 +604,12 @@
         "component": "final_trades_paint_2",
         "name": "Final Trades (fixture install for HVAC, Plumbing, and Electrical)",
         "duration": 2,
-        "crew": 3,
+        "crew": 2,
         "links": [
           {
             "target": "interior_installs.end",
             "type": "FS",
             "lag": 0
-          },
-          {
-            "target": "proc_plumbing_fixtures",
-            "type": "FS",
-            "lag": 3
           },
           {
             "target": "proc_light_fixtures",
@@ -689,7 +624,7 @@
         "code": "finish_carpentry",
         "component": "final_trades_paint_2",
         "name": "Finish Carpentry",
-        "duration": 2,
+        "duration": 3,
         "crew": 2,
         "links": [
           {
@@ -897,92 +832,107 @@
   ],
   "warnings": [],
   "assumptions": [
-    "\"LVL / engineered beams\" (proc_lvl) EXCLUDED pending answer: Engineered beam use unconfirmed; scope document unreadable.",
-    "\"Subpanel / service equipment\" (proc_subpanel) EXCLUDED pending answer: Subpanel/service upgrade and amperage unconfirmed.",
-    "\"Water heater (tank or tankless)\" (proc_water_heater) EXCLUDED pending answer: New water heater scope unconfirmed.",
-    "\"Tile & setting materials\" (proc_tile) EXCLUDED pending answer: Tile scope unconfirmed; existing-tub note doesn't resolve it.",
-    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Carpet/floating floor scope unconfirmed.",
-    "\"Cabinets / vanities\" (proc_cabinets) EXCLUDED pending answer: Cabinetry/vanity scope unconfirmed.",
-    "\"Countertops\" (proc_countertops) EXCLUDED pending answer: Countertop scope unconfirmed.",
-    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Glass enclosure unconfirmed; existing tub kept per PM note.",
-    "\"Concrete + Patio Work\" (proc_concrete_patio) EXCLUDED pending answer: Exterior concrete/patio scope unconfirmed.",
-    "\"Electrical service / meter permit\" (permit_electrical_service) EXCLUDED pending answer: Main service upgrade/meter relocation unconfirmed.",
-    "\"Deck build\" (deck_build) EXCLUDED pending answer: Deck/porch scope unconfirmed.",
-    "\"Extend existing appliance vents through new roof\" (appliance_vent_extension) EXCLUDED pending answer: Unclear if existing vents pass through new roof area.",
-    "\"Shower work (waterproofing, tile, grout)\" (shower_work) EXCLUDED pending answer: Shower/tub surround scope unclear despite existing-tub note.",
-    "\"Cabinets, counters, vanities & fixed items\" (cabinets_counters) EXCLUDED pending answer: Cabinetry/vanity/counter scope unconfirmed.",
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Carpet/floating floor scope unconfirmed.",
-    "\"Concrete flatwork (patios, driveways, walkways)\" (concrete_flatwork) EXCLUDED pending answer: Exterior concrete scope unconfirmed.",
-    "\"Landscaping & site restoration\" (landscaping) EXCLUDED pending answer: Seed/straw restoration scope unconfirmed."
+    "\"LVL / engineered beams\" (proc_lvl) EXCLUDED pending answer: No evidence of engineered beams/headers in scope.",
+    "\"Subpanel / service equipment\" (proc_subpanel) EXCLUDED pending answer: Subpanel/service upgrade scope not specified.",
+    "\"Water heater (tank or tankless)\" (proc_water_heater) EXCLUDED pending answer: No new water heater scope indicated.",
+    "\"Plumbing Package\" (proc_plumbing_package) EXCLUDED pending answer: Plumbing fixture scope for addition unspecified.",
+    "\"Tile & setting materials\" (proc_tile) EXCLUDED pending answer: Tile scope depends on unresolved bath/shower details.",
+    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Carpet/floating floor scope not specified.",
+    "\"Cabinets / vanities\" (proc_cabinets) EXCLUDED pending answer: Cabinetry/vanity scope not specified.",
+    "\"Countertops\" (proc_countertops) EXCLUDED pending answer: Countertop scope not specified.",
+    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Glass shower enclosure scope not specified.",
+    "\"Plumbing fixtures (faucets, sinks, commodes, shower trim)\" (proc_plumbing_fixtures) EXCLUDED pending answer: Plumbing fixture scope for addition unspecified.",
+    "\"Concrete + Patio Work\" (proc_concrete_patio) EXCLUDED pending answer: Concrete/patio scope not specified.",
+    "\"Plumbing Permit\" (permit_plumbing) EXCLUDED pending answer: Plumbing scope for addition not confirmed.",
+    "\"Deck build\" (deck_build) EXCLUDED pending answer: Deck/porch scope not specified.",
+    "\"Extend existing appliance vents through new roof\" (appliance_vent_extension) EXCLUDED pending answer: Existing vent penetrations near new roof unspecified.",
+    "\"Rough plumbing\" (rough_plumbing) EXCLUDED pending answer: Plumbing fixture scope for addition unspecified.",
+    "\"Shower work (waterproofing, tile, grout)\" (shower_work) EXCLUDED pending answer: Tile shower/tub surround scope not specified.",
+    "\"Cabinets, counters, vanities & fixed items\" (cabinets_counters) EXCLUDED pending answer: Cabinetry/counter scope not specified.",
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Carpet/floating floor scope not specified.",
+    "\"Concrete flatwork (patios, driveways, walkways)\" (concrete_flatwork) EXCLUDED pending answer: Exterior concrete scope not specified.",
+    "\"Landscaping & site restoration\" (landscaping) EXCLUDED pending answer: Seed/straw landscaping scope not specified."
   ],
   "needs_info": [
     {
       "node_id": "proc_lvl",
-      "reason": "Engineered beam use unconfirmed; scope document unreadable"
+      "reason": "No evidence of engineered beams/headers in scope"
     },
     {
       "node_id": "proc_subpanel",
-      "reason": "Subpanel/service upgrade and amperage unconfirmed"
+      "reason": "Subpanel/service upgrade scope not specified"
     },
     {
       "node_id": "proc_water_heater",
-      "reason": "New water heater scope unconfirmed"
+      "reason": "No new water heater scope indicated"
+    },
+    {
+      "node_id": "proc_plumbing_package",
+      "reason": "Plumbing fixture scope for addition unspecified"
     },
     {
       "node_id": "proc_tile",
-      "reason": "Tile scope unconfirmed; existing-tub note doesn't resolve it"
+      "reason": "Tile scope depends on unresolved bath/shower details"
     },
     {
       "node_id": "proc_carpet",
-      "reason": "Carpet/floating floor scope unconfirmed"
+      "reason": "Carpet/floating floor scope not specified"
     },
     {
       "node_id": "proc_cabinets",
-      "reason": "Cabinetry/vanity scope unconfirmed"
+      "reason": "Cabinetry/vanity scope not specified"
     },
     {
       "node_id": "proc_countertops",
-      "reason": "Countertop scope unconfirmed"
+      "reason": "Countertop scope not specified"
     },
     {
       "node_id": "proc_shower_glass",
-      "reason": "Glass enclosure unconfirmed; existing tub kept per PM note"
+      "reason": "Glass shower enclosure scope not specified"
+    },
+    {
+      "node_id": "proc_plumbing_fixtures",
+      "reason": "Plumbing fixture scope for addition unspecified"
     },
     {
       "node_id": "proc_concrete_patio",
-      "reason": "Exterior concrete/patio scope unconfirmed"
+      "reason": "Concrete/patio scope not specified"
     },
     {
-      "node_id": "permit_electrical_service",
-      "reason": "Main service upgrade/meter relocation unconfirmed"
+      "node_id": "permit_plumbing",
+      "reason": "Plumbing scope for addition not confirmed"
     },
     {
       "node_id": "deck_build",
-      "reason": "Deck/porch scope unconfirmed"
+      "reason": "Deck/porch scope not specified"
     },
     {
       "node_id": "appliance_vent_extension",
-      "reason": "Unclear if existing vents pass through new roof area"
+      "reason": "Existing vent penetrations near new roof unspecified"
+    },
+    {
+      "node_id": "rough_plumbing",
+      "reason": "Plumbing fixture scope for addition unspecified"
     },
     {
       "node_id": "shower_work",
-      "reason": "Shower/tub surround scope unclear despite existing-tub note"
+      "reason": "Tile shower/tub surround scope not specified"
     },
     {
       "node_id": "cabinets_counters",
-      "reason": "Cabinetry/vanity/counter scope unconfirmed"
+      "reason": "Cabinetry/counter scope not specified"
     },
     {
       "node_id": "carpet_floating",
-      "reason": "Carpet/floating floor scope unconfirmed"
+      "reason": "Carpet/floating floor scope not specified"
     },
     {
       "node_id": "concrete_flatwork",
-      "reason": "Exterior concrete scope unconfirmed"
+      "reason": "Exterior concrete scope not specified"
     },
     {
       "node_id": "landscaping",
-      "reason": "Seed/straw restoration scope unconfirmed"
+      "reason": "Seed/straw landscaping scope not specified"
     }
   ]
 }
