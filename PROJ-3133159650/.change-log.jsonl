@@ -414,3 +414,4 @@
 {"ts":"2026-09-04T22:11:51.692Z","reason":"user renamed bristol_doc.pdf to bristol_reference.pdf","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01KKRDKCHSTDHJTQZYA720ZTDR","action":"update","change_kind":"app_project_document"},{"kind":"job","id":"JOB-01M1TESTEVERGREEN000000001","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-09-04T22:17:05.560Z","reason":"edited notes on JOB-01M1TESTEVERGREEN000000002 (anchor-less — must not arm)","actor":"user","entities":[{"kind":"job","id":"JOB-01M1TESTEVERGREEN000000002","action":"update","change_kind":"job_data"}]}
 {"ts":"2026-09-04T22:22:02.012Z","reason":"kill-switch test: job notes touched","actor":"user","entities":[{"kind":"job","id":"JOB-01M1TESTEVERGREEN000000001","action":"update","change_kind":"job_data"}]}
+{"ts":"2026-09-04T22:45:59.630Z","reason":"boot","actor":"boot","entities":[]}
