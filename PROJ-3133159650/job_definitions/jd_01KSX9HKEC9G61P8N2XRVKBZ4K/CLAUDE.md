@@ -15,6 +15,7 @@
 - **Roof tie-in photos** `policy` _(when: the new roof ties into or over-frames the existing roof)_: Existing conditions are photo-documented on day one of roof framing.
 - **Habitable space threshold** `reference`:
   - non-habitable clear height: under ~5 ft (no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior)
+  - _source: IRC practice_
 
 ## Mechanical, Electrical & Plumbing
 

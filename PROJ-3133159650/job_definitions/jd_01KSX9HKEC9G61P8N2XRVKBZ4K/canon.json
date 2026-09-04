@@ -202,10 +202,12 @@
     },
     "cn_addition_crawl_height": {
       "id": "cn_addition_crawl_height",
-      "type": "reference",
       "title": "Habitable space threshold",
-      "subject": "storage/crawl level classification",
-      "source": "IRC practice",
+      "updated_at": "2026-09-04T02:31:42.130Z",
+      "group_id": "grp_structure_site",
+      "ordinal": 4,
+      "notes": "source: IRC practice",
+      "type": "reference",
       "rows": [
         {
           "label": "non-habitable clear height",
@@ -213,10 +215,7 @@
           "context": "no habitable-space code paths; access (e.g. exterior barn doors) rides in exterior finishes, not interior"
         }
       ],
-      "origin": "human",
-      "updated_at": "2026-09-03T00:00:00.000Z",
-      "group_id": "grp_structure_site",
-      "ordinal": 4
+      "origin": "human"
     },
     "cn_addition_window_leadtimes": {
       "id": "cn_addition_window_leadtimes",
