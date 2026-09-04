@@ -52,6 +52,10 @@
 - DEFAULT: Tie-in settling cracks: Hairline drywall cracks at new-to-existing tie-ins (above doors, windows, headers) are an expected year-one settling issue handled as a 1-year-warranty return visit, not a scheduled job task
     Condition: If Unless cracking is structural or beyond hairline
 
+## Inbox
+
+- DEFAULT: Additions assume engineered footings: every addition gets engineered footings unless the drawings say otherwise
+
 ## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
 
 - DEFAULT: Addition job cost breakdowns are built from a repurposed Basement-Remodel template: This was observed on one job's breakdown document, which self-declared 'Template Anchor: Basement_Remodel_Breakdown_Locked_Template_v1.xlsx' — treated as evidence of a company-wide practice, not confirmed across other Addition jobs. (Unvetted, Confidence 50%)
