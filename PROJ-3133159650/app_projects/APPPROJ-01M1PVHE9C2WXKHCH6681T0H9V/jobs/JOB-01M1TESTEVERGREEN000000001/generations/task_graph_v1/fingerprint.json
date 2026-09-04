@@ -12,7 +12,7 @@
       {
         "document_id": "doc_01KX76DHHZ4SA44JF49HX3MEJV",
         "version": 3,
-        "name": "bristol_reference.pdf",
+        "name": "bristol_doc.pdf",
         "size": 22007,
         "mime_type": "application/pdf",
         "role": "attached"
@@ -98,9 +98,12 @@
       "sha256": "8da046efc3424219f1aa6833e8b240bf0545dd66b47314d9cb71f59c9592a0a8"
     },
     "changelog": {
-      "lines": 422,
-      "tail_sha256": "581c5da829f04627af69479b94cdb720b572a2e4f7ba0648fe0b9054804604aa"
+      "lines": 423,
+      "tail_sha256": "d1c66b3d98cd3721cda398047f29cb5fb2bab8c6b8a6a880d8f41487e43a53de"
     }
   },
-  "blocking_open_at_generation": 0
+  "blocking_open_at_generation": 0,
+  "advanced_at": [
+    "2026-09-04T23:51:21.464Z"
+  ]
 }

@@ -1,0 +1,1 @@
+{"ts":"2026-09-04T23:51:21.464Z","diff_hash":"024207acfa35aa07","impact":"none","reasons":["The only recorded change is a filename rename (bristol_reference.pdf → bristol_doc.pdf) with contents unchanged — pure document metadata churn that doesn't alter any task, scope, sequencing, or assumption in the task graph."]}
