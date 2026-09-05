@@ -38,8 +38,8 @@
         "code": "proc_hvac_equipment",
         "component": "procurement_items",
         "name": "HVAC equipment (mini-split / system)",
-        "duration": 5,
-        "lead_time": 7,
+        "duration": 7,
+        "lead_time": 10,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -60,16 +60,6 @@
         "name": "Plumbing Package",
         "duration": 2,
         "lead_time": 3,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_tile",
-        "component": "procurement_items",
-        "name": "Tile & setting materials",
-        "duration": 5,
-        "lead_time": 7,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -100,26 +90,6 @@
         "name": "Drywall",
         "duration": 4,
         "lead_time": 5,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_cabinets",
-        "component": "procurement_items",
-        "name": "Cabinets / vanities",
-        "duration": 20,
-        "lead_time": 28,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
-      },
-      {
-        "code": "proc_countertops",
-        "component": "procurement_items",
-        "name": "Countertops",
-        "duration": 18,
-        "lead_time": 25,
         "links": [],
         "trade": "general",
         "kind": "procurement"
@@ -163,16 +133,6 @@
         "links": [],
         "trade": "general",
         "kind": "procurement"
-      },
-      {
-        "code": "proc_concrete_patio",
-        "component": "procurement_items",
-        "name": "Concrete + Patio Work",
-        "duration": 1,
-        "lead_time": 2,
-        "links": [],
-        "trade": "general",
-        "kind": "procurement"
       }
     ],
     "permits": [
@@ -202,21 +162,6 @@
         "links": [],
         "trade": "general",
         "kind": "permit"
-      },
-      {
-        "code": "extra.1",
-        "name": "Certified asbestos inspection",
-        "duration": 3,
-        "links": [
-          {
-            "target": "permit_building",
-            "type": "FS",
-            "lag": 0
-          }
-        ],
-        "trade": "Environmental/Asbestos Inspector",
-        "kind": "work",
-        "flagged": true
       }
     ],
     "demolition": [
@@ -224,7 +169,7 @@
         "code": "site_and_structure_demo",
         "component": "main_demolition",
         "name": "Demolition (site + structure at addition footprint)",
-        "duration": 3,
+        "duration": 2,
         "crew": 3,
         "links": [
           {
@@ -369,7 +314,7 @@
         "code": "roofing",
         "component": "cladding_roof",
         "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
-        "duration": 3,
+        "duration": 2,
         "crew": 3,
         "links": [
           {
@@ -625,7 +570,7 @@
         "code": "drywall",
         "component": "insulation_drywall_prime",
         "name": "Drywall (hang, tape, sand)",
-        "duration": 5,
+        "duration": 4,
         "crew": 3,
         "links": [
           {
@@ -680,35 +625,14 @@
     ],
     "interior_finishes": [
       {
-        "code": "shower_work",
-        "component": "interior_installs",
-        "name": "Shower work (waterproofing, tile, grout)",
-        "duration": 4,
-        "crew": 1,
-        "links": [
-          {
-            "target": "insulation_drywall.end",
-            "type": "FS",
-            "lag": 0
-          },
-          {
-            "target": "proc_tile",
-            "type": "FS",
-            "lag": 3
-          }
-        ],
-        "trade": "tile",
-        "kind": "work"
-      },
-      {
         "code": "hard_flooring",
         "component": "interior_installs",
         "name": "Hard flooring install (LVP, hardwood, tile floors)",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
-            "target": "shower_work",
+            "target": "insulation_drywall.end",
             "type": "FS",
             "lag": 0
           },
@@ -722,38 +646,12 @@
         "kind": "work"
       },
       {
-        "code": "cabinets_counters",
-        "component": "interior_installs",
-        "name": "Cabinets, counters, vanities & fixed items",
-        "duration": 2,
-        "crew": 2,
-        "links": [
-          {
-            "target": "hard_flooring",
-            "type": "FS",
-            "lag": 0
-          },
-          {
-            "target": "proc_cabinets",
-            "type": "FS",
-            "lag": 3
-          },
-          {
-            "target": "proc_countertops",
-            "type": "FS",
-            "lag": 3
-          }
-        ],
-        "trade": "cabinets",
-        "kind": "work"
-      },
-      {
         "code": "interior_installs.end",
         "name": "Interior Installs — complete",
         "duration": 0,
         "links": [
           {
-            "target": "cabinets_counters",
+            "target": "hard_flooring",
             "type": "FS",
             "lag": 0
           }
@@ -791,7 +689,7 @@
         "code": "finish_carpentry",
         "component": "final_trades_paint_2",
         "name": "Finish Carpentry",
-        "duration": 3,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -856,29 +754,6 @@
         "kind": "milestone"
       }
     ],
-    "concrete_landscaping": [
-      {
-        "code": "concrete_flatwork",
-        "component": "concrete_landscape",
-        "name": "Concrete flatwork (patios, driveways, walkways)",
-        "duration": 2,
-        "crew": 3,
-        "links": [
-          {
-            "target": "paint_phase_2",
-            "type": "FS",
-            "lag": 0
-          },
-          {
-            "target": "proc_concrete_patio",
-            "type": "FS",
-            "lag": 3
-          }
-        ],
-        "trade": "concrete",
-        "kind": "work"
-      }
-    ],
     "closeout": [
       {
         "code": "closeout.start",
@@ -938,7 +813,7 @@
             "lag": 1
           },
           {
-            "target": "concrete_flatwork",
+            "target": "paint_phase_2",
             "type": "FS",
             "lag": 0
           },
@@ -1015,61 +890,99 @@
       "name": "Final Trades & Paint 2"
     },
     {
-      "id": "concrete_landscape",
-      "phase": "concrete_landscaping",
-      "name": "Concrete & Landscape"
-    },
-    {
       "id": "walkthrough_final_inspection",
       "phase": "closeout",
       "name": "Walkthrough & Final Inspection"
     }
   ],
-  "warnings": [
-    "EXTRA TASK (escape hatch): \"Certified asbestos inspection\" added to permits after permit_building — PM directive and job canon require a certified asbestos inspection to gate all demolition start; no checklist item covers it.. Review before trusting the schedule."
-  ],
+  "warnings": [],
   "assumptions": [
-    "\"LVL / engineered beams\" (proc_lvl) EXCLUDED pending answer: Scope docs unreadable; engineered LVL presence is structural, can't guess.",
-    "\"Subpanel / service equipment\" (proc_subpanel) EXCLUDED pending answer: No confirmation subpanel/service upgrade is in scope; amperage unverified.",
-    "\"Water heater (tank or tankless)\" (proc_water_heater) EXCLUDED pending answer: No confirmation a new water heater is added for the addition.",
-    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: No confirmation carpet/floating floor areas are in scope.",
-    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Glass enclosure vs curtain not confirmed by customer selections.",
-    "\"Extend existing appliance vents through new roof\" (appliance_vent_extension) EXCLUDED pending answer: Unconfirmed whether existing appliance vents pass through the new roof area.",
-    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: No confirmation of carpet/floating floor areas in the addition.",
-    "\"Landscaping & site restoration\" (landscaping) EXCLUDED pending answer: No confirmation seed/straw restoration is in scope."
+    "\"LVL / engineered beams\" (proc_lvl) EXCLUDED pending answer: Engineered beam use unconfirmed; scope document unreadable.",
+    "\"Subpanel / service equipment\" (proc_subpanel) EXCLUDED pending answer: Subpanel/service upgrade and amperage unconfirmed.",
+    "\"Water heater (tank or tankless)\" (proc_water_heater) EXCLUDED pending answer: New water heater scope unconfirmed.",
+    "\"Tile & setting materials\" (proc_tile) EXCLUDED pending answer: Tile scope unconfirmed; existing-tub note doesn't resolve it.",
+    "\"Carpet / floating floor\" (proc_carpet) EXCLUDED pending answer: Carpet/floating floor scope unconfirmed.",
+    "\"Cabinets / vanities\" (proc_cabinets) EXCLUDED pending answer: Cabinetry/vanity scope unconfirmed.",
+    "\"Countertops\" (proc_countertops) EXCLUDED pending answer: Countertop scope unconfirmed.",
+    "\"Shower glass (template after tile)\" (proc_shower_glass) EXCLUDED pending answer: Glass enclosure unconfirmed; existing tub kept per PM note.",
+    "\"Concrete + Patio Work\" (proc_concrete_patio) EXCLUDED pending answer: Exterior concrete/patio scope unconfirmed.",
+    "\"Electrical service / meter permit\" (permit_electrical_service) EXCLUDED pending answer: Main service upgrade/meter relocation unconfirmed.",
+    "\"Deck build\" (deck_build) EXCLUDED pending answer: Deck/porch scope unconfirmed.",
+    "\"Extend existing appliance vents through new roof\" (appliance_vent_extension) EXCLUDED pending answer: Unclear if existing vents pass through new roof area.",
+    "\"Shower work (waterproofing, tile, grout)\" (shower_work) EXCLUDED pending answer: Shower/tub surround scope unclear despite existing-tub note.",
+    "\"Cabinets, counters, vanities & fixed items\" (cabinets_counters) EXCLUDED pending answer: Cabinetry/vanity/counter scope unconfirmed.",
+    "\"Carpet & floating floors\" (carpet_floating) EXCLUDED pending answer: Carpet/floating floor scope unconfirmed.",
+    "\"Concrete flatwork (patios, driveways, walkways)\" (concrete_flatwork) EXCLUDED pending answer: Exterior concrete scope unconfirmed.",
+    "\"Landscaping & site restoration\" (landscaping) EXCLUDED pending answer: Seed/straw restoration scope unconfirmed."
   ],
   "needs_info": [
     {
       "node_id": "proc_lvl",
-      "reason": "Scope docs unreadable; engineered LVL presence is structural, can't guess"
+      "reason": "Engineered beam use unconfirmed; scope document unreadable"
     },
     {
       "node_id": "proc_subpanel",
-      "reason": "No confirmation subpanel/service upgrade is in scope; amperage unverified"
+      "reason": "Subpanel/service upgrade and amperage unconfirmed"
     },
     {
       "node_id": "proc_water_heater",
-      "reason": "No confirmation a new water heater is added for the addition"
+      "reason": "New water heater scope unconfirmed"
+    },
+    {
+      "node_id": "proc_tile",
+      "reason": "Tile scope unconfirmed; existing-tub note doesn't resolve it"
     },
     {
       "node_id": "proc_carpet",
-      "reason": "No confirmation carpet/floating floor areas are in scope"
+      "reason": "Carpet/floating floor scope unconfirmed"
+    },
+    {
+      "node_id": "proc_cabinets",
+      "reason": "Cabinetry/vanity scope unconfirmed"
+    },
+    {
+      "node_id": "proc_countertops",
+      "reason": "Countertop scope unconfirmed"
     },
     {
       "node_id": "proc_shower_glass",
-      "reason": "Glass enclosure vs curtain not confirmed by customer selections"
+      "reason": "Glass enclosure unconfirmed; existing tub kept per PM note"
+    },
+    {
+      "node_id": "proc_concrete_patio",
+      "reason": "Exterior concrete/patio scope unconfirmed"
+    },
+    {
+      "node_id": "permit_electrical_service",
+      "reason": "Main service upgrade/meter relocation unconfirmed"
+    },
+    {
+      "node_id": "deck_build",
+      "reason": "Deck/porch scope unconfirmed"
     },
     {
       "node_id": "appliance_vent_extension",
-      "reason": "Unconfirmed whether existing appliance vents pass through the new roof area"
+      "reason": "Unclear if existing vents pass through new roof area"
+    },
+    {
+      "node_id": "shower_work",
+      "reason": "Shower/tub surround scope unclear despite existing-tub note"
+    },
+    {
+      "node_id": "cabinets_counters",
+      "reason": "Cabinetry/vanity/counter scope unconfirmed"
     },
     {
       "node_id": "carpet_floating",
-      "reason": "No confirmation of carpet/floating floor areas in the addition"
+      "reason": "Carpet/floating floor scope unconfirmed"
+    },
+    {
+      "node_id": "concrete_flatwork",
+      "reason": "Exterior concrete scope unconfirmed"
     },
     {
       "node_id": "landscaping",
-      "reason": "No confirmation seed/straw restoration is in scope"
+      "reason": "Seed/straw restoration scope unconfirmed"
     }
   ]
 }
