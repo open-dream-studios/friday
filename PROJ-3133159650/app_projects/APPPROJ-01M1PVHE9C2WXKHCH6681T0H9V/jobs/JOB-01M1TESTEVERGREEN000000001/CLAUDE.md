@@ -8,3 +8,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Addition footprint dimensions: The addition footprint is 29ft-5in by 10ft, two levels, 590 SF total, per the scope-of-work and drawings; the job note citing 14'x20' was a typo and should be disregarded.
 - POLICY: Engineered footings on additions: Every addition must have engineered footings, with no exceptions unless stamped drawings specify otherwise.
 - DEFAULT: 308 Evergreen sewer/septic system: 308 Evergreen is on septic (existing tank on site), not connected to city sewer.
+- POLICY: Asbestos inspection gates demo start: For 308 Evergreen Street, a certified asbestos inspection must be scheduled and its documented completion must gate the start of all demolition work (tub/shower removal, window removal, walkway saw-cutting, tie-in wall opening, window/door relocation).
