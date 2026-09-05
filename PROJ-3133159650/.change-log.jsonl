@@ -425,3 +425,4 @@
 {"ts":"2026-09-04T23:56:41.640Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-05T00:13:33.791Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-05T00:15:33.457Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
+{"ts":"2026-09-05T00:31:14.242Z","reason":"task structure v9 published (composition comp_ef0e879da0b311f1b926a2aa90)","actor":"user","entities":[{"kind":"job","id":"JOB-01M1TESTEVERGREEN000000001","action":"update","change_kind":"job_document"},{"kind":"job_definition","id":"task_structure.json","action":"update","change_kind":"job_definition_document"}]}
