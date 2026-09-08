@@ -25,3 +25,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Covered deck structural design: The covered deck is built with an attached ledger and concrete piers, with its roof structurally tied into the main addition's roof, rather than being a freestanding structure.
 - DEFAULT: Existing Hall Bathroom Modification location: The 'Existing Hall Bathroom Modification' anchor refers to the main-level Bath 2 (room 108).
 - POLICY: Elevator vendor coordination scope: The plan includes framing and rough-in for the elevator shaft only; coordinating exact dimensions and rough-in specifications with an elevator vendor (e.g., 101 Mobility) is fully deferred to the homeowner post-completion.
+- DEFAULT: Window W21 stock vs custom: The fixed window W21 (3'-0"x1'-0") is a stock size with approximately a 21 calendar day lead time, not a custom or special order item.
