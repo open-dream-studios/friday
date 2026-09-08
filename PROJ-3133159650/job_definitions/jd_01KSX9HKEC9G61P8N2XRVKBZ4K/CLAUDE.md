@@ -60,3 +60,9 @@
 - DEFAULT: Treat job.notes dimensional/spec claims as unverified until cross-checked against scope and drawings: job.notes reflects a human's shorthand/paraphrase and may contain transcription errors (e.g. typos), not a superseding instruction (Unvetted, Confidence 50%)
     Condition: If If job.notes states a dimension, material choice, or scope detail that conflicts with the anchor scope-of-work or drawings on an Addition job
     Notes: Single-incident evidence so far; raise confidence if the same pattern (note vs. concurring documents) recurs on future Addition jobs.
+- DEFAULT: Verify drawing-set title block/address against job site address before treating as authoritative: Treat the drawing set as unconfirmed for this job (do not drive procurement/framing decisions from it) until a human confirms it is the correct set, even when scope content otherwise appears to match. (Unvetted, Confidence 45%)
+    Condition: If If an attached architectural/drawing document's project title, author address, or site address differs from the job's recorded site address
+    Notes: Raise confidence if the same identity-mismatch pattern recurs on a future job's drawing set.
+- DEFAULT: Flag pre-contract scope/proposal documents carrying T&M or hourly billing language before contract execution: The document likely carries a stale or wrong template and needs correction to fixed-price/25% milestone terms before a contract is signed; do not assume the signed contract will inherit the T&M language. (Unvetted, Confidence 40%)
+    Condition: If If a pre-contract scope/estimate document (anchor) states an hourly rate schedule, labor differentials, or a non-25%-milestone deposit alongside (or instead of) a fixed total
+    Notes: If this recurs, consider it a sales-template defect worth fixing at the source rather than a per-job anomaly.
