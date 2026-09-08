@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "generation_id": "01M21ERYMMN6N4KFX88RM0P96T",
+  "generated_at": "2026-09-08T21:31:19.273Z",
+  "structure": {
+    "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
+    "version": 9,
+    "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+  },
+  "ledger": {
+    "docs": [
+      {
+        "document_id": "doc_01M21ADAGHJPW8TMZCPDXEV1NT",
+        "version": 2,
+        "name": "Approved Proposal (1).pdf",
+        "size": 342045,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01M21ADD2BVFWPWESYWYRX0A9T",
+        "version": 2,
+        "name": "EVERGREEN ADDITION V1 260827.pdf",
+        "size": 2809311,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01M21ADAGHJPW8TMZCPDXEV1NT",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 5
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 4
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M21AC6J81DXKDY66XRS3ZBR2",
+        "revision": 0
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M21ADXVCRGBH14SK54WT4PBK",
+        "revision": 23
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M21AC6J81DXKDY66XRS3ZBR2",
+        "sha256": "10d947b136768d79fbdd25415d1c1dc0c5c63be5458a2c2308a67348f24dcd92"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M21ADXVCRGBH14SK54WT4PBK",
+        "sha256": "7e8cae22a2ec3c592e3b64d038ee7940b34f494017bfcd4966efeb4bd55bb493"
+      }
+    ],
+    "questions": {
+      "count": 30,
+      "answered_ids": [
+        "q_01M21CKYFY3QV56FMXTYP5GPV0",
+        "q_01M21CKYFY3SAGF83EK67C2SB2",
+        "q_01M21CKYFYGZVEPDYDEEQ125BT",
+        "q_01M21CKYFYH1WK50KR0XWM4AC2",
+        "q_01M21CKYFYPSCTPNBEATB26FPY",
+        "q_01M21CKYFYWRKZDHJ3WR10SZ5B",
+        "q_01M21CKYFYZ14W0WVYG73HVXKT",
+        "q_01M21CKYFYZEYBN5Q0WJ1RWBAZ",
+        "q_01M21CKYFZ54XGXQJABEEQKF7R",
+        "q_01M21CKYFZJ697S7XX7E1E5XST",
+        "q_01M21CKYFZKQBJ2XDP86ZT9MH9",
+        "q_01M21CKYFZM4WY9MWP1N1MKVTV",
+        "q_01M21CKYFZXTSJ82NANCVHEFXJ",
+        "q_01M21CKYFZY61EMVWAN0EE0BES",
+        "q_01M21CKYFZZRNV13B1YVEAAR22",
+        "q_01M21D4C1QBN584CTBS15DEV6F",
+        "q_01M21D4C1QERXHTEKXE98TAT39",
+        "q_01M21D4C1QJ4RNT4B5NE4QKQ83",
+        "q_01M21D4C1QN54HVG1MM7FS36H3",
+        "q_01M21D4C1QPC5HFB5C8GKCNKJP",
+        "q_01M21D4C1QW4QZ8KTTZHCSSPDV",
+        "q_01M21E92BHFEH4C5V25M3WG7TM",
+        "q_01M21E92BHW8KXA91HTJ638BM6"
+      ],
+      "sha256": "09471efe92cfd9e22cd43bb1b9df26ca2496fffd3f0ab00d0a7721532a8fa9ad"
+    },
+    "changelog": {
+      "lines": 471,
+      "tail_sha256": "fef9fae7178f517f819dfe2c21927774039935278f777a2dc40754f66cf8dcae"
+    }
+  },
+  "blocking_open_at_generation": 0
+}
