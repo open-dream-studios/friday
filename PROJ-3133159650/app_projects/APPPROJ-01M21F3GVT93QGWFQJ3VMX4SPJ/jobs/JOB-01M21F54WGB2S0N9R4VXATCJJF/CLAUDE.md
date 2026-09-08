@@ -13,3 +13,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Siding scope includes knee walls and screen enclosure: The 'siding' work item includes installation of 2ft vinyl-finished knee walls and the tensioned screen enclosure, performed by the in-house crew.
 - POLICY: Screened porch electrical exclusion: The screened porch scope excludes all electrical work, including outlets and lighting.
 - POLICY: Roof/deck framing repair at tie-ins: The scope covers tie-in work only at existing roof or deck framing points, and does not include any repair or reinforcement of that existing framing.
+- DEFAULT: Existing utilities within patio/fireplace footprint: The new patio/fireplace footprint is clear of existing equipment and utility lines (hose bibs, AC condensers, meters, vents), so no utility relocation work is included in scope.
