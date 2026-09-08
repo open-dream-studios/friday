@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "project_idx": 132,
+    "scope_kind": "job",
+    "scope_id": "JOB-01M21ADXVCRGBH14SK54WT4PBK"
+  },
+  "built_at": "2026-09-08T20:51:10.038Z",
+  "built_by": "synthesis",
+  "inputs": {
+    "docs": [
+      {
+        "document_id": "doc_01M21ADAGHJPW8TMZCPDXEV1NT",
+        "version": 2,
+        "name": "Approved Proposal (1).pdf",
+        "size": 342045,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01M21ADD2BVFWPWESYWYRX0A9T",
+        "version": 2,
+        "name": "EVERGREEN ADDITION V1 260827.pdf",
+        "size": 2809311,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01M21ADAGHJPW8TMZCPDXEV1NT",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 3
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 4
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M21AC6J81DXKDY66XRS3ZBR2",
+        "revision": 0
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M21ADXVCRGBH14SK54WT4PBK",
+        "revision": 0
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M21AC6J81DXKDY66XRS3ZBR2",
+        "sha256": "10d947b136768d79fbdd25415d1c1dc0c5c63be5458a2c2308a67348f24dcd92"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M21ADXVCRGBH14SK54WT4PBK",
+        "sha256": "7e8cae22a2ec3c592e3b64d038ee7940b34f494017bfcd4966efeb4bd55bb493"
+      }
+    ],
+    "questions": {
+      "count": 15,
+      "answered_ids": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "changelog": {
+      "lines": 463,
+      "tail_sha256": "1b611d070e05fe40ba6bae08700a938822e6de1120b694f81c73718c5a73b917"
+    }
+  }
+}
