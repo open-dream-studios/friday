@@ -13,3 +13,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Covered deck construction scope: The covered deck shown on the architectural plans is included in this job's contracted scope and must be constructed as part of the project.
 - POLICY: LVL beam size source of truth: When the anchor specifies a 3-ply 14" LVL beam but the structural drawings specify a 3-ply 1-3/4"x11-7/8" LVL beam for the same member, the drawings' size governs and the anchor's size must be disregarded.
 - POLICY: Interior door type - hinged only: The interior door package consists of 7 standard hinged doors per the drawing's door schedule, with no pocket door systems included.
+- POLICY: Primary bedroom and closet flooring: The primary bedroom and its closet receive hard flooring (LVP or hardwood) throughout, with no carpet.
