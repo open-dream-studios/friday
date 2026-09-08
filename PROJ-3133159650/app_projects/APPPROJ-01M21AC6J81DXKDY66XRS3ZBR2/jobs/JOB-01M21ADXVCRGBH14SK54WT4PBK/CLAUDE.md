@@ -11,3 +11,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Window reuse vs replacement scope: Per the drawings, 3 of the 4 windows are existing units to be reused and the 4th is a new fixed unit to be purchased.
 - DEFAULT: Main electrical service capacity verification: The existing main electrical service capacity has not yet been verified to support the new 100A subpanel and mini-split; verification is still pending before this work proceeds.
 - POLICY: Covered deck construction scope: The covered deck shown on the architectural plans is included in this job's contracted scope and must be constructed as part of the project.
+- POLICY: LVL beam size source of truth: When the anchor specifies a 3-ply 14" LVL beam but the structural drawings specify a 3-ply 1-3/4"x11-7/8" LVL beam for the same member, the drawings' size governs and the anchor's size must be disregarded.
