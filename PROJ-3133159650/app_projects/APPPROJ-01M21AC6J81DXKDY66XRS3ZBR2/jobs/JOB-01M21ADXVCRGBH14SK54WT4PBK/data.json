@@ -16,6 +16,10 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
+  "scope_document": {
+    "id": "doc_01M21ADAGHJPW8TMZCPDXEV1NT",
+    "name": "Approved Proposal (1).pdf",
+    "resolved": true
+  },
   "breakdown_document": null
 }
