@@ -14,3 +14,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Screened porch electrical exclusion: The screened porch scope excludes all electrical work, including outlets and lighting.
 - POLICY: Roof/deck framing repair at tie-ins: The scope covers tie-in work only at existing roof or deck framing points, and does not include any repair or reinforcement of that existing framing.
 - DEFAULT: Existing utilities within patio/fireplace footprint: The new patio/fireplace footprint is clear of existing equipment and utility lines (hose bibs, AC condensers, meters, vents), so no utility relocation work is included in scope.
+- DEFAULT: Wood-burning fireplace/chimney permit coverage: The wood-burning fireplace and chimney do not require a separate permit; they are covered under the building permit.
