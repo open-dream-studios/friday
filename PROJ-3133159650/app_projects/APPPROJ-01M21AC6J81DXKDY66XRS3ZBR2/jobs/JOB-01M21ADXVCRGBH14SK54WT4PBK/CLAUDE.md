@@ -6,3 +6,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 ## Answers
 
 - POLICY: Job site address for Evergreen St project: The job site address is 308 Evergreen St, per the anchor and job record, not 300 Evergreen St as shown in the drawing title block.
+- POLICY: Foundation footing spec governs over anchor: When the anchor detail specifies a 12"x12" footing with no CMU wall but the drawings specify a 24"x12" footing with a CMU stem wall, the drawings' 24"x12" footing with CMU stem wall spec governs.
