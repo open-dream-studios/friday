@@ -1,6 +1,10 @@
 # CANON - Company Scope (Priority Level 1/4 - Lowest)
 <!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->
 
+## General
+
+- POLICY: Job Breakdown Usage for analysis: The Job breakdown should be used as a reference for how many hours are required for any piece of the job, so that we can determine roughly the best crew size and duration of days needed to complete that part of the job.
+
 ## Sales & Pricing
 
 - POLICY: Accepted work: TCR takes bathroom remodels, kitchen remodels, and home additions (single- and multi-story). Ground-up new construction is a hard no; commercial or exterior-only work is evaluated case-by-case.
