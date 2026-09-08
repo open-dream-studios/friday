@@ -49,3 +49,10 @@
 ## Customer Communication
 
 - POLICY: Monday customer updates: Every active customer gets a weekly Monday update.
+
+## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
+
+- REFERENCE: Governing code editions referenced in addition/remodel contracts (Unvetted, Confidence 50%)
+    Label: Residential code | Value: IRC 2018
+    Label: Electrical code | Value: NEC
+    Notes: Observed in a single job's anchor scope document; not yet confirmed as a standing company-wide reference (code editions may update over time and vary by AHJ). Useful default to check against on future jobs rather than an established policy.
