@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01M21F3ZGM1JRFYC8F00EXV57M",
+    "name": "205 Pawnee St - Proposal.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01M21F3X8JZ5XND1A8B06ZHP73",
+    "name": "205 Pawnee Street - Breakdown.xlsx",
+    "resolved": true
+  }
 }
