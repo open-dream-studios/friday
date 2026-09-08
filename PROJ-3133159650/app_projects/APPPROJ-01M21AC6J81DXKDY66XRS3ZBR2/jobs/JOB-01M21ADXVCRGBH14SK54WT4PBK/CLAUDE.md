@@ -18,3 +18,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Basement half-bath renovation scope: The existing basement half-bath is only demolished to clear space for the new laundry/storage build-out, not renovated or rebuilt
 - POLICY: Roof framing method final per drawings: The roof framing shall use 2x12 rafters as specified in the drawings; this is the final design and truss-vs-rafter is not an open decision.
 - DEFAULT: Seed/straw restoration scope: Seed/straw site restoration is limited to areas disturbed by the job's work and is not extended to the full site.
+- DEFAULT: Master shower enclosure type: The master shower is enclosed with a glass enclosure (frameless or semi-frameless), not a curtain or other material.
