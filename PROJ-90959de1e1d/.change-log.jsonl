@@ -22,3 +22,4 @@
 {"ts":"2026-09-04T17:07:31.791Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-04T22:45:59.809Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-04T23:10:51.152Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-90959de1e1d","action":"update","change_kind":"project_document"},{"kind":"job_definition","id":"derived_from.txt","action":"update","change_kind":"job_definition_document"}]}
+{"ts":"2026-09-08T15:21:52.633Z","reason":"deleted job 01M20M036ENQD8MSD2XYKW77HC","actor":"user","entities":[]}
