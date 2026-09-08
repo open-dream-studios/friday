@@ -20,3 +20,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Seed/straw restoration scope: Seed/straw site restoration is limited to areas disturbed by the job's work and is not extended to the full site.
 - DEFAULT: Master shower enclosure type: The master shower is enclosed with a glass enclosure (frameless or semi-frameless), not a curtain or other material.
 - DEFAULT: Existing vent extension in new roof area: No existing appliance vents (flue, exhaust, etc.) pass through the new roof footprint, so none require extending
+- DEFAULT: Main electrical service capacity unverified: Whether the existing main electrical service has sufficient capacity for the new 100A subpanel and mini-split, or whether a service upgrade is required, is not yet verified — treat this as an open contingency risk in the plan until confirmed on-site.
