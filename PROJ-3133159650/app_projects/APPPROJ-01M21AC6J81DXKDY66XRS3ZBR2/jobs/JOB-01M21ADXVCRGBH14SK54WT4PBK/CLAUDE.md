@@ -23,3 +23,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Main electrical service capacity unverified: Whether the existing main electrical service has sufficient capacity for the new 100A subpanel and mini-split, or whether a service upgrade is required, is not yet verified — treat this as an open contingency risk in the plan until confirmed on-site.
 - POLICY: Permit submittal timing vs IFC drawings: File the permit submittal on the current preliminary drawing set rather than waiting for an issued-for-construction revision.
 - DEFAULT: Covered deck structural design: The covered deck is built with an attached ledger and concrete piers, with its roof structurally tied into the main addition's roof, rather than being a freestanding structure.
+- DEFAULT: Existing Hall Bathroom Modification location: The 'Existing Hall Bathroom Modification' anchor refers to the main-level Bath 2 (room 108).
