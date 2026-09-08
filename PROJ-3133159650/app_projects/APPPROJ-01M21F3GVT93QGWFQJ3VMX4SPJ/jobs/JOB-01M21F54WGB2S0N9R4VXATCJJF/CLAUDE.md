@@ -6,3 +6,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 ## Answers
 
 - DEFAULT: 205 Pawnee St signed contract status: The customer-signed contract for the 205 Pawnee St project has been received and a signed copy is confirmed on file.
+- POLICY: Foundation and framing during winter window: Foundation/concrete and framing work proceeds as scheduled during the mid-December to mid-February winter window rather than being moved outside it.
