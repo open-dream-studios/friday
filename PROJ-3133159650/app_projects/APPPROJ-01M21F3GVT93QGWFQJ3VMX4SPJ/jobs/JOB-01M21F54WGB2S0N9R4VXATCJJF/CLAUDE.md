@@ -12,3 +12,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Roof support post footing bearing: New roof support posts bear on new footings poured with the patio slab, not on the existing deck structure.
 - POLICY: Siding scope includes knee walls and screen enclosure: The 'siding' work item includes installation of 2ft vinyl-finished knee walls and the tensioned screen enclosure, performed by the in-house crew.
 - POLICY: Screened porch electrical exclusion: The screened porch scope excludes all electrical work, including outlets and lighting.
+- POLICY: Roof/deck framing repair at tie-ins: The scope covers tie-in work only at existing roof or deck framing points, and does not include any repair or reinforcement of that existing framing.
