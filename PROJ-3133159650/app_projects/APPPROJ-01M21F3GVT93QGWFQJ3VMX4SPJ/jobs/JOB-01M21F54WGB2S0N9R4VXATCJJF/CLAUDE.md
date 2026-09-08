@@ -9,3 +9,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Foundation and framing during winter window: Foundation/concrete and framing work proceeds as scheduled during the mid-December to mid-February winter window rather than being moved outside it.
 - POLICY: Proceed with scope-only labor estimates: When a re-exported readable labor breakdown file is not yet available, the plan should proceed using scope-only labor estimates rather than waiting for the breakdown file.
 - DEFAULT: Fireplace design selections finalized: The customer's fireplace design, veneer, hearth, and mantel selections have all been finalized.
+- DEFAULT: Roof support post footing bearing: New roof support posts bear on new footings poured with the patio slab, not on the existing deck structure.
