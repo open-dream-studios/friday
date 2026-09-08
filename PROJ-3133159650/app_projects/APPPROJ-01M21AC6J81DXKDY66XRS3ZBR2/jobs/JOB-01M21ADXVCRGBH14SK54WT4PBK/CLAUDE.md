@@ -16,3 +16,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Primary bedroom and closet flooring: The primary bedroom and its closet receive hard flooring (LVP or hardwood) throughout, with no carpet.
 - DEFAULT: Existing utility relocation for addition: The addition footprint and tie-in wall do not require relocating any existing utilities, including the heat pump, electrical disconnect, or hose bibs.
 - DEFAULT: Basement half-bath renovation scope: The existing basement half-bath is only demolished to clear space for the new laundry/storage build-out, not renovated or rebuilt
+- POLICY: Roof framing method final per drawings: The roof framing shall use 2x12 rafters as specified in the drawings; this is the final design and truss-vs-rafter is not an open decision.
