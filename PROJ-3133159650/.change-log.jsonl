@@ -469,3 +469,4 @@
 {"ts":"2026-09-08T21:24:14.087Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-08T21:29:04.410Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-08T21:29:36.006Z","reason":"added canon policy \"Job Breakdown Usage for analysis\", added canon group \"General\"","actor":"user","entities":[]}
+{"ts":"2026-09-08T21:33:41.553Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M21ADXVCRGBH14SK54WT4PBK","action":"update","change_kind":"job_document"}]}
