@@ -52,7 +52,7 @@
 
 ## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
 
-- REFERENCE: Governing code editions referenced in addition/remodel contracts (Unvetted, Confidence 50%)
+- REFERENCE: Governing code editions referenced in addition/remodel contracts (Unvetted, Confidence 65%)
     Label: Residential code | Value: IRC 2018
     Label: Electrical code | Value: NEC
-    Notes: Observed in a single job's anchor scope document; not yet confirmed as a standing company-wide reference (code editions may update over time and vary by AHJ). Useful default to check against on future jobs rather than an established policy.
+    Notes: A second Addition-job anchor scope (this job's scope.pdf) independently states 'All work to comply with IRC 2018 and NEC requirements,' matching the prior single-instance observation. Confidence raised from 50% to 65% on a second corroborating job; still a default to verify per AHJ/job, not a confirmed company-wide standing policy since code editions can update over time.

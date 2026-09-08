@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "project_idx": 132,
+    "scope_kind": "job",
+    "scope_id": "JOB-01M1ZTKT9HAM6X8TG3R8HEKVR7"
+  },
+  "built_at": "2026-09-08T06:45:49.774Z",
+  "built_by": "synthesis",
+  "inputs": {
+    "docs": [
+      {
+        "document_id": "doc_01M1ZTB9VF9ZDTHYPPFQ7Q6GNG",
+        "version": 2,
+        "name": "308_Evergreen_Addition_Breakdown.csv",
+        "size": 2251,
+        "mime_type": "text/csv",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01M1ZTBBTZH8A1DDQ36HQ0WKAG",
+        "version": 2,
+        "name": "DRAWINGS.pdf",
+        "size": 761097,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      },
+      {
+        "document_id": "doc_01M1ZTCQZPS4YH2BTXS2SD9BEP",
+        "version": 1,
+        "name": "scope.pdf",
+        "size": 91515,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      }
+    ],
+    "anchor_document_id": "doc_01M1ZTCQZPS4YH2BTXS2SD9BEP",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 3
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 4
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M1ZTACGSQHQTM03RMMSXG32Y",
+        "revision": 0
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M1ZTKT9HAM6X8TG3R8HEKVR7",
+        "revision": 0
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M1ZTACGSQHQTM03RMMSXG32Y",
+        "sha256": "d71f75722ab39a4764aafa64abd5201f27b53472990a57771020140eb798d24e"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M1ZTKT9HAM6X8TG3R8HEKVR7",
+        "sha256": "7295748fa9f43557f7beed4949afaab8485229dddec170cbe441dba330f27c4e"
+      }
+    ],
+    "questions": {
+      "count": 5,
+      "answered_ids": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "changelog": {
+      "lines": 440,
+      "tail_sha256": "a8a42c5c20d28c3224c32dee644c186fb7691570ec78762421a74b500687392f"
+    }
+  }
+}
