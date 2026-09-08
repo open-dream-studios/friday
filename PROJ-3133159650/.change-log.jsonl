@@ -440,3 +440,4 @@
 {"ts":"2026-09-08T06:20:37.479Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-08T07:08:04.442Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-08T15:11:04.686Z","reason":"cleanup: removed Friday test jobs + retired pre-rework questions","actor":"cli","entities":[]}
+{"ts":"2026-09-08T17:15:30.771Z","reason":"deleted app_project APPPROJ-01M1ZTACGSQHQTM03RMMSXG32Y","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01M1ZTACGSQHQTM03RMMSXG32Y","action":"delete","change_kind":"app_project_data"},{"kind":"job","id":"JOB-01M1ZTKT9HAM6X8TG3R8HEKVR7","action":"delete","change_kind":"job_data"},{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
