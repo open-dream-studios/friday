@@ -375,7 +375,7 @@
           "type": "FS",
           "lag_days": 0,
           "successor_earliest_start": "2027-03-04",
-          "successor_earliest_finish": "2027-03-09"
+          "successor_earliest_finish": "2027-03-05"
         }
       ]
     },
@@ -385,7 +385,7 @@
       "name": "Excavation (footings, slab, access)",
       "trade": "excavation",
       "kind": "work",
-      "duration_days": 4,
+      "duration_days": 2,
       "crew_size": 2,
       "depends_on": [
         {
@@ -415,7 +415,7 @@
       "phase_id": "site_foundation",
       "component_id": "groundwork",
       "scheduled_start": "2027-03-04",
-      "scheduled_end": "2027-03-09",
+      "scheduled_end": "2027-03-05",
       "earliest_start": "2027-03-04",
       "latest_start": "2027-03-04",
       "float_days": 0,
@@ -433,7 +433,7 @@
         {
           "successor_id": "foundation",
           "type": "FS",
-          "lag_days": -2,
+          "lag_days": 0,
           "successor_earliest_start": "2027-03-08",
           "successor_earliest_finish": "2027-03-10"
         }
@@ -450,8 +450,7 @@
       "depends_on": [
         {
           "predecessor_id": "excavation",
-          "type": "FS",
-          "lag_days": -2
+          "type": "FS"
         },
         {
           "predecessor_id": "proc_foundation_package",
@@ -478,7 +477,7 @@
         {
           "predecessor_id": "excavation",
           "type": "FS",
-          "lag_days": -2
+          "lag_days": 0
         },
         {
           "predecessor_id": "proc_foundation_package",
