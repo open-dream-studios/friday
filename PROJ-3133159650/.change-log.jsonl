@@ -500,3 +500,4 @@
 {"ts":"2026-09-09T04:49:30.688Z","reason":"dismissed proposal on app_project APPPROJ-01M225WNHKSR1AHS6KW2DK8E8B","actor":"user","entities":[]}
 {"ts":"2026-09-09T05:00:37.595Z","reason":"restored accidentally-dismissed proposal (tiny dismiss button misclick) — 205 Pawnee existing conditions back to pending","actor":"agent","entities":[]}
 {"ts":"2026-09-09T05:03:20.966Z","reason":"deleted app_project APPPROJ-01M225WNHKSR1AHS6KW2DK8E8B","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01M225WNHKSR1AHS6KW2DK8E8B","action":"delete","change_kind":"app_project_data"},{"kind":"job","id":"JOB-01M225XN1FPNPDQKRCHSHRHSEW","action":"delete","change_kind":"job_data"}]}
+{"ts":"2026-09-09T05:03:54.751Z","reason":"created app_project \"205 Pawnee Street\" (id=APPPROJ-01M228T11XYANXB6G0PZESGBTA)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01M228T11XYANXB6G0PZESGBTA","action":"update","change_kind":"app_project_document"}]}
