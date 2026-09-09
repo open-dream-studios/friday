@@ -21,3 +21,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Fireplace chase and veneer installer: The in-house crew builds the fireplace chase/chimney framing and sets the veneer, rather than subcontracting to a mason or fireplace installer
 - DEFAULT: Roof edge and eave finishes: Roof-edge and ceiling finish work is excluded from scope, leaving bare framing with no fascia, no soffit, no gutters, and no painted exposed rafters.
 - POLICY: Knee wall construction spec: The knee wall is built per the drawings at approximately 3'-4" height with lap siding on the exterior and beadboard on the interior, not the 2' white vinyl knee wall described in the proposal.
+- DEFAULT: Rear wall HVAC condenser relocation: The existing HVAC condenser on the rear wall does not need to be relocated for the porch footprint, since it sits outside the footprint and required clearances are maintained
