@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "project_idx": 132,
+    "scope_kind": "job",
+    "scope_id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM"
+  },
+  "built_at": "2026-09-09T18:46:48.296Z",
+  "built_by": "synthesis",
+  "inputs": {
+    "docs": [
+      {
+        "document_id": "doc_01M23Q4QZ0S3HQXZ91D9ZRQMBF",
+        "version": 2,
+        "name": "205 Pawnee St - Proposal.pdf",
+        "size": 331382,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01M23Q4VJD34AZV4A56Q0FTGNV",
+        "version": 2,
+        "name": "205 Pawnee Street - Breakdown.xlsx",
+        "size": 90393,
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01M23Q4Y54NR71AGAWZW779PV3",
+        "version": 2,
+        "name": "Pawnee Street Screened In Porch Presentation - Drawing.pdf",
+        "size": 6606128,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01M23Q4QZ0S3HQXZ91D9ZRQMBF",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 26
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 21
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M23Q4D4022QCAJK0Y1EH2HJC",
+        "revision": 0
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM",
+        "revision": 0
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M23Q4D4022QCAJK0Y1EH2HJC",
+        "sha256": "b3a97392182c08edd8a78de04752f49c9e5723be5312c9027cebdea1c1fe96e6"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM",
+        "sha256": "3876e826cedbaf5d596fd8ba3459033677273b1570e81e55b120c132d1427602"
+      }
+    ],
+    "questions": {
+      "count": 19,
+      "answered_ids": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "changelog": {
+      "lines": 536,
+      "tail_sha256": "523113f789032eaaf8a9206e95308fc8126c7b7fe922d6fb3c50b9d5e86ae78d"
+    }
+  }
+}
