@@ -13,3 +13,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: fireplace finish selections status: The fireplace veneer, hearth, and mantel selections are not yet final and remain open, so the job cannot be scheduled on the assumption that these choices are settled
 - POLICY: Required AHJ inspections for porch: The Authority Having Jurisdiction requires footing, framing, fireplace/chimney, and final inspections for this porch.
 - POLICY: Porch electrical scope exclusion: The porch remains zero-electrical as contracted — no lights, fan, or GFCI outlets are to be installed — and written acknowledgement of this exclusion must be obtained from the customer.
+- POLICY: Building permit responsibility for roof tie-in: Tri-Cities pulls the building permit for the roof tie-in and wood-burning fireplace, as permitting is included in the proposal.
