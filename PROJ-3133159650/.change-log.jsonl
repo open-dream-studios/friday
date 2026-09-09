@@ -498,3 +498,4 @@
 {"ts":"2026-09-09T04:31:29.921Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-09T04:48:39.623Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-09T04:49:30.688Z","reason":"dismissed proposal on app_project APPPROJ-01M225WNHKSR1AHS6KW2DK8E8B","actor":"user","entities":[]}
+{"ts":"2026-09-09T05:00:37.595Z","reason":"restored accidentally-dismissed proposal (tiny dismiss button misclick) — 205 Pawnee existing conditions back to pending","actor":"agent","entities":[]}
