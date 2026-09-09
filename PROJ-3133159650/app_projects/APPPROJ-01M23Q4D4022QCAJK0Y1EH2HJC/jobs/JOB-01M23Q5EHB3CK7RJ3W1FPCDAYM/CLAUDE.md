@@ -17,3 +17,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Patio ledger/beam attachment point: The patio cover's beam rests on posts running alongside the house, while the rafters tie into the existing eave/roof framing rather than a ledger board attached to brick veneer or wood framing on the house wall.
 - DEFAULT: Chimney height relative to ridge (10-3-2): Whether the chimney must extend above the existing main-roof ridge to satisfy the 10-3-2 termination rule cannot be determined until the flue location is staked in the field
     Condition: If Applies until field staking of the flue location occurs; re-evaluate height requirement once that location is confirmed
+- DEFAULT: Rear patio equipment access route: The mini-excavator and 12-yd dumpster can reach the rear patio via the side yard with no obstacles, so demo and excavation do not need to be hand-carried
