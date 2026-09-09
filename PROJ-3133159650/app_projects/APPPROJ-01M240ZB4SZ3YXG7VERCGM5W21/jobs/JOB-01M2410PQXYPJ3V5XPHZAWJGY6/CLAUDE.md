@@ -18,3 +18,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Scope excludes ceiling drywall and insulation: The job scope covers walls only per the proposal; ceiling drywall and roof/ceiling-cavity insulation are excluded.
 - DEFAULT: Fused disconnect location during sunroom conversion: The existing fused disconnect stays in its current location and is reused as-is after the sunroom conversion, with no relocation needed before demo
 - DEFAULT: Post footer placement relative to concrete pad: Post footers are dug in soil adjacent to the existing concrete pad, not saw-cut through the pad itself
+- DEFAULT: House-side wall construction over brick: The house-side wall is framed as a full 2x4 insulated wall built in front of the existing brick, rather than furring and drywalling directly over the brick or leaving the brick exposed.
