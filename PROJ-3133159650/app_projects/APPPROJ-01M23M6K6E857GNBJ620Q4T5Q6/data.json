@@ -1,0 +1,33 @@
+{
+  "app_project_id": "APPPROJ-01M23M6K6E857GNBJ620Q4T5Q6",
+  "name": "205 Pawnee Street",
+  "project_type": "other",
+  "address": {
+    "line1": "205 Pawnee Street",
+    "line2": null,
+    "city": "Johnson City",
+    "state": "Tennessee",
+    "postal_code": "37604",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": {
+    "id": 4241,
+    "customer_id": "CUST-01M224VSZHVYGCHW9BRWACSJFM",
+    "name": "sarah lawson",
+    "phone": null,
+    "email": "sarahlawson2323@gmail.com",
+    "resolved": true
+  },
+  "lead_employee": {
+    "id": 236,
+    "employee_id": "EMP-01KN3T0ZA9WW4B7RJM4AZQCPTX",
+    "name": "Joey Goff",
+    "email": "joeygoff13@gmail.com",
+    "resolved": true
+  }
+}
