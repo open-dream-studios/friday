@@ -480,3 +480,4 @@
 {"ts":"2026-09-08T22:20:21.823Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-09T03:15:13.684Z","reason":"knowledge purge per owners review — company canon down to 5 plan-shaping entries, addition canon down to 4","actor":"agent","entities":[]}
 {"ts":"2026-09-09T03:17:06.668Z","reason":"dismissed 5 pending machine proposals at company/addition scope (purge follow-through)","actor":"agent","entities":[]}
+{"ts":"2026-09-09T03:53:58.918Z","reason":"deleted app_project APPPROJ-01M21F3GVT93QGWFQJ3VMX4SPJ","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01M21F3GVT93QGWFQJ3VMX4SPJ","action":"delete","change_kind":"app_project_data"},{"kind":"job","id":"JOB-01M21F54WGB2S0N9R4VXATCJJF","action":"delete","change_kind":"job_data"},{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}

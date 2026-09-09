@@ -15,3 +15,8 @@
 ## Mechanical, Electrical & Plumbing
 
 - POLICY: Electrical service capacity: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
+
+## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
+
+- DEFAULT: Keep one bathroom operable during occupied-home addition retrofits: When an addition job also demolishes or modifies existing bathrooms in an occupied home, sequence the bathroom work so at least one full bathroom stays operable at all times — do not overlap the demo of two bathrooms unless the PM confirms the house is vacant. (Unvetted, Confidence 60% → Scheduling)
+    Condition: If If the home is occupied during construction and the scope touches more than one existing bathroom
