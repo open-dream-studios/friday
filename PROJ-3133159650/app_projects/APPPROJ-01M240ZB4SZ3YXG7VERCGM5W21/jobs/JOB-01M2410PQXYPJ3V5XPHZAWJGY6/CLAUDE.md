@@ -9,3 +9,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Construction start date: Construction is intended to begin immediately, as of September 2026, superseding the originally planned start date of 2026-03-01 which has already passed.
 - DEFAULT: Final material selections status: The customer's final material selections—siding profile and color, windows, door, mini-split, and fixtures—have all been made and documented.
 - POLICY: Footer size and pier wrap spec: Footers use the base 12x12x12 size with bare posts, not the upsized 24x24x12 footers or brick pier wraps.
+- DEFAULT: New floor bearing at house connection: The new floor structure bears at the house side via a ledger board bolted to the existing house wall, rather than a second post row or the existing house framing carrying the load directly.
