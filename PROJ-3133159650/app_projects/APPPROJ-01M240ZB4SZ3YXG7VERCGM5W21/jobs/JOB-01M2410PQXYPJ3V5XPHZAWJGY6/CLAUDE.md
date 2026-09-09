@@ -11,3 +11,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Footer size and pier wrap spec: Footers use the base 12x12x12 size with bare posts, not the upsized 24x24x12 footers or brick pier wraps.
 - DEFAULT: New floor bearing at house connection: The new floor structure bears at the house side via a ledger board bolted to the existing house wall, rather than a second post row or the existing house framing carrying the load directly.
 - POLICY: Governing opening schedule for windows/doors: The proposal opening schedule governs ordering: six 36x60 windows plus one 36x80 door, not the presentation's 7-window and double-door layout.
+- POLICY: Exterior deck, railing, stairs scope: The exterior deck, railing, and stairs to grade shown in the renders are not included in the contracted work.
