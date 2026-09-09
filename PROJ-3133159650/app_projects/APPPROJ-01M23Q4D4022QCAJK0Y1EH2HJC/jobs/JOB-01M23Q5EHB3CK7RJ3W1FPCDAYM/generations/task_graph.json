@@ -95,7 +95,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 4,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -131,7 +131,7 @@
           {
             "target": "excavation",
             "type": "FS",
-            "lag": -2
+            "lag": 0
           },
           {
             "target": "proc_foundation_package",
