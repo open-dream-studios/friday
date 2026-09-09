@@ -95,7 +95,7 @@
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 3,
+        "duration": 4,
         "crew": 2,
         "links": [
           {
@@ -112,6 +112,12 @@
             "reason": "Test edit made to  extend excavation by one day",
             "rank": "job",
             "changes": "duration 2wd → 3wd · → foundation FS lag 0d → -1d"
+          },
+          {
+            "at": "2026-09-09T20:48:18.984Z",
+            "reason": "Test putting excavation into the foundation 2 days",
+            "rank": "job",
+            "changes": "duration 3wd → 4wd · → foundation FS lag -1d → -2d"
           }
         ]
       },
@@ -125,7 +131,7 @@
           {
             "target": "excavation",
             "type": "FS",
-            "lag": -1
+            "lag": -2
           },
           {
             "target": "proc_foundation_package",
