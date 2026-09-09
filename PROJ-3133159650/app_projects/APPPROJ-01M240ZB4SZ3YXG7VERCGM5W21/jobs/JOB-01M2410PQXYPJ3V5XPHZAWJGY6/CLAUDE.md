@@ -16,3 +16,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Temporary roof shoring design authority: Temporary roof shoring is designed in-house without requiring an engineer's stamp, provided it uses shoring materials only before demo.
 - DEFAULT: Window and exterior door sizing: Vinyl windows and exterior doors are stock sizes ordered off the shelf — 36x60 vinyl double-hung windows and a 36x80 pre-hung exterior door — rather than custom-ordered sizes.
 - POLICY: Scope excludes ceiling drywall and insulation: The job scope covers walls only per the proposal; ceiling drywall and roof/ceiling-cavity insulation are excluded.
+- DEFAULT: Fused disconnect location during sunroom conversion: The existing fused disconnect stays in its current location and is reused as-is after the sunroom conversion, with no relocation needed before demo
