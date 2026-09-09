@@ -26,3 +26,4 @@
     Label: Required inspections | Value: Footing, framing, fireplace/chimney, final
     Label: Trigger | Value: New roof structure tied into the existing house plus a wood-burning fireplace with chimney
     Label: Sequencing | Value: Footing inspection precedes the slab pour; framing inspection precedes roofing/screening close-in; fireplace/chimney inspection precedes finish veneer
+- POLICY: Elevated-structure rebuilds carry protection below, debris lowering, and access equipment as explicit plan tasks: When the work area is an elevated (second-story) structure, the task graph carries jobsite protection of finishes and access points below the work area before demo, a debris-lowering method during demo, and scaffolding or lift equipment for underside work (soffit, floor framing) and elevated wall work, with elevated-work time allowances applied to framing and siding durations. (Unvetted, Confidence 55% → Scheduling)

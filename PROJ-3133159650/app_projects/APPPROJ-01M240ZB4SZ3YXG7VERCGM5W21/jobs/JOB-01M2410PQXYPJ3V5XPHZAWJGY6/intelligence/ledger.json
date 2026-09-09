@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "project_idx": 132,
+    "scope_kind": "job",
+    "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6"
+  },
+  "built_at": "2026-09-09T21:45:36.374Z",
+  "built_by": "synthesis",
+  "inputs": {
+    "docs": [
+      {
+        "document_id": "doc_01M240ZNZTD1BE6FPR76BAEWW5",
+        "version": 2,
+        "name": "crawford.pdf",
+        "size": 466620,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01M240ZS7PNCC5EZHD8SB5AEJN",
+        "version": 2,
+        "name": "333_Toy_Crawford_Sunroom.xlsx",
+        "size": 83504,
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01M240ZWH0HXPCHQQPR0R4CCHN",
+        "version": 2,
+        "name": "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf",
+        "size": 6851594,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01M240ZNZTD1BE6FPR76BAEWW5",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 27
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 21
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
+        "revision": 0
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
+        "revision": 0
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
+        "sha256": "40a189b3ec978bc62d7c5cf1ed461d4222c16c6666615db636a707d79628d330"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
+        "sha256": "493b6fcda6ed66356e0732565ed4f897806ff217fdd1a53c3dc9847dbb2eb4d4"
+      }
+    ],
+    "questions": {
+      "count": 18,
+      "answered_ids": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "changelog": {
+      "lines": 544,
+      "tail_sha256": "0fbfe83b400834100c146b33c8336186d61b7e232dec7b0280a0071cdfdf962e"
+    }
+  }
+}
