@@ -6,3 +6,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 ## Answers
 
 - DEFAULT: Existing shed roof disposition: The existing shed roof remains on the shoring and is retained and reintegrated into the project as specified in the proposal, rather than being replaced with a new gable or hip roof.
+- DEFAULT: Construction start date: Construction is intended to begin immediately, as of September 2026, superseding the originally planned start date of 2026-03-01 which has already passed.
