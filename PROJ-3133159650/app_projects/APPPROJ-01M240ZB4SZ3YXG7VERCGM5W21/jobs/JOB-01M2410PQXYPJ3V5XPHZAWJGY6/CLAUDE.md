@@ -22,3 +22,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Interior finish scope status: Option 2 interior finish work (LVP flooring, baseboard, door/window casing, primer, and paint) is not contracted; only base drywall-ready condition is included in scope
 - DEFAULT: Post footer placement relative to concrete pad: Post footers are dug in soil adjacent to the existing concrete pad, not saw-cut through the pad itself
 - POLICY: Vinyl soffit installation timing under floor framing: Vinyl soffit under the floor framing is installed from below after the joists are in place, at the same stage as the siding installation.
+- DEFAULT: Window header framing material: Window headers are built from built-up 2x dimensional lumber, not LVL
