@@ -6,3 +6,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 ## Answers
 
 - DEFAULT: Shed roof post bearing: The shed roof's support posts bear on turned-down footings integrated into the new concrete slab pour, rather than on separate piers or existing deck framing.
+- POLICY: Fireplace construction type: The fireplace is built as a framed wood chase with a manufactured firebox and Class A pipe, not site-built masonry, per drawing page 5.
