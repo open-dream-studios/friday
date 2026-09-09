@@ -5,7 +5,7 @@
     "scope_kind": "job",
     "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6"
   },
-  "built_at": "2026-09-09T21:45:36.374Z",
+  "built_at": "2026-09-09T22:00:24.036Z",
   "built_by": "synthesis",
   "inputs": {
     "docs": [
@@ -49,12 +49,12 @@
       {
         "scope_kind": "app_project",
         "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
-        "revision": 0
+        "revision": 1
       },
       {
         "scope_kind": "job",
         "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
-        "revision": 0
+        "revision": 20
       }
     ],
     "data": [
@@ -76,17 +76,36 @@
       {
         "scope_kind": "job",
         "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
-        "sha256": "493b6fcda6ed66356e0732565ed4f897806ff217fdd1a53c3dc9847dbb2eb4d4"
+        "sha256": "9abb00a93f35b2597fed7d06d666899f681a1cd05e8dee5510912d3c9b7049f4"
       }
     ],
     "questions": {
-      "count": 18,
-      "answered_ids": [],
-      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      "count": 22,
+      "answered_ids": [
+        "q_01M2424B9583F2E84FWZNMAYC7",
+        "q_01M2424B96BVY2DKGXVZSFG2HG",
+        "q_01M2424B971YCR7RXYWQKSNT10",
+        "q_01M2424B97JYFVE9NTYJMXG714",
+        "q_01M2424B97M7FWHBMB4XJ0P9SH",
+        "q_01M2424B983E78PF4YZEX63MJJ",
+        "q_01M2424B989FM9Z1ZK0S65ABSW",
+        "q_01M2424B98J1FWNSXSRSQ4V48M",
+        "q_01M2424B98R23WVHHDCMHMHY96",
+        "q_01M2424B99GGVMBYBCSXSEHJCY",
+        "q_01M2424B99QB042VYCBJEQ6MFP",
+        "q_01M2424B99ZW3TB15GTGN9JFTC",
+        "q_01M2424B9A1CNG036P0XKBWTPP",
+        "q_01M2424B9A96QDMT0VKBM8CP2M",
+        "q_01M2424B9AMGM243C3Z5W424TH",
+        "q_01M2424B9AQWWGEAG11KRS6B6C",
+        "q_01M2424B9BC5945X88H95FDRNR",
+        "q_01M2424B9BFJM3EVF7BTBQM9D5"
+      ],
+      "sha256": "2132be024528d4d660e1998b463dd6093230cb2c942e56d9f2d1f4f28e1a5b84"
     },
     "changelog": {
-      "lines": 544,
-      "tail_sha256": "0fbfe83b400834100c146b33c8336186d61b7e232dec7b0280a0071cdfdf962e"
+      "lines": 546,
+      "tail_sha256": "3d02eee548cca658738b54a6499bf3d0a6c16a7acc441ee3d03d47fe09a19d8c"
     }
   }
 }
