@@ -16,6 +16,14 @@
     "resolved": true
   },
   "customer": null,
-  "scope_document": null,
-  "breakdown_document": null
+  "scope_document": {
+    "id": "doc_01M240ZNZTD1BE6FPR76BAEWW5",
+    "name": "crawford.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01M240ZS7PNCC5EZHD8SB5AEJN",
+    "name": "333_Toy_Crawford_Sunroom.xlsx",
+    "resolved": true
+  }
 }
