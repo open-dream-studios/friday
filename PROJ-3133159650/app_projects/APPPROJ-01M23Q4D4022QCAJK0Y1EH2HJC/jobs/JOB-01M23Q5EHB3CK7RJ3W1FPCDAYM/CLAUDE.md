@@ -20,3 +20,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Rear patio equipment access route: The mini-excavator and 12-yd dumpster can reach the rear patio via the side yard with no obstacles, so demo and excavation do not need to be hand-carried
 - DEFAULT: Fireplace chase and veneer installer: The in-house crew builds the fireplace chase/chimney framing and sets the veneer, rather than subcontracting to a mason or fireplace installer
 - DEFAULT: Roof edge and eave finishes: Roof-edge and ceiling finish work is excluded from scope, leaving bare framing with no fascia, no soffit, no gutters, and no painted exposed rafters.
+- POLICY: Knee wall construction spec: The knee wall is built per the drawings at approximately 3'-4" height with lap siding on the exterior and beadboard on the interior, not the 2' white vinyl knee wall described in the proposal.
