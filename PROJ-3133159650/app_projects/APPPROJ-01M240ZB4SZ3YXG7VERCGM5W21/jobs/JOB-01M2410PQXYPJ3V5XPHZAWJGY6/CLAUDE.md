@@ -21,3 +21,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: House-side wall construction over brick: The house-side wall is framed as a full 2x4 insulated wall built in front of the existing brick, rather than furring and drywalling directly over the brick or leaving the brick exposed.
 - DEFAULT: Interior finish scope status: Option 2 interior finish work (LVP flooring, baseboard, door/window casing, primer, and paint) is not contracted; only base drywall-ready condition is included in scope
 - DEFAULT: Post footer placement relative to concrete pad: Post footers are dug in soil adjacent to the existing concrete pad, not saw-cut through the pad itself
+- POLICY: Vinyl soffit installation timing under floor framing: Vinyl soffit under the floor framing is installed from below after the joists are in place, at the same stage as the siding installation.
