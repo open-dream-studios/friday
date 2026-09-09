@@ -14,3 +14,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Required AHJ inspections for porch: The Authority Having Jurisdiction requires footing, framing, fireplace/chimney, and final inspections for this porch.
 - POLICY: Porch electrical scope exclusion: The porch remains zero-electrical as contracted — no lights, fan, or GFCI outlets are to be installed — and written acknowledgement of this exclusion must be obtained from the customer.
 - POLICY: Building permit responsibility for roof tie-in: Tri-Cities pulls the building permit for the roof tie-in and wood-burning fireplace, as permitting is included in the proposal.
+- DEFAULT: Patio ledger/beam attachment point: The patio cover's beam rests on posts running alongside the house, while the rafters tie into the existing eave/roof framing rather than a ledger board attached to brick veneer or wood framing on the house wall.
