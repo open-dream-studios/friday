@@ -18,5 +18,7 @@
 
 ## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
 
+- DEFAULT: Lock outdoor fireplace system before pouring a slab that carries its footing: When a solid-fuel outdoor fireplace's footing is carried as a thickened area within a patio slab pour, the fireplace system (manufactured firebox vs framed chase with Class A pipe vs site-built masonry), finished width, and flue route are locked before the pour; the task graph sequences fireplace selection and any manufacturer footing spec ahead of concrete, and the chimney roof-penetration framing is laid out from the same selection. (Unvetted, Confidence 70%)
+    Condition: If Addition or outdoor-living scope includes a wood-burning outdoor fireplace whose footing is part of a slab pour rather than a separate foundation
 - DEFAULT: Keep one bathroom operable during occupied-home addition retrofits: When an addition job also demolishes or modifies existing bathrooms in an occupied home, sequence the bathroom work so at least one full bathroom stays operable at all times — do not overlap the demo of two bathrooms unless the PM confirms the house is vacant. (Unvetted, Confidence 60% → Scheduling)
     Condition: If If the home is occupied during construction and the scope touches more than one existing bathroom

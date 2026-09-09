@@ -14,3 +14,7 @@
 - POLICY: No demo without materials: Never demo without the next phase's materials on site, and never schedule a job before the customer's final material selections are made.
 - POLICY: Interior trade concurrency: No more than two trades work concurrently inside the building; exterior trades carry no such limit.
 - POLICY: Winter weather window: Foundation and framing are not scheduled between mid-December and mid-February; every outdoor-touching phase carries a 20% timeline buffer.
+
+## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
+
+- POLICY: Zero-electrical exterior living spaces require written acknowledgement before framing closes: When a screened porch, covered patio, or similar exterior living-space scope carries no lights, fan, or GFCI receptacles, obtain either priced electrical adds or a written zero-electrical acknowledgement from the customer before roof sheathing and screen framing close; electrical added after roofing and screening reopens finished work and adds an electrical permit/inspection the plan did not carry. (Unvetted, Confidence 55%)
