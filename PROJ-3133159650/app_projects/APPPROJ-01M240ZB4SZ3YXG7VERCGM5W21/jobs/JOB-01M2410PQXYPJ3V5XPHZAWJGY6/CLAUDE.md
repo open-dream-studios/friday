@@ -14,3 +14,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Exterior deck, railing, stairs scope: The exterior deck, railing, and stairs to grade shown in the renders are not included in the contracted work.
 - DEFAULT: Equipment access beneath elevated sunroom: On the sloped lot, equipment such as lifts, trailers, and mixers can reach the ground beneath the elevated sunroom via drive-around access to the rear of the property.
 - POLICY: Temporary roof shoring design authority: Temporary roof shoring is designed in-house without requiring an engineer's stamp, provided it uses shoring materials only before demo.
+- DEFAULT: Window and exterior door sizing: Vinyl windows and exterior doors are stock sizes ordered off the shelf — 36x60 vinyl double-hung windows and a 36x80 pre-hung exterior door — rather than custom-ordered sizes.
