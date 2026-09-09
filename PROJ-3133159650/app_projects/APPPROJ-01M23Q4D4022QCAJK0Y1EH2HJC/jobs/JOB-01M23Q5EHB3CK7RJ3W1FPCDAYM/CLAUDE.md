@@ -24,4 +24,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Shed-roof header beam material at posts: The header/beam at the posts for the shed roof is built-up pressure-treated 2x10 or 2x12 dimensional lumber, not an LVL or other engineered beam.
 - DEFAULT: Rear wall/roof penetrations in porch/shed area: No existing exhausts, vents, or hose bibbs on the rear wall or roof fall within the footprint of the new porch or shed-roof area; the only fixture present on that wall is the HVAC condenser.
 - DEFAULT: Home occupancy and rear door access during construction: The home is occupied during construction, and the rear doors are in daily use by occupants but can be closed off from the work area as needed.
-- DEFAULT: Screen Enclosure Track System Type: Screen enclosures use a pre-fab spline track system (e.g., Screen Tight) rather than site-built wood frames with stapled screen
+- DEFAULT: Screen enclosure construction method: Screen enclosures are built as site-built wood frames with stapled screen and trim, not a pre-fab spline track system like Screen Tight
