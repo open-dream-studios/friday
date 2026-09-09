@@ -10,3 +10,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Fireplace wall placement: The fireplace is located on the open outer wall, centered within the 6'-4" bay, per floor plan page 4
     Condition: If Interior renders showing the fireplace on the end side wall are incorrect and should be disregarded
 - POLICY: No winter weather schedule adjustments: Schedule dates for slab and framing work, including the Dec 21, 2026 start, must not be shifted or adjusted due to winter or cold-weather conditions.
+- DEFAULT: fireplace finish selections status: The fireplace veneer, hearth, and mantel selections are not yet final and remain open, so the job cannot be scheduled on the assumption that these choices are settled
