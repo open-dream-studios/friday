@@ -23,3 +23,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Post footer placement relative to concrete pad: Post footers are dug in soil adjacent to the existing concrete pad, not saw-cut through the pad itself
 - POLICY: Vinyl soffit installation timing under floor framing: Vinyl soffit under the floor framing is installed from below after the joists are in place, at the same stage as the siding installation.
 - DEFAULT: Window header framing material: Window headers are built from built-up 2x dimensional lumber, not LVL
+- DEFAULT: Mini-split condenser mounting location: The mini-split condenser unit mounts on a wall bracket attached to the new exterior wall, rather than sitting on a ground pad.
