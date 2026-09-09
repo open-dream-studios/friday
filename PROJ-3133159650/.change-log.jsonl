@@ -537,3 +537,4 @@
 {"ts":"2026-09-09T19:05:41.534Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
 {"ts":"2026-09-09T20:38:02.576Z","reason":"updated job JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","actor":"user","entities":[{"kind":"job","id":"JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","action":"update","change_kind":"job_data"}]}
 {"ts":"2026-09-09T21:16:32.131Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","action":"update","change_kind":"job_document"}]}
+{"ts":"2026-09-09T21:25:29.291Z","reason":"created app_project \"333 Toy Crawford Road\" (id=APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21)","actor":"user","entities":[{"kind":"app_project","id":"APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21","action":"update","change_kind":"app_project_document"}]}
