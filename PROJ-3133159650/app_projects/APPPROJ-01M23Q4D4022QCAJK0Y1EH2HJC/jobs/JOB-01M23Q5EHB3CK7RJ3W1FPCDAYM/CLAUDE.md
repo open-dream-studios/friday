@@ -19,3 +19,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Condition: If Applies until field staking of the flue location occurs; re-evaluate height requirement once that location is confirmed
 - DEFAULT: Rear patio equipment access route: The mini-excavator and 12-yd dumpster can reach the rear patio via the side yard with no obstacles, so demo and excavation do not need to be hand-carried
 - DEFAULT: Fireplace chase and veneer installer: The in-house crew builds the fireplace chase/chimney framing and sets the veneer, rather than subcontracting to a mason or fireplace installer
+- DEFAULT: Roof edge and eave finishes: Roof-edge and ceiling finish work is excluded from scope, leaving bare framing with no fascia, no soffit, no gutters, and no painted exposed rafters.
