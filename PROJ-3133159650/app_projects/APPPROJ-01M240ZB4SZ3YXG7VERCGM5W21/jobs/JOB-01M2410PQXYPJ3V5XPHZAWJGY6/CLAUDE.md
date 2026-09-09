@@ -13,3 +13,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Governing opening schedule for windows/doors: The proposal opening schedule governs ordering: six 36x60 windows plus one 36x80 door, not the presentation's 7-window and double-door layout.
 - POLICY: Exterior deck, railing, stairs scope: The exterior deck, railing, and stairs to grade shown in the renders are not included in the contracted work.
 - DEFAULT: Equipment access beneath elevated sunroom: On the sloped lot, equipment such as lifts, trailers, and mixers can reach the ground beneath the elevated sunroom via drive-around access to the rear of the property.
+- POLICY: Temporary roof shoring design authority: Temporary roof shoring is designed in-house without requiring an engineer's stamp, provided it uses shoring materials only before demo.
