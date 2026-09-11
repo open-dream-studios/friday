@@ -35,3 +35,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Fireplace veneer and hearth material sourcing: The fireplace's manufactured stone veneer and hearth are stock materials with roughly a 1-week lead time, not special-order items.
 - POLICY: Chimney chase termination height: The chimney chase terminates just above the shed roof's low eave, as drawn on page 5, and does not need to rise above the roof's high side to satisfy the 10-3-2 rule.
 - POLICY: Rafter tie-in at existing eave: When tying new rafters into the existing eave, remove only the gutter at the tie-in area; do not remove the fascia or cut back the eave framing, and tie the rafters into the existing eave framing as-is.
+- DEFAULT: Firebox and chimney kit lead time: The selected manufactured firebox and Class A chimney kit have a lead time of 3-4 weeks.
