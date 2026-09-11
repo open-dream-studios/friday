@@ -31,3 +31,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Condition: If Applies instead of treating the breakdown's 60 LF figure as three open sides
 - DEFAULT: existing roof/wall vents under new shed roof tie-in: No existing vents (dryer, range hood, plumbing stack, bath fan) on the rear wall or roof fall within the new shed roof's tie-in area
 - DEFAULT: roof post count including footings: The final roof layout carries 7 to 9 posts total, counting both the house-side beam posts and the open-side posts, each with a turned-down footing.
+- DEFAULT: Rafter tie-in to existing eave: When tying new rafters into an existing eave, only remove the gutter at the tie-in point; the fascia stays in place and the eave framing is not cut back, with new rafters tying into the existing eave framing as-is
