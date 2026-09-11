@@ -552,3 +552,4 @@
 {"ts":"2026-09-11T02:34:55.826Z","reason":"restored 17 proposals to pending — Friday acted without GO, reverted","actor":"user","entities":[]}
 {"ts":"2026-09-11T02:36:53.926Z","reason":"Boss-approved canon sweep: 17 machine proposals dismissed, visualization-only policy kept pending","actor":"user","entities":[]}
 {"ts":"2026-09-11T03:56:43.247Z","reason":"boot","actor":"boot","entities":[]}
+{"ts":"2026-09-11T04:17:06.284Z","reason":"sync trunk before intelligence synthesis","actor":"agent","entities":[]}
