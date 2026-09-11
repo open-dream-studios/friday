@@ -21,3 +21,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: porch electrical scope: The porch has no electrical rough-in — no fan, lights, or GFCI receptacle are being added.
 - POLICY: Shed roof fascia/soffit/gutters exclusion: Fascia, soffit, and gutters on the new shed roof are excluded from the contracted scope of this job.
 - DEFAULT: HVAC condenser relative to patio footprint: The existing HVAC condenser sits outside the new patio footprint and does not need to be relocated; crews should protect it in place rather than performing any disconnect/move work.
+- DEFAULT: Rear-yard patio equipment access route: Concrete trucks and mini-excavators can reach the rear-yard patio directly via the side yard, with no pump truck or concrete buggy required.
