@@ -550,3 +550,4 @@
 {"ts":"2026-09-11T02:27:56.633Z","reason":"company canon: added no-season-questions policy (Boss directive)","actor":"user","entities":[{"kind":"job","id":"JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-09-11T02:32:54.725Z","reason":"canon sweep: dismissed 17 machine proposals (sheets stay minimal), one kept pending","actor":"user","entities":[]}
 {"ts":"2026-09-11T02:34:55.826Z","reason":"restored 17 proposals to pending — Friday acted without GO, reverted","actor":"user","entities":[]}
+{"ts":"2026-09-11T02:36:53.926Z","reason":"Boss-approved canon sweep: 17 machine proposals dismissed, visualization-only policy kept pending","actor":"user","entities":[]}
