@@ -548,3 +548,4 @@
 {"ts":"2026-09-11T01:54:37.797Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-11T02:12:58.381Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-09-11T02:27:56.633Z","reason":"company canon: added no-season-questions policy (Boss directive)","actor":"user","entities":[{"kind":"job","id":"JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","action":"update","change_kind":"job_document"}]}
+{"ts":"2026-09-11T02:32:54.725Z","reason":"canon sweep: dismissed 17 machine proposals (sheets stay minimal), one kept pending","actor":"user","entities":[]}
