@@ -15,3 +15,8 @@
 ## Mechanical, Electrical & Plumbing
 
 - POLICY: Electrical service capacity: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
+
+## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
+
+- DEFAULT: Existing gutter re-termination at a porch roof tie-in: When new porch rafters tie into an existing eave and only the gutter at the tie-in is removed, the remaining gutter runs are cut back and end-capped and any downspout that drained the removed section is relocated to the nearest remaining run as part of the roof tie-in, unless the scope explicitly excludes gutter work. (Unvetted, Confidence 50% → Structure & Site)
+    Condition: If Porch or addition roof tying into an existing gutter-carrying eave

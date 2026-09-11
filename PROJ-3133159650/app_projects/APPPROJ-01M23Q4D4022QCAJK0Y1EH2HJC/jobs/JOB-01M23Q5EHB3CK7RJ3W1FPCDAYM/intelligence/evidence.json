@@ -1,12 +1,12 @@
 {
   "schema": "job_evidence_v1",
-  "built_at": "2026-09-11T04:46:24.337Z",
+  "built_at": "2026-09-11T05:03:52.608Z",
   "entity": {
     "kind": "job",
     "id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM"
   },
   "derived_from": {
-    "fingerprint": "9e2ba100c8b7e41cf22a80f4d514f874df905d432ef1c4982eb037380d86cfcd"
+    "fingerprint": "55f008e67a7911f6832cb1b9532f9cbbb317b9f2ce5e142b50b7ce755c2c482e"
   },
   "quantities": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "patio_length_ft",
-      "label": "Patio length along house (open long side)",
+      "label": "Patio length (along house / open long side)",
       "value": 23.5,
       "unit": "ft",
       "confidence": "high",
@@ -85,7 +85,7 @@
     },
     {
       "id": "demo_paver_area_sqft",
-      "label": "Paver demolition area",
+      "label": "Paver demo area",
       "value": 294,
       "unit": "sqft",
       "confidence": "high",
@@ -131,7 +131,7 @@
     },
     {
       "id": "gravel_base_cy",
-      "label": "Gravel base volume",
+      "label": "Gravel base",
       "value": 4,
       "unit": "cy",
       "confidence": "high",
@@ -167,14 +167,15 @@
     {
       "id": "concrete_volume_cy",
       "label": "Ready-mix concrete volume",
-      "value": 4.2,
+      "value": 4.5,
       "unit": "cy",
       "confidence": "medium",
       "sources": [
         "205 Pawnee Street - Breakdown.xlsx",
-        "answer q_post_bearing"
+        "answer q_post_bearing",
+        "answer q_post_count"
       ],
-      "basis": "303 sqft × 4/12 ft = 101 cf = 3.74 cy base slab; JBD carries 4.2 cy with fireplace footing thickening; answer adds turned-down post footings at each post (5+ × ~2 cf each ≈ 0.4-0.6 cy more) — thickening depths not specified, so 4.2 is likely slightly light"
+      "basis": "303 sqft × 4/12 ft = 101 cf = 3.74 cy base slab; JBD carries 4.2 cy incl. fireplace footing thickening; answers add 7-9 turned-down post footings (~8 × ~2.5 cf ≈ 0.7 cy) → ~4.5 cy; thickening depths unspecified, so JBD 4.2 is light by roughly a third of a yard"
     },
     {
       "id": "foundation_type",
@@ -191,7 +192,7 @@
     },
     {
       "id": "foundation_perimeter_lf",
-      "label": "Slab perimeter / formwork LF",
+      "label": "Slab perimeter",
       "value": 72,
       "unit": "lf",
       "confidence": "high",
@@ -202,42 +203,43 @@
     },
     {
       "id": "post_footing_count",
-      "label": "Turned-down post footings in slab",
-      "value": 5,
+      "label": "Turned-down post footings",
+      "value": 8,
       "unit": "count",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
+        "answer q_post_count",
         "answer q_post_bearing",
-        "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4"
+        "205 Pawnee Street - Breakdown.xlsx"
       ],
-      "basis": "One turned-down footing per post per answer; count tied to post_count (JBD ~5, plan spacing implies more) — nothing priced for these in JBD"
+      "basis": "One turned-down footing per post per answer; answer settles 7-9 posts total → carried at midpoint 8; JBD prices nothing for these"
     },
     {
       "id": "roof_type",
-      "label": "Roof type / framing method",
-      "value": "shed, stick-framed 2x8 rafters bearing on a house-side beam on posts and an open-side built-up beam; rafters tie into existing eave/roof framing",
+      "label": "Roof structure type",
+      "value": "shed, stick-framed 2x8 rafters bearing on a house-side beam on posts and an open-side built-up beam; rafters tie into existing eave/roof framing (gutter removed only, eave framing untouched)",
       "unit": "categorical",
       "confidence": "high",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
         "205 Pawnee Street - Breakdown.xlsx",
         "answer q_roof_tie_in",
-        "answer q_beam_type"
+        "answer q_beam_type",
+        "answer q_eave_tie_in"
       ],
-      "basis": "Proposal 'shed-style roof ... tying into existing roof structure', stick-framed no trusses; answers settle: no ledger on the brick — beam on posts along the house wall, rafters tie into the existing eave; open-side beam is built-up double 2x10/2x12, sized in-house per IRC tables"
+      "basis": "Proposal 'shed-style roof ... tying into existing roof structure', stick-framed no trusses; answers settle: no ledger on the brick — beam on posts along the house wall, rafters tie into the existing eave framing as-is with only the gutter removed; open-side beam is built-up double 2x10/2x12, sized in-house per IRC tables"
     },
     {
       "id": "roof_pitch",
       "label": "Shed roof pitch",
       "value": null,
-      "unit": "in/12",
+      "unit": "rise/12",
       "confidence": "unknown",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
       ],
-      "basis": "No pitch value in proposal, breakdown, drawings, or answers; only 'proper pitch and drainage' — low-slope shed tying under/into an existing eave (drawing 8'-1 15/16\" low eave) is likely but not stated"
+      "basis": "No pitch value in proposal, breakdown, drawings, or answers; only 'proper pitch and drainage' — low-slope shed under/into an existing eave (drawing 8'-1 15/16\" low eave) is likely but not stated"
     },
     {
       "id": "roof_area_sqft",
@@ -253,7 +255,7 @@
     },
     {
       "id": "shingle_squares",
-      "label": "Asphalt shingles",
+      "label": "Shingles",
       "value": 3.3,
       "unit": "sq",
       "confidence": "medium",
@@ -265,7 +267,7 @@
     },
     {
       "id": "rafter_count",
-      "label": "Rafter count",
+      "label": "Rafters",
       "value": 19,
       "unit": "count",
       "confidence": "medium",
@@ -276,7 +278,7 @@
     },
     {
       "id": "rafter_span_ft",
-      "label": "Rafter span (house beam to open-side beam)",
+      "label": "Rafter span",
       "value": 12.5,
       "unit": "ft",
       "confidence": "medium",
@@ -300,7 +302,7 @@
     },
     {
       "id": "ledger_lf",
-      "label": "House-side beam on posts (in lieu of ledger)",
+      "label": "House-side bearing line (beam on posts, no ledger)",
       "value": 23.5,
       "unit": "lf",
       "confidence": "medium",
@@ -313,7 +315,7 @@
     },
     {
       "id": "open_side_beam_lf",
-      "label": "Open-side carrying beam (built-up dimensional)",
+      "label": "Open-side carrying beam",
       "value": 23.5,
       "unit": "lf",
       "confidence": "medium",
@@ -325,20 +327,32 @@
     },
     {
       "id": "post_count",
-      "label": "Roof support posts (6x6 PT)",
-      "value": 5,
+      "label": "Roof support posts (both beams)",
+      "value": 8,
       "unit": "count",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
+        "answer q_post_count",
         "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4",
-        "answer q_roof_tie_in"
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4"
       ],
-      "basis": "JBD carries ~5 posts; plan p4 post symbols at 2'-2\", 2'-2\", 3'-7 1/2\", 3'-7\", 3'-7\" flanking a 6'-4\" fireplace bay imply ≥7 on the long open side alone, and the house-side beam-on-posts per answer adds 3-4 more — 5 is almost certainly light; proposal gives no count"
+      "basis": "Answer settles 7-9 posts total (house-side beam + open side) → carried at midpoint 8; JBD carries ~5 (light); plan p4 post symbols at 2'-2\"/3'-7\" spacings flanking a 6'-4\" fireplace bay are consistent with 5-6 on the long open side plus 2-3 on the house side"
+    },
+    {
+      "id": "eave_tie_in_gutter_removal_lf",
+      "label": "Existing gutter removed at tie-in",
+      "value": 23.5,
+      "unit": "lf",
+      "confidence": "medium",
+      "sources": [
+        "answer q_eave_tie_in",
+        "205 Pawnee St - Proposal.pdf p.1"
+      ],
+      "basis": "Answer: remove only the gutter at the tie-in area, fascia and eave framing stay — tie-in runs the 23.5' house wall so ~23.5 LF of gutter comes off; reinstatement/rerouting not addressed by any source"
     },
     {
       "id": "eave_height_ft",
-      "label": "Low-side eave height (porch floor to eave)",
+      "label": "Low-eave height above porch floor",
       "value": 8.16,
       "unit": "ft",
       "confidence": "low",
@@ -349,7 +363,7 @@
     },
     {
       "id": "screen_wall_lf",
-      "label": "Screened / knee-wall perimeter (open sides)",
+      "label": "Screened perimeter (open sides)",
       "value": 36,
       "unit": "lf",
       "confidence": "high",
@@ -362,7 +376,7 @@
     },
     {
       "id": "knee_wall_height_ft",
-      "label": "Knee-wall height",
+      "label": "Knee wall height",
       "value": 2,
       "unit": "ft",
       "confidence": "medium",
@@ -374,7 +388,7 @@
     },
     {
       "id": "screen_bay_height_ft",
-      "label": "Screen bay height (knee wall to header)",
+      "label": "Screen bay height",
       "value": 4.17,
       "unit": "ft",
       "confidence": "low",
@@ -408,6 +422,17 @@
         "answer q_selections"
       ],
       "basis": "'Frame (1) screen door opening; install (1) screen door + hardware ($125 budget)'; drawing 3068 (3' x 6'-8\"); selection final per answer"
+    },
+    {
+      "id": "screen_door_lead_weeks",
+      "label": "Screen door lead time",
+      "value": 2.5,
+      "unit": "weeks",
+      "confidence": "high",
+      "sources": [
+        "answer q_01M27CV8H1EMG8AM6XHABRK5MS"
+      ],
+      "basis": "Answer: stock unit, off the shelf or 2-3 weeks — carried at 2.5 wk; not a schedule driver"
     },
     {
       "id": "window_count_new",
@@ -456,11 +481,11 @@
         "205 Pawnee St - Proposal.pdf p.2",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
       ],
-      "basis": "Proposal 'approximately 72\" wide'; drawing chimney chase 6' wide; height per flue termination — not given"
+      "basis": "Proposal 'approximately 72\" wide'; drawing chimney chase 6' wide; height per flue termination — see chimney entries"
     },
     {
       "id": "fireplace_system_type",
-      "label": "Fireplace system type",
+      "label": "Fireplace system",
       "value": "framed wood chase, manufactured wood-burning firebox, Class A double-wall pipe, brick-veneered exterior (drawing p5)",
       "unit": "categorical",
       "confidence": "high",
@@ -470,6 +495,17 @@
         "205 Pawnee Street - Breakdown.xlsx"
       ],
       "basis": "Answer settles the proposal's masonry-vs-framed question on the framed/manufactured system as drawn on p5; JBD's manufactured basis ($3,500 system) now applies — no masonry re-price"
+    },
+    {
+      "id": "fireplace_kit_lead_weeks",
+      "label": "Firebox + Class A chimney kit lead time",
+      "value": 3.5,
+      "unit": "weeks",
+      "confidence": "high",
+      "sources": [
+        "answer q_01M27CV8H0FH9PTXEPBCGNQ0B2"
+      ],
+      "basis": "Answer: 3-4 weeks — carried at 3.5 wk; longest lead item on the job and must land before the chase is framed (footing/chase dims come from the kit)"
     },
     {
       "id": "fireplace_location",
@@ -508,21 +544,44 @@
       "basis": "JBD planning ~24 SF (6' × 4' projection); drawing p15 shows raised two-tier hearth 4\" high with 7/8\" lip — no plan dims for hearth depth; selection final"
     },
     {
+      "id": "veneer_hearth_lead_weeks",
+      "label": "Veneer + hearth material lead time",
+      "value": 1,
+      "unit": "weeks",
+      "confidence": "high",
+      "sources": [
+        "answer q_veneer_sourcing"
+      ],
+      "basis": "Answer: stock manufactured stone veneer and stock hearth, about 1 week — not a schedule driver"
+    },
+    {
+      "id": "chimney_termination",
+      "label": "Chimney chase termination",
+      "value": "terminates just above the shed roof low eave as drawn on p.5; no rise above the roof's high side",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "answer q_chimney_termination",
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5",
+        "answer q_fireplace_location"
+      ],
+      "basis": "Policy answer settles the 10-3-2 question at the low-eave termination drawn on p5 — chase is a short box outside the roof edge, not a tall chase against the house roof"
+    },
+    {
       "id": "chimney_termination_height_ft",
-      "label": "Chimney termination height",
+      "label": "Chimney cap height above porch floor",
       "value": null,
       "unit": "ft",
       "confidence": "unknown",
       "sources": [
-        "205 Pawnee St - Proposal.pdf p.2",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5",
-        "answer q_fireplace_location"
+        "answer q_chimney_termination",
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
       ],
-      "basis": "Chimney is outside the shed roof edge at the low eave, so 10-3-2 is measured against the shed roof plane within 10' and the existing hip roof beyond; no roof heights given — chase height above the 6'-wide box (drawn 3'-7\" + 8\") is unresolved"
+      "basis": "Termination settled as 'just above the low eave' (~8'-2\" per p5) but the cap/chase top is not dimensioned — p5's 3'-7\" and 8\" dims sit at the chase/roofline without a clear datum; manufacturer's minimum pipe height above the chase governs"
     },
     {
       "id": "roof_penetration_count",
-      "label": "Roof penetrations (new shed roof)",
+      "label": "Roof penetrations",
       "value": 0,
       "unit": "count",
       "confidence": "medium",
@@ -534,8 +593,20 @@
       "basis": "Chimney rises outside the roof edge per answer; no existing vents under the tie-in per answer; zero electrical/plumbing — a chase-to-roof-edge flashing/counterflash detail remains where the chase abuts the eave"
     },
     {
+      "id": "utility_relocation_count",
+      "label": "Existing wall fixtures to relocate before slab",
+      "value": 0,
+      "unit": "count",
+      "confidence": "high",
+      "sources": [
+        "answer q_wall_fixtures",
+        "answer q_hvac"
+      ],
+      "basis": "Answers: hose bibbs, condenser disconnect, meter, exterior lights on the two tie-in walls and the condenser itself all stay — protect in place, no disconnect/move work"
+    },
+    {
       "id": "electrical_device_count",
-      "label": "Electrical devices / circuits",
+      "label": "Electrical devices / fixtures",
       "value": 0,
       "unit": "count",
       "confidence": "high",
@@ -548,7 +619,7 @@
     },
     {
       "id": "ceiling_finish",
-      "label": "Ceiling finish under rafters",
+      "label": "Ceiling finish",
       "value": "exposed rafters, no ceiling finish",
       "unit": "categorical",
       "confidence": "high",
@@ -560,7 +631,7 @@
     },
     {
       "id": "fascia_soffit_gutter_lf",
-      "label": "Fascia / soffit / gutter LF (new shed roof)",
+      "label": "New fascia / soffit / gutter",
       "value": 0,
       "unit": "lf",
       "confidence": "high",
@@ -573,7 +644,7 @@
     },
     {
       "id": "site_access",
-      "label": "Site access / equipment route",
+      "label": "Site access",
       "value": "rear-yard inside corner of house; direct concrete-truck and mini-excavator access via side yard (no pump/buggy); existing HVAC condenser adjacent but outside footprint — protect in place",
       "unit": "categorical",
       "confidence": "high",
@@ -599,7 +670,7 @@
     },
     {
       "id": "inspection_count",
-      "label": "Required inspections",
+      "label": "Inspections",
       "value": 2,
       "unit": "count",
       "confidence": "medium",
@@ -611,7 +682,7 @@
     },
     {
       "id": "engineering_required",
-      "label": "Structural engineering required",
+      "label": "Structural engineering",
       "value": "no — in-house sizing per IRC prescriptive tables",
       "unit": "categorical",
       "confidence": "high",
@@ -634,7 +705,7 @@
     },
     {
       "id": "existing_vents_in_tie_in",
-      "label": "Existing vents under roof tie-in area",
+      "label": "Existing vents under tie-in",
       "value": 0,
       "unit": "count",
       "confidence": "high",
@@ -698,7 +769,7 @@
           "groundwork"
         ],
         "mapping_confidence": "high",
-        "notes": "Slab is the floor, the fireplace footing, and (per answer) the turned-down post footings — must precede posts/framing, so Site Prep & Foundation, not concrete_landscape (which receives nothing on this job)"
+        "notes": "Slab is the floor, the fireplace footing, and (per answer) the 7-9 turned-down post footings — must precede posts/framing, so Site Prep & Foundation, not concrete_landscape (which receives nothing on this job)"
       },
       {
         "section_id": "roof_framing_roofing",
@@ -711,7 +782,7 @@
           "structural_framing"
         ],
         "mapping_confidence": "high",
-        "notes": "House-side beam on posts, open-side built-up beam, posts, rafters, blocking, sheathing; JBD's 'chimney-penetration framing' no longer applies (chimney outside roof edge)"
+        "notes": "House-side beam on posts, open-side built-up beam, posts, rafters, blocking, sheathing, gutter-only eave tie-in; JBD's 'chimney-penetration framing' no longer applies (chimney outside roof edge)"
       },
       {
         "section_id": "roofing",
@@ -779,7 +850,7 @@
         "notes": "Zero electrical confirmed by answer — no rough-in, no devices; the 6h/$95 carry has no component and should size to zero"
       },
       {
-        "section_id": "cleanup",
+        "section_id": "closeout",
         "section_name": "Final Install + Cleanup (1 Dumpster + Haul)",
         "labor_hours": 12,
         "labor_cost": 417.5,
@@ -800,11 +871,11 @@
   "flags": [
     {
       "kind": "conflict",
-      "message": "Proposal cover title 'Deck Building' and sole line item 'Build Deck as Above' describe no deck; the itemized scope is paver demo, slab, shed roof, screen enclosure, fireplace — deck component carries zero and the 'posts integrated with existing deck framing' language is a carry-over error now superseded by the turned-down-footing answer."
+      "message": "Proposal cover title 'Deck Building' and sole line item 'Build Deck as Above' describe no deck; the itemized scope is paver demo, slab, shed roof, screen enclosure, fireplace — deck component carries zero and the 'posts integrated with existing deck framing' language is a carry-over error superseded by the turned-down-footing answer."
     },
     {
-      "kind": "suspect",
-      "message": "Post count: JBD carries 5 posts, but the plan's post spacing implies ≥7 on the long open side and the settled house-side beam-on-posts tie-in adds 3-4 more — expect 10-12 posts and matching turned-down footings, none of which are priced in the JBD concrete or framing sections."
+      "kind": "conflict",
+      "message": "Post count is now settled at 7-9 (carried 8) but the JBD prices 5 posts and zero turned-down footings — post material, footing excavation/forming, and ~0.5-0.7 cy extra concrete are all missing from the JBD concrete and framing sections, so its 42h/70h should not be read as covering them."
     },
     {
       "kind": "conflict",
@@ -816,7 +887,11 @@
     },
     {
       "kind": "conflict",
-      "message": "JBD roof-structure labor includes 'chimney-penetration framing' and the fireplace section carries $245 chimney roof flashing/storm collar, but the settled location puts the chimney outside the shed roof edge — that work reduces to a chase-to-eave counterflash detail, not a penetration."
+      "message": "JBD roof-structure labor includes 'chimney-penetration framing', TL 8h for 10-3-2 chimney-height work, and $245 chimney roof flashing/storm collar, but the settled location and termination put the chimney outside the shed roof edge ending just above the low eave — that work reduces to a chase-to-eave counterflash detail, not a penetration or a tall chase."
+    },
+    {
+      "kind": "suspect",
+      "message": "The chimney-termination policy (cap just above the ~8' low eave, not above the shed roof's high side) sits below the shed roof plane within 10' horizontally, which is the geometry 10-3-2 normally forbids — the confirmed fireplace/chimney inspection is where this could be rejected, so sizing should not assume the chase height is final until the inspector or the firebox manufacturer's termination table signs off."
     },
     {
       "kind": "conflict",
@@ -824,11 +899,11 @@
     },
     {
       "kind": "suspect",
-      "message": "Roof structure 70h for a ~300 sqft single-plane shed roof with 19 rafters, two beams, ~10 posts and 10 sheets of sheathing runs hot; a 3-person crew would normally frame and sheathe this in 2-2.5 days (~50h), and with the ledger replaced by a beam on posts the only extra effort is post/beam setting and the eave tie-in."
+      "message": "Roof structure 70h for a ~300 sqft single-plane shed roof with 19 rafters, two beams, ~8 posts and 10 sheets of sheathing runs hot; a 3-person crew would normally frame and sheathe this in 2-2.5 days (~50h), and with the ledger replaced by a beam on posts and the eave tie-in limited to gutter removal the only extra effort is post/beam setting."
     },
     {
       "kind": "suspect",
-      "message": "WB fireplace structure 98h (90h GL) is heavy now that the manufactured firebox + Class A pipe in a ~6'-wide framed chase is settled — a manufactured kit is typically a 3-4 day, 2-person install (~50-65h); the 98h only made sense against the masonry option that is now off the table."
+      "message": "WB fireplace structure 98h (90h GL) is heavy now that the manufactured firebox + Class A pipe in a ~6'-wide framed chase terminating at the low eave is settled — a manufactured kit is typically a 3-4 day, 2-person install (~50-65h); the 98h only made sense against the masonry option that is now off the table."
     },
     {
       "kind": "suspect",
@@ -840,11 +915,15 @@
     },
     {
       "kind": "suspect",
-      "message": "General conditions 30h includes 18h PM for fireplace-system and finish-selection coordination that is now complete per answers (all selections final) — remaining PM effort is scheduling, permit pull, and inspection coordination, closer to 8-12h."
+      "message": "General conditions 30h includes 18h PM for fireplace-system and finish-selection coordination that is now complete per answers (all selections final, lead times known) — remaining PM effort is scheduling, permit pull, and inspection coordination, closer to 8-12h."
     },
     {
       "kind": "gap",
-      "message": "No roof pitch or beam/post sizing exists in any source (sized in-house per IRC tables, not yet done); roof area is carried as plan area (~300 sqft) with no slope factor, and the 10-3-2 termination check for a chimney at the low eave against the existing hip roof could force a taller chase than the 6' × ~3'-7\" drawn."
+      "message": "No roof pitch or beam/post sizing exists in any source (sized in-house per IRC tables, not yet done); roof area is carried as plan area (~300 sqft) with no slope factor, and the exact chase/cap height is undimensioned even though termination is settled at 'just above the low eave'."
+    },
+    {
+      "kind": "gap",
+      "message": "Firebox + Class A kit lead time is 3-4 weeks and the kit dimensions drive the fireplace footing thickening and chase framing — with the 'no demo without materials' policy, the kit (or at least its spec sheet) must be in hand before the slab pour, which the JBD's ~5-6 wk duration does not account for."
     },
     {
       "kind": "mapping",
