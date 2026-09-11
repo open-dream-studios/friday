@@ -19,3 +19,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Notes: raw answer — typing call unavailable; re-type via UI
 - DEFAULT: Fireplace and chimney placement: The fireplace is centered on the open long side wall per the plan (p.4), with the chimney rising outside the shed roof edge rather than penetrating through it.
 - POLICY: porch electrical scope: The porch has no electrical rough-in — no fan, lights, or GFCI receptacle are being added.
+- POLICY: Shed roof fascia/soffit/gutters exclusion: Fascia, soffit, and gutters on the new shed roof are excluded from the contracted scope of this job.
