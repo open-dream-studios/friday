@@ -13,3 +13,7 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Label: Q | Value: Is there a finished ceiling (beadboard or T&G) under the shed rafters, or do the rafters stay exposed?
     Label: A | Value: Exposed rafters, no ceiling finish
     Notes: raw answer — typing call unavailable; re-type via UI
+- REFERENCE: Who sizes the rafters, ledger/beam, and posts — in-house per IRC tables or a str
+    Label: Q | Value: Who sizes the rafters, ledger/beam, and posts — in-house per IRC tables or a structural engineer?
+    Label: A | Value: In-house per IRC prescriptive tables, no engineer
+    Notes: raw answer — typing call unavailable; re-type via UI
