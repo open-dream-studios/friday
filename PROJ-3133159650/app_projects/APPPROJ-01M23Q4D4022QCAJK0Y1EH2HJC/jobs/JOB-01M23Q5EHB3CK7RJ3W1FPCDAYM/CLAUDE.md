@@ -23,3 +23,7 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: HVAC condenser relative to patio footprint: The existing HVAC condenser sits outside the new patio footprint and does not need to be relocated; crews should protect it in place rather than performing any disconnect/move work.
 - DEFAULT: Rear-yard patio equipment access route: Concrete trucks and mini-excavators can reach the rear-yard patio directly via the side yard, with no pump truck or concrete buggy required.
 - DEFAULT: Selection finality: veneer, hearth, mantel, shingle, screen door: All customer selections are final for veneer, hearth, mantel, shingle match, and screen door — none remain outstanding.
+- REFERENCE: Is the beam carrying the rafters over the open screen side dimensional lumber or
+    Label: Q | Value: Is the beam carrying the rafters over the open screen side dimensional lumber or an LVL?
+    Label: A | Value: Built-up dimensional lumber (double 2x10/2x12)
+    Notes: raw answer — typing call unavailable; re-type via UI
