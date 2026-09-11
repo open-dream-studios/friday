@@ -17,3 +17,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Label: Q | Value: Who sizes the rafters, ledger/beam, and posts — in-house per IRC tables or a structural engineer?
     Label: A | Value: In-house per IRC prescriptive tables, no engineer
     Notes: raw answer — typing call unavailable; re-type via UI
+- DEFAULT: Fireplace and chimney placement: The fireplace is centered on the open long side wall per the plan (p.4), with the chimney rising outside the shed roof edge rather than penetrating through it.
