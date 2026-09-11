@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "generation_id": "01M27DVDJFWM2897V16EA2ZJFS",
+  "generated_at": "2026-09-11T05:11:10.709Z",
+  "structure": {
+    "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
+    "version": 9,
+    "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+  },
+  "ledger": {
+    "docs": [
+      {
+        "document_id": "doc_01M23Q4QZ0S3HQXZ91D9ZRQMBF",
+        "version": 2,
+        "name": "205 Pawnee St - Proposal.pdf",
+        "size": 331382,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01M23Q4VJD34AZV4A56Q0FTGNV",
+        "version": 2,
+        "name": "205 Pawnee Street - Breakdown.xlsx",
+        "size": 90393,
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01M23Q4Y54NR71AGAWZW779PV3",
+        "version": 2,
+        "name": "Pawnee Street Screened In Porch Presentation - Drawing.pdf",
+        "size": 6606128,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01M23Q4QZ0S3HQXZ91D9ZRQMBF",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 37
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 41
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M23Q4D4022QCAJK0Y1EH2HJC",
+        "revision": 2
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM",
+        "revision": 73
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M23Q4D4022QCAJK0Y1EH2HJC",
+        "sha256": "b3a97392182c08edd8a78de04752f49c9e5723be5312c9027cebdea1c1fe96e6"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM",
+        "sha256": "88c2517891c9470afb2cb24a1b63a611ff6b053fe83c9b758b10a5068e69a456"
+      }
+    ],
+    "questions": {
+      "count": 23,
+      "answered_ids": [
+        "q_01M27BMXPK7HPV1NRSZKVPN3N8",
+        "q_01M27BMXPMDJJHMNJQA0SSEYTJ",
+        "q_01M27BMXPMVRT84RZEM65P9DDY",
+        "q_01M27BMXPN2JB912P91QSSES2D",
+        "q_01M27BMXPN35W6FPWKRAMGDSVV",
+        "q_01M27BMXPN50WH8J8YEPFAXWWA",
+        "q_01M27BMXPNHXTTJ0VYB5EZ5QYA",
+        "q_01M27BMXPNX2RE9M9PPPH30A18",
+        "q_01M27BMXPP9RC46QTP1W8A1MH1",
+        "q_01M27BMXPPQ6596HPG2AEHQ0B1",
+        "q_01M27BMXPPS3M23XAF8454S5MB",
+        "q_01M27BMXPQ6SERV6XG3G0JGQQY",
+        "q_01M27BMXPQDDAGRYYXBWVF9ZFP",
+        "q_01M27BMXPQZEJ0ZG68KRF2448W",
+        "q_01M27BMXPRJ9GJ02NJFWCYZ8QK",
+        "q_01M27CV8H090SEBVHDD9MC2P6M",
+        "q_01M27CV8H0FH9PTXEPBCGNQ0B2",
+        "q_01M27CV8H0JMX7MVTMQ5GBFVSK",
+        "q_01M27CV8H0MQ9BENGW943PW2JN",
+        "q_01M27CV8H15Y7K6CFD4BJ8H7EA",
+        "q_01M27CV8H1EMG8AM6XHABRK5MS",
+        "q_01M27CV8H1V9ZZC0S3K5FDKN27"
+      ],
+      "sha256": "b0130c12bf1601aec7fa6e1e3e7e01bf260c01d16e14c276f0483fc989a5a078"
+    },
+    "changelog": {
+      "lines": 557,
+      "tail_sha256": "b7fe2f24a91fe3e42ac7a5dc209548c0b928f6c71b77fa6053591318a2e5af44"
+    }
+  },
+  "blocking_open_at_generation": 0
+}
