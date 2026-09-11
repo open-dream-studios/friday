@@ -31,4 +31,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Condition: If Applies instead of treating the breakdown's 60 LF figure as three open sides
 - DEFAULT: existing roof/wall vents under new shed roof tie-in: No existing vents (dryer, range hood, plumbing stack, bath fan) on the rear wall or roof fall within the new shed roof's tie-in area
 - DEFAULT: roof post count including footings: The final roof layout carries 7 to 9 posts total, counting both the house-side beam posts and the open-side posts, each with a turned-down footing.
-- DEFAULT: Firebox and chimney kit lead time: The selected manufactured firebox and Class A chimney kit have a lead time of 3-4 weeks from order date.
+- POLICY: hose bibbs, condenser, meter, exterior lights on tie-in walls: Existing hose bibbs, the condenser disconnect, the meter, and exterior lights on the two tie-in walls do not need relocating before the slab pour — protect them in place.
