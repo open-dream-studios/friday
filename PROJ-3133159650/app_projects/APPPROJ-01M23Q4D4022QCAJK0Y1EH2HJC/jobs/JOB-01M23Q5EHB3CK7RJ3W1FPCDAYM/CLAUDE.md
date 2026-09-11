@@ -30,4 +30,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Screen porch open sides count: The screened porch is open and screened on two sides (approximately 36 linear feet total), with the house forming the enclosure on the other two sides.
     Condition: If Applies instead of treating the breakdown's 60 LF figure as three open sides
 - DEFAULT: existing roof/wall vents under new shed roof tie-in: No existing vents (dryer, range hood, plumbing stack, bath fan) on the rear wall or roof fall within the new shed roof's tie-in area
-- DEFAULT: Firebox and chimney kit lead time: The selected manufactured firebox and Class A chimney kit have a lead time of 3-4 weeks.
+- DEFAULT: roof post count including footings: The final roof layout carries 7 to 9 posts total, counting both the house-side beam posts and the open-side posts, each with a turned-down footing.
