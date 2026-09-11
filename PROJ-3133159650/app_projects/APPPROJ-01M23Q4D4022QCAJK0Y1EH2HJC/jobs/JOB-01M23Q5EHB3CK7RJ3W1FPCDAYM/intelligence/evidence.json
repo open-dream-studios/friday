@@ -1,17 +1,17 @@
 {
   "schema": "job_evidence_v1",
-  "built_at": "2026-09-11T04:20:12.048Z",
+  "built_at": "2026-09-11T04:46:24.337Z",
   "entity": {
     "kind": "job",
     "id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM"
   },
   "derived_from": {
-    "fingerprint": "1b8ef104dc0ae636ef11488896a80c4b94d6cec71ea0fe1a8363f9a76d63a804"
+    "fingerprint": "9e2ba100c8b7e41cf22a80f4d514f874df905d432ef1c4982eb037380d86cfcd"
   },
   "quantities": [
     {
       "id": "footprint_sqft",
-      "label": "Patio / roof footprint area",
+      "label": "Patio / porch footprint",
       "value": 294,
       "unit": "sqft",
       "confidence": "high",
@@ -25,7 +25,7 @@
     },
     {
       "id": "patio_length_ft",
-      "label": "Patio length (along house wall / open long side)",
+      "label": "Patio length along house (open long side)",
       "value": 23.5,
       "unit": "ft",
       "confidence": "high",
@@ -37,7 +37,7 @@
     },
     {
       "id": "patio_depth_ft",
-      "label": "Patio depth (rafter span direction)",
+      "label": "Patio depth (house wall to open side)",
       "value": 12.5,
       "unit": "ft",
       "confidence": "high",
@@ -49,7 +49,7 @@
     },
     {
       "id": "stories",
-      "label": "Stories (new structure)",
+      "label": "Stories",
       "value": 1,
       "unit": "count",
       "confidence": "high",
@@ -61,7 +61,7 @@
     },
     {
       "id": "occupied_home",
-      "label": "Home occupied during work",
+      "label": "Occupied home during work",
       "value": "yes (implied)",
       "unit": "categorical",
       "confidence": "medium",
@@ -73,7 +73,7 @@
     },
     {
       "id": "conditioned_sqft_new",
-      "label": "New conditioned floor area",
+      "label": "New conditioned area",
       "value": 0,
       "unit": "sqft",
       "confidence": "high",
@@ -85,7 +85,7 @@
     },
     {
       "id": "demo_paver_area_sqft",
-      "label": "Existing pavers to remove",
+      "label": "Paver demolition area",
       "value": 294,
       "unit": "sqft",
       "confidence": "high",
@@ -97,7 +97,7 @@
     },
     {
       "id": "demo_concrete_cut_sqft",
-      "label": "Fire pit concrete saw-cut / removal area",
+      "label": "Fire-pit concrete saw-cut area",
       "value": 9,
       "unit": "sqft",
       "confidence": "high",
@@ -108,7 +108,7 @@
     },
     {
       "id": "dumpster_yd",
-      "label": "Dumpster size / haul allowance",
+      "label": "Dumpster size",
       "value": 12,
       "unit": "yd",
       "confidence": "high",
@@ -120,14 +120,14 @@
     },
     {
       "id": "excavation_area_sqft",
-      "label": "Excavation area for new slab",
+      "label": "Excavation area",
       "value": 294,
       "unit": "sqft",
       "confidence": "high",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.1"
       ],
-      "basis": "'Excavate approx 12.5' x 23.5' area for new concrete patio'; depth not stated (4\" slab + gravel base ≈ 8-10\" implied)"
+      "basis": "'Excavate approx 12.5' x 23.5' area for new concrete patio'; depth not stated (4\" slab + gravel base ≈ 8-10\" implied, deeper at thickened footings)"
     },
     {
       "id": "gravel_base_cy",
@@ -143,7 +143,7 @@
     },
     {
       "id": "concrete_slab_area_sqft",
-      "label": "New 4\" concrete flatwork area",
+      "label": "Concrete slab area (patio + infill)",
       "value": 303,
       "unit": "sqft",
       "confidence": "high",
@@ -166,66 +166,82 @@
     },
     {
       "id": "concrete_volume_cy",
-      "label": "Ready-mix volume incl. fireplace footing thickening",
+      "label": "Ready-mix concrete volume",
       "value": 4.2,
       "unit": "cy",
       "confidence": "medium",
       "sources": [
-        "205 Pawnee Street - Breakdown.xlsx"
+        "205 Pawnee Street - Breakdown.xlsx",
+        "answer q_post_bearing"
       ],
-      "basis": "303 sqft × 4/12 ft = 101 cf = 3.74 cy base slab; JBD carries 4.2 cy with fireplace footing thickening — thickening depth/extent not specified anywhere"
+      "basis": "303 sqft × 4/12 ft = 101 cf = 3.74 cy base slab; JBD carries 4.2 cy with fireplace footing thickening; answer adds turned-down post footings at each post (5+ × ~2 cf each ≈ 0.4-0.6 cy more) — thickening depths not specified, so 4.2 is likely slightly light"
     },
     {
       "id": "foundation_type",
       "label": "Foundation type",
-      "value": "slab-on-grade with thickened area at fireplace; post bearing method unresolved",
+      "value": "4\" slab-on-grade on gravel; thickened footing under fireplace; turned-down thickened footings cast integrally at each roof post",
       "unit": "categorical",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
-        "205 Pawnee Street - Breakdown.xlsx"
+        "205 Pawnee Street - Breakdown.xlsx",
+        "answer q_post_bearing"
       ],
-      "basis": "4\" slab on gravel; fireplace 'proper footing or structural support' carried by JBD as thickened slab; no turned-down post footings priced and proposal says posts 'integrated with existing deck framing' (no deck exists in scope)"
+      "basis": "Proposal 4\" slab; JBD carries fireplace footing as thickened area in the pour; answer settles post bearing on turned-down footings in the new slab (no piers, no deck framing) — post layout must be locked before forms"
     },
     {
       "id": "foundation_perimeter_lf",
-      "label": "Slab form perimeter",
+      "label": "Slab perimeter / formwork LF",
       "value": 72,
       "unit": "lf",
       "confidence": "high",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.1"
       ],
-      "basis": "2×(12.5 + 23.5) = 72 LF of formwork around the new slab (house walls on two sides may reduce free-standing forms)"
+      "basis": "2×(12.5 + 23.5) = 72 LF around the new slab; house walls on two sides mean ~36 LF free-standing forms + 36 LF against existing foundation"
+    },
+    {
+      "id": "post_footing_count",
+      "label": "Turned-down post footings in slab",
+      "value": 5,
+      "unit": "count",
+      "confidence": "low",
+      "sources": [
+        "answer q_post_bearing",
+        "205 Pawnee Street - Breakdown.xlsx",
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4"
+      ],
+      "basis": "One turned-down footing per post per answer; count tied to post_count (JBD ~5, plan spacing implies more) — nothing priced for these in JBD"
     },
     {
       "id": "roof_type",
-      "label": "Roof structure type",
-      "value": "shed, stick-framed 2x8 rafters, ledger/beam tie-in to existing roof/wall",
+      "label": "Roof type / framing method",
+      "value": "shed, stick-framed 2x8 rafters bearing on a house-side beam on posts and an open-side built-up beam; rafters tie into existing eave/roof framing",
       "unit": "categorical",
       "confidence": "high",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
         "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
+        "answer q_roof_tie_in",
+        "answer q_beam_type"
       ],
-      "basis": "Proposal 'shed-style roof ... tying into existing roof structure', 'stick-framed, no trusses'; JBD 2x8 rafters; drawing shows exposed shed rafters — no engineering provided"
+      "basis": "Proposal 'shed-style roof ... tying into existing roof structure', stick-framed no trusses; answers settle: no ledger on the brick — beam on posts along the house wall, rafters tie into the existing eave; open-side beam is built-up double 2x10/2x12, sized in-house per IRC tables"
     },
     {
       "id": "roof_pitch",
-      "label": "Roof pitch",
+      "label": "Shed roof pitch",
       "value": null,
-      "unit": "x:12",
+      "unit": "in/12",
       "confidence": "unknown",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
       ],
-      "basis": "No pitch value in proposal, breakdown, or drawing set; only 'proper pitch and drainage' — low-slope shed under an existing eave is likely (drawing 8'-1 15/16\" low eave) but not stated"
+      "basis": "No pitch value in proposal, breakdown, drawings, or answers; only 'proper pitch and drainage' — low-slope shed tying under/into an existing eave (drawing 8'-1 15/16\" low eave) is likely but not stated"
     },
     {
       "id": "roof_area_sqft",
-      "label": "Roof surface area (new shed roof)",
+      "label": "Shed roof area (plan)",
       "value": 300,
       "unit": "sqft",
       "confidence": "medium",
@@ -237,7 +253,7 @@
     },
     {
       "id": "shingle_squares",
-      "label": "Asphalt shingles (matched to existing)",
+      "label": "Asphalt shingles",
       "value": 3.3,
       "unit": "sq",
       "confidence": "medium",
@@ -245,7 +261,7 @@
         "205 Pawnee Street - Breakdown.xlsx",
         "205 Pawnee St - Proposal.pdf p.2"
       ],
-      "basis": "300 sqft / 100 × 1.10 waste = 3.3 sq; excludes tie-in weave into existing roof (extent not stated)"
+      "basis": "300 sqft / 100 × 1.10 waste = 3.3 sq; excludes tie-in weave into existing roof (extent not stated); shingle match selection is final per answer"
     },
     {
       "id": "rafter_count",
@@ -260,54 +276,69 @@
     },
     {
       "id": "rafter_span_ft",
-      "label": "Rafter span",
+      "label": "Rafter span (house beam to open-side beam)",
       "value": 12.5,
       "unit": "ft",
       "confidence": "medium",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.1",
-        "205 Pawnee Street - Breakdown.xlsx"
+        "205 Pawnee Street - Breakdown.xlsx",
+        "answer q_engineering"
       ],
-      "basis": "Patio depth 12.5' ledger-to-beam plus overhang; 2x8 size per JBD, not engineered"
+      "basis": "Patio depth 12.5' beam-to-beam plus overhang; 2x8 per JBD, sized in-house per IRC prescriptive tables (no engineer) per answer"
     },
     {
       "id": "roof_sheathing_sheets",
-      "label": "Roof sheathing 7/16 OSB",
+      "label": "Roof sheathing",
       "value": 10,
       "unit": "sheets",
       "confidence": "medium",
       "sources": [
         "205 Pawnee Street - Breakdown.xlsx"
       ],
-      "basis": "300 sqft / 32 sqft per sheet = 9.4 → 10 sheets"
+      "basis": "300 sqft / 32 sqft per sheet = 9.4 → 10 sheets 7/16 OSB"
     },
     {
       "id": "ledger_lf",
-      "label": "Ledger / beam connection to existing house",
+      "label": "House-side beam on posts (in lieu of ledger)",
       "value": 23.5,
       "unit": "lf",
       "confidence": "medium",
       "sources": [
+        "answer q_roof_tie_in",
         "205 Pawnee St - Proposal.pdf p.2",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4"
       ],
-      "basis": "Shed roof high side bears on the existing house along the 23.5' wall; plan shows patio wrapping an inside corner so a second short tie-in on the ~12' return wall is possible (not stated)"
+      "basis": "Answer: no ledger on brick — a beam on posts runs along the 23.5' house wall with rafters tying into the existing eave; the ~12' return house wall is a rake end (no rafter bearing) so not counted"
+    },
+    {
+      "id": "open_side_beam_lf",
+      "label": "Open-side carrying beam (built-up dimensional)",
+      "value": 23.5,
+      "unit": "lf",
+      "confidence": "medium",
+      "sources": [
+        "answer q_beam_type",
+        "205 Pawnee St - Proposal.pdf p.1"
+      ],
+      "basis": "Beam over the 23.5' open long side carrying rafter low ends; built-up double 2x10/2x12 per answer, spliced over posts; the 12.5' open return carries screen framing only"
     },
     {
       "id": "post_count",
-      "label": "Vertical support posts (6x6 PT)",
+      "label": "Roof support posts (6x6 PT)",
       "value": 5,
       "unit": "count",
       "confidence": "low",
       "sources": [
         "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4"
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4",
+        "answer q_roof_tie_in"
       ],
-      "basis": "JBD carries ~5 posts; drawing plan p4 shows post symbols at 2'-2\", 2'-2\", 3'-7 1/2\", 3'-7\", 3'-7\" flanking a 6'-4\" fireplace bay on the long open side alone (implies ≥7 posts there plus the open return) — proposal gives no count"
+      "basis": "JBD carries ~5 posts; plan p4 post symbols at 2'-2\", 2'-2\", 3'-7 1/2\", 3'-7\", 3'-7\" flanking a 6'-4\" fireplace bay imply ≥7 on the long open side alone, and the house-side beam-on-posts per answer adds 3-4 more — 5 is almost certainly light; proposal gives no count"
     },
     {
       "id": "eave_height_ft",
-      "label": "Porch floor to low eave (plate height proxy)",
+      "label": "Low-side eave height (porch floor to eave)",
       "value": 8.16,
       "unit": "ft",
       "confidence": "low",
@@ -318,19 +349,20 @@
     },
     {
       "id": "screen_wall_lf",
-      "label": "New screened perimeter wall (knee wall + screen framing)",
+      "label": "Screened / knee-wall perimeter (open sides)",
       "value": 36,
       "unit": "lf",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
+        "answer q_open_sides",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4",
         "205 Pawnee St - Proposal.pdf p.2"
       ],
-      "basis": "Plan p4: house walls on top (23.5') and return (12.5') sides, open sides = 23.5 + 12.5 = 36 LF; less one 3' door opening = ~33 LF of knee wall; JBD carries ~60 LF (see flag)"
+      "basis": "Answer: two open sides, house on two sides — 23.5 + 12.5 = 36 LF; less one 3' door opening = ~33 LF knee wall; JBD's ~60 LF (three sides) is superseded"
     },
     {
       "id": "knee_wall_height_ft",
-      "label": "Knee wall height",
+      "label": "Knee-wall height",
       "value": 2,
       "unit": "ft",
       "confidence": "medium",
@@ -342,7 +374,7 @@
     },
     {
       "id": "screen_bay_height_ft",
-      "label": "Screen bay height (top rail to knee wall)",
+      "label": "Screen bay height (knee wall to header)",
       "value": 4.17,
       "unit": "ft",
       "confidence": "low",
@@ -353,13 +385,14 @@
     },
     {
       "id": "screen_area_sqft",
-      "label": "Screening area (approx.)",
+      "label": "Screen field area",
       "value": 150,
       "unit": "sqft",
       "confidence": "low",
       "sources": [
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.6",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.17"
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.17",
+        "answer q_open_sides"
       ],
       "basis": "36 LF × 4.17' ≈ 150 sqft of screen field between posts, before door and fireplace-bay deductions; drawings p17-19 add a triangular transom band above the header not described in the proposal"
     },
@@ -371,9 +404,10 @@
       "confidence": "high",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.7"
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.7",
+        "answer q_selections"
       ],
-      "basis": "'Frame (1) screen door opening; install (1) screen door + hardware ($125 budget)'; drawing 3068 (3' x 6'-8\")"
+      "basis": "'Frame (1) screen door opening; install (1) screen door + hardware ($125 budget)'; drawing 3068 (3' x 6'-8\"); selection final per answer"
     },
     {
       "id": "window_count_new",
@@ -389,7 +423,7 @@
     },
     {
       "id": "exterior_door_count_new",
-      "label": "New exterior (non-screen) doors",
+      "label": "New exterior doors (non-screen)",
       "value": 0,
       "unit": "count",
       "confidence": "high",
@@ -407,13 +441,14 @@
       "sources": [
         "205 Pawnee St - Proposal.pdf p.1",
         "205 Pawnee St - Proposal.pdf p.3",
-        "205 Pawnee Street - Breakdown.xlsx"
+        "205 Pawnee Street - Breakdown.xlsx",
+        "answer q_post_bearing"
       ],
-      "basis": "Title and line item say 'Deck' but itemized scope is paver demo + concrete patio + shed roof + screen + fireplace; no deck construction anywhere; JBD prices no deck"
+      "basis": "Title and line item say 'Deck' but itemized scope is paver demo + concrete patio + shed roof + screen + fireplace; no deck anywhere; answer confirms posts bear on slab footings, not deck framing"
     },
     {
       "id": "fireplace_width_in",
-      "label": "Wood-burning outdoor fireplace width",
+      "label": "Fireplace / chase width",
       "value": 72,
       "unit": "in",
       "confidence": "high",
@@ -421,35 +456,48 @@
         "205 Pawnee St - Proposal.pdf p.2",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
       ],
-      "basis": "Proposal 'approximately 72\" wide'; drawing chimney chase 6' wide; height per final design/flue/roof clearance — not given"
+      "basis": "Proposal 'approximately 72\" wide'; drawing chimney chase 6' wide; height per flue termination — not given"
     },
     {
       "id": "fireplace_system_type",
       "label": "Fireplace system type",
-      "value": "undecided",
+      "value": "framed wood chase, manufactured wood-burning firebox, Class A double-wall pipe, brick-veneered exterior (drawing p5)",
       "unit": "categorical",
-      "confidence": "low",
+      "confidence": "high",
       "sources": [
-        "205 Pawnee St - Proposal.pdf p.2",
-        "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
+        "answer q_fireplace_system",
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5",
+        "205 Pawnee Street - Breakdown.xlsx"
       ],
-      "basis": "Proposal 'masonry or framed' undecided; JBD priced on manufactured basis ($3,500 system, 're-price at selection'); drawing p5 callout shows framed wood chase, brick veneer, Class A pipe — no confirmed selection"
+      "basis": "Answer settles the proposal's masonry-vs-framed question on the framed/manufactured system as drawn on p5; JBD's manufactured basis ($3,500 system) now applies — no masonry re-price"
+    },
+    {
+      "id": "fireplace_location",
+      "label": "Fireplace / chimney location",
+      "value": "centered on the open 23.5' long side in the 6'-4\" bay; chimney rises outside the shed roof edge",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "answer q_fireplace_location",
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.4"
+      ],
+      "basis": "Answer adopts plan p4 placement over the inconsistent render positions; chase sits at the low eave and clears the roof rather than penetrating it"
     },
     {
       "id": "fireplace_veneer_sqft",
-      "label": "Fireplace veneer area (stone/tile, $5/sqft allowance)",
+      "label": "Fireplace veneer area",
       "value": 150,
       "unit": "sqft",
       "confidence": "low",
       "sources": [
-        "205 Pawnee Street - Breakdown.xlsx"
+        "205 Pawnee Street - Breakdown.xlsx",
+        "answer q_selections"
       ],
-      "basis": "JBD planning number ~150 SF (+10% waste); proposal gives no area — plausible for a 6' wide full-height chase to ~8' (6×8 front + returns ≈ 100-150) but unverified"
+      "basis": "JBD planning number ~150 SF (+10% waste); proposal gives no area — plausible for a 6' wide chase to ~8' plus returns (6×8 front + 2×2×8 sides ≈ 80 + interior stone) but unverified; veneer selection final per answer"
     },
     {
       "id": "hearth_sqft",
-      "label": "Hearth area ($5/sqft allowance)",
+      "label": "Hearth area",
       "value": 24,
       "unit": "sqft",
       "confidence": "low",
@@ -457,86 +505,147 @@
         "205 Pawnee Street - Breakdown.xlsx",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.15"
       ],
-      "basis": "JBD planning ~24 SF; drawing p15 shows raised two-tier hearth 4\" high with 7/8\" lip — no plan dims for hearth depth"
+      "basis": "JBD planning ~24 SF (6' × 4' projection); drawing p15 shows raised two-tier hearth 4\" high with 7/8\" lip — no plan dims for hearth depth; selection final"
     },
     {
       "id": "chimney_termination_height_ft",
-      "label": "Chimney termination height above roof",
+      "label": "Chimney termination height",
       "value": null,
       "unit": "ft",
       "confidence": "unknown",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5"
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.5",
+        "answer q_fireplace_location"
       ],
-      "basis": "Proposal 'required termination height above roofline/adjacent structures'; 10-3-2 rule must be checked against both the shed roof and the existing hip main roof — no roof heights or chimney location fixed (drawings place chimney inconsistently)"
+      "basis": "Chimney is outside the shed roof edge at the low eave, so 10-3-2 is measured against the shed roof plane within 10' and the existing hip roof beyond; no roof heights given — chase height above the 6'-wide box (drawn 3'-7\" + 8\") is unresolved"
     },
     {
       "id": "roof_penetration_count",
       "label": "Roof penetrations (new shed roof)",
-      "value": 1,
+      "value": 0,
       "unit": "count",
       "confidence": "medium",
       "sources": [
-        "205 Pawnee St - Proposal.pdf p.2",
-        "205 Pawnee Street - Breakdown.xlsx"
+        "answer q_fireplace_location",
+        "answer q_vents",
+        "205 Pawnee St - Proposal.pdf p.2"
       ],
-      "basis": "Only the fireplace chimney/flue; no vents, no electrical, no plumbing — assumes chimney passes through the new shed roof (drawings p11/p13 place it near the ridge tie-in)"
+      "basis": "Chimney rises outside the roof edge per answer; no existing vents under the tie-in per answer; zero electrical/plumbing — a chase-to-roof-edge flashing/counterflash detail remains where the chase abuts the eave"
     },
     {
       "id": "electrical_device_count",
-      "label": "Electrical devices/fixtures in scope",
+      "label": "Electrical devices / circuits",
       "value": 0,
       "unit": "count",
       "confidence": "high",
       "sources": [
+        "answer q_electrical",
         "205 Pawnee St - Proposal.pdf p.2",
-        "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.14"
+        "205 Pawnee Street - Breakdown.xlsx"
       ],
-      "basis": "Electric fireplace circuit/fixture explicitly removed; no lights, fan, GFCI listed or rendered — JBD carries 6h coordination only"
+      "basis": "Answer: zero electrical confirmed, no rough-in — electric fireplace circuit removed, no fan/lights/GFCI; JBD's 6h coordination has no work behind it"
     },
     {
       "id": "ceiling_finish",
-      "label": "Porch ceiling finish",
-      "value": "exposed rafters (proposal silent)",
+      "label": "Ceiling finish under rafters",
+      "value": "exposed rafters, no ceiling finish",
       "unit": "categorical",
-      "confidence": "low",
+      "confidence": "high",
       "sources": [
-        "205 Pawnee St - Proposal.pdf p.2",
+        "answer q_ceiling",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.14"
       ],
-      "basis": "Proposal lists no ceiling finish; drawings render exposed painted-white rafters; no paint/ceiling line in JBD"
+      "basis": "Answer confirms exposed rafters; drawings render them painted white but no paint line exists in proposal or JBD — paint not carried"
     },
     {
       "id": "fascia_soffit_gutter_lf",
-      "label": "Fascia/soffit/gutter on new roof",
-      "value": null,
+      "label": "Fascia / soffit / gutter LF (new shed roof)",
+      "value": 0,
       "unit": "lf",
-      "confidence": "unknown",
+      "confidence": "high",
       "sources": [
+        "answer q_fascia_soffit_gutters",
         "205 Pawnee St - Proposal.pdf p.2",
-        "205 Pawnee Street - Breakdown.xlsx",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.6"
+        "205 Pawnee Street - Breakdown.xlsx"
       ],
-      "basis": "Not in proposal or JBD; drawings show white fascia/vented soffit — scope inclusion unresolved, so no LF carried (would be ~36 LF eave/rake if included)"
+      "basis": "Answer: excluded from this job; drawings' white fascia/vented soffit are visualization-only — nothing carried (would be ~36 LF eave+rake if ever added)"
     },
     {
       "id": "site_access",
-      "label": "Site access / staging constraints",
-      "value": "rear yard, inside corner of house; existing HVAC condenser adjacent to footprint; mature trees at yard ends; no stated setbacks/easements",
+      "label": "Site access / equipment route",
+      "value": "rear-yard inside corner of house; direct concrete-truck and mini-excavator access via side yard (no pump/buggy); existing HVAC condenser adjacent but outside footprint — protect in place",
       "unit": "categorical",
-      "confidence": "low",
+      "confidence": "high",
       "sources": [
+        "answer q_access",
+        "answer q_hvac",
         "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.9",
-        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.12",
+        "Pawnee Street Screened In Porch Presentation - Drawing.pdf p.12"
+      ],
+      "basis": "Answers settle equipment access and condenser; mature trees at yard ends per renders; no setbacks/easements stated anywhere"
+    },
+    {
+      "id": "permit_count",
+      "label": "Building permits",
+      "value": 1,
+      "unit": "count",
+      "confidence": "high",
+      "sources": [
+        "answer q_permit",
         "205 Pawnee St - Proposal.pdf p.1"
       ],
-      "basis": "From renders only; proposal and JBD say nothing about access beyond 'minor hand grading', 'retaining excluded', and 4h staging/protection — equipment access for mini-excavator and concrete truck unverified"
+      "basis": "Answer: contractor pulls one Johnson City building permit covering roof tie-in and wood-burning fireplace, with framing and fireplace/chimney inspections; JBD carries $0 and no inspection lines"
+    },
+    {
+      "id": "inspection_count",
+      "label": "Required inspections",
+      "value": 2,
+      "unit": "count",
+      "confidence": "medium",
+      "sources": [
+        "answer q_permit",
+        "205 Pawnee Street - Breakdown.xlsx"
+      ],
+      "basis": "Framing inspection + fireplace/chimney inspection per answer; a final inspection is likely bundled but not stated — no MEP inspections (zero MEP)"
+    },
+    {
+      "id": "engineering_required",
+      "label": "Structural engineering required",
+      "value": "no — in-house sizing per IRC prescriptive tables",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "answer q_engineering",
+        "205 Pawnee Street - Breakdown.xlsx"
+      ],
+      "basis": "Answer settles sizing of rafters, beams, and posts in-house; JBD excludes engineering/drawings — no lead time for stamped drawings"
+    },
+    {
+      "id": "selections_outstanding_count",
+      "label": "Outstanding customer selections",
+      "value": 0,
+      "unit": "count",
+      "confidence": "high",
+      "sources": [
+        "answer q_selections"
+      ],
+      "basis": "Veneer, hearth, mantel, shingle match, screen door all final; fireplace system settled by separate answer — procurement is unblocked"
+    },
+    {
+      "id": "existing_vents_in_tie_in",
+      "label": "Existing vents under roof tie-in area",
+      "value": 0,
+      "unit": "count",
+      "confidence": "high",
+      "sources": [
+        "answer q_vents"
+      ],
+      "basis": "No dryer, range hood, plumbing stack, or bath fan on the rear wall/roof in the tie-in area — no appliance vent extension work"
     },
     {
       "id": "jbd_labor_hours_total",
-      "label": "JBD total labor hours (cross-check only)",
+      "label": "JBD total labor hours",
       "value": 390,
       "unit": "hours",
       "confidence": "medium",
@@ -564,7 +673,7 @@
           "procurement_items"
         ],
         "mapping_confidence": "medium",
-        "notes": "30h is PM/TL selection coordination (fireplace system, shingle match, veneer/hearth/mantel), scheduling, and 4h GL staging/protection; section explicitly carries $0 permits so not mapped to permit_items even though the proposal includes permitting"
+        "notes": "30h is PM/TL selection coordination, scheduling, and 4h GL staging/protection; selections are now all final so the 18h PM coordination is largely spent; section carries $0 permits so not mapped to permit_items even though a permit is confirmed"
       },
       {
         "section_id": "demolition_site_work",
@@ -589,7 +698,7 @@
           "groundwork"
         ],
         "mapping_confidence": "high",
-        "notes": "Slab is the structure's floor and the fireplace footing, and must precede posts/framing — belongs in Site Prep & Foundation, not the post-framing concrete_landscape component (which receives nothing on this job)"
+        "notes": "Slab is the floor, the fireplace footing, and (per answer) the turned-down post footings — must precede posts/framing, so Site Prep & Foundation, not concrete_landscape (which receives nothing on this job)"
       },
       {
         "section_id": "roof_framing_roofing",
@@ -602,7 +711,7 @@
           "structural_framing"
         ],
         "mapping_confidence": "high",
-        "notes": "Ledger/beam, posts, rafters, blocking, sheathing, chimney-penetration framing; flashing prep labor is minor"
+        "notes": "House-side beam on posts, open-side built-up beam, posts, rafters, blocking, sheathing; JBD's 'chimney-penetration framing' no longer applies (chimney outside roof edge)"
       },
       {
         "section_id": "roofing",
@@ -629,7 +738,7 @@
           "interior_installs"
         ],
         "mapping_confidence": "medium",
-        "notes": "Knee-wall and screen-frame framing → structural_framing; white vinyl knee-wall finish and exterior trim → cladding_roof; screening/spline, trim, and screen door hang → interior_installs; JBD gives no split of the 48h"
+        "notes": "Knee-wall and screen-frame framing → structural_framing; white vinyl knee-wall finish and exterior trim → cladding_roof; screening/spline, trim, screen door hang → interior_installs; JBD gives no split and is built on 60 LF vs 36 LF actual"
       },
       {
         "section_id": "wb_fireplace_structure",
@@ -643,7 +752,7 @@
           "rough_meps"
         ],
         "mapping_confidence": "medium",
-        "notes": "Chase framing/CMU and footing coordination → structural_framing; firebox, smoke chamber, Class A flue/chimney sections, cap, storm collar → rough_meps as the nearest home for a solid-fuel appliance venting system; if masonry is selected this becomes a masonry sub scope with no clean component"
+        "notes": "Framed chase → structural_framing; manufactured firebox, Class A pipe, cap, spark arrestor → rough_meps as the nearest home for a solid-fuel venting system (not a true MEP trade); masonry alternative is off the table per answer"
       },
       {
         "section_id": "fireplace_finish",
@@ -656,7 +765,7 @@
           "interior_installs"
         ],
         "mapping_confidence": "high",
-        "notes": "Lath/scratch, stone/tile veneer, hearth, mantel, sealer"
+        "notes": "Lath/scratch, stone veneer, hearth, mantel, sealer"
       },
       {
         "section_id": "electrical",
@@ -665,14 +774,12 @@
         "labor_cost": 234,
         "material_cost": 95,
         "section_total": 329,
-        "mapped_components": [
-          "rough_meps"
-        ],
-        "mapping_confidence": "low",
-        "notes": "6h coordination/verification only — zero devices in scope; treat as near-zero effort unless customer adds fan/lights/GFCI"
+        "mapped_components": [],
+        "mapping_confidence": "high",
+        "notes": "Zero electrical confirmed by answer — no rough-in, no devices; the 6h/$95 carry has no component and should size to zero"
       },
       {
-        "section_id": "closeout",
+        "section_id": "cleanup",
         "section_name": "Final Install + Cleanup (1 Dumpster + Haul)",
         "labor_hours": 12,
         "labor_cost": 417.5,
@@ -693,55 +800,59 @@
   "flags": [
     {
       "kind": "conflict",
-      "message": "Proposal cover title 'Deck Building' and sole line item 'Build Deck as Above' describe no deck; the itemized scope is paver demo, slab, shed roof, screen enclosure, fireplace — deck component should carry zero and the 'posts integrated with existing deck framing' language is a carry-over error."
-    },
-    {
-      "kind": "conflict",
-      "message": "Post bearing is unresolved: proposal says posts tie into 'existing deck framing' over a demo'd paver patio, JBD prices 5 posts 'to approved bearing' with no turned-down footings, and the plan implies ≥7 posts on the long open side alone — post count and footing method must be locked before forms are set."
-    },
-    {
-      "kind": "conflict",
-      "message": "Fireplace system is undecided across sources (proposal 'masonry or framed', JBD priced 'manufactured', drawing p5 shows framed chase with brick veneer and Class A pipe); a masonry selection adds $4-8K+ materials and substantially more labor than the 98h carried, and the footing must be known before the slab pour."
-    },
-    {
-      "kind": "conflict",
-      "message": "JBD carries $0 permits and no inspection line items while the proposal states permitting is included; roof tie-in plus a solid-fuel appliance almost certainly require a building permit with framing and fireplace/chimney inspections — bundled_inspections and permit_items receive no JBD hours but should not be zero downstream."
-    },
-    {
-      "kind": "conflict",
-      "message": "JBD knee wall '~60 LF' vs takeoff ~36 LF (patio wraps an inside corner of the house, so only two sides are screened per plan p4); 60 LF would imply three open sides — JBD screen labor (48h) and material are likely overstated by roughly 40% if the plan is right."
-    },
-    {
-      "kind": "conflict",
-      "message": "Footprint: proposal ~12.5'×23.5' (294 sqft) vs drawing plan 22'-11\"×11'-8\" clear (267 sqft); knee wall 2' white vinyl (proposal) vs 3'-4 1/4\" lap siding / ~3' beadboard (drawings); drawings also add a screened transom band, fascia/soffit, and painted brick chimney not in the proposal or JBD — per canon the proposal governs and these are logged, not adopted."
+      "message": "Proposal cover title 'Deck Building' and sole line item 'Build Deck as Above' describe no deck; the itemized scope is paver demo, slab, shed roof, screen enclosure, fireplace — deck component carries zero and the 'posts integrated with existing deck framing' language is a carry-over error now superseded by the turned-down-footing answer."
     },
     {
       "kind": "suspect",
-      "message": "Roof structure 70h for a ~300 sqft single-plane shed roof with 19 rafters, one ledger, ~5-7 posts and 10 sheets of sheathing runs hot; a 3-person crew would normally frame and sheathe this in 2-2.5 days (~50h), with the tie-in and chimney box the only justifications for more."
+      "message": "Post count: JBD carries 5 posts, but the plan's post spacing implies ≥7 on the long open side and the settled house-side beam-on-posts tie-in adds 3-4 more — expect 10-12 posts and matching turned-down footings, none of which are priced in the JBD concrete or framing sections."
+    },
+    {
+      "kind": "conflict",
+      "message": "JBD carries $0 permits and no inspection line items while the answer confirms a Johnson City building permit with framing and fireplace/chimney inspections — permit_items and bundled_inspections receive no JBD hours but must not be zero downstream; inspection holds gate framing close and fireplace veneer."
+    },
+    {
+      "kind": "conflict",
+      "message": "JBD knee wall '~60 LF' vs settled 36 LF (two open sides, house on two sides); the 48h screen labor and $285/$345/$585 screen material lines are built on three sides and are overstated by roughly 40%."
+    },
+    {
+      "kind": "conflict",
+      "message": "JBD roof-structure labor includes 'chimney-penetration framing' and the fireplace section carries $245 chimney roof flashing/storm collar, but the settled location puts the chimney outside the shed roof edge — that work reduces to a chase-to-eave counterflash detail, not a penetration."
+    },
+    {
+      "kind": "conflict",
+      "message": "Footprint: proposal ~12.5'×23.5' (294 sqft) vs drawing plan 22'-11\"×11'-8\" clear (267 sqft); knee wall 2' white vinyl (proposal) vs 3'-4 1/4\" lap siding / ~3' beadboard (drawings); drawings add a screened transom band and painted brick chase not in the proposal or JBD — per canon the proposal governs and these stay logged, not adopted."
     },
     {
       "kind": "suspect",
-      "message": "WB fireplace structure 98h (90h GL) for a manufactured firebox in a ~6'-wide framed chase is heavy — a manufactured kit with Class A pipe is typically a 3-4 day, 2-person install (~50-65h); the number only makes sense if a CMU/masonry chase is really intended."
+      "message": "Roof structure 70h for a ~300 sqft single-plane shed roof with 19 rafters, two beams, ~10 posts and 10 sheets of sheathing runs hot; a 3-person crew would normally frame and sheathe this in 2-2.5 days (~50h), and with the ledger replaced by a beam on posts the only extra effort is post/beam setting and the eave tie-in."
     },
     {
       "kind": "suspect",
-      "message": "Screened enclosure 48h for ~36 LF of 2' knee wall, screen frames, one door and trim is on the high side (2-person crew ~3 days ≈ 48h is the ceiling, not the expectation), and is built on the 60 LF assumption flagged above."
+      "message": "WB fireplace structure 98h (90h GL) is heavy now that the manufactured firebox + Class A pipe in a ~6'-wide framed chase is settled — a manufactured kit is typically a 3-4 day, 2-person install (~50-65h); the 98h only made sense against the masonry option that is now off the table."
     },
     {
       "kind": "suspect",
-      "message": "Electrical 6h and $95 material carried for a scope with zero electrical; PM notes themselves say to get zero-electrical intent in writing — either this collapses to 0h or a customer add (fan/lights/GFIC) changes rough_meps materially."
+      "message": "Screened enclosure 48h for ~33 LF of 2' knee wall, screen frames, one door and trim is on the high side (2-person crew ~3 days is the ceiling), and inherits the 60 LF overstatement above."
+    },
+    {
+      "kind": "suspect",
+      "message": "Electrical 6h and $95 material carried for a scope confirmed zero-electrical with no rough-in — this collapses to 0h; the JBD's own PM notes anticipated this."
+    },
+    {
+      "kind": "suspect",
+      "message": "General conditions 30h includes 18h PM for fireplace-system and finish-selection coordination that is now complete per answers (all selections final) — remaining PM effort is scheduling, permit pull, and inspection coordination, closer to 8-12h."
     },
     {
       "kind": "gap",
-      "message": "No roof pitch, rafter/beam/ledger sizing, engineering, or chimney termination height exists in any source; roof area is carried as plan area (~300 sqft) with no slope factor, and the 10-3-2 check against the existing hip roof could force a taller chase than the 6' × ~3'-7\" drawn."
+      "message": "No roof pitch or beam/post sizing exists in any source (sized in-house per IRC tables, not yet done); roof area is carried as plan area (~300 sqft) with no slope factor, and the 10-3-2 termination check for a chimney at the low eave against the existing hip roof could force a taller chase than the 6' × ~3'-7\" drawn."
     },
     {
       "kind": "mapping",
-      "message": "Concrete patio is mapped to groundwork (foundation before framing) rather than concrete_landscape; downstream should not expect a separate flatwork phase after the shell, and landscaping/yard restoration is explicitly excluded by the JBD."
+      "message": "Concrete patio is mapped to groundwork (foundation before framing) rather than concrete_landscape because it now carries the fireplace footing and every post footing; downstream should expect no separate flatwork phase after the shell, and yard restoration is excluded by the JBD."
     },
     {
       "kind": "mapping",
-      "message": "Fireplace structure split between structural_framing and rough_meps is a best-fit only — a solid-fuel chimney system is not an MEP trade, and if masonry is selected the work is a mason's scope that does not fit any Addition component cleanly."
+      "message": "Fireplace structure split between structural_framing and rough_meps is a best-fit only — a Class A solid-fuel chimney system is not an MEP trade; the framed-chase answer at least keeps it in-house carpentry rather than a mason's scope."
     }
   ]
 }
