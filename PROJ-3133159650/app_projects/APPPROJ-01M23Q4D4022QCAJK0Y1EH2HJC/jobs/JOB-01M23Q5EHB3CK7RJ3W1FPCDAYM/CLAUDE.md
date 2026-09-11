@@ -29,3 +29,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Notes: raw answer — typing call unavailable; re-type via UI
 - DEFAULT: Screen porch open sides count: The screened porch is open and screened on two sides (approximately 36 linear feet total), with the house forming the enclosure on the other two sides.
     Condition: If Applies instead of treating the breakdown's 60 LF figure as three open sides
+- DEFAULT: existing roof/wall vents under new shed roof tie-in: No existing vents (dryer, range hood, plumbing stack, bath fan) on the rear wall or roof fall within the new shed roof's tie-in area
