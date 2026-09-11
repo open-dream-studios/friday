@@ -27,3 +27,5 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Label: Q | Value: Is the beam carrying the rafters over the open screen side dimensional lumber or an LVL?
     Label: A | Value: Built-up dimensional lumber (double 2x10/2x12)
     Notes: raw answer — typing call unavailable; re-type via UI
+- DEFAULT: Screen porch open sides count: The screened porch is open and screened on two sides (approximately 36 linear feet total), with the house forming the enclosure on the other two sides.
+    Condition: If Applies instead of treating the breakdown's 60 LF figure as three open sides
