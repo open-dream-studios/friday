@@ -16,22 +16,16 @@
         "sizing": {
           "delivery_cal_days": 7,
           "clamp": null,
-          "hours_basis": "Single-pour slab-on-grade (foundation_type answered) with 5 turned-down post footings and a thickened fireplace pad — all stock yard items: ~4.2-4.6 cy ready-mix (concrete_volume_cy=4.2, ordered against a truck slot), 4 cy gravel (gravel_base_cy=4), rebar/wire/chairs, form boards + stakes + bracing for ~36 LF open perimeter plus the 3'x3' infill. No block, no core-fill, no second order, no pump needed for a 294 sqft at-grade patio with side-yard equipment access. Concrete truck scheduling is typically 2-3 days out; the lumber/rebar/gravel package is same-week from the supply house — 7 cal days covers ordering and delivery sequencing ahead of the footing inspection. Bottom of guardrail is right for stock material; flags: fireplace_footing_area_sqft unknown so rebar/thickened-pad quantity should be confirmed before the order; footprint conflict (294 vs ~267 sqft) is within one truck load either way.",
-          "quantities_used": [
-            "concrete_volume_cy=4.2",
-            "gravel_base_cy=4",
-            "foundation_type=slab-on-grade with turned-down post footings and thickened fireplace footing",
-            "turned_down_footing_count=5",
-            "open_perimeter_lf=36",
-            "site_access=side yard, no obstacles"
-          ],
+          "hours_basis": "Small slab-on-grade package: ~4.2-4.6 cy ready-mix (single pour, turned-down post footings + thickened fireplace pad), 4 cy gravel, rebar/mesh/chairs, form boards and bracing for ~36 LF open perimeter plus the 3'x3' infill. All stock yard items; ready-mix is scheduled by phone a few days out, no block or core-fill since the answered foundation is a single-pour slab. 7 cal days covers lumber/gravel/rebar yard delivery and truck booking; pump unlikely for 294 sqft with side-yard access. Order is a lead-time gate, not a schedule driver.",
           "flags": [
-            "fireplace_footing_area_sqft UNKNOWN — thickened-pad dimensions unspecified, confirm before rebar/concrete order",
-            "concrete_volume_cy is medium confidence (3.74 flat to ~4.6 with footings); order 5 cy to be safe",
-            "Footing inspection precedes pour — truck slot must be booked after the inspection is scheduled, not before"
+            "fireplace_footing_area_sqft unknown — footing per final design/weight; confirm thickened pad dimensions before ordering rebar/concrete (quantity swings 4.2-4.6 cy)",
+            "turned_down_footing_count low confidence (5) and beam-on-posts along house may add 2-3 footings — order forming/rebar with margin",
+            "footprint conflict 267-294 sqft — field measure before final concrete order",
+            "JBD carries $0 permits; footing inspection precedes pour, so delivery must land before the inspection hold, not just before excavation",
+            "canon: no demo without next phase's materials on site — gravel/forming/rebar should be on site before paver demo/excavation begins"
           ]
         },
-        "include_reason": "new slab with turned-down and fireplace footings"
+        "include_reason": "new 4-in slab with turned-down footings and fireplace footing"
       },
       {
         "code": "proc_windows_doors",
@@ -45,19 +39,13 @@
         "sizing": {
           "delivery_cal_days": 14,
           "clamp": null,
-          "hours_basis": "There are zero new windows and zero new exterior doors on this job (new_window_count=0; existing_openings_in_porch_walls=9 are all existing). The only door-type item is (1) 3068 screen door at a $125 allowance (screen_door_count=1), selection confirmed final by PM answer — that is a stock big-box/lumberyard item, typically 1-2 weeks or off-the-shelf. Real lead time is ~0-7 days; 14 cal days is the guardrail floor and is recorded as a clamp. This item is effectively a placeholder for this scope.",
-          "quantities_used": [
-            "new_window_count=0",
-            "screen_door_count=1",
-            "existing_openings_in_porch_walls=9"
-          ],
+          "hours_basis": "Zero new windows (new_window_count=0; all nine openings are existing) and the only door is one stock 3068 wood screen door at a $125 allowance, selection answered final. This is a stock lumberyard/big-box item, ~1-2 weeks on order; 14 cal days is the low end of the guardrail for a stock item, and the item only matters for the screen-wall close-in, late in the sequence.",
           "flags": [
-            "Actual lead time (~0-7 days for a stock screen door) lands below the 14-day guardrail floor — clamped up, not a real constraint",
-            "Task is near-empty for this job: no windows, no exterior doors; only the screen door rides here",
-            "Screen frames are site-built (PM answer), so no screen panel/spline system order is needed"
+            "Task is nearly empty for this job — one stock screen door, no windows or exterior doors; range default of 14-42 would overstate lead time",
+            "Screen mesh, screen-frame stock and trim for site-built stapled frames are not carried here or explicitly in framing — confirm which order covers ~175 sqft of screen and frame stock (transom band unpriced in JBD)"
           ]
         },
-        "include_reason": "one 3068 screen door, stock"
+        "include_reason": "one 3068 screen door + hardware only"
       },
       {
         "code": "proc_framing_package",
@@ -71,25 +59,16 @@
         "sizing": {
           "delivery_cal_days": 10,
           "clamp": null,
-          "hours_basis": "Small, all-dimensional PT/SPF package: ~5-8 6x6 PT posts (post_count=5 plus 2-3 possible along the house per PM answer), built-up PT 2x10/2x12 beam ~36 LF plus possible ~23.5 LF house-side beam (header_beam_lf=36), 19 rafters at 14' stock (rafter_count=19, rafter_length_ft=14), 10-11 sheets roof sheathing (roof_sheathing_sheets=10), knee-wall framing for 33 LF (knee_wall_lf=33), fireplace chase framing (~6' wide x ~12-14' tall, fireplace_width_ft=6), screen-frame stock for ~8-10 site-built bays, plus hangers/fasteners. Nothing engineered — LVL was ruled out (built-up PT per PM answer). Lumberyard delivery for a package this size is normally 3-7 days; 10 cal days carries the lumber-market swing the task note warns about and lets the order land while the slab cures. Below the nominal 1-2 wk midpoint because there is no engineered or special-order stock in the package.",
-          "quantities_used": [
-            "post_count=5",
-            "header_beam_lf=36",
-            "rafter_count=19",
-            "rafter_length_ft=14",
-            "roof_sheathing_sheets=10",
-            "knee_wall_lf=33",
-            "fireplace_width_ft=6",
-            "screen_frame_bay_count=UNKNOWN"
-          ],
+          "hours_basis": "Modest package: ~5-8 6x6 PT posts (~8'), built-up PT 2x10/2x12 header ~36 LF (+~23.5 LF if beam-on-posts along the house), ~19 rafters at 14' stock, 10-11 sheets roof sheathing, 33 LF x 3'-4\" knee wall framing, ~150 sqft lap siding + beadboard, fireplace chase framing for a 6' wide x ~12-14' tall chase, plus 3.3 sq shingles matched per finalized selection, step/tie-in flashing, and hurricane/post hardware. All dimensional stock with no engineered members (answered PT built-up beam, not LVL); typical yard turnaround 1-2 weeks. 10 cal days allows for mixed-supplier delivery (roofing match, PT beam stock) within the nominal window; early-order per notes rather than stall framing.",
           "flags": [
-            "roof_pitch UNKNOWN and rafter_length_ft low confidence — confirm eave tie-in height by field measure before committing rafter length (14' vs 16' stock)",
-            "post_count low confidence: PM answer implies beam on posts along the house, adding 2-3 posts and ~23.5 LF beam beyond the JBD count",
-            "screen_frame_bay_count unknown and transom screen band not priced in the JBD — include extra 1x/2x screen-frame stock in the order",
-            "Canon: no demo without next-phase materials on site — foundation package must land before paver/concrete demo; this framing package should be on site before slab is complete"
+            "No roof pitch stated — rafter length (14' stock, low confidence) and shingle squares are geometry-derived; confirm eave tie-in height before cutting the order",
+            "post_count low confidence (5) — beam-on-posts along the house likely adds 2-3 posts and ~23.5 LF of beam beyond the JBD",
+            "Manufactured firebox and Class A pipe are fireplace-specific procurement carried under the separate 138h fireplace task's scope, not in this framing package — excluded here",
+            "Lumber-market availability swing per task notes; canon says no demo without materials on site, so this package should land before or with the foundation package if demo is to proceed",
+            "Transom screen framing on the high side is in neither proposal nor JBD — small unpriced lumber add"
           ]
         },
-        "include_reason": "shed roof, posts, knee walls, chase, screen frames"
+        "include_reason": "shed roof, posts, knee wall, chase, screen frame stock"
       }
     ],
     "permits": [
@@ -101,7 +80,7 @@
         "links": [],
         "trade": "general",
         "kind": "permit",
-        "include_reason": "roof tie-in and wood fireplace; Tri-Cities pulls"
+        "include_reason": "Tri-Cities pulls permit for roof tie-in and fireplace"
       }
     ],
     "demolition": [
@@ -138,18 +117,19 @@
           ],
           "jbd_reference": {
             "agreement": "agrees",
-            "note": "Quantity-based ≈22h vs JBD 20h; within 10%. Excavation/gravel base not included here (groundwork component) so no overlap with concrete_patio."
+            "note": "JBD 20h vs quantity-based 22h — within tolerance; the extra ~2h covers occupied-home door close-off and condenser protection the JBD line does not itemize. All 20h of the JBD demolition section lands on this single task; no split needed."
           },
-          "hours_basis": "Paver demo 294 sqft with mini-excavator loading and side-yard dumpster access: ~0.04h/sqft ≈ 12h; masonry fire pit break-out and haul ≈ 4h; 3'x3' concrete sawcut (12 LF cut) + break-out + haul ≈ 4h; site protection/close-off of rear doors, layout, and loadout ≈ 2h. Total ≈ 22h vs JBD demolition_site_work 20h — converges. Excavation (294 sqft) and gravel base are NOT counted here; they belong to the concrete/groundwork component per the mapping flag. Single task in this component, so the full 20h JBD budget pays into it.",
-          "crew_reason": "One operator on the mini-excavator plus two laborers breaking/loading pavers, fire pit, and sawcut concrete at a ~294 sqft workface; more crew would crowd the inside-corner patio.",
+          "hours_basis": "294 sqft paver removal with mini-excavator assist and side-yard equipment access ≈ 0.05h/sqft ≈ 15h (lift/load to 12-yd dumpster, excavator 1 day); 3'x3' concrete sawcut + break-out (9 sqft) ≈ 3h incl. saw setup; masonry fire pit demo + debris ≈ 3h; close off rear doors / protect adjacent HVAC condenser and brick walls ≈ 1h. Total ≈ 22h. JBD demolition_site_work carries 20h — quantity math lands within ~10%, converge on 22h. Excavation of the 294 sqft footprint and gravel base are NOT included here (they belong to the groundwork/patio slab component); fireplace work (138h) excluded as a separate task. 22h ÷ (3 × 8) ≈ 1 day.",
+          "crew_reason": "One operator on the mini-excavator plus two laborers hand-pulling pavers, running the saw, and loading the dumpster on a 294 sqft grade-level footprint — 4 would crowd the workface, 2 would leave the machine idle.",
           "flags": [
-            "Fire pit size/construction not quantified — hours for its removal are a judgment (~4h); a mortared block/stone pit larger than assumed adds time.",
-            "Footprint conflict (294 vs ~267 sqft) is inherited but immaterial to demo hours at this scale.",
-            "Excavator day (JBD 1 day) is shared with excavation in the groundwork component — demo should be scheduled adjacent so a single equipment day covers both.",
-            "Canon: no demo without next phase (concrete/gravel) materials on site and selections final — selections are answered final."
+            "Excavation (294 sqft) and gravel base assumed to sit in the groundwork/slab component, not here — if that component does not carry them, ~12-16h of excavator/grading work is unallocated",
+            "Excavator is a 1-day rental shared with excavation loading per JBD; demo and excavation should be scheduled back-to-back so the single equipment day is not exceeded",
+            "JBD carries only one dump run; paver + fire-pit + concrete debris from 294 sqft may fill most of the 12-yd dumpster before slab/framing scrap — overage is a CO per JBD",
+            "Canon: no demo until next-phase (gravel/concrete/framing) materials are on site",
+            "Fire pit construction (masonry vs loose ring) unspecified — 3h assumes light mortared masonry; a poured/reinforced pit would add 2-4h"
           ]
         },
-        "include_reason": "paver patio and fire pit removal"
+        "include_reason": "294 sqft pavers + fire pit concrete sawcut"
       }
     ],
     "site_foundation": [
@@ -169,38 +149,37 @@
         "trade": "general",
         "kind": "work",
         "sizing": {
-          "labor_hours": 10,
+          "labor_hours": 12,
           "crew_size": 2,
           "hours_per_day": 8,
-          "duration_days_raw": 0.63,
+          "duration_days_raw": 0.75,
           "duration_days": 1,
           "clamp": null,
           "quantities_used": [
+            "footprint_sqft=294",
             "occupied_home=yes",
             "site_access=side yard, no obstacles",
-            "footprint_sqft=294",
-            "dumpster_size_yd=12",
-            "existing_openings_in_porch_walls=9",
-            "stories=1"
+            "stories=1",
+            "existing_openings_in_porch_walls=9"
           ],
           "jbd_reference": {
             "agreement": "absent",
-            "note": "JBD concrete_patio 42h does not include site prep; hours sized from task nature."
+            "note": "JBD concrete_patio 42h has no site-prep content; sized from task nature."
           },
-          "hours_basis": "Occupied ranch, rear doors closable, side-yard equipment access with no obstacles; work = close off/protect two rear doors and the 9 existing openings in the two brick walls, protect adjacent HVAC condenser, set 12-yd dumpster and staging in side yard, lay access path for mini-excavator. ~2 people x ~5h = 10h. Not in the JBD concrete_patio line (42h covers excavate-through-pour only); site prep sits in general labor/TL time in the JBD, so no component budget to reconcile against.",
-          "crew_reason": "Two-person protection/staging crew is what a ~294 sqft grade-level footprint with clear side-yard access needs; no elevated work, no heavy occupant-path protection.",
+          "hours_basis": "Occupied single-story home, rear doors closed off, 294 sqft grade-level footprint. Protect two brick house walls/existing openings (9 windows/doors in the porch walls) and HVAC condenser, stage side-yard access route for mini-excavator and 12-yd dumpster, close off rear doors ≈ 2 people x ~6h = 12h. Not covered by the JBD concrete_patio line (JBD carries no site-prep hours in this mapping; PM/TL general hours not allocated here).",
+          "crew_reason": "Small footprint, single-story; two people handle protection and staging in a day, a third would be idle.",
           "flags": [
-            "No JBD line for site prep — sized from task nature and site conditions, not budget",
-            "Occupied-home protection is light (doors closable) so hint's 1-day standard applies"
+            "No elevated-structure allowances (stories=1)",
+            "Condenser adjacent but outside footprint — protect, no relocation"
           ]
         },
-        "include_reason": "occupied home, rear door closeoff, staging"
+        "include_reason": "occupied home, rear door closeoff, equipment staging"
       },
       {
         "code": "excavation",
         "component": "groundwork",
         "name": "Excavation (footings, slab, access)",
-        "duration": 1,
+        "duration": 2,
         "crew": 2,
         "links": [
           {
@@ -212,36 +191,33 @@
         "trade": "excavation",
         "kind": "work",
         "sizing": {
-          "labor_hours": 16,
+          "labor_hours": 20,
           "crew_size": 2,
           "hours_per_day": 8,
-          "duration_days_raw": 1,
-          "duration_days": 1,
+          "duration_days_raw": 1.25,
+          "duration_days": 2,
           "clamp": null,
           "quantities_used": [
             "excavation_area_sqft=294",
-            "footprint_sqft=294",
-            "turned_down_footing_count=5",
-            "fireplace_footing_area_sqft=UNKNOWN",
-            "equipment_days_excavator=1",
             "gravel_base_cy=4",
-            "slab_thickness_in=4",
+            "equipment_days_excavator=1",
+            "turned_down_footing_count=5",
             "site_access=side yard, no obstacles"
           ],
           "jbd_reference": {
             "agreement": "disagrees",
-            "note": "JBD 42h lumps excavate+gravel+form+rebar+pour; ~14h of that is excavation. I carry 16h for the added footing trenching the JBD omitted. Small disagreement."
+            "note": "JBD's 42h total for the whole patio implies ~16h for dig+gravel; turned-down footings and fireplace footing trenching (flagged as unpriced in JBD) push to 20h."
           },
-          "hours_basis": "294 sqft excavation for 4in slab + 4in gravel (~5.5 cy bulk after paver removal), plus trenching 5 turned-down post footings along 36 LF open perimeter and a thickened fireplace pad (~6'x3' assumed), plus spoil loading to the 12-yd dumpster. Mini-excavator 1 equipment day (JBD $285) with operator + laborer = 2 x 8h = 16h. Split of the JBD 42h: excavation ~14h by nature of work; I carry 16h because the turned-down footings and fireplace pad trenching are not reflected in the JBD's 'posts to approved bearing' with no footings.",
-          "crew_reason": "Operator + laborer is the standard TCR dig crew; a 294 sqft footprint has room for only one machine and one hand-trencher/grade checker.",
+          "hours_basis": "294 sqft excavated ~8-10\" for 4\" gravel + 4\" slab, plus 5 turned-down post footings and a thickened fireplace pad; mini-excavator 1 day (equipment_days_excavator=1) with operator + laborer = 16h; spread/compact 4 cy gravel base ≈ 4h → 20h. Spoils ≈ 294 x 8\"/12 ≈ 7 cy. JBD 42h covers excavate+gravel+forms+rebar+pour; I allocate ~16-18h of it to excavation/gravel by nature of work, my figure runs slightly higher for footing trenching the JBD did not price.",
+          "crew_reason": "Operator + laborer is the TCR standard dig crew; 294 sqft workface fits one machine.",
           "flags": [
-            "Rock is common in Tri-Cities — hitting rock is a change order, not padded here",
-            "Fireplace footing size unknown; assumed ~6'x3' thickened pad",
-            "turned_down_footing_count is low confidence (5, may be 7-8 if beam-on-posts along house adds posts)",
-            "Footprint proposal vs drawing spread ~9% — field measurement governs"
+            "Rock is common in Tri-Cities — rock is a change order, not padded here",
+            "~7 cy of spoils plus paver/concrete demo will exceed the single 12-yd dumpster/1 haul-off allowance — overage is a CO per JBD",
+            "Fireplace footing dimensions UNKNOWN; assumed ~6'x3' thickened pad",
+            "Hours land at 1.25 crew-days → rounds to 2 wd"
           ]
         },
-        "include_reason": "294 sqft excavation plus footings"
+        "include_reason": "294 sqft excavation, footings, gravel base"
       },
       {
         "code": "foundation",
@@ -264,38 +240,38 @@
         "trade": "concrete",
         "kind": "work",
         "sizing": {
-          "labor_hours": 34,
+          "labor_hours": 40,
           "crew_size": 4,
           "hours_per_day": 8,
-          "duration_days_raw": 1.06,
+          "duration_days_raw": 1.25,
           "duration_days": 2,
           "clamp": null,
           "quantities_used": [
             "concrete_slab_area_sqft=303",
             "concrete_volume_cy=4.2",
             "slab_thickness_in=4",
-            "gravel_base_cy=4",
             "open_perimeter_lf=36",
             "turned_down_footing_count=5",
-            "fireplace_footing_area_sqft=UNKNOWN",
             "foundation_type=slab-on-grade with turned-down post footings and thickened fireplace footing",
+            "house_wall_sides=2",
             "inspection_count=4"
           ],
           "jbd_reference": {
             "agreement": "disagrees",
-            "note": "JBD 42h for the whole concrete_patio scope omits post footing forming/rebar (flagged suspect); component total lands at 50h. Footing inspection hold (AHJ, before pour) is a calendar hold, not labor, and is absent from the JBD entirely."
+            "note": "Component total 60h (20 excavation + 40 foundation) vs JBD 42h; the delta is footing forming/rebar the JBD did not price and a full 4-man pour crew. Site prep (12h) is outside the JBD line entirely."
           },
-          "hours_basis": "Gravel base: spread/compact 4 cy over 294 sqft ~4h. Forms: 36 LF open-edge slab forms + 5 turned-down post footing forms + fireplace thickened pad + 3'x3' infill edge ~8h. Reinforcement: mesh/rebar over 303 sqft plus footing bars ~4h. Footing inspection walk (hold time not in hours) ~1h. Pour + broom finish 4.2-4.6 cy over 303 sqft with control joints: 4 men x 4h = 16h. Strip forms/backfill edges ~1h. Total ~34h. Split of JBD 42h: ~28h to this task by nature of work; I carry 34h because the JBD prices no post footings, and the answered design adds turned-down footings and a fireplace pad (forming + rebar). Excavation 16h + foundation 34h = 50h vs JBD 42h (+19%), attributable entirely to the omitted footings.",
-          "crew_reason": "Pour day for a 303 sqft broom-finish slab with turned-down footings needs 4 hands (chute/wheelbarrow, screed, finish, edges); forming days can run 3 but crew is sized to the pour workface.",
+          "hours_basis": "303 sqft slab (294 + 3'x3' infill), 4\" broom finish, control joints. Form 36 LF open perimeter (two sides are existing brick walls — expansion joint only) plus 5 turned-down post footings and thickened fireplace footing ≈ 14h; rebar/mesh 303 sqft + footing bars ≈ 6h; pour/finish 4.2-4.6 cy with 4-man crew ≈ 20h → 40h. Footing inspection hold sits between forming and pour. JBD residual after excavation split ≈ 24-26h; I judge the JBD short because it priced posts 'to approved bearing' with no footings (suspect flag) and did not carry the inspection hold or fireplace footing forming.",
+          "crew_reason": "Forming and pour days need all hands on a 4.5 cy broom-finish pour; 4-man concrete crew per duration hint.",
           "flags": [
-            "Footing inspection must precede the pour — duration will include a hold day the hours math does not show; JBD carries $0 permits / no inspection hours",
-            "Fireplace footing dimension unknown ('per final design/weight') — assumed ~6'x3' thickened pad in a single pour",
-            "Concrete volume medium confidence (4.2-4.6 cy) pending footing detail and field-measured footprint",
-            "Post count low confidence — beam-on-posts along house may add 2-3 turned-down footings",
-            "Slab mapped to groundwork (porch floor + foundation) — no late-phase concrete downstream"
+            "Footing inspection hold (AHJ) adds a calendar day not represented in labor hours — 40h/4 crew rounds to 2 wd, real elapsed is 3 wd with inspection",
+            "JBD carries $0 permits/no inspection hours (conflict flag)",
+            "Fireplace footing area UNKNOWN — 'per final design/weight'",
+            "Footprint conflict 267-294 sqft; proposal governs, field measurement sets real slab quantity",
+            "Fireplace chase/firebox/veneer/hearth/mantel (138h) excluded — separate planned task",
+            "Turned-down footing count is low confidence (post_count low, beam-on-posts along house may add 2-3 posts)"
           ]
         },
-        "include_reason": "slab pour with footings, footing inspection"
+        "include_reason": "slab with turned-down footings, footing inspection, pour"
       },
       {
         "code": "site_foundation.end",
@@ -331,7 +307,7 @@
         "code": "framing",
         "component": "structural_framing",
         "name": "Framing (floor, walls, roof structure, sheathing)",
-        "duration": 9,
+        "duration": 6,
         "crew": 3,
         "links": [
           {
@@ -348,44 +324,45 @@
         "trade": "framing",
         "kind": "work",
         "sizing": {
-          "labor_hours": 210,
+          "labor_hours": 138,
           "crew_size": 3,
           "hours_per_day": 8,
-          "duration_days_raw": 8.75,
-          "duration_days": 9,
+          "duration_days_raw": 5.75,
+          "duration_days": 6,
           "clamp": null,
           "quantities_used": [
             "footprint_sqft=294",
-            "stories=1",
-            "header_beam_lf=36",
             "post_count=5",
+            "header_beam_lf=36",
             "rafter_count=19",
             "rafter_length_ft=14",
-            "roof_area_sqft=330",
             "roof_sheathing_sheets=10",
             "roof_tie_in_lf=23.5",
-            "roof_to_wall_flashing_lf=12.5",
             "knee_wall_lf=33",
             "knee_wall_height_ft=3.33",
-            "screen_area_sqft=175",
+            "screen_bay_height_ft=4.17",
             "fireplace_width_ft=6",
-            "fireplace_system_type=framed chase+manufactured firebox+Class A pipe",
+            "chimney_height_ft=UNKNOWN",
+            "stories=1",
             "roof_penetration_count=1"
           ],
           "jbd_reference": {
             "agreement": "disagrees",
-            "note": "JBD's roof_framing_roofing (70h) assumed a ledger on the house side, but the PM answer puts the beam on posts along the house too, adding ~23.5 LF of beam and 2-3 posts beyond the JBD count — pushed roof structure to ~80h. screened_enclosure (48h) is split three ways per JBD's own mapping note (framing gets knee-wall + screen-frame carpentry, cladding gets lap siding, interior gets beadboard/trim/screening/door); the evidence flag on this line says the 48h assumes ~60 LF at an unsupported per-LF rate, so it is not trustworthy as a total — used quantity-based knee-wall (20h) + screen-frame (24h) instead, which alone consumes most of the 48h, implying cladding+interior will need their own hours beyond any small remainder. wb_fireplace_structure (98h) is treated as mostly framing/structure per the mapping note, holding back ~10h for the cladding-side chimney flashing/storm collar/cap."
+            "note": "Roof section 70h agrees with my 72h. Screened-enclosure split: I take 42h into framing vs ~24h implied by JBD's 48h section (rest to cladding_roof ~8h siding and interior_installs ~16h beadboard/screening/door) because the answered 3'-4\" framed knee wall + site-built wood frames is more labor than the priced 2' vinyl/spline. Fireplace: JBD 98h structure section; I carry only ~24h chase framing here since the planned extra task already carries 138h (= 98h structure + 40h finish) for firebox/pipe/veneer/hearth/mantel — likely overlap of the chase framing between that task and this one."
           },
-          "hours_basis": "Quantity build-up across the framing task's real scope, not a single JBD line: roof structure (posts, beam, rafters, sheathing, tie-in) ~80h [posts ~7-8 incl. beam-on-house-wall posts per PM answer @ ~2h ea ≈15h; beam 59.5 LF (36 LF open sides + 23.5 LF house side, since PM answer says beam rides on posts along the house rather than a ledger) built-up PT @ ~0.5h/LF ≈30h; rafter_count=19 @ ~1h ea incl. eave tie-in ≈19h; roof_sheathing_sheets=10 @ 0.5h ≈5h; chimney penetration framing + flashing nailers ≈7h; misc ≈4h] + knee wall framing 33 LF @ ~0.6h/LF ≈20h + site-built screen frame carpentry (screen_area_sqft=175, ~8-10 bays) @ ~2.5h/bay ≈24h + fireplace framed chase/firebox set/Class A pipe (in-house) ≈88h (98h JBD line minus ~10h for chimney roof flashing/storm collar/cap, which the JBD note assigns to cladding_roof). Total ≈212h, rounded to 210h.",
-          "crew_reason": "Single-story addition, no elevated-structure allowance needed; 3-man frame crew is the TCR baseline and canon prohibits splitting framing between sub and in-house, so added complexity (tie-in, chase, screen frames) is absorbed in hours, not crew.",
+          "hours_basis": "Roof structure: 5 posts (+2-3 possible along house per answer) 6x6 PT ~8' on turned-down footings ≈10h; built-up PT 2x10/2x12 beam 36 LF (+~23.5 LF if beam-on-posts along house) @ ~0.5h/LF ≈24h; 19 rafters @ ~14' incl. cutting into/tying to existing eave over 23.5 LF ≈27h; 10-11 sheets roof sheathing ≈8h; chimney penetration framing ≈3h → ~72h (JBD 70h roof section agrees). Screened enclosure framing: 33 LF x 3'-4\" 2x4 knee wall framed+sheathed @ ~0.6h/LF ≈20h; bay/mullion framing + site-built wood screen frames for ~8-10 bays plus transom band to 7'-6\" header ≈22h → ~42h (JBD's structural share of the 48h section is ~24h, but that section priced 2' vinyl/spline; answered 3'-4\" lap/beadboard + site-built frames is heavier — quantities win). Fireplace chase framing only: 6' wide x ~2.5' deep x ~12-14' tall 2x framed chase, sheathed, through-roof ≈24h. Total 72+42+24 = 138h. Screening, beadboard, trim, screen door, siding, roofing, firebox/pipe/veneer/hearth/mantel are excluded (other components / planned extra task). 138h ÷ (3x8) ≈ 6 wd, inside guardrail.",
+          "crew_reason": "Single-story ~294 sqft shed roof at grade, one workface with a 23.5' eave tie-in; 3-man crew handles posts/beam/rafters efficiently, a 4th would idle on this footprint.",
           "flags": [
-            "Roof pitch, rafter spacing, and full chimney height are unstated in any source — roof_area/rafter_count are medium-confidence derivations, not field-verified.",
-            "Post count and beam length are low-confidence (post_count and turned_down_footing_count both flagged [low]); if the beam-on-posts-along-house detail is confirmed larger, roof framing hours could run higher.",
-            "Fireplace 98h line is flagged as plausible only if it absorbs some veneer risk — treated here as an upper bound for structure, not a per-sqft rate.",
-            "JBD carries $0 permit/inspection coordination hours despite 4 required AHJ inspections; not built into this task's hours since that coordination likely sits with PM/TL hours, but flagging in case it should land on framing crew downtime."
+            "Possible double-count: planned extra fireplace task carries 138h which equals JBD's full 98h structure + 40h finish; chase framing (~24h) is placed here — downstream should net it out of the extra task if that task also assumes chase framing",
+            "Post count low-confidence: beam-on-posts along the house (answer) may add 2-3 posts and ~23.5 LF beam beyond JBD's 5 posts — not fully priced",
+            "Roof pitch / eave tie-in height unknown; rafter count and sheathing derived from JBD geometry (medium confidence)",
+            "Screen enclosure hours based on answered 3'-4\" lap/beadboard spec, not JBD's 2' vinyl — JBD 48h is not a trustworthy per-LF rate",
+            "Transom screen band on high side is framed here but appears in neither proposal narrative nor JBD screen lot",
+            "Framing inspection hold (AHJ) precedes roofing/screening close-in and is not in the JBD hours",
+            "Footprint 294 vs ~267-288 sqft drawing spread; field measurement governs"
           ]
         },
-        "include_reason": "shed roof tie-in, posts, knee walls, chase"
+        "include_reason": "shed roof, posts/beam, eave tie-in, knee walls, chase"
       },
       {
         "code": "exterior_windows_doors",
@@ -408,10 +385,10 @@
         "trade": "windows_doors",
         "kind": "work",
         "sizing": {
-          "labor_hours": 8,
+          "labor_hours": 2,
           "crew_size": 2,
           "hours_per_day": 8,
-          "duration_days_raw": 0.5,
+          "duration_days_raw": 0.13,
           "duration_days": 1,
           "clamp": null,
           "quantities_used": [
@@ -420,16 +397,17 @@
             "screen_door_count=1"
           ],
           "jbd_reference": {
-            "agreement": "absent"
+            "agreement": "absent",
+            "note": "No JBD section carries exterior windows/doors; the $125 screen door allowance sits in the screened-enclosure section and is mapped to interior_installs."
           },
-          "hours_basis": "No evidence basis for real window/door install work — new_window_count=0 and all 9 existing openings (7 windows, 1 French door, 1 swing door) are pre-existing on the porch walls, not new work. The one screen door (screen_door_count=1, site-built stapled screen/trim) is explicitly mapped by the JBD's own component note to interior_installs, not this task. Sized to a nominal 1-day floor rather than a rate-based estimate.",
-          "crew_reason": "No real scope identified; minimum viable crew per the task's default if any incidental door/window touch-up (e.g., existing opening protection during tie-in) is needed.",
+          "hours_basis": "No scope: new_window_count = 0 (all 7 window tags and both doors on the plan are existing); the only new opening is the 3068 screen door, which the JBD maps to interior_installs with the screening/trim, so it is not counted here. 2h nominal for a 2-man crew to verify existing openings are protected/closed off (occupied home, rear doors in daily use) — effectively a zero-work task; math lands below the 1-3 wd guardrail.",
+          "crew_reason": "Nominal only; 2 is the range minimum and no real workface exists.",
           "flags": [
-            "No new windows or exterior doors are in scope for this job — this task appears to have no real physical work; hours are a nominal floor, not a quantity-derived estimate.",
-            "The one screen door in scope belongs to interior_installs per the JBD mapping note, not this task — avoid double-counting it here."
+            "Task has no real scope on this job — recommend dropping or clamping to minimum; hours are nominal, not evidence-based",
+            "Screen door install hours are deliberately excluded here to avoid double-counting with interior_installs"
           ]
         },
-        "include_reason": "hang one 3068 screen door"
+        "include_reason": "hang 3068 screen door"
       }
     ],
     "exterior_finishes": [
@@ -449,15 +427,15 @@
         "trade": "roofing",
         "kind": "work",
         "sizing": {
-          "labor_hours": 30,
+          "labor_hours": 28,
           "crew_size": 3,
           "hours_per_day": 8,
-          "duration_days_raw": 1.25,
+          "duration_days_raw": 1.17,
           "duration_days": 2,
           "clamp": null,
           "quantities_used": [
-            "roof_area_sqft=330",
             "shingle_squares=3.3",
+            "roof_area_sqft=330",
             "roof_tie_in_lf=23.5",
             "roof_to_wall_flashing_lf=12.5",
             "roof_penetration_count=1",
@@ -466,17 +444,18 @@
           ],
           "jbd_reference": {
             "agreement": "agrees",
-            "note": "JBD roofing 24h covers underlayment/shingles/flashing/match; chimney flashing/collar/cap (~5h) is the cladding_roof share of the 98h fireplace structure line, not double-counted against structural_framing."
+            "note": "JBD roofing 24h taken whole; added ~4h of the 98h fireplace-structure line for chimney flashing/collar/cap only — the remainder of that line is not roofing work."
           },
-          "hours_basis": "3.3 sq shingles / ~330 sqft low-slope shed roof: synthetic underlayment + ice&water at eave/tie-in + drip edge + shingles ≈ 3.5 h/sq → ~12h. Tie-in blend into existing eave along 23.5 LF (strip back existing courses, weave/blend new field, matched shingle) ≈ 7h. Roof-to-brick step flashing + cut-reglet counterflashing on the 12.5 LF return wall ≈ 4h. Chimney chase flashing (step/base/cricket-less low slope, storm collar, cap) ≈ 5h (carved from the 98h wb_fireplace_structure line, whose mapping sends roof flashing here; chase framing/firebox/pipe stay in structural_framing). Sum ≈ 28-30h; JBD roofing 24h + ~5h chimney flashing share = 29h — converges. No fascia/soffit/gutters (answered bare framing), so no edge finish hours. 30h ÷ (3×8) = 1.25 → 2 wd.",
-          "crew_reason": "~330 sqft single-plane shed roof at one-story height is a small workface; 3 keeps one on tear-back/tie-in at the eave while two run field — a 5-man crew would crowd 23.5' of eave.",
+          "hours_basis": "3.3 sq low-slope shed roof: synthetic underlayment + shingles ~3.5 h/sq ≈ 12h; tie-in blend into existing eave/roof along 23.5 LF (weave/lace shingles, remove-and-reset course, drip/starter) ≈ 6h; step flashing + counterflashing cut into brick on the 12.5 LF return wall ≈ 4h; chimney chase flashing/cricket/storm collar/cap at the single penetration ≈ 6h (the only cladding_roof share of the wb_fireplace_structure line — pipe set, chase framing and veneer live in the planned fireplace task and structural_framing). Total ≈ 28h. JBD roofing 24h + ~4h of the 98h fireplace-structure line for chimney flashing = 28h — converges. 28h ÷ (3 × 8) = 1.2 → 2 wd, within guardrail.",
+          "crew_reason": "~330 sqft single-plane shed roof at grade level; 3 roofers (tear-off/tie-in lead, two shinglers) saturate the workface — a 5-man crew would stand on each other on 3.3 sq.",
           "flags": [
-            "roof pitch unstated (gap flag) — roof area 330 sqft is derived from JBD 3.3 sq + geometry; field-measured eave tie-in height sets real squares, but ±10% area moves hours <2h",
-            "tie-in into existing eave assumes existing shingles are in re-workable condition; brittle/aged shingles would add strip-back hours",
-            "footprint conflict (294 vs ~267 sqft) inherited — small effect on roof area"
+            "roof_pitch UNKNOWN — implied ~2-3:12; if under 4:12, double underlayment/ice-and-water per shingle mfr adds ~2-3h and may change shingle selection",
+            "roof_area/shingle_squares are medium confidence (derived from JBD 3.3 sq + geometry) until eave tie-in is field-measured",
+            "no fascia/soffit/gutters per PM answer — no drip-edge-on-fascia or gutter hours carried; bare rafter tails",
+            "chimney termination within 10-3-2 on the shed roof per PM answer; cricket assumed small (6' wide chase) — if AHJ requires a full cricket, +2-3h"
           ]
         },
-        "include_reason": "matched shingles, tie-in, chimney flashing"
+        "include_reason": "underlayment, matched shingles, tie-in and chimney flashing"
       },
       {
         "code": "siding",
@@ -494,42 +473,40 @@
         "trade": "siding",
         "kind": "work",
         "sizing": {
-          "labor_hours": 28,
+          "labor_hours": 14,
           "crew_size": 2,
           "hours_per_day": 8,
-          "duration_days_raw": 1.75,
+          "duration_days_raw": 0.88,
           "duration_days": 2,
-          "clamp": null,
+          "clamp": "raised 1 → range min 2",
           "quantities_used": [
+            "knee_wall_siding_area_sqft=110",
             "knee_wall_lf=33",
             "knee_wall_height_ft=3.33",
-            "knee_wall_siding_area_sqft=110",
-            "house_wall_sides=2",
-            "fireplace_width_ft=6",
-            "chimney_height_ft=UNKNOWN",
             "stories=1",
-            "veneer_area_sqft=150"
+            "house_wall_sides=2",
+            "screen_door_count=1",
+            "fireplace_width_ft=6"
           ],
           "jbd_reference": {
             "agreement": "disagrees",
-            "note": "JBD screened_enclosure 48h was priced as ~60 LF of 2' vinyl (conflict flag) — its lap-siding share (~10-12h) is taken from the answered 33 LF × 3'-4\" lap spec, not the JBD LF. The exterior brick veneer on the chase (~16h) is mapped to cladding_roof by the fireplace_finish line but is unpriced anywhere in the 390h — the 40h fireplace_finish line already covers interior veneer/hearth/mantel and cannot absorb it."
+            "note": "JBD's 48h enclosure line priced ~60 LF of 2' vinyl + spline system; plan supports ~33 LF of 3'-4\" lap siding. Allocated ~10h of the 48h to siding; sized 14h from the answered spec. Not a per-LF rate — inherited [conflict] flag."
           },
-          "hours_basis": "Knee wall: 33 LF × 3.33' = 110 sqft exterior lap siding with WRB, starter, corners, and cap/trim interrupted by ~5-7 posts and the 6'-4\" fireplace bay; ~250 sqft/day (16h) rate is a big-wall rate — this is a short band with many starts, stops, and returns against brick, so ~12h (≈1.7× the straight rate). No siding-to-siding blend: the house is brick, so the 'tie-in' is trimming/caulking against brick at the two return corners, included. Chase exterior: fireplace chase sits on the open outer wall so its outside face (~6' wide × ~13' ≈ 80 sqft) is exterior cladding — drawing p.5 shows brick veneer painted to match house; JBD mapping sends this to cladding_roof but does not price it. In-house crew veneer with WRB/lath-or-ties on a framed chase ≈ 16h. Total 28h. JBD split: ~10-12h is the lap-siding share of the 48h screened_enclosure line (remainder to structural_framing knee-wall framing/screen frames and interior_installs beadboard/screen/door); the ~16h chase exterior is beyond any JBD figure. 28h ÷ (2×8) = 1.75 → 2 wd.",
-          "crew_reason": "One-story knee-wall band at grade plus a 6'-wide chase face — a two-person cut-and-hang pair is the natural workface; more bodies would idle on 33 LF.",
+          "hours_basis": "110 sqft lap siding on 33 LF x 3'-4\" knee wall (two open sides): WRB + flashing at post/knee-wall intersections ≈ 2h; lap siding ~250 sqft/day @ 2-man (16h) → 110 sqft ≈ 7h, but short runs broken by ~8-10 posts/screen bays, outside corner, door jamb and fireplace-bay returns roughly double the cuts ≈ 10h; corner/trim boards and water table ≈ 2h. Total ≈ 14h. No siding tie-in blend to the house — existing walls are brick, knee wall dies into brick with a trim/caulk return. Exterior brick veneer on the fireplace chase is EXCLUDED — it sits in the planned fireplace veneer task (138h). JBD screened_enclosure 48h split: knee-wall framing + screen frames → structural_framing (~24h), beadboard/trim/screening/door → interior_installs (~14h), lap siding → cladding_roof (~10h); my 14h is slightly above that share because the answered 3'-4\" lap wall is more siding work than the 2' vinyl the JBD priced. 14h ÷ (2 × 8) = 0.9 → 1 wd — BELOW the 2 wd guardrail; code will clamp.",
+          "crew_reason": "33 LF of 3'-4\" knee wall at grade on a single-story porch — one cutter, one hanger; no ladders/scaffold; more than 2 would be idle.",
           "flags": [
-            "chase exterior cladding (~80 sqft brick veneer painted to match, drawing p.5) is not priced in the JBD and its material (brick vs. lap siding on the chase) should be confirmed with the PM — if the chase is lap-sided instead of brick, drop to ~20h total",
-            "chimney_height_ft UNKNOWN — chase exterior area (~80 sqft) assumed from 8'-2\" eave + pitch rise + ~3' above roof",
-            "knee_wall_lf is medium and the fireplace bay may remove a further ~6' of knee wall (→ ~90 sqft), which would cut ~2h",
-            "inherited conflict: JBD 48h screened_enclosure LF overstated / per-foot effort understated — not used as a rate",
-            "upper portions of the chase exterior (~13' at the top) need ladders/pump-jack despite single-story — small allowance included in the 16h"
+            "hours land below the 2-7 wd guardrail (1 wd) — this is a tiny siding scope, not an error; clamp is conservative",
+            "knee_wall_lf is medium confidence and may drop by ~6'-4\" if the fireplace bay replaces knee wall — siding could fall to ~90 sqft",
+            "exterior brick veneer on the fireplace chase (drawing p.5) is unpriced in the JBD and excluded here — it must live in the planned fireplace veneer task or be flagged as a CO",
+            "siding material/profile to match existing is a selection the PM says is final; no matching-to-existing blend hours carried since house is brick"
           ]
         },
-        "include_reason": "knee wall lap siding and beadboard"
+        "include_reason": "knee wall lap siding per canon"
       },
       {
         "code": "extra.1",
-        "name": "Fireplace firebox, Class A pipe, veneer, hearth & mantel",
-        "duration": 5,
+        "name": "Fireplace firebox set, Class A pipe, veneer, hearth & mantel",
+        "duration": 6,
         "links": [
           {
             "target": "roofing",
@@ -538,21 +515,6 @@
           }
         ],
         "trade": "in-house carpentry/masonry",
-        "kind": "work",
-        "flagged": true
-      },
-      {
-        "code": "extra.2",
-        "name": "Site-built screen frames, screen & trim install",
-        "duration": 3,
-        "links": [
-          {
-            "target": "siding",
-            "type": "FS",
-            "lag": 0
-          }
-        ],
-        "trade": "in-house carpentry",
         "kind": "work",
         "flagged": true
       },
@@ -593,34 +555,31 @@
         "trade": "inspector",
         "kind": "inspection",
         "sizing": {
-          "labor_hours": 4,
+          "labor_hours": 8,
           "crew_size": 1,
           "hours_per_day": 8,
-          "duration_days_raw": 0.5,
+          "duration_days_raw": 1,
           "duration_days": 1,
           "clamp": null,
           "quantities_used": [
             "inspection_count=4",
             "electrical_device_count=0",
-            "roof_penetration_count=1",
-            "rafter_count=19",
-            "post_count=5"
+            "footprint_sqft=294"
           ],
           "jbd_reference": {
             "agreement": "absent",
-            "note": "No JBD section maps here; JBD explicitly carries $0 permits and no inspection hours while the PM answer has Tri-Cities pulling the permit with four AHJ holds — inspection time is an addition to the 390h, not a split of it."
+            "note": "JBD carries $0 permits and zero inspection hours (evidence conflict flag); this 8h hold is additive to the 390h JBD total and is not drawn from any JBD section."
           },
-          "hours_basis": "no evidence basis — range judgment. Inspection task, not production work: the AHJ visit itself is ~1h of inspector time plus ~2-3h of in-house coordination (scheduling the hold, walking the inspector, correcting punch items). This job is zero-electrical (electrical_device_count=0, PM answer) and has no plumbing/HVAC, so the 'MEPs then framing' bundle collapses to a single framing inspection of the shed-roof tie-in, posts, header beam, and fireplace chase framing (the fireplace/chimney inspection precedes veneer and is a separate AHJ hold per inspection_count=4). JBD carries $0 permits and 0 inspection hours (evidence flag), so nothing to reconcile — 4h is a scheduling placeholder, and the duration is driven by AHJ calendar availability, not labor. Duration lands at 1 wd from hours; per hint plan 2 wd for AHJ scheduling reality — flagged for the scheduler.",
-          "crew_reason": "Fixed 1 — a single inspector performs the framing inspection; one crew lead walks the visit.",
+          "hours_basis": "no evidence basis — range judgment. This is an AHJ hold, not crew production work: the inspector visit itself is ~1h on a 294 sqft porch, but the task must carry the hold day plus in-house prep/coordination (scheduling the call, walking the rough with the inspector, correction list). Scope of this bundled visit on this job is framing only — the job is answered zero-electrical (electrical_device_count=0) and has no plumbing/HVAC, so there are no MEP roughs to bundle ahead of framing; the JBD's 6h electrical is coordination only per the evidence flag and does not become inspection work here. The fireplace/chimney inspection (precedes veneer) is a separate hold owned by the fireplace task; footing and final inspections belong to other components. Sizing at 8h = one inspector-day hold (1 person x 8h), which is the honest schedule cost of a framing rough; a second day only if the inspector reschedules or issues corrections, which the 1-3 wd range already tolerates.",
+          "crew_reason": "Fixed crew of 1 — a single inspector visit; in-house attendance is incidental coordination, not a second workface.",
           "flags": [
-            "Inherited [conflict]: four AHJ inspection holds and their coordination are absent from the JBD's 390h and ~5-6 wk duration",
-            "No MEP rough inspections exist on this job (zero-electrical, no plumbing/HVAC) — this bundle is effectively framing-only; ensure the written zero-electrical acknowledgement is on file before the framing inspection closes the roof/screen (proposed canon)",
-            "Fireplace/chimney inspection is a separate AHJ hold preceding finish veneer and is not counted in these hours",
-            "Hours-derived duration is 1 wd; plan 2 wd per guardrail hint for Johnson City AHJ scheduling lead time — calendar risk, not labor",
-            "Framing must be inspected before roofing/screening close-in per AHJ sequencing; any framing correction (e.g., extra posts along house beam, turned-down footings already covered by footing inspection) could add a re-inspection"
+            "Inherited: JBD carries no permit/inspection hours — the four AHJ holds (footing, framing, fireplace/chimney, final) are absent from the 390h and the ~5-6 wk duration; this task covers only the framing rough",
+            "No MEPs to bundle: scope is answered zero-electrical with no plumbing/HVAC — the 'MEPs then framing' ordering note is moot on this job; if electrical is added by CO after written-acknowledgement discussion, an electrical rough and its permit/inspection must be added",
+            "Hours are a schedule-hold allowance, not measured labor — inspector availability in Johnson City, TN sets real duration more than the work does",
+            "Framing inspection must precede roof sheathing close-in and screen framing close (per AHJ sequencing reference); chimney chase framing should be complete at this visit so the framing inspection covers it, with the separate fireplace/chimney inspection preceding veneer"
           ]
         },
-        "include_reason": "framing and fireplace/chimney inspections required"
+        "include_reason": "framing + fireplace/chimney inspections, no MEPs"
       },
       {
         "code": "rough_inspections.end",
@@ -637,6 +596,54 @@
         "kind": "milestone"
       }
     ],
+    "interior_finishes": [
+      {
+        "code": "finish_carpentry",
+        "component": "final_trades_paint_2",
+        "name": "Finish Carpentry",
+        "duration": 3,
+        "crew": 2,
+        "links": [
+          {
+            "target": "rough_inspections.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "trim_carpentry",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 34,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 2.13,
+          "duration_days": 3,
+          "clamp": null,
+          "quantities_used": [
+            "knee_wall_siding_area_sqft=110",
+            "knee_wall_lf=33",
+            "screen_door_count=1",
+            "new_window_count=0",
+            "open_perimeter_lf=36",
+            "footprint_sqft=294"
+          ],
+          "jbd_reference": {
+            "agreement": "absent",
+            "note": "No JBD section maps to finish carpentry; the ~34h is a quantity-based estimate and likely overlaps GL hours the JBD folded into the screened-enclosure line (48h) — if the screen enclosure task in another component already carries beadboard and screen trim, this task should shrink to just the door casing/hardware and cap trim (~8h)."
+          },
+          "hours_basis": "Task template (baseboards, door/window casing, interior doors, hardware) does not fit this job: floor is a concrete patio (no baseboard), zero new windows or interior doors, roof edge is bare framing (fascia/soffit excluded). Real finish-carpentry scope on a 294 sqft screened porch: beadboard interior on the 3'-4\" knee wall, 110 sqft @ ~0.15 h/sqft ≈ 16h; knee-wall cap/top trim + inside corners, 33 LF @ ~0.15 h/LF ≈ 5h; screen-frame stops/trim strips over stapled screen on ~8-10 bays plus transom band, ~10h; 3068 screen door casing, stop and hardware ≈ 3h. Total ≈ 34h → 2 carpenters ≈ 2.1 → 3 wd, inside the 2-4 wd guardrail. Fireplace veneer, hearth and mantel excluded (separate 138h task). JBD has no section mapping here; GL hours for beadboard/trim are presumably buried in the 340h GL pool.",
+          "crew_reason": "36 LF of knee wall and screen bays is a small workface at grade; a 2-person team handles beadboard sheets and trim efficiently without crowding, and it keeps within the two-interior-trades concurrency limit.",
+          "flags": [
+            "Task notes describe interior-house finish carpentry (baseboards, casing, interior doors) that does not exist on this porch scope — hours re-based to beadboard/knee-wall trim/screen stops/screen door instead",
+            "Possible double-count with the screened enclosure component: beadboard interior and screen-frame trim may be sized there; downstream should assign each to one task only",
+            "Inherited [conflict]: JBD 48h screen line uses ~60 LF vinyl knee wall vs plan ~33 LF site-built wood — knee wall LF here follows the plan (33 LF), not the JBD",
+            "Inherited [suspect]: transom screen band on the high side is not priced anywhere; ~2-3h of the screen-trim allowance covers it",
+            "screen_frame_bay_count is UNKNOWN — screen-stop trim hours assume ~8-10 bays"
+          ]
+        },
+        "include_reason": "beadboard, site-built screen frames, screen, trim"
+      }
+    ],
     "closeout": [
       {
         "code": "closeout.start",
@@ -644,7 +651,7 @@
         "duration": 0,
         "links": [
           {
-            "target": "rough_inspections.end",
+            "target": "finish_carpentry",
             "type": "FS",
             "lag": 2
           }
@@ -684,7 +691,7 @@
         ],
         "trade": "inspector",
         "kind": "inspection",
-        "include_reason": "final inspection required by AHJ"
+        "include_reason": "AHJ final inspection required per canon"
       },
       {
         "code": "job_complete",
@@ -698,7 +705,7 @@
             "lag": 1
           },
           {
-            "target": "rough_inspections.end",
+            "target": "finish_carpentry",
             "type": "FS",
             "lag": 0
           },
@@ -755,14 +762,19 @@
       "name": "Bundled Inspections"
     },
     {
+      "id": "final_trades_paint_2",
+      "phase": "interior_finishes",
+      "name": "Final Trades & Paint 2"
+    },
+    {
       "id": "walkthrough_final_inspection",
       "phase": "closeout",
       "name": "Walkthrough & Final Inspection"
     }
   ],
   "warnings": [
-    "EXTRA TASK (escape hatch): \"Fireplace firebox, Class A pipe, veneer, hearth & mantel\" added to exterior_finishes after roofing — no checklist item covers manufactured firebox, pipe, veneer, hearth, mantel. Review before trusting the schedule.",
-    "EXTRA TASK (escape hatch): \"Site-built screen frames, screen & trim install\" added to exterior_finishes after siding — screening after roofing and knee-wall siding; no checklist item covers it. Review before trusting the schedule.",
+    "EXTRA TASK (escape hatch): \"Fireplace firebox set, Class A pipe, veneer, hearth & mantel\" added to exterior_finishes after roofing — 138h fireplace finish work; chimney inspection precedes veneer; no checklist item covers it. Review before trusting the schedule.",
+    "Duration for \"siding\": derived 1wd (14h ÷ 2×8h) but raised 1 → range min 2 — check hours, crew, or the range itself.",
     "Procurement \"proc_tile\" was included but its consumer shower_work is excluded — auto-excluded (material with no installer)."
   ],
   "assumptions": [],
@@ -773,28 +785,28 @@
       "name": "Foundation",
       "phase": "procurement",
       "answer": "include",
-      "reason": "new slab with turned-down and fireplace footings"
+      "reason": "new 4-in slab with turned-down footings and fireplace footing"
     },
     {
       "node_id": "proc_windows_doors",
       "name": "Windows & exterior doors",
       "phase": "procurement",
       "answer": "include",
-      "reason": "one 3068 screen door, stock"
+      "reason": "one 3068 screen door + hardware only"
     },
     {
       "node_id": "proc_lvl",
       "name": "LVL / engineered beams",
       "phase": "procurement",
       "answer": "exclude",
-      "reason": "beam is built-up PT lumber per canon"
+      "reason": "built-up PT 2x10/2x12 beam, no LVL per canon"
     },
     {
       "node_id": "proc_framing_package",
       "name": "Framing Package",
       "phase": "procurement",
       "answer": "include",
-      "reason": "shed roof, posts, knee walls, chase, screen frames"
+      "reason": "shed roof, posts, knee wall, chase, screen frame stock"
     },
     {
       "node_id": "proc_trusses",
@@ -815,7 +827,7 @@
       "name": "HVAC equipment (mini-split / system)",
       "phase": "procurement",
       "answer": "exclude",
-      "reason": "unconditioned porch, no HVAC"
+      "reason": "unconditioned screened porch, no HVAC"
     },
     {
       "node_id": "proc_electrical_package",
@@ -864,14 +876,14 @@
       "name": "Insulation",
       "phase": "procurement",
       "answer": "exclude",
-      "reason": "outside scope footprint"
+      "reason": "no insulation in scope"
     },
     {
       "node_id": "proc_drywall",
       "name": "Drywall",
       "phase": "procurement",
       "answer": "exclude",
-      "reason": "outside scope footprint"
+      "reason": "no drywall in scope"
     },
     {
       "node_id": "proc_cabinets",
@@ -892,7 +904,7 @@
       "name": "Paint + Primer",
       "phase": "procurement",
       "answer": "exclude",
-      "reason": "no paint per PM, bare framing"
+      "reason": "no paint in scope per canon roof-edge answer"
     },
     {
       "node_id": "proc_shower_glass",
@@ -906,7 +918,7 @@
       "name": "Interior doors & trim package",
       "phase": "procurement",
       "answer": "exclude",
-      "reason": "no interior doors; screen trim in framing package"
+      "reason": "beadboard/trim stock rides proc_framing_package"
     },
     {
       "node_id": "proc_plumbing_fixtures",
@@ -934,7 +946,7 @@
       "name": "Building permit",
       "phase": "permits",
       "answer": "include",
-      "reason": "roof tie-in and wood fireplace; Tri-Cities pulls"
+      "reason": "Tri-Cities pulls permit for roof tie-in and fireplace"
     },
     {
       "node_id": "permit_tdec_septic",
@@ -948,7 +960,7 @@
       "name": "Electrical service / meter permit",
       "phase": "permits",
       "answer": "exclude",
-      "reason": "no service work"
+      "reason": "no service or meter work"
     },
     {
       "node_id": "permit_plumbing",
@@ -969,14 +981,14 @@
       "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
       "phase": "retrofit",
       "answer": "exclude",
-      "reason": "condenser stays; no penetrations in footprint"
+      "reason": "condenser stays, no penetrations in footprint per canon"
     },
     {
       "node_id": "retrofit_demo",
       "name": "Retrofit demolition (interior areas outside the addition)",
       "phase": "retrofit",
       "answer": "exclude",
-      "reason": "no pre-addition interior work"
+      "reason": "no existing interior work"
     },
     {
       "node_id": "retrofit_rough_meps",
@@ -1004,84 +1016,84 @@
       "name": "Demolition (site + structure at addition footprint)",
       "phase": "demolition",
       "answer": "include",
-      "reason": "paver patio and fire pit removal"
+      "reason": "294 sqft pavers + fire pit concrete sawcut"
     },
     {
       "node_id": "site_prep",
       "name": "Site prep (protection, staging, access)",
       "phase": "site_foundation",
       "answer": "include",
-      "reason": "occupied home, rear door closeoff, staging"
+      "reason": "occupied home, rear door closeoff, equipment staging"
     },
     {
       "node_id": "excavation",
       "name": "Excavation (footings, slab, access)",
       "phase": "site_foundation",
       "answer": "include",
-      "reason": "294 sqft excavation plus footings"
+      "reason": "294 sqft excavation, footings, gravel base"
     },
     {
       "node_id": "foundation",
       "name": "Foundation (form, inspect, pour)",
       "phase": "site_foundation",
       "answer": "include",
-      "reason": "slab pour with footings, footing inspection"
+      "reason": "slab with turned-down footings, footing inspection, pour"
     },
     {
       "node_id": "framing",
       "name": "Framing (floor, walls, roof structure, sheathing)",
       "phase": "framing_shell",
       "answer": "include",
-      "reason": "shed roof tie-in, posts, knee walls, chase"
+      "reason": "shed roof, posts/beam, eave tie-in, knee walls, chase"
     },
     {
       "node_id": "exterior_windows_doors",
       "name": "Exterior windows & doors install",
       "phase": "framing_shell",
       "answer": "include",
-      "reason": "hang one 3068 screen door"
+      "reason": "hang 3068 screen door"
     },
     {
       "node_id": "deck_build",
       "name": "Deck build",
       "phase": "framing_shell",
       "answer": "exclude",
-      "reason": "no deck; porch roof covered by framing"
+      "reason": "covered by framing; slab floor, no deck"
     },
     {
       "node_id": "roofing",
       "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
       "phase": "exterior_finishes",
       "answer": "include",
-      "reason": "matched shingles, tie-in, chimney flashing"
+      "reason": "underlayment, matched shingles, tie-in and chimney flashing"
     },
     {
       "node_id": "siding",
       "name": "Siding (WRB, siding, tie-in blend)",
       "phase": "exterior_finishes",
       "answer": "include",
-      "reason": "knee wall lap siding and beadboard"
+      "reason": "knee wall lap siding per canon"
     },
     {
       "node_id": "fascia_soffit_gutters",
       "name": "Fascia, soffit & gutters",
       "phase": "exterior_finishes",
       "answer": "exclude",
-      "reason": "none per PM, bare framing"
+      "reason": "bare framing, no fascia/soffit/gutters per canon"
     },
     {
       "node_id": "appliance_vent_extension",
       "name": "Extend existing appliance vents through new roof",
       "phase": "exterior_finishes",
       "answer": "exclude",
-      "reason": "no existing vents in roof area"
+      "reason": "no existing vents in shed-roof area per canon"
     },
     {
       "node_id": "rough_plumbing",
       "name": "Rough plumbing",
       "phase": "rough_trades",
       "answer": "exclude",
-      "reason": "no plumbing in scope"
+      "reason": "no plumbing"
     },
     {
       "node_id": "rough_hvac",
@@ -1102,28 +1114,28 @@
       "name": "Rough inspections (MEPs then framing, bundled)",
       "phase": "rough_inspections",
       "answer": "include",
-      "reason": "framing and fireplace/chimney inspections required"
+      "reason": "framing + fireplace/chimney inspections, no MEPs"
     },
     {
       "node_id": "insulation",
       "name": "Insulation & air sealing",
       "phase": "insulation_drywall",
       "answer": "exclude",
-      "reason": "outside scope footprint"
+      "reason": "no insulation"
     },
     {
       "node_id": "insulation_inspection",
       "name": "Insulation inspection",
       "phase": "insulation_drywall",
       "answer": "exclude",
-      "reason": "outside scope footprint"
+      "reason": "no insulation"
     },
     {
       "node_id": "drywall",
       "name": "Drywall (hang, tape, sand)",
       "phase": "insulation_drywall",
       "answer": "exclude",
-      "reason": "outside scope footprint"
+      "reason": "no drywall"
     },
     {
       "node_id": "paint_phase_1",
@@ -1151,7 +1163,7 @@
       "name": "Cabinets, counters, vanities & fixed items",
       "phase": "interior_finishes",
       "answer": "exclude",
-      "reason": "no cabinetry"
+      "reason": "no cabinetry or counters"
     },
     {
       "node_id": "carpet_floating",
@@ -1171,15 +1183,15 @@
       "node_id": "finish_carpentry",
       "name": "Finish Carpentry",
       "phase": "interior_finishes",
-      "answer": "exclude",
-      "reason": "no interior doors/trim; screen trim in extra task"
+      "answer": "include",
+      "reason": "beadboard, site-built screen frames, screen, trim"
     },
     {
       "node_id": "stair_build",
       "name": "Stairs (build/finish)",
       "phase": "interior_finishes",
       "answer": "exclude",
-      "reason": "no stairs"
+      "reason": "no stairs, at-grade slab"
     },
     {
       "node_id": "paint_phase_2",
@@ -1193,14 +1205,14 @@
       "name": "Concrete flatwork (patios, driveways, walkways)",
       "phase": "concrete_landscaping",
       "answer": "exclude",
-      "reason": "covered by foundation"
+      "reason": "covered by foundation; slab is the structure floor"
     },
     {
       "node_id": "landscaping",
       "name": "Landscaping & site restoration",
       "phase": "concrete_landscaping",
       "answer": "exclude",
-      "reason": "drainage/landscaping excluded in breakdown"
+      "reason": "drainage/landscaping excluded, no seed and straw"
     },
     {
       "node_id": "customer_walkthrough",
@@ -1214,7 +1226,7 @@
       "name": "Final inspections (building + E/P/M, bundled)",
       "phase": "closeout",
       "answer": "include",
-      "reason": "final inspection required by AHJ"
+      "reason": "AHJ final inspection required per canon"
     }
   ]
 }
