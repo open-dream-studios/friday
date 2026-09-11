@@ -1,27 +1,2 @@
 # CANON - JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM Scope (Priority Level 4/4 - Highest)
 <!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->
-
-Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above wins on any conflict).
-
-## Answers
-
-- DEFAULT: Shed roof post bearing: The shed roof's support posts bear on turned-down footings integrated into the new concrete slab pour, rather than on separate piers or existing deck framing.
-- POLICY: Fireplace construction type: The fireplace is built as a framed wood chase with a manufactured firebox and Class A pipe, not site-built masonry, per drawing page 5.
-- DEFAULT: Fireplace wall placement: The fireplace is located on the open outer wall, centered within the 6'-4" bay, per floor plan page 4
-    Condition: If Interior renders showing the fireplace on the end side wall are incorrect and should be disregarded
-- POLICY: No winter weather schedule adjustments: Schedule dates for slab and framing work, including the Dec 21, 2026 start, must not be shifted or adjusted due to winter or cold-weather conditions.
-- DEFAULT: Fireplace exterior selections finalized: All exterior fireplace selections—veneer, hearth, mantel, shingle match, and screen door—are finalized and the job can proceed to scheduling.
-- POLICY: Required AHJ inspections for porch: The Authority Having Jurisdiction requires footing, framing, fireplace/chimney, and final inspections for this porch.
-- POLICY: Porch electrical scope exclusion: The porch remains zero-electrical as contracted — no lights, fan, or GFCI outlets are to be installed — and written acknowledgement of this exclusion must be obtained from the customer.
-- POLICY: Building permit responsibility for roof tie-in: Tri-Cities pulls the building permit for the roof tie-in and wood-burning fireplace, as permitting is included in the proposal.
-- DEFAULT: Patio ledger/beam attachment point: The patio cover's beam rests on posts running alongside the house, while the rafters tie into the existing eave/roof framing rather than a ledger board attached to brick veneer or wood framing on the house wall.
-- DEFAULT: Chimney termination height relative to main ridge: The chimney terminates on the shed roof and does not need to extend above the existing main-roof ridge to satisfy 10-3-2 clearance requirements.
-- DEFAULT: Rear patio equipment access route: The mini-excavator and 12-yd dumpster can reach the rear patio via the side yard with no obstacles, so demo and excavation do not need to be hand-carried
-- DEFAULT: Fireplace chase and veneer installer: The in-house crew builds the fireplace chase/chimney framing and sets the veneer, rather than subcontracting to a mason or fireplace installer
-- DEFAULT: Roof edge and eave finishes: Roof-edge and ceiling finish work is excluded from scope, leaving bare framing with no fascia, no soffit, no gutters, and no painted exposed rafters.
-- POLICY: Knee wall construction spec: The knee wall is built per the drawings at approximately 3'-4" height with lap siding on the exterior and beadboard on the interior, not the 2' white vinyl knee wall described in the proposal.
-- DEFAULT: Rear wall HVAC condenser relocation: The existing HVAC condenser on the rear wall does not need to be relocated for the porch footprint, since it sits outside the footprint and required clearances are maintained
-- DEFAULT: Shed-roof header beam material at posts: The header/beam at the posts for the shed roof is built-up pressure-treated 2x10 or 2x12 dimensional lumber, not an LVL or other engineered beam.
-- DEFAULT: Rear wall/roof penetrations in porch/shed area: No existing exhausts, vents, or hose bibbs on the rear wall or roof fall within the footprint of the new porch or shed-roof area; the only fixture present on that wall is the HVAC condenser.
-- DEFAULT: Home occupancy and rear door access during construction: The home is occupied during construction, and the rear doors are in daily use by occupants but can be closed off from the work area as needed.
-- DEFAULT: Screen enclosure construction method: Screen enclosures are built as site-built wood frames with stapled screen and trim, not a pre-fab spline track system like Screen Tight
