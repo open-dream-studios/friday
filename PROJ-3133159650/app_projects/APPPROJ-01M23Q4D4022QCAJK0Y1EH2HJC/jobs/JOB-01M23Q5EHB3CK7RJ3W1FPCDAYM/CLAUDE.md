@@ -37,3 +37,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Rafter tie-in at existing eave: When tying new rafters into the existing eave, remove only the gutter at the tie-in area; do not remove the fascia or cut back the eave framing, and tie the rafters into the existing eave framing as-is.
 - DEFAULT: Firebox and chimney kit lead time: The selected manufactured firebox and Class A chimney kit have a lead time of 3-4 weeks.
 - DEFAULT: Screen door sourcing: The screen door is a stock unit, available off the shelf or within 2-3 weeks lead time, rather than a custom or special-order door.
+- POLICY: Gutter tie-in end-cap and downspout handling: Where the existing gutter run meets the shed-roof tie-in, end-cap the existing gutter at the tie-in point and leave the existing downspout in its current location rather than relocating it.
