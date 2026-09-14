@@ -15,3 +15,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Sunroom ceiling finish scope: Base scope includes finishing the 430 sf sunroom ceiling with drywall and roof/ceiling insulation after the old ceiling is demolished, rather than leaving it open.
 - DEFAULT: Footer pocket excavation method at existing pad: Some of the 8 footer pockets require saw-cutting through the existing concrete pad rather than being dug beside it
     Condition: If Applies where a footer pocket location falls under the existing pad footprint
+- POLICY: Brick wall drywall treatment: On the house-side wall that is brick, leave the brick exposed rather than covering it with drywall.
