@@ -5,5 +5,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 
 ## Answers
 
-- DEFAULT: 6568 double door house-side opening status: The 6568 double door opening on the house-side brick wall is an existing opening to remain as-is, with no work performed on it. The sunroom is a replacement of an existing room against the house, so house-side openings already exist and are not new cuts into the brick. The proposal prices exactly one door (36x80 exterior pre-hung at $500 allowance) and includes zero brick-cutting or double-door material in the breakdown.
-- POLICY: Window/door ordering timing relative to demo: Order windows and the exterior door from stock plan sizes (36x60 vinyl windows, 36x80 pre-hung door) before demo begins, since new walls are framed to match the stock sizes, so materials are on site before demo starts.
+- DEFAULT: Second-story sunroom access method: Crew and materials reach the second-story sunroom rebuild via a combination of house access and scaffolding: scaffold erected from grade supports underside/soffit and exterior work (priced at 2 days in the breakdown), while crew paths through the occupied house serve as the other access route, consistent with jobsite protection being priced at access points and adjacent finishes.
