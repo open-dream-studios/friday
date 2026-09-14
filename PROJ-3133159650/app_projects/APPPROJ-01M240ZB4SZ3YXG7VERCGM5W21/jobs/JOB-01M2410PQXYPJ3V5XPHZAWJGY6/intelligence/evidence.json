@@ -1,12 +1,12 @@
 {
   "schema": "job_evidence_v1",
-  "built_at": "2026-09-14T20:02:42.359Z",
+  "built_at": "2026-09-14T20:27:32.253Z",
   "entity": {
     "kind": "job",
     "id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6"
   },
   "derived_from": {
-    "fingerprint": "b33585a980f2c029dc5b2b541d1d5a2b7107c8f0120df937735e10962f4cb977",
+    "fingerprint": "38580c4d3bd0242cdb7649352a04aa6de83ef28f4def4de56ea6249e97bbf400",
     "answers_sha": "90de9075ce7413166d1f689a8d88684b38dd45163883a6e732844b4c4a77c86f"
   },
   "quantities": [
@@ -65,7 +65,7 @@
     },
     {
       "id": "scaffold_days",
-      "label": "Scaffold rental days (underside/exterior)",
+      "label": "Scaffold days priced",
       "value": 2,
       "unit": "days",
       "confidence": "medium",
@@ -137,7 +137,7 @@
     },
     {
       "id": "footer_pad_cut_count",
-      "label": "Footers cut through existing pad",
+      "label": "Footers saw-cut through existing pad",
       "value": null,
       "unit": "each",
       "confidence": "unknown",
@@ -149,7 +149,7 @@
     },
     {
       "id": "footer_count",
-      "label": "Post footers",
+      "label": "Post footer count",
       "value": 8,
       "unit": "each",
       "confidence": "medium",
@@ -174,7 +174,7 @@
     },
     {
       "id": "post_count",
-      "label": "6x6 PT posts",
+      "label": "6x6 PT post count",
       "value": 8,
       "unit": "each",
       "confidence": "medium",
@@ -208,7 +208,7 @@
     },
     {
       "id": "floor_joist_count",
-      "label": "PT floor joists",
+      "label": "PT floor joist count",
       "value": 34,
       "unit": "each",
       "confidence": "medium",
@@ -220,7 +220,7 @@
     },
     {
       "id": "floor_rim_ledger_lf",
-      "label": "Rim + ledger",
+      "label": "Rim/ledger linear feet",
       "value": 106,
       "unit": "lf",
       "confidence": "medium",
@@ -255,7 +255,7 @@
     },
     {
       "id": "wall_lf_new",
-      "label": "New wall linear feet",
+      "label": "New exterior wall linear feet",
       "value": 63,
       "unit": "lf",
       "confidence": "high",
@@ -280,7 +280,7 @@
     },
     {
       "id": "wall_sheathing_sqft",
-      "label": "Wall sheathing / WRB",
+      "label": "Wall sheathing / WRB area",
       "value": 504,
       "unit": "sqft",
       "confidence": "medium",
@@ -292,7 +292,7 @@
     },
     {
       "id": "siding_sqft_net",
-      "label": "Vinyl lap siding, net",
+      "label": "Vinyl lap siding net area",
       "value": 394,
       "unit": "sqft",
       "confidence": "medium",
@@ -304,7 +304,7 @@
     },
     {
       "id": "window_count",
-      "label": "Windows (36x60 vinyl, stock)",
+      "label": "Window count",
       "value": 6,
       "unit": "each",
       "confidence": "high",
@@ -318,7 +318,7 @@
     },
     {
       "id": "exterior_door_count",
-      "label": "Exterior pre-hung door (36x80)",
+      "label": "Exterior door count",
       "value": 1,
       "unit": "each",
       "confidence": "high",
@@ -331,7 +331,7 @@
     },
     {
       "id": "window_door_order_timing",
-      "label": "Opening order timing",
+      "label": "Window/door order timing",
       "value": "order 6 stock 36x60 + 1 stock 36x80 from plan sizes before demo; walls framed to suit",
       "unit": "categorical",
       "confidence": "high",
@@ -367,7 +367,7 @@
       "id": "roof_pitch",
       "label": "Roof pitch",
       "value": null,
-      "unit": "rise/12",
+      "unit": "x:12",
       "confidence": "unknown",
       "sources": [
         "crawford.pdf p.2",
@@ -377,7 +377,7 @@
     },
     {
       "id": "roof_bearing_tie_in_lf",
-      "label": "Roof reseat / flashing tie-in",
+      "label": "Roof reseat / flashing tie-in length",
       "value": 63,
       "unit": "lf",
       "confidence": "medium",
@@ -389,7 +389,7 @@
     },
     {
       "id": "roof_patch_count",
-      "label": "Roof patches at old vents",
+      "label": "Roof patch/repair count",
       "value": 2,
       "unit": "each",
       "confidence": "high",
@@ -400,7 +400,7 @@
     },
     {
       "id": "wall_insulation_sqft",
-      "label": "Wall batt insulation",
+      "label": "Wall batt insulation area",
       "value": 504,
       "unit": "sqft",
       "confidence": "medium",
@@ -412,7 +412,7 @@
     },
     {
       "id": "floor_insulation_sqft",
-      "label": "Floor cavity batt",
+      "label": "Floor cavity insulation area",
       "value": 430,
       "unit": "sqft",
       "confidence": "high",
@@ -423,7 +423,7 @@
     },
     {
       "id": "ceiling_insulation_sqft",
-      "label": "Roof-cavity batt at ceiling",
+      "label": "Roof/ceiling cavity insulation area",
       "value": 430,
       "unit": "sqft",
       "confidence": "medium",
@@ -435,7 +435,7 @@
     },
     {
       "id": "ceiling_finish_sqft",
-      "label": "Ceiling drywall, Level 3",
+      "label": "Ceiling drywall area",
       "value": 430,
       "unit": "sqft",
       "confidence": "medium",
@@ -459,7 +459,7 @@
     },
     {
       "id": "drywall_sqft",
-      "label": "Drywall, total (walls + ceiling)",
+      "label": "Total drywall area (walls + ceiling)",
       "value": 934,
       "unit": "sqft",
       "confidence": "medium",
@@ -485,7 +485,7 @@
     },
     {
       "id": "light_fixture_count",
-      "label": "Flush-mount lights",
+      "label": "Flush-mount light count",
       "value": 6,
       "unit": "each",
       "confidence": "high",
@@ -497,7 +497,7 @@
     },
     {
       "id": "ceiling_fan_count",
-      "label": "Ceiling fans",
+      "label": "Ceiling fan count",
       "value": 2,
       "unit": "each",
       "confidence": "high",
@@ -520,7 +520,7 @@
     },
     {
       "id": "existing_service_amps",
-      "label": "Existing main service",
+      "label": "Existing main service ampacity",
       "value": 200,
       "unit": "A",
       "confidence": "high",
@@ -531,7 +531,7 @@
     },
     {
       "id": "hvac_minisplit_count",
-      "label": "Ductless mini-split",
+      "label": "Ductless mini-split count",
       "value": 1,
       "unit": "each",
       "confidence": "high",
@@ -553,7 +553,7 @@
     },
     {
       "id": "interior_finish_scope",
-      "label": "Interior finish scope",
+      "label": "Interior finish level",
       "value": "Level 3 drywall-ready walls + ceiling; house wall exposed brick; no paint, flooring, trim (Option 2 declined)",
       "unit": "categorical",
       "confidence": "high",
@@ -567,7 +567,7 @@
     },
     {
       "id": "deck_stairs_scope",
-      "label": "Deck / railing / stairs",
+      "label": "Deck / railing / stair scope",
       "value": "none in contract",
       "unit": "categorical",
       "confidence": "high",
@@ -581,7 +581,7 @@
     },
     {
       "id": "inspection_count",
-      "label": "Inspection visits (bundled)",
+      "label": "Inspection visits (implied)",
       "value": 5,
       "unit": "each",
       "confidence": "medium",
@@ -593,7 +593,7 @@
     },
     {
       "id": "scheduled_start_date",
-      "label": "Scheduled start",
+      "label": "Scheduled start date",
       "value": "2027-03-01",
       "unit": "date",
       "confidence": "high",
@@ -745,7 +745,7 @@
           "insulation_drywall_prime"
         ],
         "mapping_confidence": "high",
-        "notes": "Walls only (504 sf); the newly settled 430 sf roof-cavity batt has no JBD hours."
+        "notes": "Walls only (504 sf); the settled 430 sf roof-cavity batt has no JBD hours."
       },
       {
         "section_id": "drywall",
@@ -790,7 +790,7 @@
     },
     {
       "kind": "suspect",
-      "message": "Ceiling is now settled as roof-cavity batt + Level 3 drywall (430 sf each), but neither the proposal nor the JBD prices it: JBD carries 'no ceiling drywall' and 7h of wall-only insulation. The drywall bucket is now ~46% overhead work on existing shed rafters (strapping/venting not described), so JBD's 65h is not a ceiling for this scope — anchor to 934 sf takeoff with an overhead premium and add ~430 sf of batt outside JBD hours."
+      "message": "Ceiling is settled as roof-cavity batt + Level 3 drywall (430 sf each), but neither the proposal nor the JBD prices it: JBD carries 'no ceiling drywall' and 7h of wall-only insulation. The drywall bucket is now ~46% overhead work on existing shed rafters (strapping/venting not described), so JBD's 65h is not a ceiling for this scope — anchor to 934 sf takeoff with an overhead premium and add ~430 sf of batt outside JBD hours."
     },
     {
       "kind": "suspect",
@@ -806,7 +806,7 @@
     },
     {
       "kind": "suspect",
-      "message": "JBD 455 labor-hours reads hot against the physical takeoff: 87h floor system for 430 sf, 48h demo for a 430 sf room, 69h walls for 63 LF, 65h drywall for 30 sheets. Elevated/occupied/scaffold access justifies some premium, but sizing should anchor to takeoff quantities and the rate card, citing the JBD only as a ceiling."
+      "message": "JBD 455 labor-hours reads hot against the physical takeoff: 87h floor system for 430 sf, 48h demo for a 430 sf room, 69h walls for 63 LF, 65h drywall for 30 sheets. Elevated/occupied/scaffold access justifies the canon +20-25% premium, but sizing should anchor to takeoff quantities and the rate card, citing the JBD only as a ceiling."
     },
     {
       "kind": "suspect",
@@ -822,11 +822,15 @@
     },
     {
       "kind": "suspect",
-      "message": "Scaffold is priced at only 2 days for the underside soffit (430 sf overhead), 63 LF of siding, and roof tie-in flashing on a sloped lot; with house access serving crew paths, the exterior scope likely needs scaffold standing for the length of cladding_roof, not 2 days."
+      "message": "Scaffold is priced at only 2 days for the underside soffit (430 sf overhead), 63 LF of siding, and roof tie-in flashing on a sloped lot; with house access settled as the crew path, the exterior scope likely needs scaffold standing for the length of cladding_roof, not 2 days, and canon bills erect/strike (~4-8 crew-h per mobilization) explicitly."
     },
     {
       "kind": "suspect",
       "message": "Subpanel conversion is contingent on the existing fused disconnect being sound and legally usable as a subpanel (JBD PM note); a replacement subpanel would be an add. Main service is 200A per project answer, so capacity is not the concern — panel condition is."
+    },
+    {
+      "kind": "suspect",
+      "message": "Material handling through the occupied house (settled access route) is real hours per canon but appears nowhere in the JBD; demo, framing, siding and window buckets should carry the elevated/occupied premium rather than absorb it silently."
     },
     {
       "kind": "gap",
