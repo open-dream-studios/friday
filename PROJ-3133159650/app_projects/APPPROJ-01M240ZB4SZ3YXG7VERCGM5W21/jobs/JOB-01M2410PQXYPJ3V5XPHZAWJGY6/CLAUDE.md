@@ -5,5 +5,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 
 ## Answers
 
-- DEFAULT: Sunroom deck/railing/stair scope: The elevated sunroom's contracted scope excludes any deck, railing, or exterior stair to grade — the proposal breakdown prices zero dollars for all such items, and any deck, railing, or stair shown in presentation renders is visualization-only rather than contracted work.
-    Condition: If The proposal document, not the presentation renders, governs actual contracted scope.
+- POLICY: Window order quantity is 6 stock units: The window order consists of exactly (6) stock 36x60 vinyl windows per the signed proposal and pricing breakdown, each priced at the $300 allowance; the 7-window presentation layout including two 5050 units is visualization-only and does not govern quantity or pricing, since the allowance math only reconciles against the 6 stock units.
