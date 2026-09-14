@@ -20,3 +20,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Fused disconnect suitability for breaker subpanel conversion: The existing fused disconnect has not yet been verified as suitable for conversion to a breaker subpanel; the electrician must assess it before the conversion kit is ordered.
 - POLICY: Number of posts/footers: Set 8 posts/footers total, per the proposal, rather than the 7 shown in the presentation plan.
 - DEFAULT: Mini-split condenser mounting location: The mini-split condenser unit is mounted on a grade-level pad beneath the sunroom.
+- POLICY: Window and door header material: Window and door headers are built-up dimensional 2x lumber, not LVL — no LVL order is placed for headers.
