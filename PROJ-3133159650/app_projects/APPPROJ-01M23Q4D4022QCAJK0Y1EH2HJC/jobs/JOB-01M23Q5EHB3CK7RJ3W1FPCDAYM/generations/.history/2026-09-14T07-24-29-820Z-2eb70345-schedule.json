@@ -181,7 +181,7 @@
       "name": "Framing Package",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 5,
+      "duration_days": 7,
       "crew_size": 0,
       "depends_on": [],
       "derived_from": {
@@ -191,10 +191,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-03",
+      "scheduled_start": "2027-03-01",
       "scheduled_end": "2027-03-09",
-      "earliest_start": "2027-03-03",
-      "latest_start": "2027-03-03",
+      "earliest_start": "2027-03-01",
+      "latest_start": "2027-03-01",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -206,6 +206,40 @@
           "lag_days": 3,
           "successor_earliest_start": "2027-03-15",
           "successor_earliest_finish": "2027-03-17"
+        }
+      ]
+    },
+    {
+      "id": "proc_doors_trim",
+      "section_id": "procurement",
+      "name": "Interior doors & trim package",
+      "trade": "general",
+      "kind": "procurement",
+      "duration_days": 5,
+      "crew_size": 0,
+      "depends_on": [],
+      "derived_from": {
+        "section_id": "procurement",
+        "rule_ids": [],
+        "reasoning": ""
+      },
+      "phase_id": "procurement",
+      "component_id": "procurement_items",
+      "scheduled_start": "2027-03-12",
+      "scheduled_end": "2027-03-18",
+      "earliest_start": "2027-03-12",
+      "latest_start": "2027-03-12",
+      "float_days": 0,
+      "status": "not_started",
+      "actual_start": null,
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "finish_carpentry",
+          "type": "FS",
+          "lag_days": 3,
+          "successor_earliest_start": "2027-03-24",
+          "successor_earliest_finish": "2027-03-24"
         }
       ]
     },
@@ -1161,11 +1195,16 @@
       "trade": "trim_carpentry",
       "kind": "work",
       "duration_days": 1,
-      "crew_size": 2,
+      "crew_size": 1,
       "depends_on": [
         {
           "predecessor_id": "rough_inspections.end",
           "type": "FS"
+        },
+        {
+          "predecessor_id": "proc_doors_trim",
+          "type": "FS",
+          "lag_days": 3
         }
       ],
       "derived_from": {
@@ -1188,6 +1227,11 @@
           "predecessor_id": "rough_inspections.end",
           "type": "FS",
           "lag_days": 0
+        },
+        {
+          "predecessor_id": "proc_doors_trim",
+          "type": "FS",
+          "lag_days": 3
         }
       ],
       "binding_successors_of_this": [
@@ -1393,12 +1437,13 @@
     "permit_building",
     "proc_fireplace_kit",
     "proc_foundation_package",
+    "proc_framing_package",
     "site_and_structure_demo",
     "site_prep",
-    "proc_framing_package",
     "excavation",
     "foundation_prep",
     "site_foundation.end",
+    "proc_doors_trim",
     "framing_shell.start",
     "framing",
     "fireplace_chase_install",
