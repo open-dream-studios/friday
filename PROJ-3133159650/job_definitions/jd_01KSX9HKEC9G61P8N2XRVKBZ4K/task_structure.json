@@ -1006,6 +1006,37 @@
       "component": "structural_framing"
     },
     {
+      "id": "roof_reintegration",
+      "crew": {
+        "max": 4,
+        "min": 2,
+        "kind": "range",
+        "default": 3
+      },
+      "kind": "work",
+      "name": "Roof reintegration (reseat preserved roof, bearing transfer, strike shoring)",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "framing"
+        }
+      ],
+      "notes": "The critical-path operation on preserve-the-roof rebuilds: transfer bearing from shores to the new walls/beam, verify level/attachment per IRC, then strike shoring ONLY after the roof is reseated and tie-in flashing is watertight. Flashing/patch detail stays on roofing; shoring ERECTION stays with demo/general conditions.",
+      "phase": "framing_shell",
+      "trade": "framing",
+      "vetted": true,
+      "trigger": "When an existing roof is preserved on temporary shoring and must be reseated onto the new structure (roof-over rebuilds). Excluded when the job frames a new roof.",
+      "duration": {
+        "max": 4,
+        "min": 1,
+        "hint": "Bearing transfer + shimming + fastening on a ~40 LF single-plane roof ≈ 1-2 days for a 3-man crew; add a day when shore layout fights the new walls.",
+        "kind": "range",
+        "default": 2
+      },
+      "component": "structural_framing"
+    },
+    {
       "id": "exterior_windows_doors",
       "crew": {
         "max": 3,
@@ -2237,7 +2268,7 @@
       "order": 12
     }
   ],
-  "version": 12,
+  "version": 13,
   "job_type": "Addition",
   "components": [
     {
