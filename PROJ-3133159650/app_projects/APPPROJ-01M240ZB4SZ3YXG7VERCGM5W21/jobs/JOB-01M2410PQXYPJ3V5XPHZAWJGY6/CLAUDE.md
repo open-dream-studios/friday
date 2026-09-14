@@ -5,5 +5,5 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 
 ## Answers
 
-- DEFAULT: footer excavation method: cut vs dug: Of the 8 post footers, the ones landing on the existing concrete patio pad are formed by saw-cutting and breaking out approx. 12x12x12 pockets in the pad, while the ones falling beside the pad in open soil are hand-dug to the same approximate size; no concrete saw is currently listed in the priced equipment, so this needs to be flagged to Will for confirmation before work starts.
-    Condition: If Applies to this deck/patio footer scope where some post locations overlap the existing concrete pad and others fall in adjacent soil.
+- DEFAULT: Sunroom deck/railing/stair scope: The elevated sunroom's contracted scope excludes any deck, railing, or exterior stair to grade — the proposal breakdown prices zero dollars for all such items, and any deck, railing, or stair shown in presentation renders is visualization-only rather than contracted work.
+    Condition: If The proposal document, not the presentation renders, governs actual contracted scope.
