@@ -5,4 +5,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 
 ## Answers
 
-- POLICY: Brick house wall left exposed, no drywall: The existing brick house-side wall is left exposed with no drywall attached to it, and no furring strips, stud wall, or adhesive are priced for attaching anything to that brick; the 2x4@16 framing and 18 sheets of drywall are for the three new walls and ceiling only.
+- POLICY: Sunroom rebuilt ceiling finish level: The rebuilt sunroom ceiling must be insulated in the roof cavity and finished with drywall to Level 3 (taped, 3-coat, sanded, drywall-ready) as part of the full interior rebuild after ceiling demolition.
