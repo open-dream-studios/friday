@@ -14,3 +14,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Building permit application status: The building permit, including electrical and mechanical, has not yet been applied for on this job
 - DEFAULT: Floor batt and soffit install sequencing: Under-floor vinyl soffit is installed from below after framing/rough-in, while floor-cavity batt insulation is installed from above before the subfloor goes down.
 - DEFAULT: Window and exterior door lead time: Windows and exterior doors are standard stock sizes (36x60 double-hung windows, 3068 exterior doors) with a 1-2 week lead time, not special-order items.
+- POLICY: Sunroom ceiling finish scope: Base scope for the 430 sf sunroom includes finishing the ceiling with drywall and roof/ceiling insulation after the old ceiling is demolished, rather than leaving it open.
