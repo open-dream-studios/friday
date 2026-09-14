@@ -17,3 +17,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Sunroom ceiling finish scope: Base scope for the 430 sf sunroom includes finishing the ceiling with drywall and roof/ceiling insulation after the old ceiling is demolished, rather than leaving it open.
 - DEFAULT: Footer pocket excavation method at existing pad: The 8 footer pockets are created by saw-cutting through the existing concrete pad rather than digging beside it, at some of the pocket locations
 - POLICY: Brick house-side wall drywall treatment: On the wall where the house is brick, leave the brick exposed and do not install drywall over it.
+- DEFAULT: Fused disconnect suitability for breaker subpanel conversion: The existing fused disconnect has not yet been verified as suitable for conversion to a breaker subpanel; the electrician must assess it before the conversion kit is ordered.
