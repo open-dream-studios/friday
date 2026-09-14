@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generation_id": "01M2GJZT0QTH3QA267TCQP3ZXD",
-  "generated_at": "2026-09-14T18:33:40.054Z",
+  "generation_id": "01M2GNW8EW1HZ7PJXZ59SA7DZJ",
+  "generated_at": "2026-09-14T19:25:41.523Z",
   "structure": {
     "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
-    "version": 10,
+    "version": 12,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
   },
   "ledger": {
@@ -111,8 +111,8 @@
       "sha256": "aef4d890287a71c4b1d2567cae8b5d393767b7a7e0018e98ed55053868193c6f"
     },
     "changelog": {
-      "lines": 567,
-      "tail_sha256": "fe7d034f5c9d0def4fab1e18e60cb3ed1e36d76831dc11b50c82c77287bc0d0d"
+      "lines": 570,
+      "tail_sha256": "7c27d8cfdb6e822e8f27520b214496ed0118acc9a00070a5ceddd4a3469d1f66"
     }
   },
   "blocking_open_at_generation": 0
