@@ -9,3 +9,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: existing shed-roof bearing height: The existing shed roof's bearing height, which new wall plates must land at, is approximately 8 feet (JBD assumption, unverified by field measurement).
 - POLICY: Temporary shoring design authority: Temporary shoring for the 43 ft retained roof does not require an engineered or stamped design and may be foreman-designed before demo.
 - DEFAULT: Elevated work access and debris removal method: Crews access elevated work areas via ground-level access on the sloped grade below the work, using scaffold, and lower debris by hand rather than through the house or by lift.
+- DEFAULT: Building permit application status: The building permit, including electrical and mechanical, has not yet been applied for on this job
