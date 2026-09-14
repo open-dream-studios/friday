@@ -13,3 +13,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - POLICY: Framing crew assignment: Framing work (posts, beam, floor, walls, and roof reseat) is performed by the in-house TCR crew, with JBD carrying the labor hours in-house rather than hiring a framing subcontractor.
 - DEFAULT: Building permit application status: The building permit, including electrical and mechanical, has not yet been applied for on this job
 - DEFAULT: Floor batt and soffit install sequencing: Under-floor vinyl soffit is installed from below after framing/rough-in, while floor-cavity batt insulation is installed from above before the subfloor goes down.
+- DEFAULT: Window and exterior door lead time: Windows and exterior doors are standard stock sizes (36x60 double-hung windows, 3068 exterior doors) with a 1-2 week lead time, not special-order items.
