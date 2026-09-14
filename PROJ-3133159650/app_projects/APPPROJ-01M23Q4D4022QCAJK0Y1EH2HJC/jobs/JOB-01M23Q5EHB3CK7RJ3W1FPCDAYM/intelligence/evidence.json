@@ -1,12 +1,13 @@
 {
   "schema": "job_evidence_v1",
-  "built_at": "2026-09-11T05:03:52.608Z",
+  "built_at": "2026-09-14T04:44:37.317Z",
   "entity": {
     "kind": "job",
     "id": "JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM"
   },
   "derived_from": {
-    "fingerprint": "55f008e67a7911f6832cb1b9532f9cbbb317b9f2ce5e142b50b7ce755c2c482e"
+    "fingerprint": "98c0f255defbaa80b5aba37593d917b9b93ed52098ef8bc72f85612edd00d6da",
+    "answers_sha": "1ad29757c2ce58130f08a0af1ede69148a513619f3f3b156e725b48632b926cc"
   },
   "quantities": [
     {
@@ -25,7 +26,7 @@
     },
     {
       "id": "patio_length_ft",
-      "label": "Patio length (along house / open long side)",
+      "label": "Patio length (along house wall / open long side)",
       "value": 23.5,
       "unit": "ft",
       "confidence": "high",
@@ -37,7 +38,7 @@
     },
     {
       "id": "patio_depth_ft",
-      "label": "Patio depth (house wall to open side)",
+      "label": "Patio depth (rafter run direction)",
       "value": 12.5,
       "unit": "ft",
       "confidence": "high",
@@ -143,7 +144,7 @@
     },
     {
       "id": "concrete_slab_area_sqft",
-      "label": "Concrete slab area (patio + infill)",
+      "label": "Concrete slab area incl. fire-pit infill",
       "value": 303,
       "unit": "sqft",
       "confidence": "high",
@@ -166,7 +167,7 @@
     },
     {
       "id": "concrete_volume_cy",
-      "label": "Ready-mix concrete volume",
+      "label": "Concrete volume incl. thickened footings",
       "value": 4.5,
       "unit": "cy",
       "confidence": "medium",
@@ -216,7 +217,7 @@
     },
     {
       "id": "roof_type",
-      "label": "Roof structure type",
+      "label": "Roof type / tie-in",
       "value": "shed, stick-framed 2x8 rafters bearing on a house-side beam on posts and an open-side built-up beam; rafters tie into existing eave/roof framing (gutter removed only, eave framing untouched)",
       "unit": "categorical",
       "confidence": "high",
@@ -231,9 +232,9 @@
     },
     {
       "id": "roof_pitch",
-      "label": "Shed roof pitch",
+      "label": "Roof pitch",
       "value": null,
-      "unit": "rise/12",
+      "unit": "in/12",
       "confidence": "unknown",
       "sources": [
         "205 Pawnee St - Proposal.pdf p.2",
@@ -243,7 +244,7 @@
     },
     {
       "id": "roof_area_sqft",
-      "label": "Shed roof area (plan)",
+      "label": "Roof area (plan)",
       "value": 300,
       "unit": "sqft",
       "confidence": "medium",
@@ -302,7 +303,7 @@
     },
     {
       "id": "ledger_lf",
-      "label": "House-side bearing line (beam on posts, no ledger)",
+      "label": "House-side beam length (in lieu of ledger)",
       "value": 23.5,
       "unit": "lf",
       "confidence": "medium",
@@ -327,7 +328,7 @@
     },
     {
       "id": "post_count",
-      "label": "Roof support posts (both beams)",
+      "label": "Roof support posts",
       "value": 8,
       "unit": "count",
       "confidence": "medium",
@@ -340,15 +341,39 @@
     },
     {
       "id": "eave_tie_in_gutter_removal_lf",
-      "label": "Existing gutter removed at tie-in",
+      "label": "Existing gutter removed at eave tie-in",
       "value": 23.5,
       "unit": "lf",
       "confidence": "medium",
       "sources": [
         "answer q_eave_tie_in",
+        "answer q_01M27DVDB145VNZCA4Z02257XS",
         "205 Pawnee St - Proposal.pdf p.1"
       ],
-      "basis": "Answer: remove only the gutter at the tie-in area, fascia and eave framing stay — tie-in runs the 23.5' house wall so ~23.5 LF of gutter comes off; reinstatement/rerouting not addressed by any source"
+      "basis": "Answer: remove only the gutter at the tie-in area, fascia and eave framing stay — tie-in runs the 23.5' house wall so ~23.5 LF of gutter comes off; gutter answer settles the remainder: end-cap the existing run at the tie-in point, downspout stays put — no rerouting"
+    },
+    {
+      "id": "gutter_end_cap_count",
+      "label": "Existing gutter end-caps at tie-in",
+      "value": 1,
+      "unit": "count",
+      "confidence": "high",
+      "sources": [
+        "answer q_01M27DVDB145VNZCA4Z02257XS"
+      ],
+      "basis": "Policy answer: end-cap the existing gutter where it meets the shed-roof tie-in — one cap at the tie-in point on the remaining upstream run"
+    },
+    {
+      "id": "downspout_relocation_count",
+      "label": "Downspouts relocated",
+      "value": 0,
+      "unit": "count",
+      "confidence": "high",
+      "sources": [
+        "answer q_01M27DVDB145VNZCA4Z02257XS",
+        "answer q_fascia_soffit_gutters"
+      ],
+      "basis": "Answer: existing downspout stays in its current location; new shed roof carries no gutters at all per the fascia/soffit/gutter exclusion"
     },
     {
       "id": "eave_height_ft",
@@ -363,7 +388,7 @@
     },
     {
       "id": "screen_wall_lf",
-      "label": "Screened perimeter (open sides)",
+      "label": "Screened / knee-wall perimeter",
       "value": 36,
       "unit": "lf",
       "confidence": "high",
@@ -376,7 +401,7 @@
     },
     {
       "id": "knee_wall_height_ft",
-      "label": "Knee wall height",
+      "label": "Knee-wall height",
       "value": 2,
       "unit": "ft",
       "confidence": "medium",
@@ -448,7 +473,7 @@
     },
     {
       "id": "exterior_door_count_new",
-      "label": "New exterior doors (non-screen)",
+      "label": "New exterior doors (excl. screen door)",
       "value": 0,
       "unit": "count",
       "confidence": "high",
@@ -485,7 +510,7 @@
     },
     {
       "id": "fireplace_system_type",
-      "label": "Fireplace system",
+      "label": "Fireplace system type",
       "value": "framed wood chase, manufactured wood-burning firebox, Class A double-wall pipe, brick-veneered exterior (drawing p5)",
       "unit": "categorical",
       "confidence": "high",
@@ -498,7 +523,7 @@
     },
     {
       "id": "fireplace_kit_lead_weeks",
-      "label": "Firebox + Class A chimney kit lead time",
+      "label": "Firebox + Class A kit lead time",
       "value": 3.5,
       "unit": "weeks",
       "confidence": "high",
@@ -509,7 +534,7 @@
     },
     {
       "id": "fireplace_location",
-      "label": "Fireplace / chimney location",
+      "label": "Fireplace location",
       "value": "centered on the open 23.5' long side in the 6'-4\" bay; chimney rises outside the shed roof edge",
       "unit": "categorical",
       "confidence": "high",
@@ -545,7 +570,7 @@
     },
     {
       "id": "veneer_hearth_lead_weeks",
-      "label": "Veneer + hearth material lead time",
+      "label": "Veneer + hearth lead time",
       "value": 1,
       "unit": "weeks",
       "confidence": "high",
@@ -556,7 +581,7 @@
     },
     {
       "id": "chimney_termination",
-      "label": "Chimney chase termination",
+      "label": "Chimney termination",
       "value": "terminates just above the shed roof low eave as drawn on p.5; no rise above the roof's high side",
       "unit": "categorical",
       "confidence": "high",
@@ -594,7 +619,7 @@
     },
     {
       "id": "utility_relocation_count",
-      "label": "Existing wall fixtures to relocate before slab",
+      "label": "Utility / fixture relocations",
       "value": 0,
       "unit": "count",
       "confidence": "high",
@@ -619,7 +644,7 @@
     },
     {
       "id": "ceiling_finish",
-      "label": "Ceiling finish",
+      "label": "Ceiling finish under rafters",
       "value": "exposed rafters, no ceiling finish",
       "unit": "categorical",
       "confidence": "high",
@@ -631,7 +656,7 @@
     },
     {
       "id": "fascia_soffit_gutter_lf",
-      "label": "New fascia / soffit / gutter",
+      "label": "New fascia/soffit/gutter",
       "value": 0,
       "unit": "lf",
       "confidence": "high",
@@ -644,7 +669,7 @@
     },
     {
       "id": "site_access",
-      "label": "Site access",
+      "label": "Site access constraints",
       "value": "rear-yard inside corner of house; direct concrete-truck and mini-excavator access via side yard (no pump/buggy); existing HVAC condenser adjacent but outside footprint — protect in place",
       "unit": "categorical",
       "confidence": "high",
@@ -658,7 +683,7 @@
     },
     {
       "id": "permit_count",
-      "label": "Building permits",
+      "label": "Permits",
       "value": 1,
       "unit": "count",
       "confidence": "high",
@@ -682,7 +707,7 @@
     },
     {
       "id": "engineering_required",
-      "label": "Structural engineering",
+      "label": "Engineering required",
       "value": "no — in-house sizing per IRC prescriptive tables",
       "unit": "categorical",
       "confidence": "high",
@@ -782,7 +807,7 @@
           "structural_framing"
         ],
         "mapping_confidence": "high",
-        "notes": "House-side beam on posts, open-side built-up beam, posts, rafters, blocking, sheathing, gutter-only eave tie-in; JBD's 'chimney-penetration framing' no longer applies (chimney outside roof edge)"
+        "notes": "House-side beam on posts, open-side built-up beam, posts, rafters, blocking, sheathing, gutter-only eave tie-in with end-cap; JBD's 'chimney-penetration framing' no longer applies (chimney outside roof edge)"
       },
       {
         "section_id": "roofing",
@@ -812,18 +837,17 @@
         "notes": "Knee-wall and screen-frame framing → structural_framing; white vinyl knee-wall finish and exterior trim → cladding_roof; screening/spline, trim, screen door hang → interior_installs; JBD gives no split and is built on 60 LF vs 36 LF actual"
       },
       {
-        "section_id": "wb_fireplace_structure",
+        "section_id": "fireplace_structure",
         "section_name": "WB Fireplace Structure (Firebox + Flue + Chimney)",
         "labor_hours": 98,
         "labor_cost": 3367.5,
         "material_cost": 4974.25,
         "section_total": 8341.75,
         "mapped_components": [
-          "structural_framing",
-          "rough_meps"
+          "fireplace_structure"
         ],
-        "mapping_confidence": "medium",
-        "notes": "Framed chase → structural_framing; manufactured firebox, Class A pipe, cap, spark arrestor → rough_meps as the nearest home for a solid-fuel venting system (not a true MEP trade); masonry alternative is off the table per answer"
+        "mapping_confidence": "high",
+        "notes": "Framed chase + manufactured firebox + Class A pipe + cap/spark arrestor all land on the dedicated Fireplace Structure component; masonry alternative is off the table per answer, so the 98h is hot — see flag"
       },
       {
         "section_id": "fireplace_finish",
@@ -833,10 +857,10 @@
         "material_cost": 2302,
         "section_total": 3660,
         "mapped_components": [
-          "interior_installs"
+          "fireplace_finish"
         ],
         "mapping_confidence": "high",
-        "notes": "Lath/scratch, stone veneer, hearth, mantel, sealer"
+        "notes": "Lath/scratch, stone veneer, hearth, mantel, sealer → dedicated Fireplace Finish component"
       },
       {
         "section_id": "electrical",
@@ -875,7 +899,7 @@
     },
     {
       "kind": "conflict",
-      "message": "Post count is now settled at 7-9 (carried 8) but the JBD prices 5 posts and zero turned-down footings — post material, footing excavation/forming, and ~0.5-0.7 cy extra concrete are all missing from the JBD concrete and framing sections, so its 42h/70h should not be read as covering them."
+      "message": "Post count is settled at 7-9 (carried 8) but the JBD prices 5 posts and zero turned-down footings — post material, footing excavation/forming, and ~0.5-0.7 cy extra concrete are all missing from the JBD concrete and framing sections, so its 42h/70h should not be read as covering them."
     },
     {
       "kind": "conflict",
@@ -894,16 +918,20 @@
       "message": "The chimney-termination policy (cap just above the ~8' low eave, not above the shed roof's high side) sits below the shed roof plane within 10' horizontally, which is the geometry 10-3-2 normally forbids — the confirmed fireplace/chimney inspection is where this could be rejected, so sizing should not assume the chase height is final until the inspector or the firebox manufacturer's termination table signs off."
     },
     {
+      "kind": "suspect",
+      "message": "Gutter answer end-caps the existing run at the tie-in and leaves the downspout where it is, but no source says which side of the ~23.5' removed section the downspout sits on — if it was on the removed run, the remaining upstream gutter is capped with no outlet and someone will be adding a downspout that nobody has priced; if it was outside the tie-in, the work is a single end-cap and trivially small."
+    },
+    {
       "kind": "conflict",
       "message": "Footprint: proposal ~12.5'×23.5' (294 sqft) vs drawing plan 22'-11\"×11'-8\" clear (267 sqft); knee wall 2' white vinyl (proposal) vs 3'-4 1/4\" lap siding / ~3' beadboard (drawings); drawings add a screened transom band and painted brick chase not in the proposal or JBD — per canon the proposal governs and these stay logged, not adopted."
     },
     {
       "kind": "suspect",
-      "message": "Roof structure 70h for a ~300 sqft single-plane shed roof with 19 rafters, two beams, ~8 posts and 10 sheets of sheathing runs hot; a 3-person crew would normally frame and sheathe this in 2-2.5 days (~50h), and with the ledger replaced by a beam on posts and the eave tie-in limited to gutter removal the only extra effort is post/beam setting."
+      "message": "Roof structure 70h for a ~300 sqft single-plane shed roof with 19 rafters, two beams, ~8 posts and 10 sheets of sheathing runs hot; a 3-person crew would normally frame and sheathe this in 2-2.5 days (~50h), and with the ledger replaced by a beam on posts and the eave tie-in limited to gutter removal plus one end-cap the only extra effort is post/beam setting."
     },
     {
       "kind": "suspect",
-      "message": "WB fireplace structure 98h (90h GL) is heavy now that the manufactured firebox + Class A pipe in a ~6'-wide framed chase terminating at the low eave is settled — a manufactured kit is typically a 3-4 day, 2-person install (~50-65h); the 98h only made sense against the masonry option that is now off the table."
+      "message": "Fireplace structure 98h (90h GL) is heavy now that the manufactured firebox + Class A pipe in a ~6'-wide framed chase terminating at the low eave is settled — a manufactured kit is typically a 3-4 day, 2-person install (~50-65h); the 98h only made sense against the masonry option that is now off the table."
     },
     {
       "kind": "suspect",
@@ -931,7 +959,7 @@
     },
     {
       "kind": "mapping",
-      "message": "Fireplace structure split between structural_framing and rough_meps is a best-fit only — a Class A solid-fuel chimney system is not an MEP trade; the framed-chase answer at least keeps it in-house carpentry rather than a mason's scope."
+      "message": "Fireplace structure and finish now land on their dedicated components (fireplace_structure under Framing & Shell, fireplace_finish under Exterior Finishes); the finish component's Exterior Finishes home is a slight misfit since veneer/hearth/mantel are inside the screened porch and must follow the chimney inspection — downstream should not sequence it ahead of the chase inspection just because of the phase label."
     }
   ]
 }
