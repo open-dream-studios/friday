@@ -1570,6 +1570,37 @@
       "component": "interior_installs"
     },
     {
+      "id": "enclosure_finishes",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "kind": "range",
+        "default": 2
+      },
+      "kind": "work",
+      "name": "Enclosure finishes (screening, panel infill, interior cladding)",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "siding"
+        }
+      ],
+      "notes": "General-purpose enclosure-infill task: tensioned screen mesh + stops/splines, panel systems, and interior-face cladding on enclosure knee walls/ceilings. Door hang stays on exterior_windows_doors; structural screen framing stays on framing; exterior siding stays on siding.",
+      "phase": "interior_finishes",
+      "trade": "trim_carpentry",
+      "vetted": true,
+      "trigger": "When the scope encloses a porch, patio, or similar non-conditioned space with screening, storm/screen panels, or an interior cladding face (beadboard, T&G).",
+      "duration": {
+        "max": 4,
+        "min": 1,
+        "hint": "Screen mesh + stops ~0.08h/sf; interior cladding ~0.08h/sf per face.",
+        "kind": "range",
+        "default": 2
+      },
+      "component": "interior_installs"
+    },
+    {
       "id": "mep_fixture_install",
       "crew": {
         "max": 6,
@@ -2206,7 +2237,7 @@
       "order": 12
     }
   ],
-  "version": 10,
+  "version": 11,
   "job_type": "Addition",
   "components": [
     {
