@@ -912,8 +912,8 @@
       "scheduled_start": "2027-03-19",
       "scheduled_end": "2027-03-22",
       "earliest_start": "2027-03-19",
-      "latest_start": "2027-03-25",
-      "float_days": 4,
+      "latest_start": "2027-03-26",
+      "float_days": 5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -922,15 +922,6 @@
           "predecessor_id": "exterior_windows_doors",
           "type": "FS",
           "lag_days": 0
-        }
-      ],
-      "binding_successors_of_this": [
-        {
-          "successor_id": "extra.1",
-          "type": "FS",
-          "lag_days": 0,
-          "successor_earliest_start": "2027-03-23",
-          "successor_earliest_finish": "2027-03-23"
         }
       ]
     },
@@ -977,42 +968,6 @@
           "lag_days": 0,
           "successor_earliest_start": "2027-03-26",
           "successor_earliest_finish": "2027-03-26"
-        }
-      ]
-    },
-    {
-      "id": "extra.1",
-      "section_id": "exterior_finishes",
-      "name": "Screening install (tensioned screen + trim at knee wall and frieze bays)",
-      "trade": "finish carpentry",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 2,
-      "depends_on": [
-        {
-          "predecessor_id": "siding",
-          "type": "FS"
-        }
-      ],
-      "derived_from": {
-        "section_id": "exterior_finishes",
-        "rule_ids": [],
-        "reasoning": "flagged: review before trusting"
-      },
-      "phase_id": "exterior_finishes",
-      "scheduled_start": "2027-03-23",
-      "scheduled_end": "2027-03-23",
-      "earliest_start": "2027-03-23",
-      "latest_start": "2027-03-29",
-      "float_days": 4,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "siding",
-          "type": "FS",
-          "lag_days": 0
         }
       ]
     },
