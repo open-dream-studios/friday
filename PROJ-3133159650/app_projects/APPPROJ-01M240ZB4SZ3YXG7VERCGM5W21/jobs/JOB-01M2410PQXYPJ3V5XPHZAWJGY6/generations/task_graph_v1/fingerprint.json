@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generation_id": "01M2GR2MPVY76TRTB4AQF4MY8M",
-  "generated_at": "2026-09-14T20:05:52.530Z",
+  "generation_id": "01M2GSX8WQAAQV33QC13JSWEYT",
+  "generated_at": "2026-09-14T20:35:56.505Z",
   "structure": {
     "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
-    "version": 12,
+    "version": 13,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
   },
   "ledger": {
@@ -39,7 +39,7 @@
       {
         "scope_kind": "project",
         "scope_id": "PROJ-3133159650",
-        "revision": 38
+        "revision": 39
       },
       {
         "scope_kind": "job_definition",
@@ -80,7 +80,7 @@
       }
     ],
     "questions": {
-      "count": 14,
+      "count": 21,
       "answered_ids": [
         "q_01M2GQHT9A4P17WPFZBM4YP5A5",
         "q_01M2GQHT9AB9HXBRCBKBKHRYQV",
@@ -96,8 +96,8 @@
       "sha256": "6c1c823b7fdab185f2d0dab10b9465a9d02a28294fbab5dd2ee1c93f315dec0a"
     },
     "changelog": {
-      "lines": 571,
-      "tail_sha256": "474abaf65e3a16a61f71063e1a088b663e12e923e2790a4cbcfc8a8124a28fc8"
+      "lines": 573,
+      "tail_sha256": "d844eccdb839499f017710da43aa3da4bee9313395bb94f778b12f51ae196130"
     }
   },
   "blocking_open_at_generation": 0
