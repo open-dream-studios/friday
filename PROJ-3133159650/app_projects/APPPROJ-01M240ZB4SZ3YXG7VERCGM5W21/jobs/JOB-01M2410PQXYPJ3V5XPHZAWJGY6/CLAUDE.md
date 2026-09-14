@@ -17,3 +17,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
     Condition: If Applies where a footer pocket location falls under the existing pad footprint
 - POLICY: Brick wall drywall treatment: On the house-side wall that is brick, leave the brick exposed rather than covering it with drywall.
 - POLICY: Fused disconnect suitability verification: Before ordering a breaker subpanel kit, the electrician must assess and verify that the existing fused disconnect is suitable for conversion, since this has not yet been confirmed.
+- DEFAULT: Mini-split condenser mounting location: The mini-split condenser unit is mounted on a grade-level pad beneath the sunroom
