@@ -15,3 +15,7 @@
 ## Mechanical, Electrical & Plumbing
 
 - POLICY: Electrical service capacity: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
+
+## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
+
+- POLICY: Retained-roof rebuilds keep shoring from before structural demo until the roof is reseated and flashed: When an addition or replacement keeps an existing roof over rebuilt walls, temporary shoring is erected and inspected before any structural demolition, stays through footings, posts, floor and wall framing, and is removed only after the roof bears on the new walls and is flashed; shoring erection is the first demo-phase task and shoring removal is the last framing-phase task. (Unvetted, Confidence 60%)
