@@ -1,0 +1,703 @@
+{
+  "schema": "job_evidence_v1",
+  "built_at": "2026-09-14T21:20:43.565Z",
+  "entity": {
+    "kind": "job",
+    "id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6"
+  },
+  "derived_from": {
+    "fingerprint": "64f326c8a8c3ca5124c71f2df919a73c2ebc53c539a65cd21a1e5935f55ff15c",
+    "answers_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "quantities": [
+    {
+      "id": "footprint_sqft",
+      "label": "Sunroom footprint (replacement, same footprint)",
+      "value": 430,
+      "unit": "sqft",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.1",
+        "crawford.pdf p.2",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.4",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "43 ft × 10 ft = 430 sf; proposal, presentation plan and JBD all agree"
+    },
+    {
+      "id": "stories",
+      "label": "Work elevation",
+      "value": "elevated second-story structure",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.1",
+        "crawford.pdf p.2"
+      ],
+      "basis": "'existing elevated second-story sunroom'; protection required below work area; canon elevated-access premium (+20-25%) applies to demo, framing, siding, windows"
+    },
+    {
+      "id": "occupied_home",
+      "label": "Occupied home during work",
+      "value": "yes",
+      "unit": "categorical",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.1"
+      ],
+      "basis": "'inviting us to your home' and jobsite protection at access points/adjacent finishes; sunroom is exterior to the house envelope so interior disruption is limited to access"
+    },
+    {
+      "id": "site_access_constraints",
+      "label": "Site access constraints",
+      "value": "elevated work; debris lowered to grade; protection below; sloped lot falling from house to post line; scaffold for floor/soffit work",
+      "unit": "categorical",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.1",
+        "333_Toy_Crawford_Sunroom.xlsx",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.9"
+      ],
+      "basis": "Proposal requires protection below; JBD carries scaffolding 2 days + debris lowering; renders consistently show grade sloping away from house toward posts"
+    },
+    {
+      "id": "demo_area_sqft",
+      "label": "Selective demo area (entire sunroom to bearing points, roof preserved)",
+      "value": 430,
+      "unit": "sqft",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "Demolish existing 43×10 sunroom incl. posts, floor framing, subfloor, walls, windows, ceiling assemblies; roof stays on temporary shoring"
+    },
+    {
+      "id": "dump_runs",
+      "label": "Dump-trailer runs budgeted",
+      "value": 3,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "'Budget (3) dump trailer runs'"
+    },
+    {
+      "id": "temp_shoring_span_lf",
+      "label": "Temporary roof shoring span",
+      "value": 43,
+      "unit": "lf",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.1",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "Existing shed roof over full 43 ft length shored from before demo until reseated on new walls; no engineered shoring design in either document"
+    },
+    {
+      "id": "foundation_type",
+      "label": "Foundation type",
+      "value": "post-and-beam on 8 discrete concrete footers 12x12x12 with post brackets; no slab, no perimeter wall",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "(8) 6x6 PT posts on 12\"×12\"×12\" footers with anchored brackets; Option 1 (24×24×12) priced at $0 = not selected"
+    },
+    {
+      "id": "post_count",
+      "label": "New 6x6 PT posts / footers",
+      "value": 8,
+      "unit": "each",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.3"
+      ],
+      "basis": "Proposal states (8); presentation p3 draws only 7 post/footing symbols at 7'-2\"/6'-6½\" spacing — proposal governs per canon (presentation is visualization-only); see suspect flag"
+    },
+    {
+      "id": "footer_concrete_cy",
+      "label": "Footer concrete volume",
+      "value": 0.3,
+      "unit": "cy",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "8 × (1×1×1 ft) = 8 cf ÷ 27 = 0.30 cy; hand-mix bag work (JBD: 16 × 80-lb bags), no truck pour"
+    },
+    {
+      "id": "footer_excavation_note",
+      "label": "Footer placement method",
+      "value": "cut/dig 8 pockets near existing pad; possible saw-cut of existing concrete unconfirmed",
+      "unit": "categorical",
+      "confidence": "low",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "'Cut Concrete footers approx 12x12x12 near existing pad' — ambiguous whether cutting into existing slab or excavating beside it; no cutting equipment priced in JBD"
+    },
+    {
+      "id": "post_height_ft",
+      "label": "Post height grade to beam (approx)",
+      "value": 10,
+      "unit": "ft",
+      "confidence": "low",
+      "sources": [
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "JBD carries posts 'approximately 10 ft'; proposal gives no floor height above grade; sloped lot means heights vary post to post"
+    },
+    {
+      "id": "beam_lf",
+      "label": "Primary beam, 3-ply 2x12 dimensional (not LVL)",
+      "value": 44,
+      "unit": "lf",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "'(1) primary beam approximately 44 LF, (3)-ply 2x12'; 3 × 44 = 132 LF of 2x12 stock; card rate 6-8 crew-h per ~23 LF built-up beam → ~2 segments"
+    },
+    {
+      "id": "floor_joist_count",
+      "label": "PT floor joists @16\" OC, 10 ft span",
+      "value": 34,
+      "unit": "each",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "43 ft × 12 ÷ 16 + 1 = 33.25 → 34 joists; proposal says 'sized per IRC span', count derived; plus ledger to house + rim ≈ 43 + 43 + 2×10 = 106 LF"
+    },
+    {
+      "id": "subfloor_sheets",
+      "label": "Subfloor sheathing (3/4\" T&G, glued + fastened)",
+      "value": 15,
+      "unit": "sheets",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "430 sf ÷ 32 sf/sheet = 13.4 → 15 sheets with waste (JBD carries 15)"
+    },
+    {
+      "id": "floor_insulation_sqft",
+      "label": "Floor-cavity batt insulation",
+      "value": 430,
+      "unit": "sqft",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "'insulation within floor cavity' over full 43×10 = 430 sf"
+    },
+    {
+      "id": "soffit_under_floor_sqft",
+      "label": "Vinyl soffit beneath floor framing (overhead from below)",
+      "value": 430,
+      "unit": "sqft",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "Soffit closes the full 43×10 underside = 430 sf ≈ 4.3 sq; overhead work from scaffold on sloped grade"
+    },
+    {
+      "id": "wall_lf_new",
+      "label": "New exterior wall linear feet (2x4 @16\" OC)",
+      "value": 63,
+      "unit": "lf",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "333_Toy_Crawford_Sunroom.xlsx",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.4"
+      ],
+      "basis": "Three exposed sides: 43 + 10 + 10 = 63 LF; house-side is the existing brick wall ('Drywall over brick' on p4), so no framed wall there — proposal itself does not state which sides are framed"
+    },
+    {
+      "id": "plate_height_ft",
+      "label": "Wall/plate height",
+      "value": 8,
+      "unit": "ft",
+      "confidence": "low",
+      "sources": [
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "JBD assumes 8 ft; proposal and presentation give no ceiling height; new walls must land the EXISTING shed roof, so actual height = existing bearing height (field-verify)"
+    },
+    {
+      "id": "wall_sheathing_sqft",
+      "label": "Wall sheathing + WRB gross area",
+      "value": 504,
+      "unit": "sqft",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "63 LF × 8 ft = 504 sf gross ≈ 16 sheets 7/16 OSB (JBD 18 with waste); WRB same area at card 0.015 h/sf"
+    },
+    {
+      "id": "siding_sqft_net",
+      "label": "Vinyl lap siding, net of openings",
+      "value": 394,
+      "unit": "sqft",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "504 sf gross − 6 windows × 15 sf (3×5) − 1 door × 20 sf (3×6.67) = 504 − 90 − 20 = 394 sf ≈ 4 sq net (proposal/JBD allowance carried at 5 sq gross); card lap-siding rate 0.08 h/sf cut-up"
+    },
+    {
+      "id": "exterior_trim_lf",
+      "label": "Exterior corner/opening trim",
+      "value": null,
+      "unit": "lf",
+      "confidence": "unknown",
+      "sources": [
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "Proposal lists no trim; JBD carries a $132 corner-board/surround lot with no LF — 2 outside corners × 8 ft + window/door surrounds ≈ 16 + ~110 LF would be a derivation, not a source; left null"
+    },
+    {
+      "id": "window_count",
+      "label": "New vinyl windows 36×60 (allowance $300 ea)",
+      "value": 6,
+      "unit": "each",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "crawford.pdf p.3",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.4"
+      ],
+      "basis": "'up to (6)' with allowance computed at exactly 6; presentation p4 tags 7 units (4×3050, 2×5050, 1×3036) — proposal governs per canon; see suspect flag"
+    },
+    {
+      "id": "exterior_door_count",
+      "label": "Exterior pre-hung door 36×80",
+      "value": 1,
+      "unit": "each",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.4"
+      ],
+      "basis": "(1) 3068 per proposal (matches p4 right-end door); p4 also shows a 6568 double door on the house wall not in proposal — not adopted"
+    },
+    {
+      "id": "roof_area_sqft",
+      "label": "Existing shed roof retained (no new roofing)",
+      "value": 430,
+      "unit": "sqft",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "Existing shed roof over 43×10 plan ≈ 430 sf plan area (slope area slightly larger; pitch unknown); work is reseat + flash tie-in + up to 2 patches, not re-roof"
+    },
+    {
+      "id": "roof_pitch",
+      "label": "Existing shed roof pitch",
+      "value": null,
+      "unit": "ratio",
+      "confidence": "unknown",
+      "sources": [
+        "crawford.pdf p.2",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.10"
+      ],
+      "basis": "No pitch stated anywhere; p10 render reads as low-slope shed under a steep existing gable; no roof plan"
+    },
+    {
+      "id": "roof_tie_in_lf",
+      "label": "Roof flashing / tie-in to house and new walls",
+      "value": 63,
+      "unit": "lf",
+      "confidence": "low",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "Flashing along the three new exterior wall lines where roof re-lands = 43 + 10 + 10 = 63 LF; house-wall counterflash may also be disturbed — proposal gives no detail"
+    },
+    {
+      "id": "roof_patch_count",
+      "label": "Roof patch/repairs at previous vent penetrations",
+      "value": 2,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "'up to (2) roof patch/repairs from previous venting'"
+    },
+    {
+      "id": "wall_insulation_sqft",
+      "label": "Exterior wall batt insulation",
+      "value": 504,
+      "unit": "sqft",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "63 LF × 8 ft = 504 sf gross (openings not deducted; R-13 per JBD)"
+    },
+    {
+      "id": "ceiling_finish",
+      "label": "Ceiling drywall / ceiling insulation in base scope",
+      "value": null,
+      "unit": "sqft",
+      "confidence": "unknown",
+      "sources": [
+        "crawford.pdf p.2",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "Existing ceiling assemblies are demolished but drywall is 'walls only' and no roof/ceiling insulation is specified; JBD explicitly excludes ceiling drywall — 430 sf ceiling is unaddressed by every source"
+    },
+    {
+      "id": "drywall_sqft",
+      "label": "Drywall, walls only, Level 3",
+      "value": 848,
+      "unit": "sqft",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "333_Toy_Crawford_Sunroom.xlsx",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.4"
+      ],
+      "basis": "3 exterior walls 63 × 8 = 504 sf + house-side wall over brick 43 × 8 = 344 sf = 848 sf (~30 sheets 4×8, openings not deducted); house-side furring over brick is implied by p4 callout but not priced anywhere"
+    },
+    {
+      "id": "light_fixture_count",
+      "label": "Flush-mount lights (wiring + boxes)",
+      "value": 6,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.4"
+      ],
+      "basis": "(6) @ $75 allowance; p4 shows 6 fixture centerlines"
+    },
+    {
+      "id": "ceiling_fan_count",
+      "label": "Ceiling fans (fan-rated supports)",
+      "value": 2,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "(2) @ $150 allowance; no locations shown on any drawing"
+    },
+    {
+      "id": "receptacle_count",
+      "label": "Receptacles per NEC spacing",
+      "value": 10,
+      "unit": "each",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "Proposal says 'per NEC spacing' with no count; 106 LF of wall perimeter ÷ 12 ft rule ≈ 9-10 outlets; JBD estimates 10 (2 GFCI)"
+    },
+    {
+      "id": "subpanel_conversion",
+      "label": "Existing fused disconnect converted to breaker subpanel",
+      "value": 1,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "Conversion in place, contingent on condition verification; main service is 200A per project canon answer, so capacity for subpanel + mini-split is plausible but not calculated by any source"
+    },
+    {
+      "id": "existing_service_amps",
+      "label": "Existing main electrical service",
+      "value": 200,
+      "unit": "A",
+      "confidence": "high",
+      "sources": [
+        "APPPROJ CLAUDE.md answer"
+      ],
+      "basis": "Project-level canon DEFAULT: 200A main service"
+    },
+    {
+      "id": "mini_split_count",
+      "label": "Ductless mini-split, 1-zone",
+      "value": 1,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "(1) system sized for space, $2,500 allowance; BTU size and condenser location not stated"
+    },
+    {
+      "id": "plumbing_scope",
+      "label": "Plumbing scope",
+      "value": "none",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.2"
+      ],
+      "basis": "No fixtures, lines, or plumbing permit in scope"
+    },
+    {
+      "id": "options_selected",
+      "label": "Proposal options selected",
+      "value": "none — Option 1 brick pier wrap and Option 2 interior finish both at $0.00",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "crawford.pdf p.4"
+      ],
+      "basis": "Pricing table carries both options at $0.00; total $66,200 excludes them → no paint, flooring, trim, or brick wrap in this plan"
+    },
+    {
+      "id": "deck_stairs_scope",
+      "label": "Deck / exterior stairs",
+      "value": "none in contract",
+      "unit": "categorical",
+      "confidence": "medium",
+      "sources": [
+        "crawford.pdf p.2",
+        "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.12"
+      ],
+      "basis": "Proposal has no deck, railing, or stairs; presentation renders show a railed deck and stairs to grade — visualization-only per canon, not adopted"
+    },
+    {
+      "id": "scheduled_start_date",
+      "label": "Scheduled start",
+      "value": "2027-03-01",
+      "unit": "date",
+      "confidence": "high",
+      "sources": [
+        "data.json"
+      ],
+      "basis": "scheduled_start_date 2027-03-01; canon: plan from this date, do not question season"
+    }
+  ],
+  "jbd": {
+    "present": true,
+    "extraction": "structured",
+    "doc": {
+      "name": "333_Toy_Crawford_Sunroom.xlsx"
+    },
+    "sections": [
+      {
+        "section_id": "general_conditions",
+        "section_name": "General Conditions, Temporary Shoring & Structural Support",
+        "labor_hours": 36,
+        "labor_cost": 1373.96,
+        "material_cost": 1140,
+        "section_total": 2513.96,
+        "mapped_components": [
+          "main_demolition",
+          "structural_framing"
+        ],
+        "mapping_confidence": "medium",
+        "notes": "Shoring erect + site protection belong with demo (protection billed once there); shoring maintenance/strike spans through roof reseat in framing. PM hours are overhead, not a component."
+      },
+      {
+        "section_id": "demolition_site_work",
+        "section_name": "Selective Demo - 43x10 Elevated Sunroom to Bearing Points (3 Dump Runs)",
+        "labor_hours": 48,
+        "labor_cost": 1670,
+        "material_cost": 1470,
+        "section_total": 4490,
+        "mapped_components": [
+          "main_demolition"
+        ],
+        "mapping_confidence": "high"
+      },
+      {
+        "section_id": "excavation_foundation",
+        "section_name": "Foundation - 8 Post Footers, Post Brackets & 3-Ply 2x12 Primary Beam 44 LF",
+        "labor_hours": 44,
+        "labor_cost": 1524.1,
+        "material_cost": 2406.16,
+        "section_total": 4025.26,
+        "mapped_components": [
+          "groundwork",
+          "structural_framing"
+        ],
+        "mapping_confidence": "high",
+        "notes": "Footer pockets/pour/brackets (~16h+cure) → groundwork; post set + 3-ply beam (~22h+TL) → structural_framing"
+      },
+      {
+        "section_id": "floor_system",
+        "section_name": "Floor System - PT Framing, Subfloor, Floor Insulation & Vinyl Soffit Below",
+        "labor_hours": 87,
+        "labor_cost": 2994.05,
+        "material_cost": 3917.7,
+        "section_total": 7271.75,
+        "mapped_components": [
+          "structural_framing",
+          "cladding_roof"
+        ],
+        "mapping_confidence": "medium",
+        "notes": "Joists/ledger/subfloor/floor batt → structural_framing; vinyl soffit under floor (25h) is exterior cladding → cladding_roof"
+      },
+      {
+        "section_id": "framing",
+        "section_name": "Wall Framing - 63 LF Exterior, Sheathing, WRB & Vinyl Siding",
+        "labor_hours": 69,
+        "labor_cost": 2382.95,
+        "material_cost": 2475.75,
+        "section_total": 4858.7,
+        "mapped_components": [
+          "structural_framing",
+          "cladding_roof"
+        ],
+        "mapping_confidence": "high",
+        "notes": "Wall framing + sheathing + WRB → structural_framing; vinyl siding + trim/caulk (24h) → cladding_roof"
+      },
+      {
+        "section_id": "windows_doors_weatherproofing",
+        "section_name": "Windows (6 x 36x60) & Exterior Pre-Hung Door (36x80)",
+        "labor_hours": 19,
+        "labor_cost": 665.25,
+        "material_cost": 2450,
+        "section_total": 3115.25,
+        "mapped_components": [
+          "structural_framing"
+        ],
+        "mapping_confidence": "medium",
+        "notes": "Exterior windows/door set in Framing & Shell before siding; no separate window component exists"
+      },
+      {
+        "section_id": "roof_framing_roofing",
+        "section_name": "Roof Integration - Reattach Shed Roof, Flashing & 2 Patch/Repairs",
+        "labor_hours": 24,
+        "labor_cost": 845.1,
+        "material_cost": 407,
+        "section_total": 1252.1,
+        "mapped_components": [
+          "structural_framing",
+          "cladding_roof"
+        ],
+        "mapping_confidence": "medium",
+        "notes": "Reseating the shored roof on new walls is a framing act; flashing/tie-ins/2 patches are roofing"
+      },
+      {
+        "section_id": "electrical",
+        "section_name": "Electrical - Disconnect to Subpanel, Outlets, 6 Fixtures, 2 Fans & Switches",
+        "labor_hours": 40,
+        "labor_cost": 1560,
+        "material_cost": 1701.43,
+        "section_total": 3261.43,
+        "mapped_components": [
+          "rough_meps",
+          "interior_installs"
+        ],
+        "mapping_confidence": "high",
+        "notes": "Subpanel conversion + rough 30h → rough_meps; 6h fixture/device finish → interior_installs"
+      },
+      {
+        "section_id": "hvac",
+        "section_name": "HVAC - Ductless Mini-Split $2,500 Allowance",
+        "labor_hours": 10,
+        "labor_cost": 390,
+        "material_cost": 2645,
+        "section_total": 3035,
+        "mapped_components": [
+          "rough_meps",
+          "interior_installs"
+        ],
+        "mapping_confidence": "medium",
+        "notes": "Line set/penetration/condenser at rough; head set + startup at finish; JBD lumps all 10h"
+      },
+      {
+        "section_id": "insulation_air_sealing",
+        "section_name": "Insulation - Exterior Wall Cavities (504 SF) & Floor Cavity (430 SF)",
+        "labor_hours": 7,
+        "labor_cost": 237.65,
+        "material_cost": 356.55,
+        "section_total": 594.2,
+        "mapped_components": [
+          "insulation_drywall_prime"
+        ],
+        "mapping_confidence": "high"
+      },
+      {
+        "section_id": "drywall",
+        "section_name": "Drywall - Walls Only 848 SF, Level 3 Finish",
+        "labor_hours": 65,
+        "labor_cost": 2226.95,
+        "material_cost": 701.5,
+        "section_total": 2928.45,
+        "mapped_components": [
+          "insulation_drywall_prime"
+        ],
+        "mapping_confidence": "high",
+        "notes": "No prime in base scope — component's prime step is empty for this job"
+      },
+      {
+        "section_id": "cleanup",
+        "section_name": "Cleanup & Project Closeout",
+        "labor_hours": 6,
+        "labor_cost": 203.7,
+        "material_cost": 45,
+        "section_total": 248.7,
+        "mapped_components": [
+          "walkthrough_final_inspection"
+        ],
+        "mapping_confidence": "high"
+      }
+    ],
+    "totals": {
+      "labor_hours": 455,
+      "labor_cost": 16073.71,
+      "grand_total": 37594.8
+    }
+  },
+  "flags": [
+    {
+      "kind": "suspect",
+      "message": "JBD total 455h runs hot against the takeoff: drywall 65h for 30 sheets (2.2 h/sheet incl. finish, ~35-40h is defensible), floor system 87h for 430 sf incl. 25h soffit, and wall framing 28h @0.45 h/LF for 63 LF are each 20-40% above card-rate arithmetic even after the canon +20-25% elevated premium; treat the JBD as a ceiling, not a target."
+    },
+    {
+      "kind": "suspect",
+      "message": "JBD double-counts WRB labor (6h sheathing+WRB line plus a separate 3h WRB line) and prices the 3 dump runs in both Material and Equipment ($2,700 for a 3-run scope); deduct the 3h and one $1,350 when cross-checking."
+    },
+    {
+      "kind": "suspect",
+      "message": "Post count: proposal specifies (8) posts/footers while the presentation First Floor Plan (p3) draws 7 at ~7'-2\" spacing; canon says the proposal governs and the presentation is visualization-only, so takeoff carries 8, but the field footer layout must be confirmed before pockets are cut (±1 footer ≈ 1-2h, low sizing impact)."
+    },
+    {
+      "kind": "suspect",
+      "message": "Presentation set (dated 5-26-26, after the Apr 9 signing) shows scope beyond the contract: 7 windows incl. two 5050s, a 6568 double door on the house wall, a railed deck with exterior stairs, gable/hip roof forms, brick post wraps, and Option 2-level interior finish; per canon the signed proposal governs and none of this is adopted, but if the customer expects the drawn version the plan changes materially (deck, stairs, extra openings) — PM should confirm the customer understands what the $66,200 buys."
+    },
+    {
+      "kind": "suspect",
+      "message": "JBD assumes 8 ft walls and derives 504 sf sheathing/insulation and 848 sf drywall from it, but no source states ceiling height; because the EXISTING shed roof is being reseated, new plate height is dictated by the existing bearing line — every 8-ft-based area is provisional until field-measured."
+    },
+    {
+      "kind": "suspect",
+      "message": "'Cut concrete footers near existing pad' may require saw-cutting the existing slab under the sunroom at up to 8 locations; neither document prices a saw or cutting hours, so groundwork could gain ~1.5h per pocket if the pad is in the way."
+    },
+    {
+      "kind": "gap",
+      "message": "Permits and inspections are contracted-in by the proposal but carry zero hours in the JBD; this job has electrical + mechanical rough, so expect footing, framing, electrical rough, mechanical, insulation and final visits (~6 × 2h per card) rather than the 4h no-MEP bundle."
+    },
+    {
+      "kind": "gap",
+      "message": "Drywall is over brick on the 43 ft house-side wall (p4 callout) — furring/strapping and any insulation strategy for that masonry wall are not priced or described anywhere, yet the JBD counts 344 sf of drywall on it; add furring hours to the drywall basis or confirm direct-adhered."
+    },
+    {
+      "kind": "mapping",
+      "message": "general_conditions is split across main_demolition and structural_framing because shoring must stand from before demo until the roof is reseated on new walls; PM 8h in that section is overhead and should not inflate either component's crew-hours."
+    },
+    {
+      "kind": "mapping",
+      "message": "The JBD floor_system section carries 25h of vinyl soffit under the floor; it is mapped to cladding_roof (exterior, overhead from scaffold) rather than structural_framing so interior-concurrency limits and elevated premiums apply correctly."
+    }
+  ]
+}
