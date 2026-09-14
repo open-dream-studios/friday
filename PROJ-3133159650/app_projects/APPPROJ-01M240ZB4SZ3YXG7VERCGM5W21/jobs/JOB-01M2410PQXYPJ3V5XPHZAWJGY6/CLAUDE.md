@@ -11,3 +11,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Elevated work access and debris removal method: Crews access elevated work areas via ground-level access on the sloped grade below the work, using scaffold, and lower debris by hand rather than through the house or by lift.
 - DEFAULT: Building permit application status: The building permit, including electrical and mechanical, has not yet been applied for on this job
 - POLICY: Floor-cavity batt and soffit install timing: Floor-cavity insulation batt and the under-floor vinyl soffit are installed from below as a separate exterior task after rough-in and inspection are complete, not laid over the joists before the subfloor goes down.
+- DEFAULT: Window and exterior door sizing: Windows and exterior doors are standard stock sizes (e.g., 36x60 double-hung windows, 3068 exterior doors) with a 1-2 week lead time, not special-order.
