@@ -8,7 +8,7 @@
         {
           "lag": -3,
           "type": "SF",
-          "target": "foundation"
+          "target": "foundation_prep"
         }
       ],
       "notes": "Foundation order should include rebar, chairs, block, mortar, sand, and concrete depending on foundation type.When we do things like elevated concrete pads, we will need to order twice because we have to core fill the block before pouring the slab etc. We'll need to coordinate delivery of the concrete truck and possibly the concrete pump depending on the project. Be sure to always include form boards. And cut-offs, bracing material, etc. This should really include extra lumber for forming depending on the foundation type.",
@@ -945,16 +945,15 @@
       "component": "groundwork"
     },
     {
-      "id": "foundation",
+      "id": "foundation_prep",
       "crew": {
         "max": 5,
-        "min": 3,
-        "hint": "Duration hint assumes a 4-man concrete crew — forming and pour days need all hands.",
+        "min": 2,
         "kind": "range",
-        "default": 4
+        "default": 2
       },
       "kind": "work",
-      "name": "Foundation (form, inspect, pour)",
+      "name": "Prepare Foundation",
       "links": [
         {
           "lag": 0,
@@ -967,11 +966,10 @@
       "vetted": true,
       "trigger": "Whenever excavation is included — footings + slab or crawlspace walls per plan.",
       "duration": {
-        "max": 7,
-        "min": 2,
-        "hint": "Monolithic slab ~3-4 days including footing inspection; crawlspace/basement walls push toward 7.",
+        "max": 2,
+        "min": 1,
         "kind": "range",
-        "default": 4
+        "default": 1
       },
       "component": "groundwork"
     },
@@ -1000,7 +998,7 @@
       "trigger": "Always.",
       "duration": {
         "max": 15,
-        "min": 4,
+        "min": 2,
         "hint": "Single-story ~300sqft addition ~5-8 days; two-story or complex roof tie-in pushes 10-15.",
         "kind": "range",
         "default": 8
@@ -1864,6 +1862,180 @@
       },
       "component": "walkthrough_final_inspection",
       "auto_include": true
+    },
+    {
+      "id": "foundation_inspection",
+      "crew": {
+        "max": 0,
+        "min": 0,
+        "kind": "fixed",
+        "default": 0
+      },
+      "kind": "work",
+      "name": "Foundation Inspection",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "foundation_prep"
+        }
+      ],
+      "phase": "site_foundation",
+      "trade": "concrete",
+      "vetted": false,
+      "trigger": "Whenever excavation is included — footings + slab or crawlspace walls per plan.",
+      "duration": {
+        "max": 1,
+        "min": 1,
+        "kind": "fixed",
+        "default": 1
+      },
+      "component": "groundwork"
+    },
+    {
+      "id": "foundation_pour",
+      "crew": {
+        "max": 6,
+        "min": 2,
+        "kind": "range",
+        "default": 3
+      },
+      "kind": "work",
+      "name": "Foundation Pour",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "foundation_inspection"
+        }
+      ],
+      "phase": "site_foundation",
+      "trade": "concrete",
+      "vetted": false,
+      "trigger": "Always",
+      "duration": {
+        "max": 1,
+        "min": 1,
+        "kind": "fixed",
+        "default": 1
+      },
+      "component": "groundwork"
+    },
+    {
+      "id": "proc_fireplace_kit",
+      "kind": "procurement",
+      "name": "Fireplace kit (firebox + Class A chimney)",
+      "links": [
+        {
+          "lag": -3,
+          "type": "SF",
+          "target": "fireplace_chase_install"
+        }
+      ],
+      "notes": "Manufactured wood-burning firebox + Class A pipe kit, hearth extension, termination cap. The kit's footing/clearance spec should be in hand before the slab pour when footings carry the unit.",
+      "phase": "procurement",
+      "trade": "general",
+      "vetted": false,
+      "trigger": "Is a manufactured wood-burning firebox with Class A chimney pipe included in the scope?",
+      "duration": {
+        "cal": true,
+        "max": 45,
+        "min": 7,
+        "hint": "Stock kits ~1-2 weeks; special-order units and tall Class A runs push 4-6+ weeks.",
+        "kind": "range",
+        "default": 21
+      },
+      "component": "procurement_items"
+    },
+    {
+      "id": "fireplace_chase_install",
+      "crew": {
+        "max": 3,
+        "min": 2,
+        "hint": "2 carpenters typical; 3 when the chase is tall or run concurrent with roof work.",
+        "kind": "range",
+        "default": 2
+      },
+      "kind": "work",
+      "name": "Fireplace chase, firebox set & Class A chimney",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "framing"
+        }
+      ],
+      "notes": "Added by Friday 2026-09-14 (Boss-approved); UNVETTED — Will to review ranges. Covers the framed chase carcass + sheathing, firebox set, Class A pipe to termination, and roof-penetration coordination with roofing. The jbd fireplace-structure line is the budget reference.",
+      "phase": "framing_shell",
+      "trade": "carpentry",
+      "vetted": false,
+      "trigger": "Does the scope include a wood-burning fireplace with a framed chase and manufactured firebox?",
+      "duration": {
+        "max": 8,
+        "min": 1,
+        "hint": "Chase framing+sheathing ~1 day; firebox set + Class A pipe + penetration 1-2 more; tall through-roof chases push longer.",
+        "kind": "range",
+        "default": 3
+      },
+      "component": "fireplace_structure"
+    },
+    {
+      "id": "fireplace_chimney_inspection",
+      "crew": {
+        "kind": "fixed",
+        "default": 1
+      },
+      "kind": "inspection",
+      "name": "Fireplace/chimney inspection",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "fireplace_chase_install"
+        }
+      ],
+      "notes": "AHJ visit for the solid-fuel appliance: clearances, chase, Class A run — must pass BEFORE veneer/close-in hides the work.",
+      "phase": "rough_inspections",
+      "trade": "inspector",
+      "vetted": false,
+      "trigger": "Does the AHJ require a fireplace/chimney inspection (wood-burning unit in scope)?",
+      "duration": {
+        "kind": "fixed",
+        "default": 1
+      },
+      "component": "bundled_inspections"
+    },
+    {
+      "id": "fireplace_finish_work",
+      "crew": {
+        "max": 3,
+        "min": 1,
+        "hint": "2 typical for veneer; 1 for mantel-only scopes.",
+        "kind": "range",
+        "default": 2
+      },
+      "kind": "work",
+      "name": "Fireplace veneer, hearth & mantel",
+      "links": [
+        {
+          "lag": 0,
+          "type": "FS",
+          "target": "fireplace_chimney_inspection"
+        }
+      ],
+      "notes": "Added by Friday 2026-09-14 (Boss-approved); UNVETTED. Veneer sqft drives it; the jbd fireplace-finish line is the budget reference.",
+      "phase": "exterior_finishes",
+      "trade": "masonry",
+      "vetted": false,
+      "trigger": "Does the fireplace get veneer / hearth / mantel finish?",
+      "duration": {
+        "max": 6,
+        "min": 1,
+        "hint": "~100-150 sqft veneer/day at 2 crew, plus hearth + mantel set.",
+        "kind": "range",
+        "default": 2
+      },
+      "component": "fireplace_finish"
     }
   ],
   "phases": [
@@ -2034,7 +2206,7 @@
       "order": 12
     }
   ],
-  "version": 9,
+  "version": 10,
   "job_type": "Addition",
   "components": [
     {
@@ -2208,6 +2380,32 @@
         }
       ],
       "phase": "closeout"
+    },
+    {
+      "id": "fireplace_structure",
+      "name": "Fireplace Structure",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "framing_shell"
+        }
+      ],
+      "notes": "Added by Friday 2026-09-14 (Boss-approved). Chase + firebox + Class A chimney as a parallel track after main framing.",
+      "phase": "framing_shell"
+    },
+    {
+      "id": "fireplace_finish",
+      "name": "Fireplace Finish",
+      "links": [
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "exterior_finishes"
+        }
+      ],
+      "notes": "Added by Friday 2026-09-14 (Boss-approved). Veneer/hearth/mantel after the fireplace/chimney inspection.",
+      "phase": "exterior_finishes"
     }
   ],
   "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
