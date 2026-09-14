@@ -607,6 +607,11 @@
           "lag": 0,
           "type": "SF",
           "target": "job_start"
+        },
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "permit_building"
         }
       ],
       "notes": "~6-week TDEC process: contact → soil scientist visit ($500 fee) → soil report → permit. Often the longest lead in the whole job; do NOT break ground without it.",
@@ -630,6 +635,11 @@
           "lag": 0,
           "type": "SF",
           "target": "job_start"
+        },
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "permit_building"
         }
       ],
       "notes": "Utility coordination for service work can outrun the 2-week anchor — confirm with the utility early.",
@@ -653,6 +663,11 @@
           "lag": 0,
           "type": "SF",
           "target": "job_start"
+        },
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "permit_building"
         }
       ],
       "phase": "permits",
@@ -675,6 +690,11 @@
           "lag": 0,
           "type": "SF",
           "target": "job_start"
+        },
+        {
+          "lag": 0,
+          "type": "SS",
+          "target": "permit_building"
         }
       ],
       "phase": "permits",
@@ -2268,7 +2288,7 @@
       "order": 12
     }
   ],
-  "version": 13,
+  "version": 14,
   "job_type": "Addition",
   "components": [
     {

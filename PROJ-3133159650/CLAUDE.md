@@ -65,7 +65,7 @@
 - POLICY: Mobilization floor: No mobilized trade task is sized below 4 crew-hours — showing up, setting up, and closing out is real work.
 - POLICY: Rate card governs: Task sizing anchors to the production-rate card; deviate only on job-specific evidence (access, choppy layout, occupied home) and cite the deviation in the basis.
     Notes: Seeded 2026-09-14 from convergent foreman calibration on Pawnee tests 5-8. Correct any number and future schedules obey it.
-- POLICY: Elevated / second-story access premium: Second-story or elevated work carries an access premium: +20-25% on demo, framing, siding, and window labor hours (scaffold moves, hoisting, debris lowering); scaffold erect/strike is billed explicitly (~4-8 crew-hours per mobilization); material handling through an occupied home is real hours, never free.
+- POLICY: Elevated / second-story access premium: Second-story or elevated work carries an access premium: +20-25% on demo, framing, siding, and window labor hours. The premium COVERS scaffold moves, hoisting, and debris lowering — never bill those as separate line items on top of it. Scaffold erect/strike bills ONCE per job, on site prep. Material handling through an occupied home is real hours, never free.
     Notes: Seeded 2026-09-14 from the Crawford audit: ground-calibrated card rates under-priced elevated work until the foreman caught it ad-hoc. Correct the percentage and future schedules obey.
 
 ## Inbox

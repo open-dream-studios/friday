@@ -574,3 +574,4 @@
 {"ts":"2026-09-14T20:51:07.847Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M2410PQXYPJ3V5XPHZAWJGY6","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-09-14T21:16:11.703Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-14T21:33:17.209Z","reason":"boot","actor":"boot","entities":[]}
+{"ts":"2026-09-14T22:02:18.046Z","reason":"task structure v14 published (composition comp_ef0e879da0b311f1b926a2aa90)","actor":"user","entities":[{"kind":"job","id":"JOB-01M2410PQXYPJ3V5XPHZAWJGY6","action":"update","change_kind":"job_document"},{"kind":"job_definition","id":"task_structure.json","action":"update","change_kind":"job_definition_document"}]}
