@@ -16,3 +16,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Window and exterior door lead time: Windows and exterior doors are standard stock sizes (36x60 double-hung windows, 3068 exterior doors) with a 1-2 week lead time, not special-order items.
 - POLICY: Sunroom ceiling finish scope: Base scope for the 430 sf sunroom includes finishing the ceiling with drywall and roof/ceiling insulation after the old ceiling is demolished, rather than leaving it open.
 - DEFAULT: Footer pocket excavation method at existing pad: The 8 footer pockets are created by saw-cutting through the existing concrete pad rather than digging beside it, at some of the pocket locations
+- POLICY: Brick house-side wall drywall treatment: On the wall where the house is brick, leave the brick exposed and do not install drywall over it.
