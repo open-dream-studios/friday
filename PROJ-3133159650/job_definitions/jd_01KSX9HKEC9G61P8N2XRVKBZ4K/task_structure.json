@@ -897,7 +897,7 @@
       "phase": "site_foundation",
       "trade": "general",
       "vetted": true,
-      "trigger": "Always.",
+      "trigger": "Always",
       "duration": {
         "max": 2,
         "min": 1,
@@ -1907,7 +1907,7 @@
       "links": [
         {
           "lag": 0,
-          "type": "SS",
+          "type": "FS",
           "target": "foundation_prep"
         }
       ],
@@ -1936,7 +1936,7 @@
       "links": [
         {
           "lag": 0,
-          "type": "SS",
+          "type": "FS",
           "target": "foundation_inspection"
         }
       ],
@@ -2237,7 +2237,7 @@
       "order": 12
     }
   ],
-  "version": 11,
+  "version": 12,
   "job_type": "Addition",
   "components": [
     {
