@@ -18,3 +18,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Footer pocket excavation method at existing pad: The 8 footer pockets are created by saw-cutting through the existing concrete pad rather than digging beside it, at some of the pocket locations
 - POLICY: Brick house-side wall drywall treatment: On the wall where the house is brick, leave the brick exposed and do not install drywall over it.
 - DEFAULT: Fused disconnect suitability for breaker subpanel conversion: The existing fused disconnect has not yet been verified as suitable for conversion to a breaker subpanel; the electrician must assess it before the conversion kit is ordered.
+- POLICY: Number of posts/footers: Set 8 posts/footers total, per the proposal, rather than the 7 shown in the presentation plan.
