@@ -5,4 +5,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 
 ## Answers
 
-- POLICY: Sunroom rebuilt ceiling finish level: The rebuilt sunroom ceiling must be insulated in the roof cavity and finished with drywall to Level 3 (taped, 3-coat, sanded, drywall-ready) as part of the full interior rebuild after ceiling demolition.
+- POLICY: Option 2 flooring/trim upgrade excluded from job scope: The job stops at Level 3 base contract scope only; Option 2 (LVP flooring, baseboard, casing, primer and paint) is not included in the job and is carried at $0.00 in the proposal breakdown.
