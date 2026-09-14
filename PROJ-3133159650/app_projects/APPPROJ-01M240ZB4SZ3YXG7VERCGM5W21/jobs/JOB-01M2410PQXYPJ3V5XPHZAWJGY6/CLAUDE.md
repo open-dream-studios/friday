@@ -5,4 +5,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 
 ## Answers
 
-- POLICY: Option 2 flooring/trim upgrade excluded from job scope: The job stops at Level 3 base contract scope only; Option 2 (LVP flooring, baseboard, casing, primer and paint) is not included in the job and is carried at $0.00 in the proposal breakdown.
+- DEFAULT: Footer spec and post treatment: Footers are 12x12x12 using hand-mixed concrete (8 CF, 16 x 80-lb bags) with bare posts (no brick pier wrap material), not the 24x24x12 footer with brick pier wrap option.
