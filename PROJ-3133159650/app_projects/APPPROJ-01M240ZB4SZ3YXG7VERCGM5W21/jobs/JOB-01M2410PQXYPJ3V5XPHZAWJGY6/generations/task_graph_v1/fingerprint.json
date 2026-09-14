@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "generation_id": "01M2H0NBX5TTZARKHDZ7BA40VY",
+  "generated_at": "2026-09-14T22:33:01.351Z",
+  "structure": {
+    "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
+    "version": 14,
+    "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
+  },
+  "ledger": {
+    "docs": [
+      {
+        "document_id": "doc_01M240ZNZTD1BE6FPR76BAEWW5",
+        "version": 2,
+        "name": "crawford.pdf",
+        "size": 466620,
+        "mime_type": "application/pdf",
+        "role": "anchor"
+      },
+      {
+        "document_id": "doc_01M240ZS7PNCC5EZHD8SB5AEJN",
+        "version": 2,
+        "name": "333_Toy_Crawford_Sunroom.xlsx",
+        "size": 83504,
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "role": "breakdown"
+      },
+      {
+        "document_id": "doc_01M240ZWH0HXPCHQQPR0R4CCHN",
+        "version": 2,
+        "name": "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf",
+        "size": 6851594,
+        "mime_type": "application/pdf",
+        "role": "attached"
+      }
+    ],
+    "anchor_document_id": "doc_01M240ZNZTD1BE6FPR76BAEWW5",
+    "canon": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "revision": 41
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "revision": 42
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
+        "revision": 3
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
+        "revision": 98
+      }
+    ],
+    "data": [
+      {
+        "scope_kind": "project",
+        "scope_id": "PROJ-3133159650",
+        "sha256": "cef6531a1cd808238caa08b419efaf1af4a515ea04fa32b0914061c05b9e9d7e"
+      },
+      {
+        "scope_kind": "job_definition",
+        "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+        "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
+      },
+      {
+        "scope_kind": "app_project",
+        "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
+        "sha256": "40a189b3ec978bc62d7c5cf1ed461d4222c16c6666615db636a707d79628d330"
+      },
+      {
+        "scope_kind": "job",
+        "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
+        "sha256": "9abb00a93f35b2597fed7d06d666899f681a1cd05e8dee5510912d3c9b7049f4"
+      }
+    ],
+    "questions": {
+      "count": 21,
+      "answered_ids": [
+        "q_01M2GWZF89D9XWBX5WP9MBYZ9B",
+        "q_01M2GWZF8AEVYTN9BV5P5BF9CR",
+        "q_01M2GWZF8AV1VXD25QCTAP2X6B",
+        "q_01M2GWZF8AVW2TKNR7F8MZYVMV",
+        "q_01M2GWZF8B33CB6RY12NV3SWY8",
+        "q_01M2GWZF8BDBTRG71T46SR9Q0D",
+        "q_01M2GWZF8BHHSC1P1R43K8KS23",
+        "q_01M2GWZF8C309XCZX86N47W67N",
+        "q_01M2GWZF8C5AMM004QDEMC0XF0",
+        "q_01M2GWZF8CM1GJXGXHSYGDTXJ2",
+        "q_01M2GWZF8D8781N40WPTYXGGQA",
+        "q_01M2GWZF8D9WC6G6S77DAW7AMW",
+        "q_01M2GWZF8DAFHZBF86AGTF4WG2",
+        "q_01M2GWZF8DGKG1VWJ5Q9HYMVV0",
+        "q_01M2GWZF8EBJEDVPS6Y0CSN0SZ",
+        "q_01M2GWZF8ERSVY9ZCNS7EED380"
+      ],
+      "sha256": "d717d34885056985ba50029cabcb72f8daa3df834b068cd95094583787419990"
+    },
+    "changelog": {
+      "lines": 579,
+      "tail_sha256": "69a81f409be80ed7208f0fb4d9ff4dfe9cf5c0aefc5f6a2474c44dffd5bd2c83"
+    }
+  },
+  "blocking_open_at_generation": 0
+}

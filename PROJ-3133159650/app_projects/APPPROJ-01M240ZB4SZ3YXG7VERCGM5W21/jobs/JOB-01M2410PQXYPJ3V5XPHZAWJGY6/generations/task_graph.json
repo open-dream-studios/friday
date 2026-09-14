@@ -1,0 +1,1715 @@
+{
+  "schema": "task_graph_v2",
+  "job_type": "Addition",
+  "structure_version": 14,
+  "phases": {
+    "procurement": [
+      {
+        "code": "proc_windows_doors",
+        "component": "procurement_items",
+        "name": "Windows & exterior doors",
+        "duration": 10,
+        "lead_time": 14,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement",
+        "sizing": {
+          "delivery_cal_days": 14,
+          "clamp": null,
+          "hours_basis": "stock 36x60 DH ×6 + stock 3068 ×1, PM-settled 1-2 wk lead (window_door_lead_time_weeks=2, window_count=6, exterior_door_count=1) → 14 cal days, range floor"
+        },
+        "include_reason": "6 stock 36x60 DH + 3068 door, 1-2 wk lead"
+      },
+      {
+        "code": "proc_framing_package",
+        "component": "procurement_items",
+        "name": "Framing Package",
+        "duration": 7,
+        "lead_time": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement",
+        "sizing": {
+          "delivery_cal_days": 10,
+          "clamp": null,
+          "hours_basis": "all dimensional stock: 8 6x6 PT posts, 132 LF 2x12 beam ply, 34 2x10 joists, 15 subfloor + ~16 OSB sheets, built-up 2x headers (no LVL, header_material) → yard stock ~1.5 wk; early-order ahead of demo"
+        },
+        "include_reason": "PT posts/beam/joists/walls/OSB, 1-2 wk lumber lead"
+      },
+      {
+        "code": "proc_subpanel",
+        "component": "procurement_items",
+        "name": "Subpanel / service equipment",
+        "duration": 4,
+        "lead_time": 5,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement",
+        "sizing": {
+          "delivery_cal_days": 5,
+          "clamp": null,
+          "hours_basis": "conversion kit + breakers is stock supply-house item (~2-3 days) but order gated on electrician assessment not yet done (subpanel_verification_status) → 5 cal days incl. assessment gate; replacement s"
+        },
+        "include_reason": "disconnect→breaker conversion kit, ~5-day lead after assessment"
+      },
+      {
+        "code": "proc_hvac_equipment",
+        "component": "procurement_items",
+        "name": "HVAC equipment (mini-split / system)",
+        "duration": 7,
+        "lead_time": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement",
+        "sizing": {
+          "delivery_cal_days": 10,
+          "clamp": null,
+          "hours_basis": "1 mini-split, $2,500 allowance, BTU TBD (mini_split_count=1) — common single-zone ~1 wk once size settled; carry 10 cal days for sizing decision + supply-house lead"
+        },
+        "include_reason": "1 ductless mini-split, ~1 wk lead after BTU sizing"
+      },
+      {
+        "code": "proc_drywall",
+        "component": "procurement_items",
+        "name": "Drywall",
+        "duration": 4,
+        "lead_time": 5,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement",
+        "sizing": {
+          "delivery_cal_days": 5,
+          "clamp": null,
+          "hours_basis": "~30 sheets 4x8 (drywall_sheets_total=30) + mud/tape, stock yard delivery → 5 cal days, range floor"
+        },
+        "include_reason": "~30 sheets walls + ceiling, 5-day supplier delivery"
+      },
+      {
+        "code": "proc_light_fixtures",
+        "component": "procurement_items",
+        "name": "Light fixtures & devices",
+        "duration": 7,
+        "lead_time": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "procurement",
+        "sizing": {
+          "delivery_cal_days": 10,
+          "clamp": null,
+          "hours_basis": "6 fixtures @ $75 + 2 fans @ $150 allowance (light_fixture_count=6, ceiling_fan_count=2) + ~10 receptacles/devices stock; allowance-grade fixtures are big-box/stock ~1 wk, carry 10 cal days for custome"
+        },
+        "include_reason": "6 lights + 2 fans customer allowance, ~1 wk lead"
+      }
+    ],
+    "permits": [
+      {
+        "code": "permit_building",
+        "component": "permit_items",
+        "name": "Building permit",
+        "duration": 10,
+        "links": [],
+        "trade": "general",
+        "kind": "permit",
+        "include_reason": "building permit w/ E+M, not yet applied"
+      },
+      {
+        "code": "permit_mechanical",
+        "component": "permit_items",
+        "name": "Mechanical Permit",
+        "duration": 10,
+        "links": [
+          {
+            "target": "permit_building",
+            "type": "SS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "permit",
+        "include_reason": "ductless mini-split in scope"
+      }
+    ],
+    "demolition": [
+      {
+        "code": "site_and_structure_demo",
+        "component": "main_demolition",
+        "name": "Demolition (site + structure at addition footprint)",
+        "duration": 3,
+        "crew": 3,
+        "links": [
+          {
+            "target": "permit_building",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "demo",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 70,
+          "crew_size": 3,
+          "hours_per_day": 8,
+          "duration_days_raw": 2.92,
+          "duration_days": 3,
+          "clamp": null,
+          "quantities_used": [
+            "demo_area_sqft=430",
+            "wall_lf_new=63",
+            "post_count=8",
+            "dump_runs=3",
+            "temp_shoring_span_lf=43",
+            "stories=elevated second-story"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "jbd 48h demo + ~14h of general_conditions shoring erect (28h non-PM split ~half to demo); my 70 within ~10% after elevated premium"
+          },
+          "hours_basis": "ceiling 430sf×0.03=13 · walls 63LF×0.25=16 · floor 430sf×0.03=13 · posts/beam 4 · 3 dump runs×2=6 → 52 ×1.2 elev = 62 · shoring erect 43LF 8 → 70h (jbd 48+~14 shoring share ≈ 62)",
+          "crew_reason": "card demo crew 3; 43 ft workface, scaffold + hand-lowering needs a ground hand",
+          "flags": [
+            "site protection and scaffold erect/strike excluded — billed once on site prep",
+            "shoring strike/maintenance carried in framing roof reintegration, not here",
+            "no card rate for structure demo — rates are judgment at production speed",
+            "elevated premium +20% applied per canon; debris hand-lowered from scaffold on sloped grade"
+          ]
+        },
+        "include_reason": "full 430 sf sunroom demo, shoring, 3 dump runs"
+      }
+    ],
+    "site_foundation": [
+      {
+        "code": "site_prep",
+        "component": "groundwork",
+        "name": "Site prep (protection, staging, access)",
+        "duration": 2,
+        "crew": 2,
+        "links": [
+          {
+            "target": "site_and_structure_demo",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 19,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.19,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "footprint_sqft=430",
+            "stories=elevated second-story",
+            "occupied_home=yes",
+            "site_access_constraints=scaffold from sloped grade"
+          ],
+          "jbd_reference": {
+            "agreement": "absent",
+            "note": "JBD carries no site-prep line; its 2 scaffold days sit in general_conditions mapped to demo/framing — erect/strike billed here per canon"
+          },
+          "hours_basis": "protection (finishes/grade below, access pts) 2h · staging+dumpster+access path+layout 5h · scaffold erect/strike once/job, 43LF elevated on sloped grade 8h → 15h",
+          "crew_reason": "two hands to stand scaffold on sloped grade; footprint too small for 3",
+          "flags": [
+            "scaffold erect/strike billed once here; moves covered by other trades' elevated premium",
+            "protection 2h billed once here — no other task should carry it"
+          ],
+          "foreman_adjustment": {
+            "from_hours": 15,
+            "to_hours": 19,
+            "reason": "Scaffold erect+strike at 8 crew-h for 43LF two-lift frame scaffold on SLOPED grade is lowballed — leveling jacks/base plates and planking on grade run ~8 crew-h erect + ~4 strike; JBD's 2 scaffold days also point above 8h. Raise scaffold line to 12h"
+          }
+        },
+        "include_reason": "protection below, scaffold from sloped grade, staging"
+      },
+      {
+        "code": "excavation",
+        "component": "groundwork",
+        "name": "Excavation (footings, slab, access)",
+        "duration": 1,
+        "crew": 2,
+        "links": [
+          {
+            "target": "site_prep",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "excavation",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 11,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 0.69,
+          "duration_days": 1,
+          "clamp": null,
+          "quantities_used": [
+            "post_count=8",
+            "footer_excavation_note=saw-cut some pockets",
+            "saw_cut_pocket_count=UNKNOWN (assumed 4)",
+            "foundation_type=8 discrete 12x12x12 footers",
+            "site_access_constraints=sloped grade, no lift"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "JBD 44h also funds post set + beam (~20h framing); ~24h groundwork share vs my 11+9=20h — within range, slightly below"
+          },
+          "hours_basis": "saw-cut pockets assumed 4×1.5h=6 · hand-dug pockets beside pad 4×0.75h=3 (no machine under elevated floor/scaffold, card 0.25 machine rate not applicable) · mark 8-post layout + spoils/debris out 2 → 11h",
+          "crew_reason": "operator/saw + laborer, TCR standard dig crew; 8 pockets under one span",
+          "flags": [
+            "saw-cut count unquantified — assumed 4 of 8; each ±1 cut = ±1.5h",
+            "rock on hand-dug pockets = change order, not padded here",
+            "no machine assumed — if mini-ex fits below, dig hours drop ~2h"
+          ]
+        },
+        "include_reason": "8 footer pockets, some saw-cut through pad"
+      },
+      {
+        "code": "foundation_prep",
+        "component": "groundwork",
+        "name": "Prepare Foundation",
+        "duration": 1,
+        "crew": 2,
+        "links": [
+          {
+            "target": "excavation",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 9,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 0.56,
+          "duration_days": 1,
+          "clamp": null,
+          "quantities_used": [
+            "post_count=8",
+            "footer_concrete_cy=0.3",
+            "condenser_location=grade pad beneath sunroom",
+            "foundation_type=post-and-beam on 8 footers w/ brackets"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "groundwork share of JBD 44h (~24h after ~20h post/beam to framing) vs my 20h across excavation+foundation_prep"
+          },
+          "hours_basis": "string/batter layout + check 1h · hand-mix 16 bags, place 0.3cy, 8 footers ×0.5h=4 · set/level/anchor 8 brackets ×0.25h=2 · condenser pad set on gravel 2h → 9h",
+          "crew_reason": "one mixing, one placing/setting brackets; 8 small pours",
+          "flags": [
+            "footing inspection visit (2h card) not carried here — belongs to inspection bundle, currently a gap in JBD",
+            "post_height low-confidence; bracket elevations on sloped lot set by string line at prep, not re-sized"
+          ]
+        },
+        "include_reason": "12x12x12 footer forms, brackets, condenser pad"
+      },
+      {
+        "code": "foundation_inspection",
+        "component": "groundwork",
+        "name": "Foundation Inspection",
+        "duration": 1,
+        "crew": 0,
+        "links": [
+          {
+            "target": "foundation_prep",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work",
+        "flagged": true,
+        "include_reason": "footing inspection before pour"
+      },
+      {
+        "code": "foundation_pour",
+        "component": "groundwork",
+        "name": "Foundation Pour",
+        "duration": 1,
+        "crew": 3,
+        "links": [
+          {
+            "target": "foundation_inspection",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "concrete",
+        "kind": "work",
+        "flagged": true,
+        "include_reason": "8 hand-mix footers + grade condenser pad"
+      },
+      {
+        "code": "site_foundation.end",
+        "name": "Site Prep & Foundation — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "foundation_pour",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "framing_shell": [
+      {
+        "code": "framing_shell.start",
+        "name": "Framing & Shell — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "site_foundation.end",
+            "type": "FS",
+            "lag": 5
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "framing",
+        "component": "structural_framing",
+        "name": "Framing (floor, walls, roof structure, sheathing)",
+        "duration": 5,
+        "crew": 3,
+        "links": [
+          {
+            "target": "framing_shell.start",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_framing_package",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "framing",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 106,
+          "crew_size": 3,
+          "hours_per_day": 8,
+          "duration_days_raw": 4.42,
+          "duration_days": 5,
+          "clamp": null,
+          "quantities_used": [
+            "post_count=8",
+            "beam_lf=44",
+            "floor_joist_count=34",
+            "floor_insulation_sqft=430",
+            "subfloor_sheets=15",
+            "wall_lf_new=63",
+            "window_count=6",
+            "exterior_door_count=1",
+            "wall_sheathing_sqft=504",
+            "stories=elevated second-story",
+            "footprint_sqft=430"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "JBD mapped ≈124h (post/beam ~20 + floor 62 ex-soffit + walls 42 ex-siding/WRB dup); mine 116 incl premium"
+          },
+          "hours_basis": "posts 8×0.75=6 · beam 44LF≈2 seg×7=14 · joists 34×0.4+ledger/rim 4=18 · floor batt 430sf×0.02=8 · subfloor 15sh×0.4=6 · walls 63LF×0.4=25 · headers 7×0.75=5 · sheathing 16sh×0.4=6 · WRB 504×0.015=8 → 96 ×1.2 elevated = 116h",
+          "crew_reason": "43×10 footprint; 3-man is card baseline; beam lift + scaffold work needs 3",
+          "flags": [
+            "+20% elevated premium applied per canon; scaffold erect/strike excluded (site prep)",
+            "plate height 8 ft provisional — sheathing/WRB area shifts with measured bearing line",
+            "WRB carried here per JBD mapping; siding task must not re-bill it",
+            "floor batt from above before subfloor included here; under-floor soffit excluded (cladding_roof)"
+          ],
+          "foreman_adjustment": {
+            "from_hours": 116,
+            "to_hours": 106,
+            "reason": "WRB 504sf×0.015=8h is billed here AND in the siding task's own basis (WRB 504sf×0.015=7.6) — double-counted; drop it from framing (8h ×1.2 elevated ≈ 10h), siding keeps the WRB line"
+          }
+        },
+        "include_reason": "posts, 44 LF beam, PT floor, 63 LF walls, sheathing"
+      },
+      {
+        "code": "roof_reintegration",
+        "component": "structural_framing",
+        "name": "Roof reintegration (reseat preserved roof, bearing transfer, strike shoring)",
+        "duration": 2,
+        "crew": 3,
+        "links": [
+          {
+            "target": "framing",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "framing",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 26,
+          "crew_size": 3,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.08,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "temp_shoring_span_lf=43",
+            "roof_area_sqft=430",
+            "floor_joist_count=34",
+            "stories=elevated second-story"
+          ],
+          "jbd_reference": {
+            "agreement": "disagrees",
+            "note": "JBD ~20h (half of 24h roof section + ~8h shoring strike from gen cond) runs slightly low — no elevated premium; kept 26h"
+          },
+          "hours_basis": "bearing transfer/shim 43LF×0.2=9 · rafter ties 34×0.15=5 · strike shoring 43LF×0.15=6.5 · verify level/attach 2 → 22 ×1.2 elevated = 26h",
+          "crew_reason": "single-plane 43 LF shed roof; 3 to lower shores in sequence safely",
+          "flags": [
+            "roof pitch unknown; low-slope assumed",
+            "shoring strike hours inherited from general_conditions split; erection stays on demo",
+            "rafter count assumed = joist count (16 oc)"
+          ]
+        },
+        "include_reason": "retained shed roof reseated off foreman shoring"
+      },
+      {
+        "code": "exterior_windows_doors",
+        "component": "structural_framing",
+        "name": "Exterior windows & doors install",
+        "duration": 2,
+        "crew": 2,
+        "links": [
+          {
+            "target": "framing",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_windows_doors",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "windows_doors",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 26,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.63,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "window_count=6",
+            "exterior_door_count=1",
+            "stories=elevated second-story"
+          ],
+          "jbd_reference": {
+            "agreement": "disagrees",
+            "note": "JBD 19h has no elevated premium; 19×1.2≈23 — mine 26 within reach, kept quantity figure"
+          },
+          "hours_basis": "windows 6×3h=18 · door 3068 4h floor → 22 ×1.2 elevated = 26h",
+          "crew_reason": "one window at a time; 2-man set + exterior flash from scaffold",
+          "flags": [
+            "+20% elevated premium for exterior flashing from scaffold",
+            "new-construction fin windows at ~3 crew-h each below the 5.3h hint rate"
+          ]
+        },
+        "include_reason": "6 windows + 1 exterior door"
+      }
+    ],
+    "exterior_finishes": [
+      {
+        "code": "roofing",
+        "component": "cladding_roof",
+        "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
+        "duration": 1,
+        "crew": 2,
+        "links": [
+          {
+            "target": "exterior_windows_doors",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "roofing",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 16,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1,
+          "duration_days": 1,
+          "clamp": null,
+          "quantities_used": [
+            "roof_tie_in_lf=63",
+            "roof_patch_count=2",
+            "roof_area_sqft=430",
+            "stories=elevated second-story structure"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "JBD roof_framing_roofing 24h split ~12h reseat→framing / ~12h flashing+patches→here; 16h within reason"
+          },
+          "hours_basis": "edge flash/reseal 3 new wall lines 63LF×0.1=6.3 · house-wall counterflash 3 · patches 2×2=4 · drip edge 63LF×0.03=1.9 → 15.2 → 16h; no re-roof, existing shed roof retained",
+          "crew_reason": "edge flashing + 2 patches on a 430 sf shed roof is a 2-man workface, no shingling",
+          "flags": [
+            "roof_tie_in_lf is [low] confidence and roof_pitch UNKNOWN — house-wall counterflash disturbance unverified",
+            "weave rate (0.2 h/LF) not applied: new walls sit under retained roof, tie-in is edge flashing not shingle weave; if roof lifts/reseats disturb field shingles add ~8h",
+            "canon elevated premium lists demo/framing/siding/windows, not roofing — none applied"
+          ]
+        },
+        "include_reason": "63 LF tie-in flashing, 2 vent patches, venting"
+      },
+      {
+        "code": "siding",
+        "component": "cladding_roof",
+        "name": "Siding (WRB, siding, tie-in blend)",
+        "duration": 4,
+        "crew": 2,
+        "links": [
+          {
+            "target": "exterior_windows_doors",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "siding",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 59,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 3.69,
+          "duration_days": 4,
+          "clamp": null,
+          "quantities_used": [
+            "wall_sheathing_sqft=504",
+            "siding_sqft_net=394",
+            "stories=elevated second-story structure",
+            "site_access_constraints=scaffold from sloped grade",
+            "exterior_trim_lf=UNKNOWN"
+          ],
+          "jbd_reference": {
+            "agreement": "disagrees",
+            "note": "JBD 24h siding+trim (WRB in framing section, double-counted) carries no elevated premium and thin trim; 59h governs"
+          },
+          "hours_basis": "WRB 504sf×0.015=7.6 · vinyl lap cut-up 394sf×0.08=31.5 · J-channel/corner posts ~100LF(assumed)×0.1=10 · subtotal 49 × 1.2 elevated premium → 59h",
+          "crew_reason": "63 LF of wall from scaffold on sloped grade; card norm siding crew 2",
+          "flags": [
+            "plate height 8 ft is provisional — 504/394 sf areas move with measured bearing height",
+            "exterior_trim_lf UNKNOWN — ~100 LF vinyl J/corner assumed at 0.1 h/LF (vinyl accessories, not 0.15 wood trim rate)",
+            "JBD WRB double-count (6h+3h) deducted from cross-check per evidence flag",
+            "elevated premium +20% applied per canon; scaffold erect/strike billed on site prep"
+          ]
+        },
+        "include_reason": "WRB + ~394 sf vinyl lap on 3 walls"
+      },
+      {
+        "code": "fascia_soffit_gutters",
+        "component": "cladding_roof",
+        "name": "Fascia, soffit & gutters",
+        "duration": 2,
+        "crew": 2,
+        "links": [
+          {
+            "target": "exterior_windows_doors",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "siding",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 26,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.63,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "soffit_under_floor_sqft=430",
+            "stories=elevated second-story structure",
+            "site_access_constraints=scaffold from sloped grade",
+            "options_selected=none"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "JBD floor_system 25h vinyl soffit line maps here; 26h with elevated premium is a match"
+          },
+          "hours_basis": "under-floor vinyl soffit 430sf×0.03=12.9 · F/J channel perimeter ~106LF×0.08=8.5 · subtotal 21.4 × 1.2 elevated/overhead → 26h; no fascia/gutter scope in contract",
+          "crew_reason": "overhead panel work from scaffold needs a holder and a fastener; 2-man",
+          "flags": [
+            "no card rate for soffit — 0.03 h/sf + 0.08 h/LF channel are estimator rates",
+            "gutters and roof fascia not in signed proposal — zero hours carried; if PM adds fascia wrap on 63 LF add ~10h",
+            "sequence: after rough-in (line set drops through soffit) and after floor framing, per PM answer"
+          ]
+        },
+        "include_reason": "430 sf under-floor vinyl soffit; no fascia/gutters"
+      },
+      {
+        "code": "exterior_finishes.end",
+        "name": "Exterior Finishes — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "roofing",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "siding",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "fascia_soffit_gutters",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "rough_trades": [
+      {
+        "code": "rough_hvac",
+        "component": "rough_meps",
+        "name": "Rough HVAC (line set / duct extension)",
+        "duration": 1,
+        "crew": 2,
+        "links": [
+          {
+            "target": "roofing",
+            "type": "FS",
+            "lag": -1
+          },
+          {
+            "target": "permit_mechanical",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_hvac_equipment",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "hvac",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 6,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 0.38,
+          "duration_days": 1,
+          "clamp": null,
+          "quantities_used": [
+            "mini_split_count=1",
+            "post_height_ft=10",
+            "condenser_location=grade-level pad beneath sunroom"
+          ],
+          "jbd_reference": {
+            "agreement": "agrees",
+            "note": "JBD 10h split ~6 rough here / ~4 head set+startup to Final Trades"
+          },
+          "hours_basis": "no HVAC card rate — judgment: wall/floor penetration+sleeve 1 · line set ~25LF (10ft drop+wall run) w/ line-hide 3 · condensate 1 · condenser pad stub/coord 1 → 6h; JBD 10h lumps rough+finish, ~6 rough",
+          "crew_reason": "Two hands to feed/hang line set from scaffold on sloped grade; small workface",
+          "flags": [
+            "No HVAC rate on card — judgment sizing",
+            "BTU/head location TBD; line set length assumed ~25LF",
+            "Mini-split circuit depends on subpanel conversion outcome"
+          ]
+        },
+        "include_reason": "mini-split line set to grade condenser"
+      },
+      {
+        "code": "rough_electrical",
+        "component": "rough_meps",
+        "name": "Rough electrical (circuits, subpanel, boxes)",
+        "duration": 2,
+        "crew": 2,
+        "links": [
+          {
+            "target": "rough_hvac",
+            "type": "FS",
+            "lag": -1
+          },
+          {
+            "target": "proc_subpanel",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "electrical",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 24,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.5,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "receptacle_count=10",
+            "light_fixture_count=6",
+            "ceiling_fan_count=2",
+            "subpanel_conversion=1",
+            "mini_split_count=1",
+            "existing_service_amps=200"
+          ],
+          "jbd_reference": {
+            "agreement": "disagrees",
+            "note": "JBD 30h rough is ~25% above box/circuit math at card pace; kept 24h, 6h finish stays in Final Trades"
+          },
+          "hours_basis": "boxes 10 recep+6 lt+2 fan+5 sw=23 ÷6/h ×2-man=8 · homeruns 5 ckts×1.5=7.5 · fan braces 2×0.5=1 · disconnect→subpanel conversion 6 · mini-split disconnect/whip 1.5 → 24h; JBD 30h runs hot",
+          "crew_reason": "6 boxes/h pace assumes 2-man; 43ft room pulls need a feeder and a puller",
+          "flags": [
+            "Subpanel conversion unverified — if disconnect unsuitable, new subpanel adds hours + lead time",
+            "Receptacle count medium (NEC-spacing estimate); switch count assumed 5",
+            "Brick wall gets no devices assumed; surface wiremold there would be an add"
+          ]
+        },
+        "include_reason": "subpanel conversion, ~10 receptacles, 6 lights, 2 fans"
+      },
+      {
+        "code": "rough_trades.end",
+        "name": "Rough Trades (MEPs) — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "rough_hvac",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "rough_electrical",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "rough_inspections": [
+      {
+        "code": "bundled_rough_inspections",
+        "component": "bundled_inspections",
+        "name": "Rough inspections (MEPs then framing, bundled)",
+        "duration": 1,
+        "crew": 1,
+        "links": [
+          {
+            "target": "rough_trades.end",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection",
+        "sizing": {
+          "labor_hours": 6,
+          "crew_size": 1,
+          "hours_per_day": 8,
+          "duration_days_raw": 0.75,
+          "duration_days": 1,
+          "clamp": null,
+          "quantities_used": [
+            "plumbing_scope=none",
+            "mini_split_count=1",
+            "subpanel_conversion=1",
+            "permit_status=not yet applied"
+          ],
+          "jbd_reference": {
+            "agreement": "absent",
+            "note": "No JBD section; evidence gap flag says inspections carry 0h in JBD — sized purely from card 2h/visit"
+          },
+          "hours_basis": "card 2h/visit · rough electrical 2 · mechanical 2 · framing 2 (MEPs first, framing last, same visit) → 6h · footing/insulation/final visits belong to other tasks",
+          "crew_reason": "Inspector walk with one coordinating lead; fixed 1",
+          "flags": [
+            "Permit not yet applied (permit_status) — inspection scheduling depends on issuance ahead of 2027-03-01 start",
+            "Assumes 3 rough visits (electrical, mechanical, framing) bundled into one day; if AHJ splits them, duration runs 2-3 days",
+            "Footing, insulation and final inspections not counted here — carry them on excavation/insulation/final trades if not sized elsewhere"
+          ]
+        },
+        "include_reason": "electrical + mechanical rough then framing"
+      },
+      {
+        "code": "rough_inspections.end",
+        "name": "Rough Inspections — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "bundled_rough_inspections",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "insulation_drywall": [
+      {
+        "code": "insulation_drywall.start",
+        "name": "Insulation & Drywall — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "rough_inspections.end",
+            "type": "FS",
+            "lag": 5
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "insulation",
+        "component": "insulation_drywall_prime",
+        "name": "Insulation & air sealing",
+        "duration": 2,
+        "crew": 2,
+        "links": [
+          {
+            "target": "insulation_drywall.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "insulation",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 22,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.38,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "wall_insulation_sqft=504",
+            "ceiling_insulation_sqft=430",
+            "floor_joist_count=34",
+            "window_count=6",
+            "exterior_door_count=1"
+          ],
+          "jbd_reference": {
+            "agreement": "disagrees",
+            "note": "JBD 7h covers walls (+floor) only; ceiling vented batt+baffles priced nowhere in JBD adds ~14h. Walls-only ~8h ≈ agrees."
+          },
+          "hours_basis": "wall batt R-13 504sf×0.012=6 · rafter baffles ~34 bays×10ft ×0.15h=5 · ceiling batt overhead 430sf×0.02=9 · air seal 7 openings+penetrations 2 → 22h (jbd 7h walls-only, 0h ceiling)",
+          "crew_reason": "43×10 room, overhead sloped-ceiling batt/baffles needs a 2-man pass",
+          "flags": [
+            "Floor-cavity batt 430sf excluded: PM answer places it in Floor System, laid from above before subfloor — it must land in framing hours, not here",
+            "Wall batt 504sf provisional on 8ft plate height pending field bearing measurement",
+            "No card rate for insulation — production rates from judgment",
+            "Rafter-bay count ~34 assumed at 16in oc; pitch/rafter layout unknown"
+          ]
+        },
+        "include_reason": "R-13 walls + vented rafter-bay ceiling batt"
+      },
+      {
+        "code": "insulation_inspection",
+        "component": "insulation_drywall_prime",
+        "name": "Insulation inspection",
+        "duration": 1,
+        "crew": 1,
+        "links": [
+          {
+            "target": "insulation",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection",
+        "include_reason": "insulation inspection incl ceiling"
+      },
+      {
+        "code": "drywall",
+        "component": "insulation_drywall_prime",
+        "name": "Drywall (hang, tape, sand)",
+        "duration": 3,
+        "crew": 3,
+        "links": [
+          {
+            "target": "insulation_inspection",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_drywall",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "drywall",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 49,
+          "crew_size": 3,
+          "hours_per_day": 8,
+          "duration_days_raw": 2.04,
+          "duration_days": 3,
+          "clamp": null,
+          "quantities_used": [
+            "drywall_sqft=504",
+            "ceiling_drywall_sqft=430",
+            "drywall_sheets_total=30",
+            "window_count=6",
+            "exterior_door_count=1"
+          ],
+          "jbd_reference": {
+            "agreement": "disagrees",
+            "note": "JBD 65h/848sf walls incl 344sf brick (excluded) omits 430sf ceiling; area near-wash, my 49h at production rates is below JBD."
+          },
+          "hours_basis": "hang walls 16sh×0.5=8 · hang sloped ceiling overhead 14sh×0.9=13 · tape+2 coats L3 934sf×0.025=23 · sand+cleanup 5 → 49h (jbd 65h walls-only runs hot; kept mine)",
+          "crew_reason": "overhead 430sf sloped-ceiling hang needs 2 lifting + 1 fastening; finish drops to 2",
+          "flags": [
+            "Hours-derived duration (~3 wd) ignores mud dry time; calendar realistically ~5 wd (hang, tape, 2 coats, sand)",
+            "Brick house wall excluded per PM answer — no furring/drywall there",
+            "Wall drywall 504sf provisional on 8ft plate height",
+            "No prime in base scope — component's prime step empty",
+            "No card rate for drywall — rates from judgment; JBD ceiling only"
+          ]
+        },
+        "include_reason": "Level 3 on 3 framed walls + ceiling, ~30 sheets"
+      },
+      {
+        "code": "insulation_drywall.end",
+        "name": "Insulation & Drywall — complete",
+        "duration": 0,
+        "links": [
+          {
+            "target": "drywall",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ],
+    "interior_finishes": [
+      {
+        "code": "mep_fixture_install",
+        "component": "final_trades_paint_2",
+        "name": "Final Trades (fixture install for HVAC, Plumbing, and Electrical)",
+        "duration": 2,
+        "crew": 2,
+        "links": [
+          {
+            "target": "insulation_drywall.end",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "proc_light_fixtures",
+            "type": "FS",
+            "lag": 3
+          }
+        ],
+        "trade": "mep_finish",
+        "kind": "work",
+        "sizing": {
+          "labor_hours": 21,
+          "crew_size": 2,
+          "hours_per_day": 8,
+          "duration_days_raw": 1.31,
+          "duration_days": 2,
+          "clamp": null,
+          "quantities_used": [
+            "light_fixture_count=6",
+            "ceiling_fan_count=2",
+            "receptacle_count=10",
+            "mini_split_count=1",
+            "subpanel_conversion=1",
+            "plumbing_scope=none",
+            "condenser_location=grade-level pad beneath sunroom"
+          ],
+          "jbd_reference": {
+            "agreement": "absent",
+            "note": "No JBD section; rate card carries no MEP finish rates — sized from fixture counts at production speed"
+          },
+          "hours_basis": "no card MEP rates — judgment: recept/GFCI 10×0.4=4 · switches+covers 1.5 · lights 6×0.5=3 · fans 2×1.25=2.5 · subpanel breakers/label 1.5 · mini-split head+condenser connect/vac/charge/commission 8 → 20.5≈21h",
+          "crew_reason": "1 electrician + 1 HVAC tech; small 430 sf room, 2-trade interior cap, no plumbing",
+          "flags": [
+            "no card or jbd basis for MEP trim — judgment rates",
+            "receptacle count 10 is medium confidence (NEC spacing, no count); brick wall devices unresolved",
+            "subpanel conversion contingent on electrician assessment — replacement subpanel would add hours outside this figure",
+            "mini-split BTU TBD; commissioning assumes line set already run in rough HVAC"
+          ]
+        },
+        "include_reason": "lights, fans, devices, mini-split head set"
+      }
+    ],
+    "closeout": [
+      {
+        "code": "closeout.start",
+        "name": "Closeout — start",
+        "duration": 0,
+        "links": [
+          {
+            "target": "mep_fixture_install",
+            "type": "FS",
+            "lag": 2
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      },
+      {
+        "code": "customer_walkthrough",
+        "component": "walkthrough_final_inspection",
+        "name": "Customer walkthrough & punch list",
+        "duration": 1,
+        "crew": 1,
+        "links": [
+          {
+            "target": "closeout.start",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "pm",
+        "kind": "work",
+        "include_reason": "always — punch list"
+      },
+      {
+        "code": "final_inspections",
+        "component": "walkthrough_final_inspection",
+        "name": "Final inspections (building + E/P/M, bundled)",
+        "duration": 1,
+        "crew": 1,
+        "links": [
+          {
+            "target": "customer_walkthrough",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "inspector",
+        "kind": "inspection",
+        "include_reason": "building + electrical + mechanical final"
+      },
+      {
+        "code": "job_complete",
+        "component": "walkthrough_final_inspection",
+        "name": "Job complete (owner walkthrough with customer)",
+        "duration": 0,
+        "links": [
+          {
+            "target": "final_inspections",
+            "type": "FS",
+            "lag": 1
+          },
+          {
+            "target": "mep_fixture_install",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "exterior_finishes.end",
+            "type": "FS",
+            "lag": 0
+          },
+          {
+            "target": "framing",
+            "type": "FS",
+            "lag": 0
+          }
+        ],
+        "trade": "general",
+        "kind": "milestone"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "procurement_items",
+      "phase": "procurement",
+      "name": "Procurement Items"
+    },
+    {
+      "id": "permit_items",
+      "phase": "permits",
+      "name": "Permit Items"
+    },
+    {
+      "id": "main_demolition",
+      "phase": "demolition",
+      "name": "Main Demolition"
+    },
+    {
+      "id": "groundwork",
+      "phase": "site_foundation",
+      "name": "Groundwork"
+    },
+    {
+      "id": "structural_framing",
+      "phase": "framing_shell",
+      "name": "Structural Framing"
+    },
+    {
+      "id": "cladding_roof",
+      "phase": "exterior_finishes",
+      "name": "Cladding & Roof"
+    },
+    {
+      "id": "rough_meps",
+      "phase": "rough_trades",
+      "name": "Rough MEPs"
+    },
+    {
+      "id": "bundled_inspections",
+      "phase": "rough_inspections",
+      "name": "Bundled Inspections"
+    },
+    {
+      "id": "insulation_drywall_prime",
+      "phase": "insulation_drywall",
+      "name": "Insulation, Drywall & Prime"
+    },
+    {
+      "id": "final_trades_paint_2",
+      "phase": "interior_finishes",
+      "name": "Final Trades & Paint 2"
+    },
+    {
+      "id": "walkthrough_final_inspection",
+      "phase": "closeout",
+      "name": "Walkthrough & Final Inspection"
+    }
+  ],
+  "warnings": [
+    "Coverage: 2 evidence quantities are consumed by NO task (plate_height_ft=8ft, window_door_lead_time_weeks=2weeks) — verify each is either a dimension input to a derived quantity or scope someone sized.",
+    "Coverage: JBD section \"electrical\" pays into component \"interior_installs\" but no included task carries it — paid-for scope with zero tasks.",
+    "Coverage: JBD section \"hvac\" pays into component \"interior_installs\" but no included task carries it — paid-for scope with zero tasks.",
+    "Foreman check: \"framing\" 116h → 106h — WRB 504sf×0.015=8h is billed here AND in the siding task's own basis (WRB 504sf×0.015=7.6) — double-counted; drop it from framing (8h ×1.2 elevated ≈ 10h), siding keeps the WRB line",
+    "Foreman check RAISED \"site_prep\" 15h → 19h — Scaffold erect+strike at 8 crew-h for 43LF two-lift frame scaffold on SLOPED grade is lowballed — leveling jacks/base plates and planking on grade run ~8 crew-h erect + ~4 strike; JBD's 2 scaffold days also point above 8h. Raise scaffold line to 12h"
+  ],
+  "assumptions": [
+    "\"Foundation Inspection\" (foundation_inspection) is included but its structure row is UNVETTED — confirm with Will.",
+    "\"Foundation Pour\" (foundation_pour) is included but its structure row is UNVETTED — confirm with Will."
+  ],
+  "needs_info": [],
+  "resolution": [
+    {
+      "node_id": "proc_foundation_package",
+      "name": "Foundation",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "stock — rides install task (16 bags hand-mix, brackets)"
+    },
+    {
+      "node_id": "proc_windows_doors",
+      "name": "Windows & exterior doors",
+      "phase": "procurement",
+      "answer": "include",
+      "reason": "6 stock 36x60 DH + 3068 door, 1-2 wk lead"
+    },
+    {
+      "node_id": "proc_lvl",
+      "name": "LVL / engineered beams",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "beam 3-ply 2x12, headers built-up 2x — no LVL"
+    },
+    {
+      "node_id": "proc_framing_package",
+      "name": "Framing Package",
+      "phase": "procurement",
+      "answer": "include",
+      "reason": "PT posts/beam/joists/walls/OSB, 1-2 wk lumber lead"
+    },
+    {
+      "node_id": "proc_trusses",
+      "name": "Roof trusses (custom)",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "existing shed roof retained, no new roof"
+    },
+    {
+      "node_id": "proc_subpanel",
+      "name": "Subpanel / service equipment",
+      "phase": "procurement",
+      "answer": "include",
+      "reason": "disconnect→breaker conversion kit, ~5-day lead after assessment"
+    },
+    {
+      "node_id": "proc_hvac_equipment",
+      "name": "HVAC equipment (mini-split / system)",
+      "phase": "procurement",
+      "answer": "include",
+      "reason": "1 ductless mini-split, ~1 wk lead after BTU sizing"
+    },
+    {
+      "node_id": "proc_electrical_package",
+      "name": "Electrical Package",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "stock — rides install task"
+    },
+    {
+      "node_id": "proc_water_heater",
+      "name": "Water heater (tank or tankless)",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "no plumbing, no water heater"
+    },
+    {
+      "node_id": "proc_plumbing_package",
+      "name": "Plumbing Package",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_tile",
+      "name": "Tile & setting materials",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_hard_flooring",
+      "name": "Hard flooring",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint (Option 2 unselected)"
+    },
+    {
+      "node_id": "proc_carpet",
+      "name": "Carpet / floating floor",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_insulation",
+      "name": "Insulation",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "stock — rides install task"
+    },
+    {
+      "node_id": "proc_drywall",
+      "name": "Drywall",
+      "phase": "procurement",
+      "answer": "include",
+      "reason": "~30 sheets walls + ceiling, 5-day supplier delivery"
+    },
+    {
+      "node_id": "proc_cabinets",
+      "name": "Cabinets / vanities",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_countertops",
+      "name": "Countertops",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_paint",
+      "name": "Paint + Primer",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint (paint Option 2 unselected)"
+    },
+    {
+      "node_id": "proc_shower_glass",
+      "name": "Shower glass (template after tile)",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_doors_trim",
+      "name": "Interior doors & trim package",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint (trim Option 2 unselected)"
+    },
+    {
+      "node_id": "proc_plumbing_fixtures",
+      "name": "Plumbing fixtures (faucets, sinks, commodes, shower trim)",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "proc_light_fixtures",
+      "name": "Light fixtures & devices",
+      "phase": "procurement",
+      "answer": "include",
+      "reason": "6 lights + 2 fans customer allowance, ~1 wk lead"
+    },
+    {
+      "node_id": "proc_concrete_patio",
+      "name": "Concrete + Patio Work",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "no flatwork; footer bag mix rides install"
+    },
+    {
+      "node_id": "permit_building",
+      "name": "Building permit",
+      "phase": "permits",
+      "answer": "include",
+      "reason": "building permit w/ E+M, not yet applied"
+    },
+    {
+      "node_id": "permit_tdec_septic",
+      "name": "TDEC septic permit",
+      "phase": "permits",
+      "answer": "exclude",
+      "reason": "no septic work"
+    },
+    {
+      "node_id": "permit_electrical_service",
+      "name": "Electrical service / meter permit",
+      "phase": "permits",
+      "answer": "exclude",
+      "reason": "200A main unchanged; subpanel rides building permit"
+    },
+    {
+      "node_id": "permit_plumbing",
+      "name": "Plumbing Permit",
+      "phase": "permits",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "permit_mechanical",
+      "name": "Mechanical Permit",
+      "phase": "permits",
+      "answer": "include",
+      "reason": "ductless mini-split in scope"
+    },
+    {
+      "node_id": "utility_relocations",
+      "name": "Utility & equipment relocations (heat pump, disconnect, lines)",
+      "phase": "retrofit",
+      "answer": "exclude",
+      "reason": "fused disconnect reused in place; no relocations"
+    },
+    {
+      "node_id": "retrofit_demo",
+      "name": "Retrofit demolition (interior areas outside the addition)",
+      "phase": "retrofit",
+      "answer": "exclude",
+      "reason": "no pre-addition interior work"
+    },
+    {
+      "node_id": "retrofit_rough_meps",
+      "name": "Retrofit rough MEPs",
+      "phase": "retrofit",
+      "answer": "exclude",
+      "reason": "no retrofit scope"
+    },
+    {
+      "node_id": "retrofit_drywall",
+      "name": "Retrofit drywall & patching",
+      "phase": "retrofit",
+      "answer": "exclude",
+      "reason": "no retrofit scope"
+    },
+    {
+      "node_id": "retrofit_finishes",
+      "name": "Retrofit finishes (paint, tile, flooring, fixtures)",
+      "phase": "retrofit",
+      "answer": "exclude",
+      "reason": "no retrofit scope"
+    },
+    {
+      "node_id": "site_and_structure_demo",
+      "name": "Demolition (site + structure at addition footprint)",
+      "phase": "demolition",
+      "answer": "include",
+      "reason": "full 430 sf sunroom demo, shoring, 3 dump runs"
+    },
+    {
+      "node_id": "site_prep",
+      "name": "Site prep (protection, staging, access)",
+      "phase": "site_foundation",
+      "answer": "include",
+      "reason": "protection below, scaffold from sloped grade, staging"
+    },
+    {
+      "node_id": "excavation",
+      "name": "Excavation (footings, slab, access)",
+      "phase": "site_foundation",
+      "answer": "include",
+      "reason": "8 footer pockets, some saw-cut through pad"
+    },
+    {
+      "node_id": "foundation_prep",
+      "name": "Prepare Foundation",
+      "phase": "site_foundation",
+      "answer": "include",
+      "reason": "12x12x12 footer forms, brackets, condenser pad"
+    },
+    {
+      "node_id": "framing",
+      "name": "Framing (floor, walls, roof structure, sheathing)",
+      "phase": "framing_shell",
+      "answer": "include",
+      "reason": "posts, 44 LF beam, PT floor, 63 LF walls, sheathing"
+    },
+    {
+      "node_id": "roof_reintegration",
+      "name": "Roof reintegration (reseat preserved roof, bearing transfer, strike shoring)",
+      "phase": "framing_shell",
+      "answer": "include",
+      "reason": "retained shed roof reseated off foreman shoring"
+    },
+    {
+      "node_id": "exterior_windows_doors",
+      "name": "Exterior windows & doors install",
+      "phase": "framing_shell",
+      "answer": "include",
+      "reason": "6 windows + 1 exterior door"
+    },
+    {
+      "node_id": "deck_build",
+      "name": "Deck build",
+      "phase": "framing_shell",
+      "answer": "exclude",
+      "reason": "deck is presentation visualization only"
+    },
+    {
+      "node_id": "roofing",
+      "name": "Roofing (underlayment, shingles, flashing, tie-in blend)",
+      "phase": "exterior_finishes",
+      "answer": "include",
+      "reason": "63 LF tie-in flashing, 2 vent patches, venting"
+    },
+    {
+      "node_id": "siding",
+      "name": "Siding (WRB, siding, tie-in blend)",
+      "phase": "exterior_finishes",
+      "answer": "include",
+      "reason": "WRB + ~394 sf vinyl lap on 3 walls"
+    },
+    {
+      "node_id": "fascia_soffit_gutters",
+      "name": "Fascia, soffit & gutters",
+      "phase": "exterior_finishes",
+      "answer": "include",
+      "reason": "430 sf under-floor vinyl soffit; no fascia/gutters"
+    },
+    {
+      "node_id": "appliance_vent_extension",
+      "name": "Extend existing appliance vents through new roof",
+      "phase": "exterior_finishes",
+      "answer": "exclude",
+      "reason": "no appliance vents through roof; patches on roofing"
+    },
+    {
+      "node_id": "rough_plumbing",
+      "name": "Rough plumbing",
+      "phase": "rough_trades",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "rough_hvac",
+      "name": "Rough HVAC (line set / duct extension)",
+      "phase": "rough_trades",
+      "answer": "include",
+      "reason": "mini-split line set to grade condenser"
+    },
+    {
+      "node_id": "rough_electrical",
+      "name": "Rough electrical (circuits, subpanel, boxes)",
+      "phase": "rough_trades",
+      "answer": "include",
+      "reason": "subpanel conversion, ~10 receptacles, 6 lights, 2 fans"
+    },
+    {
+      "node_id": "bundled_rough_inspections",
+      "name": "Rough inspections (MEPs then framing, bundled)",
+      "phase": "rough_inspections",
+      "answer": "include",
+      "reason": "electrical + mechanical rough then framing"
+    },
+    {
+      "node_id": "insulation",
+      "name": "Insulation & air sealing",
+      "phase": "insulation_drywall",
+      "answer": "include",
+      "reason": "R-13 walls + vented rafter-bay ceiling batt"
+    },
+    {
+      "node_id": "insulation_inspection",
+      "name": "Insulation inspection",
+      "phase": "insulation_drywall",
+      "answer": "include",
+      "reason": "insulation inspection incl ceiling"
+    },
+    {
+      "node_id": "drywall",
+      "name": "Drywall (hang, tape, sand)",
+      "phase": "insulation_drywall",
+      "answer": "include",
+      "reason": "Level 3 on 3 framed walls + ceiling, ~30 sheets"
+    },
+    {
+      "node_id": "paint_phase_1",
+      "name": "Paint phase 1 (prime + wall prep + ceilings)",
+      "phase": "insulation_drywall",
+      "answer": "exclude",
+      "reason": "outside scope footprint (paint Option 2 unselected)"
+    },
+    {
+      "node_id": "shower_work",
+      "name": "Shower work (waterproofing, tile, grout)",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "hard_flooring",
+      "name": "Hard flooring install (LVP, hardwood, tile floors)",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint (LVP Option 2 unselected)"
+    },
+    {
+      "node_id": "cabinets_counters",
+      "name": "Cabinets, counters, vanities & fixed items",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "carpet_floating",
+      "name": "Carpet & floating floors",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "enclosure_finishes",
+      "name": "Enclosure finishes (screening, panel infill, interior cladding)",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "conditioned room, no screening or interior cladding"
+    },
+    {
+      "node_id": "mep_fixture_install",
+      "name": "Final Trades (fixture install for HVAC, Plumbing, and Electrical)",
+      "phase": "interior_finishes",
+      "answer": "include",
+      "reason": "lights, fans, devices, mini-split head set"
+    },
+    {
+      "node_id": "finish_carpentry",
+      "name": "Finish Carpentry",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint (trim Option 2 unselected)"
+    },
+    {
+      "node_id": "stair_build",
+      "name": "Stairs (build/finish)",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "stairs are presentation visualization only"
+    },
+    {
+      "node_id": "paint_phase_2",
+      "name": "Paint phase 2 (final coats)",
+      "phase": "interior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint (paint Option 2 unselected)"
+    },
+    {
+      "node_id": "concrete_flatwork",
+      "name": "Concrete flatwork (patios, driveways, walkways)",
+      "phase": "concrete_landscaping",
+      "answer": "exclude",
+      "reason": "no flatwork; condenser pad covered by foundation_pour"
+    },
+    {
+      "node_id": "landscaping",
+      "name": "Landscaping & site restoration",
+      "phase": "concrete_landscaping",
+      "answer": "exclude",
+      "reason": "no seed/straw in scope"
+    },
+    {
+      "node_id": "customer_walkthrough",
+      "name": "Customer walkthrough & punch list",
+      "phase": "closeout",
+      "answer": "include",
+      "reason": "always — punch list"
+    },
+    {
+      "node_id": "final_inspections",
+      "name": "Final inspections (building + E/P/M, bundled)",
+      "phase": "closeout",
+      "answer": "include",
+      "reason": "building + electrical + mechanical final"
+    },
+    {
+      "node_id": "foundation_inspection",
+      "name": "Foundation Inspection",
+      "phase": "site_foundation",
+      "answer": "include",
+      "reason": "footing inspection before pour"
+    },
+    {
+      "node_id": "foundation_pour",
+      "name": "Foundation Pour",
+      "phase": "site_foundation",
+      "answer": "include",
+      "reason": "8 hand-mix footers + grade condenser pad"
+    },
+    {
+      "node_id": "proc_fireplace_kit",
+      "name": "Fireplace kit (firebox + Class A chimney)",
+      "phase": "procurement",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "fireplace_chase_install",
+      "name": "Fireplace chase, firebox set & Class A chimney",
+      "phase": "framing_shell",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "fireplace_chimney_inspection",
+      "name": "Fireplace/chimney inspection",
+      "phase": "rough_inspections",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    },
+    {
+      "node_id": "fireplace_finish_work",
+      "name": "Fireplace veneer, hearth & mantel",
+      "phase": "exterior_finishes",
+      "answer": "exclude",
+      "reason": "outside scope footprint"
+    }
+  ],
+  "timings_s": {
+    "Resolving the Addition checklist (structure v14)": 7,
+    "Resolving inclusion against scope + answers": 61,
+    "Sizing 9 components against the evidence": 72,
+    "Foreman review — challenging the estimate": 37,
+    "Assembling the task graph": 0,
+    "TOTAL": 177
+  }
+}
