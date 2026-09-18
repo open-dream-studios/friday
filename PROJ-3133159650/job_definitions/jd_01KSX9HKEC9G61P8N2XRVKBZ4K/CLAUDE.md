@@ -15,6 +15,7 @@
 ## Mechanical, Electrical & Plumbing
 
 - POLICY: Electrical service capacity: Existing main-service capacity is verified before any subpanel or HVAC equipment order is placed; a subpanel rides the building permit, a main-service upgrade is its own permit.
+- POLICY: Exposed masonry walls in conditioned additions carry an explicit receptacle strategy before electrical rough: When a house-side masonry wall is left exposed inside a conditioned addition, the plan carries a settled receptacle strategy for that wall before the electrical rough task is sized — default is surface raceway (Wiremold-type) on the masonry with NEC 210.52 spacing applied along the full exposed wall length (a ~43 ft wall implies roughly 10 receptacles); the alternative is receptacles confined to the framed walls with the NEC wall-space count reconciled. In-wall boxes are never assumed on an exposed brick or block wall.
 
 ## Proposed (machine-derived, UNVETTED — canon above wins on any conflict)
 
