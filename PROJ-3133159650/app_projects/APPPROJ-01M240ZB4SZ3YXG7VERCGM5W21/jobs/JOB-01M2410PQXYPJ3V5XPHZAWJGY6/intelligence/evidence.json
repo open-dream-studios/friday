@@ -1,18 +1,18 @@
 {
   "schema": "job_evidence_v1",
-  "built_at": "2026-09-14T22:25:47.018Z",
+  "built_at": "2026-09-18T22:02:43.284Z",
   "entity": {
     "kind": "job",
     "id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6"
   },
   "derived_from": {
-    "fingerprint": "35dbacdd1a80bcc2b7cd601db400fd5bc7825711d777fa1085a0281e04a4bd0d",
-    "answers_sha": "f5dac67322655995563fd541ed2ba489fbf64ec6381b8883155bd1fa0e18030e"
+    "fingerprint": "9f6917049c5f39e61ac6d20a0763e9c22b0ef32d09a6e5a0a8ec05055b9f4dcb",
+    "answers_sha": "b978e3a80cf7ade1a4c398d2d1dfd7c2524600c1b1432383bd45f5c51271e6ae"
   },
   "quantities": [
     {
       "id": "footprint_sqft",
-      "label": "Sunroom footprint area",
+      "label": "Sunroom footprint",
       "value": 430,
       "unit": "sqft",
       "confidence": "high",
@@ -26,7 +26,7 @@
     },
     {
       "id": "stories",
-      "label": "Structure elevation",
+      "label": "Stories / elevation of work",
       "value": "elevated second-story structure",
       "unit": "categorical",
       "confidence": "high",
@@ -50,16 +50,17 @@
     {
       "id": "site_access_constraints",
       "label": "Site access constraints",
-      "value": "ground access on sloped grade below via scaffold; debris hand-lowered to grade; protection of finishes below; no lift, no through-house handling",
+      "value": "ground access on sloped grade below via scaffold; debris hand-lowered to grade; protection of finishes below; no lift, no through-house handling; no machine access under shored structure",
       "unit": "categorical",
       "confidence": "high",
       "sources": [
         "answer \"Elevated work access and debris removal method\"",
+        "answer \"Footer pocket excavation method under shoring\"",
         "crawford.pdf p.1",
         "333_Toy_Crawford_Sunroom.xlsx",
         "Toy Crawford Rd Sunporch Presentation FINAL 5-26-26.pdf p.9"
       ],
-      "basis": "Answer settles method: scaffold from sloped grade, hand-lower debris; renders show grade falling from house toward post line; JBD carries only 2 scaffold days — scaffold erect/strike per canon bills once on site prep, ~4-8 crew-h per mobilization"
+      "basis": "Answers settle method: scaffold from sloped grade, hand-lower debris, hand-dig footers (shores + slope block mini-ex/skid); renders show grade falling from house toward post line; JBD carries only 2 scaffold days — canon bills scaffold erect/strike once on site prep, ~4-8 crew-h per mobilization"
     },
     {
       "id": "demo_area_sqft",
@@ -82,6 +83,18 @@
         "crawford.pdf p.2"
       ],
       "basis": "'Budget (3) dump trailer runs'"
+    },
+    {
+      "id": "demo_electrical_prep",
+      "label": "Electrical disconnect handling before demo",
+      "value": "existing fused disconnect on house side survives demo untouched; room circuits de-energized only, no relocation",
+      "unit": "categorical",
+      "confidence": "high",
+      "sources": [
+        "answer \"Fused disconnect scope during demo\"",
+        "crawford.pdf p.2"
+      ],
+      "basis": "Answer settles: no equipment in the demo footprint; de-energize circuits as standard practice (~1h electrician), conversion happens at rough-in"
     },
     {
       "id": "temp_shoring_span_lf",
@@ -132,31 +145,44 @@
       "basis": "8 × (1×1×1 ft) = 8 cf ÷ 27 = 0.30 cy; hand-mix bag work (JBD: 16 × 80-lb bags), no truck pour"
     },
     {
-      "id": "footer_excavation_note",
+      "id": "footer_excavation_method",
       "label": "Footer pocket excavation method",
-      "value": "saw-cut through existing concrete pad at some of the 8 pocket locations; dig beside pad at the rest",
+      "value": "hand-dug beneath shored roof; no machine",
       "unit": "categorical",
-      "confidence": "medium",
+      "confidence": "high",
+      "sources": [
+        "answer \"Footer pocket excavation method under shoring\"",
+        "333_Toy_Crawford_Sunroom.xlsx"
+      ],
+      "basis": "Answer settles hand-dig — shores and slope block mini-ex/skid; card 'post footing pocket, machine on site' 0.25h each does NOT apply, hand-dig pockets run longer (~1h each) and cite the deviation"
+    },
+    {
+      "id": "footer_excavation_note",
+      "label": "Footer pocket cutting at existing pad",
+      "value": "saw-cut through existing concrete pad at some pocket locations; dig beside pad at the rest",
+      "unit": "categorical",
+      "confidence": "high",
       "sources": [
         "answer \"Footer pocket excavation method at existing pad\"",
+        "answer \"Saw-cut pocket count\"",
         "crawford.pdf p.2"
       ],
-      "basis": "Answer settles that the pad is cut at some pockets; card 'sawcut + break out small pad' 1.5 h per ~10 sf applies per cut pocket; neither document prices a saw"
+      "basis": "Answers settle that the pad is cut at 3-5 pockets; card 'sawcut + break out small pad' 1.5 h per ~10 sf applies per cut pocket; neither document prices a saw"
     },
     {
       "id": "saw_cut_pocket_count",
-      "label": "Footer pockets requiring saw-cut",
-      "value": null,
+      "label": "Footer pockets requiring pad saw-cut",
+      "value": 4,
       "unit": "each",
-      "confidence": "unknown",
+      "confidence": "medium",
       "sources": [
-        "answer \"Footer pocket excavation method at existing pad\""
+        "answer \"Saw-cut pocket count\""
       ],
-      "basis": "Answer says 'some' of the 8 — exact count not given; sizing should carry a named assumed range (e.g., 3-5 cuts)"
+      "basis": "Answer: 3-5 pockets, carry 4; exact count confirmed once the pad is exposed → 4 × 1.5h card = ~6h cutting + breakout"
     },
     {
       "id": "post_height_ft",
-      "label": "Post height (grade to beam)",
+      "label": "Post height (approx.)",
       "value": 10,
       "unit": "ft",
       "confidence": "low",
@@ -202,7 +228,7 @@
     },
     {
       "id": "floor_insulation_sqft",
-      "label": "Floor cavity batt insulation",
+      "label": "Floor-cavity batt",
       "value": 430,
       "unit": "sqft",
       "confidence": "high",
@@ -214,7 +240,7 @@
     },
     {
       "id": "soffit_under_floor_sqft",
-      "label": "Vinyl soffit under floor framing",
+      "label": "Vinyl soffit under floor",
       "value": 430,
       "unit": "sqft",
       "confidence": "high",
@@ -226,7 +252,7 @@
     },
     {
       "id": "wall_lf_new",
-      "label": "New framed exterior wall length",
+      "label": "New framed wall linear feet",
       "value": 63,
       "unit": "lf",
       "confidence": "medium",
@@ -240,7 +266,7 @@
     },
     {
       "id": "plate_height_ft",
-      "label": "Wall plate / bearing height",
+      "label": "Wall plate height",
       "value": 8,
       "unit": "ft",
       "confidence": "medium",
@@ -333,20 +359,20 @@
     },
     {
       "id": "roof_area_sqft",
-      "label": "Retained shed roof area (plan)",
+      "label": "Existing shed roof area (plan)",
       "value": 430,
       "unit": "sqft",
       "confidence": "medium",
       "sources": [
         "crawford.pdf p.2"
       ],
-      "basis": "Existing shed roof over 43×10 ≈ 430 sf plan (slope area slightly larger; pitch unknown); work is reseat + flash tie-in + up to 2 patches, not re-roof"
+      "basis": "Existing shed roof over 43×10 ≈ 430 sf plan (slope area slightly larger; pitch unknown); work is reseat + flash tie-in + vent work, not re-roof"
     },
     {
       "id": "roof_pitch",
       "label": "Roof pitch",
       "value": null,
-      "unit": "ratio",
+      "unit": "x:12",
       "confidence": "unknown",
       "sources": [
         "crawford.pdf p.2",
@@ -367,18 +393,43 @@
     },
     {
       "id": "roof_patch_count",
-      "label": "Roof patch / repairs",
+      "label": "Roof patches from previous venting",
+      "value": 0,
+      "unit": "each",
+      "confidence": "high",
+      "sources": [
+        "answer \"Roof vent penetration reuse\"",
+        "crawford.pdf p.2"
+      ],
+      "basis": "Proposal allowed 'up to (2)' patches, but answer settles the two old penetrations are REUSED as exhaust vents (see roof_vent_reuse_count) — no patch-closed work"
+    },
+    {
+      "id": "roof_vent_reuse_count",
+      "label": "Existing roof penetrations reused as exhaust vents",
       "value": 2,
       "unit": "each",
       "confidence": "high",
       "sources": [
+        "answer \"Roof vent penetration reuse\"",
         "crawford.pdf p.2"
       ],
-      "basis": "'up to (2) roof patch/repairs from previous venting'"
+      "basis": "Two previous-venting holes get new exhaust vents + flashing (~1-2h each) instead of patches; serves the settled vented rafter-bay ceiling"
+    },
+    {
+      "id": "eave_intake_vent_lf",
+      "label": "Soffit/eave intake vent length",
+      "value": 43,
+      "unit": "lf",
+      "confidence": "low",
+      "sources": [
+        "answer \"Roof vent penetration reuse\"",
+        "crawford.pdf p.2"
+      ],
+      "basis": "Intake added at the shed roof's low eave, presumed the 43 ft exterior wall line; eave detail/overhang not shown anywhere — no fascia/soffit at the roof is in the proposal, so intake means vented strip or edge vent along ~43 LF"
     },
     {
       "id": "wall_insulation_sqft",
-      "label": "Exterior wall batt insulation",
+      "label": "Exterior wall batt",
       "value": 504,
       "unit": "sqft",
       "confidence": "medium",
@@ -390,14 +441,15 @@
     {
       "id": "ceiling_finish",
       "label": "Ceiling finish scope",
-      "value": "vented rafter-bay insulation + ceiling drywall (in base scope)",
+      "value": "vented rafter-bay insulation + ceiling drywall (in base scope); exhaust via 2 reused roof penetrations, intake at eave",
       "unit": "categorical",
       "confidence": "high",
       "sources": [
         "answer \"Sunroom ceiling finish scope\"",
-        "answer \"Finished ceiling scope\""
+        "answer \"Finished ceiling scope\"",
+        "answer \"Roof vent penetration reuse\""
       ],
-      "basis": "Settled by answer; proposal and JBD both stop at 'walls only' — this scope is priced nowhere in the JBD"
+      "basis": "Settled by answers; proposal and JBD both stop at 'walls only' — this scope is priced nowhere in the JBD"
     },
     {
       "id": "ceiling_insulation_sqft",
@@ -425,7 +477,7 @@
     },
     {
       "id": "drywall_sqft",
-      "label": "Wall drywall",
+      "label": "Wall drywall (framed walls only)",
       "value": 504,
       "unit": "sqft",
       "confidence": "medium",
@@ -450,7 +502,7 @@
     },
     {
       "id": "light_fixture_count",
-      "label": "Flush-mount light fixtures",
+      "label": "Flush-mount lights",
       "value": 6,
       "unit": "each",
       "confidence": "high",
@@ -473,15 +525,27 @@
     },
     {
       "id": "receptacle_count",
-      "label": "Receptacles",
+      "label": "Receptacles (total)",
       "value": 10,
       "unit": "each",
       "confidence": "medium",
       "sources": [
         "crawford.pdf p.2",
-        "333_Toy_Crawford_Sunroom.xlsx"
+        "333_Toy_Crawford_Sunroom.xlsx",
+        "answer \"Brick wall receptacle mounting method\""
       ],
-      "basis": "'per NEC spacing' with no count; ~106 LF perimeter ÷ 12 ft rule ≈ 9-10; JBD estimates 10 (2 GFCI); brick wall gets surface/wiremold or none — not addressed"
+      "basis": "'per NEC spacing' with no count in proposal; JBD estimates 10 (2 GFCI) for the room; answer ties the ~10 count to the 43 ft brick wall under NEC 210.52 — 210.52's 12-ft rule alone yields ~4 on 43 ft, so 10 is read as the room total with the brick-wall share in raceway"
+    },
+    {
+      "id": "brick_wall_raceway_lf",
+      "label": "Surface raceway on brick house-side wall",
+      "value": 43,
+      "unit": "lf",
+      "confidence": "medium",
+      "sources": [
+        "answer \"Brick wall receptacle mounting method\""
+      ],
+      "basis": "Wiremold-type raceway along the full exposed brick wall = 43 LF with surface boxes; no in-wall boxes or furring — adds raceway run/anchoring to rough-in the JBD did not price"
     },
     {
       "id": "subpanel_conversion",
@@ -493,11 +557,11 @@
         "crawford.pdf p.2",
         "answer \"Fused disconnect suitability verification\""
       ],
-      "basis": "Conversion in place, contingent on electrician assessment before the kit is ordered (not yet done); a replacement subpanel would be an add outside this takeoff"
+      "basis": "Conversion in place at rough-in, contingent on electrician assessment before the kit is ordered (not yet done); a replacement subpanel would be an add outside this takeoff"
     },
     {
       "id": "subpanel_verification_status",
-      "label": "Disconnect suitability verified",
+      "label": "Subpanel suitability verification",
       "value": "not yet — electrician assesses before ordering",
       "unit": "categorical",
       "confidence": "high",
@@ -508,7 +572,7 @@
     },
     {
       "id": "existing_service_amps",
-      "label": "Existing main service ampacity",
+      "label": "Existing main service",
       "value": 200,
       "unit": "A",
       "confidence": "high",
@@ -552,6 +616,17 @@
       "basis": "Settled; permit lead time sits ahead of the 2027-03-01 start"
     },
     {
+      "id": "permit_ahj",
+      "label": "Permitting AHJ",
+      "value": "City of Kingsport (confirm at application)",
+      "unit": "categorical",
+      "confidence": "medium",
+      "sources": [
+        "APPPROJ CLAUDE.md answer \"Permitting AHJ for 333 Toy Crawford Road\""
+      ],
+      "basis": "Project-level DEFAULT: in-city mailing address 37660 → Kingsport; county fallback does not change the visit list"
+    },
+    {
       "id": "shoring_design",
       "label": "Shoring design authority",
       "value": "foreman-designed, no engineered/stamped design",
@@ -564,7 +639,7 @@
     },
     {
       "id": "framing_crew",
-      "label": "Framing crew assignment",
+      "label": "Framing crew",
       "value": "in-house TCR crew (posts, beam, floor, walls, roof reseat)",
       "unit": "categorical",
       "confidence": "high",
@@ -609,7 +684,7 @@
     },
     {
       "id": "scheduled_start_date",
-      "label": "Scheduled start date",
+      "label": "Scheduled start",
       "value": "2027-03-01",
       "unit": "date",
       "confidence": "high",
@@ -664,7 +739,7 @@
           "structural_framing"
         ],
         "mapping_confidence": "high",
-        "notes": "Footer pockets (incl. saw-cuts)/pour/brackets + condenser pad → groundwork; post set + 3-ply beam → structural_framing"
+        "notes": "Hand-dug footer pockets (incl. 4 saw-cuts)/pour/brackets + condenser pad → groundwork; post set + 3-ply beam → structural_framing"
       },
       {
         "section_id": "floor_system",
@@ -719,7 +794,7 @@
           "cladding_roof"
         ],
         "mapping_confidence": "medium",
-        "notes": "Reseating the shored roof on new walls is a framing act; flashing/tie-ins/2 patches are roofing"
+        "notes": "Reseating the shored roof on new walls is a framing act; flashing/tie-ins and the 2 vent-reuse penetrations (formerly patches) + eave intake are roofing"
       },
       {
         "section_id": "electrical",
@@ -733,7 +808,7 @@
           "interior_installs"
         ],
         "mapping_confidence": "high",
-        "notes": "Subpanel conversion + rough 30h → rough_meps; 6h fixture/device finish → interior_installs"
+        "notes": "Subpanel conversion + rough 30h (incl. 43 LF brick-wall raceway, unpriced) → rough_meps; 6h fixture/device finish → interior_installs"
       },
       {
         "section_id": "hvac",
@@ -813,7 +888,15 @@
     },
     {
       "kind": "suspect",
-      "message": "Saw-cutting the existing pad at 'some' of the 8 footer pockets is settled but unquantified; neither document prices a saw or cutting hours, so groundwork gains ~1.5h per cut pocket (card rate) — carry an assumed 3-5 cuts and name it in the basis."
+      "message": "Footer pockets are settled as hand-dug with 4 of 8 saw-cut through the existing pad, but the JBD prices no saw, no cutting hours and only 12h for all footers; groundwork should carry ~1h/pocket hand-dig plus ~1.5h per cut (card) and cite the machine-access deviation, with the 3-5 range still open until the pad is exposed."
+    },
+    {
+      "kind": "suspect",
+      "message": "JBD roof section (24h) still carries 2 shingle PATCHES, but the settled scope reuses those two penetrations as exhaust vents and adds eave intake for the vented ceiling; vent flashing and ~43 LF of intake venting replace the patch work and are priced nowhere — the hours roughly wash but the materials (2 roof vents, intake strip) do not appear in the takeoff."
+    },
+    {
+      "kind": "suspect",
+      "message": "Receptacle count is ambiguous between sources: the JBD's 10 outlets is a room total, while the answer describes ~10 on the 43 ft brick wall alone under NEC 210.52 (whose 12-ft rule yields ~4 on that wall); carried as 10 total with the brick-wall share in 43 LF of surface raceway, which the JBD did not price — rough-in gains raceway run/anchoring hours."
     },
     {
       "kind": "suspect",
@@ -821,15 +904,15 @@
     },
     {
       "kind": "suspect",
-      "message": "Subpanel conversion kit ($180 + breakers) is contingent on an electrician assessment not yet done; if the fused disconnect is unsuitable, a new subpanel is an add with hours and lead time outside this takeoff, and the mini-split circuit depends on it."
+      "message": "Subpanel conversion kit ($180 + breakers) is contingent on an electrician assessment not yet done; if the fused disconnect is unsuitable, a new subpanel is an add with hours and lead time outside this takeoff, and the mini-split circuit depends on it. Demo is unaffected — the disconnect sits on the house side and survives untouched (settled)."
     },
     {
       "kind": "gap",
-      "message": "Permits and inspections are contracted-in by the proposal but carry zero hours in the JBD and the permit is not yet applied for; with electrical + mechanical rough this job needs footing, framing, electrical rough, mechanical, insulation and final visits (~6 × 2h per card) plus permit lead time ahead of the 2027-03-01 start."
+      "message": "Permits and inspections are contracted-in by the proposal but carry zero hours in the JBD and the permit is not yet applied for (AHJ defaulted to City of Kingsport); with electrical + mechanical rough this job needs footing, framing, electrical rough, mechanical, insulation and final visits (~6 × 2h per card) plus permit lead time ahead of the 2027-03-01 start."
     },
     {
       "kind": "gap",
-      "message": "JBD carries 2 scaffold days total, but settled access is scaffold from sloped grade for demo debris lowering, post/beam/floor framing, under-floor soffit, siding and roof tie-in; canon bills scaffold erect/strike once on site prep and covers moves via the elevated premium — the JBD prices neither, so the premium must be applied on top of its ground-calibrated lines."
+      "message": "JBD carries 2 scaffold days total, but settled access is scaffold from sloped grade for demo debris lowering, hand-dug footers, post/beam/floor framing, under-floor soffit, siding and roof tie-in; canon bills scaffold erect/strike once on site prep and covers moves via the elevated premium — the JBD prices neither, so the premium must be applied on top of its ground-calibrated lines."
     },
     {
       "kind": "mapping",

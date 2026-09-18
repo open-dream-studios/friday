@@ -2,7 +2,7 @@
   "project_id": "PROJ-3133159650",
   "start_date": "2027-03-01",
   "pre_construction_start_date": "2027-02-15",
-  "end_date": "2027-04-02",
+  "end_date": "2027-04-01",
   "calendar": {
     "workdays": [
       1,
@@ -108,12 +108,12 @@
   },
   "tasks": [
     {
-      "id": "proc_windows_doors",
+      "id": "proc_foundation_package",
       "section_id": "procurement",
-      "name": "Windows & exterior doors",
+      "name": "Foundation",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 13,
+      "duration_days": 5,
       "crew_size": 0,
       "depends_on": [],
       "derived_from": {
@@ -123,10 +123,44 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-02-26",
+      "scheduled_start": "2027-02-22",
+      "scheduled_end": "2027-02-26",
+      "earliest_start": "2027-02-22",
+      "latest_start": "2027-02-22",
+      "float_days": 0,
+      "status": "not_started",
+      "actual_start": null,
+      "actual_end": null,
+      "binding_successors_of_this": [
+        {
+          "successor_id": "foundation_prep",
+          "type": "FS",
+          "lag_days": 3,
+          "successor_earliest_start": "2027-03-04",
+          "successor_earliest_finish": "2027-03-05"
+        }
+      ]
+    },
+    {
+      "id": "proc_windows_doors",
+      "section_id": "procurement",
+      "name": "Windows & exterior doors",
+      "trade": "general",
+      "kind": "procurement",
+      "duration_days": 12,
+      "crew_size": 0,
+      "depends_on": [],
+      "derived_from": {
+        "section_id": "procurement",
+        "rule_ids": [],
+        "reasoning": ""
+      },
+      "phase_id": "procurement",
+      "component_id": "procurement_items",
+      "scheduled_start": "2027-03-01",
       "scheduled_end": "2027-03-16",
-      "earliest_start": "2027-02-26",
-      "latest_start": "2027-02-26",
+      "earliest_start": "2027-03-01",
+      "latest_start": "2027-03-01",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -147,7 +181,7 @@
       "name": "Framing Package",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 7,
+      "duration_days": 5,
       "crew_size": 0,
       "depends_on": [],
       "derived_from": {
@@ -157,10 +191,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-03",
+      "scheduled_start": "2027-03-05",
       "scheduled_end": "2027-03-11",
-      "earliest_start": "2027-03-03",
-      "latest_start": "2027-03-03",
+      "earliest_start": "2027-03-05",
+      "latest_start": "2027-03-05",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -194,8 +228,8 @@
       "scheduled_start": "2027-02-19",
       "scheduled_end": "2027-03-16",
       "earliest_start": "2027-02-19",
-      "latest_start": "2027-02-24",
-      "float_days": 3,
+      "latest_start": "2027-02-23",
+      "float_days": 2,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -393,6 +427,11 @@
         {
           "predecessor_id": "excavation",
           "type": "FS"
+        },
+        {
+          "predecessor_id": "proc_foundation_package",
+          "type": "FS",
+          "lag_days": 3
         }
       ],
       "derived_from": {
@@ -415,6 +454,11 @@
           "predecessor_id": "excavation",
           "type": "FS",
           "lag_days": 0
+        },
+        {
+          "predecessor_id": "proc_foundation_package",
+          "type": "FS",
+          "lag_days": 3
         }
       ],
       "binding_successors_of_this": [
@@ -765,8 +809,8 @@
       "scheduled_start": "2027-03-22",
       "scheduled_end": "2027-03-23",
       "earliest_start": "2027-03-22",
-      "latest_start": "2027-03-25",
-      "float_days": 3,
+      "latest_start": "2027-03-24",
+      "float_days": 2,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -816,8 +860,8 @@
       "scheduled_start": "2027-03-23",
       "scheduled_end": "2027-03-23",
       "earliest_start": "2027-03-23",
-      "latest_start": "2027-03-31",
-      "float_days": 6,
+      "latest_start": "2027-03-30",
+      "float_days": 5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -908,8 +952,8 @@
       "scheduled_start": "2027-03-25",
       "scheduled_end": "2027-03-29",
       "earliest_start": "2027-03-25",
-      "latest_start": "2027-03-30",
-      "float_days": 3,
+      "latest_start": "2027-03-29",
+      "float_days": 2,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -961,8 +1005,8 @@
       "scheduled_start": "2027-03-30",
       "scheduled_end": "2027-03-30",
       "earliest_start": "2027-03-30",
-      "latest_start": "2027-04-02",
-      "float_days": 3,
+      "latest_start": "2027-04-01",
+      "float_days": 2,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -998,8 +1042,8 @@
       "scheduled_start": "2027-03-24",
       "scheduled_end": "2027-03-24",
       "earliest_start": "2027-03-24",
-      "latest_start": "2027-04-01",
-      "float_days": 6,
+      "latest_start": "2027-03-31",
+      "float_days": 5,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -1035,8 +1079,8 @@
       "scheduled_start": "2027-03-24",
       "scheduled_end": "2027-03-24",
       "earliest_start": "2027-03-24",
-      "latest_start": "2027-03-29",
-      "float_days": 3,
+      "latest_start": "2027-03-26",
+      "float_days": 2,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -1280,9 +1324,9 @@
         {
           "successor_id": "job_complete",
           "type": "FS",
-          "lag_days": 1,
-          "successor_earliest_start": "2027-04-02",
-          "successor_earliest_finish": "2027-04-02"
+          "lag_days": 0,
+          "successor_earliest_start": "2027-04-01",
+          "successor_earliest_finish": "2027-04-01"
         }
       ]
     },
@@ -1297,8 +1341,7 @@
       "depends_on": [
         {
           "predecessor_id": "final_inspections",
-          "type": "FS",
-          "lag_days": 1
+          "type": "FS"
         },
         {
           "predecessor_id": "interior_installs.end",
@@ -1320,10 +1363,10 @@
       },
       "phase_id": "closeout",
       "component_id": "walkthrough_final_inspection",
-      "scheduled_start": "2027-04-02",
-      "scheduled_end": "2027-04-02",
-      "earliest_start": "2027-04-02",
-      "latest_start": "2027-04-02",
+      "scheduled_start": "2027-04-01",
+      "scheduled_end": "2027-04-01",
+      "earliest_start": "2027-04-01",
+      "latest_start": "2027-04-01",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1332,19 +1375,20 @@
         {
           "predecessor_id": "final_inspections",
           "type": "FS",
-          "lag_days": 1
+          "lag_days": 0
         }
       ]
     }
   ],
   "critical_path": [
     "permit_building",
+    "proc_foundation_package",
     "proc_windows_doors",
     "site_and_structure_demo",
     "site_prep",
-    "proc_framing_package",
     "excavation",
     "foundation_prep",
+    "proc_framing_package",
     "foundation_inspection",
     "foundation_pour",
     "site_foundation.end",

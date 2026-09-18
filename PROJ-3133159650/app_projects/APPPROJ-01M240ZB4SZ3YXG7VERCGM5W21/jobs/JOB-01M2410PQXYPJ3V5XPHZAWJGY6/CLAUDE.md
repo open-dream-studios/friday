@@ -20,3 +20,4 @@ Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above w
 - DEFAULT: Mini-split condenser mounting location: The mini-split condenser unit is mounted on a grade-level pad beneath the sunroom
 - POLICY: Post/footer count for deck installation: The number of posts/footers to be set is 8, per the proposal, not 7 as listed in the presentation plan.
 - DEFAULT: Window and door header material: Window and door headers are built-up dimensional 2x lumber, not LVL, even though the beam is 3-ply 2x12.
+- POLICY: Brick wall receptacle mounting method: Along the 43 ft exposed brick house-side wall, receptacles are installed in surface-mounted raceway (Wiremold-type) rather than in-wall boxes, with spacing per NEC 210.52 driving the approximately 10-receptacle count on that wall.

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generation_id": "01M2GNW8EW1HZ7PJXZ59SA7DZJ",
-  "generated_at": "2026-09-14T19:25:41.523Z",
+  "generation_id": "01M2V6VXHK1Y41FFFX7CMG36V5",
+  "generated_at": "2026-09-18T21:36:34.178Z",
   "structure": {
     "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
-    "version": 12,
+    "version": 15,
     "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K"
   },
   "ledger": {
@@ -39,7 +39,7 @@
       {
         "scope_kind": "project",
         "scope_id": "PROJ-3133159650",
-        "revision": 38
+        "revision": 41
       },
       {
         "scope_kind": "job_definition",
@@ -80,7 +80,7 @@
       }
     ],
     "questions": {
-      "count": 29,
+      "count": 30,
       "answered_ids": [
         "q_01M27BMXPK7HPV1NRSZKVPN3N8",
         "q_01M27BMXPMDJJHMNJQA0SSEYTJ",
@@ -106,13 +106,18 @@
         "q_01M27CV8H1V9ZZC0S3K5FDKN27",
         "q_01M27DVDB145VNZCA4Z02257XS",
         "q_01M2F6ZH5PE8WAM0K3N6363HHZ",
-        "q_01M2F6ZH5QE1VTXFGXFAQ0K39R"
+        "q_01M2F6ZH5QE1VTXFGXFAQ0K39R",
+        "q_01M2GFRNX45XVZBJJ7ZC495SF6",
+        "q_01M2GFRNX7JPZY6V78DP8XPDYA",
+        "q_01M2GFRNX7X8QDXRT8MG9J83VP",
+        "q_01M2GFRNX8FK0T6V2RZS7DT8MV",
+        "q_01M2SA768QT5CQNFS30GFW30TC"
       ],
-      "sha256": "aef4d890287a71c4b1d2567cae8b5d393767b7a7e0018e98ed55053868193c6f"
+      "sha256": "aaf325e73ab721abb110da7af38290adfcc52d06526caf1a6c8aa90f87e85341"
     },
     "changelog": {
-      "lines": 570,
-      "tail_sha256": "7c27d8cfdb6e822e8f27520b214496ed0118acc9a00070a5ceddd4a3469d1f66"
+      "lines": 587,
+      "tail_sha256": "261814202f4ffb7bb7f075ae651d2f8b6ab7a06cfe8b135e8606ab58420214db"
     }
   },
   "blocking_open_at_generation": 0

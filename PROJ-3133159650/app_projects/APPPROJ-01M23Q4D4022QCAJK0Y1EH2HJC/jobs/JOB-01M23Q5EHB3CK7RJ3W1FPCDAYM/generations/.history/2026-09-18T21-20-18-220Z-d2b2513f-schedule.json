@@ -2,7 +2,7 @@
   "project_id": "PROJ-3133159650",
   "start_date": "2027-03-01",
   "pre_construction_start_date": "2027-02-15",
-  "end_date": "2027-03-30",
+  "end_date": "2027-04-05",
   "calendar": {
     "workdays": [
       1,
@@ -147,7 +147,7 @@
       "name": "Windows & exterior doors",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 10,
+      "duration_days": 13,
       "crew_size": 0,
       "depends_on": [],
       "derived_from": {
@@ -157,10 +157,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-01",
-      "scheduled_end": "2027-03-12",
-      "earliest_start": "2027-03-01",
-      "latest_start": "2027-03-01",
+      "scheduled_start": "2027-02-26",
+      "scheduled_end": "2027-03-16",
+      "earliest_start": "2027-02-26",
+      "latest_start": "2027-02-26",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -170,8 +170,8 @@
           "successor_id": "exterior_windows_doors",
           "type": "FS",
           "lag_days": 3,
-          "successor_earliest_start": "2027-03-18",
-          "successor_earliest_finish": "2027-03-18"
+          "successor_earliest_start": "2027-03-22",
+          "successor_earliest_finish": "2027-03-22"
         }
       ]
     },
@@ -191,10 +191,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-03",
-      "scheduled_end": "2027-03-09",
-      "earliest_start": "2027-03-03",
-      "latest_start": "2027-03-03",
+      "scheduled_start": "2027-03-05",
+      "scheduled_end": "2027-03-11",
+      "earliest_start": "2027-03-05",
+      "latest_start": "2027-03-05",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -204,8 +204,8 @@
           "successor_id": "framing",
           "type": "FS",
           "lag_days": 3,
-          "successor_earliest_start": "2027-03-15",
-          "successor_earliest_finish": "2027-03-17"
+          "successor_earliest_start": "2027-03-17",
+          "successor_earliest_finish": "2027-03-19"
         }
       ]
     },
@@ -225,11 +225,11 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-02-17",
-      "scheduled_end": "2027-03-12",
-      "earliest_start": "2027-02-17",
-      "latest_start": "2027-02-17",
-      "float_days": 0,
+      "scheduled_start": "2027-02-19",
+      "scheduled_end": "2027-03-16",
+      "earliest_start": "2027-02-19",
+      "latest_start": "2027-02-25",
+      "float_days": 4,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -238,8 +238,8 @@
           "successor_id": "fireplace_chase_install",
           "type": "FS",
           "lag_days": 3,
-          "successor_earliest_start": "2027-03-18",
-          "successor_earliest_finish": "2027-03-19"
+          "successor_earliest_start": "2027-03-22",
+          "successor_earliest_finish": "2027-03-23"
         }
       ]
     },
@@ -464,13 +464,6 @@
       "binding_successors_of_this": [
         {
           "successor_id": "foundation_inspection",
-          "type": "SS",
-          "lag_days": 0,
-          "successor_earliest_start": "2027-03-04",
-          "successor_earliest_finish": "2027-03-04"
-        },
-        {
-          "successor_id": "site_foundation.end",
           "type": "FS",
           "lag_days": 0,
           "successor_earliest_start": "2027-03-08",
@@ -489,7 +482,7 @@
       "depends_on": [
         {
           "predecessor_id": "foundation_prep",
-          "type": "SS"
+          "type": "FS"
         }
       ],
       "derived_from": {
@@ -499,96 +492,6 @@
       },
       "phase_id": "site_foundation",
       "component_id": "groundwork",
-      "scheduled_start": "2027-03-04",
-      "scheduled_end": "2027-03-04",
-      "earliest_start": "2027-03-04",
-      "latest_start": "2027-03-05",
-      "float_days": 1,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "foundation_prep",
-          "type": "SS",
-          "lag_days": 0
-        }
-      ],
-      "binding_successors_of_this": [
-        {
-          "successor_id": "foundation_pour",
-          "type": "SS",
-          "lag_days": 0,
-          "successor_earliest_start": "2027-03-04",
-          "successor_earliest_finish": "2027-03-04"
-        }
-      ]
-    },
-    {
-      "id": "foundation_pour",
-      "section_id": "site_foundation",
-      "name": "Foundation Pour",
-      "trade": "concrete",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 3,
-      "depends_on": [
-        {
-          "predecessor_id": "foundation_inspection",
-          "type": "SS"
-        }
-      ],
-      "derived_from": {
-        "section_id": "site_foundation",
-        "rule_ids": [],
-        "reasoning": "flagged: review before trusting"
-      },
-      "phase_id": "site_foundation",
-      "component_id": "groundwork",
-      "scheduled_start": "2027-03-04",
-      "scheduled_end": "2027-03-04",
-      "earliest_start": "2027-03-04",
-      "latest_start": "2027-03-05",
-      "float_days": 1,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "foundation_inspection",
-          "type": "SS",
-          "lag_days": 0
-        }
-      ]
-    },
-    {
-      "id": "site_foundation.end",
-      "section_id": "site_foundation",
-      "name": "Site Prep & Foundation — complete",
-      "trade": "general",
-      "kind": "milestone",
-      "duration_days": 0,
-      "crew_size": 0,
-      "depends_on": [
-        {
-          "predecessor_id": "foundation_prep",
-          "type": "FS"
-        },
-        {
-          "predecessor_id": "foundation_inspection",
-          "type": "FS"
-        },
-        {
-          "predecessor_id": "foundation_pour",
-          "type": "FS"
-        }
-      ],
-      "derived_from": {
-        "section_id": "site_foundation",
-        "rule_ids": [],
-        "reasoning": ""
-      },
-      "phase_id": "site_foundation",
       "scheduled_start": "2027-03-08",
       "scheduled_end": "2027-03-08",
       "earliest_start": "2027-03-08",
@@ -606,11 +509,102 @@
       ],
       "binding_successors_of_this": [
         {
+          "successor_id": "foundation_pour",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2027-03-09",
+          "successor_earliest_finish": "2027-03-09"
+        }
+      ]
+    },
+    {
+      "id": "foundation_pour",
+      "section_id": "site_foundation",
+      "name": "Foundation Pour",
+      "trade": "concrete",
+      "kind": "work",
+      "duration_days": 1,
+      "crew_size": 3,
+      "depends_on": [
+        {
+          "predecessor_id": "foundation_inspection",
+          "type": "FS"
+        }
+      ],
+      "derived_from": {
+        "section_id": "site_foundation",
+        "rule_ids": [],
+        "reasoning": "flagged: review before trusting"
+      },
+      "phase_id": "site_foundation",
+      "component_id": "groundwork",
+      "scheduled_start": "2027-03-09",
+      "scheduled_end": "2027-03-09",
+      "earliest_start": "2027-03-09",
+      "latest_start": "2027-03-09",
+      "float_days": 0,
+      "status": "not_started",
+      "actual_start": null,
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "foundation_inspection",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
+          "successor_id": "site_foundation.end",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2027-03-10",
+          "successor_earliest_finish": "2027-03-10"
+        }
+      ]
+    },
+    {
+      "id": "site_foundation.end",
+      "section_id": "site_foundation",
+      "name": "Site Prep & Foundation — complete",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "foundation_pour",
+          "type": "FS"
+        }
+      ],
+      "derived_from": {
+        "section_id": "site_foundation",
+        "rule_ids": [],
+        "reasoning": ""
+      },
+      "phase_id": "site_foundation",
+      "scheduled_start": "2027-03-10",
+      "scheduled_end": "2027-03-10",
+      "earliest_start": "2027-03-10",
+      "latest_start": "2027-03-10",
+      "float_days": 0,
+      "status": "not_started",
+      "actual_start": null,
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "foundation_pour",
+          "type": "FS",
+          "lag_days": 0
+        }
+      ],
+      "binding_successors_of_this": [
+        {
           "successor_id": "framing_shell.start",
           "type": "FS",
           "lag_days": 5,
-          "successor_earliest_start": "2027-03-15",
-          "successor_earliest_finish": "2027-03-15"
+          "successor_earliest_start": "2027-03-17",
+          "successor_earliest_finish": "2027-03-17"
         }
       ]
     },
@@ -635,10 +629,10 @@
         "reasoning": ""
       },
       "phase_id": "framing_shell",
-      "scheduled_start": "2027-03-15",
-      "scheduled_end": "2027-03-15",
-      "earliest_start": "2027-03-15",
-      "latest_start": "2027-03-15",
+      "scheduled_start": "2027-03-17",
+      "scheduled_end": "2027-03-17",
+      "earliest_start": "2027-03-17",
+      "latest_start": "2027-03-17",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -655,8 +649,8 @@
           "successor_id": "framing",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-15",
-          "successor_earliest_finish": "2027-03-17"
+          "successor_earliest_start": "2027-03-17",
+          "successor_earliest_finish": "2027-03-19"
         }
       ]
     },
@@ -686,10 +680,10 @@
       },
       "phase_id": "framing_shell",
       "component_id": "structural_framing",
-      "scheduled_start": "2027-03-15",
-      "scheduled_end": "2027-03-17",
-      "earliest_start": "2027-03-15",
-      "latest_start": "2027-03-15",
+      "scheduled_start": "2027-03-17",
+      "scheduled_end": "2027-03-19",
+      "earliest_start": "2027-03-17",
+      "latest_start": "2027-03-17",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -711,15 +705,15 @@
           "successor_id": "exterior_windows_doors",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-18",
-          "successor_earliest_finish": "2027-03-18"
+          "successor_earliest_start": "2027-03-22",
+          "successor_earliest_finish": "2027-03-22"
         },
         {
           "successor_id": "fireplace_chase_install",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-18",
-          "successor_earliest_finish": "2027-03-19"
+          "successor_earliest_start": "2027-03-22",
+          "successor_earliest_finish": "2027-03-23"
         }
       ]
     },
@@ -749,10 +743,10 @@
       },
       "phase_id": "framing_shell",
       "component_id": "structural_framing",
-      "scheduled_start": "2027-03-18",
-      "scheduled_end": "2027-03-18",
-      "earliest_start": "2027-03-18",
-      "latest_start": "2027-03-18",
+      "scheduled_start": "2027-03-22",
+      "scheduled_end": "2027-03-22",
+      "earliest_start": "2027-03-22",
+      "latest_start": "2027-03-22",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -774,15 +768,15 @@
           "successor_id": "roofing",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-19",
-          "successor_earliest_finish": "2027-03-19"
+          "successor_earliest_start": "2027-03-23",
+          "successor_earliest_finish": "2027-03-23"
         },
         {
           "successor_id": "siding",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-19",
-          "successor_earliest_finish": "2027-03-22"
+          "successor_earliest_start": "2027-03-23",
+          "successor_earliest_finish": "2027-03-24"
         }
       ]
     },
@@ -812,11 +806,11 @@
       },
       "phase_id": "framing_shell",
       "component_id": "fireplace_structure",
-      "scheduled_start": "2027-03-18",
-      "scheduled_end": "2027-03-19",
-      "earliest_start": "2027-03-18",
-      "latest_start": "2027-03-18",
-      "float_days": 0,
+      "scheduled_start": "2027-03-22",
+      "scheduled_end": "2027-03-23",
+      "earliest_start": "2027-03-22",
+      "latest_start": "2027-03-26",
+      "float_days": 4,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -837,8 +831,8 @@
           "successor_id": "fireplace_chimney_inspection",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-22",
-          "successor_earliest_finish": "2027-03-22"
+          "successor_earliest_start": "2027-03-24",
+          "successor_earliest_finish": "2027-03-24"
         }
       ]
     },
@@ -863,11 +857,11 @@
       },
       "phase_id": "exterior_finishes",
       "component_id": "cladding_roof",
-      "scheduled_start": "2027-03-19",
-      "scheduled_end": "2027-03-19",
-      "earliest_start": "2027-03-19",
-      "latest_start": "2027-03-19",
-      "float_days": 0,
+      "scheduled_start": "2027-03-23",
+      "scheduled_end": "2027-03-23",
+      "earliest_start": "2027-03-23",
+      "latest_start": "2027-04-01",
+      "float_days": 7,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -883,8 +877,8 @@
           "successor_id": "bundled_rough_inspections",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-22",
-          "successor_earliest_finish": "2027-03-22"
+          "successor_earliest_start": "2027-03-24",
+          "successor_earliest_finish": "2027-03-24"
         }
       ]
     },
@@ -909,11 +903,11 @@
       },
       "phase_id": "exterior_finishes",
       "component_id": "cladding_roof",
-      "scheduled_start": "2027-03-19",
-      "scheduled_end": "2027-03-22",
-      "earliest_start": "2027-03-19",
-      "latest_start": "2027-03-25",
-      "float_days": 4,
+      "scheduled_start": "2027-03-23",
+      "scheduled_end": "2027-03-24",
+      "earliest_start": "2027-03-23",
+      "latest_start": "2027-03-23",
+      "float_days": 0,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -926,11 +920,11 @@
       ],
       "binding_successors_of_this": [
         {
-          "successor_id": "extra.1",
+          "successor_id": "enclosure_finishes",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-23",
-          "successor_earliest_finish": "2027-03-23"
+          "successor_earliest_start": "2027-03-25",
+          "successor_earliest_finish": "2027-03-26"
         }
       ]
     },
@@ -955,11 +949,11 @@
       },
       "phase_id": "exterior_finishes",
       "component_id": "fireplace_finish",
-      "scheduled_start": "2027-03-23",
-      "scheduled_end": "2027-03-25",
-      "earliest_start": "2027-03-23",
-      "latest_start": "2027-03-25",
-      "float_days": 2,
+      "scheduled_start": "2027-03-25",
+      "scheduled_end": "2027-03-29",
+      "earliest_start": "2027-03-25",
+      "latest_start": "2027-03-31",
+      "float_days": 4,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -975,44 +969,8 @@
           "successor_id": "exterior_finishes.end",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-26",
-          "successor_earliest_finish": "2027-03-26"
-        }
-      ]
-    },
-    {
-      "id": "extra.1",
-      "section_id": "exterior_finishes",
-      "name": "Screening install (tensioned screen + trim at knee wall and frieze bays)",
-      "trade": "finish carpentry",
-      "kind": "work",
-      "duration_days": 1,
-      "crew_size": 2,
-      "depends_on": [
-        {
-          "predecessor_id": "siding",
-          "type": "FS"
-        }
-      ],
-      "derived_from": {
-        "section_id": "exterior_finishes",
-        "rule_ids": [],
-        "reasoning": "flagged: review before trusting"
-      },
-      "phase_id": "exterior_finishes",
-      "scheduled_start": "2027-03-23",
-      "scheduled_end": "2027-03-23",
-      "earliest_start": "2027-03-23",
-      "latest_start": "2027-03-29",
-      "float_days": 4,
-      "status": "not_started",
-      "actual_start": null,
-      "actual_end": null,
-      "binding_predecessors": [
-        {
-          "predecessor_id": "siding",
-          "type": "FS",
-          "lag_days": 0
+          "successor_earliest_start": "2027-03-30",
+          "successor_earliest_finish": "2027-03-30"
         }
       ]
     },
@@ -1044,11 +1002,11 @@
         "reasoning": ""
       },
       "phase_id": "exterior_finishes",
-      "scheduled_start": "2027-03-26",
-      "scheduled_end": "2027-03-26",
-      "earliest_start": "2027-03-26",
-      "latest_start": "2027-03-30",
-      "float_days": 2,
+      "scheduled_start": "2027-03-30",
+      "scheduled_end": "2027-03-30",
+      "earliest_start": "2027-03-30",
+      "latest_start": "2027-04-05",
+      "float_days": 4,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -1081,11 +1039,11 @@
       },
       "phase_id": "rough_inspections",
       "component_id": "bundled_inspections",
-      "scheduled_start": "2027-03-22",
-      "scheduled_end": "2027-03-22",
-      "earliest_start": "2027-03-22",
-      "latest_start": "2027-03-22",
-      "float_days": 0,
+      "scheduled_start": "2027-03-24",
+      "scheduled_end": "2027-03-24",
+      "earliest_start": "2027-03-24",
+      "latest_start": "2027-04-02",
+      "float_days": 7,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -1094,15 +1052,6 @@
           "predecessor_id": "roofing",
           "type": "FS",
           "lag_days": 0
-        }
-      ],
-      "binding_successors_of_this": [
-        {
-          "successor_id": "rough_inspections.end",
-          "type": "FS",
-          "lag_days": 0,
-          "successor_earliest_start": "2027-03-23",
-          "successor_earliest_finish": "2027-03-23"
         }
       ]
     },
@@ -1127,11 +1076,11 @@
       },
       "phase_id": "rough_inspections",
       "component_id": "bundled_inspections",
-      "scheduled_start": "2027-03-22",
-      "scheduled_end": "2027-03-22",
-      "earliest_start": "2027-03-22",
-      "latest_start": "2027-03-22",
-      "float_days": 0,
+      "scheduled_start": "2027-03-24",
+      "scheduled_end": "2027-03-24",
+      "earliest_start": "2027-03-24",
+      "latest_start": "2027-03-30",
+      "float_days": 4,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -1147,58 +1096,88 @@
           "successor_id": "fireplace_finish_work",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-23",
-          "successor_earliest_finish": "2027-03-25"
-        },
-        {
-          "successor_id": "rough_inspections.end",
-          "type": "FS",
-          "lag_days": 0,
-          "successor_earliest_start": "2027-03-23",
-          "successor_earliest_finish": "2027-03-23"
+          "successor_earliest_start": "2027-03-25",
+          "successor_earliest_finish": "2027-03-29"
         }
       ]
     },
     {
-      "id": "rough_inspections.end",
-      "section_id": "rough_inspections",
-      "name": "Rough Inspections — complete",
-      "trade": "general",
-      "kind": "milestone",
-      "duration_days": 0,
-      "crew_size": 0,
+      "id": "enclosure_finishes",
+      "section_id": "interior_finishes",
+      "name": "Enclosure finishes (screening, panel infill, interior cladding)",
+      "trade": "trim_carpentry",
+      "kind": "work",
+      "duration_days": 2,
+      "crew_size": 2,
       "depends_on": [
         {
-          "predecessor_id": "bundled_rough_inspections",
-          "type": "FS"
-        },
-        {
-          "predecessor_id": "fireplace_chimney_inspection",
+          "predecessor_id": "siding",
           "type": "FS"
         }
       ],
       "derived_from": {
-        "section_id": "rough_inspections",
+        "section_id": "interior_finishes",
         "rule_ids": [],
         "reasoning": ""
       },
-      "phase_id": "rough_inspections",
-      "scheduled_start": "2027-03-23",
-      "scheduled_end": "2027-03-23",
-      "earliest_start": "2027-03-23",
-      "latest_start": "2027-03-23",
+      "phase_id": "interior_finishes",
+      "component_id": "interior_installs",
+      "scheduled_start": "2027-03-25",
+      "scheduled_end": "2027-03-26",
+      "earliest_start": "2027-03-25",
+      "latest_start": "2027-03-25",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
       "binding_predecessors": [
         {
-          "predecessor_id": "bundled_rough_inspections",
+          "predecessor_id": "siding",
           "type": "FS",
           "lag_days": 0
-        },
+        }
+      ],
+      "binding_successors_of_this": [
         {
-          "predecessor_id": "fireplace_chimney_inspection",
+          "successor_id": "interior_installs.end",
+          "type": "FS",
+          "lag_days": 0,
+          "successor_earliest_start": "2027-03-29",
+          "successor_earliest_finish": "2027-03-29"
+        }
+      ]
+    },
+    {
+      "id": "interior_installs.end",
+      "section_id": "interior_finishes",
+      "name": "Interior Installs — complete",
+      "trade": "general",
+      "kind": "milestone",
+      "duration_days": 0,
+      "crew_size": 0,
+      "depends_on": [
+        {
+          "predecessor_id": "enclosure_finishes",
+          "type": "FS"
+        }
+      ],
+      "derived_from": {
+        "section_id": "interior_finishes",
+        "rule_ids": [],
+        "reasoning": ""
+      },
+      "phase_id": "interior_finishes",
+      "scheduled_start": "2027-03-29",
+      "scheduled_end": "2027-03-29",
+      "earliest_start": "2027-03-29",
+      "latest_start": "2027-03-29",
+      "float_days": 0,
+      "status": "not_started",
+      "actual_start": null,
+      "actual_end": null,
+      "binding_predecessors": [
+        {
+          "predecessor_id": "enclosure_finishes",
           "type": "FS",
           "lag_days": 0
         }
@@ -1208,8 +1187,8 @@
           "successor_id": "closeout.start",
           "type": "FS",
           "lag_days": 2,
-          "successor_earliest_start": "2027-03-25",
-          "successor_earliest_finish": "2027-03-25"
+          "successor_earliest_start": "2027-03-31",
+          "successor_earliest_finish": "2027-03-31"
         }
       ]
     },
@@ -1223,7 +1202,7 @@
       "crew_size": 0,
       "depends_on": [
         {
-          "predecessor_id": "rough_inspections.end",
+          "predecessor_id": "interior_installs.end",
           "type": "FS",
           "lag_days": 2
         }
@@ -1234,17 +1213,17 @@
         "reasoning": ""
       },
       "phase_id": "closeout",
-      "scheduled_start": "2027-03-25",
-      "scheduled_end": "2027-03-25",
-      "earliest_start": "2027-03-25",
-      "latest_start": "2027-03-25",
+      "scheduled_start": "2027-03-31",
+      "scheduled_end": "2027-03-31",
+      "earliest_start": "2027-03-31",
+      "latest_start": "2027-03-31",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
       "binding_predecessors": [
         {
-          "predecessor_id": "rough_inspections.end",
+          "predecessor_id": "interior_installs.end",
           "type": "FS",
           "lag_days": 2
         }
@@ -1254,8 +1233,8 @@
           "successor_id": "customer_walkthrough",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-25",
-          "successor_earliest_finish": "2027-03-25"
+          "successor_earliest_start": "2027-03-31",
+          "successor_earliest_finish": "2027-03-31"
         }
       ]
     },
@@ -1280,10 +1259,10 @@
       },
       "phase_id": "closeout",
       "component_id": "walkthrough_final_inspection",
-      "scheduled_start": "2027-03-25",
-      "scheduled_end": "2027-03-25",
-      "earliest_start": "2027-03-25",
-      "latest_start": "2027-03-25",
+      "scheduled_start": "2027-03-31",
+      "scheduled_end": "2027-03-31",
+      "earliest_start": "2027-03-31",
+      "latest_start": "2027-03-31",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1300,8 +1279,8 @@
           "successor_id": "final_inspections",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-26",
-          "successor_earliest_finish": "2027-03-26"
+          "successor_earliest_start": "2027-04-01",
+          "successor_earliest_finish": "2027-04-01"
         }
       ]
     },
@@ -1326,10 +1305,10 @@
       },
       "phase_id": "closeout",
       "component_id": "walkthrough_final_inspection",
-      "scheduled_start": "2027-03-26",
-      "scheduled_end": "2027-03-26",
-      "earliest_start": "2027-03-26",
-      "latest_start": "2027-03-26",
+      "scheduled_start": "2027-04-01",
+      "scheduled_end": "2027-04-01",
+      "earliest_start": "2027-04-01",
+      "latest_start": "2027-04-01",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1346,8 +1325,8 @@
           "successor_id": "job_complete",
           "type": "FS",
           "lag_days": 1,
-          "successor_earliest_start": "2027-03-30",
-          "successor_earliest_finish": "2027-03-30"
+          "successor_earliest_start": "2027-04-05",
+          "successor_earliest_finish": "2027-04-05"
         }
       ]
     },
@@ -1366,7 +1345,7 @@
           "lag_days": 1
         },
         {
-          "predecessor_id": "rough_inspections.end",
+          "predecessor_id": "interior_installs.end",
           "type": "FS"
         },
         {
@@ -1385,10 +1364,10 @@
       },
       "phase_id": "closeout",
       "component_id": "walkthrough_final_inspection",
-      "scheduled_start": "2027-03-30",
-      "scheduled_end": "2027-03-30",
-      "earliest_start": "2027-03-30",
-      "latest_start": "2027-03-30",
+      "scheduled_start": "2027-04-05",
+      "scheduled_end": "2027-04-05",
+      "earliest_start": "2027-04-05",
+      "latest_start": "2027-04-05",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1404,23 +1383,22 @@
   ],
   "critical_path": [
     "permit_building",
-    "proc_fireplace_kit",
     "proc_foundation_package",
     "proc_windows_doors",
     "site_and_structure_demo",
     "site_prep",
-    "proc_framing_package",
     "excavation",
     "foundation_prep",
+    "proc_framing_package",
+    "foundation_inspection",
+    "foundation_pour",
     "site_foundation.end",
     "framing_shell.start",
     "framing",
     "exterior_windows_doors",
-    "fireplace_chase_install",
-    "roofing",
-    "bundled_rough_inspections",
-    "fireplace_chimney_inspection",
-    "rough_inspections.end",
+    "siding",
+    "enclosure_finishes",
+    "interior_installs.end",
     "closeout.start",
     "customer_walkthrough",
     "final_inspections",
@@ -1465,9 +1443,14 @@
       "order_index": 6
     },
     {
+      "id": "interior_finishes",
+      "name": "Interior Finishes",
+      "order_index": 7
+    },
+    {
       "id": "closeout",
       "name": "Closeout",
-      "order_index": 7
+      "order_index": 8
     }
   ],
   "components": [
@@ -1515,6 +1498,11 @@
       "id": "bundled_inspections",
       "phase_id": "rough_inspections",
       "name": "Bundled Inspections"
+    },
+    {
+      "id": "interior_installs",
+      "phase_id": "interior_finishes",
+      "name": "Interior Installs"
     },
     {
       "id": "walkthrough_final_inspection",
