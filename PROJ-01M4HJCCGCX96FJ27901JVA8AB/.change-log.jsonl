@@ -1,1 +1,2 @@
 {"ts":"2026-10-10T00:11:13.208Z","reason":"upserted project \"GWYNN\" (project_id=PROJ-01M4HJCCGCX96FJ27901JVA8AB)","actor":"user","entities":[{"kind":"project","id":"PROJ-01M4HJCCGCX96FJ27901JVA8AB","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-10-10T00:11:42.068Z","reason":"upserted project \"GWYNN\" (project_id=PROJ-01M4HJCCGCX96FJ27901JVA8AB)","actor":"user","entities":[{"kind":"project","id":"PROJ-01M4HJCCGCX96FJ27901JVA8AB","action":"update","change_kind":"project_data"}]}
