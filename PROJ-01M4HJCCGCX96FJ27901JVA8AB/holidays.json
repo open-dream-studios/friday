@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "enabled": true,
+      "rule": {
+        "kind": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "name": "MLK Day",
+      "enabled": false,
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 1,
+        "weekday": 1,
+        "n": 3
+      }
+    },
+    {
+      "name": "Presidents' Day",
+      "enabled": false,
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 2,
+        "weekday": 1,
+        "n": 3
+      }
+    },
+    {
+      "name": "Memorial Day",
+      "enabled": true,
+      "rule": {
+        "kind": "last_weekday",
+        "month": 5,
+        "weekday": 1
+      }
+    },
+    {
+      "name": "Juneteenth",
+      "enabled": false,
+      "rule": {
+        "kind": "fixed",
+        "month": 6,
+        "day": 19
+      }
+    },
+    {
+      "name": "Independence Day",
+      "enabled": true,
+      "rule": {
+        "kind": "fixed",
+        "month": 7,
+        "day": 4
+      }
+    },
+    {
+      "name": "Labor Day",
+      "enabled": true,
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 9,
+        "weekday": 1,
+        "n": 1
+      }
+    },
+    {
+      "name": "Columbus / Indigenous Peoples' Day",
+      "enabled": false,
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 10,
+        "weekday": 1,
+        "n": 2
+      }
+    },
+    {
+      "name": "Veterans Day",
+      "enabled": false,
+      "rule": {
+        "kind": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    {
+      "name": "Thanksgiving",
+      "enabled": true,
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 11,
+        "weekday": 4,
+        "n": 4
+      }
+    },
+    {
+      "name": "Day after Thanksgiving",
+      "enabled": true,
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 11,
+        "weekday": 5,
+        "n": 4
+      }
+    },
+    {
+      "name": "Christmas Eve",
+      "enabled": true,
+      "rule": {
+        "kind": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "name": "Christmas Day",
+      "enabled": true,
+      "rule": {
+        "kind": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "name": "Day after Christmas",
+      "enabled": true,
+      "rule": {
+        "kind": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "name": "New Year's Eve",
+      "enabled": false,
+      "rule": {
+        "kind": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ]
+}

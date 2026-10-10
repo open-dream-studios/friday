@@ -1,0 +1,14 @@
+{
+  "project_id": "PROJ-01M4HJCCGCX96FJ27901JVA8AB",
+  "project_idx": 203,
+  "name": "GWYNN",
+  "short_name": null,
+  "domain": null,
+  "backend_domain": null,
+  "brand": null,
+  "numbers": null,
+  "image_compression": "FAST",
+  "video_compression": "FAST",
+  "av1_enabled": false,
+  "private_aws": false
+}
