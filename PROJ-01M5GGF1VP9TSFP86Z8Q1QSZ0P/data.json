@@ -1,0 +1,14 @@
+{
+  "project_id": "PROJ-01M5GGF1VP9TSFP86Z8Q1QSZ0P",
+  "project_idx": 206,
+  "name": "Evonify",
+  "short_name": null,
+  "domain": null,
+  "backend_domain": null,
+  "brand": null,
+  "numbers": null,
+  "image_compression": "FAST",
+  "video_compression": "FAST",
+  "av1_enabled": false,
+  "private_aws": false
+}
