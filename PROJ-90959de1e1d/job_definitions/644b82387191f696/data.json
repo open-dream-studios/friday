@@ -5,6 +5,7 @@
   "description": "Customer tub service job",
   "parent_chain": [],
   "profile": {
+    "service_calls": true,
     "inspection_type": "service"
   }
 }
