@@ -3,5 +3,14 @@
   "identifier": "cleaning-job",
   "type": "Cleaning",
   "description": "Customer tub scheduled cleanings",
-  "parent_chain": []
+  "parent_chain": [],
+  "profile": {
+    "statuses": [
+      "waiting_work",
+      "waiting_parts",
+      "waiting_customer",
+      "routine",
+      "cancelled"
+    ]
+  }
 }

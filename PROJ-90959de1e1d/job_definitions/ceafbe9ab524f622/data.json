@@ -5,6 +5,15 @@
   "description": "Acquire and resell a hot tub",
   "parent_chain": [],
   "profile": {
+    "statuses": [
+      "waiting_work",
+      "waiting_parts",
+      "waiting_listing",
+      "listed",
+      "waiting_delivery",
+      "delivered",
+      "cancelled"
+    ],
     "inspection_type": "shop"
   }
 }

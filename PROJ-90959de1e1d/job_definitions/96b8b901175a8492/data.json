@@ -5,6 +5,15 @@
   "description": "Customer tub refurbishment",
   "parent_chain": [],
   "profile": {
+    "statuses": [
+      "waiting_diagnosis",
+      "waiting_work",
+      "waiting_parts",
+      "waiting_customer",
+      "waiting_delivery",
+      "delivered",
+      "cancelled"
+    ],
     "inspection_type": "shop"
   }
 }
