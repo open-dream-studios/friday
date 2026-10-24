@@ -1,7 +1,7 @@
 {
   "job_definition_id": "JOBDEF-01M5PHHQ27GXNQC2ENK0RENCPS",
-  "identifier": "deck-build",
-  "type": "Deck Build",
+  "identifier": "deck-work",
+  "type": "Deck Work",
   "description": "Custom deck work",
   "parent_chain": []
 }
