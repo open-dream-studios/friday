@@ -6,9 +6,9 @@
   "parent_chain": [],
   "profile": {
     "statuses": [
-      "waiting_work",
       "waiting_parts",
       "waiting_customer",
+      "waiting_work",
       "routine",
       "cancelled"
     ]
