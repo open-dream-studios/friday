@@ -12,6 +12,7 @@
       "routine",
       "cancelled"
     ],
-    "service_calls": true
+    "service_calls": true,
+    "service_call_label": "Cleaning Record"
   }
 }

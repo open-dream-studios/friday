@@ -14,6 +14,7 @@
       "cancelled"
     ],
     "service_calls": true,
-    "inspection_type": "service"
+    "inspection_type": "service",
+    "service_call_label": "Service Call"
   }
 }
