@@ -11,6 +11,7 @@
       "waiting_work",
       "routine",
       "cancelled"
-    ]
+    ],
+    "service_calls": true
   }
 }
