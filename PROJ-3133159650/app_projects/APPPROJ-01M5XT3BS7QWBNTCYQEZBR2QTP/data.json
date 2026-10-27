@@ -1,0 +1,20 @@
+{
+  "app_project_id": "APPPROJ-01M5XT3BS7QWBNTCYQEZBR2QTP",
+  "name": "Joseph's Test Deal #1",
+  "project_type": "other",
+  "address": {
+    "line1": "123 Testing Address",
+    "line2": null,
+    "city": "City",
+    "state": "TN",
+    "postal_code": "00000",
+    "country": null
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": null,
+  "lead_employee": null
+}
