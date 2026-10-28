@@ -1,0 +1,20 @@
+{
+  "app_project_id": "APPPROJ-01M60M10TVDWA8SRQCMCBXEQS0",
+  "name": "911 Lake Drive",
+  "project_type": "other",
+  "address": {
+    "line1": "911 Lake Drive",
+    "line2": null,
+    "city": "Johnson City",
+    "state": "Tennessee",
+    "postal_code": "37601",
+    "country": "US"
+  },
+  "valuation": null,
+  "latest_estimation_run_id": null,
+  "latest_estimation_total": null,
+  "latest_estimation_sent_at": null,
+  "notes": null,
+  "customer": null,
+  "lead_employee": null
+}
