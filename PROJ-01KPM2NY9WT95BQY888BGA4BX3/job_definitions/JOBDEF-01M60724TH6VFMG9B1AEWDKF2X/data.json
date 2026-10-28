@@ -1,0 +1,16 @@
+{
+  "job_definition_id": "JOBDEF-01M60724TH6VFMG9B1AEWDKF2X",
+  "identifier": "job-type-1",
+  "type": "Job Type 1",
+  "description": "Job Type 1",
+  "parent_chain": [],
+  "profile": {
+    "statuses": [
+      "waiting_work",
+      "waiting_customer",
+      "waiting_delivery",
+      "delivered",
+      "cancelled"
+    ]
+  }
+}
