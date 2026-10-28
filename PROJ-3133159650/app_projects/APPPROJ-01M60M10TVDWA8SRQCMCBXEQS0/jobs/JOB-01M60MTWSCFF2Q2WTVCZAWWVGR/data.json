@@ -1,0 +1,22 @@
+{
+  "job_id": "JOB-01M60MTWSCFF2Q2WTVCZAWWVGR",
+  "entity_type": "app_project",
+  "entity_id": "APPPROJ-01M60M10TVDWA8SRQCMCBXEQS0",
+  "valuation": null,
+  "status": "waiting_work",
+  "priority": "medium",
+  "scheduled_start_date": null,
+  "completed_date": null,
+  "notes": null,
+  "job_definition": null,
+  "customer": {
+    "id": 4309,
+    "customer_id": "CUST-01M60MTWR2JEWFVNAR1CVMK8K7",
+    "name": "monica blade",
+    "phone": "+14235440303",
+    "email": "bladefamily307@gmail.com",
+    "resolved": true
+  },
+  "scope_document": null,
+  "breakdown_document": null
+}
