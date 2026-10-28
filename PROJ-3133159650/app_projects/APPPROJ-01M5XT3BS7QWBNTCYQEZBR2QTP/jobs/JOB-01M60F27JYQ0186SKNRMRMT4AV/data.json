@@ -9,7 +9,14 @@
   "completed_date": null,
   "notes": null,
   "job_definition": null,
-  "customer": null,
+  "customer": {
+    "id": 4307,
+    "customer_id": "CUST-01M60K81ADVR1N1V4W495PG0GC",
+    "name": "test user (don't delete)",
+    "phone": "+16037276737",
+    "email": "joeygoff10@gmail.com",
+    "resolved": true
+  },
   "scope_document": null,
   "breakdown_document": null
 }

@@ -15,6 +15,13 @@
   "latest_estimation_total": null,
   "latest_estimation_sent_at": null,
   "notes": null,
-  "customer": null,
+  "customer": {
+    "id": 4307,
+    "customer_id": "CUST-01M60K81ADVR1N1V4W495PG0GC",
+    "name": "test user (don't delete)",
+    "phone": "+16037276737",
+    "email": "joeygoff10@gmail.com",
+    "resolved": true
+  },
   "lead_employee": null
 }

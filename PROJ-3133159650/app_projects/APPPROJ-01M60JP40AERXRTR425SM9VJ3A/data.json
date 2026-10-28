@@ -15,6 +15,13 @@
   "latest_estimation_total": null,
   "latest_estimation_sent_at": null,
   "notes": null,
-  "customer": null,
+  "customer": {
+    "id": 4306,
+    "customer_id": "CUST-01M60K80V7EBN72E1Q8F4QKPQA",
+    "name": "torrie dorschug",
+    "phone": "+18657197715",
+    "email": "bi14rd@gmail.com",
+    "resolved": true
+  },
   "lead_employee": null
 }

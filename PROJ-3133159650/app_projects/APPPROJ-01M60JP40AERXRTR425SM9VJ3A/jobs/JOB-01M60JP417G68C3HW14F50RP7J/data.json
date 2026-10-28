@@ -9,7 +9,14 @@
   "completed_date": null,
   "notes": null,
   "job_definition": null,
-  "customer": null,
+  "customer": {
+    "id": 4306,
+    "customer_id": "CUST-01M60K80V7EBN72E1Q8F4QKPQA",
+    "name": "torrie dorschug",
+    "phone": "+18657197715",
+    "email": "bi14rd@gmail.com",
+    "resolved": true
+  },
   "scope_document": null,
   "breakdown_document": null
 }
