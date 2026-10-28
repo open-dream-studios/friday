@@ -1,0 +1,15 @@
+{
+  "job_id": "JOB-01M60F27WG362Z7JSX4NNZX2JC",
+  "entity_type": "app_project",
+  "entity_id": "APPPROJ-01M5XV3GH7N106CHTRN6AN0S24",
+  "valuation": null,
+  "status": "waiting_work",
+  "priority": "medium",
+  "scheduled_start_date": null,
+  "completed_date": null,
+  "notes": null,
+  "job_definition": null,
+  "customer": null,
+  "scope_document": null,
+  "breakdown_document": null
+}
