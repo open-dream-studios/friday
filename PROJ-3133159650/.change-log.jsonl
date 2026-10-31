@@ -597,3 +597,4 @@
 {"ts":"2026-10-28T12:58:17.580Z","reason":"created folder \"Chat Uploads\" (scope: documents), uploaded document \"chat-attach-test.md\" (id=doc_01M619DSS2QHYQFAEBTCTE5W5M)","actor":"user","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-10-28T13:11:18.176Z","reason":"deleted folder \"Chat Uploads\" (id=FOLDER-01M619DRR62KQ97HQJ5GCD2X2P, scope: documents)","actor":"user","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-10-28T13:12:57.102Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-10-31T02:18:56.644Z","reason":"moved \"Interior trade concurrency\" in canon layout","actor":"user","entities":[]}
