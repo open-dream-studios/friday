@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
+  "hubspot_deal_id": "59631419413",
+  "scheduled_start_date": "2027-03-01 05:00:00",
+  "notes": null,
+  "job_definition": {
+    "id": 16,
+    "job_definition_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
+    "identifier": "addition-job",
+    "type": "Addition",
+    "resolved": true
+  },
+  "deal": {
+    "name": "333 Toy Crawford Rd - Sunroom",
+    "project_type": null,
+    "description": null,
+    "address": {
+      "line1": "333 Toy Crawford Rd",
+      "city": "Kingsport",
+      "state": "TN",
+      "zip": null
+    },
+    "contacts": [
+      {
+        "name": "Shane Lavinder",
+        "email": "slavinder@charter.net",
+        "phone": "423-863-9256"
+      }
+    ],
+    "owner": {
+      "name": null,
+      "email": null
+    }
+  },
+  "customer": {
+    "name": "Shane Lavinder",
+    "phone": "423-863-9256",
+    "email": "slavinder@charter.net",
+    "resolved": true
+  },
+  "scope_document": {
+    "id": "doc_01M240ZNZTD1BE6FPR76BAEWW5",
+    "name": "crawford.pdf",
+    "resolved": true
+  },
+  "breakdown_document": {
+    "id": "doc_01M240ZS7PNCC5EZHD8SB5AEJN",
+    "name": "333_Toy_Crawford_Sunroom.xlsx",
+    "resolved": true
+  }
+}

@@ -1,0 +1,42 @@
+# CANON - JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM Scope (Priority Level 3/4 - Highest)
+<!-- AUTO GENERATED from canon.json data via a script - READ ONLY -->
+
+Machine comprehension of this scope: ./UNDERSTANDING.md (unvetted; canon above wins on any conflict).
+
+## Answers
+
+- DEFAULT: Fireplace construction type: The fireplace is built as a framed wood chase housing a manufactured wood-burning firebox with Class A pipe, per the drawings on page 5, rather than a site-built masonry fireplace.
+- DEFAULT: Roof support post bearing method: Roof support posts bear on turned-down thickened footings cast integrally with the new patio slab at each post location, rather than on separate isolated piers or existing deck framing.
+- DEFAULT: Shed roof-to-house connection method: The shed roof structure attaches to the house via a beam supported on posts running along the house wall, with the shed's rafters tying into the existing house eave/roof framing, rather than using a ledger board mounted directly on the brick wall below the eave
+- POLICY: Building permit for roof tie-in and fireplace: The contractor pulls a Johnson City building permit for the roof tie-in and wood-burning fireplace, covering required framing and fireplace/chimney inspections.
+- REFERENCE: Is there a finished ceiling (beadboard or T&G) under the shed rafters, or do the
+    Label: Q | Value: Is there a finished ceiling (beadboard or T&G) under the shed rafters, or do the rafters stay exposed?
+    Label: A | Value: Exposed rafters, no ceiling finish
+    Notes: raw answer — typing call unavailable; re-type via UI
+- REFERENCE: Who sizes the rafters, ledger/beam, and posts — in-house per IRC tables or a str
+    Label: Q | Value: Who sizes the rafters, ledger/beam, and posts — in-house per IRC tables or a structural engineer?
+    Label: A | Value: In-house per IRC prescriptive tables, no engineer
+    Notes: raw answer — typing call unavailable; re-type via UI
+- DEFAULT: Fireplace and chimney placement: The fireplace is centered on the open long side wall per the plan (p.4), with the chimney rising outside the shed roof edge rather than penetrating through it.
+- POLICY: porch electrical scope: The porch has no electrical rough-in — no fan, lights, or GFCI receptacle are being added.
+- POLICY: Shed roof fascia/soffit/gutters exclusion: Fascia, soffit, and gutters on the new shed roof are excluded from the contracted scope of this job.
+- DEFAULT: HVAC condenser relative to patio footprint: The existing HVAC condenser sits outside the new patio footprint and does not need to be relocated; crews should protect it in place rather than performing any disconnect/move work.
+- DEFAULT: Rear-yard patio equipment access route: Concrete trucks and mini-excavators can reach the rear-yard patio directly via the side yard, with no pump truck or concrete buggy required.
+- DEFAULT: Selection finality: veneer, hearth, mantel, shingle, screen door: All customer selections are final for veneer, hearth, mantel, shingle match, and screen door — none remain outstanding.
+- REFERENCE: Is the beam carrying the rafters over the open screen side dimensional lumber or
+    Label: Q | Value: Is the beam carrying the rafters over the open screen side dimensional lumber or an LVL?
+    Label: A | Value: Built-up dimensional lumber (double 2x10/2x12)
+    Notes: raw answer — typing call unavailable; re-type via UI
+- DEFAULT: Screen porch open sides count: The screened porch is open and screened on two sides (approximately 36 linear feet total), with the house forming the enclosure on the other two sides.
+    Condition: If Applies instead of treating the breakdown's 60 LF figure as three open sides
+- DEFAULT: existing roof/wall vents under new shed roof tie-in: No existing vents (dryer, range hood, plumbing stack, bath fan) on the rear wall or roof fall within the new shed roof's tie-in area
+- DEFAULT: roof post count including footings: The final roof layout carries 7 to 9 posts total, counting both the house-side beam posts and the open-side posts, each with a turned-down footing.
+- POLICY: hose bibbs, condenser, meter, exterior lights on tie-in walls: Existing hose bibbs, the condenser disconnect, the meter, and exterior lights on the two tie-in walls do not need relocating before the slab pour — protect them in place.
+- DEFAULT: Fireplace veneer and hearth material sourcing: The fireplace's manufactured stone veneer and hearth are stock materials with roughly a 1-week lead time, not special-order items.
+- POLICY: Chimney chase termination height: The chimney chase terminates just above the shed roof's low eave, as drawn on page 5, and does not need to rise above the roof's high side to satisfy the 10-3-2 rule.
+- POLICY: Rafter tie-in at existing eave: When tying new rafters into the existing eave, remove only the gutter at the tie-in area; do not remove the fascia or cut back the eave framing, and tie the rafters into the existing eave framing as-is.
+- DEFAULT: Firebox and chimney kit lead time: The selected manufactured firebox and Class A chimney kit have a lead time of 3-4 weeks.
+- DEFAULT: Screen door sourcing: The screen door is a stock unit, available off the shelf or within 2-3 weeks lead time, rather than a custom or special-order door.
+- POLICY: Gutter tie-in end-cap and downspout handling: Where the existing gutter run meets the shed-roof tie-in, end-cap the existing gutter at the tie-in point and leave the existing downspout in its current location rather than relocating it.
+- POLICY: Footprint and knee wall dimensions source: When the proposal's stated footprint or knee wall height conflicts with the drawings, the drawings govern: footprint is 22ft-11in x 11ft-8in clear (~267 sqft) and knee wall height is approximately 3ft-4in (the 2ft figure in quantities is an input error), with lap siding on the exterior face and beadboard on the interior face.
+- POLICY: Itemized scope overrides deck labeling: When the proposal cover title and any line item reference 'Deck Building' or 'Build Deck as Above' but the itemized scope describes a room addition with a porch roof and no deck, treat the itemized scope as authoritative and disregard the deck wording as a clerical template mislabel.
