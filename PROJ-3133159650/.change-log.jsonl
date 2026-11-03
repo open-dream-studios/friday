@@ -603,3 +603,4 @@
 {"ts":"2026-11-03T01:07:44.139Z","reason":"e2e test: deal job setup","actor":"user","entities":[{"kind":"job","id":"JOB-01M6FF56J24Z2ZRNQ9MZY27ZRM","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-11-03T01:07:59.833Z","reason":"e2e test: deal job setup","actor":"user","entities":[{"kind":"job","id":"JOB-01M6FF56J24Z2ZRNQ9MZY27ZRM","action":"delete","change_kind":"job_data"}]}
 {"ts":"2026-11-03T01:14:45.939Z","reason":"boot","actor":"boot","entities":[]}
+{"ts":"2026-11-03T16:57:56.543Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M2410PQXYPJ3V5XPHZAWJGY6","action":"update","change_kind":"job_document"}]}
