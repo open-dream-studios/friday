@@ -183,7 +183,7 @@
       "name": "Framing Package",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 5,
+      "duration_days": 7,
       "crew_size": 0,
       "depends_on": [],
       "fulfillment": "delivery",
@@ -194,10 +194,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-09",
+      "scheduled_start": "2027-03-05",
       "scheduled_end": "2027-03-15",
-      "earliest_start": "2027-03-09",
-      "latest_start": "2027-03-09",
+      "earliest_start": "2027-03-05",
+      "latest_start": "2027-03-05",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -218,10 +218,10 @@
       "name": "Subpanel / service equipment",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 1,
+      "duration_days": 4,
       "crew_size": 0,
       "depends_on": [],
-      "fulfillment": "pickup",
+      "fulfillment": "delivery",
       "derived_from": {
         "section_id": "procurement",
         "rule_ids": [],
@@ -229,10 +229,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-24",
+      "scheduled_start": "2027-03-19",
       "scheduled_end": "2027-03-24",
-      "earliest_start": "2027-03-24",
-      "latest_start": "2027-03-24",
+      "earliest_start": "2027-03-19",
+      "latest_start": "2027-03-19",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -288,10 +288,10 @@
       "name": "Electrical Package",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 1,
+      "duration_days": 2,
       "crew_size": 0,
       "depends_on": [],
-      "fulfillment": "pickup",
+      "fulfillment": "delivery",
       "derived_from": {
         "section_id": "procurement",
         "rule_ids": [],
@@ -299,10 +299,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-03-24",
+      "scheduled_start": "2027-03-23",
       "scheduled_end": "2027-03-24",
-      "earliest_start": "2027-03-24",
-      "latest_start": "2027-03-24",
+      "earliest_start": "2027-03-23",
+      "latest_start": "2027-03-23",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -323,10 +323,10 @@
       "name": "Insulation",
       "trade": "general",
       "kind": "procurement",
-      "duration_days": 1,
+      "duration_days": 2,
       "crew_size": 0,
       "depends_on": [],
-      "fulfillment": "pickup",
+      "fulfillment": "delivery",
       "derived_from": {
         "section_id": "procurement",
         "rule_ids": [],
@@ -334,10 +334,10 @@
       },
       "phase_id": "procurement",
       "component_id": "procurement_items",
-      "scheduled_start": "2027-04-05",
+      "scheduled_start": "2027-04-02",
       "scheduled_end": "2027-04-05",
-      "earliest_start": "2027-04-05",
-      "latest_start": "2027-04-05",
+      "earliest_start": "2027-04-02",
+      "latest_start": "2027-04-02",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -418,7 +418,7 @@
           "type": "FS",
           "lag_days": 3,
           "successor_earliest_start": "2027-04-20",
-          "successor_earliest_finish": "2027-04-21"
+          "successor_earliest_finish": "2027-04-20"
         }
       ]
     },
@@ -537,7 +537,7 @@
           "type": "FS",
           "lag_days": 0,
           "successor_earliest_start": "2027-03-04",
-          "successor_earliest_finish": "2027-03-04"
+          "successor_earliest_finish": "2027-03-05"
         }
       ]
     },
@@ -547,7 +547,7 @@
       "name": "Site prep (protection, staging, access)",
       "trade": "general",
       "kind": "work",
-      "duration_days": 1,
+      "duration_days": 2,
       "crew_size": 2,
       "depends_on": [
         {
@@ -563,7 +563,7 @@
       "phase_id": "site_foundation",
       "component_id": "groundwork",
       "scheduled_start": "2027-03-04",
-      "scheduled_end": "2027-03-04",
+      "scheduled_end": "2027-03-05",
       "earliest_start": "2027-03-04",
       "latest_start": "2027-03-04",
       "float_days": 0,
@@ -582,7 +582,7 @@
           "successor_id": "excavation",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-03-05",
+          "successor_earliest_start": "2027-03-08",
           "successor_earliest_finish": "2027-03-08"
         }
       ]
@@ -593,7 +593,7 @@
       "name": "Excavation (footings, slab, access)",
       "trade": "excavation",
       "kind": "work",
-      "duration_days": 2,
+      "duration_days": 1,
       "crew_size": 2,
       "depends_on": [
         {
@@ -608,10 +608,10 @@
       },
       "phase_id": "site_foundation",
       "component_id": "groundwork",
-      "scheduled_start": "2027-03-05",
+      "scheduled_start": "2027-03-08",
       "scheduled_end": "2027-03-08",
-      "earliest_start": "2027-03-05",
-      "latest_start": "2027-03-05",
+      "earliest_start": "2027-03-08",
+      "latest_start": "2027-03-08",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1024,7 +1024,7 @@
           "type": "FS",
           "lag_days": 0,
           "successor_earliest_start": "2027-03-30",
-          "successor_earliest_finish": "2027-03-31"
+          "successor_earliest_finish": "2027-04-01"
         },
         {
           "successor_id": "roofing",
@@ -1140,7 +1140,7 @@
       "name": "Fascia, soffit & gutters",
       "trade": "siding",
       "kind": "work",
-      "duration_days": 2,
+      "duration_days": 3,
       "crew_size": 2,
       "depends_on": [
         {
@@ -1156,10 +1156,10 @@
       "phase_id": "exterior_finishes",
       "component_id": "cladding_roof",
       "scheduled_start": "2027-03-30",
-      "scheduled_end": "2027-03-31",
+      "scheduled_end": "2027-04-01",
       "earliest_start": "2027-03-30",
-      "latest_start": "2027-04-26",
-      "float_days": 19,
+      "latest_start": "2027-04-23",
+      "float_days": 18,
       "status": "not_started",
       "actual_start": null,
       "actual_end": null,
@@ -1733,7 +1733,7 @@
           "type": "FS",
           "lag_days": 0,
           "successor_earliest_start": "2027-04-20",
-          "successor_earliest_finish": "2027-04-21"
+          "successor_earliest_finish": "2027-04-20"
         }
       ]
     },
@@ -1743,7 +1743,7 @@
       "name": "Final Trades (fixture install for HVAC, Plumbing, and Electrical)",
       "trade": "mep_finish",
       "kind": "work",
-      "duration_days": 2,
+      "duration_days": 1,
       "crew_size": 2,
       "depends_on": [
         {
@@ -1764,7 +1764,7 @@
       "phase_id": "interior_finishes",
       "component_id": "final_trades_paint_2",
       "scheduled_start": "2027-04-20",
-      "scheduled_end": "2027-04-21",
+      "scheduled_end": "2027-04-20",
       "earliest_start": "2027-04-20",
       "latest_start": "2027-04-20",
       "float_days": 0,
@@ -1788,8 +1788,8 @@
           "successor_id": "closeout.start",
           "type": "FS",
           "lag_days": 2,
-          "successor_earliest_start": "2027-04-26",
-          "successor_earliest_finish": "2027-04-26"
+          "successor_earliest_start": "2027-04-23",
+          "successor_earliest_finish": "2027-04-23"
         }
       ]
     },
@@ -1814,10 +1814,10 @@
         "reasoning": ""
       },
       "phase_id": "closeout",
-      "scheduled_start": "2027-04-26",
-      "scheduled_end": "2027-04-26",
-      "earliest_start": "2027-04-26",
-      "latest_start": "2027-04-26",
+      "scheduled_start": "2027-04-23",
+      "scheduled_end": "2027-04-23",
+      "earliest_start": "2027-04-23",
+      "latest_start": "2027-04-23",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1834,8 +1834,8 @@
           "successor_id": "customer_walkthrough",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-04-26",
-          "successor_earliest_finish": "2027-04-26"
+          "successor_earliest_start": "2027-04-23",
+          "successor_earliest_finish": "2027-04-23"
         }
       ]
     },
@@ -1860,10 +1860,10 @@
       },
       "phase_id": "closeout",
       "component_id": "walkthrough_final_inspection",
-      "scheduled_start": "2027-04-26",
-      "scheduled_end": "2027-04-26",
-      "earliest_start": "2027-04-26",
-      "latest_start": "2027-04-26",
+      "scheduled_start": "2027-04-23",
+      "scheduled_end": "2027-04-23",
+      "earliest_start": "2027-04-23",
+      "latest_start": "2027-04-23",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1880,8 +1880,8 @@
           "successor_id": "final_inspections",
           "type": "FS",
           "lag_days": 0,
-          "successor_earliest_start": "2027-04-27",
-          "successor_earliest_finish": "2027-04-27"
+          "successor_earliest_start": "2027-04-26",
+          "successor_earliest_finish": "2027-04-26"
         }
       ]
     },
@@ -1906,10 +1906,10 @@
       },
       "phase_id": "closeout",
       "component_id": "walkthrough_final_inspection",
-      "scheduled_start": "2027-04-27",
-      "scheduled_end": "2027-04-27",
-      "earliest_start": "2027-04-27",
-      "latest_start": "2027-04-27",
+      "scheduled_start": "2027-04-26",
+      "scheduled_end": "2027-04-26",
+      "earliest_start": "2027-04-26",
+      "latest_start": "2027-04-26",
       "float_days": 0,
       "status": "not_started",
       "actual_start": null,
@@ -1925,7 +1925,7 @@
         {
           "successor_id": "job_complete",
           "type": "FS",
-          "lag_days": 0,
+          "lag_days": 1,
           "successor_earliest_start": "2027-04-28",
           "successor_earliest_finish": "2027-04-28"
         }
@@ -1942,7 +1942,8 @@
       "depends_on": [
         {
           "predecessor_id": "final_inspections",
-          "type": "FS"
+          "type": "FS",
+          "lag_days": 1
         },
         {
           "predecessor_id": "mep_fixture_install",
@@ -1976,7 +1977,7 @@
         {
           "predecessor_id": "final_inspections",
           "type": "FS",
-          "lag_days": 0
+          "lag_days": 1
         }
       ]
     }
@@ -1986,18 +1987,18 @@
     "site_and_structure_demo",
     "proc_foundation_package",
     "site_prep",
+    "proc_framing_package",
     "excavation",
     "proc_windows_doors",
-    "proc_framing_package",
     "foundation_prep",
     "foundation_inspection",
     "foundation_pour",
     "site_foundation.end",
     "permit_mechanical",
     "proc_hvac_equipment",
+    "proc_subpanel",
     "framing_shell.start",
     "framing",
-    "proc_subpanel",
     "proc_electrical_package",
     "exterior_windows_doors",
     "roofing",
@@ -2005,8 +2006,8 @@
     "rough_electrical",
     "rough_trades.end",
     "bundled_rough_inspections",
-    "rough_inspections.end",
     "proc_insulation",
+    "rough_inspections.end",
     "proc_drywall",
     "proc_light_fixtures",
     "insulation_drywall.start",

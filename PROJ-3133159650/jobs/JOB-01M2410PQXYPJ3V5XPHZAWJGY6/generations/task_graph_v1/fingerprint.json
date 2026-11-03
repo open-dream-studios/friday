@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generation_id": "01M2VABKQKARAFT94VJ5MRYZ5J",
-  "generated_at": "2026-09-18T22:35:04.015Z",
+  "generation_id": "01M6FG2PMJ5DSSE67Q36BW0M03",
+  "generated_at": "2026-11-03T01:25:49.314Z",
   "structure": {
     "composition_id": "comp_ef0e879da0b311f1b926a2aa90",
     "version": 15,
@@ -39,17 +39,12 @@
       {
         "scope_kind": "project",
         "scope_id": "PROJ-3133159650",
-        "revision": 41
+        "revision": 42
       },
       {
         "scope_kind": "job_definition",
         "scope_id": "jd_01KSX9HKEC9G61P8N2XRVKBZ4K",
         "revision": 43
-      },
-      {
-        "scope_kind": "app_project",
-        "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
-        "revision": 4
       },
       {
         "scope_kind": "job",
@@ -69,19 +64,15 @@
         "sha256": "0fafb84c550cf15b5f90ad74e9fe70400f94c22c12562e456b5c0822b6a93885"
       },
       {
-        "scope_kind": "app_project",
-        "scope_id": "APPPROJ-01M240ZB4SZ3YXG7VERCGM5W21",
-        "sha256": "40a189b3ec978bc62d7c5cf1ed461d4222c16c6666615db636a707d79628d330"
-      },
-      {
         "scope_kind": "job",
         "scope_id": "JOB-01M2410PQXYPJ3V5XPHZAWJGY6",
-        "sha256": "9abb00a93f35b2597fed7d06d666899f681a1cd05e8dee5510912d3c9b7049f4"
+        "sha256": "f968d55d7b6477950782b40e1c6540c56b06220827d1fbea4d391f323620e3d0"
       }
     ],
     "questions": {
-      "count": 21,
+      "count": 28,
       "answered_ids": [
+        "q_01M2424BAEQK05GESDYBV20S27",
         "q_01M2GWZF89D9XWBX5WP9MBYZ9B",
         "q_01M2GWZF8AEVYTN9BV5P5BF9CR",
         "q_01M2GWZF8AV1VXD25QCTAP2X6B",
@@ -97,18 +88,13 @@
         "q_01M2GWZF8DAFHZBF86AGTF4WG2",
         "q_01M2GWZF8DGKG1VWJ5Q9HYMVV0",
         "q_01M2GWZF8EBJEDVPS6Y0CSN0SZ",
-        "q_01M2GWZF8ERSVY9ZCNS7EED380",
-        "q_01M2H0NBBFX87C7MP2AJBC7BM9",
-        "q_01M2H0NBBGWA8SS1JMTZ50D31N",
-        "q_01M2H0NBBH1P6EANBE9WYYR4KH",
-        "q_01M2H0NBBHFFAJQ92QY17FZNAV",
-        "q_01M2H0NBBJ9ZGAKC6GRQC6WWTP"
+        "q_01M2GWZF8ERSVY9ZCNS7EED380"
       ],
-      "sha256": "f1d8ec7ca2e2ae4482d7c017d0ee7c5e7c779d95cb05bfd97c18bd2780d056d3"
+      "sha256": "a19d2a645250f05f80e293e55a44b6d5580eed1746fbf93b8d3535650333f470"
     },
     "changelog": {
-      "lines": 588,
-      "tail_sha256": "1d9344890f71d2d65da456d6dddaa6533898a0bcb7d6467f2fd91dd6e7a33639"
+      "lines": 605,
+      "tail_sha256": "63a3bfdc22ac857ba00cdf310887d4be533a3083d7a4c85755a977a2b5c88df5"
     }
   },
   "blocking_open_at_generation": 0
