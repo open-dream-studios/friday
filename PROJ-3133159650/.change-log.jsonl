@@ -599,3 +599,4 @@
 {"ts":"2026-10-28T13:12:57.102Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-10-31T02:18:56.644Z","reason":"moved \"Interior trade concurrency\" in canon layout","actor":"user","entities":[]}
 {"ts":"2026-11-02T23:55:26.522Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"delete","change_kind":"project_data"}]}
+{"ts":"2026-11-03T00:26:53.550Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M23Q5EHB3CK7RJ3W1FPCDAYM","action":"update","change_kind":"job_document"}]}
