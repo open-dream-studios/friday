@@ -605,3 +605,4 @@
 {"ts":"2026-11-03T01:14:45.939Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-11-03T16:57:56.543Z","reason":"boot","actor":"boot","entities":[{"kind":"job","id":"JOB-01M2410PQXYPJ3V5XPHZAWJGY6","action":"update","change_kind":"job_document"}]}
 {"ts":"2026-11-12T12:18:18.270Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-11-12T23:15:31.166Z","reason":"upserted project \"Tri Cities\" (project_id=PROJ-3133159650)","actor":"user","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_data"}]}
