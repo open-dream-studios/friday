@@ -7,8 +7,7 @@
   "backend_domain": "https://dev-cms-production.up.railway.app",
   "brand": "Open Dream",
   "numbers": null,
-  "image_compression": "FAST",
-  "video_compression": "FAST",
-  "av1_enabled": false,
+  "compression_effort": "BEST",
+  "website_delivery": true,
   "private_aws": false
 }
