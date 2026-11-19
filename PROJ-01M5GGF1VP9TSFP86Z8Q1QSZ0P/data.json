@@ -8,6 +8,6 @@
   "brand": "Evonify",
   "numbers": null,
   "compression_effort": "FAST",
-  "website_delivery": false,
+  "delivery_mode": "off",
   "private_aws": true
 }
