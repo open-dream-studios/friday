@@ -8,6 +8,6 @@
   "brand": "Savoie House",
   "numbers": null,
   "compression_effort": "BEST",
-  "website_delivery": true,
+  "delivery_mode": "stream",
   "private_aws": true
 }
