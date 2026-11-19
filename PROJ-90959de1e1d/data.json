@@ -10,6 +10,6 @@
     9843588401
   ],
   "compression_effort": "FAST",
-  "website_delivery": false,
+  "delivery_mode": "off",
   "private_aws": true
 }
