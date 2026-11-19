@@ -8,6 +8,6 @@
   "brand": "Open Dream Studios",
   "numbers": null,
   "compression_effort": "FAST",
-  "website_delivery": false,
+  "delivery_mode": "off",
   "private_aws": false
 }
