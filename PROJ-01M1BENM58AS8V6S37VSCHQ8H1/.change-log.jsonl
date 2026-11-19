@@ -7,3 +7,4 @@
 {"ts":"2026-09-04T17:07:31.258Z","reason":"boot","actor":"boot","entities":[]}
 {"ts":"2026-09-04T23:10:50.500Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1BENM58AS8V6S37VSCHQ8H1","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-11-19T04:50:24.911Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1BENM58AS8V6S37VSCHQ8H1","action":"update","change_kind":"project_data"}]}
+{"ts":"2026-11-19T05:15:53.336Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01M1BENM58AS8V6S37VSCHQ8H1","action":"update","change_kind":"project_data"}]}
