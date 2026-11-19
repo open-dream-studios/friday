@@ -8,6 +8,6 @@
   "brand": "Bronson Hill West",
   "numbers": null,
   "compression_effort": "BEST",
-  "website_delivery": true,
+  "delivery_mode": "files",
   "private_aws": false
 }
