@@ -25,3 +25,4 @@
 {"ts":"2026-11-18T05:35:12.305Z","reason":"created document \"Untitled\" via editor (id=doc_01M7PJDMMVDW3P0RT7NP9VTQJP)","actor":"user","entities":[{"kind":"project","id":"PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-11-18T05:36:35.459Z","reason":"edited document \"Untitled.pdf\" via editor (id=doc_01M7PJDMMVDW3P0RT7NP9VTQJP)","actor":"user","entities":[{"kind":"project","id":"PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-11-18T05:39:41.321Z","reason":"edited document \"Untitled.pdf\" via editor (id=doc_01M7PJDMMVDW3P0RT7NP9VTQJP)","actor":"user","entities":[{"kind":"project","id":"PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-11-19T04:50:24.519Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-01KEZSFF4BGT67PQ7YJAR6DAM7","action":"update","change_kind":"project_data"}]}
