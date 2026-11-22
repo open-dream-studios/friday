@@ -612,3 +612,4 @@
 {"ts":"2026-11-19T05:15:54.058Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_data"}]}
 {"ts":"2026-11-19T22:46:32.443Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
 {"ts":"2026-11-20T13:46:00.385Z","reason":"created folder \"v8\" (scope: documents), created folder \"references\" (scope: documents)","actor":"user","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
+{"ts":"2026-11-22T21:13:56.044Z","reason":"boot","actor":"boot","entities":[{"kind":"project","id":"PROJ-3133159650","action":"update","change_kind":"project_document"}]}
